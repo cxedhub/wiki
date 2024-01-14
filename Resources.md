@@ -2,7 +2,7 @@
 title: Content Resource Overview
 description: 
 published: true
-date: 2023-12-07T17:55:57.713Z
+date: 2023-12-20T18:39:59.529Z
 tags: information, resources
 editor: markdown
 dateCreated: 2023-12-07T17:14:09.717Z
