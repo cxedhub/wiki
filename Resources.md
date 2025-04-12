@@ -2,13 +2,18 @@
 title: Content Resource Overview
 description: 
 published: true
-date: 2023-12-20T18:39:59.529Z
+date: 2025-04-12T15:43:08.140Z
 tags: information, resources
 editor: markdown
-dateCreated: 2023-12-07T17:14:09.717Z
+dateCreated: 2025-01-06T21:19:30.192Z
 ---
 
 # Resources: Overview
+
+## Join our Community of Educators on Discord
+
+You should have received a link to connect at one of our PDs.
+If you didn't - reach out to us and we'll get you connected.
 
 ## Computer Science Materials
 
@@ -31,6 +36,7 @@ dateCreated: 2023-12-07T17:14:09.717Z
         + [5-8](https://www.youtube.com/watch?v=RSR7csk1hYo&list=PLld22jyV1BHe6t-NmHPpbIbN5EyFNg5jZ) [n=8]
         + [HS Level 1](https://www.youtube.com/watch?v=Jq8nfPYftrw&list=PLld22jyV1BHd6DUit1RQgWp_Oxk3G0fcA) [n=9]
         + [HS Level 2](https://www.youtube.com/watch?v=7KauD6zglok&list=PLld22jyV1BHeYMmq9ee6qWaq3P9P7Bxwm) [n=7]
+
 
 
 ### Elementary/Middle School Audiences
