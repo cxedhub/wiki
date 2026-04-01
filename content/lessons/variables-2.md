@@ -21,9 +21,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
+tags: []
 materials: Website, Micro:bit, https://makecode.microbit.org/courses/csintro-educator
 ---
 # OVERVIEW

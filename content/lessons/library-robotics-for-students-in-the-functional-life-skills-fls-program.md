@@ -11,9 +11,9 @@ draft: false
 author: Devin Hodgins
 subjects:
 - Computer Science
+- Engineering
 - Reading/Language Arts
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -26,11 +26,7 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Engineering
+tags: []
 materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Botzees
   + App / Code-a-pillar
 ---

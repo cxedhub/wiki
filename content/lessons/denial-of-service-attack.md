@@ -1,13 +1,14 @@
 ---
 title: Denial of Service Attack
-description: 'Students will model one type of attack (a denial-of-service attack) and figure out how to protect the network against it (no computer programming required)'
+description: Students will model one type of attack (a denial-of-service attack) and
+  figure out how to protect the network against it (no computer programming required)
 date: '2023-09-12T21:38:23'
 draft: false
 author: Jumoke Adebimpe
 subjects:
+- Cybersecurity
 - Science
 - Technology
-- Cybersecurity
 grade_levels:
 - 9-12
 cs_domains:
@@ -15,14 +16,10 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- science
-- technology
-- cybersecurity
-standards: 'MS-ETS1-3  MS-ETS1-4'
-materials: 'None, https://www.sciencebuddies.org/teacher-resources/lesson-plans/cybersecurity-denial-of-service'
+- GenCyber
+- Lesson Plan
+standards: MS-ETS1-3  MS-ETS1-4
+materials: None, https://www.sciencebuddies.org/teacher-resources/lesson-plans/cybersecurity-denial-of-service
 ---
 ## OVERVIEW
 

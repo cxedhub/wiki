@@ -8,9 +8,9 @@ draft: false
 author: Morgan Krysl
 subjects:
 - Computer Science
+- Engineering
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Technology
-- Engineering
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

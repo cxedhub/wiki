@@ -11,8 +11,8 @@ draft: false
 author: Chad Lemley
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 - Technology
 grade_levels:
 - 3-5
@@ -22,11 +22,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Social Studies
-- Reading/Language Arts
-- Technology
+tags: []
 standards: RI.5.6;  SS 5.3.4;  SS5.4.2;  SS5.4.3
 materials: Website, https://www.industrialcybersecuritypulse.com/throwback-attack-an-insider-releases-265000-gallons-of-sewage-on-the-maroochy-shire/  https://www.theregister.com/2001/10/31/hacker_jailed_for_revenge_sewage/  https://www.youtube.com/watch?v=C_PRhTXp6VQ
 ---

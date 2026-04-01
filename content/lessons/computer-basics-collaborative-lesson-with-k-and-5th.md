@@ -25,10 +25,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
+tags: []
 standards: SL.K.1, SL.K.2, SL.K.3, SL.K.6
 materials: Website, Personal Computers, Login Badge, computer cleaning supplies
 ---

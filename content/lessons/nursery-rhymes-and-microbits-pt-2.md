@@ -8,17 +8,13 @@ author: Maggie Unterseher
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Pre-literacy phonemic awareness
 grade_levels:
 - 9-12
 cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Pre-literacy phonemic awareness
+tags: []
 standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
 materials: Micro:bit
 ---

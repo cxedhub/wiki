@@ -10,22 +10,17 @@ draft: false
 author: Samantha Schwessinger
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 9-12
 cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Technology
-- Engineering
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

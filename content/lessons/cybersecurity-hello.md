@@ -1,6 +1,7 @@
 ---
-title: 'Cybersecurity - Hello!'
-description: The lesson is an overview of the 6 pillars of cybersecurity using the hand model as a mnemonic device.
+title: Cybersecurity - Hello!
+description: The lesson is an overview of the 6 pillars of cybersecurity using the
+  hand model as a mnemonic device.
 date: '2023-07-13T16:09:22'
 draft: false
 author: Tina Simpson
@@ -14,12 +15,10 @@ cs_domains:
 cs_principles:
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-standards: 'MS NI.2.2, NI.2.3, IC.2.4'
-materials: 'Website, https://mpb.pbslearningmedia.org/resource/nvcy-sci-cyber101/cybersecurity-101/'
+- GenCyber
+- Lesson Plan
+standards: MS NI.2.2, NI.2.3, IC.2.4
+materials: Website, https://mpb.pbslearningmedia.org/resource/nvcy-sci-cyber101/cybersecurity-101/
 ---
 ## OVERVIEW
 

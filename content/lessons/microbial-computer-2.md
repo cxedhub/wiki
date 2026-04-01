@@ -7,10 +7,10 @@ date: '2023-03-31 00:00:00+00:00'
 draft: false
 author: Garrid Halsey
 subjects:
+- Art
 - Computer Science
 - Science
 - Technology
-- Art
 grade_levels:
 - 6-8
 cs_domains:
@@ -20,11 +20,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Science
-- Technology
-- Art
+tags: []
 standards: MS-LS1-2, MS-LS1-5
 materials: Website, Micro:bit, Arduino, https://playgameoflife.com/
 ---

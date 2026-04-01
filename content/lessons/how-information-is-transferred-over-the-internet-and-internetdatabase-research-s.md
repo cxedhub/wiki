@@ -10,7 +10,7 @@ draft: false
 author: Ron Chesmore
 subjects:
 - Computer Science
-- Library Media (Information Resources)
+- Library Media
 grade_levels:
 - 6-8
 cs_domains:
@@ -18,9 +18,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Library Media (Information Resources)
+tags: []
 standards: 'ISTE 3A: Students plan and employ effective research strategies to locate
   information and other resources for their intellectual or creative pursuits'
 materials: Website, YouTube educational videos, Kahoot quiz website

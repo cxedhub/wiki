@@ -7,7 +7,6 @@ draft: false
 author: Kristy Barr
 subjects:
 - Computer Science
-- Logic
 grade_levels:
 - 6-8
 cs_domains:
@@ -16,9 +15,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Logic
+tags: []
 standards: 8.AP.A.01
 materials: None
 ---

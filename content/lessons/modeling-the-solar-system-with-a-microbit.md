@@ -20,10 +20,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
+tags: []
 standards: MS-ESS1-3, 6.RP.A.3, 6.RP.A.1
 materials: Micro:bit
 ---

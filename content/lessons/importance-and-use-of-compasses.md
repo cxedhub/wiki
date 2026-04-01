@@ -17,9 +17,7 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
-- Social Studies
+tags: []
 standards: 8.CS.HS.01 and SS8.4.2
 materials: Micro:bit
 ---

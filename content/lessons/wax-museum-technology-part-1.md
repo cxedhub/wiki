@@ -9,15 +9,15 @@ date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
 subjects:
+- Art
 - Computer Science
+- Engineering
 - Mathematics
+- Music
+- Reading/Language Arts
 - Science
 - Social Studies
-- Reading/Language Arts
 - Technology
-- Engineering
-- Music
-- Art
 grade_levels:
 - 3-5
 cs_domains:
@@ -25,16 +25,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Social Studies
-- Reading/Language Arts
-- Technology
-- Engineering
-- Music
-- Art
+tags: []
 standards: CCSS.ELA-LITERACY.RI.3.7, CCSS.ELA-LITERACY.W.3.6, CCSS.ELA-LITERACY.W.3.7,
   CCSS.ELA-LITERACY.W.3.2.B
 materials: Website, Books, ReadWorks Articles

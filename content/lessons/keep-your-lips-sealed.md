@@ -1,13 +1,14 @@
 ---
 title: Keep Your Lips Sealed
-description: There are multiple ways to gain information. Many people will openly provide information with minimal thought to how the information can be used maliciously.
+description: There are multiple ways to gain information. Many people will openly
+  provide information with minimal thought to how the information can be used maliciously.
 date: '2023-09-13T11:46:07'
 draft: false
 author: Holley Nichols
 subjects:
 - Computer Science
-- Technology
 - Engineering
+- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -17,13 +18,14 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- technology
-- engineering
-standards: 'MS: Unit 1: 3. Recognize the benefits of being a wise consumer. MS: Unit 1: 4. Analyze the influence of culture, media, technology, and other factors of health. MS: Unit 9: 1. Discuss promotion of safety. MS: 21st Century Skills: T2. Digital Citizenship: Students recognize the rights, responsibilities and opportunities of living, learning and working in an interconnected digital world, and they act and model in ways that are safe, legal, and ethical.'
+- GenCyber
+- Lesson Plan
+standards: 'MS: Unit 1: 3. Recognize the benefits of being a wise consumer. MS: Unit
+  1: 4. Analyze the influence of culture, media, technology, and other factors of
+  health. MS: Unit 9: 1. Discuss promotion of safety. MS: 21st Century Skills: T2.
+  Digital Citizenship: Students recognize the rights, responsibilities and opportunities
+  of living, learning and working in an interconnected digital world, and they act
+  and model in ways that are safe, legal, and ethical.'
 materials: Website
 ---
 ## OVERVIEW

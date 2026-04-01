@@ -19,9 +19,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Science
+tags: []
 standards: Utah 8th Grade Science Standards 8.3.1 Plan and conduct an investigation
   and use evidence to construct and explanation of how photosynthetic organisms use
   energy to transform matter

@@ -1,12 +1,13 @@
 ---
 title: Talk to the Hand
-description: This is practicing lesson plan for Thinking like an Adversary and the Availability.
+description: This is practicing lesson plan for Thinking like an Adversary and the
+  Availability.
 date: '2023-07-14T14:04:58'
 draft: false
 author: Everett Fleming
 subjects:
-- Mathematics
 - Cybersecurity
+- Mathematics
 grade_levels:
 - 9-12
 cs_domains:
@@ -16,11 +17,8 @@ cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- mathematics
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: N/A
 materials: Website
 ---

@@ -18,8 +18,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
+tags: []
 materials: Micro:bit, Magnets, headphones, alligator clips
 ---
 # OVERVIEW

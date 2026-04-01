@@ -10,10 +10,10 @@ draft: false
 author: Alicia Vonberg
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -24,12 +24,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Technology
-- Engineering
+tags: []
 materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other personal
   device, access to the internet
 ---

@@ -16,9 +16,7 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website, Micro:bit, www.Makercode.microbit.org
 ---
 # OVERVIEW

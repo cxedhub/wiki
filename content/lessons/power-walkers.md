@@ -1,7 +1,7 @@
 ---
 title: Power walkers
-description: 'Students will program a mirco: bit to count steps while walking and then
-  while power walking. They will compare the two readings.'
+description: 'Students will program a mirco: bit to count steps while walking and
+  then while power walking. They will compare the two readings.'
 date: '2023-03-13 00:00:00+00:00'
 draft: false
 author: Casey Harmon
@@ -16,9 +16,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Creating Computational Artifacts
-tags:
-- computer science
-- Science
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

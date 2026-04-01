@@ -16,9 +16,7 @@ grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
-tags:
-- computer science
-- Science
+tags: []
 standards: 3-ESS2-1, MP.4, MP.3
 materials: printer, computer for student use, projector for teacher use with a computer
   connected

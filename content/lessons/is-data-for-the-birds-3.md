@@ -13,9 +13,7 @@ grade_levels:
 cs_domains:
 - Data Analysis
 - Algorithms and Programming
-tags:
-- computer science
-- Science
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

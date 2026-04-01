@@ -10,10 +10,10 @@ date: '2023-03-26 00:00:00+00:00'
 draft: false
 author: Tracey Winey
 subjects:
+- Art
 - Computer Science
 - Reading/Language Arts
 - Technology
-- Art
 grade_levels:
 - 6-8
 cs_domains:
@@ -23,11 +23,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Art
+tags: []
 materials: Website, Micro:bit, https://microbit.org/teach/lessons/nature-art-unit-of-work/
 ---
 # OVERVIEW

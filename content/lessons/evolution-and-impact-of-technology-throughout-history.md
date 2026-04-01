@@ -23,10 +23,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
-- Social Studies
-- Technology
+tags: []
 materials: Computer for research
 ---
 # OVERVIEW

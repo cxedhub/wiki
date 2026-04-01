@@ -15,9 +15,9 @@ draft: false
 author: Autumn Spiva
 subjects:
 - Computer Science
-- Science
-- Reading/Language Arts
 - Engineering
+- Reading/Language Arts
+- Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -27,11 +27,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Science
-- Reading/Language Arts
-- Engineering
+tags: []
 materials: Website, aluminum foil and pennies
 ---
 # OVERVIEW

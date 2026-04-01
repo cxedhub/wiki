@@ -1,6 +1,7 @@
 ---
-title: 'Cybersecurity  - Hand Introduction and Confidentiality'
-description: 'Introduction to the GenCyber Hand concepts - also includes Confidentiality topics.'
+title: Cybersecurity  - Hand Introduction and Confidentiality
+description: Introduction to the GenCyber Hand concepts - also includes Confidentiality
+  topics.
 date: '2023-07-13T21:56:38'
 draft: false
 author: Jeff Kitterman
@@ -13,12 +14,10 @@ cs_domains:
 cs_principles:
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, arcade.makecode.com'
+materials: Website, arcade.makecode.com
 ---
 ## OVERVIEW
 

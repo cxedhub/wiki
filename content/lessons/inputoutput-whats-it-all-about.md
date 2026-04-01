@@ -7,8 +7,8 @@ draft: false
 author: Christy Rodgers
 subjects:
 - Computer Science
-- Technology
 - Engineering
+- Technology
 grade_levels:
 - 3-5
 - 6-8
@@ -20,10 +20,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Technology
-- Engineering
+tags: []
 standards: CV8.5.3, CV8.5.4, ISTE 1.3
 materials: Website, Micro:bit
 ---

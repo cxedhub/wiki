@@ -10,7 +10,7 @@ draft: false
 author: Travis Burns
 subjects:
 - Computer Science
-- Communication
+- Reading/Language Arts
 grade_levels:
 - 6-8
 cs_domains:
@@ -18,9 +18,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Communication
+tags: []
 standards: Wyoming HE 2 - Decision Making and Problem Solving
 materials: None
 ---

@@ -8,8 +8,8 @@ draft: false
 author: Michelle Ottoes
 subjects:
 - Computer Science
+- Library Media
 - Reading/Language Arts
-- library skills
 grade_levels:
 - 3-5
 - 6-8
@@ -22,10 +22,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
-- library skills
+tags: []
 materials: way to project attached PowerPoint
 ---
 # OVERVIEW

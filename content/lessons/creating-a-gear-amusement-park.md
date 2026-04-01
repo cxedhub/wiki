@@ -7,8 +7,8 @@ draft: false
 author: Amber McClure
 subjects:
 - Computer Science
-- Reading/Language Arts
 - Engineering
+- Reading/Language Arts
 grade_levels:
 - K-2
 cs_domains:
@@ -22,10 +22,7 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Engineering
+tags: []
 standards: 2.CS.T.01, 2.DA.CVT.01, 2.AP.A.01
 materials: Funny Gears & Bricks Set
 ---

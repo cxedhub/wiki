@@ -1,12 +1,14 @@
 ---
 title: The HANDbook
-description: 'Implementing effective cybersecurity measures is particularly challenging today because there are more devices than people, and attackers are becoming more innovative.'
+description: Implementing effective cybersecurity measures is particularly challenging
+  today because there are more devices than people, and attackers are becoming more
+  innovative.
 date: '2023-07-14T12:24:59'
 draft: false
 author: Everett Fleming
 subjects:
-- Mathematics
 - Cybersecurity
+- Mathematics
 grade_levels:
 - 9-12
 cs_domains:
@@ -16,13 +18,10 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- mathematics
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, MS Word'
+materials: Website, MS Word
 ---
 ## OVERVIEW
 

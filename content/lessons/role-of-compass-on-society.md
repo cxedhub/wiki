@@ -20,9 +20,7 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Social Studies
+tags: []
 standards: DA.C.01 and SS8.4.2
 materials: Micro:bit
 ---

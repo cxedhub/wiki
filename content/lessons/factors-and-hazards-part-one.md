@@ -10,19 +10,15 @@ author: Tara Taliaferro
 subjects:
 - Computer Science
 - Mathematics
-- Science
 - Reading/Language Arts
+- Science
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
+tags: []
 materials: Website
 ---
 # OVERVIEW

@@ -1,13 +1,14 @@
 ---
-title: 'I = Integrity'
-description: 'Students will locate, read and research articles from sources to better understand using  credible sources for research.'
+title: I = Integrity
+description: Students will locate, read and research articles from sources to better
+  understand using  credible sources for research.
 date: '2023-07-13T21:13:11'
 draft: false
 author: Billie Rainey
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 - Technology
 grade_levels:
 - 6-8
@@ -18,15 +19,10 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- social studies
-- reading/language arts
-- technology
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, https://youtu.be/wRyamihhBvQ,'
+materials: Website, https://youtu.be/wRyamihhBvQ,
 ---
 ## OVERVIEW
 

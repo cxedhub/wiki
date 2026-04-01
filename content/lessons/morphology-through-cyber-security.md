@@ -1,12 +1,13 @@
 ---
 title: Morphology through Cyber Security
-description: Students will identify and define words utilizing basic tenets of cyber security.
+description: Students will identify and define words utilizing basic tenets of cyber
+  security.
 date: '2023-07-14T11:46:13'
 draft: false
 author: Andrew Disney
 subjects:
-- Reading/Language Arts
 - Cybersecurity
+- Reading/Language Arts
 grade_levels:
 - 9-12
 cs_domains:
@@ -15,12 +16,13 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- reading/language arts
-- cybersecurity
-standards: 'ELA.9.V.1.2: Apply knowledge of etymology and derivations to determine meanings of words and phrases in grade-level content.  ELA.9.V.1.3: Apply knowledge of context clues, figurative language, word relationships, reference materials, and/or background knowledge to determine the connotative and denotative meaning of words and phrases, appropriate to grade level.'
+- GenCyber
+- Lesson Plan
+standards: 'ELA.9.V.1.2: Apply knowledge of etymology and derivations to determine
+  meanings of words and phrases in grade-level content.  ELA.9.V.1.3: Apply knowledge
+  of context clues, figurative language, word relationships, reference materials,
+  and/or background knowledge to determine the connotative and denotative meaning
+  of words and phrases, appropriate to grade level.'
 materials: Website
 ---
 ## OVERVIEW

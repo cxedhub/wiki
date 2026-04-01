@@ -18,8 +18,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

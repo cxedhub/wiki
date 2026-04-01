@@ -1,9 +1,13 @@
 ---
 title: Miscommunication in Communication
-description: 'For the Nature of Science students are practicing going through steps in scientific inquiry.  Students need to understand that scientist research, analyze, systems to test the integrity of a system. Students will use the scientific method to analyze the  integrity, confidentiality and the depth of defense   of a social media platform'
+description: For the Nature of Science students are practicing going through steps
+  in scientific inquiry.  Students need to understand that scientist research, analyze,
+  systems to test the integrity of a system. Students will use the scientific method
+  to analyze the  integrity, confidentiality and the depth of defense   of a social
+  media platform
 date: '2023-07-14T12:45:21'
 draft: false
-author: 'Jesica Jones-Saka'
+author: Jesica Jones-Saka
 subjects:
 - Computer Science
 - Science
@@ -15,13 +19,10 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- science
-standards: 'SC.912.CS-CC.1.1  , SC.8.N.1.3, SC.8.N.1.1, SC.8.N.1.2, SC.8.N.1.5'
-materials: 'micro:bit, Internet Access'
+- GenCyber
+- Lesson Plan
+standards: SC.912.CS-CC.1.1  , SC.8.N.1.3, SC.8.N.1.1, SC.8.N.1.2, SC.8.N.1.5
+materials: micro:bit, Internet Access
 ---
 ## OVERVIEW
 

@@ -11,20 +11,16 @@ draft: false
 author: Katie Cline
 subjects:
 - Computer Science
+- Engineering
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
 - Impacts of Computing
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
-- Science
-- Technology
-- Engineering
+tags: []
 standards: '*5.NI.C.01 Discuss real-world cybersecurity problems and identify and
   implement appropriate strategies for how personal information can be protected.'
 materials: Website

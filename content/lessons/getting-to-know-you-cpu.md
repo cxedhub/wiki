@@ -21,9 +21,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 standards: SL.4.1, SL.4.4
 materials: Website, Micro:bit, https://makecode.microbit.org
 ---

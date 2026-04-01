@@ -18,14 +18,12 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- social studies
-- technology
-standards: 'No standard, as this is tied to club work, but it is an extension of AP Historical style questioning skills (Causation, Comparison, Similarities/Differences, Cause/Effect)'
-materials: 'Website, micro:bit, Raspberry Pi, Sphero'
+- GenCyber
+- Lesson Plan
+standards: No standard, as this is tied to club work, but it is an extension of AP
+  Historical style questioning skills (Causation, Comparison, Similarities/Differences,
+  Cause/Effect)
+materials: Website, micro:bit, Raspberry Pi, Sphero
 ---
 ## OVERVIEW
 

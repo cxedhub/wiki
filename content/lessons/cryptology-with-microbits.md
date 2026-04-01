@@ -1,6 +1,8 @@
 ---
-title: 'Cryptology with micro:bits'
-description: 'This activity will introduce the Caesar Cipher to students on makecode.micro:bit.org.  Students will explore the Caesar Cipher using words.  Students will than elaborate to make connections between the Caesar Cipher and translations in functions.'
+title: Cryptology with micro:bits
+description: This activity will introduce the Caesar Cipher to students on makecode.micro:bit.org.  Students
+  will explore the Caesar Cipher using words.  Students will than elaborate to make
+  connections between the Caesar Cipher and translations in functions.
 date: '2023-07-14T11:44:02'
 draft: false
 author: Elizabeth Busch
@@ -17,13 +19,11 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- mathematics
-standards: 'MA.912.F.2.1 Identify the effect on the graph or table of a given function after replacing f(x) by f(x) + k, for specific values of k.'
-materials: 'Website, micro:bit, makecode.microbit.org'
+- GenCyber
+- Lesson Plan
+standards: MA.912.F.2.1 Identify the effect on the graph or table of a given function
+  after replacing f(x) by f(x) + k, for specific values of k.
+materials: Website, micro:bit, makecode.microbit.org
 ---
 ## OVERVIEW
 

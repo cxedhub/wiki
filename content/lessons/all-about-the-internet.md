@@ -17,9 +17,7 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website
 ---
 # OVERVIEW

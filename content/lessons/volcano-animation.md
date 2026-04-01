@@ -7,12 +7,12 @@ draft: false
 author: Becki Butterfield
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
+- Reading/Language Arts
 - Science
 - Social Studies
-- Reading/Language Arts
 - Technology
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
@@ -22,14 +22,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
-- Social Studies
-- Reading/Language Arts
-- Technology
-- Engineering
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

@@ -18,10 +18,7 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Social Studies
-- Technology
+tags: []
 materials: ScratchJr
 ---
 # OVERVIEW

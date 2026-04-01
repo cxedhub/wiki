@@ -10,8 +10,8 @@ draft: false
 author: Chad Lemley
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 - Technology
 grade_levels:
 - 3-5
@@ -20,11 +20,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Social Studies
-- Reading/Language Arts
-- Technology
+tags: []
 standards: RI 5.6,  SS5.3.1,  SS5.3.4,  SS5.4.2,  SS5.4.3,  SS5.6.3
 materials: Web availability to view videos listed below in 'Activity Description'
 ---

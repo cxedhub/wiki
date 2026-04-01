@@ -20,10 +20,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
+tags: []
 materials: Website, https://www.youtube.com/watch?v=nCPPLhPTAIk , two glasses, small
   piece of mirror, flashlight, a white piece of paper, paper towel, markers in the
   colors of the rainbow, three groups of rainbow colored items, and cards with each

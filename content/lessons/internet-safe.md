@@ -18,9 +18,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website, https://beinternetawesome.withgoogle.com/en_us/interland/landing/reality-river
 ---
 # OVERVIEW

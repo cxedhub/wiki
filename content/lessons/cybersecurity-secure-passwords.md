@@ -8,8 +8,8 @@ draft: false
 author: Justin Hansen
 subjects:
 - Computer Science
+- Library Media
 - Technology
-- Library
 grade_levels:
 - 3-5
 cs_domains:
@@ -19,10 +19,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Library
+tags: []
 standards: NI.NCO / IC.SI / IC.SLE / SL.5.1
 materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
 ---

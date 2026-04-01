@@ -7,8 +7,8 @@ date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: James Cunningham
 subjects:
-- Computer Science
 - Art
+- Computer Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -16,9 +16,7 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Art
+tags: []
 materials: Website, https://scratch.mit.edu/
 ---
 # OVERVIEW

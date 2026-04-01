@@ -8,18 +8,14 @@ draft: false
 author: Katie Cline
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Science
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
-tags:
-- computer science
-- Mathematics
-- Science
-- Engineering
+tags: []
 materials: Slideshow that is included, there are websites linked in to help.
 ---
 # OVERVIEW

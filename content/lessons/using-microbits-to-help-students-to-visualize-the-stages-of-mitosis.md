@@ -15,9 +15,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Science
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

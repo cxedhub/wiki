@@ -11,8 +11,8 @@ draft: false
 author: Alicia Vonberg
 subjects:
 - Computer Science
-- Science
 - Engineering
+- Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -21,10 +21,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags:
-- computer science
-- Science
-- Engineering
+tags: []
 standards: MS-LS1-1, MS-ETS1-3,
 materials: Website, unplugged
 ---

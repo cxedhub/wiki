@@ -1,6 +1,7 @@
 ---
-title: 'Cybersecurity - Integrity'
-description: 'Introduction to the concept of integrity  with a video, unplugged activity, and discussion'
+title: Cybersecurity - Integrity
+description: Introduction to the concept of integrity  with a video, unplugged activity,
+  and discussion
 date: '2023-07-13T23:07:24'
 draft: false
 author: Jeff Kitterman
@@ -13,12 +14,10 @@ cs_domains:
 cs_principles:
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, https://youtu.be/FHEqIC4peTI'
+materials: Website, https://youtu.be/FHEqIC4peTI
 ---
 ## OVERVIEW
 

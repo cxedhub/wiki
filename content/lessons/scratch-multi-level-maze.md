@@ -7,10 +7,10 @@ date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl
 subjects:
-- Computer Science
-- Technology
-- Engineering
 - Art
+- Computer Science
+- Engineering
+- Technology
 grade_levels:
 - 3-5
 - 6-8
@@ -25,11 +25,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Engineering
-- Art
+tags: []
 standards: ISTE Standards
 materials: Website
 ---

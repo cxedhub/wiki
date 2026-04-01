@@ -22,9 +22,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags:
-- computer science
-- Physical Education
+tags: []
 standards: PE2.K2.1.4, PE2.KS.2.4
 materials: Chromebooks/IPads
 ---

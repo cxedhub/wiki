@@ -21,11 +21,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Reading/Language Arts
-- Technology
+tags: []
 materials: Bee-bots, Bee-bot mats, Plastic Bowling Pins
 ---
 # OVERVIEW

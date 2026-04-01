@@ -15,9 +15,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Technology
+tags: []
 standards: 2.NI.C.01, 5.NI.C.01
 materials: Caesar Cipher
 ---

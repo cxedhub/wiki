@@ -1,14 +1,17 @@
 ---
 title: Integrity and Keep It Simple
-description: 'The purpose for this lesson is to help you understand the notions or aspects of integrity and the simplicity with which you need keep when it comes to Cybersecurity. You will learn the notions, find ways to incorporate them in your technology world. Also, you will try to practice them.'
+description: The purpose for this lesson is to help you understand the notions or
+  aspects of integrity and the simplicity with which you need keep when it comes to
+  Cybersecurity. You will learn the notions, find ways to incorporate them in your
+  technology world. Also, you will try to practice them.
 date: '2023-07-14T15:32:23'
 draft: false
 author: Judes Francois
 subjects:
+- Cybersecurity
 - Science
 - Social Studies
 - Technology
-- Cybersecurity
 grade_levels:
 - 3-5
 - 6-8
@@ -18,13 +21,8 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- science
-- social studies
-- technology
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: N/A
 materials: Website
 ---

@@ -7,18 +7,15 @@ draft: false
 author: Sandra Joslin
 subjects:
 - Computer Science
-- Science
 - Reading/Language Arts
+- Science
 grade_levels:
 - K-2
 cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
-- Science
-- Reading/Language Arts
+tags: []
 standards: 'K-2.IC.SI.01: Practice grade-level appropriate behaviors and responsibilities
   while participating in an online community. Identify and report inappropriate behavior'
 materials: Website, iPads, https://www.youtube.com/watch?v=q1xNuU7gaAQ, https://www.abcya.com/games/five_senses

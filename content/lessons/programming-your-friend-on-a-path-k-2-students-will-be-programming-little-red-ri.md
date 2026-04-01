@@ -23,8 +23,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
+tags: []
 materials: None
 ---
 # OVERVIEW

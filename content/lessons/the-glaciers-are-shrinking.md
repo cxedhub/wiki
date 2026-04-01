@@ -15,9 +15,7 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
-- Science
+tags: []
 standards: 4 - ESS2-1
 materials: Website, Computing device.  Our district uses iPads
 ---

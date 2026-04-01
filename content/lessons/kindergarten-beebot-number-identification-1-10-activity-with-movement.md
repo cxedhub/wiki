@@ -11,8 +11,8 @@ author: Nicole Asay
 subjects:
 - Computer Science
 - Mathematics
+- Physical Education
 - Technology
-- PE
 grade_levels:
 - K-2
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Technology
-- PE
+tags: []
 materials: Bee-Bot and Bee-Bot mat
 ---
 # OVERVIEW

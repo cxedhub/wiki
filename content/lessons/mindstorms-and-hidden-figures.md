@@ -21,9 +21,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 materials: Lego Mindstorms (I am using the NXT version)
 ---
 # OVERVIEW

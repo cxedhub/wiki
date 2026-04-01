@@ -10,7 +10,6 @@ author: Michelle Ottoes
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Pre-literacy phonemic awareness
 grade_levels:
 - K-2
 - 3-5
@@ -20,10 +19,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Reading/Language Arts
-- Pre-literacy phonemic awareness
+tags: []
 materials: Sing along video of the song or a decent singing voice and probably a robot
   geared toward primary students like Beebot or Ozbot
 ---

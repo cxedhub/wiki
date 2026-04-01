@@ -8,19 +8,15 @@ date: '2022-09-15 00:00:00+00:00'
 draft: false
 author: Melissa Skinner
 subjects:
-- Computer Science
-- Science
-- Reading/Language Arts
 - Art
+- Computer Science
+- Reading/Language Arts
+- Science
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
-tags:
-- computer science
-- Science
-- Reading/Language Arts
-- Art
+tags: []
 materials: Website
 ---
 # OVERVIEW

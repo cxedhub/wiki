@@ -6,10 +6,10 @@ date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kendrea Herring
 subjects:
+- Art
 - Computer Science
 - Mathematics
 - Science
-- Art
 grade_levels:
 - 3-5
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Art
+tags: []
 materials: 'Micro:bit, Physicial Materials: ruler, calculator, construction paper,
   pencil, glue, scissors or kid-safe hobby knives, markers, sand, water, plastic tub,
   gravel, dirt, glitter, basic drip system;'

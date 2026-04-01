@@ -19,9 +19,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Mathematics
+tags: []
 materials: Online IDE  or Eclipse
 ---
 # OVERVIEW

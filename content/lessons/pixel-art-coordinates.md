@@ -15,9 +15,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: Math 5.G.J.1
 materials: Website, https://docs.google.com/spreadsheets/d/1ozv_zDwCOTOXf0uYI13QfRlfuXQ88l48aFRrpL9-IxY/edit?usp=sharing
 ---

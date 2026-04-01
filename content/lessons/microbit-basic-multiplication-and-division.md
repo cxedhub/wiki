@@ -19,9 +19,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: 'Operations and Algebraic Thinking: 3.OA.A.1, 3.OA.A.2, 3.OA.A.3'
 materials: Website, Micro:bit
 ---

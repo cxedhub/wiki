@@ -17,9 +17,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-tags:
-- computer science
-- Physical Education
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

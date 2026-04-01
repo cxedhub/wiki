@@ -6,16 +6,14 @@ date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders
 subjects:
-- stem
+- Technology
 grade_levels:
 - K-2
 cs_domains:
 - Data Analysis
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- stem
+tags: []
 materials: None
 ---
 # OVERVIEW

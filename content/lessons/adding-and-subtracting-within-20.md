@@ -17,9 +17,7 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: CCSS. Math.Content.1.OA.A.1
 materials: Scratch Jr.
 ---

@@ -17,9 +17,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Science
+tags: []
 standards: K-ESS2-1
 materials: Blue-Bots, Bee-Bots, or Code and Go Mouse
 ---

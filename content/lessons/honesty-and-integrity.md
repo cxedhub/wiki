@@ -1,12 +1,17 @@
 ---
 title: Honesty and Integrity
-description: 'Honesty and Integrity are valuable and necessary skills to flourish in various environments, including higher education, the workplace and personal and civic life.  This lesson is designed to help students understand, evaluate and apply skills of integrity.  Furthermore, students will connect psychological theories to these transferable skills in order to help them navigate situations where honesty and integrity are required in their future environments, such as college or work.'
+description: Honesty and Integrity are valuable and necessary skills to flourish in
+  various environments, including higher education, the workplace and personal and
+  civic life.  This lesson is designed to help students understand, evaluate and apply
+  skills of integrity.  Furthermore, students will connect psychological theories
+  to these transferable skills in order to help them navigate situations where honesty
+  and integrity are required in their future environments, such as college or work.
 date: '2023-07-15T20:27:45'
 draft: false
 author: Stephen Callum
 subjects:
-- Social Studies
 - Cybersecurity
+- Social Studies
 grade_levels:
 - 9-12
 cs_domains:
@@ -14,13 +19,12 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- social studies
-- cybersecurity
-standards: 'Domain: Development and Learning Standard Area: Development Content Standard 2: Theories of lifespan development 2.2 Discuss theories of moral development Content Standard 6: Adolescence 6.2 Describe the development of reasoning and morality'
-materials: 'Website, https://www.ethicalsystems.org/cheating-honesty/'
+- GenCyber
+- Lesson Plan
+standards: 'Domain: Development and Learning Standard Area: Development Content Standard
+  2: Theories of lifespan development 2.2 Discuss theories of moral development Content
+  Standard 6: Adolescence 6.2 Describe the development of reasoning and morality'
+materials: Website, https://www.ethicalsystems.org/cheating-honesty/
 ---
 ## OVERVIEW
 

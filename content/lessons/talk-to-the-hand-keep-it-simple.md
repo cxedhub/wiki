@@ -1,12 +1,13 @@
 ---
-title: 'TALK TO THE HAND - KEEP IT SIMPLE'
-description: The students will be able to create a handbook using the Hand Method of CyberSecurity.
+title: TALK TO THE HAND - KEEP IT SIMPLE
+description: The students will be able to create a handbook using the Hand Method
+  of CyberSecurity.
 date: '2023-07-14T12:25:17'
 draft: false
 author: Shamrie Jones
 subjects:
-- Technology
 - Cybersecurity
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -14,13 +15,10 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- technology
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, micro:bit'
+materials: Website, micro:bit
 ---
 ## OVERVIEW
 

@@ -7,17 +7,15 @@ date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Nate Reinhardt
 subjects:
-- Computer Science
 - Business
+- Computer Science
 grade_levels:
 - 9-12
 cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Business
+tags: []
 materials: computer and wifi
 ---
 # OVERVIEW

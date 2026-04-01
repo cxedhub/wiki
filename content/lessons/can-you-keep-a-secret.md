@@ -1,6 +1,8 @@
 ---
-title: 'Can You Keep a Secret?'
-description: 'Elementary students will be able to identify the meaning of "password". Students will explain reasons why a strong password is important. Students will create an example of a memorable and strong password.'
+title: Can You Keep a Secret?
+description: Elementary students will be able to identify the meaning of "password".
+  Students will explain reasons why a strong password is important. Students will
+  create an example of a memorable and strong password.
 date: '2023-07-14T13:25:14'
 draft: false
 author: Phaedra Davila
@@ -18,14 +20,10 @@ cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- mathematics
-- reading/language arts
-- technology
-standards: 'BENCHMARK SC.K2.CS-PC.4.1 Explain that some information is private and should not be shared'
+- GenCyber
+- Lesson Plan
+standards: BENCHMARK SC.K2.CS-PC.4.1 Explain that some information is private and
+  should not be shared
 materials: Website
 ---
 ## OVERVIEW

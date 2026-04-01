@@ -19,9 +19,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 materials: Website, https://www.commonsense.org/education/digital-citizenship/lesson/being-aware-of-what-you-share
 ---
 # OVERVIEW

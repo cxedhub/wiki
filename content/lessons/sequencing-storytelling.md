@@ -10,8 +10,8 @@ draft: false
 author: Devin Hodgins
 subjects:
 - Computer Science
+- Library Media
 - Reading/Language Arts
-- Library and Information Technology
 grade_levels:
 - K-2
 cs_domains:
@@ -21,10 +21,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Library and Information Technology
+tags: []
 materials: Website, https://www.getepic.com/ ; https://sites.google.com/myncsd.org/cresthill-library/learning-commons-pages/virtual-makerspace
   ; https://scratch.mit.edu/ ;  https://www.storyboardthat.com/comic-maker
 ---

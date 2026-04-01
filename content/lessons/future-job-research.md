@@ -19,9 +19,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 standards: N/A
 materials: Website
 ---

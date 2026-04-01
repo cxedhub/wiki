@@ -10,8 +10,8 @@ draft: false
 author: Whitney Wilking
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 - Technology
 grade_levels:
 - 6-8
@@ -23,11 +23,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Social Studies
-- Reading/Language Arts
-- Technology
+tags: []
 materials: Website, Laptops and possible ArcGIS software
 ---
 # OVERVIEW

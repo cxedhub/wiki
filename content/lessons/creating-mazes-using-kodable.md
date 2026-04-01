@@ -15,9 +15,7 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: 5.AP.A.01,
 materials: Website
 ---

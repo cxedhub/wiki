@@ -20,10 +20,7 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Technology
+tags: []
 materials: Micro:bit, Lego EV3 with weather/ temperature probe
 ---
 # OVERVIEW

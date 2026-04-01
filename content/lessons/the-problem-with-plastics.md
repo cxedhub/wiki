@@ -11,8 +11,8 @@ author: Kathy Manker
 subjects:
 - Computer Science
 - Mathematics
-- Science
 - Reading/Language Arts
+- Science
 - Technology
 grade_levels:
 - 3-5
@@ -25,12 +25,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
-- Technology
+tags: []
 materials: Website, 1- https://kids.nationalgeographic.com/nature/kids-vs-plastic/article/10-tips-to-reduce-your-plastic-use;   2-https://youtu.be/Ue35VMmRwKg;  3-Tracking
   Ocean Plastic From Space | Earthdata (nasa.gov) 4-https://sites.google.com/site/jacquescousteauconservation/artifact-2
 ---

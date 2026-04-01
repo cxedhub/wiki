@@ -19,10 +19,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Reading/Language Arts
+tags: []
 materials: Website, Chromebook
 ---
 # OVERVIEW

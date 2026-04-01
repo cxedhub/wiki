@@ -17,10 +17,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Social Studies
-- Technology
+tags: []
 materials: Website
 ---
 # OVERVIEW

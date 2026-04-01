@@ -15,8 +15,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
+tags: []
 materials: None
 ---
 # OVERVIEW

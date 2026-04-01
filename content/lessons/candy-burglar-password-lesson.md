@@ -15,12 +15,11 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
-materials: 'No technology required, a deck of cards, or a memory game etc to have like
+tags: []
+materials: No technology required, a deck of cards, or a memory game etc to have like
   images, split into two different piles, making sure that there is a paired match
   for each image.  Student Computer Science Notebooks, they will use these all year
-  long to keep track of their own understanding.'
+  long to keep track of their own understanding.
 ---
 # OVERVIEW
 ## Activity Overview:  

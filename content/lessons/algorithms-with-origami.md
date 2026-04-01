@@ -15,8 +15,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
+tags: []
 materials: Website, Youtube.com Website can be used if you don't have the book at
   hand. Search youtube for any book on the list.
 ---

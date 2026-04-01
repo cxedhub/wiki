@@ -11,16 +11,14 @@ draft: false
 author: Jody Durst
 subjects:
 - Computer Science
-- Approaches to Learning
+- Social-Emotional Learning
 grade_levels:
 - K-2
 cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Approaches to Learning
+tags: []
 materials: SMART Board
 ---
 # OVERVIEW

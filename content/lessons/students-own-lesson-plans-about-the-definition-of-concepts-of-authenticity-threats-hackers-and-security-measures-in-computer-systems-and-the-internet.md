@@ -1,23 +1,23 @@
 ---
-title: 'Students own lesson plans about the definition of concepts of authenticity, threats, hackers and security measures in computer systems and the internet.'
-description: 'Students will make their own videos and demonstrate how they are able to describe threats to modern digital computer systems, and to describe techniques of defense against'
+title: Students own lesson plans about the definition of concepts of authenticity,
+  threats, hackers and security measures in computer systems and the internet.
+description: Students will make their own videos and demonstrate how they are able
+  to describe threats to modern digital computer systems, and to describe techniques
+  of defense against
 date: '2023-07-14T13:49:22'
 draft: false
 author: Emilia Figueroa
 subjects:
-- Spanish
 - Cybersecurity
+- World Languages
 grade_levels:
 - 9-12
 cs_domains:
 - Networks and The Internet
 cs_principles: []
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- spanish
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: Awareness
 materials: Website
 ---

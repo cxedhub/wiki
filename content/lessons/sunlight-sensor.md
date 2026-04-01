@@ -18,9 +18,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Science
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

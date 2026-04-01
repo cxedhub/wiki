@@ -19,10 +19,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
+tags: []
 standards: ESS2
 materials: Website, Micro:bit, makecode.microbit.org
 ---

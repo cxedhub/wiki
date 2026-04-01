@@ -10,8 +10,8 @@ draft: false
 author: Ron Chesmore
 subjects:
 - Computer Science
+- Library Media
 - Technology
-- Library Media (Information Resources)
 grade_levels:
 - 6-8
 cs_domains:
@@ -19,10 +19,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Technology
-- Library Media (Information Resources)
+tags: []
 materials: Website, Chromebooks or other student devices, Smartboard
 ---
 # OVERVIEW

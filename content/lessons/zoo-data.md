@@ -17,9 +17,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: CCSS.MATH.CONTENT.2.MD.D.10
 materials: None
 ---

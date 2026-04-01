@@ -9,8 +9,8 @@ draft: false
 author: James Cunningham
 subjects:
 - Computer Science
-- Technology
 - Engineering
+- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -20,10 +20,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Engineering
+tags: []
 standards: Na
 materials: Website, Arduino, Raspberry Pi, Old computer, Lego Mind Storm
 ---

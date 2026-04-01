@@ -1,12 +1,13 @@
 ---
 title: TALK TO THE HAND – INTEGRITY
-description: The students will be able to create a handbook using the Hand Method of CyberSecurity.
+description: The students will be able to create a handbook using the Hand Method
+  of CyberSecurity.
 date: '2023-07-14T12:11:37'
 draft: false
 author: Shamrie Jones
 subjects:
-- Technology
 - Cybersecurity
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -14,13 +15,11 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- technology
-- cybersecurity
-standards: Future CyberSecurity Specialist will need to have an understanding of the importance of cyber information in society today and the need to secure this information.
-materials: 'Website, micro:bit'
+- GenCyber
+- Lesson Plan
+standards: Future CyberSecurity Specialist will need to have an understanding of the
+  importance of cyber information in society today and the need to secure this information.
+materials: Website, micro:bit
 ---
 ## OVERVIEW
 

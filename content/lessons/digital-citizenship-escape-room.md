@@ -7,10 +7,10 @@ date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Melissa Harris
 subjects:
+- Art
 - Computer Science
 - Reading/Language Arts
 - Technology
-- Art
 grade_levels:
 - 3-5
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Art
+tags: []
 materials: Website
 ---
 # OVERVIEW

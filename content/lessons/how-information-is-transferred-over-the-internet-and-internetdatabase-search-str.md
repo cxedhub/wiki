@@ -11,8 +11,8 @@ draft: false
 author: Ron Chesmore
 subjects:
 - Computer Science
-- Technology
 - Library Media
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -23,10 +23,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Library Media
+tags: []
 materials: Website, Chromebooks for accessing materials and assessments for the lessons
 ---
 # OVERVIEW

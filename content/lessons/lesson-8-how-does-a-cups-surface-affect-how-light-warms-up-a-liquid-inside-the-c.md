@@ -27,10 +27,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Science
-- Technology
+tags: []
 standards: MS-PS1-4, MS-PS3-3, MS-PS3-4, MS-PS3-5, MS-PS4-2, MS-ETS1-4
 materials: Micro:bit
 ---

@@ -4,7 +4,7 @@
     <h1>Welcome, Educators!</h1>
     <p>Discover <strong>{{ len (where site.RegularPages "Section" "lessons") }}+</strong> computing-infused lesson plans made by K-12 educators, for K-12 educators.</p>
     <div class="hero-actions">
-      <a href="{{ "lessons/" | relURL }}" class="btn btn-primary">Browse Lesson Plans</a>
+      <a href="#explore" class="btn btn-primary">Explore Lessons</a>
       <a href="{{ "resources/" | relURL }}" class="btn btn-secondary">View Resources</a>
     </div>
   </div>
@@ -17,49 +17,132 @@
   </div>
 </section>
 
-<section class="container home-browse">
-  <h2>Browse by Grade Level</h2>
-  <div class="taxonomy-grid">
-    {{ range site.Taxonomies.grade_levels }}
-      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
-        <span class="taxonomy-name">{{ .Page.Title }}</span>
-        <span class="taxonomy-count">{{ .Count }} lessons</span>
-      </a>
-    {{ end }}
-  </div>
-</section>
+{{/* ── Build taxonomy data ── */}}
+{{ $lessons := where site.RegularPages "Section" "lessons" }}
+{{ $totalLessons := len $lessons }}
 
-<section class="container home-browse">
-  <h2>Browse by Subject</h2>
-  <div class="taxonomy-grid">
-    {{ range site.Taxonomies.subjects }}
-      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
-        <span class="taxonomy-name">{{ .Page.Title }}</span>
-        <span class="taxonomy-count">{{ .Count }} lessons</span>
-      </a>
-    {{ end }}
-  </div>
-</section>
+<section class="container home-explore" id="explore">
+  <h2>Explore Lesson Plans</h2>
+  <p class="section-subtitle">Use the filters below to find lessons. Select multiple options across categories to narrow results.</p>
 
-<section class="container home-browse">
-  <h2>Browse by CS Domain</h2>
-  <div class="taxonomy-grid">
-    {{ range site.Taxonomies.cs_domains }}
-      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
-        <span class="taxonomy-name">{{ .Page.Title }}</span>
-        <span class="taxonomy-count">{{ .Count }} lessons</span>
-      </a>
-    {{ end }}
-  </div>
-</section>
+  <div class="explore-layout">
+    {{/* ── Sidebar Filters ── */}}
+    <aside class="filter-sidebar" id="filter-sidebar">
+      <div class="filter-header">
+        <h3>Filters</h3>
+        <button id="clear-all-filters" class="btn-clear">Clear All</button>
+      </div>
 
-<section class="container home-recent">
-  <h2>Recently Added Lessons</h2>
-  <div class="card-grid">
-    {{ range first 6 (where site.RegularPages "Section" "lessons") }}
-      {{ partial "lesson-card.html" . }}
-    {{ end }}
+      <div class="filter-search-wrap">
+        <input type="text" id="home-search" placeholder="Search by keyword..." class="filter-search" aria-label="Search lessons">
+      </div>
+
+      {{/* Grade Levels */}}
+      <div class="filter-group" data-filter="grade">
+        <h4 class="filter-group-title">Grade Level</h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.grade_levels.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="grade">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      {{/* Subjects */}}
+      <div class="filter-group" data-filter="subject">
+        <h4 class="filter-group-title">Subject <span class="filter-group-count">{{ len site.Taxonomies.subjects }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.subjects.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="subject">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      {{/* CS Domains */}}
+      <div class="filter-group" data-filter="domain">
+        <h4 class="filter-group-title">CS Domain</h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.cs_domains.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="domain">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      {{/* Tags (if any) */}}
+      {{ if gt (len site.Taxonomies.tags) 0 }}
+      <div class="filter-group" data-filter="tag">
+        <h4 class="filter-group-title">Tags</h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.tags.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="tag">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      <button id="mobile-apply-filters" class="btn btn-primary btn-apply-mobile">Apply Filters</button>
+    </aside>
+
+    {{/* ── Main Content: Results ── */}}
+    <div class="explore-results">
+      <div class="results-toolbar">
+        <div class="results-count" id="results-count">
+          Showing <strong>{{ $totalLessons }}</strong> of {{ $totalLessons }} lessons
+        </div>
+        <div class="results-actions">
+          <button id="mobile-filter-toggle" class="btn btn-secondary btn-sm filter-toggle-btn">Filters</button>
+          <select id="sort-select" aria-label="Sort lessons" class="sort-select">
+            <option value="title">Sort: A&ndash;Z</option>
+            <option value="title-desc">Sort: Z&ndash;A</option>
+            <option value="date">Sort: Newest</option>
+          </select>
+        </div>
+      </div>
+
+      {{/* Active filter chips */}}
+      <div class="active-filters" id="active-filters"></div>
+
+      <div class="card-grid" id="lesson-list">
+        {{ range $lessons.ByTitle }}
+          <div class="card"
+            data-title="{{ .Title }}"
+            data-date="{{ .Date.Format "2006-01-02" }}"
+            data-subjects="{{ delimit .Params.subjects "|" }}"
+            data-grades="{{ delimit .Params.grade_levels "|" }}"
+            data-domains="{{ delimit .Params.cs_domains "|" }}"
+            data-tags="{{ delimit .Params.tags "|" }}">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
+            <div class="card-meta">
+              {{ with .Params.author }}<span class="chip chip-author">{{ . }}</span>{{ end }}
+              {{ range .Params.grade_levels }}<span class="chip chip-grade">{{ . }}</span>{{ end }}
+              {{ range first 3 .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
+              {{ if gt (len .Params.subjects) 3 }}<span class="chip chip-more">+{{ sub (len .Params.subjects) 3 }}</span>{{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+
+      <div class="no-results" id="no-results" style="display:none;">
+        <p><strong>No lessons match your filters.</strong></p>
+        <p>Try removing some filters or <button id="no-results-clear" class="btn-link">clear all filters</button>.</p>
+      </div>
+    </div>
   </div>
-  <p class="see-all"><a href="{{ "lessons/" | relURL }}">See all lesson plans &rarr;</a></p>
 </section>
 {{ end }}

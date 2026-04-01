@@ -17,8 +17,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
+tags: []
 materials: None
 ---
 # OVERVIEW

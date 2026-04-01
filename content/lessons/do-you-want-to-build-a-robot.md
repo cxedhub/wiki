@@ -8,8 +8,8 @@ author: Sandra Joslin
 subjects:
 - Computer Science
 - Mathematics
-- Science
 - Reading/Language Arts
+- Science
 grade_levels:
 - 3-5
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

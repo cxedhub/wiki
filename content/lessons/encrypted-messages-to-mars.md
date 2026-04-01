@@ -1,14 +1,16 @@
 ---
 title: Encrypted Messages to Mars
-description: '"The NASA Deep Space Network (DSN) is an international network of antennas that provide the communication links between the scientists and engineers on Earth to the missions in space and on Mars."  Student will learn  about the mars missions, and learn how to make a encrypted messages" Students will'
+description: '"The NASA Deep Space Network (DSN) is an international network of antennas
+  that provide the communication links between the scientists and engineers on Earth
+  to the missions in space and on Mars."  Student will learn  about the mars missions,
+  and learn how to make a encrypted messages" Students will'
 date: '2023-07-14T14:50:40'
 draft: false
-author: 'Jesica Jones-Saka'
+author: Jesica Jones-Saka
 subjects:
 - Computer Science
 - Science
 - Technology
-- micro:bits
 grade_levels:
 - 6-8
 cs_domains:
@@ -18,15 +20,11 @@ cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- science
-- technology
-- micro:bits
-standards: 'SC.8.E.5.12, Summarize the effects of space exploration on the economy and culture of Florida.'
-materials: 'Website, micro:bit, https://mars.nasa.gov/msl/home/    https://www.kennedyspacecenter.com'
+- GenCyber
+- Lesson Plan
+standards: SC.8.E.5.12, Summarize the effects of space exploration on the economy
+  and culture of Florida.
+materials: Website, micro:bit, https://mars.nasa.gov/msl/home/    https://www.kennedyspacecenter.com
 ---
 ## OVERVIEW
 

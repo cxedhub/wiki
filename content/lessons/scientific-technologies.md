@@ -23,9 +23,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Science
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

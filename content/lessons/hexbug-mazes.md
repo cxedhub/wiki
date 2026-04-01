@@ -10,10 +10,10 @@ draft: false
 author: Kalista Pendleton
 subjects:
 - Computer Science
+- Engineering
 - Science
 - Social Studies
 - Technology
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
@@ -25,12 +25,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Social Studies
-- Technology
-- Engineering
+tags: []
 materials: HexBug
 ---
 # OVERVIEW

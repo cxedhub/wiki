@@ -6,12 +6,12 @@ date: '2020-11-18 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
 subjects:
-- Computer Science
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
 - Art
+- Computer Science
+- Engineering
+- Reading/Language Arts
+- Science
+- Technology
 grade_levels:
 - 3-5
 cs_domains:
@@ -23,13 +23,7 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
-- Art
+tags: []
 materials: Micro:bit, computer
 ---
 # OVERVIEW
