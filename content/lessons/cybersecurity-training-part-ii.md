@@ -14,11 +14,12 @@ grade_levels:
 - 6-8
 cs_domains: []
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website, micro:bit, https://makecode.microbit.org/
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

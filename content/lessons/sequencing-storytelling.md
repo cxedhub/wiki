@@ -21,9 +21,12 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Website, https://www.getepic.com/ ; https://sites.google.com/myncsd.org/cresthill-library/learning-commons-pages/virtual-makerspace
   ; https://scratch.mit.edu/ ;  https://www.storyboardthat.com/comic-maker
+tags:
+- "Robotics"
+- "Scratch"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

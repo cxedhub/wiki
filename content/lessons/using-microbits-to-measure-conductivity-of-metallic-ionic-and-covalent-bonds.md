@@ -17,8 +17,9 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
-tags: []
 materials: Micro:bit, gator clips and different materials that conduct and don't
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -16,12 +16,13 @@ grade_levels:
 cs_domains:
 - Algorithms and Programming
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: MA.912.F.2.1 Identify the effect on the graph or table of a given function
   after replacing f(x) by f(x) + k, for specific values of k.
 materials: Website, https://www.cerias.purdue.edu/education/k-12/teaching_resources/lessons_presentations/cryptology.html
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "Web Design"
 ---
 ## OVERVIEW
 

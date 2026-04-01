@@ -20,9 +20,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: This could meet science standards in a science class.
 materials: Website, Micro:bit, legos
+tags:
+- "Data Collection"
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

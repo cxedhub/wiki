@@ -22,10 +22,12 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: SL.5.1 - Participate in collaborative conversations with diverse partners
   about grade 5 topics and texts with peers and adults in small and larger groups.
 materials: Website, https://www.digitalpassport.org/password-protect.html;  https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
+tags:
+- "Code.org"
+- "Web Design"
 ---
 # OVERVIEW
 ## Activity Overview:  

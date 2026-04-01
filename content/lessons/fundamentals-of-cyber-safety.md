@@ -14,11 +14,12 @@ grade_levels:
 - 6-8
 cs_domains: []
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: SS.8.FL.6.7
 materials: micro:bit
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

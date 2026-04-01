@@ -22,8 +22,11 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,8 +21,9 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-tags: []
 materials: Website, Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

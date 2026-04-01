@@ -13,11 +13,12 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website, arcade.makecode.com
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

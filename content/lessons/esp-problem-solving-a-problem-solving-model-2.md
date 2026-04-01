@@ -18,9 +18,11 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 standards: Wyoming HE 2 - Decision Making and Problem Solving
 materials: None
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

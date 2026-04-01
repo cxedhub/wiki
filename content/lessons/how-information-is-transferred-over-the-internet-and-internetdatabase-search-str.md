@@ -23,8 +23,9 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Website, Chromebooks for accessing materials and assessments for the lessons
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

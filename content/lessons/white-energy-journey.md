@@ -23,8 +23,11 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Website, LEGO League Robotics Kit
+tags:
+- "Data Collection"
+- "Project-Based"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

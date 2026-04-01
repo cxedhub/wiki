@@ -21,8 +21,9 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags: []
 materials: None
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

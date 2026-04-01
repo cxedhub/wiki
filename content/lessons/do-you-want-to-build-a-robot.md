@@ -21,8 +21,12 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags: []
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "Project-Based"
+- "Robotics"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

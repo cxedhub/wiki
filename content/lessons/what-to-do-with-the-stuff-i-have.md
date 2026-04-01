@@ -19,8 +19,8 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Developing and Using Abstractions
-tags: []
 materials: Website
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

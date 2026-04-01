@@ -19,8 +19,11 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Website, https://studio.code.org/projects/spritelab/aDA-0v8O5PnRhUw2llrxn4Cz6c1_FJwuNc99vLJ0Oqw/edit
+tags:
+- "Code.org"
+- "Robotics"
+- "Scratch"
 ---
 # OVERVIEW
 ## Activity Overview:  

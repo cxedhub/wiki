@@ -21,8 +21,9 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Poster board/paper and markers
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

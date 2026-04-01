@@ -14,8 +14,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-tags: []
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -19,12 +19,14 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: SC.8.E.5.12, Summarize the effects of space exploration on the economy
   and culture of Florida.
 materials: Website, micro:bit, https://mars.nasa.gov/msl/home/    https://www.kennedyspacecenter.com
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "Unplugged"
+- "micro:bit"
 ---
 ## OVERVIEW
 

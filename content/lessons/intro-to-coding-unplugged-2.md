@@ -13,11 +13,13 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: K.AP.A.01 With guidance, model daily processes and follow algorithms (sets
   of step-by-step instructions) to complete tasks (e.g., verbally, kinesthetically,
   with robot devices, or a programing language).
 materials: None
+tags:
+- "Robotics"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

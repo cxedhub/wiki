@@ -19,8 +19,10 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Website, https://makecode.microbit.org/
+tags:
+- "Code.org"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

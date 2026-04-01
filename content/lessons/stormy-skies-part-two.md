@@ -19,8 +19,9 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags: []
 materials: None
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

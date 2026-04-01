@@ -19,9 +19,12 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: Converse County Science Content Standards
 materials: Website
+tags:
+- "Robotics"
+- "Scratch"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

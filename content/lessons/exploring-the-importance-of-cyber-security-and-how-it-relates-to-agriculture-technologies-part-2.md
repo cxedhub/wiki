@@ -18,11 +18,11 @@ grade_levels:
 - 9-12
 cs_domains: []
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Poster Board or tri-fold
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

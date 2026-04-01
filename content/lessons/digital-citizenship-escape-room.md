@@ -21,8 +21,9 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags: []
 materials: Website
+tags:
+- "Game-Based"
 ---
 # OVERVIEW
 ## Activity Overview:  

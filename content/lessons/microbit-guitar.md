@@ -18,8 +18,10 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Website, Micro:bit
+tags:
+- "Scratch"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -25,8 +25,11 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Website, Micro:bit, Sphero, https://sites.google.com/myncsd.org/centennial-library-home/learning-commons-pages/virtual-makerspace
+tags:
+- "Project-Based"
+- "Robotics"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

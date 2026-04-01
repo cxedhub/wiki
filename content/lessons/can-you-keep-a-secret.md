@@ -19,12 +19,12 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: BENCHMARK SC.K2.CS-PC.4.1 Explain that some information is private and
   should not be shared
 materials: Website
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

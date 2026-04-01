@@ -23,11 +23,12 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: FL EPRS
 materials: Website, micro:bit
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

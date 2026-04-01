@@ -20,8 +20,9 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: None
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

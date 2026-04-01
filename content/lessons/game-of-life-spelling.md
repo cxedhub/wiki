@@ -23,8 +23,10 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Website, Micro:bit, Chrome book
+tags:
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

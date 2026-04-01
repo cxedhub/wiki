@@ -20,9 +20,9 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags: []
 standards: Na
 materials: Website, Arduino, Raspberry Pi, Old computer, Lego Mind Storm
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -18,10 +18,10 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Developing and Using Abstractions
-tags: []
 standards: 'ISTE 3A: Students plan and employ effective research strategies to locate
   information and other resources for their intellectual or creative pursuits'
 materials: Website, YouTube educational videos, Kahoot quiz website
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

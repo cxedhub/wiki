@@ -15,8 +15,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 materials: Website, Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

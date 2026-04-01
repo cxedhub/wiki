@@ -19,12 +19,14 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: AP Historical Thinking Skills (Comparative Analysis, Comparison, Continuity
   & Change)
 materials: None, Website, micro:bit
+tags:
+- "Cybersecurity"
+- "Data Collection"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

@@ -18,9 +18,10 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: ISTE 1.2 Digital Citizenship
 materials: https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
+tags:
+- "Code.org"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -23,8 +23,9 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Micro:bit, RGB Light Strip(Instruction attached with how to make)
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

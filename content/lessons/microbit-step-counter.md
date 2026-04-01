@@ -17,8 +17,10 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-tags: []
 materials: Micro:bit
+tags:
+- "Code.org"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

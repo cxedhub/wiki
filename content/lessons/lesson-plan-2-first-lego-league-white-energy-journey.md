@@ -24,9 +24,11 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other personal
   device, access to the internet
+tags:
+- "Project-Based"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

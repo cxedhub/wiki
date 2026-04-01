@@ -19,15 +19,15 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: ELA.K12.EE.4.1 Use appropriate collaborative techniques and active listening
   skills when engaging in discussions in a variety of… ELA.K12.EE.5.1 Use accepted
   rules governing a specified format to create quality words. SS.7.CG.3.13 Explain
   government obligations to its citizens and the services provided at the local, state
   and national levels.
 materials: Website
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

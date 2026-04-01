@@ -29,11 +29,11 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags: []
 standards: Currently, this lesson only addresses the Wyoming Computer Science Standards.
 materials: 'Website, Slideshow website: https://tinyurl.com/4ztekzpu Checklist for
   computer parts grading template: https://tinyurl.com/yckkfv6z The teacher will also
   use his/her computer and a projector to display information to students.'
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

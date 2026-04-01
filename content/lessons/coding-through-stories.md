@@ -16,10 +16,11 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 materials: 'None, Books: If you Give a Pig a Pancake, The very Hungry Caterpillar,
   and Brown Bear, Brown Bear what do you see?. As well as a class set of of each stories
   unplugged code page.'
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

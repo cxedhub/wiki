@@ -12,9 +12,10 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 standards: 8.AP.M.01; FPA 8.1.A.3
 materials: None, Website
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

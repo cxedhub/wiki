@@ -17,8 +17,10 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags: []
 materials: None
+tags:
+- "Code.org"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

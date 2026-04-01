@@ -25,8 +25,9 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Website, Tetrix sets
+tags:
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

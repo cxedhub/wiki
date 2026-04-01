@@ -18,8 +18,10 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags: []
 materials: Website, Micro:bit
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

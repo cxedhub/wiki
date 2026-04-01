@@ -14,11 +14,11 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: MS NI.2.2, NI.2.3, IC.2.4
 materials: Website, https://mpb.pbslearningmedia.org/resource/nvcy-sci-cyber101/cybersecurity-101/
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

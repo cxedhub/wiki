@@ -23,8 +23,10 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Website, Laptops - Future sessions would require more tech.
+tags:
+- "Data Collection"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

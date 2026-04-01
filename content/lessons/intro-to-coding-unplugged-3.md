@@ -14,8 +14,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags: []
 materials: None
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

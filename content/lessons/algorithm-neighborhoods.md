@@ -22,8 +22,9 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Dash Robot by Wonder, Blockly app (Wonder) or other robot.
+tags:
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

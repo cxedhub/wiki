@@ -15,12 +15,12 @@ grade_levels:
 cs_domains:
 - Networks and The Internet
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: 'MS College and Career Readiness: Unit 5: Preparing for a Career and Internship'
 materials: Website, https://www.sans.org/ , https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt6b6beaf55a366a55/Poster_Coolest-Careers_v0322.pdf
   ,https://www.coursera.org/professional-certificates/google-cybersecurity
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

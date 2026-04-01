@@ -21,8 +21,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Micro:bit
+tags:
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

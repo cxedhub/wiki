@@ -17,9 +17,10 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: ISTE Standards
 materials: Website, Micro:bit, https://makecode.microbit.org/
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -17,9 +17,11 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: CV12.2.1, CV12.2.2, CV12.2.3, CV12.3.1, CV12.3.2, CV12.4.1
 materials: None
+tags:
+- "Data Collection"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

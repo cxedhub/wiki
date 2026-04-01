@@ -20,9 +20,11 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags: []
 standards: Refer to lesson plan
 materials: Micro:bit, Arduino
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

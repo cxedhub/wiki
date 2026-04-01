@@ -15,8 +15,10 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Developing and Using Abstractions
-tags: []
 materials: None
+tags:
+- "Data Collection"
+- "Project-Based"
 ---
 # OVERVIEW
 ## Activity Overview:  

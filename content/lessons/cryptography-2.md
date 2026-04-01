@@ -15,9 +15,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 8.AP.A.01
 materials: None
+tags:
+- "Cybersecurity"
 ---
 # OVERVIEW
 ## Activity Overview:  

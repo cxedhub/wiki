@@ -14,10 +14,12 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-tags: []
 standards: W.1 Opinion and W.2 Informative Writing as well as Speaking and Listening
   SL.1
 materials: Website, Micro:bit, https://www.commonsense.org/education/digital-passport
+tags:
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

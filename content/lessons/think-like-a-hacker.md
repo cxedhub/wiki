@@ -21,8 +21,9 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Website, http://www.pbs.org/wgbh/nova/labs/lab/cyber/research#/newuser
+tags:
+- "Cybersecurity"
 ---
 # OVERVIEW
 ## Activity Overview:  

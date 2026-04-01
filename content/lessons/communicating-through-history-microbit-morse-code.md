@@ -22,9 +22,11 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: RI.4.1, RI.4.3, W.4.4, SS5.3.1, SS5.3.3, SS5.4.1, SS5.4.2
 materials: Website, Micro:bit, https://makecode.microbit.org
+tags:
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

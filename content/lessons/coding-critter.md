@@ -19,9 +19,10 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags: []
 standards: Mathematics 1b, 3a
 materials: Coding Critter
+tags:
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

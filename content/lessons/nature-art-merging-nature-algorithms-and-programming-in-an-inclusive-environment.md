@@ -23,8 +23,9 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags: []
 materials: Website, Micro:bit, https://microbit.org/teach/lessons/nature-art-unit-of-work/
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

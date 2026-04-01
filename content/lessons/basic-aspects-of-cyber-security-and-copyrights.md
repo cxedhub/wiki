@@ -18,11 +18,11 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: None
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

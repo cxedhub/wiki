@@ -16,9 +16,10 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags: []
 standards: MS-PS4-2 & MS-LS1-8
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -18,11 +18,12 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: SC.912.CS-CC.1.1  , SC.8.N.1.3, SC.8.N.1.1, SC.8.N.1.2, SC.8.N.1.5
 materials: micro:bit, Internet Access
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

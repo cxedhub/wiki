@@ -20,8 +20,9 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags: []
 materials: code.org access  Level E of the 2022 program
+tags:
+- "Code.org"
 ---
 # OVERVIEW
 ## Activity Overview:  

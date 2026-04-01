@@ -23,8 +23,10 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags: []
 materials: Sphero
+tags:
+- "Project-Based"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

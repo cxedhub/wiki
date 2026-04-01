@@ -20,8 +20,8 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Cublet
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

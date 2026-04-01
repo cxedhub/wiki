@@ -20,9 +20,11 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: CV8.5.3, CV8.5.4, ISTE 1.3
 materials: Website, Micro:bit
+tags:
+- "Web Design"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -22,9 +22,10 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 2.CS.T.01, 2.DA.CVT.01, 2.AP.A.01
 materials: Funny Gears & Bricks Set
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

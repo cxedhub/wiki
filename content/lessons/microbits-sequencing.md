@@ -14,9 +14,10 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 standards: NA
 materials: Website, https://makecode.microbit.org/
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

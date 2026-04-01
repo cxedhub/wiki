@@ -20,10 +20,11 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags: []
 standards: '*5.NI.C.01 Discuss real-world cybersecurity problems and identify and
   implement appropriate strategies for how personal information can be protected.'
 materials: Website
+tags:
+- "Cybersecurity"
 ---
 # OVERVIEW
 ## Activity Overview:  

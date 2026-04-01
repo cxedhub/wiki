@@ -18,13 +18,13 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Collaborating Around Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: 'Domain: Development and Learning Standard Area: Development Content Standard
   2: Theories of lifespan development 2.2 Discuss theories of moral development Content
   Standard 6: Adolescence 6.2 Describe the development of reasoning and morality'
 materials: Website, https://www.ethicalsystems.org/cheating-honesty/
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

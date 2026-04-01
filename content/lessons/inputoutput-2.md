@@ -18,8 +18,10 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Javascript
+tags:
+- "Code.org"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -14,12 +14,13 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- GenCyber
-- Lesson Plan
 standards: Future CyberSecurity Specialist will need to have an understanding of the
   importance of cyber information in society today and the need to secure this information.
 materials: Website, micro:bit
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

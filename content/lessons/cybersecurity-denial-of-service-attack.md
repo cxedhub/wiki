@@ -16,11 +16,11 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
-tags:
-- GenCyber
-- Lesson Plan
 standards: MS-ETS1-3 MS-ETS1-4
 materials: None
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

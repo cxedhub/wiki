@@ -18,9 +18,10 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags: []
 standards: ELA SL.K.6, SL.K.3 Math K.CC.A2       2.AP.A.01, 2.AP.C.01
 materials: None
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

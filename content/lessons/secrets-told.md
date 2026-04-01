@@ -19,9 +19,6 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: 'MS: Contemporary Health: Unit 1: 3. Recognize the benefits of being a
   wise consumer. MS: Contemporary Health: Unit 1: 4. Analyze the influence of culture,
   media, technology, and other factors on health. MS: Contemporary Health: Unit 9:
@@ -30,6 +27,9 @@ standards: 'MS: Contemporary Health: Unit 1: 3. Recognize the benefits of being 
   and working in in an interconnected digital world, and they act and model in ways
   that are safe, legal and ethical.'
 materials: Website, Copy of True Whispers
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

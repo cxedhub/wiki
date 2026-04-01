@@ -21,8 +21,10 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: None
+tags:
+- "Data Collection"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

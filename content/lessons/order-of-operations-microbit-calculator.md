@@ -14,10 +14,11 @@ grade_levels:
 cs_domains:
 - Computing Systems
 - Algorithms and Programming
-tags: []
 standards: 5.0a.1  Use parentheses, brackets, or braces in numerical expressions,
   and evaluate expressions with these symbols
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

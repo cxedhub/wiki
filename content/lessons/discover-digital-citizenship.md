@@ -23,8 +23,8 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags: []
 materials: Website, Google Email, Google Slides, Google Docs
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

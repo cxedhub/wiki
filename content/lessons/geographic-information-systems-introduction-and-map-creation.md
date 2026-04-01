@@ -23,8 +23,9 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags: []
 materials: Website, Laptops and possible ArcGIS software
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

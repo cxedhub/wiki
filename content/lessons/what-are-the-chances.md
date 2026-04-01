@@ -16,9 +16,11 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags: []
 standards: Common Core NS
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

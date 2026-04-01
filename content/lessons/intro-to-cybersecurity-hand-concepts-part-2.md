@@ -21,11 +21,12 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

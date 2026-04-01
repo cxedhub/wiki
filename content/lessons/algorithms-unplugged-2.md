@@ -24,9 +24,11 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 3-5.AP.C.01, 3-5.AP.M.01, K-2.AP.A.01, K-2.AP.C.0, K-2.AP.M.01
 materials: graph paper, sticky notes, markers, gym/hall with square tile floor
+tags:
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

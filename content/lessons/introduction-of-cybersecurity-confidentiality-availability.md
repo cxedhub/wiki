@@ -14,11 +14,11 @@ grade_levels:
 cs_domains:
 - Networks and The Internet
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

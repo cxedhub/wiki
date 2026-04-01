@@ -20,9 +20,9 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags: []
 standards: 5.IC.C.01
 materials: Website
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

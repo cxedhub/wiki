@@ -15,11 +15,12 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website, micro:bit, HANDbook
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

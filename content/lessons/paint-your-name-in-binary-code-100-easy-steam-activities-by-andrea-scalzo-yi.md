@@ -17,9 +17,10 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Creating Computational Artifacts
-tags: []
 standards: Unsure
 materials: None
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

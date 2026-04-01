@@ -21,11 +21,12 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: SC.68.CS-CS.2.1
 materials: micro:bit
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

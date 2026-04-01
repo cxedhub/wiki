@@ -19,9 +19,10 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags: []
 materials: Sing along video of the song or a decent singing voice and probably a robot
   geared toward primary students like Beebot or Ozbot
+tags:
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

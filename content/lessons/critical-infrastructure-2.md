@@ -25,11 +25,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: FL EPRS
 materials: micro:bit
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

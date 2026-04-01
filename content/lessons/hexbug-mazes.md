@@ -25,8 +25,10 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: HexBug
+tags:
+- "Project-Based"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  
