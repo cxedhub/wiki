@@ -1,7 +1,7 @@
 ---
 title: Gesturing for Cybersecurity
 description: Students will receive a demonstration and introduction to using a Mnemonic to help them understand and recall the areas of focus in Cybersecurity. Students will collaborate to create and record a visual production to demonstrate the Mnemonic device.
-date: '7/13/2023 19:34:26'
+date: '2023-07-13T19:34:26'
 draft: false
 author: Billie Rainey
 subjects:

@@ -1,7 +1,7 @@
 ---
 title: 'Cybersecurity: Denial of Service Attack'
 description: 'In this fun lesson plan, students will model one type of attack (a denial-of-service attack) and figure out how to protect the network against it (no computer programming required)!'
-date: '7/14/2023 14:35:59'
+date: '2023-07-14T14:35:59'
 draft: false
 author: Jumoke Adebimpe
 subjects:

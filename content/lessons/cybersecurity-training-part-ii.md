@@ -1,7 +1,7 @@
 ---
 title: Cybersecurity Training part II
 description: 'How are devices that are not physically connected able to communicate? micro:bits will be used to help students understand and demonstrate how devices communicate with each other.'
-date: '7/14/2023 12:55:10'
+date: '2023-07-14T12:55:10'
 draft: false
 author: Genel Jasmin
 subjects:

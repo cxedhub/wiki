@@ -1,7 +1,7 @@
 ---
 title: Thinking Cyber
 description: 'I intend to use the idea of Cyber Security to introduce safe processes when preparing for my class, I do a break-up DBQ which follows a students relationship which I will add the security portion to, and last hitting Modern World History in terms of the new non-traditional battle space not in the traditional set piece way (tanks & foot soldiers)'
-date: '7/13/2023 12:37:52'
+date: '2023-07-13T12:37:52'
 draft: false
 author: Jerry Updike
 subjects:

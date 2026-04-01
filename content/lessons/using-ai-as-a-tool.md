@@ -1,7 +1,7 @@
 ---
 title: Using AI As A Tool
 description: Students will learn about the potential of AI as a tool and how it can be used to enhance various tasks.
-date: '7/15/2023 20:51:03'
+date: '2023-07-15T20:51:03'
 draft: false
 author: Stephen Callum
 subjects:

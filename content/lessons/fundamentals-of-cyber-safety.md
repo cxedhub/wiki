@@ -1,7 +1,7 @@
 ---
 title: Fundamentals of Cyber Safety
 description: 'Students will listen to a short presentation about three of the six cybersecurity hand concepts. Students will then be introduced to the micro:bit through video and live demonstrations. and then we will move to the make code website.'
-date: '7/13/2023 21:23:13'
+date: '2023-07-13T21:23:13'
 draft: false
 author: Genel Jasmin
 subjects:

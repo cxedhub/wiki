@@ -1,7 +1,7 @@
 ---
 title: Talk to the Hand
 description: This is practicing lesson plan for Thinking like an Adversary and the Availability.
-date: '7/14/2023 14:04:58'
+date: '2023-07-14T14:04:58'
 draft: false
 author: Everett Fleming
 subjects:

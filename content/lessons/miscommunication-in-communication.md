@@ -1,7 +1,7 @@
 ---
 title: Miscommunication in Communication
 description: 'For the Nature of Science students are practicing going through steps in scientific inquiry.  Students need to understand that scientist research, analyze, systems to test the integrity of a system. Students will use the scientific method to analyze the  integrity, confidentiality and the depth of defense   of a social media platform'
-date: '7/14/2023 12:45:21'
+date: '2023-07-14T12:45:21'
 draft: false
 author: 'Jesica Jones-Saka'
 subjects:
