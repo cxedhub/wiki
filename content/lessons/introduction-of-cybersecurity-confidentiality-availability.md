@@ -13,7 +13,7 @@ grade_levels:
 - 6-8
 cs_domains:
 - Networks and The Internet
-cs_principles:[]
+cs_principles: []
 tags:
 - cybersecurity
 - gencyber

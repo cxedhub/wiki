@@ -10,8 +10,8 @@ subjects:
 - Technology
 grade_levels:
 - 6-8
-cs_domains:[]
-cs_principles:[]
+cs_domains: []
+cs_principles: []
 tags:
 - cybersecurity
 - gencyber
