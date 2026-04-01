@@ -21,9 +21,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Science
+tags: []
 standards: 5-ESS2-2
 materials: Website, iPads, Microsft Excel
 ---

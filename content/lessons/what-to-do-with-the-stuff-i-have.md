@@ -7,8 +7,8 @@ date: '2022-09-18 00:00:00+00:00'
 draft: false
 author: Will Barnes
 subjects:
-- Computer Science
 - Art
+- Computer Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -19,9 +19,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Developing and Using Abstractions
-tags:
-- computer science
-- Art
+tags: []
 materials: Website
 ---
 # OVERVIEW

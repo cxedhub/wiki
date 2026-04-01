@@ -21,9 +21,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- computer science
-- Science
+tags: []
 standards: 'NGSS: MS-LS1-1, 1-8, 1-3'
 materials: Website, CODIS website
 ---

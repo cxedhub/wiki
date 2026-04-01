@@ -8,9 +8,9 @@ date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Shirley Johns
 subjects:
+- Art
 - Computer Science
 - Mathematics
-- Art
 grade_levels:
 - 6-8
 cs_domains:
@@ -21,10 +21,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Art
+tags: []
 materials: Poster board/paper and markers
 ---
 # OVERVIEW

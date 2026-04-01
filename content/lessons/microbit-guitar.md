@@ -18,9 +18,7 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Science
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

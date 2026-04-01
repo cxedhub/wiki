@@ -8,8 +8,8 @@ draft: false
 author: Samantha Schwessinger
 subjects:
 - Computer Science
-- Science
 - Reading/Language Arts
+- Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -17,10 +17,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
-tags:
-- computer science
-- Science
-- Reading/Language Arts
+tags: []
 materials: Micro:bit, gator clips and different materials that conduct and don't
 ---
 # OVERVIEW

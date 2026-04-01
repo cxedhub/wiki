@@ -7,20 +7,16 @@ draft: false
 author: Tara Taliaferro
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Science
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Mathematics
-- Science
-- Engineering
+tags: []
 materials: Website, https://pltw.read.inkling.com/a/b/c81739657f764e5d82bdb800b594b20b/p/a6414e9e60bc4888843295ab7573b9e1https://pltw.read.inkling.com/a/b/15e3927999d548049051312d8519e56b/p/2e50ab8a10274eb89aac95408a7cece5
 ---
 # OVERVIEW

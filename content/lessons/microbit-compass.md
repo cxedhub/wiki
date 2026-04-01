@@ -8,11 +8,11 @@ draft: false
 author: Samantha Schwessinger
 subjects:
 - Computer Science
-- Mathematics
-- Science
-- Reading/Language Arts
-- Technology
 - Engineering
+- Mathematics
+- Reading/Language Arts
+- Science
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -20,13 +20,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
+tags: []
 standards: Science-MS-ESS2-2,Language Arts-WHST.6-8.2Mathematics-MP.2
 materials: Micro:bit
 ---

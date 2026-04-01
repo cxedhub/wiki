@@ -15,12 +15,14 @@ cs_domains:
 cs_principles:
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- reading/language arts
-standards: 'ELA.9.R.1.3: Analyze the influence of narrator perspective on a text, explaining how the author creates irony or satire. ELA.9.R.1.1: Explain how key elements enhance or add layers of meaning and/or style in a literary text. ELA.9.C.1.4: Write expository texts to explain and analyze information from multiple sources, using a logical organization, varied purposeful transitions, and a tone appropriate to the task.'
+- GenCyber
+- Lesson Plan
+standards: 'ELA.9.R.1.3: Analyze the influence of narrator perspective on a text,
+  explaining how the author creates irony or satire. ELA.9.R.1.1: Explain how key
+  elements enhance or add layers of meaning and/or style in a literary text. ELA.9.C.1.4:
+  Write expository texts to explain and analyze information from multiple sources,
+  using a logical organization, varied purposeful transitions, and a tone appropriate
+  to the task.'
 materials: None
 ---
 ## OVERVIEW

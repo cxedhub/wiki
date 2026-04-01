@@ -17,9 +17,7 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website, Micro:bit, www.makecode.microbit.org
 ---
 # OVERVIEW

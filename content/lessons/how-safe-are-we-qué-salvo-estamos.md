@@ -1,25 +1,24 @@
 ---
-title: 'How safe are we? ¿Qué salvo estamos?'
-description: 'I am planning to work with Spanish speaking students and parents after school,using your resources show them what to look for when someone contacts them through email and such. I want to create Awareness and not to be afraid to ask questions.'
+title: How safe are we? ¿Qué salvo estamos?
+description: I am planning to work with Spanish speaking students and parents after
+  school,using your resources show them what to look for when someone contacts them
+  through email and such. I want to create Awareness and not to be afraid to ask questions.
 date: '2023-07-14T13:28:51'
 draft: false
 author: Emilia Figueroa
 subjects:
-- Foreign Language / Spanish
 - Cybersecurity
+- World Languages
 grade_levels:
 - 9-12
 cs_domains:
 - Networks and The Internet
 cs_principles: []
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- foreign language / spanish
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, micro:bit'
+materials: Website, micro:bit
 ---
 ## OVERVIEW
 

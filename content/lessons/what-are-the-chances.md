@@ -16,9 +16,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: Common Core NS
 materials: Micro:bit
 ---

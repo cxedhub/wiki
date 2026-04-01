@@ -10,10 +10,10 @@ date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Laramie McCullough
 subjects:
-- Computer Science
-- Technology
-- Engineering
 - Art
+- Computer Science
+- Engineering
+- Technology
 grade_levels:
 - 6-8
 - 9-12
@@ -23,11 +23,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Engineering
-- Art
+tags: []
 materials: Micro:bit, RGB Light Strip(Instruction attached with how to make)
 ---
 # OVERVIEW

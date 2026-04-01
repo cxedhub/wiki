@@ -9,7 +9,6 @@ author: Sarah McKenzie
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Writing
 grade_levels:
 - K-2
 cs_domains:
@@ -18,10 +17,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Writing
+tags: []
 standards: CCSS.ELA-LITERACY.W.1.1
 materials: Book Creation App on I-Pad
 ---

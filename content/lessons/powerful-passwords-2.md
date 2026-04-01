@@ -19,9 +19,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website
 ---
 # OVERVIEW

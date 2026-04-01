@@ -16,9 +16,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
 ---
 # OVERVIEW

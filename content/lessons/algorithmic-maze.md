@@ -6,8 +6,8 @@ date: '2022-09-16 00:00:00+00:00'
 draft: false
 author: Garrid Halsey
 subjects:
-- Computer Science
 - Art
+- Computer Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -16,9 +16,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Art
+tags: []
 materials: None
 ---
 # OVERVIEW

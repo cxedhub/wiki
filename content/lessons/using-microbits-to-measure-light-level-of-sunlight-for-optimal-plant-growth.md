@@ -10,13 +10,13 @@ date: '2020-07-24 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
 subjects:
+- Career and Technical Education
 - Computer Science
-- Mathematics
-- Science
-- Reading/Language Arts
-- Technology
 - Engineering
-- Career and Vocational Ed. Connections
+- Mathematics
+- Reading/Language Arts
+- Science
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -25,14 +25,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
-- Career and Vocational Ed. Connections
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

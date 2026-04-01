@@ -1,13 +1,16 @@
 ---
-title: 'Secrets Told!'
-description: 'Kids love to talk in code so parents and teachers can''t figure out what they are saying. Enter the world of emojis and text acronyms such as "TBH" and "IDK." The codes can (and have been) broken. The history behind code is long and intricate. Below are examples of how code exists now and in the past.'
+title: Secrets Told!
+description: Kids love to talk in code so parents and teachers can't figure out what
+  they are saying. Enter the world of emojis and text acronyms such as "TBH" and "IDK."
+  The codes can (and have been) broken. The history behind code is long and intricate.
+  Below are examples of how code exists now and in the past.
 date: '2023-09-13T09:10:45'
 draft: false
 author: Holley Nichols
 subjects:
 - Computer Science
-- Technology
 - Engineering
+- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -17,14 +20,16 @@ cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- technology
-- engineering
-standards: 'MS: Contemporary Health: Unit 1: 3. Recognize the benefits of being a wise consumer. MS: Contemporary Health: Unit 1: 4. Analyze the influence of culture, media, technology, and other factors on health. MS: Contemporary Health: Unit 9: 1. Discuss promotion of safety. MS: 21st Century Skills: T2: Digital Citizenship: Students recognize the rights, responsibilities, and opportunities of living, learning and working in in an interconnected digital world, and they act and model in ways that are safe, legal and ethical.'
-materials: 'Website, Copy of True Whispers'
+- GenCyber
+- Lesson Plan
+standards: 'MS: Contemporary Health: Unit 1: 3. Recognize the benefits of being a
+  wise consumer. MS: Contemporary Health: Unit 1: 4. Analyze the influence of culture,
+  media, technology, and other factors on health. MS: Contemporary Health: Unit 9:
+  1. Discuss promotion of safety. MS: 21st Century Skills: T2: Digital Citizenship:
+  Students recognize the rights, responsibilities, and opportunities of living, learning
+  and working in in an interconnected digital world, and they act and model in ways
+  that are safe, legal and ethical.'
+materials: Website, Copy of True Whispers
 ---
 ## OVERVIEW
 

@@ -13,8 +13,7 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
+tags: []
 materials: None
 ---
 # OVERVIEW

@@ -20,10 +20,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
+tags: []
 standards: SCI.GPS.2.3 Students will use models to compare nuclear processes and the
   energy they release. (i.e. radioactivity, nuclear fusion, and nuclear fission).
   HS-PS3-4

@@ -17,10 +17,7 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
+tags: []
 standards: CCSS.ELA-LITERACY.RF.2.3.F
 materials: Kibo or Bee Bot
 ---

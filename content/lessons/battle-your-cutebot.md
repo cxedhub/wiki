@@ -17,8 +17,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

@@ -17,11 +17,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Technology
+tags: []
 standards: 2.CS.D.01, K-2-ETS1-1.
 materials: Micro:bit, Arduino
 ---

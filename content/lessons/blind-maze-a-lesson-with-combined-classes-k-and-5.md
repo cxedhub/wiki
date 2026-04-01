@@ -17,9 +17,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 standards: 'CCSS: ELA SL.5.1, SL.K.6'
 materials: None
 ---

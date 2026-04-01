@@ -9,7 +9,6 @@ subjects:
 - Computer Science
 - Reading/Language Arts
 - Technology
-- Speaking/Listening
 grade_levels:
 - K-2
 - 3-5
@@ -20,11 +19,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Speaking/Listening
+tags: []
 materials: Website, https://makecode.microbit.org/
 ---
 # OVERVIEW

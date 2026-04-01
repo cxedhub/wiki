@@ -20,10 +20,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Music
+tags: []
 standards: 8.EE.B.3; 8.AP.N.01-2
 materials: Website, Youtube
 ---

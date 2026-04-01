@@ -10,8 +10,8 @@ author: Krista Sweckard
 subjects:
 - Computer Science
 - Mathematics
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 grade_levels:
 - K-2
 cs_domains:
@@ -22,11 +22,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Social Studies
-- Reading/Language Arts
+tags: []
 materials: Dash Robot by Wonder, Blockly app (Wonder) or other robot.
 ---
 # OVERVIEW

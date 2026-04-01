@@ -7,10 +7,10 @@ date: '2021-03-05 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
 subjects:
-- Computer Science
-- Technology
-- Engineering
 - Art
+- Computer Science
+- Engineering
+- Technology
 grade_levels:
 - 3-5
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Engineering
-- Art
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

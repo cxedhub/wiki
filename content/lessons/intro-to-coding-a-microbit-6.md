@@ -11,7 +11,6 @@ subjects:
 - Computer Science
 - Reading/Language Arts
 - Technology
-- Speaking and Listening
 grade_levels:
 - K-2
 - 3-5
@@ -22,11 +21,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Speaking and Listening
+tags: []
 standards: NA
 materials: Website, Micro:bit
 ---

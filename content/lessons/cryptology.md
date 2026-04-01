@@ -1,6 +1,9 @@
 ---
 title: Cryptology
-description: 'This lesson will help students to understand cryptology.  Students will use problem solving skills to encrypt and decrypt messages.  By investigating a shift cipher, students will reinforce their understanding of the concepts of functions and transformations of functions.'
+description: This lesson will help students to understand cryptology.  Students will
+  use problem solving skills to encrypt and decrypt messages.  By investigating a
+  shift cipher, students will reinforce their understanding of the concepts of functions
+  and transformations of functions.
 date: '2023-07-13T18:01:03'
 draft: false
 author: Elizabeth Busch
@@ -14,13 +17,11 @@ cs_domains:
 - Algorithms and Programming
 cs_principles: []
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- mathematics
-standards: 'MA.912.F.2.1 Identify the effect on the graph or table of a given function after replacing f(x) by f(x) + k, for specific values of k.'
-materials: 'Website, https://www.cerias.purdue.edu/education/k-12/teaching_resources/lessons_presentations/cryptology.html'
+- GenCyber
+- Lesson Plan
+standards: MA.912.F.2.1 Identify the effect on the graph or table of a given function
+  after replacing f(x) by f(x) + k, for specific values of k.
+materials: Website, https://www.cerias.purdue.edu/education/k-12/teaching_resources/lessons_presentations/cryptology.html
 ---
 ## OVERVIEW
 

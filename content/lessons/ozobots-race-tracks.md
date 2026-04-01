@@ -22,9 +22,7 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Technology
+tags: []
 materials: Ozobot(s)
 ---
 # OVERVIEW

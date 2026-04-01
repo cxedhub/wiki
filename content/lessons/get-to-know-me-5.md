@@ -17,9 +17,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
-- Technology
+tags: []
 materials: Key Note App
 ---
 # OVERVIEW

@@ -1,6 +1,9 @@
 ---
 title: Gesturing for Cybersecurity
-description: Students will receive a demonstration and introduction to using a Mnemonic to help them understand and recall the areas of focus in Cybersecurity. Students will collaborate to create and record a visual production to demonstrate the Mnemonic device.
+description: Students will receive a demonstration and introduction to using a Mnemonic
+  to help them understand and recall the areas of focus in Cybersecurity. Students
+  will collaborate to create and record a visual production to demonstrate the Mnemonic
+  device.
 date: '2023-07-13T19:34:26'
 draft: false
 author: Billie Rainey
@@ -15,14 +18,12 @@ cs_domains:
 cs_principles:
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- reading/language arts
-- technology
-standards: ELA.7.C.5.1 Integrate diverse digital media to build cohesion in oral or written tasks.
-materials: 'Website, Recording devices on student computer, scratch.org, swivel (teacher use for recording)'
+- GenCyber
+- Lesson Plan
+standards: ELA.7.C.5.1 Integrate diverse digital media to build cohesion in oral or
+  written tasks.
+materials: Website, Recording devices on student computer, scratch.org, swivel (teacher
+  use for recording)
 ---
 ## OVERVIEW
 

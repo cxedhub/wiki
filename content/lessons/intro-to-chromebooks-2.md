@@ -14,9 +14,7 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 standards: 2.CS.HS.01
 materials: Chromebook
 ---

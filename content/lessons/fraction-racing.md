@@ -9,8 +9,8 @@ draft: false
 author: Becki Butterfield
 subjects:
 - Computer Science
-- Mathematics
 - Engineering
+- Mathematics
 grade_levels:
 - 3-5
 cs_domains:
@@ -20,10 +20,7 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Engineering
+tags: []
 standards: CCSS.MATH.CONTENT.4.MD.B.4
 materials: Micro:bit
 ---

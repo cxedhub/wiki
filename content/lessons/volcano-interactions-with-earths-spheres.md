@@ -6,10 +6,10 @@ draft: false
 author: Mandy M Sewell
 subjects:
 - Computer Science
-- Science
-- Reading/Language Arts
-- Technology
 - Engineering
+- Reading/Language Arts
+- Science
+- Technology
 grade_levels:
 - 3-5
 cs_domains:
@@ -23,12 +23,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
+tags: []
 standards: 5.ESS2.1
 materials: Website, Micro:bit
 ---

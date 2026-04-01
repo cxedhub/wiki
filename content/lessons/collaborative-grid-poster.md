@@ -10,8 +10,8 @@ date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Mackenzie Wiginton
 subjects:
-- Computer Science
 - Art
+- Computer Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -21,9 +21,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Art
+tags: []
 materials: None
 ---
 # OVERVIEW

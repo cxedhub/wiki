@@ -17,9 +17,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

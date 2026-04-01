@@ -19,9 +19,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Science
+tags: []
 standards: NGSS MS-ESS1-1
 materials: Micro:bit
 ---

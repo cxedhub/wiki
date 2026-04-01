@@ -9,8 +9,8 @@ date: '2021-07-29 00:00:00+00:00'
 draft: false
 author: Mackenzie Wiginton
 subjects:
-- Computer Science
 - Art
+- Computer Science
 grade_levels:
 - 3-5
 cs_domains:
@@ -20,9 +20,7 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
-tags:
-- computer science
-- Art
+tags: []
 materials: None
 ---
 # OVERVIEW

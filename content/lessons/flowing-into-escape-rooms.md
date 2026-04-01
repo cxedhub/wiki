@@ -16,9 +16,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: This can incorporate any math common core standard.
 materials: Website
 ---

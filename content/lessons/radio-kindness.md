@@ -10,8 +10,8 @@ subjects:
 - Computer Science
 - Science
 - Social Studies
+- Social-Emotional Learning
 - Technology
-- SEL
 grade_levels:
 - K-2
 - 3-5
@@ -24,12 +24,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Social Studies
-- Technology
-- SEL
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

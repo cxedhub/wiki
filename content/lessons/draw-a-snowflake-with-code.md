@@ -9,9 +9,9 @@ date: '2023-03-28 00:00:00+00:00'
 draft: false
 author: Michelle Black
 subjects:
+- Art
 - Computer Science
 - Mathematics
-- Art
 grade_levels:
 - 3-5
 cs_domains:
@@ -20,10 +20,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Art
+tags: []
 materials: code.org access  Level E of the 2022 program
 ---
 # OVERVIEW

@@ -10,9 +10,9 @@ draft: false
 author: Taylor Plantt
 subjects:
 - Computer Science
+- Engineering
 - Social Studies
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -23,11 +23,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Social Studies
-- Technology
-- Engineering
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

@@ -20,9 +20,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website, Micro:bit, https://makecode.microbit.org/
 ---
 # OVERVIEW

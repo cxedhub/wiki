@@ -9,12 +9,12 @@ date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Harry C Guess III
 subjects:
+- Art
 - Computer Science
-- Reading/Language Arts
-- Technology
 - Engineering
 - Music
-- Art
+- Reading/Language Arts
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -25,13 +25,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Engineering
-- Music
-- Art
+tags: []
 standards: ISTE Standards for Students and Teachers
 materials: Website, https://scratch.mit.edu/
 ---

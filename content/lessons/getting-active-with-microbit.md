@@ -12,9 +12,9 @@ draft: false
 author: Connie Hollin
 subjects:
 - Computer Science
+- Engineering
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
@@ -25,11 +25,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Technology
-- Engineering
+tags: []
 materials: 'Website, Micro:bit, Lesson plan Lesson slides Student handouts HEX files
   Other resources:  colour marker pens MakeCode editor micro:bits (optional) paper
   - large sheets printouts of slides stacking games student work from previous lesson

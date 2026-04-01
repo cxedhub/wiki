@@ -19,9 +19,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 standards: 2. CS.D.01
 materials: Google Slides
 ---

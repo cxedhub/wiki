@@ -1,7 +1,7 @@
 ---
 title: 'Intro to Coding: Unplugged'
-description: 'Understanding Coding: How students use an algorithm in an unplugged lesson.
-  Students maneuver an object from start to end, using direction cards.'
+description: 'Understanding Coding: How students use an algorithm in an unplugged
+  lesson. Students maneuver an object from start to end, using direction cards.'
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Minda Blevins
@@ -13,8 +13,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
+tags: []
 standards: K.AP.A.01 With guidance, model daily processes and follow algorithms (sets
   of step-by-step instructions) to complete tasks (e.g., verbally, kinesthetically,
   with robot devices, or a programing language).

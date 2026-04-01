@@ -22,9 +22,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 standards: Math-K.MD.B.3, K.CC.A.3  ELA.W.K.3, RF.K.2, W.K.8
 materials: Wonder Robots, I-Pad
 ---

@@ -16,9 +16,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website
 ---
 # OVERVIEW

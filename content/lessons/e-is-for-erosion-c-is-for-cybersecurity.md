@@ -22,10 +22,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Science
-- Technology
+tags: []
 materials: None
 ---
 # OVERVIEW

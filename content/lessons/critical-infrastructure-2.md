@@ -1,15 +1,16 @@
 ---
 title: Critical Infrastructure 2
-description: Students will be able to demonstrate foundational knowledge and skills that are related to cybersecurity
+description: Students will be able to demonstrate foundational knowledge and skills
+  that are related to cybersecurity
 date: '2023-07-14T11:52:00'
 draft: false
 author: Timothy Grier
 subjects:
 - Computer Science
+- Engineering
+- Science
 - Social Studies
 - Technology
-- Engineering
-- Emergency Planning and Response Studies
 grade_levels:
 - 9-12
 cs_domains:
@@ -25,16 +26,10 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- social studies
-- technology
-- engineering
-- emergency planning and response studies
+- GenCyber
+- Lesson Plan
 standards: FL EPRS
-materials: 'micro:bit'
+materials: micro:bit
 ---
 ## OVERVIEW
 

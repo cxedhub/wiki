@@ -13,7 +13,6 @@ subjects:
 - Computer Science
 - Reading/Language Arts
 - Technology
-- Speaking/Listening
 grade_levels:
 - K-2
 - 3-5
@@ -23,11 +22,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Speaking/Listening
+tags: []
 standards: RF1.4, 2.4, 3.4; SL 1.1, 2.1, 3.1; SL 1.3, 2.3; SL 1.6, 2.6, 3.6
 materials: Keynote software
 ---

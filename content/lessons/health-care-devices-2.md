@@ -19,10 +19,7 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Technology
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

@@ -8,18 +8,15 @@ draft: false
 author: Tara Taliaferro
 subjects:
 - Computer Science
-- Science
 - Engineering
+- Science
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Science
-- Engineering
+tags: []
 materials: None
 ---
 # OVERVIEW

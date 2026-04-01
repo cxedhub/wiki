@@ -19,10 +19,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
+tags: []
 standards: CCSS.SL.5.1 ; CCSS.L.5.4c
 materials: Website, Computer
 ---

@@ -10,22 +10,17 @@ draft: false
 author: Samantha Schwessinger
 subjects:
 - Computer Science
-- Science
-- Reading/Language Arts
-- Technology
 - Engineering
+- Reading/Language Arts
+- Science
+- Technology
 grade_levels:
 - 6-8
 cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
+tags: []
 standards: MS-ESS2-1,MS-ETS1-4 and standards and appendix CS Practice 4.3
 materials: Micro:bit
 ---

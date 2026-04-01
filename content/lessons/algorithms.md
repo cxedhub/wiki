@@ -7,9 +7,9 @@ draft: false
 author: Christy Rodgers
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -21,11 +21,7 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Technology
-- Engineering
+tags: []
 materials: Website
 ---
 # OVERVIEW

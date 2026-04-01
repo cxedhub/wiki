@@ -10,9 +10,9 @@ draft: false
 author: Kalista Pendleton
 subjects:
 - Computer Science
+- Engineering
 - Reading/Language Arts
 - Technology
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
@@ -23,11 +23,7 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
-- Engineering
+tags: []
 materials: Sphero
 ---
 # OVERVIEW

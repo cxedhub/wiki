@@ -15,7 +15,6 @@ author: Alicia Vonberg
 subjects:
 - Computer Science
 - Technology
-- Computer Science and Robotics Club
 grade_levels:
 - 6-8
 cs_domains:
@@ -25,10 +24,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Technology
-- Computer Science and Robotics Club
+tags: []
 materials: Website
 ---
 # OVERVIEW

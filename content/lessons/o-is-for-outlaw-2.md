@@ -11,8 +11,8 @@ draft: false
 author: Katie Cline
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 - Technology
 grade_levels:
 - 3-5
@@ -20,11 +20,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Social Studies
-- Reading/Language Arts
-- Technology
+tags: []
 standards: SS5.6.3
 materials: None
 ---

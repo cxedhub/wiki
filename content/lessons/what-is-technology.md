@@ -16,9 +16,7 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
-- Social Studies
+tags: []
 standards: 8.CS.HS.01
 materials: cameras, ipods, watch, cellphones, toothbrush, pencils, etc.
 ---

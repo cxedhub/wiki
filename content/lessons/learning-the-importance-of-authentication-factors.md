@@ -15,8 +15,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- computer science
+tags: []
 materials: Locked Mystery Box, IPads, Login Sheets
 ---
 # OVERVIEW

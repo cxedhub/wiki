@@ -18,9 +18,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 standards: 2.CS.HS.01
 materials: Chromebook with access to Google Slides
 ---

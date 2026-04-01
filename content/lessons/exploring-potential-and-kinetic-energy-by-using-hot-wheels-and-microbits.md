@@ -22,10 +22,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Science
-- Technology
+tags: []
 standards: 'NGSS: MS-PS3-1, MS-PS3-2'
 materials: Micro:bit, hot wheels or some other type of toy car, ramp, duct tape, computers
   to upload data, lab worksheet or form.

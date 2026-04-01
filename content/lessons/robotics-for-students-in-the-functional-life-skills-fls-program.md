@@ -13,10 +13,10 @@ draft: false
 author: Devin Hodgins
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -31,12 +31,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Technology
-- Engineering
+tags: []
 standards: 'Extended Standards for Students with Complex Needs: SES-MS-ETS1-1; SES-MS-ETS1-2.;
   SES-MS-ETS1-3; SES-MS-ETS1-4'
 materials: 'Sphero, Osmo, iPad, epic!: https://www.getepic.com/app/read/75256'

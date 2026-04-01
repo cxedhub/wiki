@@ -9,10 +9,9 @@ draft: false
 author: Garrid Halsey
 subjects:
 - Computer Science
+- Engineering
 - Social Studies
 - Technology
-- Engineering
-- Critical Thinking Skills
 grade_levels:
 - 6-8
 cs_domains:
@@ -20,12 +19,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Social Studies
-- Technology
-- Engineering
-- Critical Thinking Skills
+tags: []
 materials: Website, https://www.moralmachine.net/
 ---
 # OVERVIEW

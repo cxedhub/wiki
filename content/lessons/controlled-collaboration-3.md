@@ -15,10 +15,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
+tags: []
 standards: 3.RI.2/3.W.6b
 materials: One computer per student/pair and access to the Google suite
 ---

@@ -8,8 +8,8 @@ date: '2020-07-10 00:00:00+00:00'
 draft: false
 author: Nate Reinhardt
 subjects:
-- Computer Science
 - Business
+- Computer Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -17,9 +17,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Business
+tags: []
 standards: CV12.2.1, CV12.2.2, CV12.2.3, CV12.3.1, CV12.3.2, CV12.4.1
 materials: None
 ---

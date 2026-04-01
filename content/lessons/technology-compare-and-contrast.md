@@ -8,7 +8,6 @@ author: Megan Moore
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Writing
 grade_levels:
 - 3-5
 cs_domains:
@@ -17,10 +16,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Writing
+tags: []
 materials: 'None, Website, Teachers Pay Teachers: Paired Text Passages'
 ---
 # OVERVIEW

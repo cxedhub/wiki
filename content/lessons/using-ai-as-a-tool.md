@@ -1,12 +1,13 @@
 ---
 title: Using AI As A Tool
-description: Students will learn about the potential of AI as a tool and how it can be used to enhance various tasks.
+description: Students will learn about the potential of AI as a tool and how it can
+  be used to enhance various tasks.
 date: '2023-07-15T20:51:03'
 draft: false
 author: Stephen Callum
 subjects:
-- Social Studies
 - Cybersecurity
+- Social Studies
 grade_levels:
 - 9-12
 cs_domains:
@@ -15,13 +16,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- social studies
-- cybersecurity
+- GenCyber
+- Lesson Plan
 standards: N/A
-materials: 'Website, ChatGPT'
+materials: Website, ChatGPT
 ---
 ## OVERVIEW
 

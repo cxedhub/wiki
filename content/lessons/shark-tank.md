@@ -7,23 +7,18 @@ date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Shirley Johns
 subjects:
+- Art
 - Computer Science
+- Engineering
 - Mathematics
 - Technology
-- Engineering
-- Art
 grade_levels:
 - 6-8
 cs_domains:
 - Networks and The Internet
 - Data Analysis
 - Impacts of Computing
-tags:
-- computer science
-- Mathematics
-- Technology
-- Engineering
-- Art
+tags: []
 materials: None
 ---
 # OVERVIEW

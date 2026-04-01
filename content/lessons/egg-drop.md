@@ -17,10 +17,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Science
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

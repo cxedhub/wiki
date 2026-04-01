@@ -10,19 +10,15 @@ author: Melissa Skinner
 subjects:
 - Computer Science
 - Mathematics
-- Science
 - Reading/Language Arts
+- Science
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
+tags: []
 standards: 3ESS2-2   RI.3.1 3.MD.G.2
 materials: Website, Mystery Science, Readworks
 ---

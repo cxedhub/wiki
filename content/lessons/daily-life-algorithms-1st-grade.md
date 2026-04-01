@@ -23,8 +23,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
+tags: []
 standards: Currently, this lesson/activity addresses the Wyoming Computer Science
   Standards only.
 materials: 'Website, The teacher will use a computer to present, the students will

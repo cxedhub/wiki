@@ -7,7 +7,7 @@ date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Selena Pope
 subjects:
-- Programming Logic and Design - Python
+- Computer Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -15,9 +15,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Programming Logic and Design - Python
+tags: []
 standards: Wyoming BootUp L1.AP.C.01, L2. AP.C.01, L1.AP.C.02
 materials: Raspberry Pi, Python friendly IDE
 ---

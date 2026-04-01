@@ -19,10 +19,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
-- Technology
+tags: []
 materials: Ozobots
 ---
 # OVERVIEW

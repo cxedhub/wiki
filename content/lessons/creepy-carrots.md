@@ -7,19 +7,15 @@ draft: false
 author: Jeanie Sanders
 subjects:
 - Mathematics
-- Science
 - Reading/Language Arts
+- Science
 grade_levels:
 - K-2
 cs_domains:
 - Data Analysis
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
+tags: []
 materials: None
 ---
 # OVERVIEW

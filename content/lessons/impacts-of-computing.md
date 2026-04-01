@@ -15,9 +15,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Reading/Language Arts
+tags: []
 standards: W2.6, W2.8, SL2.1,
 materials: Website, commonsense.org
 ---

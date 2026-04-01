@@ -17,9 +17,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: Operations and Algebraic Thinking, Computer Science
 materials: Website, Micro:bit
 ---

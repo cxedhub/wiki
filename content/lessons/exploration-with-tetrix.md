@@ -8,12 +8,12 @@ date: '2023-04-26 00:00:00+00:00'
 draft: false
 author: Melissa Harris
 subjects:
-- Computer Science
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
 - Art
+- Computer Science
+- Engineering
+- Reading/Language Arts
+- Science
+- Technology
 grade_levels:
 - 3-5
 - 6-8
@@ -25,13 +25,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Reading/Language Arts
-- Technology
-- Engineering
-- Art
+tags: []
 materials: Website, Tetrix sets
 ---
 # OVERVIEW

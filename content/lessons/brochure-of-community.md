@@ -16,10 +16,7 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Creating Computational Artifacts
-tags:
-- computer science
-- Social Studies
-- Technology
+tags: []
 standards: SS5.4
 materials: Website, Google Drive
 ---

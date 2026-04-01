@@ -15,8 +15,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
+tags: []
 materials: Think and Learn Code-a-Pillar
 ---
 # OVERVIEW

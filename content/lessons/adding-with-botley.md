@@ -15,9 +15,7 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags:
-- computer science
-- Mathematics
+tags: []
 standards: Math- K.OA.D.5
 materials: Botley Robots
 ---

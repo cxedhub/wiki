@@ -24,10 +24,7 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Science
-- Technology
+tags: []
 materials: Website, Micro:bit
 ---
 # OVERVIEW

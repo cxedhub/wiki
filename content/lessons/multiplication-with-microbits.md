@@ -20,10 +20,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags:
-- computer science
-- Mathematics
-- Technology
+tags: []
 materials: Micro:bit
 ---
 # OVERVIEW

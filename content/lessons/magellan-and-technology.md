@@ -9,8 +9,8 @@ draft: false
 author: Timothy George
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 - Technology
 grade_levels:
 - 3-5
@@ -20,11 +20,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Social Studies
-- Reading/Language Arts
-- Technology
+tags: []
 materials: Website, Google Maps,
 ---
 # OVERVIEW

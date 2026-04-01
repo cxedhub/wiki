@@ -17,9 +17,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Technology
+tags: []
 materials: Website, https://beinternetawesome.withgoogle.com/en_us/interland/landing/reality-river
 ---
 # OVERVIEW

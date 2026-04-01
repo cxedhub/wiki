@@ -9,8 +9,8 @@ draft: false
 author: Maggie Unterseher
 subjects:
 - Computer Science
+- Library Media
 - Reading/Language Arts
-- Library
 grade_levels:
 - 9-12
 cs_domains:
@@ -18,10 +18,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Reading/Language Arts
-- Library
+tags: []
 standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
 materials: Micro:bit, laptop, nursery rhymes
 ---

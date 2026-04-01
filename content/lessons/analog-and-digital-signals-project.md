@@ -17,9 +17,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Science
+tags: []
 standards: Utah Science 8 Standard 8.2.6
 materials: Micro:bit, slinky, pictures of digital and analog devices
 ---

@@ -18,9 +18,7 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags:
-- computer science
-- Technology
+tags: []
 standards: 3-5.IC.SI.02
 materials: None
 ---

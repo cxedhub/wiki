@@ -7,10 +7,10 @@ draft: false
 author: Katie Cline
 subjects:
 - Computer Science
+- Engineering
 - Mathematics
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 3-5
 cs_domains:
@@ -19,12 +19,7 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Technology
-- Engineering
+tags: []
 materials: Website
 ---
 # OVERVIEW

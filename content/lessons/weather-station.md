@@ -7,9 +7,9 @@ draft: false
 author: Victoria L Davis
 subjects:
 - Computer Science
+- Engineering
 - Science
 - Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -19,11 +19,7 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Science
-- Technology
-- Engineering
+tags: []
 standards: MS-ESS2-5
 materials: Website, Micro:bit, building supplies
 ---

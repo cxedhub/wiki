@@ -9,7 +9,6 @@ draft: false
 author: Selena Pope
 subjects:
 - Computer Science
-- Java Programming
 grade_levels:
 - 9-12
 cs_domains:
@@ -19,9 +18,7 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Java Programming
+tags: []
 standards: Wyoming Boot Up L1.AP.C.01, L1.AP.C.02, L1.AP.C.03
 materials: IDE for Java
 ---

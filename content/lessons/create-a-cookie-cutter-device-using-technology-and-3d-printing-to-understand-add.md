@@ -23,10 +23,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags:
-- computer science
-- Mathematics
-- Technology
+tags: []
 standards: 4.NF.3
 materials: Website, 3D Printer
 ---

@@ -9,8 +9,8 @@ draft: false
 author: Becky Junge
 subjects:
 - Computer Science
-- Social Studies
 - Reading/Language Arts
+- Social Studies
 grade_levels:
 - 3-5
 cs_domains:
@@ -22,10 +22,7 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Social Studies
-- Reading/Language Arts
+tags: []
 standards: RI.4.1, RI.4.3, W.4.4, SS5.3.1, SS5.3.3, SS5.4.1, SS5.4.2
 materials: Website, Micro:bit, https://makecode.microbit.org
 ---

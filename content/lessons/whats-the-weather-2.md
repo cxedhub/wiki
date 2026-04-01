@@ -8,8 +8,8 @@ author: Tesha Frederick
 subjects:
 - Computer Science
 - Mathematics
-- Science
 - Reading/Language Arts
+- Science
 - Technology
 grade_levels:
 - K-2
@@ -20,12 +20,7 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- computer science
-- Mathematics
-- Science
-- Reading/Language Arts
-- Technology
+tags: []
 standards: Refer to lesson plan
 materials: Micro:bit, Arduino
 ---

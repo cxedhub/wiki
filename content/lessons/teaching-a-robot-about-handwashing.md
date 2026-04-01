@@ -18,9 +18,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags:
-- computer science
-- Health
+tags: []
 materials: Computer, Projector, and Google Slides
 ---
 # OVERVIEW

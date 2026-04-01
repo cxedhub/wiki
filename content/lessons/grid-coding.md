@@ -8,16 +8,14 @@ draft: false
 author: Jody Durst
 subjects:
 - Computer Science
-- Following directions
+- Reading/Language Arts
 grade_levels:
 - K-2
 cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags:
-- computer science
-- Following directions
+tags: []
 standards: 2.AP.A.01, 2.AP.M.01
 materials: None
 ---

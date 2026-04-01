@@ -1,12 +1,15 @@
 ---
-title: 'Do’s and Don''ts on the internet'
-description: 'Introduction:  “Today, we live in a time characterized by rapid technology transformation, and resulting social, political, and economic disruption. In its wake, few institutions have remained untouched. POST WRITTEN BY Randy Bean/Forbes Newsletter July 11,2017'
+title: Do’s and Don'ts on the internet
+description: 'Introduction:  “Today, we live in a time characterized by rapid technology
+  transformation, and resulting social, political, and economic disruption. In its
+  wake, few institutions have remained untouched. POST WRITTEN BY Randy Bean/Forbes
+  Newsletter July 11,2017'
 date: '2023-09-14T17:25:14'
 draft: false
 author: Janixa Brugos
 subjects:
-- Peer Counseling
 - Cybersecurity
+- Social-Emotional Learning
 grade_levels:
 - 6-8
 cs_domains:
@@ -14,12 +17,14 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- peer counseling
-- cybersecurity
-standards: PE.6.M.1.12 Use proper safety practices. SS.7.C.2.14 Conduct a service project to further the public good. HE.6.P.8.4 Identify ways health messages and communication techniques can be targeted for different audiences. ELA.K12.EE.1.1 Cite evidence to explain and justify reasoning. ELA.K12.EE.4.1 Use appropriate collaborative techniques and active listening skills when engaging in discussions in a variety of …
+- GenCyber
+- Lesson Plan
+standards: PE.6.M.1.12 Use proper safety practices. SS.7.C.2.14 Conduct a service
+  project to further the public good. HE.6.P.8.4 Identify ways health messages and
+  communication techniques can be targeted for different audiences. ELA.K12.EE.1.1
+  Cite evidence to explain and justify reasoning. ELA.K12.EE.4.1 Use appropriate collaborative
+  techniques and active listening skills when engaging in discussions in a variety
+  of …
 materials: None
 ---
 ## OVERVIEW

@@ -9,17 +9,15 @@ date: '2022-08-09 00:00:00+00:00'
 draft: false
 author: Ginny Nading
 subjects:
-- Computer Science
 - Art
+- Computer Science
 grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
 cs_principles:
 - Creating Computational Artifacts
-tags:
-- computer science
-- Art
+tags: []
 standards: Unsure
 materials: None
 ---

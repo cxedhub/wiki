@@ -1,6 +1,6 @@
 ---
 title: Introduction of Cybersecurity/ Confidentiality Availability
-description: '1. Test students'' prior knowledge'
+description: 1. Test students' prior knowledge
 date: '2023-07-14T15:10:49'
 draft: false
 author: Judes Francois
@@ -15,12 +15,8 @@ cs_domains:
 - Networks and The Internet
 cs_principles: []
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- reading/language arts
-- technology
+- GenCyber
+- Lesson Plan
 standards: N/A
 materials: Website
 ---

@@ -18,9 +18,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags:
-- computer science
-- Music
+tags: []
 materials: Micro:bit, Chromebook
 ---
 # OVERVIEW

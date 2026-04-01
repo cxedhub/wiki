@@ -1,14 +1,16 @@
 ---
-title: 'Surprise! We get to have new Pets!'
-description: 'This is an opportunity for students to learn more about coding through creating a micro:pet with a partner,  It will involve following directions.  It will involve design and problem solving.'
+title: Surprise! We get to have new Pets!
+description: This is an opportunity for students to learn more about coding through
+  creating a micro:pet with a partner,  It will involve following directions.  It
+  will involve design and problem solving.
 date: '2023-07-14T16:20:22'
 draft: false
 author: Phaedra Davila
 subjects:
+- Art
 - Computer Science
 - Science
 - Social Studies
-- Art
 grade_levels:
 - K-2
 - 3-5
@@ -20,15 +22,10 @@ cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- computer science
-- science
-- social studies
-- art
-standards: 'SC.68.CS-CS.2.1'
-materials: 'micro:bit'
+- GenCyber
+- Lesson Plan
+standards: SC.68.CS-CS.2.1
+materials: micro:bit
 ---
 ## OVERVIEW
 

@@ -1,12 +1,13 @@
 ---
-title: 'They''re Listening'
-description: 'This lesson is going to be about discussing internet safety, and how simple home items may be listening.'
+title: They're Listening
+description: This lesson is going to be about discussing internet safety, and how
+  simple home items may be listening.
 date: '2023-07-14T14:39:40'
 draft: false
 author: David Fonseca
 subjects:
-- Reading/Language Arts
 - Cybersecurity
+- Reading/Language Arts
 grade_levels:
 - 9-12
 cs_domains:
@@ -19,12 +20,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
 tags:
-- cybersecurity
-- gencyber
-- lesson plan
-- reading/language arts
-- cybersecurity
-standards: ELA.11.R.2.1 Evaluate the structure(s) and features in text ELA.11.R.3.4 Evaluate an author’s use of rhetoric in text.
+- GenCyber
+- Lesson Plan
+standards: ELA.11.R.2.1 Evaluate the structure(s) and features in text ELA.11.R.3.4
+  Evaluate an author’s use of rhetoric in text.
 materials: Website
 ---
 ## OVERVIEW

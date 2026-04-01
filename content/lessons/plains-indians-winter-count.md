@@ -16,9 +16,7 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-tags:
-- computer science
-- Social Studies
+tags: []
 standards: Students will research tribal life and cultures to build a basic understanding
   of Native American Tribes of Wyoming, and explain the importance of bison.
 materials: Website
