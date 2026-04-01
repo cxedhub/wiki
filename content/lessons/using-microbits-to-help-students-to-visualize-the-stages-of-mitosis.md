@@ -60,7 +60,6 @@ Students will study the process of mitosis.  Once they have an understanding of 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=13TqSb86t0LZpKZz9lpIOiLbFrCWGB7m_
 
 
 
@@ -73,7 +72,4 @@ There are ideas for addressing misconceptions of mitosis in the lesson.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | WYCSTA Standards: CS.T, L1.AP.PD.01 and AP.A
-WYScience Standards HS-LS1-4,   MS-ETLS1-1, MS-ETLS1-2WYELA Standard SL.11-12.5 
-ISTE 5a, 5b, 5c.
-NGSS HS-LS2-4, LS2-A, ETS1-B.  |
+| Other Content Standards | WYCSTA Standards: CS.T, L1.AP.PD.01 and AP.A WYScience Standards [HS-LS1-4](https://www.nextgenscience.org/search-standards?keys=HS-LS1-4),   [MS-ETLS1-1](https://www.nextgenscience.org/search-standards?keys=MS-ETLS1-1), MS-ETLS1-2WYELA Standard [SL.11-12.5](https://www.thecorestandards.org/ELA-Literacy/) [ISTE](https://www.iste.org/standards/iste-standards-for-students) 5a, 5b, 5c. NGSS [HS-LS2-4](https://www.nextgenscience.org/search-standards?keys=HS-LS2-4), LS2-A, ETS1-B.  |

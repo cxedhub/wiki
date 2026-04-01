@@ -1,7 +1,7 @@
 ---
 title: Volcano Animation
 description: Students use flowcharts and repetition to explore building a volcanic
-  eruption on a Micro|Bit.
+  eruption on a Micro:Bit.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -34,7 +34,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students use flowcharts and repetition to explore building a volcanic eruption on a Micro|Bit.
+Students use flowcharts and repetition to explore building a volcanic eruption on a Micro:Bit.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Science, Social Studies, Reading/Language Arts, Technology, Engineering 
 + *Grade Level :* 3-5 
@@ -50,7 +50,7 @@ Students use flowcharts and repetition to explore building a volcanic eruption o
 
 # Lesson Plan
 ## Overview
-Students use flowcharts and repetition to explore building a volcanic eruption on a Micro|Bit.
+Students use flowcharts and repetition to explore building a volcanic eruption on a Micro:Bit.
 ## ASSESSMENT PRE/POST-TEST
 What is the impact of a volcanic eruption?
 ## OBJECTIVES
@@ -69,7 +69,6 @@ This series of five lessons takes students through a mixture of fun unplugged an
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1-joQKismm8s5D2SSVVvgOPmZK6C3sFbs, https://drive.google.com/file/d/10AR9L8g2wx39q_VPX18FybAgQJkVa8iH, https://drive.google.com/file/d/1RwKKQAhQocK11nSAxVBYOLJmEnKh_9rc, https://drive.google.com/file/d/1K5Qm4CklAJVr4oE-LoAutX3yzpGdNUHT, https://drive.google.com/file/d/1gtmcdEIXJce9eFvdXB_SKGJIOHidEVI0
 
 
 
@@ -85,5 +84,4 @@ ln this ‘unplugged’ lesson, students reflect on their learning by decomposin
 |-----------|-----------|
 | CS Domains  | Data Analysis, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Testing and Refining Computational Artifacts|
-| Other Content Standards | 4-ESS1-1 Earth's Place in the Universe
-Identify evidence from patterns in rock formations and fossils in rock layers to support an explanation for changes in a landscape over time.  |
+| Other Content Standards | [4-ESS1-1](https://www.nextgenscience.org/search-standards?keys=4-ESS1-1) Earth's Place in the Universe Identify evidence from patterns in rock formations and fossils in rock layers to support an explanation for changes in a landscape over time.  |

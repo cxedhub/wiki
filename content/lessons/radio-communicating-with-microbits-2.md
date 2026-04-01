@@ -84,7 +84,6 @@ Your message can be coded in any way you want! Some examples include binary and 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1_E8NV6kHvSggSjai6fPeJAyJQ7p6dtek
 
 
 

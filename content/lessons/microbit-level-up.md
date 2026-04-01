@@ -1,7 +1,7 @@
 ---
-title: Micro|bit Level Up
-description: This lesson provides an introduction to micro|bits and 4 levels of activities
-  to learn about the possibilities of the micro|bit.
+title: Micro:bit Level Up
+description: This lesson provides an introduction to micro:bits and 4 levels of activities
+  to learn about the possibilities of the micro:bit.
 date: '2021-03-18 00:00:00+00:00'
 draft: false
 author: Julie Snyder
@@ -25,7 +25,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org/
 ---
 # OVERVIEW
 ## Activity Overview:  
-This lesson provides an introduction to micro|bits and 4 levels of activities to learn about the possibilities of the micro|bit.
+This lesson provides an introduction to micro:bits and 4 levels of activities to learn about the possibilities of the micro:bit.
 ## Meta description
 + *Subject Area:* Computer Science, Technology 
 + *Grade Level :* 6-8 
@@ -41,7 +41,7 @@ This lesson provides an introduction to micro|bits and 4 levels of activities to
 
 # Lesson Plan
 ## Overview
-This lesson provides an introduction to micro|bits and 4 levels of activities to learn about the possibilities of the micro|bit.
+This lesson provides an introduction to micro:bits and 4 levels of activities to learn about the possibilities of the micro:bit.
 ## ASSESSMENT PRE/POST-TEST
 What is computer science? Where are have you seen computer science in your world?
 ## OBJECTIVES
@@ -60,7 +60,6 @@ This lesson provides 4 levels along with learning support to learn the variety o
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1m47mwRwm3otXVeMNrQ9R-zsOzJcY0ZL5
 
 
 
@@ -72,4 +71,4 @@ It is a great way for students to learn how to use a micro:bit with a variety of
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | ISTE Standards  |
+| Other Content Standards | [ISTE](https://www.iste.org/standards/iste-standards-for-students) Standards  |

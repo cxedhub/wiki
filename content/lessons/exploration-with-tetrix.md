@@ -1,6 +1,6 @@
 ---
 title: Exploration with Tetrix
-description: Tetrix| In this lesson students will sort/ organize the school's Tetrix
+description: Tetrix: In this lesson students will sort/ organize the school's Tetrix
   sets to ensure each set is complete. After which, students will attempt to create
   a robot that performs functions specific to those that their group agreed upon.
   This is an exploratory lesson for students who have never used Tetrix kits before.
@@ -36,7 +36,7 @@ materials: Website, Tetrix sets
 ---
 # OVERVIEW
 ## Activity Overview:  
-Tetrix| In this lesson students will sort/ organize the school's Tetrix sets to ensure each set is complete. After which, students will attempt to create a robot that performs functions specific to those that their group agreed upon. This is an exploratory lesson for students who have never used Tetrix kits before.
+Tetrix: In this lesson students will sort/ organize the school's Tetrix sets to ensure each set is complete. After which, students will attempt to create a robot that performs functions specific to those that their group agreed upon. This is an exploratory lesson for students who have never used Tetrix kits before.
 ## Meta description
 + *Subject Area:* Computer Science, Science, Reading/Language Arts, Technology, Engineering, Art 
 + *Grade Level :* 3-5, 6-8 
@@ -52,7 +52,7 @@ Tetrix| In this lesson students will sort/ organize the school's Tetrix sets to 
 
 # Lesson Plan
 ## Overview
-Tetrix| In this lesson students will sort/ organize the school's Tetrix sets to ensure each set is complete. After which, students will attempt to create a robot that performs functions specific to those that their group agreed upon. This is an exploratory lesson for students who have never used Tetrix kits before.
+Tetrix: In this lesson students will sort/ organize the school's Tetrix sets to ensure each set is complete. After which, students will attempt to create a robot that performs functions specific to those that their group agreed upon. This is an exploratory lesson for students who have never used Tetrix kits before.
 ## ASSESSMENT PRE/POST-TEST
 Is your kit complete with all parts listed?
 What functions will your robot complete/did your robot complete the functions that you and your group members decided upon?
@@ -92,5 +92,4 @@ Group discussion: What did you build? What were you able to program your robot t
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CCSS: RI5.6, 5.7, 5.9, 5.10; SL 5.1, 5.2;
-NGSS: 3-5 ETSI-1  |
+| Other Content Standards | CCSS: RI5.6, 5.7, 5.9, 5.10; SL 5.1, 5.2; NGSS: 3-5 ETSI-1  |

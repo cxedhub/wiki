@@ -71,4 +71,4 @@ See lesson plan document for activities.
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Fostering an Inclusive Computing Culture|
-| Other Content Standards | K-2.IC.SI.01: Practice grade-level appropriate behaviors and responsibilities while participating in an online community. Identify and report inappropriate behavior  |
+| Other Content Standards | K-[2.IC.SI.01](https://edu.wyoming.gov/educators/standards/computer-science/): Practice grade-level appropriate behaviors and responsibilities while participating in an online community. Identify and report inappropriate behavior  |

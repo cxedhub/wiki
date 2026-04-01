@@ -104,7 +104,6 @@ Instruct students to complete the Reflection Form
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1YPgg5teu8xJi5qNh6jrd_tjUCzUej38jmxpyr-h0HOs
 
 
 
@@ -119,9 +118,7 @@ Reflection Form
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Developing and Using Abstractions, Communicating About Computing|
-| Other Content Standards | *Using Extended Standards for Students with Complex Needs
-
-
+| Other Content Standards | *Using Extended Standards for Students with Complex Needs  |
 Science
 
 

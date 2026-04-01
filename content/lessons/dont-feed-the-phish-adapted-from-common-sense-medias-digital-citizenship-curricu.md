@@ -64,7 +64,6 @@ I recorded a video of myself going through the slide presentation and describing
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1t15nXq7eMAGYCVpQrP00OdF6Rz9O-fJk41iULhwJSQQ
 
 
 
@@ -76,7 +75,4 @@ I recorded my lesson as a Screencastify video and posted it to my Canvas 6th gra
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | PRIORITY
-5.NI.C.01 Discuss real-world cybersecurity problems and identify and
-implement appropriate strategies for how personal information can be
-protected.  |
+| Other Content Standards | PRIORITY [5.NI.C.01](https://edu.wyoming.gov/educators/standards/computer-science/) Discuss real-world cybersecurity problems and identify and implement appropriate strategies for how personal information can be protected.  |

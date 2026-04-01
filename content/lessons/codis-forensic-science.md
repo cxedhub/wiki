@@ -104,4 +104,4 @@ Presentations from each team, whole class discussion, final submission of worksh
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Data Analysis|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing|
-| Other Content Standards | MS-LS1-1, MS-ETS1-3,  |
+| Other Content Standards | [MS-LS1-1](https://www.nextgenscience.org/search-standards?keys=MS-LS1-1), [MS-ETS1-3](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-3),  |

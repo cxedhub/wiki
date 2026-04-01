@@ -64,7 +64,6 @@ https://docs.google.com/presentation/d/1TtJaa83wF8-VrN3XenlXmOsK1B5KKooHIqYK0NX-
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1u54XhsOJi2dW3lHAvpfnaV9HNJkFdMMhLpfjYVQujv0, https://drive.google.com/file/d/1WAwQ9FkSxtrfwBqS44JWSBZP1wxuQ6QG, https://drive.google.com/file/d/1Hj8EMqN2mvkDqf2tJExlppWd0aU-C1Iz
 
 
 
@@ -76,9 +75,4 @@ Students will share their data and their presentations in a slideshow to share t
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | |
-| Other Content Standards | 3-5-ETS1-3
-4-PS3-1
-4-PS3-2
-4-ESS3-1
-5.DA.CVT.01
-5.DA.IM.01  |
+| Other Content Standards | 3-5-ETS1-3 [4-PS3-1](https://www.nextgenscience.org/search-standards?keys=4-PS3-1) [4-PS3-2](https://www.nextgenscience.org/search-standards?keys=4-PS3-2) [4-ESS3-1](https://www.nextgenscience.org/search-standards?keys=4-ESS3-1) [5.DA.CVT.01](https://edu.wyoming.gov/educators/standards/computer-science/) [5.DA.IM.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

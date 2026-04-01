@@ -61,7 +61,6 @@ Students review the 'Hello World' activity, and take the basic skills learned an
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Zyh0o7qJrcNt3nZbGHbvvC_7kaU7n6SO
 
 
 
@@ -73,5 +72,4 @@ To wrap up this activity, students will show their designs and be given two addi
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | CSCB.3.1
-CSCB.3.2  |
+| Other Content Standards | CSCB.3.1 CSCB.3.2  |

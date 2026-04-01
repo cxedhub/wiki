@@ -1,9 +1,9 @@
 ---
 title: The Hardware/Software Connection
 description: Students will learn about how hardware needs software in order for it
-  to do something. Students will create a program for the micro|bit to display different
+  to do something. Students will create a program for the micro:bit to display different
   icons on the LEDs. They will use the finite and infinite loops to create a flashing
-  pattern on the micro|bit and then create their own icon to be displayed.
+  pattern on the micro:bit and then create their own icon to be displayed.
 date: '2020-10-29 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl
@@ -24,7 +24,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro|bit to display different icons on the LEDs. They will use the finite and infinite loops to create a flashing pattern on the micro|bit and then create their own icon to be displayed.
+Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro:bit to display different icons on the LEDs. They will use the finite and infinite loops to create a flashing pattern on the micro:bit and then create their own icon to be displayed.
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* K-2, 3-5 
@@ -40,7 +40,7 @@ Students will learn about how hardware needs software in order for it to do some
 
 # Lesson Plan
 ## Overview
-Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro|bit to display different icons on the LEDs. They will use the finite and infinite loops to create a flashing pattern on the micro|bit and then create their own icon to be displayed.
+Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro:bit to display different icons on the LEDs. They will use the finite and infinite loops to create a flashing pattern on the micro:bit and then create their own icon to be displayed.
 ## ASSESSMENT PRE/POST-TEST
 1.    What is a Micro:bit?
 2.    How does a pause block work?
@@ -66,7 +66,6 @@ To relate the portable billboard in their pocket with digital billboards, made o
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1S2GpuKxgappwWLJfN9P27F9QonbYLK_E
 
 
 

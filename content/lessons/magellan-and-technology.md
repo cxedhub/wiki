@@ -1,6 +1,6 @@
 ---
 title: Magellan and Technology
-description: Adapted from| Flocabulary.com 7/2020 “Become a Map-Maker and Explorer”
+description: Adapted from: Flocabulary.com 7/2020 “Become a Map-Maker and Explorer”
   Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November
   of 1520. Students will practice key geography vocabulary and learn about Magellan’s
   contributions.
@@ -29,7 +29,7 @@ materials: Website, Google Maps,
 ---
 # OVERVIEW
 ## Activity Overview:  
-Adapted from| Flocabulary.com 7/2020 “Become a Map-Maker and Explorer” Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November of 1520. Students will practice key geography vocabulary and learn about Magellan’s contributions.
+Adapted from: Flocabulary.com 7/2020 “Become a Map-Maker and Explorer” Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November of 1520. Students will practice key geography vocabulary and learn about Magellan’s contributions.
 ## Meta description
 + *Subject Area:* Computer Science, Social Studies, Reading/Language Arts, Technology 
 + *Grade Level :* 3-5 
@@ -45,7 +45,7 @@ Adapted from| Flocabulary.com 7/2020 “Become a Map-Maker and Explorer” Use t
 
 # Lesson Plan
 ## Overview
-Adapted from| Flocabulary.com 7/2020 “Become a Map-Maker and Explorer” Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November of 1520. Students will practice key geography vocabulary and learn about Magellan’s contributions.
+Adapted from: Flocabulary.com 7/2020 “Become a Map-Maker and Explorer” Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November of 1520. Students will practice key geography vocabulary and learn about Magellan’s contributions.
 ## ASSESSMENT PRE/POST-TEST
 How does Magellan’s choice of technology compare to those we use today to explore and travel?
 How does Magellan’s choice of technology contrast to those we use today to explore and travel?
@@ -67,7 +67,6 @@ Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1-WeY67pH-oz8K2aLjNBwrxC6-YvQOBjAN7h8U4SCtjc
 
 
 
@@ -79,18 +78,7 @@ Create a map of the U.S. and show how Lewis and Clark traveled across the countr
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Recognizing and Defining Computational Problems, Creating Computational Artifacts|
-| Other Content Standards | •        CCSS.ELA-LITERACY.W.2.8
-Recall information from experiences or gather information from provided sources to answer a question.
-•        CCSS.ELA-LITERACY.RI.3.7
-Use information gained from illustrations (e.g., maps, photographs) and the words in a text to demonstrate understanding of the text (e.g., where, when, why, and how key events occur).
-•        CCSS.ELA-LITERACY.SL.4.2
-Paraphrase portions of a text read aloud, or information presented in diverse media and formats, including visually, quantitatively, and orally.
-•        CCSS.ELA-LITERACY.W.4.2.D
-Use precise language and domain-specific vocabulary to inform about or explain the topic.
-•        CCSS.ELA-LITERACY.W.3.3.A
-Establish a situation and introduce a narrator and/or characters; organize an event sequence that unfolds naturally.
-
-
+| Other Content Standards | •        [CCSS.ELA-LITERACY.[W.2.8](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Recall information from experiences or gather information from provided sources to answer a question. •        [CCSS.ELA-LITERACY.[RI.3.7](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Use information gained from illustrations (e.g., maps, photographs) and the words in a text to demonstrate understanding of the text (e.g., where, when, why, and how key events occur). •        [CCSS.ELA-LITERACY.[SL.4.2](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Paraphrase portions of a text read aloud, or information presented in diverse media and formats, including visually, quantitatively, and orally. •        [CCSS.ELA-LITERACY.[W.4.2.D](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Use precise language and domain-specific vocabulary to inform about or explain the topic. •        [CCSS.ELA-LITERACY.[W.3.3.A](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Establish a situation and introduce a narrator and/or characters; organize an event sequence that unfolds naturally.  |
 National Geographic Geography Standards
 
 

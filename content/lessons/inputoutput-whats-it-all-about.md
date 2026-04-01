@@ -1,7 +1,7 @@
 ---
 title: Input/Output what's it all about?
 description: Students will learn the definition of input/output as it relates to computing
-  and will use the Micro|bits to demonstrate various examples of inputs and outputs.
+  and will use the Micro:bits to demonstrate various examples of inputs and outputs.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Christy Rodgers
@@ -29,7 +29,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will learn the definition of input/output as it relates to computing and will use the Micro|bits to demonstrate various examples of inputs and outputs.
+Students will learn the definition of input/output as it relates to computing and will use the Micro:bits to demonstrate various examples of inputs and outputs.
 ## Meta description
 + *Subject Area:* Computer Science, Technology, Engineering 
 + *Grade Level :* 3-5, 6-8 
@@ -46,7 +46,7 @@ Determine if students can set up individual accounts in the Micro:bit Website
 
 # Lesson Plan
 ## Overview
-Students will learn the definition of input/output as it relates to computing and will use the Micro|bits to demonstrate various examples of inputs and outputs.
+Students will learn the definition of input/output as it relates to computing and will use the Micro:bits to demonstrate various examples of inputs and outputs.
 ## ASSESSMENT PRE/POST-TEST
 In programming, what input would cause a computer to say Hello?
 List examples of input devices.
@@ -97,7 +97,6 @@ Teacher led and Work in Pairs
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Qm4cTYhmQxoE_L_0iEvN9TUe82yxKsZB
 
 
 
@@ -115,4 +114,4 @@ Your computer monitor is input or output? (output)
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | CV8.5.3, CV8.5.4, ISTE 1.3  |
+| Other Content Standards | CV8.5.3, CV8.5.4, [ISTE](https://www.iste.org/standards/iste-standards-for-students) 1.3  |

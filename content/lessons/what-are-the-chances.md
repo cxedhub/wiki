@@ -1,6 +1,6 @@
 ---
 title: What are the chances?
-description: Program and use a Micro|bit 'Coin Flipper' to illustrate probability.
+description: Program and use a Micro:bit 'Coin Flipper' to illustrate probability.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Jeff Kitterman
@@ -24,7 +24,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Program and use a Micro|bit 'Coin Flipper' to illustrate probability.
+Program and use a Micro:bit 'Coin Flipper' to illustrate probability.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics 
 + *Grade Level :* 3-5, 6-8 
@@ -40,7 +40,7 @@ Program and use a Micro|bit 'Coin Flipper' to illustrate probability.
 
 # Lesson Plan
 ## Overview
-Program and use a Micro|bit 'Coin Flipper' to illustrate probability.
+Program and use a Micro:bit 'Coin Flipper' to illustrate probability.
 ## ASSESSMENT PRE/POST-TEST
 Can you program a Micro:bit to show heads or tales?
 Describe the probability for landing on each.

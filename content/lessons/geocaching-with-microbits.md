@@ -101,7 +101,6 @@ Possible algorithm for Microbit compass.  This image was taken from microbit.org
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1OL7EDSWAb7fMXB0Ykc7z-5X_5MGRVtcz
 
 
 
@@ -113,4 +112,4 @@ Discuss with students what went well and what needs improving.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | MS-ESS2-1,MS-ETS1-4 and standards and appendix CS Practice 4.3  |
+| Other Content Standards | [MS-ESS2-1](https://www.nextgenscience.org/search-standards?keys=MS-ESS2-1),[MS-ETS1-4](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-4) and standards and appendix CS Practice 4.3  |

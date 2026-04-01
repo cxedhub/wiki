@@ -64,7 +64,6 @@ Students will practice using a collaborative document to work as a class on main
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1gRS2MA9eX9MzNaK_wowXLMZ5Vt07soQQ67o_9qIMvww
 
 
 
@@ -76,4 +75,4 @@ Continue to address the norms each time students will work on a shared document.
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 3.RI.2/3.W.6b  |
+| Other Content Standards | 3.RI.2/3.[W.6b](https://www.thecorestandards.org/ELA-Literacy/)  |

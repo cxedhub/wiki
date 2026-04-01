@@ -66,7 +66,6 @@ Students will be shown a series of instructional videos about Internet search al
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1U442iI9DWhNJrtUJawXX02GSBMC7ldTK
 
 
 
@@ -81,5 +80,4 @@ Review the following questions:
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | Understand the steps by which information is translated, transmitted and processed in order to flow through hardware and software to complete tasks (5.CS.HS.01). 
-Students plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits (ISTE 3A).  |
+| Other Content Standards | Understand the steps by which information is translated, transmitted and processed in order to flow through hardware and software to complete tasks ([5.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/)). Students plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits ([ISTE](https://www.iste.org/standards/iste-standards-for-students) 3A).  |

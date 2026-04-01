@@ -149,7 +149,6 @@ Review the acronym ASK on Slide 13 and explain that by finding out these pieces 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1wNX2d50HNwY4jbpRqaXDiz8V8OQppgwC
 
 
 
@@ -176,10 +175,7 @@ Call on students to respond. Prompt students to identify specific pieces of info
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Communicating About Computing|
-| Other Content Standards | Common Core ELA
-L.8.1, L.8.2, L.8.2c, L.8.3, L.8.4, L.8.6, RI.8.1, RI.8.2, RI.8.4, RI.8.10, SL.8.1, SL.8.1a, SL.8.1b, SL.8.1c, SL.8.1d, SL.8.2, SL.8.3, SL.8.4, SL.8.6, W.8.4, W.8.10
-
-
+| Other Content Standards | Common Core ELA [L.8.1](https://www.thecorestandards.org/ELA-Literacy/), [L.8.2](https://www.thecorestandards.org/ELA-Literacy/), [L.8.2c](https://www.thecorestandards.org/ELA-Literacy/), [L.8.3](https://www.thecorestandards.org/ELA-Literacy/), [L.8.4](https://www.thecorestandards.org/ELA-Literacy/), [L.8.6](https://www.thecorestandards.org/ELA-Literacy/), [RI.8.1](https://www.thecorestandards.org/ELA-Literacy/), [RI.8.2](https://www.thecorestandards.org/ELA-Literacy/), [RI.8.4](https://www.thecorestandards.org/ELA-Literacy/), [RI.8.10](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.1](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.1a](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.1b](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.1c](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.1d](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.2](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.3](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.4](https://www.thecorestandards.org/ELA-Literacy/), [SL.8.6](https://www.thecorestandards.org/ELA-Literacy/), [W.8.4](https://www.thecorestandards.org/ELA-Literacy/), [W.8.10](https://www.thecorestandards.org/ELA-Literacy/)  |
 CASEL
 1a, 1b, 1c, 1d, 1e, 2a, 2b, 2c, 2d, 2e, 2f, 3a, 4a, 4b, 4c, 4d, 5a, 5b, 5c, 5d, 5e, 5f
 AASL

@@ -73,7 +73,6 @@ Read Rosie Revere, Engineer.  Stop reading when Rosie meets her great-great-aunt
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1HooVsXzcdkSSPPQiY8IcZpo9A4xs3xfbbEtmWOGSG6o
 
 
 
@@ -85,4 +84,4 @@ Have the groups come back together and discuss today's work together as a class,
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 2.CS.T.01 Recognize computing systems might not work as expected and identify and effectively communicate simple hardware or software problems and implement solutions (e.g., app or program is not working as expected, no sound is coming from the device, caps lock turned on) and discuss problems with peers and adults.  2.DA.CVT.01 With guidance, collect data and independently present the same data in various visual formats.  2.AP.A.01 With guidance, identify and model daily processes by creating and following algorithms (sets of step-by- step instructions) to complete tasks (e.g., verbally, kinesthetically, with robot devices, or a programming language).  |
+| Other Content Standards | [2.CS.T.01](https://edu.wyoming.gov/educators/standards/computer-science/) Recognize computing systems might not work as expected and identify and effectively communicate simple hardware or software problems and implement solutions (e.g., app or program is not working as expected, no sound is coming from the device, caps lock turned on) and discuss problems with peers and adults.  [2.DA.CVT.01](https://edu.wyoming.gov/educators/standards/computer-science/) With guidance, collect data and independently present the same data in various visual formats.  [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/) With guidance, identify and model daily processes by creating and following algorithms (sets of step-by- step instructions) to complete tasks (e.g., verbally, kinesthetically, with robot devices, or a programming language).  |

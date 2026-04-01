@@ -67,7 +67,6 @@ Students will then log onto code.org- course D sequencing and complete the lesso
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1EVuob03eABVkS4iF8QcsYSB8tPlVReTC
 
 
 
@@ -80,17 +79,4 @@ Explain to your group what you learned about sequencing and what could happen if
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts|
-| Other Content Standards | CCSS.MATH.CONTENT.5.OA.A.1
-Use parentheses, brackets, or braces in numerical expressions, and evaluate expressions with these symbols.
-CCSS.MATH.CONTENT.5.OA.A.2
-Write simple expressions that record calculations with numbers, and interpret numerical expressions without evaluating them. .
-CCSS.ELA-LITERACY.RI.5.3
-Explain the relationships or interactions between two or more individuals, events, ideas, or concepts in a historical, scientific, or technical text based on specific information in the text.
-CCSS.ELA-LITERACY.RI.5.4
-Determine the meaning of general academic and domain-specific words and phrases in a text relevant to a 5th grade topic or subject area.
-CCSS.ELA-LITERACY.RI.5.5
-Compare and contrast the overall structure (e.g., chronology,
-CCSS.ELA-LITERACY.W.5.4
-Produce clear and coherent writing in which the development and organization are appropriate to task, purpose, and audience. 
-CCSS.ELA-LITERACY.W.5.2
-Write informative/explanatory texts to examine a topic and convey ideas and information clearly.  |
+| Other Content Standards | [CCSS.MATH.CONTENT.5.OA.A.1](https://www.thecorestandards.org/Math/) Use parentheses, brackets, or braces in numerical expressions, and evaluate expressions with these symbols. [CCSS.MATH.CONTENT.5.OA.A.2](https://www.thecorestandards.org/Math/) Write simple expressions that record calculations with numbers, and interpret numerical expressions without evaluating them. . [CCSS.ELA-LITERACY.[RI.5.3](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Explain the relationships or interactions between two or more individuals, events, ideas, or concepts in a historical, scientific, or technical text based on specific information in the text. [CCSS.ELA-LITERACY.[RI.5.4](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Determine the meaning of general academic and domain-specific words and phrases in a text relevant to a 5th grade topic or subject area. [CCSS.ELA-LITERACY.[RI.5.5](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Compare and contrast the overall structure (e.g., chronology, [CCSS.ELA-LITERACY.[W.5.4](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Produce clear and coherent writing in which the development and organization are appropriate to task, purpose, and audience. [CCSS.ELA-LITERACY.[W.5.2](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Write informative/explanatory texts to examine a topic and convey ideas and information clearly.  |

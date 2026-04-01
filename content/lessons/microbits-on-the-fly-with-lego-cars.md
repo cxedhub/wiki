@@ -1,5 +1,5 @@
 ---
-title: Micro|bits on the Fly with Lego Cars
+title: Micro:bits on the Fly with Lego Cars
 description: Students will explore how sensors are used in our lives and what they
   could measure. Students will build a Lego car and use the a microbit to measure
   acceleration.
@@ -62,7 +62,6 @@ Students will create a Lego car prototype and code and use the microbit to measu
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=16vmXtTkH0WiyPgrVZT-Or_uCUBakKEXL
 
 
 

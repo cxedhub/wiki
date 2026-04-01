@@ -72,7 +72,6 @@ Share the final product with class.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1194dpfAR2irU09acMlrXbZzqO3KMva6T
 
 
 
@@ -84,4 +83,4 @@ Play their maze, notice what doesn't work. Then have them create another digital
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | ISTE Standards  |
+| Other Content Standards | [ISTE](https://www.iste.org/standards/iste-standards-for-students) Standards  |

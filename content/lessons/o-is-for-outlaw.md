@@ -61,7 +61,6 @@ What if Big  Nose George had Facebook?
 
 
 ## ACTIVITY INSTRUCTIONS
-https://drive.google.com/open?id=1Gjfu2Lsl-YOlIlbiHwef7TRsyYZKcvd7uTx-wkVjOVc
 
 
 ### Supplements
@@ -79,4 +78,4 @@ Students will share their profiles they have created and their peers will get a 
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Fostering an Inclusive Computing Culture|
-| Other Content Standards | 5.IC.C.01  |
+| Other Content Standards | [5.IC.C.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

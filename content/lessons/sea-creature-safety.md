@@ -1,7 +1,7 @@
 ---
 title: Sea Creature Safety
 description: •        To discover more about the threats faced by sea turtles •        To
-  learn about efforts to help them •        To learn how micro|bit inputs (sensors)
+  learn about efforts to help them •        To learn how micro:bit inputs (sensors)
   and outputs (LED lights) can be used to make a prototype to help protect sea turtles
 date: '2023-04-14 00:00:00+00:00'
 draft: false
@@ -23,7 +23,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-•        To discover more about the threats faced by sea turtles •        To learn about efforts to help them •        To learn how micro|bit inputs (sensors) and outputs (LED lights) can be used to make a prototype to help protect sea turtles
+•        To discover more about the threats faced by sea turtles •        To learn about efforts to help them •        To learn how micro:bit inputs (sensors) and outputs (LED lights) can be used to make a prototype to help protect sea turtles
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* 3-5 
@@ -39,7 +39,7 @@ materials: Micro:bit
 
 # Lesson Plan
 ## Overview
-•        To discover more about the threats faced by sea turtles •        To learn about efforts to help them •        To learn how micro|bit inputs (sensors) and outputs (LED lights) can be used to make a prototype to help protect sea turtles
+•        To discover more about the threats faced by sea turtles •        To learn about efforts to help them •        To learn how micro:bit inputs (sensors) and outputs (LED lights) can be used to make a prototype to help protect sea turtles
 ## ASSESSMENT PRE/POST-TEST
 How can we communicate through light? 
 How can we impact our environment with technology?
@@ -92,7 +92,6 @@ o        Let students create their own prototype for helping turtles that is not
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1-w6K7ilYDPw5uG0Y_EjC9sn4x2dJLyPP
 
 
 
@@ -105,4 +104,4 @@ https://drive.google.com/open?id=1-w6K7ilYDPw5uG0Y_EjC9sn4x2dJLyPP
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 4-PS4-3 Waves and Their Applications in Technologies for Information Transfer  |
+| Other Content Standards | [4-PS4-3](https://www.nextgenscience.org/search-standards?keys=4-PS4-3) Waves and Their Applications in Technologies for Information Transfer  |

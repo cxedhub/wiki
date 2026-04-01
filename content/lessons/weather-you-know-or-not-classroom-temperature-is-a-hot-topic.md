@@ -81,10 +81,6 @@ Not sure what this is asking?
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | Computer Science
-Standard 1. Computational Thinking
-1. Computational thinking is used to create algorithmic solutions to real-world problems.
-
-
+| Other Content Standards | Computer Science Standard 1. Computational Thinking 1. Computational thinking is used to create algorithmic solutions to real-world problems.  |
 3. Computer Programming
 5. Computing solutions can have impacts (personal, ethical, social, economic and cultural) based on their use.  |

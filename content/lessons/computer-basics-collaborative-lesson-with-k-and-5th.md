@@ -85,7 +85,6 @@ Task 3
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Awvhp3pyzF1KtJijvUt6FtWkIKRZAlau
 
 
 

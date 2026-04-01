@@ -1,5 +1,5 @@
 ---
-title: The Card Catalog| Computer of Yesteryear
+title: The Card Catalog: Computer of Yesteryear
 description: This lesson will show students how computer coding is used to solve the
   problem of quickly accessing books using the online catalogs present in their school
   and public libraries.
@@ -64,7 +64,6 @@ This lesson will show students how computer coding is used to solve the problem 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1wgrF4TDo0iPr4ypoD7JKYYYnoGGzdOML
 
 
 
@@ -76,7 +75,4 @@ This is a PowerPoint presentation that should be combined with student practice 
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | AASL IV.A.1.  Learners determine the need to gather information.
-AASL.IV.A.2.  Learners identify possible sources of information.
-AASL V.A.1.   Learners develop and satisfy personal curiosity by reading widely and deeply.
-AASL  V.D.1.  Learners engage with information to extend personal learning by personalizing their use of information and information technologies.  |
+| Other Content Standards | [AASL IV.A.1](https://standards.aasl.org/).  Learners determine the need to gather information. [AASL.IV.A.2](https://standards.aasl.org/).  Learners identify possible sources of information. [AASL V.A.1](https://standards.aasl.org/).   Learners develop and satisfy personal curiosity by reading widely and deeply. [AASL  V.D.1](https://standards.aasl.org/).  Learners engage with information to extend personal learning by personalizing their use of information and information technologies.  |

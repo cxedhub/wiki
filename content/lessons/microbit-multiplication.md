@@ -107,6 +107,4 @@ As students are working, take notes based on your observations. Who really under
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Recognizing and Defining Computational Problems, Testing and Refining Computational Artifacts|
-| Other Content Standards | CCSS.Math.Content.3.OA.C.7
-CCSS.Math.Content.3.OA.A.1
-CCSS.Math.Content.4.OA.B.4  |
+| Other Content Standards | [CCSS.Math.Content.3.OA.C.7](https://www.thecorestandards.org/Math/) [CCSS.Math.Content.3.OA.A.1](https://www.thecorestandards.org/Math/) [CCSS.Math.Content.4.OA.B.4](https://www.thecorestandards.org/Math/)  |

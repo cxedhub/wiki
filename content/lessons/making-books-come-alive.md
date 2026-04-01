@@ -73,7 +73,6 @@ When wrapping up this lesson, ask students why it would be important to record b
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1rycDSMemF64sDQu9GC-z_nhq38GqkWWx
 
 
 
@@ -85,6 +84,4 @@ An educator would need to first introduce the technology, demonstrate it to stud
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | RL1.10- With prompting and support, read prose and poetry of appropriate complexity for grade 1.
-RF.1.4A- Read grade level text with purpose and understanding.
-RF.1.4B- Read grade level text orally with accuracy, appropriate rate, and expression on successive readings  |
+| Other Content Standards | RL1.10- With prompting and support, read prose and poetry of appropriate complexity for grade 1. [RF.1.4A](https://www.thecorestandards.org/ELA-Literacy/)- Read grade level text with purpose and understanding. [RF.1.4B](https://www.thecorestandards.org/ELA-Literacy/)- Read grade level text orally with accuracy, appropriate rate, and expression on successive readings  |

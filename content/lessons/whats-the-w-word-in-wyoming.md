@@ -79,9 +79,4 @@ Students will share their Google Slide presentations with the class to show what
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | 3-5-ETS1-3
-4.NBT.E.5
-4.NBT.E.6 
-CCSS.ELA-LITERACY.SL.4.1
-CCSS.ELA-LITERACY.SL.4.2
-CCSS.ELA-LITERACY.SL.4.4  |
+| Other Content Standards | 3-5-ETS1-3 4.NBT.E.5 4.NBT.E.6 [CCSS.ELA-LITERACY.[SL.4.1](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[SL.4.2](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[SL.4.4](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

@@ -61,7 +61,6 @@ Introducing coding using Hour of Code projects
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=16cF7M00gbTsA11aKdxWZZnspIS2KsqYD
 
 
 

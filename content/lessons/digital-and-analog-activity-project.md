@@ -66,7 +66,6 @@ This is a project with 6 activities where students explore differences between a
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1VaxMvx7Jt2IH-Bvgtp38UIMRN5no04ZN
 
 
 

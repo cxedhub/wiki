@@ -61,12 +61,10 @@ What if Big Nose George had Facebook?
 
 
 ## ACTIVITY INSTRUCTIONS
-https://drive.google.com/open?id=1Gjfu2Lsl-YOlIlbiHwef7TRsyYZKcvd7uTx-wkVjOVc
 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1fGNBbpdjkbDlzRV7oR5BBzjyT-S2Ppyru4KjVh_Ofbg
 
 
 

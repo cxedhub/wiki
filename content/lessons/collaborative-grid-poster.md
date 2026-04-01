@@ -93,7 +93,6 @@ Once it is all pieced together, reveal it to the class and have them guess what 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1rxFIopFcbl7R8v8ys0LjAgDBeSMkLGItd7-3HGyGQZw
 
 
 
@@ -106,7 +105,4 @@ the original, but that is what makes it interesting.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Data Analysis|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | Visual Arts/Creating: VA:CR2.1.HSI
-Visual Arts/Creating: VA:Cr2.3HSI
-Visual Arts/Connecting: VA:Cn10.1.HSI
-Visual Arts/Presenting: VA:Pr5.1.HSI:  |
+| Other Content Standards | Visual Arts/Creating: VA:CR2.1.HSI Visual Arts/Creating: VA:Cr2.3HSI Visual Arts/Connecting: VA:Cn10.1.HSI Visual Arts/Presenting: VA:Pr5.1.HSI:  |

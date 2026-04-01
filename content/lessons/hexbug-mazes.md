@@ -86,7 +86,6 @@ Read the story “Margaret and the Moon” to students. This is a story about Ma
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1OaDscL_xtjftVsGLu964Dkyo0Fjqd_yx1wO36_EwXpc, https://drive.google.com/file/d/1fLNlrXFkLmixSZWqzr5awP_yzIdCi6x9qa1ZfgF0mss
 
 
 
@@ -98,7 +97,4 @@ Gallery Walk -At then end have students take a gallery walk around the room to l
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CCSS.ELA-Literacy.RF.3.4
-CCSS.ELA-Literacy.SL.3.1
-CCSS.ELA-Literacy.SL.3.2
-CCSS.ELA-Literacy.RI.3.10  |
+| Other Content Standards | [CCSS.ELA-Literacy.[RF.3.4](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-Literacy.[SL.3.1](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-Literacy.[SL.3.2](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-Literacy.[RI.3.10](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

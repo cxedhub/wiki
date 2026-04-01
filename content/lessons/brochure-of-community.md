@@ -58,7 +58,6 @@ Students will research and create brochures highlighting community/regions
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1kUhCTeYs49Qc7J4VhgG3vsF7c4iTvwz-GtIu5DbC5Rk
 
 
 

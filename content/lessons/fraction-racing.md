@@ -70,7 +70,6 @@ Students solve each other’s questions using the data
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1EUSQq1I4hF03iqNAWPlbhzYp9IrDBoU1
 
 
 
@@ -87,4 +86,4 @@ What would you do differently next time?
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | CCSS.MATH.CONTENT.4.MD.B.4  |
+| Other Content Standards | [CCSS.MATH.CONTENT.4.MD.B.4](https://www.thecorestandards.org/Math/)  |

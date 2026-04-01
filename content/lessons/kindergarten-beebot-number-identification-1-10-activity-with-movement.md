@@ -132,7 +132,6 @@ activity for 10-20 minutes.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1lDrA2vKnx19Z3BlLTzTkfwxI0suvj3RI, https://drive.google.com/file/d/1Er_Fo5MqQsLOzdUBPBBFVHZCAlDun9Ge
 
 
 
@@ -147,9 +146,4 @@ they want to work on getting better at for next time.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CCSS.MATH.CONTENT.K.CC.B.4.A
-CCSS.MATH.CONTENT.K.CC.B.4.B
-CCSS.MATH.CONTENT.K.CC.B.5
-2.PE.1.1 (Wyoming PE)
-2.PE.1.2 (Wyoming PE)
-2.PE.1.4 (Wyoming PE)  |
+| Other Content Standards | [CCSS.MATH.CONTENT.K.CC.B.4.A](https://www.thecorestandards.org/Math/) [CCSS.MATH.CONTENT.K.CC.B.4.B](https://www.thecorestandards.org/Math/) [CCSS.MATH.CONTENT.K.CC.B.5](https://www.thecorestandards.org/Math/) 2.PE.1.1 (Wyoming PE) 2.PE.1.2 (Wyoming PE) 2.PE.1.4 (Wyoming PE)  |

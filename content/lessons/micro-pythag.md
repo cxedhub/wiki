@@ -76,5 +76,4 @@ We will wrap up discussing and comparing different solutions to the problem and 
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | Standard:        MA.8.GR.1.1
-Description:        Apply the Pythagorean Theorem to solve mathematical and real-world problems involving unknown side lengths in right triangles.  |
+| Other Content Standards | Standard:        MA.8.GR.1.1 Description:        Apply the Pythagorean Theorem to solve mathematical and real-world problems involving unknown side lengths in right triangles.  |

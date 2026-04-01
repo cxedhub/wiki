@@ -71,7 +71,6 @@ Students will be grouped in 3-4 students/group. Each group will be given a decod
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1uUvWMIvyJQT1BFzPXAi6-odzflnkTz-D, https://drive.google.com/file/d/1TIz5vnPnXu5ZKY2z37MlHZwQvkgOY6MY, https://drive.google.com/file/d/1CPVCdN_X6PckqvBGRapcCPwBxN3IIZYf, https://drive.google.com/file/d/1C7s22jDAk_5zCSwHFSaHzlw_By1K0Mad, https://drive.google.com/file/d/1Xu3qGvFVHfzDPdNHk5jQWdpBmMXQDsUN
 
 
 
@@ -83,5 +82,4 @@ The review will take place during short discussions after each group present the
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | CCSS: ELA 5.W.7, RI5.1, RI5.9
-ISTE: 3a, 3c, 5b, 7a  |
+| Other Content Standards | CCSS: ELA 5.W.7, RI5.1, RI5.9 [ISTE](https://www.iste.org/standards/iste-standards-for-students): 3a, 3c, 5b, 7a  |

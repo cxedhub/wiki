@@ -1,6 +1,6 @@
 ---
 title: Litter Hunt
-description: In this lesson, pupils develop their understanding of the micro|bit by
+description: In this lesson, pupils develop their understanding of the micro:bit by
   using the buttons and sensors on the device to make different images display. Pupils
   are introduced to the concept of a variable to store data, then create a program
   to alter the value of a variable using the buttons and sensors. Pupils go on to
@@ -25,7 +25,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-In this lesson, pupils develop their understanding of the micro|bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player to see who can press the button the fastest.
+In this lesson, pupils develop their understanding of the micro:bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player to see who can press the button the fastest.
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* K-2 
@@ -41,7 +41,7 @@ In this lesson, pupils develop their understanding of the micro|bit by using the
 
 # Lesson Plan
 ## Overview
-In this lesson, pupils develop their understanding of the micro|bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player to see who can press the button the fastest.
+In this lesson, pupils develop their understanding of the micro:bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player to see who can press the button the fastest.
 ## ASSESSMENT PRE/POST-TEST
 How can you use technology in an effective way to help the environment? 
 ■ Can pupils produce programs including a range of instructions based on pressing the buttons or sensors?
@@ -91,7 +91,6 @@ Keeping the program produced as a class on the board, ask pupils to create their
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1E88VbtZdvmrkKCHsMvqZoiQ1k-o8i-HU
 
 
 

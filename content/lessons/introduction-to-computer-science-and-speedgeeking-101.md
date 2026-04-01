@@ -1,7 +1,7 @@
 ---
 title: Introduction to Computer Science and SpeedGeeking 101
-description: Part 1| Gauge student understanding of computer science and introduce
-  basic CS vocabulary. Part 2| Teach students about SpeedGeeking, a collaborative
+description: Part 1: Gauge student understanding of computer science and introduce
+  basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative
   and energetic sharing of computer science apps and tools. Students create computational
   artifacts and participate in a SpeedGeeking workshop.
 date: '2023-04-03 00:00:00+00:00'
@@ -31,7 +31,7 @@ materials: Website, Laptops - Future sessions would require more tech.
 ---
 # OVERVIEW
 ## Activity Overview:  
-Part 1| Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2| Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.
+Part 1: Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.
 ## Meta description
 + *Subject Area:* Computer Science, Reading/Language Arts, Technology 
 + *Grade Level :* 6-8 
@@ -50,7 +50,7 @@ Use the slideshow!
 
 # Lesson Plan
 ## Overview
-Part 1| Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2| Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.
+Part 1: Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.
 ## ASSESSMENT PRE/POST-TEST
 See Google Form attached to lesson for vocabulary questions.
 SpeedGeeking: On a scale of 1-5, how confident are you about discussing technology?
@@ -85,7 +85,6 @@ Gather and/or discuss student feedback about how to improve the lesson
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=12-eLrhrX3FtQA1E5agof5Rt_xT0FA6FS6Ks2O6kknDA
 
 
 
@@ -102,12 +101,4 @@ Rubrics for presenters
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Data Analysis, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | Others may apply, depending on student choices.
-ELA
-RI.8.4
-RI.8.7
-W.8.2.A
-W.8.2.D
-SL.8.5
-SL. 8.6
-L.8.6  |
+| Other Content Standards | Others may apply, depending on student choices. ELA [RI.8.4](https://www.thecorestandards.org/ELA-Literacy/) [RI.8.7](https://www.thecorestandards.org/ELA-Literacy/) [W.8.2.A](https://www.thecorestandards.org/ELA-Literacy/) [W.8.2.D](https://www.thecorestandards.org/ELA-Literacy/) [SL.8.5](https://www.thecorestandards.org/ELA-Literacy/) SL. 8.6 [L.8.6](https://www.thecorestandards.org/ELA-Literacy/)  |

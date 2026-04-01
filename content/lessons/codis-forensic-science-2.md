@@ -89,7 +89,6 @@ Have students act as biomedical engineers and analyze the results of the DNA pro
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1fuqUJ9a2XSfe0fJMFKBErpL5HjOAPcof
 
 
 
@@ -102,4 +101,4 @@ In this activity, probability is used to determine which suspect is the most lik
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Data Analysis, Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Developing and Using Abstractions, Communicating About Computing|
-| Other Content Standards | NGSS: MS-LS1-1, 1-8, 1-3  |
+| Other Content Standards | NGSS: [MS-LS1-1](https://www.nextgenscience.org/search-standards?keys=MS-LS1-1), 1-8, 1-3  |

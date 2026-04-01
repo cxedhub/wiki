@@ -61,12 +61,10 @@ https://www.youtube.com/watch?v=q34iZw4eDPI
 
 
 ## ACTIVITY INSTRUCTIONS
-https://drive.google.com/open?id=1cTi9196LT5FekX-KSp9NFjbFiRb3UrUiinvmNN_jrvg
 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1RuSRLkWFLY_U2wrp32pzPv8DoDMLEV2XYJEbqFYbgjE
 
 
 
@@ -78,5 +76,4 @@ Students will present their ideas with a Google Slideshow on how the cybersecuri
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | 4-ESS2-1
-4-ESS3-2  |
+| Other Content Standards | [4-ESS2-1](https://www.nextgenscience.org/search-standards?keys=4-ESS2-1) [4-ESS3-2](https://www.nextgenscience.org/search-standards?keys=4-ESS3-2)  |

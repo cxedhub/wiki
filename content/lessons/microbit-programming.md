@@ -67,7 +67,6 @@ Program a microbit
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=11xgVghY0JVq8PtJoBqalciC8CkYXqCZb
 
 
 
@@ -79,6 +78,4 @@ It is an outcome based project, students' microbit should perform 4 functions.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 1.b create original works as a means of personal or group expression.
-6.c communicate complex ideas clearly and effectively by creating or using a variety of digital objects such as visualizations, models or simulations.
-6.b create original works or responsibly repurpose or remix digital resources into new creations.  |
+| Other Content Standards | 1.b create original works as a means of personal or group expression. 6.c communicate complex ideas clearly and effectively by creating or using a variety of digital objects such as visualizations, models or simulations. 6.b create original works or responsibly repurpose or remix digital resources into new creations.  |

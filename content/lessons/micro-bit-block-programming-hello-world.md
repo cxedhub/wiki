@@ -1,5 +1,5 @@
 ---
-title: Micro Bit Block Programming| 'Hello World'
+title: Micro Bit Block Programming: 'Hello World'
 description: This lesson introduces the basic components of the microbit, a beginners
   program, and teaches how to download a program to the microbit. Students will program
   in a block based language. Students will also utilize small electronics, and learn
@@ -71,7 +71,6 @@ Log into the Make code program
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1nV27HNJUlqYN3QAlGF9ArRa9gWH7vPp8
 
 
 
@@ -83,5 +82,4 @@ After completing this lesson, to make sure students understood the assignment, t
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | CSCB.3.1  
-CSCB.3.2  |
+| Other Content Standards | CSCB.3.1 CSCB.3.2  |

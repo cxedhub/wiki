@@ -62,7 +62,6 @@ Students will program a Microbit to either light up for strong, low or no conduc
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1W9XPH6Zrlg4yFNoelZ4zP3DWkNivVdpn
 
 
 
@@ -74,8 +73,4 @@ This activity is used to help re-enforce how different chemical bonds conduct el
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Developing and Using Abstractions|
-| Other Content Standards | WYCSTA Standards: CS.T, DA.CVT, DA.IM, and AP.A
-WYScience Standards HS- PS1-3
-WYELA Standard WHST.9.12
-WY Mathematics Standard 6.SP.A.2
-NGSS HS-PS2-4.  |
+| Other Content Standards | WYCSTA Standards: CS.T, DA.CVT, DA.IM, and AP.A WYScience Standards HS- PS1-3 WYELA Standard [WHST.9.12](https://www.thecorestandards.org/ELA-Literacy/) WY Mathematics Standard 6.SP.A.2 NGSS [HS-PS2-4](https://www.nextgenscience.org/search-standards?keys=HS-PS2-4).  |

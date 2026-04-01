@@ -77,7 +77,6 @@ Put students into groups of 2-4. Review how to work collaboratively if necessary
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1lZ3n_fiCdHVrslAuUN7rCR0fv_6B2a5f
 
 
 
@@ -89,10 +88,7 @@ Reflection: Pull students back together whole group and reflect on the activity.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Communicating About Computing|
-| Other Content Standards | CCSS.MATH.CONTENT.K.CC.B.4.A
-When counting objects, say the number names in the standard order, pairing each object with one and only one number name and each number name with one and only one object.
-
-
+| Other Content Standards | [CCSS.MATH.CONTENT.K.CC.B.4.A](https://www.thecorestandards.org/Math/) When counting objects, say the number names in the standard order, pairing each object with one and only one number name and each number name with one and only one object.  |
 CCSS.MATH.CONTENT.K.CC.B.5
 Count to answer 'how many?' questions about as many as 20 things arranged in a line, a rectangular array, or a circle, or as many as 10 things in a scattered configuration; given a number from 1-20, count out that many objects.
 

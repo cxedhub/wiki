@@ -65,7 +65,6 @@ Follow the steps in this link. This is a good place for getting started with GIS
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Z_imde93lTdsxsUkdSBqE2pjeyllPrneVHvo1PLmlMA
 
 
 
@@ -77,4 +76,4 @@ Discuss what students noticed about cities and terrain along the way.
 |-----------|-----------|
 | CS Domains  | Data Analysis, Impacts of Computing|
 | CS Principles   | Recognizing and Defining Computational Problems, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | MS-ESS2-2  |
+| Other Content Standards | [MS-ESS2-2](https://www.nextgenscience.org/search-standards?keys=MS-ESS2-2)  |

@@ -64,7 +64,6 @@ Fifth and Sixth Grade students are reading Hidden Figures as part of their ELA c
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1OhpNujJlucWfW4t2Pw7vMryHi8L1N2f0
 
 
 

@@ -3,7 +3,7 @@ title: Get to Know Me
 description: Students will participate in a community building activity that will
   integrate Computer Science through the use of the software/Key Note and hardware/iPad.
   The students will populate an Instagram looking graphic organizer* with a photo
-  of a peer that matches the given criteria such as| Find someone who| walked to school
+  of a peer that matches the given criteria such as: Find someone who: walked to school
   today, is wearing same colored shirt as you, and is the oldest in the family * edited
   the original which was created by Travis Pearson, Central High School English Teacher
 date: '2022-09-02 00:00:00+00:00'
@@ -33,7 +33,7 @@ materials: Keynote software
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram looking graphic organizer* with a photo of a peer that matches the given criteria such as| Find someone who| walked to school today, is wearing same colored shirt as you, and is the oldest in the family * edited the original which was created by Travis Pearson, Central High School English Teacher
+Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family * edited the original which was created by Travis Pearson, Central High School English Teacher
 ## Meta description
 + *Subject Area:* Computer Science, Reading/Language Arts, Technology, Speaking/Listening 
 + *Grade Level :* K-2, 3-5 
@@ -49,7 +49,7 @@ Students will participate in a community building activity that will integrate C
 
 # Lesson Plan
 ## Overview
-Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram looking graphic organizer* with a photo of a peer that matches the given criteria such as| Find someone who| walked to school today, is wearing same colored shirt as you, and is the oldest in the family * edited the original which was created by Travis Pearson, Central High School English Teacher
+Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family * edited the original which was created by Travis Pearson, Central High School English Teacher
 ## ASSESSMENT PRE/POST-TEST
 Pre: In whole group, students will share out what they know and want to learn (KWL chart) about Instagram, Key Note program, taking appropriate versus inappropriate photos of others for an Instagram platform as shared. Post: Second grade/third grade students will submit completed Key Note project to canvas, then return to homeroom class. First grade will air drop their completed Key Note project to teacher. This uploaded document will be used as an assessment. Those students above will gather in homeroom and complete the learn section of the KWL chart. If time allows, share uploaded Key Note’s with class during this KWL chart time. This will be used as an informal assessment. (Also the Wrap-up)
 ## OBJECTIVES
@@ -66,7 +66,6 @@ In whole group, students will share out what they know and want to learn (KWL ch
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1z1_FxBqhlVaM5HOem9BpSd2_ix5flA_C
 
 
 

@@ -91,7 +91,6 @@ Students will gather data for the average temperature of a single location over 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1F5s8XTdj534jwBcZVGrPOTU2hCr7GFQmwV5cSTJEj-w
 
 
 
@@ -103,4 +102,4 @@ You could look at a different place to see how the averages are different. You c
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | |
-| Other Content Standards | 3-ESS2-1, MP.4, MP.3  |
+| Other Content Standards | [3-ESS2-1](https://www.nextgenscience.org/search-standards?keys=3-ESS2-1), MP.4, MP.3  |

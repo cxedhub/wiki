@@ -64,7 +64,6 @@ https://www.youtube.com/watch?v=q34iZw4eDPI
 
 
 ## ACTIVITY INSTRUCTIONS
-https://drive.google.com/open?id=1cTi9196LT5FekX-KSp9NFjbFiRb3UrUiinvmNN_jrvg
 
 
 ### Supplements
@@ -82,4 +81,4 @@ Students will present their ideas with a google Slideshow on how the cybersecuri
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture|
-| Other Content Standards | *5.NI.C.01 Discuss real-world cybersecurity problems and identify and implement appropriate strategies for how personal information can be protected.  |
+| Other Content Standards | *[5.NI.C.01](https://edu.wyoming.gov/educators/standards/computer-science/) Discuss real-world cybersecurity problems and identify and implement appropriate strategies for how personal information can be protected.  |

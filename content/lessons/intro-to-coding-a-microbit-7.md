@@ -1,6 +1,6 @@
 ---
 title: Intro to Coding a Microbit
-description: Brief description (3-5 sentences) for the lesson/activity| * This description
+description: Brief description (3-5 sentences) for the lesson/activity: * This description
   will be used publicly as an introduction to the lesson/activity, be as descriptive
   as possible (assume you were searching for a lesson/activity and didn't want to
   read the whole document to figure it out) In this lesson the students will be introduced
@@ -41,7 +41,7 @@ materials: Micro:bit, Makey-Makey
 ---
 # OVERVIEW
 ## Activity Overview:  
-Brief description (3-5 sentences) for the lesson/activity| * This description will be used publicly as an introduction to the lesson/activity, be as descriptive as possible (assume you were searching for a lesson/activity and didn't want to read the whole document to figure it out) In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will start with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
+Brief description (3-5 sentences) for the lesson/activity: * This description will be used publicly as an introduction to the lesson/activity, be as descriptive as possible (assume you were searching for a lesson/activity and didn't want to read the whole document to figure it out) In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will start with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
 ## Meta description
 + *Subject Area:* Computer Science, Social Studies, Reading/Language Arts, Technology, Art, Speaking and Listening 
 + *Grade Level :* K-2, 3-5 
@@ -57,7 +57,7 @@ Brief description (3-5 sentences) for the lesson/activity| * This description wi
 
 # Lesson Plan
 ## Overview
-Brief description (3-5 sentences) for the lesson/activity| * This description will be used publicly as an introduction to the lesson/activity, be as descriptive as possible (assume you were searching for a lesson/activity and didn't want to read the whole document to figure it out) In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will start with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
+Brief description (3-5 sentences) for the lesson/activity: * This description will be used publicly as an introduction to the lesson/activity, be as descriptive as possible (assume you were searching for a lesson/activity and didn't want to read the whole document to figure it out) In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will start with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
 ## ASSESSMENT PRE/POST-TEST
 These should be the same and should test for the measurable objectives.
 What is the name of the 2 basic starting blocks used? What is a simulator? What will the simulator do with the On Start block? What will the simulator o with the Forever block? What if the code doesn't work?

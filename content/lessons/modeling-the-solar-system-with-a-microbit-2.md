@@ -1,6 +1,6 @@
 ---
 title: Modeling the Solar System with a microbit
-description: Use the micro|bit to create a kinesthetic model of the solar system.
+description: Use the micro:bit to create a kinesthetic model of the solar system.
   Students will be given an example at the beginning and then be asked to make their
   own.
 date: '2020-07-09 00:00:00+00:00'
@@ -29,7 +29,7 @@ materials: Website, Micro:bit, https://www.exploratorium.edu/ronh/solar_system/
 ---
 # OVERVIEW
 ## Activity Overview:  
-Use the micro|bit to create a kinesthetic model of the solar system. Students will be given an example at the beginning and then be asked to make their own.
+Use the micro:bit to create a kinesthetic model of the solar system. Students will be given an example at the beginning and then be asked to make their own.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Science 
 + *Grade Level :* 6-8 
@@ -45,7 +45,7 @@ Use the micro|bit to create a kinesthetic model of the solar system. Students wi
 
 # Lesson Plan
 ## Overview
-Use the micro|bit to create a kinesthetic model of the solar system. Students will be given an example at the beginning and then be asked to make their own.
+Use the micro:bit to create a kinesthetic model of the solar system. Students will be given an example at the beginning and then be asked to make their own.
 ## ASSESSMENT PRE/POST-TEST
 What is a scale?
 What type of code allows a sensor to continually sense and record data?
@@ -71,7 +71,6 @@ Using the youtube video https://www.youtube.com/watch?v=oxPdbOC1Tys, have studen
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1pFa0vdz0FO49DP_RzztpWn_rHeBTghBT
 
 
 

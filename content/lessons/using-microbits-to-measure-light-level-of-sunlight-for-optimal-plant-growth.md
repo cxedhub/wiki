@@ -76,7 +76,6 @@ They will program a Microbit to accurately measure the amount of sunlight a plan
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Z3hteno_qN-uyhLi6KikcwiJgyvz2liw
 
 
 
@@ -88,10 +87,4 @@ I would review my students misconceptions and make sure that they have been corr
 |-----------|-----------|
 | CS Domains  | Data Analysis, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | WYCSTA CS.T, DA.CVT, DA.IM, and AP.A
-WYScience Standards MS-LS1-5,   MS-ETLS1-1, MS-ETLS1-2
-WYELA Standard WHST.6-8.2
-WY Mathematics Standard 6.SP.A.2
-WY Career and Vo Ed CV8.3.1
-ISTE 5a, 5b, 5c.
-NGSS MS-LS2-4, LS2-A, ETS1-B.  |
+| Other Content Standards | WYCSTA CS.T, DA.CVT, DA.IM, and AP.A WYScience Standards [MS-LS1-5](https://www.nextgenscience.org/search-standards?keys=MS-LS1-5),   [MS-ETLS1-1](https://www.nextgenscience.org/search-standards?keys=MS-ETLS1-1), [MS-ETLS1-2](https://www.nextgenscience.org/search-standards?keys=MS-ETLS1-2) WYELA Standard [WHST.6-8.2](https://www.thecorestandards.org/ELA-Literacy/) WY Mathematics Standard 6.SP.A.2 WY Career and Vo Ed CV8.3.1 [ISTE](https://www.iste.org/standards/iste-standards-for-students) 5a, 5b, 5c. NGSS [MS-LS2-4](https://www.nextgenscience.org/search-standards?keys=MS-LS2-4), LS2-A, ETS1-B.  |

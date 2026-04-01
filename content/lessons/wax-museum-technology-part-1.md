@@ -79,7 +79,6 @@ When they have their web they can work on writing their paragraph draft.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1HkFhRitk_kVrFxAK0rHFIIAe_tQEao5y
 
 
 
@@ -91,4 +90,4 @@ Have students stand up, hands up, pair up, and share 1 thing they learned about 
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Communicating About Computing|
-| Other Content Standards | CCSS.ELA-LITERACY.RI.3.7, CCSS.ELA-LITERACY.W.3.6, CCSS.ELA-LITERACY.W.3.7, CCSS.ELA-LITERACY.W.3.2.B  |
+| Other Content Standards | [CCSS.ELA-LITERACY.[RI.3.7](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/), [CCSS.ELA-LITERACY.[W.3.6](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/), [CCSS.ELA-LITERACY.[W.3.7](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/), [CCSS.ELA-LITERACY.[W.3.2.B](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

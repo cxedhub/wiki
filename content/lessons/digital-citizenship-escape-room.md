@@ -79,5 +79,4 @@ In progress
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | CCSS: ELA 5.W.7, RI5.1, RI5.9   
-ISTE: 3a, 3c, 5b, 7a  |
+| Other Content Standards | CCSS: ELA 5.W.7, RI5.1, RI5.9 [ISTE](https://www.iste.org/standards/iste-standards-for-students): 3a, 3c, 5b, 7a  |

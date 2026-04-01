@@ -1,6 +1,6 @@
 ---
 title: Is data for the birds?
-description: Students will explore probability and coding by coding the Micro|bit
+description: Students will explore probability and coding by coding the Micro:bit
   to generate random responses similar to flipping a coin.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
@@ -24,7 +24,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will explore probability and coding by coding the Micro|bit to generate random responses similar to flipping a coin.
+Students will explore probability and coding by coding the Micro:bit to generate random responses similar to flipping a coin.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics 
 + *Grade Level :* 6-8 
@@ -40,7 +40,7 @@ Students will explore probability and coding by coding the Micro|bit to generate
 
 # Lesson Plan
 ## Overview
-Students will explore probability and coding by coding the Micro|bit to generate random responses similar to flipping a coin.
+Students will explore probability and coding by coding the Micro:bit to generate random responses similar to flipping a coin.
 ## ASSESSMENT PRE/POST-TEST
 How many times will you probably need to flip a coin to have it land on heads 6 times?
 ## OBJECTIVES

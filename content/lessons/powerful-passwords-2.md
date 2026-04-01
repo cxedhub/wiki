@@ -87,7 +87,6 @@ Finish by asking students some ways they can avoid password theft and what they 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=18kpaK-Sk0FlvAGVdeRdeUAIemj2Smwmjs3DNXn-ydys
 
 
 

@@ -64,7 +64,6 @@ Purposefully design groups, pass out materials, and demonstrate how to place a f
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1bJG9-yv3e2IfnWtKOpgwAGdsuPChLm2d
 
 
 
@@ -76,4 +75,4 @@ Have the groups come back together and discuss today's work together as a class.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 2.CS.T.01, 2.DA.CVT.01, 2.AP.A.01  |
+| Other Content Standards | [2.CS.T.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.DA.CVT.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

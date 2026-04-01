@@ -82,5 +82,4 @@ Review the algorithm we created and how we completed the task
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions|
-| Other Content Standards | Approaches to Learning 1.1c, 2.2e
-2.AP.A.01  |
+| Other Content Standards | Approaches to Learning 1.1c, 2.2e [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

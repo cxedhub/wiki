@@ -108,4 +108,4 @@ Exit slip:  Write 2-3 sentences explaining at least 3 things in your life that h
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | 8.F.E.1; 8.EE.D7; 8.AP.V.01  |
+| Other Content Standards | 8.F.E.1; 8.EE.D7; [8.AP.V.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

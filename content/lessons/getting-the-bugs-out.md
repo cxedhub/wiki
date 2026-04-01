@@ -63,7 +63,6 @@ This lesson is for 1 day at 50 minutes.  Students will work in pairs, but produc
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1P5K-qlEo_iqeNf4JQZGujwX2t_l5D6-A, https://drive.google.com/file/d/1WmSTGKs7DJ-isXR08-vBsYL-qBNUrBi_, https://drive.google.com/file/d/1Ls5cE7z2t4al0QXqXdt7se9cp_8tqmkR, https://drive.google.com/file/d/1J_2X1Ap9fu0k-lYPaLxW6TBsZyOTa_R_
 
 
 
@@ -75,7 +74,4 @@ I will review the rubric and ask students out the door an exit question.  Some q
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | IB Criterion A: Inquiring and Analyzing
-I:explain and justify the need for a solution to a problem for a specified
-client/target audience
-III:analyse a range of existing products that inspire a solution to the problem  |
+| Other Content Standards | IB Criterion A: Inquiring and Analyzing I:explain and justify the need for a solution to a problem for a specified client/target audience III:analyse a range of existing products that inspire a solution to the problem  |

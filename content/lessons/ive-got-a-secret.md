@@ -66,7 +66,6 @@ We will wrap up with the quizizz.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1ljn9HkZTfpPlGkQxUb5914u1Dne_tIAW, https://drive.google.com/file/d/1OwMPuT3pThl5TXr0zf8fR16Vrt32mwf1, https://drive.google.com/file/d/1Zlkt7rqTI9Z0jG1ttPPZN0l6EgCuKK8b
 
 
 
@@ -78,14 +77,6 @@ I will review the rubric and students will take the quizizz mentioned earlier.  
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | IB 
-Criterion A: Inquiry and Analyzing
-I:explain and justify the need for a solution to a problem for a specified
-client/target audience
-II:identify and prioritize the primary and secondary research needed to develop a
-solution to the problem
-III:analyse a range of existing products that inspire a solution to the problem
-
-
+| Other Content Standards | IB Criterion A: Inquiry and Analyzing I:explain and justify the need for a solution to a problem for a specified client/target audience II:identify and prioritize the primary and secondary research needed to develop a solution to the problem III:analyse a range of existing products that inspire a solution to the problem  |
 Criterion C: Create the Solution: 
 III: present the final solution  |

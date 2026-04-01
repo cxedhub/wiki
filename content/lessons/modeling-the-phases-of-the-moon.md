@@ -1,9 +1,9 @@
 ---
 title: Modeling the Phases of the Moon
 description: In this lesson, students are introduced to computer science through the
-  use of Micro|bits to create a model of the lunar phases as seen on Earth. In order
+  use of Micro:bits to create a model of the lunar phases as seen on Earth. In order
   to complete this lesson, students must already have an understanding of the phases
-  of the moon. Students do not need previous experience working with Micro|bits for
+  of the moon. Students do not need previous experience working with Micro:bits for
   the lesson.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
@@ -27,7 +27,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-In this lesson, students are introduced to computer science through the use of Micro|bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro|bits for the lesson.
+In this lesson, students are introduced to computer science through the use of Micro:bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro:bits for the lesson.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 6-8 
@@ -43,7 +43,7 @@ In this lesson, students are introduced to computer science through the use of M
 
 # Lesson Plan
 ## Overview
-In this lesson, students are introduced to computer science through the use of Micro|bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro|bits for the lesson.
+In this lesson, students are introduced to computer science through the use of Micro:bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro:bits for the lesson.
 ## ASSESSMENT PRE/POST-TEST
 1. What is computer science?
  Using a computer, problem solving, a type of science, or computer coding only. 
@@ -116,7 +116,6 @@ Once students have created a model of the lunar phases, have students download t
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1VyIhfD2at40FiJzzUqvXqbv44g4bChfI, https://drive.google.com/file/d/1ei9br2A0BeIUuGd4_1mS_9FAlUvrfw8M
 
 
 
@@ -128,4 +127,4 @@ After students have completed their model, have students reflect on the strength
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | NGSS MS-ESS1-1  |
+| Other Content Standards | NGSS [MS-ESS1-1](https://www.nextgenscience.org/search-standards?keys=MS-ESS1-1)  |

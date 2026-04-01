@@ -85,4 +85,4 @@ Post question and group discussion regarding what went well and what could be ch
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Communicating About Computing|
-| Other Content Standards | CCSS: ELA SL.5.1, SL.K.6  |
+| Other Content Standards | CCSS: ELA [SL.5.1](https://www.thecorestandards.org/ELA-Literacy/), SL.K.6  |

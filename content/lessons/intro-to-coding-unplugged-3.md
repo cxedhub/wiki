@@ -1,5 +1,5 @@
 ---
-title: Intro to Coding| Unplugged
+title: Intro to Coding: Unplugged
 description: This lesson will help students gain familiarity with algorithms and how
   to create a path on a coding mat. This will help prepare students to begin coding
   online.
@@ -57,7 +57,6 @@ ready for school, or participating in clean-up time
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1mzroHS6a1Ib4cA7deFvlH_y31XgkK7dG
 
 
 

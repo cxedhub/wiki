@@ -1,5 +1,5 @@
 ---
-title: ESP Problem Solving| A Problem Solving Model
+title: ESP Problem Solving: A Problem Solving Model
 description: This is an introductory lesson to the problem-solving process. The goal
   is for students to see that they, in a manner similar to computers, engage in a
   process of input, processing, deciding, and acting. It will serve as an introduction

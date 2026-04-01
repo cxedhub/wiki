@@ -1,5 +1,5 @@
 ---
-title: Weather| Factors and Hazards (Part Three)
+title: Weather: Factors and Hazards (Part Three)
 description: In this activity, students use the scientific inquiry process to investigate
   the effect of water on Earth materials. They explore how water flows through different
   materials and make a connection between permeability and flooding.
@@ -103,9 +103,4 @@ Partner share or table share about what they learned.
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 3-ESS2-1: Represent data in tables and graphical displays to describe typical conditions expected during a particular season.
-3-ESS2-2: Obtain and combine information to describe climates in different regions of the world.
-3-ESS3-1: Make a claim about the merit of a design solution that reduces the impact of a weather-related hazard.
-3.MD.G.2: Measure and estimate liquid volumes and masses of objects using grams (g), kilograms (kg), and liters (L). (Excludes compound units such
-as cm^3 and finding the geometric volume of a container.) Add, subtract, multiply, or divide to solve one-step word problems involving masses or
-volumes that are given in the same units. (Excludes multiplicative comparison problems involving notions of “times as much.”)  |
+| Other Content Standards | [3-ESS2-1](https://www.nextgenscience.org/search-standards?keys=3-ESS2-1): Represent data in tables and graphical displays to describe typical conditions expected during a particular season. [3-ESS2-2](https://www.nextgenscience.org/search-standards?keys=3-ESS2-2): Obtain and combine information to describe climates in different regions of the world. [3-ESS3-1](https://www.nextgenscience.org/search-standards?keys=3-ESS3-1): Make a claim about the merit of a design solution that reduces the impact of a weather-related hazard. 3.MD.G.2: Measure and estimate liquid volumes and masses of objects using grams (g), kilograms (kg), and liters (L). (Excludes compound units such as cm^3 and finding the geometric volume of a container.) Add, subtract, multiply, or divide to solve one-step word problems involving masses or volumes that are given in the same units. (Excludes multiplicative comparison problems involving notions of “times as much.”)  |

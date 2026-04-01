@@ -109,4 +109,4 @@ Say: As you get older, having a strong password will become even more important.
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | 5.NI.C.01 - Discuss real-world cybersecurity problems and how personal information can be protected.  |
+| Other Content Standards | [5.NI.C.01](https://edu.wyoming.gov/educators/standards/computer-science/) - Discuss real-world cybersecurity problems and how personal information can be protected.  |

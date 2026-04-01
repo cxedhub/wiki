@@ -1,7 +1,7 @@
 ---
 title: Stormy Skies (Part Two)
-description: This lesson continues with the next section of Mystery Science| Grade
-  3 Water Cycle & Phases of Matter| Local Weather Patterns & Weather Predication.
+description: This lesson continues with the next section of Mystery Science: Grade
+  3 Water Cycle & Phases of Matter: Local Weather Patterns & Weather Predication.
   Following Stormy Skies, Part One, this listen will go into more details about clouds.
   Students will learn about different types of clouds, wind direction, and how to
   prepare for a change in weather by looking at patterns.
@@ -28,7 +28,7 @@ materials: None
 ---
 # OVERVIEW
 ## Activity Overview:  
-This lesson continues with the next section of Mystery Science| Grade 3 Water Cycle & Phases of Matter| Local Weather Patterns & Weather Predication. Following Stormy Skies, Part One, this listen will go into more details about clouds. Students will learn about different types of clouds, wind direction, and how to prepare for a change in weather by looking at patterns.
+This lesson continues with the next section of Mystery Science: Grade 3 Water Cycle & Phases of Matter: Local Weather Patterns & Weather Predication. Following Stormy Skies, Part One, this listen will go into more details about clouds. Students will learn about different types of clouds, wind direction, and how to prepare for a change in weather by looking at patterns.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Science, Reading/Language Arts 
 + *Grade Level :* 3-5 
@@ -44,7 +44,7 @@ This lesson continues with the next section of Mystery Science| Grade 3 Water Cy
 
 # Lesson Plan
 ## Overview
-This lesson continues with the next section of Mystery Science| Grade 3 Water Cycle & Phases of Matter| Local Weather Patterns & Weather Predication. Following Stormy Skies, Part One, this listen will go into more details about clouds. Students will learn about different types of clouds, wind direction, and how to prepare for a change in weather by looking at patterns.
+This lesson continues with the next section of Mystery Science: Grade 3 Water Cycle & Phases of Matter: Local Weather Patterns & Weather Predication. Following Stormy Skies, Part One, this listen will go into more details about clouds. Students will learn about different types of clouds, wind direction, and how to prepare for a change in weather by looking at patterns.
 ## ASSESSMENT PRE/POST-TEST
 Ask students to define or draw a picture with each of these words: 
 cumulus
@@ -100,6 +100,4 @@ Wrap-Up Video in Mystery Science Lesson
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 3-ESS2-2: Obtain and combine information to describe climates in different regions of the world.
-RI.3.1: Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answer.
-3.MD.H.3: Draw a scaled picture graph and a scaled bar graph to represent a data set with several categories. Solve one- and two-step “how many more” and “how many less” problems using information presented in scaled graphs.  |
+| Other Content Standards | [3-ESS2-2](https://www.nextgenscience.org/search-standards?keys=3-ESS2-2): Obtain and combine information to describe climates in different regions of the world. [RI.3.1](https://www.thecorestandards.org/ELA-Literacy/): Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answer. 3.MD.H.3: Draw a scaled picture graph and a scaled bar graph to represent a data set with several categories. Solve one- and two-step “how many more” and “how many less” problems using information presented in scaled graphs.  |

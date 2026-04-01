@@ -72,7 +72,6 @@ The detailed procedure is attached step-by-step in the attached PDF document.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=19t3gQSkNaV4A2KnK91yJHkM5knZDHgvq
 
 
 

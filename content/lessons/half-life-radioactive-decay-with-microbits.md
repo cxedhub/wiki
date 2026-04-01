@@ -1,9 +1,9 @@
 ---
-title: Half Life Radioactive Decay with Micro|bits
-description: Introduce basic programming of the micro|bit while reiterating the integration
+title: Half Life Radioactive Decay with Micro:bits
+description: Introduce basic programming of the micro:bit while reiterating the integration
   of math in physical science exploring half life radioactive decay. Will calculate
   starting mass, ending mass or half life but the limitations on half life include
-  1 or 2 half lives only. Without the use of logarithms on micro|bits, solving for
+  1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for
   an unknown exponent is not possible.
 date: '2021-07-03 00:00:00+00:00'
 draft: false
@@ -31,7 +31,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Introduce basic programming of the micro|bit while reiterating the integration of math in physical science exploring half life radioactive decay. Will calculate starting mass, ending mass or half life but the limitations on half life include 1 or 2 half lives only. Without the use of logarithms on micro|bits, solving for an unknown exponent is not possible.
+Introduce basic programming of the micro:bit while reiterating the integration of math in physical science exploring half life radioactive decay. Will calculate starting mass, ending mass or half life but the limitations on half life include 1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for an unknown exponent is not possible.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Science 
 + *Grade Level :* 9-12 
@@ -47,7 +47,7 @@ Introduce basic programming of the micro|bit while reiterating the integration o
 
 # Lesson Plan
 ## Overview
-Introduce basic programming of the micro|bit while reiterating the integration of math in physical science exploring half life radioactive decay. Will calculate starting mass, ending mass or half life but the limitations on half life include 1 or 2 half lives only. Without the use of logarithms on micro|bits, solving for an unknown exponent is not possible.
+Introduce basic programming of the micro:bit while reiterating the integration of math in physical science exploring half life radioactive decay. Will calculate starting mass, ending mass or half life but the limitations on half life include 1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for an unknown exponent is not possible.
 ## ASSESSMENT PRE/POST-TEST
 What is a micro:bit? How is it programmed? How does the micro:bit compare to a calculator in solving half life problems?
 ## OBJECTIVES
@@ -80,4 +80,4 @@ Revisit the question again, which tool is write for the job? Students will write
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Creating Computational Artifacts|
-| Other Content Standards | SCI.GPS.2.3 Students will use models to compare nuclear processes and the energy they release. (i.e. radioactivity, nuclear fusion, and nuclear fission). HS-PS3-4  |
+| Other Content Standards | SCI.GPS.2.3 Students will use models to compare nuclear processes and the energy they release. (i.e. radioactivity, nuclear fusion, and nuclear fission). [HS-PS3-4](https://www.nextgenscience.org/search-standards?keys=HS-PS3-4)  |

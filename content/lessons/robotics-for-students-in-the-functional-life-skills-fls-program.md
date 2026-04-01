@@ -137,4 +137,4 @@ Project presentation, Discussion, Reflection Form
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | Extended Standards for Students with Complex Needs: SES-MS-ETS1-1; SES-MS-ETS1-2.; SES-MS-ETS1-3; SES-MS-ETS1-4  |
+| Other Content Standards | Extended Standards for Students with Complex Needs: SES-[MS-ETS1-1](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-1); SES-[MS-ETS1-2](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-2).; SES-[MS-ETS1-3](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-3); SES-[MS-ETS1-4](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-4)  |

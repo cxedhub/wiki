@@ -75,4 +75,4 @@ Review with the students the answers to their pre/post questions. Discuss why th
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Developing and Using Abstractions|
-| Other Content Standards | CCSS.MATH.CONTENT.2.MD.D.10  |
+| Other Content Standards | [CCSS.MATH.CONTENT.2.MD.D.10](https://www.thecorestandards.org/Math/)  |

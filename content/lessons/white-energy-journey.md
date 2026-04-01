@@ -123,7 +123,6 @@ models.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1nluH8QfKfrsag07ZnO9Qjr3XtSH4cHHA
 
 
 
@@ -137,9 +136,4 @@ Students should collaborate through moderated discussion to trouble-shoot errors
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | MS-LS1-1: Conduct an investigation to produce data to serve as the basis for evidence
-that meet the goals of an investigation (Grades 6 - 8)Use mathematical representations to describe and/or support scientific conclusions and
-design solutions (Grades 6 - 8)
-● MS-ETS1-3: Analyze data from tests to determine similarities and differences among
-several design solutions to identify the best characteristics of each that can be combined
-into a new solution to better meet the criteria for success.  |
+| Other Content Standards | [MS-LS1-1](https://www.nextgenscience.org/search-standards?keys=MS-LS1-1): Conduct an investigation to produce data to serve as the basis for evidence that meet the goals of an investigation (Grades 6 - 8)Use mathematical representations to describe and/or support scientific conclusions and design solutions (Grades 6 - 8) ● [MS-ETS1-3](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-3): Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success.  |

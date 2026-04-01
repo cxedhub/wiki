@@ -1,6 +1,6 @@
 ---
-title: Getting started with Micro|bit
-description: Students will explore the functions of the MIcro|bit. Students have not
+title: Getting started with Micro:bit
+description: Students will explore the functions of the MIcro: bit. Students have not
   had experience with this and I have very little. Together, we will learn basic programming
   operations using makecode.mirobit.org tutorials. Students will work in pairs/groups
   to complete tasks such as programing dice and a name tag.
@@ -32,7 +32,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will explore the functions of the MIcro|bit. Students have not had experience with this and I have very little. Together, we will learn basic programming operations using makecode.mirobit.org tutorials. Students will work in pairs/groups to complete tasks such as programing dice and a name tag.
+Students will explore the functions of the MIcro: bit. Students have not had experience with this and I have very little. Together, we will learn basic programming operations using makecode.mirobit.org tutorials. Students will work in pairs/groups to complete tasks such as programing dice and a name tag.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Reading/Language Arts, Technology 
 + *Grade Level :* K-2, 3-5 
@@ -48,7 +48,7 @@ Students will explore the functions of the MIcro|bit. Students have not had expe
 
 # Lesson Plan
 ## Overview
-Students will explore the functions of the MIcro|bit. Students have not had experience with this and I have very little. Together, we will learn basic programming operations using makecode.mirobit.org tutorials. Students will work in pairs/groups to complete tasks such as programing dice and a name tag.
+Students will explore the functions of the MIcro: bit. Students have not had experience with this and I have very little. Together, we will learn basic programming operations using makecode.mirobit.org tutorials. Students will work in pairs/groups to complete tasks such as programing dice and a name tag.
 ## ASSESSMENT PRE/POST-TEST
 What codes do you have to use to turn your Micro:bit into a die?
 What codes do you have to use to turn your Micro:bit into a name tag?
@@ -73,7 +73,6 @@ Work through the tutorial as a class on how to program dice using makecode.mirob
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1BizxW4Es_R5vO1UvD2yYPxeX9cxUOT1L
 
 
 

@@ -77,4 +77,4 @@ This is still a work in progress!
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | MS-LS1-3  |
+| Other Content Standards | [MS-LS1-3](https://www.nextgenscience.org/search-standards?keys=MS-LS1-3)  |

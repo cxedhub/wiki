@@ -74,7 +74,6 @@ Song presentation- create a common rubric whole group
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1s4FrHYVDa3dH00VZRfV94bfKDMv40eOcxhjfOPc3Wvs
 
 
 
@@ -104,6 +103,4 @@ Next Lesson Activity Idea: Learn about copyright, credit, plagiarism, and apply 
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | Speaking and Listening
-Reading Literature
-Writing  |
+| Other Content Standards | Speaking and Listening Reading Literature Writing  |

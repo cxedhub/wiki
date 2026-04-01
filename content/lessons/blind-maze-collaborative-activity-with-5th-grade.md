@@ -83,4 +83,4 @@ Ask the post question and group discussion regarding what went well and what cou
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Communicating About Computing|
-| Other Content Standards | ELA SL.K.6, SL.K.3 Math K.CC.A2       2.AP.A.01, 2.AP.C.01  |
+| Other Content Standards | ELA SL.K.6, SL.K.3 Math K.CC.A2       [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

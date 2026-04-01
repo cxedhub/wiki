@@ -1,7 +1,7 @@
 ---
 title: Using Microbits to Make a Magic Button
 description: Create a magic trick you can perform to impress your friends. When you
-  move the sticky labels on your micro|bit’s A and B button, you appear to make the
+  move the sticky labels on your micro:bit’s A and B button, you appear to make the
   buttons really switch over.
 date: '2023-03-11 00:00:00+00:00'
 draft: false
@@ -23,7 +23,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Create a magic trick you can perform to impress your friends. When you move the sticky labels on your micro|bit’s A and B button, you appear to make the buttons really switch over.
+Create a magic trick you can perform to impress your friends. When you move the sticky labels on your micro:bit’s A and B button, you appear to make the buttons really switch over.
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* 6-8 
@@ -39,7 +39,7 @@ Create a magic trick you can perform to impress your friends. When you move the 
 
 # Lesson Plan
 ## Overview
-Create a magic trick you can perform to impress your friends. When you move the sticky labels on your micro|bit’s A and B button, you appear to make the buttons really switch over.
+Create a magic trick you can perform to impress your friends. When you move the sticky labels on your micro:bit’s A and B button, you appear to make the buttons really switch over.
 ## ASSESSMENT PRE/POST-TEST
 Pre-Test Questions:  
 How can a magnet influence the way the compass function operates on your microbit?
@@ -66,7 +66,6 @@ The student will need their micro:bit and any magnet that is small enough to fit
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1h7zHdJE3tTRk_uv2xbRfQfVorepBwci6
 
 
 

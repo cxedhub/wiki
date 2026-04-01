@@ -143,11 +143,7 @@ Presentation of student projects ; Group discussion to reflect on what went well
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | ELA:
-RL.2.5. 
-W.2.3.
-
-
+| Other Content Standards | ELA: [RL.2.5](https://www.thecorestandards.org/ELA-Literacy/). [W.2.3](https://www.thecorestandards.org/ELA-Literacy/).  |
 LIT
 AASL -Inquire/Explore/Engage/
 Crosswalked to many ISTE standards  |

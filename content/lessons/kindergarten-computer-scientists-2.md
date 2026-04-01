@@ -123,7 +123,6 @@ Activity 6 (20-25 minutes):
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1hzU7mebliDWQ2k8vTxcyEiowA-n8ct06PWJNYSfHtds, https://drive.google.com/file/d/1BpbXJZYF56S5jx6SO_bbqwgE8rcc1oGp3G4ngxXqb0g, https://drive.google.com/file/d/1UZsAjjZWqjr4cY8-3NDSUBCf8EygLsOeEv_FYgfezTg, https://drive.google.com/file/d/1B5H5zUFGLXiUXrmg6WbW4MelYc0SAv9KbQjGXiK3VWg, https://drive.google.com/file/d/1WPhHYPRNrLY5c2syz81okQmlX7SAC8dB0gVBlWPzdBk
 
 
 
@@ -135,4 +134,4 @@ Repeat actions and words for each of our Big FANCY Words definitions.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 2.AP.A.01, 2.AP.C.01, 2.AP.M.01, 2.AP.PD.04, 2.IC.C.01  |
+| Other Content Standards | [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.PD.04](https://edu.wyoming.gov/educators/standards/computer-science/), [2.IC.C.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

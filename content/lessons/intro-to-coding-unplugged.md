@@ -65,7 +65,6 @@ Lesson Procedures:
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1nC3fgbzKmkv5GlAyrJOC9XuFbta8x58F
 
 
 

@@ -65,7 +65,6 @@ They will repeat this process for several sight words. (This can be done as a gr
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1mSIpDoU85omrptjwUIk19hmAQfJlCsHwbSDNuxDqZBU
 
 
 
@@ -77,4 +76,4 @@ Discuss how they were able to use their coding and problem solving skills to com
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | CCSS.ELA-LITERACY.RF.2.3.F  |
+| Other Content Standards | [CCSS.ELA-LITERACY.[RF.2.3.F](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

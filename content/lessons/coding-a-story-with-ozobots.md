@@ -64,7 +64,6 @@ Students will create a story on a poster board and program an Ozobot to follow t
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1kAgRUcICIipoY-Me-R782zLyNwGFL6E5
 
 
 
@@ -80,9 +79,4 @@ The teacher would want to explain what the students are going to be doing in a s
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Communicating About Computing|
-| Other Content Standards | LA1.1B.1
-LA1.1B.2
-LA1.2A.4
-LA2.1A
-LA2.2A.1
-LA2.2B.3  |
+| Other Content Standards | LA1.1B.1 LA1.1B.2 LA1.2A.4 LA2.1A LA2.2A.1 LA2.2B.3  |

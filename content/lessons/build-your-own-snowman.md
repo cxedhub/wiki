@@ -82,4 +82,4 @@ Was the activity fun and what did you learn about using a Chromebook and Google 
 |-----------|-----------|
 | CS Domains  | Computing Systems, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | 2.CS.HS.01  |
+| Other Content Standards | [2.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

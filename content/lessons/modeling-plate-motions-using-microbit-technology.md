@@ -71,7 +71,6 @@ o        Transform – Where the plates move past each other.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1MW_FDAt-onw9zCgCeIbiHTerwg-DTEW8
 
 
 
@@ -83,6 +82,4 @@ The wrap up will be students sharing out with the class their write ups about th
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Developing and Using Abstractions, Communicating About Computing|
-| Other Content Standards | •        MS-ESS2-1
-•        MS-ESS3-2 
-•        8.DA.IM.01  |
+| Other Content Standards | •        [MS-ESS2-1](https://www.nextgenscience.org/search-standards?keys=MS-ESS2-1) •        [MS-ESS3-2](https://www.nextgenscience.org/search-standards?keys=MS-ESS3-2) •        [8.DA.IM.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

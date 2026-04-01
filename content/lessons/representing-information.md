@@ -61,7 +61,6 @@ Students will build a program that will transfer data from one point to another 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1E2yqoMNTCKw4Pl3tXmcK9sCCI-d2i2vF
 
 
 

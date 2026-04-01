@@ -1,6 +1,6 @@
 ---
 title: What’s the Weather ?
-description: START HERE |get excited about weather!
+description: START HERE - get excited about weather!
 date: '2020-08-04 00:00:00+00:00'
 draft: false
 author: Tesha Frederick
@@ -61,7 +61,6 @@ Extension activities with the moisture indicator and plants can be observed to s
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1jqf2VHZqwELX22pzZbth_O-jKFSkOSmTOdEU8v9kvKk
 
 
 
@@ -73,4 +72,4 @@ I believe starting off with a working model of a micro:bit and having students r
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis|
 | CS Principles   | Collaborating Around Computing, Communicating About Computing|
-| Other Content Standards | 2.CS.D.01, K-2-ETS1-1.  |
+| Other Content Standards | [2.CS.D.01](https://edu.wyoming.gov/educators/standards/computer-science/), [K-2-ETS1-1](https://www.nextgenscience.org/search-standards?keys=K-2-ETS1-1).  |

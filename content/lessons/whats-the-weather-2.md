@@ -64,7 +64,6 @@ Refer to lesson template
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1PZyMVVvVCPuNzqgW-v3HQu6g6acQZYwvyq_wZ4KpAEo
 
 
 

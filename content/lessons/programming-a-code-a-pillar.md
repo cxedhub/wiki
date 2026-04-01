@@ -67,7 +67,6 @@ I will show the students a Youtube video of the code-a-pillar and how it works.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=14Ff2fiZNKxkflKczHL8_VWnuW3MDdgFetb9L5C5eM-Q
 
 
 
@@ -79,5 +78,4 @@ Follow the lesson plan and plan ahead to make sure you have all the materials.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | 2.AP.A.01
-2.AP.C.01  |
+| Other Content Standards | [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/) [2.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

@@ -70,7 +70,6 @@ Video on how to be a weather watcher: https://www.youtube.com/watch?v=Uo8lbeVVb4
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1dC-YipggQZQFU9SvsBRzSHf2Ca1ovIJKdxtruE1qVZM
 
 
 
@@ -82,4 +81,4 @@ Asking students why it is important to take temperatures and what a micro-bit is
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing|
-| Other Content Standards | W.1.8 With guidance and support from adults, recall information from experiences or gather information from provided sources to answer a question.  |
+| Other Content Standards | [W.1.8](https://www.thecorestandards.org/ELA-Literacy/) With guidance and support from adults, recall information from experiences or gather information from provided sources to answer a question.  |

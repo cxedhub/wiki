@@ -75,7 +75,6 @@ Day 8: Finish Bot Challenges and do the pair deck and evaluation activity.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1ZROGY6u_jEwRspXSuHFj8b3ZhhtYKhV5, https://drive.google.com/file/d/1wcvsbp3E1_1co6UqN3bA7Y-YYl99xNCW, https://drive.google.com/file/d/1FARKf0-0kGQhzRykB-L00ww7jaHFe_n7, https://drive.google.com/file/d/1iuSrgyUz6XHe-boQ3ER7bhC6RFIbjbXh
 
 
 
@@ -88,12 +87,6 @@ https://docs.google.com/forms/d/1B4djB-kiocvoEmAic9Nphr0ywg8mMusLJbR2-bwRRFM/sha
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Testing and Refining Computational Artifacts|
-| Other Content Standards | IB Criteria:
-Criterion C: Creating the Solution
-IIIdemonstrate excellent technical skills when making the solution
-IV:follow the plan to create the solution, which functions as intended
-V:present the solution as a whole,
-
-
+| Other Content Standards | IB Criteria: Criterion C: Creating the Solution IIIdemonstrate excellent technical skills when making the solution IV:follow the plan to create the solution, which functions as intended V:present the solution as a whole,  |
 Criterion D: Evaluate
 II: critically evaluate the success of the solution against the design specification  |

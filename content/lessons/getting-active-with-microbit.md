@@ -2,8 +2,8 @@
 title: Getting Active with Microbit
 description: They are introduced to variables and develop their understanding through
   a mixture of unplugged and practical programming activities. Pupils design and program
-  the micro|bit to be a star-jump and step counter and a family activity selector.
-  The sequence comprises 5 lessons of approximately 60 minutes each| Describing with
+  the micro:bit to be a star-jump and step counter and a family activity selector.
+  The sequence comprises 5 lessons of approximately 60 minutes each: Describing with
   variables Using variables in algorithms and programs Analysing, programming and
   evaluating step-counters Planning to get active Programming and evaluating a family
   activity picker
@@ -37,7 +37,7 @@ materials: 'Website, Micro:bit, Lesson plan Lesson slides Student handouts HEX f
 ---
 # OVERVIEW
 ## Activity Overview:  
-They are introduced to variables and develop their understanding through a mixture of unplugged and practical programming activities. Pupils design and program the micro|bit to be a star-jump and step counter and a family activity selector. The sequence comprises 5 lessons of approximately 60 minutes each| Describing with variables Using variables in algorithms and programs Analysing, programming and evaluating step-counters Planning to get active Programming and evaluating a family activity picker
+They are introduced to variables and develop their understanding through a mixture of unplugged and practical programming activities. Pupils design and program the micro:bit to be a star-jump and step counter and a family activity selector. The sequence comprises 5 lessons of approximately 60 minutes each: Describing with variables Using variables in algorithms and programs Analysing, programming and evaluating step-counters Planning to get active Programming and evaluating a family activity picker
 ## Meta description
 + *Subject Area:* Computer Science, Science, Technology, Engineering 
 + *Grade Level :* 3-5 
@@ -53,7 +53,7 @@ They are introduced to variables and develop their understanding through a mixtu
 
 # Lesson Plan
 ## Overview
-They are introduced to variables and develop their understanding through a mixture of unplugged and practical programming activities. Pupils design and program the micro|bit to be a star-jump and step counter and a family activity selector. The sequence comprises 5 lessons of approximately 60 minutes each| Describing with variables Using variables in algorithms and programs Analysing, programming and evaluating step-counters Planning to get active Programming and evaluating a family activity picker
+They are introduced to variables and develop their understanding through a mixture of unplugged and practical programming activities. Pupils design and program the micro:bit to be a star-jump and step counter and a family activity selector. The sequence comprises 5 lessons of approximately 60 minutes each: Describing with variables Using variables in algorithms and programs Analysing, programming and evaluating step-counters Planning to get active Programming and evaluating a family activity picker
 ## ASSESSMENT PRE/POST-TEST
 What are variables?, How are variables used in programs?, How can I debug a program algorithm that uses varibles?
 ## OBJECTIVES
@@ -73,7 +73,6 @@ https://microbit.org/downloads/getting-active.zip
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1NcZAHMfQH4L7lhm5cEk1fccTMCMnUXfS
 
 
 

@@ -74,7 +74,6 @@ If groups are done quickly, give them an extension where once the bot reaches th
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1gZUxe58JPeRtQWspoVlCerThG6m7QA9I
 
 
 
@@ -86,4 +85,4 @@ Bring the class back together and ask them what is an algorithm and what is its 
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 3-5.A.P.C.01, 3-5.AP.M.01, K-2.AP.A.01 K-2.AP.C.0, K-2.AP.m.01  |
+| Other Content Standards | 3-5.A.P.C.01, 3-[5.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/), K-[2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/) K-2.AP.C.0, K-2.AP.m.01  |

@@ -65,7 +65,6 @@ The hook for this lesson is showing the students the Microbit device with a prog
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1zHuYNzdxO64NSXf09M9EoQDS4CImz8gM, https://drive.google.com/file/d/1iT4XZt58C09MeBgApF3set-rfspKECLc
 
 
 

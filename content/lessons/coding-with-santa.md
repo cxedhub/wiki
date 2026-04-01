@@ -66,7 +66,6 @@ Tell the students the teacher wants to get to her desk but needs their help to g
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=195ThBYqIPu8tsGQ2Qpfxg60Ufx2mSJBk
 
 
 

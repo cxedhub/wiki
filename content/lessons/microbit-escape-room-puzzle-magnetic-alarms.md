@@ -80,7 +80,6 @@ Now that you have read about all the blocks you need, it is time to start coding
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1KvTrXMuH4tfp-Qdv4OWo_42W-NrDXVZ_
 
 
 
