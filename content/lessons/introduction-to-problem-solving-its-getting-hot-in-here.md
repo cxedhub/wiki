@@ -1,5 +1,5 @@
 ---
-title: Introduction to problem solving: It's getting hot in here
+title: 'Introduction to problem solving: It''s getting hot in here'
 description: Students will use micro bit and/ or Lego EV3 with temperature sensor
   to record temperature in the room and outside of building to identify differences
   in temperature by location and time. Once we have collected data we will analyze

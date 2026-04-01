@@ -1,9 +1,9 @@
 ---
 title: Getting started with Micro:bit
-description: Students will explore the functions of the MIcro: bit. Students have not
+description: 'Students will explore the functions of the MIcro: bit. Students have not
   had experience with this and I have very little. Together, we will learn basic programming
   operations using makecode.mirobit.org tutorials. Students will work in pairs/groups
-  to complete tasks such as programing dice and a name tag.
+  to complete tasks such as programing dice and a name tag.'
 date: '2021-12-13 00:00:00+00:00'
 draft: false
 author: Melissa Harris

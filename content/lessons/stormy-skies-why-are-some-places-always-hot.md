@@ -1,5 +1,5 @@
 ---
-title: Stormy Skies: Why are some places always hot?
+title: 'Stormy Skies: Why are some places always hot?'
 description: In this lesson, students are introduced to the concept of “climate” and
   explore the world’s five major climates. In the activity, Climate Decoder, students
   color one part of a world map to figure out the different climates of that region.

@@ -1,6 +1,6 @@
 ---
-title: Lesson 8: How does a cup’s surface affect how light warms up a liquid inside
-  the cup?
+title: 'Lesson 8: How does a cup’s surface affect how light warms up a liquid inside
+  the cup?'
 description: This is modified from OpenSciEd under the Creative Common 4.0 License.
   We carry out an investigation to test the interaction between light and the cup
   surface in warming up the cold water inside the cups. We shine light on cups with

@@ -1,9 +1,9 @@
 ---
 title: Exploration with Tetrix
-description: Tetrix: In this lesson students will sort/ organize the school's Tetrix
+description: 'Tetrix: In this lesson students will sort/ organize the school''s Tetrix
   sets to ensure each set is complete. After which, students will attempt to create
   a robot that performs functions specific to those that their group agreed upon.
-  This is an exploratory lesson for students who have never used Tetrix kits before.
+  This is an exploratory lesson for students who have never used Tetrix kits before.'
 date: '2023-04-26 00:00:00+00:00'
 draft: false
 author: Melissa Harris

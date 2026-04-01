@@ -1,5 +1,5 @@
 ---
-title: Geographic Information Systems: Introduction and Map Creation
+title: 'Geographic Information Systems: Introduction and Map Creation'
 description: This lesson introduces Geographic Information Systems (GIS) to students.
   We explore ways in which GIS impacts our communities and our world as well as ways
   in which it solves problems and affects decision making. Students will understand

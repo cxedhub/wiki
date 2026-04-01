@@ -1,7 +1,7 @@
 ---
-title: Intro to Coding: Unplugged
-description: Understanding Coding: How students use an algorithm in an unplugged lesson.
-  Students maneuver an object from start to end, using direction cards.
+title: 'Intro to Coding: Unplugged'
+description: 'Understanding Coding: How students use an algorithm in an unplugged lesson.
+  Students maneuver an object from start to end, using direction cards.'
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Minda Blevins
