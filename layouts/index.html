@@ -136,18 +136,18 @@
           <div class="card"
             data-title="{{ .Title }}"
             data-date="{{ .Date.Format "2006-01-02" }}"
-            data-subjects="{{ delimit .Params.subjects "|" }}"
-            data-grades="{{ delimit .Params.grade_levels "|" }}"
-            data-domains="{{ delimit .Params.cs_domains "|" }}"
-            data-tags="{{ delimit .Params.tags "|" }}"
-            data-standards="{{ delimit .Params.standard_types "|" }}">
+            data-subjects="{{ with .Params.subjects }}{{ delimit . "|" }}{{ end }}"
+            data-grades="{{ with .Params.grade_levels }}{{ delimit . "|" }}{{ end }}"
+            data-domains="{{ with .Params.cs_domains }}{{ delimit . "|" }}{{ end }}"
+            data-tags="{{ with .Params.tags }}{{ delimit . "|" }}{{ end }}"
+            data-standards="{{ with .Params.standard_types }}{{ delimit . "|" }}{{ end }}">
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
             <div class="card-meta">
               {{ with .Params.author }}<span class="chip chip-author">{{ . }}</span>{{ end }}
               {{ range .Params.grade_levels }}<span class="chip chip-grade">{{ . }}</span>{{ end }}
               {{ range first 3 .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
-              {{ if gt (len .Params.subjects) 3 }}<span class="chip chip-more">+{{ sub (len .Params.subjects) 3 }}</span>{{ end }}
+              {{ with .Params.subjects }}{{ if gt (len .) 3 }}<span class="chip chip-more">+{{ sub (len .) 3 }}</span>{{ end }}{{ end }}
             </div>
             {{ with .Params.tags }}
             <div class="card-tags">
