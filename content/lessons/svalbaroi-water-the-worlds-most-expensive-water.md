@@ -25,6 +25,8 @@ standards: 5-ESS2-2
 materials: Website, iPads, Microsft Excel
 tags:
 - "Data Collection"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

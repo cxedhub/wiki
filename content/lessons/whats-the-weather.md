@@ -22,6 +22,9 @@ materials: Micro:bit, Arduino
 tags:
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

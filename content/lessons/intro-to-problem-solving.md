@@ -31,6 +31,8 @@ materials: Website, aluminum foil and pennies
 tags:
 - "Data Collection"
 - "Project-Based"
+standard_types:
+- "CSTA"
 ---
 # OVERVIEW
 ## Activity Overview:  

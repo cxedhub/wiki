@@ -29,6 +29,9 @@ tags:
 - "Data Collection"
 - "Game-Based"
 - "micro:bit"
+standard_types:
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -28,6 +28,8 @@ materials: Website
 tags:
 - "Cybersecurity"
 - "Robotics"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

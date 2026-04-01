@@ -28,6 +28,9 @@ cs_principles:
 materials: Website, Tetrix sets
 tags:
 - "Robotics"
+standard_types:
+- "CCSS ELA"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

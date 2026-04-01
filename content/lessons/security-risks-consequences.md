@@ -23,6 +23,8 @@ cs_principles:
 materials: Website
 tags:
 - "Cybersecurity"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

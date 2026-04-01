@@ -29,6 +29,8 @@ materials: 'Website, The teacher will use a computer to present, the students wi
   use scissors and glue after the presentation. The following URLs will be used: Presentation:
   https://tinyurl.com/bdenpxv3 Documents for Lesson: https://tinyurl.com/mr27kncs'
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

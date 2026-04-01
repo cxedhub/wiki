@@ -23,6 +23,8 @@ cs_principles:
 standards: Wyoming Boot Up L1.AP.C.01, L1.AP.C.02, L1.AP.C.03
 materials: None, IDE
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

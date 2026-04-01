@@ -27,6 +27,8 @@ materials: Website, Laptops - Future sessions would require more tech.
 tags:
 - "Data Collection"
 - "Robotics"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

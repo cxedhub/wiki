@@ -28,6 +28,8 @@ cs_principles:
 standards: SL.K.1, SL.K.2, SL.K.3, SL.K.6
 materials: Website, Personal Computers, Login Badge, computer cleaning supplies
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,6 +21,8 @@ standards: 'CCSS: ELA SL.5.1, SL.K.6'
 materials: None
 tags:
 - "Unplugged"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

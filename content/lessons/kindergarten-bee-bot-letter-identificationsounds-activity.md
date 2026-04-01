@@ -24,6 +24,9 @@ cs_principles:
 materials: Bee-bots, Bee-bot mats, Plastic Bowling Pins
 tags:
 - "Robotics"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

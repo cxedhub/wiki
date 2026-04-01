@@ -26,6 +26,9 @@ cs_principles:
 materials: Website, Chromebooks for accessing materials and assessments for the lessons
 tags:
 - "Unplugged"
+standard_types:
+- "ISTE"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

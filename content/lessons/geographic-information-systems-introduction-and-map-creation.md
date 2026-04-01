@@ -26,6 +26,8 @@ cs_principles:
 materials: Website, Laptops and possible ArcGIS software
 tags:
 - "Data Collection"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

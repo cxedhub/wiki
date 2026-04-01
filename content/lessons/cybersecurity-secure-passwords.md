@@ -24,6 +24,8 @@ materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passw
 tags:
 - "Code.org"
 - "Cybersecurity"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

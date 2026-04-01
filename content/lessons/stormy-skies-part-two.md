@@ -22,6 +22,10 @@ cs_principles:
 materials: None
 tags:
 - "Data Collection"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -79,6 +79,22 @@
         </div>
       </div>
 
+      {{/* Standards */}}
+      {{ if site.Taxonomies.standard_types }}
+      <div class="filter-group" data-filter="standard">
+        <h4 class="filter-group-title">Standards <span class="filter-group-count">{{ len site.Taxonomies.standard_types }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.standard_types.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="standard">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
       {{/* Tags */}}
       <div class="filter-group" data-filter="tag">
         <h4 class="filter-group-title">Tags <span class="filter-group-count">{{ len site.Taxonomies.tags }}</span></h4>
@@ -123,7 +139,8 @@
             data-subjects="{{ delimit .Params.subjects "|" }}"
             data-grades="{{ delimit .Params.grade_levels "|" }}"
             data-domains="{{ delimit .Params.cs_domains "|" }}"
-            data-tags="{{ delimit .Params.tags "|" }}">
+            data-tags="{{ delimit .Params.tags "|" }}"
+            data-standards="{{ delimit .Params.standard_types "|" }}">
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
             <div class="card-meta">

@@ -24,6 +24,8 @@ cs_principles:
 materials: Bee-Bot and Bee-Bot mat
 tags:
 - "Robotics"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

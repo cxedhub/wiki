@@ -25,6 +25,8 @@ tags:
 - "Cybersecurity"
 - "GenCyber"
 - "Scratch"
+standard_types:
+- "CCSS ELA"
 ---
 ## OVERVIEW
 

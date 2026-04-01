@@ -19,6 +19,8 @@ standards: Math- K.OA.D.5
 materials: Botley Robots
 tags:
 - "Robotics"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

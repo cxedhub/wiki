@@ -22,6 +22,10 @@ standards: 3-ESS2-1, 3-ESS2-2, 3-ESS3-1, RI.3.1, 3.MD.G.2
 materials: Website, Project Lead the Way Website
 tags:
 - "Data Collection"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

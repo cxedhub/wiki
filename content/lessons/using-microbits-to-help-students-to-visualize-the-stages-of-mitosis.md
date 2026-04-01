@@ -18,6 +18,10 @@ cs_principles:
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "ISTE"
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

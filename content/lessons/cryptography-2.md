@@ -19,6 +19,8 @@ standards: 8.AP.A.01
 materials: None
 tags:
 - "Cybersecurity"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

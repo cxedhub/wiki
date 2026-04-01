@@ -27,6 +27,8 @@ tags:
 - "Data Collection"
 - "Unplugged"
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

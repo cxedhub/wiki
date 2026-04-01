@@ -34,6 +34,8 @@ materials: 'Website, Slideshow website: https://tinyurl.com/4ztekzpu Checklist f
   computer parts grading template: https://tinyurl.com/yckkfv6z The teacher will also
   use his/her computer and a projector to display information to students.'
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

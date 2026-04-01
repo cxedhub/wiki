@@ -23,6 +23,8 @@ tags:
 - "Robotics"
 - "Unplugged"
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

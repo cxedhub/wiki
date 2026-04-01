@@ -21,6 +21,8 @@ standards: CCSS.MATH.CONTENT.2.MD.D.10
 materials: None
 tags:
 - "Data Collection"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

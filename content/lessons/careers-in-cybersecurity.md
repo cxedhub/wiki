@@ -28,6 +28,8 @@ materials: Website
 tags:
 - "Cybersecurity"
 - "GenCyber"
+standard_types:
+- "CCSS ELA"
 ---
 ## OVERVIEW
 

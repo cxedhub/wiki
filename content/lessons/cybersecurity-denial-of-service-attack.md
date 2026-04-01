@@ -21,6 +21,8 @@ materials: None
 tags:
 - "Cybersecurity"
 - "GenCyber"
+standard_types:
+- "NGSS"
 ---
 ## OVERVIEW
 

@@ -19,6 +19,8 @@ standards: 'K-2.IC.SI.01: Practice grade-level appropriate behaviors and respons
   while participating in an online community. Identify and report inappropriate behavior'
 materials: Website, iPads, https://www.youtube.com/watch?v=q1xNuU7gaAQ, https://www.abcya.com/games/five_senses
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

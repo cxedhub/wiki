@@ -25,6 +25,8 @@ materials: Website, Micro:bit, Arduino, https://playgameoflife.com/
 tags:
 - "Game-Based"
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

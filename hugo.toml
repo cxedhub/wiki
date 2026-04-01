@@ -19,6 +19,7 @@ summaryLength = 40
   grade_level = "grade_levels"
   cs_domain = "cs_domains"
   cs_principle = "cs_principles"
+  standard_type = "standard_types"
 
 [markup]
   [markup.goldmark]

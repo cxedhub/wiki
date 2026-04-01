@@ -22,6 +22,8 @@ standards: 2.CS.HS.01
 materials: Chromebook with access to Google Slides
 tags:
 - "Project-Based"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

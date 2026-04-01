@@ -25,6 +25,9 @@ standards: NGSS, CC, WYSS Copied from Spreadsheets and pasted here
 materials: Netflix
 tags:
 - "Data Collection"
+standard_types:
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

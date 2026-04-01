@@ -29,6 +29,8 @@ materials: 'Website, A slideshow will be used: https://tinyurl.com/2p9fe688 Also
 tags:
 - "Cybersecurity"
 - "Unplugged"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

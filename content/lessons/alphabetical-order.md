@@ -23,6 +23,8 @@ standards: CCSS.ELA-Literacy.L.2.2.E
 materials: Scratch Jr.
 tags:
 - "Scratch"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

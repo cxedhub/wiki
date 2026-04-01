@@ -24,6 +24,9 @@ cs_principles:
 materials: Website
 tags:
 - "Game-Based"
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

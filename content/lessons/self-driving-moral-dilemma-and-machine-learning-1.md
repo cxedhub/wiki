@@ -21,6 +21,8 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://www.moralmachine.net/
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

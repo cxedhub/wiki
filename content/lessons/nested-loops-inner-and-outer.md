@@ -18,6 +18,8 @@ cs_principles:
 standards: Wyoming BootUp L1.AP.C.01, L2. AP.C.01, L1.AP.C.02
 materials: Raspberry Pi, Python friendly IDE
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

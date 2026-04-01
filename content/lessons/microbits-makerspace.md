@@ -31,6 +31,9 @@ tags:
 - "Data Collection"
 - "Project-Based"
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

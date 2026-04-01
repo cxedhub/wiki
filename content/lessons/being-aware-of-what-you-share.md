@@ -21,6 +21,9 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://www.commonsense.org/education/digital-citizenship/lesson/being-aware-of-what-you-share
 tags: []
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

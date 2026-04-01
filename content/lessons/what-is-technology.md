@@ -19,6 +19,8 @@ cs_principles:
 standards: 8.CS.HS.01
 materials: cameras, ipods, watch, cellphones, toothbrush, pencils, etc.
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

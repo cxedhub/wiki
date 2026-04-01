@@ -17,6 +17,10 @@ cs_principles:
 - Communicating About Computing
 materials: None
 tags: []
+standard_types:
+- "CCSS ELA"
+- "ISTE"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -31,6 +31,8 @@ tags:
 - "Game-Based"
 - "Project-Based"
 - "Scratch"
+standard_types:
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

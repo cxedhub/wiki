@@ -21,6 +21,9 @@ cs_principles:
 materials: Website, code.org- course D sequencing
 tags:
 - "Code.org"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

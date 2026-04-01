@@ -22,6 +22,8 @@ materials: Website, Micro:bit
 tags:
 - "Scratch"
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

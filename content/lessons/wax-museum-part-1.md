@@ -24,6 +24,8 @@ standards: CCSS.ELA-LITERACY.RI.3.7, CCSS.ELA-LITERACY.W.3.6, CCSS.ELA-LITERACY.
 materials: None, Website
 tags:
 - "Unplugged"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -24,6 +24,9 @@ cs_principles:
 materials: Website, http://www.pbs.org/wgbh/nova/labs/lab/cyber/research#/newuser
 tags:
 - "Cybersecurity"
+standard_types:
+- "CSTA"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,6 +21,8 @@ standards: K-ESS2-1
 materials: Blue-Bots, Bee-Bots, or Code and Go Mouse
 tags:
 - "Robotics"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

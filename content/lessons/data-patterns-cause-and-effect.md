@@ -27,6 +27,9 @@ materials: 'Micro:bit, Physicial Materials: ruler, calculator, construction pape
 tags:
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -24,6 +24,8 @@ cs_principles:
 materials: Lego Mindstorms (I am using the NXT version)
 tags:
 - "Robotics"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

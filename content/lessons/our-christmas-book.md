@@ -20,6 +20,8 @@ cs_principles:
 standards: CCSS.ELA-LITERACY.W.1.1
 materials: Book Creation App on I-Pad
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

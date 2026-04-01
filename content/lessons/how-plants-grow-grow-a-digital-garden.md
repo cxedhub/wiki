@@ -25,6 +25,8 @@ tags:
 - "Robotics"
 - "Scratch"
 - "Unplugged"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -19,6 +19,8 @@ cs_principles:
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "CSTA"
 ---
 # OVERVIEW
 ## Activity Overview:  

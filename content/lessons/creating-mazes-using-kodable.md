@@ -18,6 +18,8 @@ cs_principles:
 standards: 5.AP.A.01,
 materials: Website
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

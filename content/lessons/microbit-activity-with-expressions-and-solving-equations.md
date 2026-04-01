@@ -26,6 +26,8 @@ standards: 5.OA.A.1, 6.EE.E.1, 6.EE.E.2.C, 6.EE.E.3, 6.EE.E.4, 6.EE.F.5, 6.EE.F.
 materials: Micro:bit, Computer
 tags:
 - "micro:bit"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

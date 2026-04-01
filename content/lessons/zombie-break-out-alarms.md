@@ -22,6 +22,8 @@ cs_principles:
 - Communicating About Computing
 materials: Cublet
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

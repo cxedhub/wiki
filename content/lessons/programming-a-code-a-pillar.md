@@ -17,6 +17,8 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Think and Learn Code-a-Pillar
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

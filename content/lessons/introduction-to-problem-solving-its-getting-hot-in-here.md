@@ -24,6 +24,8 @@ materials: Micro:bit, Lego EV3 with weather/ temperature probe
 tags:
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -28,6 +28,8 @@ tags:
 - "Data Collection"
 - "Project-Based"
 - "Robotics"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

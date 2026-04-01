@@ -22,6 +22,10 @@ materials: Website
 tags:
 - "Data Collection"
 - "Web Design"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

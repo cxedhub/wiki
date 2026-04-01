@@ -20,6 +20,8 @@ standards: MS-PS4-2 & MS-LS1-8
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

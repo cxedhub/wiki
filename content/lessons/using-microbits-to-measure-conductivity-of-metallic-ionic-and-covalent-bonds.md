@@ -20,6 +20,10 @@ cs_principles:
 materials: Micro:bit, gator clips and different materials that conduct and don't
 tags:
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

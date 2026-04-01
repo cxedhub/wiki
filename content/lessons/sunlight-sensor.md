@@ -22,6 +22,9 @@ materials: Micro:bit
 tags:
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

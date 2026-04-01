@@ -21,6 +21,9 @@ materials: printer, computer for student use, projector for teacher use with a c
   connected
 tags:
 - "Data Collection"
+standard_types:
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

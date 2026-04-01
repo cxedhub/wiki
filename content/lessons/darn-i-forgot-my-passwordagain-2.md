@@ -19,6 +19,8 @@ cs_principles:
 materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
 tags:
 - "Code.org"
+standard_types:
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  
