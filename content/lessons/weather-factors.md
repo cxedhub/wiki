@@ -18,9 +18,10 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: 3-ESS2-1, 3-ESS2-2, 3-ESS3-1, RI.3.1, 3.MD.G.2
 materials: Website, Project Lead the Way Website
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

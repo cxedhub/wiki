@@ -20,9 +20,12 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: MS-ESS1-3, 6.RP.A.3, 6.RP.A.1
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

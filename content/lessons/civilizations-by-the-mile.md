@@ -23,9 +23,10 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-tags: []
 standards: SS8.4.3, SS8.5.1, SS8.5.2, SS8.5.3
 materials: Website, Micro:bit, https://makecode.microbit.org/
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

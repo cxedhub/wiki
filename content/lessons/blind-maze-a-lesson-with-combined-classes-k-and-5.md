@@ -17,9 +17,10 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags: []
 standards: 'CCSS: ELA SL.5.1, SL.K.6'
 materials: None
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -25,9 +25,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: ISTE Standards
 materials: Website
+tags:
+- "Game-Based"
+- "Project-Based"
+- "Scratch"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,10 +21,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: 'Micro:bit, Physicial Materials: ruler, calculator, construction paper,
   pencil, glue, scissors or kid-safe hobby knives, markers, sand, water, plastic tub,
   gravel, dirt, glitter, basic drip system;'
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

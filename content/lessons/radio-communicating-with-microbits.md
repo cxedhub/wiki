@@ -23,8 +23,10 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Micro:bit
+tags:
+- "Cybersecurity"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

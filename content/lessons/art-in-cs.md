@@ -16,8 +16,9 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Website, https://scratch.mit.edu/
+tags:
+- "Scratch"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -16,9 +16,9 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags: []
 standards: 5.W.6, 5.RI.2, 5.RI.5
 materials: Website
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

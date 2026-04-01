@@ -22,8 +22,10 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags: []
 materials: None
+tags:
+- "Cybersecurity"
+- "Project-Based"
 ---
 # OVERVIEW
 ## Activity Overview:  

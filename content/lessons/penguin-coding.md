@@ -13,9 +13,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-tags: []
 standards: K-2.AP.14 K-2.AP.17
 materials: None
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

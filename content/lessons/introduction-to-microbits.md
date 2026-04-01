@@ -19,9 +19,13 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: n/a
 materials: Website, Micro:bit, chromebook or some kind of computer or tablet
+tags:
+- "Robotics"
+- "Scratch"
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

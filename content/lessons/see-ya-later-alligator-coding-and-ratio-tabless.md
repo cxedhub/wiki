@@ -24,9 +24,12 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 4.OA.4, 4.NBT.4, 4.NBT.5, 4.MP.1, 4.MP.6
 materials: Website, Micro:bit
+tags:
+- "Data Collection"
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

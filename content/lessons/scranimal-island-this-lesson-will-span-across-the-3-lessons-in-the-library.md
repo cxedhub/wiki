@@ -20,10 +20,11 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-tags: []
 standards: W.4.4, W.4.5, L.4.3, L.4.6
 materials: Micro:bit, Scranimals by Jack Prelutsky, worksheets for Scranimal development,
   student Chromebooks, grid paper
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

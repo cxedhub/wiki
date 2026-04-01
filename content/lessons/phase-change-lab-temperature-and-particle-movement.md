@@ -20,9 +20,11 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: NGSS MS-PS1-4
 materials: Website, Micro:bit, https://makecode.microbit.org/_ipjfDDgLMDM8
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

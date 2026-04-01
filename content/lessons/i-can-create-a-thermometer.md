@@ -16,10 +16,12 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags: []
 standards: W.1.8 With guidance and support from adults, recall information from experiences
   or gather information from provided sources to answer a question.
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

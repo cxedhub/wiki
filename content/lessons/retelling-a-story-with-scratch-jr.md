@@ -19,8 +19,10 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Scratch Jr application on iPads and Chromebook
+tags:
+- "Scratch"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

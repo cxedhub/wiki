@@ -15,15 +15,15 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: 'ELA.9.V.1.2: Apply knowledge of etymology and derivations to determine
   meanings of words and phrases in grade-level content.  ELA.9.V.1.3: Apply knowledge
   of context clues, figurative language, word relationships, reference materials,
   and/or background knowledge to determine the connotative and denotative meaning
   of words and phrases, appropriate to grade level.'
 materials: Website
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

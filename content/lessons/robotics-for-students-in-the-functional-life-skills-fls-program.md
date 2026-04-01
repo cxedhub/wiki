@@ -31,10 +31,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 'Extended Standards for Students with Complex Needs: SES-MS-ETS1-1; SES-MS-ETS1-2.;
   SES-MS-ETS1-3; SES-MS-ETS1-4'
 materials: 'Sphero, Osmo, iPad, epic!: https://www.getepic.com/app/read/75256'
+tags:
+- "Data Collection"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -17,9 +17,6 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: 'MS: Unit 1: 3. Recognize the benefits of being a wise consumer. MS: Unit
   1: 4. Analyze the influence of culture, media, technology, and other factors of
   health. MS: Unit 9: 1. Discuss promotion of safety. MS: 21st Century Skills: T2.
@@ -27,6 +24,10 @@ standards: 'MS: Unit 1: 3. Recognize the benefits of being a wise consumer. MS: 
   of living, learning and working in an interconnected digital world, and they act
   and model in ways that are safe, legal, and ethical.'
 materials: Website
+tags:
+- "Cybersecurity"
+- "Data Collection"
+- "GenCyber"
 ---
 ## OVERVIEW
 

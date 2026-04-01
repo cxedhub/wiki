@@ -20,8 +20,10 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
-tags: []
 materials: None
+tags:
+- "Data Collection"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

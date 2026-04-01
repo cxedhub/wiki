@@ -23,11 +23,12 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: None
+tags:
+- "Cybersecurity"
+- "Data Collection"
+- "GenCyber"
 ---
 ## OVERVIEW
 

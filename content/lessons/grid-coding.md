@@ -15,9 +15,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags: []
 standards: 2.AP.A.01, 2.AP.M.01
 materials: None
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

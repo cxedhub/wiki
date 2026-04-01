@@ -38,6 +38,12 @@
     {{ with .Params.materials }}
     <div class="meta-item"><strong>Materials:</strong> {{ . }}</div>
     {{ end }}
+    {{ with .Params.tags }}
+    <div class="meta-item">
+      <strong>Tag{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "tags/" | relURL }}{{ $t | urlize }}/">{{ $t }}</a>{{ end }}
+    </div>
+    {{ end }}
   </div>
   {{ end }}
 

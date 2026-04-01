@@ -19,12 +19,12 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: ELA.11.R.2.1 Evaluate the structure(s) and features in text ELA.11.R.3.4
   Evaluate an author’s use of rhetoric in text.
 materials: Website
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

@@ -24,8 +24,11 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Website, Micro:bit
+tags:
+- "Data Collection"
+- "Game-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

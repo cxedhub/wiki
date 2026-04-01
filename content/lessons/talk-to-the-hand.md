@@ -16,11 +16,12 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website
+tags:
+- "Cybersecurity"
+- "Data Collection"
+- "GenCyber"
 ---
 ## OVERVIEW
 

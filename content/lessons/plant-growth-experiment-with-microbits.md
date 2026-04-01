@@ -20,9 +20,11 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 standards: CS.HS, AP.M, AP.PD
 materials: Micro:bit, Paid access to Gizmo's website
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,8 +21,11 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 materials: Website, Micro:bit, https://www.exploratorium.edu/ronh/solar_system/
+tags:
+- "Data Collection"
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

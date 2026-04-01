@@ -20,9 +20,11 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: CCSS.MATH.CONTENT.4.MD.B.4
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -20,9 +20,9 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: Wyoming Boot Up L1.AP.C.01, L1.AP.C.02, L1.AP.C.03
 materials: None, IDE
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

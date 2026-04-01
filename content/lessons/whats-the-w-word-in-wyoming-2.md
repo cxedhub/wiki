@@ -15,8 +15,9 @@ grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
-tags: []
 materials: Slideshow that is included, there are websites linked in to help.
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

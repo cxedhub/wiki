@@ -16,9 +16,10 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 materials: Website, Canvas LMS, Common Sense Media Digital Citizenship Curriculum
   (Google slides presentation & quiz)
+tags:
+- "Cybersecurity"
 ---
 # OVERVIEW
 ## Activity Overview:  

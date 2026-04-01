@@ -14,9 +14,10 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

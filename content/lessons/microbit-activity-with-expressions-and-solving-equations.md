@@ -22,9 +22,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: 5.OA.A.1, 6.EE.E.1, 6.EE.E.2.C, 6.EE.E.3, 6.EE.E.4, 6.EE.F.5, 6.EE.F.7
 materials: Micro:bit, Computer
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

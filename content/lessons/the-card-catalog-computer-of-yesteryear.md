@@ -22,8 +22,8 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: way to project attached PowerPoint
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

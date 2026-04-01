@@ -18,9 +18,10 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: 3ESS2-2   RI.3.1 3.MD.G.2
 materials: Website, Mystery Science, Readworks
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

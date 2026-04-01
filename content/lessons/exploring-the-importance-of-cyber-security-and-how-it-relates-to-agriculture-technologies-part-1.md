@@ -16,13 +16,13 @@ grade_levels:
 - 9-12
 cs_domains: []
 cs_principles: []
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website, https://www.bbc.com/news/science-environment-61336659 https://agamerica.com/blog/protecting-farm-technology-against-cybersecurity-threats/
   https://www.croplife.com/management/the-need-for-greater-cybersecurity-in-u-s-food-and-agriculture/
   https://www.frontiersin.org/articles/10.3389/fbioe.2021.737927/full
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

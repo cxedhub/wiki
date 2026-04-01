@@ -20,9 +20,9 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: SS5.6.3
 materials: None
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

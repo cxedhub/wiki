@@ -18,8 +18,8 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-tags: []
 materials: SMART Board
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

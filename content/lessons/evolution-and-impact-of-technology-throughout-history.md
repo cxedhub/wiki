@@ -23,8 +23,9 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-tags: []
 materials: Computer for research
+tags:
+- "Project-Based"
 ---
 # OVERVIEW
 ## Activity Overview:  

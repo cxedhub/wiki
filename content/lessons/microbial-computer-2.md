@@ -20,9 +20,11 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags: []
 standards: MS-LS1-2, MS-LS1-5
 materials: Website, Micro:bit, Arduino, https://playgameoflife.com/
+tags:
+- "Game-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

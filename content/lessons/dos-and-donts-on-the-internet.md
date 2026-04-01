@@ -16,9 +16,6 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Fostering an Inclusive Computing Culture
-tags:
-- GenCyber
-- Lesson Plan
 standards: PE.6.M.1.12 Use proper safety practices. SS.7.C.2.14 Conduct a service
   project to further the public good. HE.6.P.8.4 Identify ways health messages and
   communication techniques can be targeted for different audiences. ELA.K12.EE.1.1
@@ -26,6 +23,9 @@ standards: PE.6.M.1.12 Use proper safety practices. SS.7.C.2.14 Conduct a servic
   techniques and active listening skills when engaging in discussions in a variety
   of …
 materials: None
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

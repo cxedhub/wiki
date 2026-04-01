@@ -19,9 +19,11 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-tags: []
 standards: N/A
 materials: Website
+tags:
+- "Project-Based"
+- "Web Design"
 ---
 # OVERVIEW
 ## Activity Overview:  

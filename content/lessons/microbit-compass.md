@@ -20,9 +20,10 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 standards: Science-MS-ESS2-2,Language Arts-WHST.6-8.2Mathematics-MP.2
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

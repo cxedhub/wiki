@@ -21,8 +21,9 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Bee-Bot and Bee-Bot mat
+tags:
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

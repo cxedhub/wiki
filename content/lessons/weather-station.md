@@ -19,9 +19,12 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: MS-ESS2-5
 materials: Website, Micro:bit, building supplies
+tags:
+- "Data Collection"
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

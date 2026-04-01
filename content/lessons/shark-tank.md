@@ -18,8 +18,9 @@ cs_domains:
 - Networks and The Internet
 - Data Analysis
 - Impacts of Computing
-tags: []
 materials: None
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

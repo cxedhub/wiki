@@ -18,8 +18,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-tags: []
 materials: Website, code.org- course D sequencing
+tags:
+- "Code.org"
 ---
 # OVERVIEW
 ## Activity Overview:  

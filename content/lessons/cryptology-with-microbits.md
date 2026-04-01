@@ -18,12 +18,13 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: MA.912.F.2.1 Identify the effect on the graph or table of a given function
   after replacing f(x) by f(x) + k, for specific values of k.
 materials: Website, micro:bit, makecode.microbit.org
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "micro:bit"
 ---
 ## OVERVIEW
 

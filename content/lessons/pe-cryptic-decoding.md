@@ -25,9 +25,10 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: PS5.HEPE.78.PE2.04, PS5.HEPE.78.PE3.02
 materials: Micro:bit, Chromebooks (school supplied)
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

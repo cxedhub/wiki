@@ -18,8 +18,10 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-tags: []
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

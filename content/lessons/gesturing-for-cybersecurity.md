@@ -17,13 +17,14 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: ELA.7.C.5.1 Integrate diverse digital media to build cohesion in oral or
   written tasks.
 materials: Website, Recording devices on student computer, scratch.org, swivel (teacher
   use for recording)
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "Scratch"
 ---
 ## OVERVIEW
 

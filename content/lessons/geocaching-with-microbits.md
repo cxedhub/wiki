@@ -20,9 +20,10 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-tags: []
 standards: MS-ESS2-1,MS-ETS1-4 and standards and appendix CS Practice 4.3
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

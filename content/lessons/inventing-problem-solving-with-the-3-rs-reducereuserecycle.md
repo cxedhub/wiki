@@ -22,7 +22,6 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 2.CS.T.01 Recognize computing systems might not work as expected and identify
   and effectively communicate simple hardware or software problems and implement solutions
   (e.g., app or program is not working as expected, no sound is coming from the device,
@@ -34,6 +33,10 @@ standards: 2.CS.T.01 Recognize computing systems might not work as expected and 
 materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots
   of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm
   page (included in lesson document).'
+tags:
+- "Data Collection"
+- "Robotics"
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -143,6 +143,9 @@ h2 { font-size: 1.5rem; margin: 2rem 0 1rem; }
 .chip-grade { background: #dbeafe; color: #1e40af; }
 .chip-subject { background: #f3e8ff; color: #6b21a8; }
 .chip-author { background: #ecfdf5; color: #065f46; }
+.chip-tag { background: #fef3c7; color: #92400e; font-size: 0.7rem; }
+
+.card-tags { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.5rem; }
 
 /* === Taxonomy Grid === */
 .taxonomy-grid {

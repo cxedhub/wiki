@@ -15,9 +15,9 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-tags: []
 standards: Wyoming BootUp L1.AP.C.01, L2. AP.C.01, L1.AP.C.02
 materials: Raspberry Pi, Python friendly IDE like onlind gdb.com
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

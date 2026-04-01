@@ -21,8 +21,10 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags: []
 materials: iPad app- voice recording device, student book of choice
+tags:
+- "Data Collection"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

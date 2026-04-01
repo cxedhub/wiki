@@ -23,8 +23,10 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Micro:bit, computer
+tags:
+- "Robotics"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

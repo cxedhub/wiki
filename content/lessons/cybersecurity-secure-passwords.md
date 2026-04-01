@@ -19,9 +19,11 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-tags: []
 standards: NI.NCO / IC.SI / IC.SLE / SL.5.1
 materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
+tags:
+- "Code.org"
+- "Cybersecurity"
 ---
 # OVERVIEW
 ## Activity Overview:  

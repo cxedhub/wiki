@@ -22,8 +22,8 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-tags: []
 materials: Hardware/Software Sorting Cards; Exit Ticket
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

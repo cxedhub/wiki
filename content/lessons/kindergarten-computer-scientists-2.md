@@ -18,9 +18,11 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 2.AP.A.01, 2.AP.C.01, 2.AP.M.01, 2.AP.PD.04, 2.IC.C.01
 materials: None
+tags:
+- "Project-Based"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

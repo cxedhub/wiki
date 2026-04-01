@@ -21,9 +21,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-tags: []
 standards: NGSS, CC, WYSS Copied from Spreadsheets and pasted here
 materials: Netflix
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

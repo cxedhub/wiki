@@ -17,9 +17,12 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-tags: []
 standards: CCSS.ELA-LITERACY.RF.2.3.F
 materials: Kibo or Bee Bot
+tags:
+- "Robotics"
+- "Unplugged"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

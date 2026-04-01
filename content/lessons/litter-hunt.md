@@ -19,8 +19,10 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags: []
 materials: Micro:bit
+tags:
+- "Game-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

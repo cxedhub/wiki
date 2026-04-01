@@ -20,9 +20,9 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags: []
 materials: 'Raspberry Pi, MIDI keyboards or controllers.  Optional: PC''s running
   Sonic Pi instead of Raspberry Pi''s'
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

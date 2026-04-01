@@ -14,10 +14,13 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 standards: 5.NI.C.01 - Discuss real-world cybersecurity problems and how personal
   information can be protected.
 materials: Website, https://studio.code.org/s/coursed-2022/lessons/1
+tags:
+- "Code.org"
+- "Cybersecurity"
+- "Web Design"
 ---
 # OVERVIEW
 ## Activity Overview:  

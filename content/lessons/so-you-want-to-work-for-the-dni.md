@@ -17,13 +17,16 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: No standard, as this is tied to club work, but it is an extension of AP
   Historical style questioning skills (Causation, Comparison, Similarities/Differences,
   Cause/Effect)
 materials: Website, micro:bit, Raspberry Pi, Sphero
+tags:
+- "Cybersecurity"
+- "Data Collection"
+- "GenCyber"
+- "Robotics"
+- "micro:bit"
 ---
 ## OVERVIEW
 

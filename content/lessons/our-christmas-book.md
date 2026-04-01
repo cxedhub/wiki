@@ -17,9 +17,9 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-tags: []
 standards: CCSS.ELA-LITERACY.W.1.1
 materials: Book Creation App on I-Pad
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

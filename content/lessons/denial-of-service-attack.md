@@ -15,11 +15,11 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags:
-- GenCyber
-- Lesson Plan
 standards: MS-ETS1-3  MS-ETS1-4
 materials: None, https://www.sciencebuddies.org/teacher-resources/lesson-plans/cybersecurity-denial-of-service
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

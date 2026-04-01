@@ -15,9 +15,10 @@ grade_levels:
 cs_domains:
 - Computing Systems
 - Algorithms and Programming
-tags: []
 standards: Utah 8th Grade Science Standard 8.1.7
 materials: Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

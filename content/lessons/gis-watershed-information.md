@@ -18,9 +18,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: MS-ESS2-2
 materials: Website
+tags:
+- "Data Collection"
 ---
 # OVERVIEW
 ## Activity Overview:  

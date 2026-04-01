@@ -18,9 +18,10 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
-tags: []
 standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
 materials: Micro:bit, laptop, nursery rhymes
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

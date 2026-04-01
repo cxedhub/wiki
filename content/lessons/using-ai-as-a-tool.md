@@ -15,11 +15,11 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website, ChatGPT
+tags:
+- "Cybersecurity"
+- "GenCyber"
 ---
 ## OVERVIEW
 

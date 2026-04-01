@@ -13,11 +13,12 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-tags:
-- GenCyber
-- Lesson Plan
 standards: N/A
 materials: Website, https://youtu.be/FHEqIC4peTI
+tags:
+- "Cybersecurity"
+- "GenCyber"
+- "Unplugged"
 ---
 ## OVERVIEW
 

@@ -25,9 +25,11 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: ISTE Standards for Students and Teachers
 materials: Website, https://scratch.mit.edu/
+tags:
+- "Data Collection"
+- "Scratch"
 ---
 # OVERVIEW
 ## Activity Overview:  

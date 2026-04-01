@@ -79,10 +79,9 @@
         </div>
       </div>
 
-      {{/* Tags (if any) */}}
-      {{ if gt (len site.Taxonomies.tags) 0 }}
+      {{/* Tags */}}
       <div class="filter-group" data-filter="tag">
-        <h4 class="filter-group-title">Tags</h4>
+        <h4 class="filter-group-title">Tags <span class="filter-group-count">{{ len site.Taxonomies.tags }}</span></h4>
         <div class="filter-options">
           {{ range site.Taxonomies.tags.ByCount }}
             <label class="filter-check">
@@ -93,7 +92,6 @@
           {{ end }}
         </div>
       </div>
-      {{ end }}
 
       <button id="mobile-apply-filters" class="btn btn-primary btn-apply-mobile">Apply Filters</button>
     </aside>
@@ -134,6 +132,11 @@
               {{ range first 3 .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
               {{ if gt (len .Params.subjects) 3 }}<span class="chip chip-more">+{{ sub (len .Params.subjects) 3 }}</span>{{ end }}
             </div>
+            {{ with .Params.tags }}
+            <div class="card-tags">
+              {{ range . }}<span class="chip chip-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
           </div>
         {{ end }}
       </div>

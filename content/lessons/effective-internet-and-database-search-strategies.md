@@ -19,8 +19,8 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-tags: []
 materials: Website, Chromebooks or other student devices, Smartboard
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -26,9 +26,11 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-tags: []
 materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Botzees
   + App / Code-a-pillar
+tags:
+- "Data Collection"
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

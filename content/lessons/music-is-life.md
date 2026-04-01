@@ -20,8 +20,9 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-tags: []
 materials: Website, Lego Mindstorms
+tags:
+- "Robotics"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -19,10 +19,11 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-tags: []
 standards: CCSS.ELA-LITERACY.RI.3.7, CCSS.ELA-LITERACY.W.3.6, CCSS.ELA-LITERACY.W.3.7,
   CCSS.ELA-LITERACY.W.3.2.B
 materials: None, Website
+tags:
+- "Unplugged"
 ---
 # OVERVIEW
 ## Activity Overview:  

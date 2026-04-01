@@ -19,9 +19,10 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: A link to Youtube, https://youtu.be/THOEQ5soVpY, and digital option for
   assignment. https://docs.google.com/presentation/d/17SXW6J-q0vzKNMJ8YSaNceE2WinfcSuEQao55pHg6vI/copy
+tags:
+- "Project-Based"
 ---
 # OVERVIEW
 ## Activity Overview:  

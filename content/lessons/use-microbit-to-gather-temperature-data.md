@@ -18,9 +18,12 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags: []
 standards: 'WYO: MS-PS3-3; MS-ETS1-2; MS-ETS1-4; 8.CS.D.01; 8.CS.HS.01'
 materials: Micro:bit
+tags:
+- "Data Collection"
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

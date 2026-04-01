@@ -19,9 +19,10 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-tags: []
 standards: CCSS.ELA-Literacy.L.2.2.E
 materials: Scratch Jr.
+tags:
+- "Scratch"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -16,9 +16,11 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 standards: 4-PS4-3 Waves and Their Applications in Technologies for Information Transfer
 materials: Micro:bit
+tags:
+- "Project-Based"
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -18,8 +18,10 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Computer, Projector, and Google Slides
+tags:
+- "Robotics"
+- "Web Design"
 ---
 # OVERVIEW
 ## Activity Overview:  

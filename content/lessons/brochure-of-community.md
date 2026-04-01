@@ -16,9 +16,9 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Creating Computational Artifacts
-tags: []
 standards: SS5.4
 materials: Website, Google Drive
+tags: []
 ---
 # OVERVIEW
 ## Activity Overview:  

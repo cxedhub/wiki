@@ -19,8 +19,9 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Communicating About Computing
-tags: []
 materials: Website, Micro:bit
+tags:
+- "micro:bit"
 ---
 # OVERVIEW
 ## Activity Overview:  

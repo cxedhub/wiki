@@ -27,8 +27,10 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-tags: []
 materials: Website, aluminum foil and pennies
+tags:
+- "Data Collection"
+- "Project-Based"
 ---
 # OVERVIEW
 ## Activity Overview:  
