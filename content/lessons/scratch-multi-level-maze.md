@@ -1,0 +1,87 @@
+---
+title: Scratch Multi-Level Maze
+description: Students will use Scratch to create a multi-level maze. Students will
+  program a main sprite, obstacles and a goal, which level changes. Students will
+  provide feedback to peers and redesign or improve their game based on the feedback
+date: '2020-07-09 00:00:00+00:00'
+draft: false
+author: Adrienne Unertl
+subjects:
+- Computer Science
+- Technology
+- Engineering
+- Art
+grade_levels:
+- 3-5
+- 6-8
+cs_domains:
+- Computing Systems
+- Algorithms and Programming
+cs_principles:
+- Fostering an Inclusive Computing Culture
+- Collaborating Around Computing
+- Recognizing and Defining Computational Problems
+- Developing and Using Abstractions
+- Creating Computational Artifacts
+- Testing and Refining Computational Artifacts
+- Communicating About Computing
+tags:
+- computer science
+- Technology
+- Engineering
+- Art
+standards: ISTE Standards
+materials: Website
+---
+# OVERVIEW
+## Activity Overview:  
+Students will use Scratch to create a multi-level maze. Students will program a main sprite, obstacles and a goal, which level changes. Students will provide feedback to peers and redesign or improve their game based on the feedback
+## Meta description
++ *Subject Area:* Computer Science, Technology, Engineering, Art 
++ *Grade Level :* 3-5, 6-8 
++ *Computer Science Domains:*
+   + Computing Systems, Algorithms and Programming
++ *Computer Science Principles:*
+   + Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing
++ *Materials:* 
+   + Website
++ *Considerations:*
+   + Use the scratch cards with students. Don't be tempted to skip over them and just start the game. They help build understanding.
+
+
+# Lesson Plan
+## Overview
+Students will use Scratch to create a multi-level maze. Students will program a main sprite, obstacles and a goal, which level changes. Students will provide feedback to peers and redesign or improve their game based on the feedback
+## ASSESSMENT PRE/POST-TEST
+Can you create a working digital maze game?
+## OBJECTIVES
+Use Events. Use Loops. Use Conditionals.
+
+
+## CATCH/HOOK
+Let's code a video game!
+
+
+## ACTIVITY INSTRUCTIONS
+Students will be able to…
+Use a design process to follow guidelines.
+Will add different components by following a checklist
+Run activity to check for debugging opportunities.
+Share the final product with class.
+
+
+### Supplements
+**Any items in this section are the property & under the license of their respective owners.**
+https://drive.google.com/open?id=1194dpfAR2irU09acMlrXbZzqO3KMva6T
+
+
+
+
+## REVIEW
+Play their maze, notice what doesn't work. Then have them create another digital game.
+## STANDARDS        
+| Type | Listing | 
+|-----------|-----------|
+| CS Domains  | Computing Systems, Algorithms and Programming|
+| CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
+| Other Content Standards | ISTE Standards  |

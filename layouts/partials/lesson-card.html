@@ -1,0 +1,9 @@
+<div class="card" data-subjects="{{ delimit .Params.subjects "," }}" data-grades="{{ delimit .Params.grade_levels "," }}" data-domains="{{ delimit .Params.cs_domains "," }}">
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
+  <div class="card-meta">
+    {{ with .Params.author }}<span class="chip chip-author">{{ . }}</span>{{ end }}
+    {{ range .Params.grade_levels }}<span class="chip chip-grade">{{ . }}</span>{{ end }}
+    {{ range .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
+  </div>
+</div>

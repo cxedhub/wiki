@@ -1,0 +1,46 @@
+baseURL = "https://cxedhub.github.io/wiki/"
+languageCode = "en-us"
+title = "CX Ed Hub"
+theme = ""
+paginate = 24
+enableRobotsTXT = true
+summaryLength = 40
+
+[params]
+  description = "Computing + X Educator Hub — Lesson plans and resources for K-12 educators integrating computing into their classrooms."
+  author = "Drs. Andrea & Mike Borowczak"
+  contactEmail = "mike@freyjalabs.com"
+  googleDriveURL = "https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing"
+
+[taxonomies]
+  tag = "tags"
+  subject = "subjects"
+  grade_level = "grade_levels"
+  cs_domain = "cs_domains"
+  cs_principle = "cs_principles"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Lesson Plans"
+    url = "/lessons/"
+    weight = 2
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

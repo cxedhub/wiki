@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  {{ $style := resources.Get "css/main.css" }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ "/" | relURL }}" class="site-logo">
+        <strong>CX</strong> Ed Hub
+      </a>
+      <nav class="site-nav">
+        {{ range site.Menus.main }}
+          <a href="{{ .URL | relURL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ now.Year }} CX Ed Hub &mdash; Computing + X Educator Hub</p>
+      <p>Funded by the National Science Foundation. Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p><a href="https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing">Google Drive Resources</a></p>
+    </div>
+  </footer>
+
+  <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>

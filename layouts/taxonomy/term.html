@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  <p>{{ len .Pages }} lesson{{ if ne (len .Pages) 1 }}s{{ end }} found.</p>
+
+  <div class="card-grid">
+    {{ range .Pages.ByTitle }}
+      {{ partial "lesson-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

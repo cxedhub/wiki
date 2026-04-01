@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container">
+  <h1>Lesson Plans</h1>
+  <p>Browse {{ len .Pages }} computing-infused lesson plans created by K-12 educators.</p>
+
+  {{ partial "lesson-filters.html" . }}
+
+  <div class="card-grid" id="lesson-list">
+    {{ range .Pages.ByTitle }}
+      {{ partial "lesson-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,52 @@
+{{ define "main" }}
+<article class="container lesson-detail">
+  <header class="lesson-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="lesson-description">{{ . }}</p>{{ end }}
+  </header>
+
+  {{ if .Params.subjects }}
+  <div class="lesson-meta">
+    {{ with .Params.author }}<div class="meta-item"><strong>Author:</strong> {{ . }}</div>{{ end }}
+    {{ with .Params.subjects }}
+    <div class="meta-item">
+      <strong>Subject{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ "subjects/" | relURL }}{{ $s | urlize }}/">{{ $s }}</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.grade_levels }}
+    <div class="meta-item">
+      <strong>Grade Level{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $g := . }}{{ if $i }}, {{ end }}<a href="{{ "grade_levels/" | relURL }}{{ $g | urlize }}/">{{ $g }}</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.cs_domains }}
+    <div class="meta-item">
+      <strong>CS Domain{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $d := . }}{{ if $i }}, {{ end }}<a href="{{ "cs_domains/" | relURL }}{{ $d | urlize }}/">{{ $d }}</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.cs_principles }}
+    <div class="meta-item">
+      <strong>CS Principle{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $p := . }}{{ if $i }}, {{ end }}<a href="{{ "cs_principles/" | relURL }}{{ $p | urlize }}/">{{ $p }}</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.standards }}
+    <div class="meta-item"><strong>Standards:</strong> {{ . }}</div>
+    {{ end }}
+    {{ with .Params.materials }}
+    <div class="meta-item"><strong>Materials:</strong> {{ . }}</div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="lesson-content">
+    {{ .Content }}
+  </div>
+
+  <footer class="lesson-footer">
+    <a href="{{ .Section | relURL }}" class="back-link">&larr; Back to {{ .Section | title }}</a>
+  </footer>
+</article>
+{{ end }}

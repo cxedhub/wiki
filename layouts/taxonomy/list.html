@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  <div class="taxonomy-grid">
+    {{ range .Data.Terms.Alphabetical }}
+      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
+        <span class="taxonomy-name">{{ .Page.Title }}</span>
+        <span class="taxonomy-count">{{ .Count }} lessons</span>
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

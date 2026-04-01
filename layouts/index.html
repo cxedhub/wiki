@@ -1,0 +1,65 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>Welcome, Educators!</h1>
+    <p>Discover <strong>{{ len (where site.RegularPages "Section" "lessons") }}+</strong> computing-infused lesson plans made by K-12 educators, for K-12 educators.</p>
+    <div class="hero-actions">
+      <a href="{{ "lessons/" | relURL }}" class="btn btn-primary">Browse Lesson Plans</a>
+      <a href="{{ "resources/" | relURL }}" class="btn btn-secondary">View Resources</a>
+    </div>
+  </div>
+</section>
+
+<section class="container home-intro">
+  <div class="intro-text">
+    <p>We're Drs. Andrea and Mike Borowczak, and for the past 15 years we've been designing meaningful experiences and professional learning opportunities for educators like you&mdash;across K&ndash;12 and higher education. Our work, funded by the National Science Foundation, Wyoming Department of Education, and several industry sponsors, lives at the intersection of <strong>Computing + X</strong>, where <strong>X</strong> represents your core teaching area.</p>
+    <p>Instead of adding "one more thing," we focus on <strong>integration, differentiation, and extension</strong>&mdash;empowering you to embed computing concepts into your existing curriculum in ways that are sustainable, flexible, and impactful.</p>
+  </div>
+</section>
+
+<section class="container home-browse">
+  <h2>Browse by Grade Level</h2>
+  <div class="taxonomy-grid">
+    {{ range site.Taxonomies.grade_levels }}
+      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
+        <span class="taxonomy-name">{{ .Page.Title }}</span>
+        <span class="taxonomy-count">{{ .Count }} lessons</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="container home-browse">
+  <h2>Browse by Subject</h2>
+  <div class="taxonomy-grid">
+    {{ range site.Taxonomies.subjects }}
+      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
+        <span class="taxonomy-name">{{ .Page.Title }}</span>
+        <span class="taxonomy-count">{{ .Count }} lessons</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="container home-browse">
+  <h2>Browse by CS Domain</h2>
+  <div class="taxonomy-grid">
+    {{ range site.Taxonomies.cs_domains }}
+      <a href="{{ .Page.RelPermalink }}" class="taxonomy-card">
+        <span class="taxonomy-name">{{ .Page.Title }}</span>
+        <span class="taxonomy-count">{{ .Count }} lessons</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="container home-recent">
+  <h2>Recently Added Lessons</h2>
+  <div class="card-grid">
+    {{ range first 6 (where site.RegularPages "Section" "lessons") }}
+      {{ partial "lesson-card.html" . }}
+    {{ end }}
+  </div>
+  <p class="see-all"><a href="{{ "lessons/" | relURL }}">See all lesson plans &rarr;</a></p>
+</section>
+{{ end }}
