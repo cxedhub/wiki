@@ -9,8 +9,8 @@ subjects:
 - Cybersecurity
 grade_levels:
 - 9-12
-cs_domains:[]
-cs_principles:[]
+cs_domains: []
+cs_principles: []
 tags:
 - cybersecurity
 - gencyber
