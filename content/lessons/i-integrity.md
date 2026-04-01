@@ -1,7 +1,7 @@
 ---
 title: 'I = Integrity'
 description: 'Students will locate, read and research articles from sources to better understand using  credible sources for research.'
-date: '7/13/2023 21:13:11'
+date: '2023-07-13T21:13:11'
 draft: false
 author: Billie Rainey
 subjects:

@@ -1,7 +1,7 @@
 ---
 title: Careers in the Cyber World
 description: 'This lesson is a brief overview of the 6 pillars of cybersecurity and the of careers that are available for students after high school/college in the cyber-domain.  The students will have the opportunity to research a possible career and answer some questions about that position.'
-date: '7/13/2023 14:25:48'
+date: '2023-07-13T14:25:48'
 draft: false
 author: Tina Simpson
 subjects:

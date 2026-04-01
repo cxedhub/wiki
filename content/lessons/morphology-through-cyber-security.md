@@ -1,7 +1,7 @@
 ---
 title: Morphology through Cyber Security
 description: Students will identify and define words utilizing basic tenets of cyber security.
-date: '7/14/2023 11:46:13'
+date: '2023-07-14T11:46:13'
 draft: false
 author: Andrew Disney
 subjects:

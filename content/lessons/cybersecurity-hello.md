@@ -1,7 +1,7 @@
 ---
 title: 'Cybersecurity - Hello!'
 description: The lesson is an overview of the 6 pillars of cybersecurity using the hand model as a mnemonic device.
-date: '7/13/2023 16:09:22'
+date: '2023-07-13T16:09:22'
 draft: false
 author: Tina Simpson
 subjects:

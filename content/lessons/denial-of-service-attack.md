@@ -1,7 +1,7 @@
 ---
 title: Denial of Service Attack
 description: 'Students will model one type of attack (a denial-of-service attack) and figure out how to protect the network against it (no computer programming required)'
-date: '9/12/2023 21:38:23'
+date: '2023-09-12T21:38:23'
 draft: false
 author: Jumoke Adebimpe
 subjects:

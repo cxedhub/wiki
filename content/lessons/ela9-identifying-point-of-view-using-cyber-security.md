@@ -1,7 +1,7 @@
 ---
 title: 'ELA9: Identifying Point of View using Cyber Security'
 description: Analysis of the Unreliable Narrator with Cyber Security
-date: '7/14/2023 12:10:13'
+date: '2023-07-14T12:10:13'
 draft: false
 author: Andrew Disney
 subjects:

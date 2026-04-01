@@ -1,7 +1,7 @@
 ---
 title: Careers in Cybersecurity
 description: '“Global cybersecurity job vacancies grew by 350 percent, from one million openings in 2013 to 3.5 million in 2021, according to Cybersecurity Ventures. The number of unfilled jobs leveled off in 2022, and remains at 3.5 million in 2023, with more than 750,000 of those positions in the U.S. Industry efforts to source new talent and tackle burnout continues, but we predict that the disparity between demand and supply will remain through at least 2025.” [Sausalito, Calif. – Apr. 14, 2023 _Steve Morgan, Editor-in-Chief of CyberCrime Magazine'
-date: '9/14/2023 17:31:35'
+date: '2023-09-14T17:31:35'
 draft: false
 author: Janixa Burgos
 subjects:

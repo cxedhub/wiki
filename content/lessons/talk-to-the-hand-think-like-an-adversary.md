@@ -1,7 +1,7 @@
 ---
 title: TALK TO THE HAND – THINK LIKE AN ADVERSARY
 description: 'In this lesson, future CyberSecurity specialists (aka students) will develop a CyberSecurity handbook where they will explore six vital CyberSecurity concepts utilizing the HAND mnemonic learning method.'
-date: '7/14/2023 14:12:59'
+date: '2023-07-14T14:12:59'
 draft: false
 author: Lorraine Grice
 subjects:

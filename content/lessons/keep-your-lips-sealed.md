@@ -1,7 +1,7 @@
 ---
 title: Keep Your Lips Sealed
 description: There are multiple ways to gain information. Many people will openly provide information with minimal thought to how the information can be used maliciously.
-date: '9/13/2023 11:46:07'
+date: '2023-09-13T11:46:07'
 draft: false
 author: Holley Nichols
 subjects:

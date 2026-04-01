@@ -1,7 +1,7 @@
 ---
 title: 'TALK TO THE HAND - KEEP IT SIMPLE'
 description: The students will be able to create a handbook using the Hand Method of CyberSecurity.
-date: '7/14/2023 12:25:17'
+date: '2023-07-14T12:25:17'
 draft: false
 author: Shamrie Jones
 subjects:

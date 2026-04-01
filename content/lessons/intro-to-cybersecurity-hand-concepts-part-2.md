@@ -1,7 +1,7 @@
 ---
 title: Intro to Cybersecurity HAND Concepts Part 2
 description: 'This lesson will take two days to go over the 6 parts of the hand in relation to cybersecurity. We will do a general overview then have instruction and student work time for all of the 6 parts: Confidentiality (index), integrity (ring), Availability (thumb), Think like an Adversary (middle), Keep it Simple (Pinky), and Defense in Depth (Palm). Finally, at the end of the two days, we will wrap up knowledge and allow students work time to finish any activities. For Part 2, we will focus on Think like an Adversary (middle), Keep it Simple (Pinky), and Defense in Depth (Palm).'
-date: '7/14/2023 11:05:00'
+date: '2023-07-14T11:05:00'
 draft: false
 author: Ashley Gecewicz
 subjects:
