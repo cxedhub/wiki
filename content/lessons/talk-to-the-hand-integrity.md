@@ -1,0 +1,69 @@
+---
+title: TALK TO THE HAND – INTEGRITY
+description: The students will be able to create a handbook using the Hand Method of CyberSecurity.
+date: '7/14/2023 12:11:37'
+draft: false
+author: Shamrie Jones
+subjects:
+- Technology
+- Cybersecurity
+grade_levels:
+- 6-8
+cs_domains:
+- Computing Systems
+cs_principles:
+- Fostering an Inclusive Computing Culture
+tags:
+- cybersecurity
+- gencyber
+- lesson plan
+- technology
+- cybersecurity
+standards: Future CyberSecurity Specialist will need to have an understanding of the importance of cyber information in society today and the need to secure this information.
+materials: 'Website, micro:bit'
+---
+## OVERVIEW
+
+### Activity Overview:  
+The students will be able to create a handbook using the Hand Method of CyberSecurity.
+
+### Meta description
++ *Grade Level :* 6-8 
++ *Subject Area:* Technology 
++ *Cybersecurity Concept:* 
+   + Defense in Depth, Confidentiality, Integrity, Availability, Think Like an Adversary, Keep it Simple
++ *Computer Science Domains:*
+   + Computing Systems
++ *Computer Science Principles:*
+   + Fostering an Inclusive Computing Culture
++ *Materials:* 
+   + Website, micro:bit
++ *Considerations:*
+   + No, but I'm willing to talk to other teachers
+
+## Lesson Plan
+### Overview
+The students will be able to create a handbook using the Hand Method of CyberSecurity.
+
+### PRE/POST-TEST
+Vocabulary assessment on CyberSecurity
+
+### OBJECTIVES
+explain and define integrity and keep it simple as well as provide examples.
+
+### CATCH/HOOK
+Talk to the hand
+
+### ACTIVITY INSTRUCTIONS
+See lesson plans
+
+Talk to the Hand-integrity Lesson Plans - Shamrie Jones.docx
+
+### REVIEW
+Copy of handbook/poster
+
+### STANDARDS        
+Future CyberSecurity Specialist will need to have an understanding of the importance of cyber information in society today and the need to secure this information.
+FL
+
+Demonstrate knowledge of safety and privacy practices for online communication.
