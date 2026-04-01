@@ -95,7 +95,6 @@ Students will be given a main ideas/ text structure chart that they complete onl
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1zGths1mITIF5MwOKj9EM3rG3uHCsKOTTGiySrHD9fSg
 
 
 

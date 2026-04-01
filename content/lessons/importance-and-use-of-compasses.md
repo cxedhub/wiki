@@ -80,4 +80,4 @@ The final activity would be to have 3 little scavenger hunts using the first com
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Fostering an Inclusive Computing Culture|
-| Other Content Standards | 8.CS.HS.01 and SS8.4.2  |
+| Other Content Standards | [8.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/) and SS8.4.2  |

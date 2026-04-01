@@ -1,7 +1,7 @@
 ---
 title: MicroBit Guitars
 description: Students will create a 'guitar' from cardboard, aluminum foil, and a
-  micro|bit and explain how energy is converted from touch to electricity to sound.
+  micro:bit and explain how energy is converted from touch to electricity to sound.
 date: '2021-11-18 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
@@ -28,7 +28,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will create a 'guitar' from cardboard, aluminum foil, and a micro|bit and explain how energy is converted from touch to electricity to sound.
+Students will create a 'guitar' from cardboard, aluminum foil, and a micro:bit and explain how energy is converted from touch to electricity to sound.
 ## Meta description
 + *Subject Area:* Computer Science, Science, Technology 
 + *Grade Level :* 3-5, 6-8 
@@ -44,7 +44,7 @@ Students will create a 'guitar' from cardboard, aluminum foil, and a micro|bit a
 
 # Lesson Plan
 ## Overview
-Students will create a 'guitar' from cardboard, aluminum foil, and a micro|bit and explain how energy is converted from touch to electricity to sound.
+Students will create a 'guitar' from cardboard, aluminum foil, and a micro:bit and explain how energy is converted from touch to electricity to sound.
 ## ASSESSMENT PRE/POST-TEST
 How does a computer know to make sounds?
 What types of energy can be changed from one type to another?
@@ -67,7 +67,6 @@ https://docs.google.com/presentation/d/1A1_pBNJVDfa3ZGF-pTnnP-9wEtVLiws-ke8FWU82
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=18H-y671t7lxaFsOI_KDfceCEPJL7V5m4Jxm284u3XhQ
 
 
 
@@ -79,4 +78,4 @@ Share guitars and discuss what went well and what needs to be modified.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | 4-PS3-2, 4-PS3-4  |
+| Other Content Standards | [4-PS3-2](https://www.nextgenscience.org/search-standards?keys=4-PS3-2), [4-PS3-4](https://www.nextgenscience.org/search-standards?keys=4-PS3-4)  |

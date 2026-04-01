@@ -93,5 +93,4 @@ to see which team has the strongest password-hopefully ALL teams will have stron
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | ISTE 1.2 Digital Citizenship
-CO Computer Science Standard 2 Computing Systems and Network  |
+| Other Content Standards | [ISTE](https://www.iste.org/standards/iste-standards-for-students) 1.2 Digital Citizenship CO Computer Science Standard 2 Computing Systems and Network  |

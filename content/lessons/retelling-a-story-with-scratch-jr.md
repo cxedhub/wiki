@@ -73,7 +73,6 @@ Have students shut their eyes and think about a book that they have read. Then, 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1ntj4-9V5Rl9iGaxUOsb-iCaDmR4hsQtH
 
 
 
@@ -85,6 +84,4 @@ The wrap up for this lesson is sharing time, which works well in Kindergarten. W
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | K.8 The student will demonstrate comprehension of fictional texts.
-d)        Ask and answer questions about what is read.
-e)        Use story elements of characters, settings, and events to retell stories sequentially using beginning, middle, and end.  |
+| Other Content Standards | K.8 The student will demonstrate comprehension of fictional texts. d)        Ask and answer questions about what is read. e)        Use story elements of characters, settings, and events to retell stories sequentially using beginning, middle, and end.  |

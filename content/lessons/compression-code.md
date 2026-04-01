@@ -87,7 +87,6 @@ Homework: Practice the compression code puzzle
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1t1BYtrVS-7NgRMokKmow4bihQGVFWjEE, https://drive.google.com/file/d/15-WxlY0KqByn6ZPieNf48GXfCyKKtV2e, https://drive.google.com/file/d/1dVfQZpTThaRr9HO4mJHEtpJMsMQXpnhC
 
 
 
@@ -99,4 +98,4 @@ Exit slip: In 2-3 sentences write: What is a compression code and why would I ne
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 8.EE.B.3; 8.AP.N.01-2  |
+| Other Content Standards | 8.EE.B.3; [8.AP.N.01](https://edu.wyoming.gov/educators/standards/computer-science/)-2  |

@@ -63,7 +63,6 @@ Learn about the history of robots and program a microbit.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1i2QdGyLaPA4CZBQBHXSmLrmBPey88UQf
 
 
 

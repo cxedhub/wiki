@@ -1,7 +1,7 @@
 ---
 title: I Am a Weather Watcher
 description: Students will become weather watchers. They will journal the weather
-  everyday and document the temperature using the micro|bit that has already been
+  everyday and document the temperature using the micro:bit that has already been
   programmed by the teacher. At the end of the week, students will create a flipgird
   video with a group to explain their findings.
 date: '2021-07-02 00:00:00+00:00'
@@ -26,7 +26,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro|bit that has already been programmed by the teacher. At the end of the week, students will create a flipgird video with a group to explain their findings.
+Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro:bit that has already been programmed by the teacher. At the end of the week, students will create a flipgird video with a group to explain their findings.
 ## Meta description
 + *Subject Area:* Computer Science, Science, Technology 
 + *Grade Level :* K-2 
@@ -42,7 +42,7 @@ Students will become weather watchers. They will journal the weather everyday an
 
 # Lesson Plan
 ## Overview
-Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro|bit that has already been programmed by the teacher. At the end of the week, students will create a flipgird video with a group to explain their findings.
+Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro:bit that has already been programmed by the teacher. At the end of the week, students will create a flipgird video with a group to explain their findings.
 ## ASSESSMENT PRE/POST-TEST
 What is “weather?
 How do we know what the weather will be like?

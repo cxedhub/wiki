@@ -68,7 +68,6 @@ Students will start class with a trolly problem on the board asking them to writ
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1QMVwqeKktlBeP2w232oDCymdx7SucXuy
 
 
 
@@ -80,5 +79,4 @@ https://drive.google.com/open?id=1QMVwqeKktlBeP2w232oDCymdx7SucXuy
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | 8.IC.C.01 Describe impacts associated with computing technologies that affect people's everyday activities and career options. [Practice 7.2 Communicating About Computing] The Proficient student: • Describes impacts associated with computing technologies that affect people's everyday activities. • Describes impacts associated with computing technologies that affect people's career options. 
-8.IC.C.02 Describe issues of bias and accessibility in the design of technologies. [Practice 1.2 Fostering an Inclusive Computing Culture] The Proficient student describes issues of bias and accessibility in the design of technologies.  |
+| Other Content Standards | [8.IC.C.01](https://edu.wyoming.gov/educators/standards/computer-science/) Describe impacts associated with computing technologies that affect people's everyday activities and career options. [Practice 7.2 Communicating About Computing] The Proficient student: • Describes impacts associated with computing technologies that affect people's everyday activities. • Describes impacts associated with computing technologies that affect people's career options. [8.IC.C.02](https://edu.wyoming.gov/educators/standards/computer-science/) Describe issues of bias and accessibility in the design of technologies. [Practice 1.2 Fostering an Inclusive Computing Culture] The Proficient student describes issues of bias and accessibility in the design of technologies.  |

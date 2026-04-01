@@ -1,6 +1,6 @@
 ---
 title: Is Data for the Birds?
-description: Use the micro|bit as a step counter to measure and mark the planets'
+description: Use the micro:bit as a step counter to measure and mark the planets'
   relative distances from the Sun.
 date: '2022-11-29 00:00:00+00:00'
 draft: false
@@ -20,7 +20,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Use the micro|bit as a step counter to measure and mark the planets' relative distances from the Sun.
+Use the micro:bit as a step counter to measure and mark the planets' relative distances from the Sun.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 6-8 
@@ -36,7 +36,7 @@ Use the micro|bit as a step counter to measure and mark the planets' relative di
 
 # Lesson Plan
 ## Overview
-Use the micro|bit as a step counter to measure and mark the planets' relative distances from the Sun.
+Use the micro:bit as a step counter to measure and mark the planets' relative distances from the Sun.
 ## ASSESSMENT PRE/POST-TEST
 What is an astronomical unit?
 What event causes the Microbit to count steps?

@@ -1,6 +1,6 @@
 ---
-title: Micro|bits| Sequencing
-description: The students will use Micro|bit blocks to create the image of snow when
+title: Micro:bits: Sequencing
+description: The students will use Micro:bit blocks to create the image of snow when
   shaken. This will be done with sequences, repetition, planning, and debugging.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
@@ -21,7 +21,7 @@ materials: Website, https://makecode.microbit.org/
 ---
 # OVERVIEW
 ## Activity Overview:  
-The students will use Micro|bit blocks to create the image of snow when shaken. This will be done with sequences, repetition, planning, and debugging.
+The students will use Micro:bit blocks to create the image of snow when shaken. This will be done with sequences, repetition, planning, and debugging.
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* 6-8, 9-12 
@@ -37,7 +37,7 @@ The students will use Micro|bit blocks to create the image of snow when shaken. 
 
 # Lesson Plan
 ## Overview
-The students will use Micro|bit blocks to create the image of snow when shaken. This will be done with sequences, repetition, planning, and debugging.
+The students will use Micro:bit blocks to create the image of snow when shaken. This will be done with sequences, repetition, planning, and debugging.
 ## ASSESSMENT PRE/POST-TEST
 Which are the coding blocks that would always be used in animating a micro:bit?
 What are other animation ideas that you could try in the future?

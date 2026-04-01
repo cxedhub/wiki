@@ -53,7 +53,6 @@ See lesson plan
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Aic8FeNn9xxDSUv6Crab644d2GszSVWX
 
 
 

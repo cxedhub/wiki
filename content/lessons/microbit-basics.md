@@ -57,7 +57,6 @@ Students will learn to use basic coding to create programs using microbits.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1JSmafMQbB2hm8g6316o2UNMOnfOeOce-, https://drive.google.com/file/d/1ltc1_FGPLuXDnB-Iz5Sf-F6wV2M-nEE6
 
 
 

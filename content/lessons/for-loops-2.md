@@ -61,7 +61,6 @@ Reiterate what the for loop is. Show slide that is attached. Students will follo
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1ysmz-zzQvysySvCpMquVHOkV-IxoQXjP, https://drive.google.com/file/d/1CVfFF2yP7GLM-uijKfeyOUa8yIoJJN30, https://drive.google.com/file/d/1N71W2vSeDBPZRs4KVTT5uOt9Du7c5apA
 
 
 

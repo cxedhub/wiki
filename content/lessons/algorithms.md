@@ -107,7 +107,6 @@ If you have a million integer values between 1 and 10 and you need to sort them,
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1krF9CHPhh2BsdseSkZCfd-oLY8vbQZEF
 
 
 

@@ -70,7 +70,6 @@ Then students will determine how they want viewers to navigate their neighborhoo
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1ceFyK9YN-VfoLu9aOPn7SdRRs0UZGZFN
 
 
 

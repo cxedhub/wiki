@@ -64,7 +64,6 @@ This is the first day of a two-part lesson in entrepreneurship marketing researc
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=13Nh00uccg44wwXXwEeHyIyyYMdwAgmwg
 
 
 

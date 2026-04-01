@@ -64,7 +64,6 @@ Please see the attached Lesson/Activity document attached below for the full act
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1CA-DyiIugiMVbZxrDo13aiz2ZeQst6hO-6z83w4qurQ
 
 
 
@@ -76,4 +75,4 @@ Please see the attached document linked to the previous question. This is a revi
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet|
 | CS Principles   | Developing and Using Abstractions|
-| Other Content Standards | ISTE 3A: Students plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits  |
+| Other Content Standards | [ISTE](https://www.iste.org/standards/iste-standards-for-students) 3A: Students plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits  |

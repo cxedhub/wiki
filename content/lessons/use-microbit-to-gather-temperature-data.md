@@ -1,11 +1,11 @@
 ---
-title: Use Micro|bit to Gather Temperature Data
+title: Use Micro:bit to Gather Temperature Data
 description: This lesson is a part of a multi-day project where students build a small
   structure designed to interfere with thermal transfer from a heat lamp to an ice
   cube. This lesson is an application of knowledge gathered from prior lessons about
-  heat transfer. A micro|bit and an ice cube will be used inside the structure to
+  heat transfer. A micro:bit and an ice cube will be used inside the structure to
   determine the amount of heat transfer interferences resulted. Students will compare
-  if the data from the ice cube or the micro|bit was a better measurement tool.
+  if the data from the ice cube or the micro:bit was a better measurement tool.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Amber Martines
@@ -26,7 +26,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-This lesson is a part of a multi-day project where students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube. This lesson is an application of knowledge gathered from prior lessons about heat transfer. A micro|bit and an ice cube will be used inside the structure to determine the amount of heat transfer interferences resulted. Students will compare if the data from the ice cube or the micro|bit was a better measurement tool.
+This lesson is a part of a multi-day project where students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube. This lesson is an application of knowledge gathered from prior lessons about heat transfer. A micro:bit and an ice cube will be used inside the structure to determine the amount of heat transfer interferences resulted. Students will compare if the data from the ice cube or the micro:bit was a better measurement tool.
 ## Meta description
 + *Subject Area:* Science 
 + *Grade Level :* 6-8 
@@ -42,7 +42,7 @@ This lesson is a part of a multi-day project where students build a small struct
 
 # Lesson Plan
 ## Overview
-This lesson is a part of a multi-day project where students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube. This lesson is an application of knowledge gathered from prior lessons about heat transfer. A micro|bit and an ice cube will be used inside the structure to determine the amount of heat transfer interferences resulted. Students will compare if the data from the ice cube or the micro|bit was a better measurement tool.
+This lesson is a part of a multi-day project where students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube. This lesson is an application of knowledge gathered from prior lessons about heat transfer. A micro:bit and an ice cube will be used inside the structure to determine the amount of heat transfer interferences resulted. Students will compare if the data from the ice cube or the micro:bit was a better measurement tool.
 ## ASSESSMENT PRE/POST-TEST
 1. What do we need to measure to determine if we are successful in preventing thermal energy transfer to the inside of the structure (igloo)?
 2. Which one, an ice cube or a micro:bit will better evaluate a thermal energy transfer? Why?
@@ -91,4 +91,4 @@ As a class, stuendent can volunteer to discuss the benefits of using an ice cube
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | WYO: MS-PS3-3; MS-ETS1-2; MS-ETS1-4; 8.CS.D.01; 8.CS.HS.01  |
+| Other Content Standards | WYO: [MS-PS3-3](https://www.nextgenscience.org/search-standards?keys=MS-PS3-3); [MS-ETS1-2](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-2); [MS-ETS1-4](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-4); [8.CS.D.01](https://edu.wyoming.gov/educators/standards/computer-science/); [8.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

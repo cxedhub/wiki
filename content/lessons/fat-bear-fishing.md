@@ -1,8 +1,8 @@
 ---
 title: Fat Bear Fishing
-description: My 5/6 grade class will use micro|bits to design a predator/prey program
-  on micro|bits that assigns each device a fish or bear identity. They will program
-  the devices to signal when the opposite animal gets closer. These micro|bits will
+description: My 5/6 grade class will use micro:bits to design a predator/prey program
+  on micro:bits that assigns each device a fish or bear identity. They will program
+  the devices to signal when the opposite animal gets closer. These micro:bits will
   be used by 1/2 grade class who is studying bears preparing for hibernation. They
   will play this game as an introduction to their project of viewing live cameras
   of bears fishing and collecting data to share on a Jamboard.
@@ -32,7 +32,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-My 5/6 grade class will use micro|bits to design a predator/prey program on micro|bits that assigns each device a fish or bear identity. They will program the devices to signal when the opposite animal gets closer. These micro|bits will be used by 1/2 grade class who is studying bears preparing for hibernation. They will play this game as an introduction to their project of viewing live cameras of bears fishing and collecting data to share on a Jamboard.
+My 5/6 grade class will use micro:bits to design a predator/prey program on micro:bits that assigns each device a fish or bear identity. They will program the devices to signal when the opposite animal gets closer. These micro:bits will be used by 1/2 grade class who is studying bears preparing for hibernation. They will play this game as an introduction to their project of viewing live cameras of bears fishing and collecting data to share on a Jamboard.
 ## Meta description
 + *Subject Area:* Computer Science, Science, Technology 
 + *Grade Level :* K-2, 6-8 
@@ -48,7 +48,7 @@ My 5/6 grade class will use micro|bits to design a predator/prey program on micr
 
 # Lesson Plan
 ## Overview
-My 5/6 grade class will use micro|bits to design a predator/prey program on micro|bits that assigns each device a fish or bear identity. They will program the devices to signal when the opposite animal gets closer. These micro|bits will be used by 1/2 grade class who is studying bears preparing for hibernation. They will play this game as an introduction to their project of viewing live cameras of bears fishing and collecting data to share on a Jamboard.
+My 5/6 grade class will use micro:bits to design a predator/prey program on micro:bits that assigns each device a fish or bear identity. They will program the devices to signal when the opposite animal gets closer. These micro:bits will be used by 1/2 grade class who is studying bears preparing for hibernation. They will play this game as an introduction to their project of viewing live cameras of bears fishing and collecting data to share on a Jamboard.
 ## ASSESSMENT PRE/POST-TEST
 What are some potential challenges in designing a predator/prey game?  
 What are some examples of predator/prey games?
@@ -69,7 +69,6 @@ In mid-September I will bring micro:bits to my 5/6 class.  These students have w
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1qyiMJr45DKbG7ZVtsHc6n-fwaCq3z-Y2
 
 
 
@@ -82,7 +81,4 @@ https://drive.google.com/open?id=1qyiMJr45DKbG7ZVtsHc6n-fwaCq3z-Y2
 |-----------|-----------|
 | CS Domains  | Data Analysis, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | First Grade: 1-LS1-2 (Science)
-Second Grade: 2-LS4-1 (Science)
-1/2 Grade CS: 2.DA.CVT.01, 2.DA.IM.01, 2.IC.SI.01
-5/6 Grade CS:5.AP.C.01, 8.AP.V.01, 8.AP.A.01  |
+| Other Content Standards | First Grade: [1-LS1-2](https://www.nextgenscience.org/search-standards?keys=1-LS1-2) (Science) Second Grade: [2-LS4-1](https://www.nextgenscience.org/search-standards?keys=2-LS4-1) (Science) 1/2 Grade CS: [2.DA.CVT.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.DA.IM.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.IC.SI.01](https://edu.wyoming.gov/educators/standards/computer-science/) 5/6 Grade CS:[5.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/), [8.AP.V.01](https://edu.wyoming.gov/educators/standards/computer-science/), [8.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

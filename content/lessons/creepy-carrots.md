@@ -77,7 +77,6 @@ Lesson Introduction :
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1tE5plHsWGFY7QFUjgb0NkXu-_48-VojE
 
 
 

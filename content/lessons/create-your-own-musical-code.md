@@ -81,7 +81,6 @@ Have student groups explain their system to one another and see if the other gro
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1eAqaGsD3hV-Ct9kEHktWeb5ykp8-afjH
 
 
 
@@ -93,6 +92,4 @@ Whole class discussion: how successful were we at communicating and interpreting
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Data Analysis|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | FPA 4.1.M.2
-FPA 4.1.M.4
-FPA 4.1.M.5  |
+| Other Content Standards | FPA 4.1.M.2 FPA 4.1.M.4 FPA 4.1.M.5  |

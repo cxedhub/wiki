@@ -71,7 +71,6 @@ Students spend a couple of days practicing morse code, using micro:bits, and Mic
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1klhslzd9O4ZPy6A6KIDaPj3wq76HmU6K5oXdCrbW3xE
 
 
 

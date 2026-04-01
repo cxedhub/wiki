@@ -3,8 +3,8 @@ title: Phase Change Lab (Temperature and Particle Movement)
 description: The goal of this lesson is to recognize the relationship of thermal energy
   and temperature. As thermal energy of water increases what happens to temperature
   of water? Similarly, what happens to particle movement as thermal energy increases.
-  Students will utilize Micro|bits to create a timer that indicates time to collect
-  temperature data during lab. Students will need to refine Micro|bit code to make
+  Students will utilize Micro:bits to create a timer that indicates time to collect
+  temperature data during lab. Students will need to refine Micro:bit code to make
   timer more accurately represent time elapsed.
 date: '2021-07-27 00:00:00+00:00'
 draft: false
@@ -28,7 +28,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org/_ipjfDDgLMDM8
 ---
 # OVERVIEW
 ## Activity Overview:  
-The goal of this lesson is to recognize the relationship of thermal energy and temperature. As thermal energy of water increases what happens to temperature of water? Similarly, what happens to particle movement as thermal energy increases. Students will utilize Micro|bits to create a timer that indicates time to collect temperature data during lab. Students will need to refine Micro|bit code to make timer more accurately represent time elapsed.
+The goal of this lesson is to recognize the relationship of thermal energy and temperature. As thermal energy of water increases what happens to temperature of water? Similarly, what happens to particle movement as thermal energy increases. Students will utilize Micro:bits to create a timer that indicates time to collect temperature data during lab. Students will need to refine Micro:bit code to make timer more accurately represent time elapsed.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 6-8 
@@ -44,7 +44,7 @@ The goal of this lesson is to recognize the relationship of thermal energy and t
 
 # Lesson Plan
 ## Overview
-The goal of this lesson is to recognize the relationship of thermal energy and temperature. As thermal energy of water increases what happens to temperature of water? Similarly, what happens to particle movement as thermal energy increases. Students will utilize Micro|bits to create a timer that indicates time to collect temperature data during lab. Students will need to refine Micro|bit code to make timer more accurately represent time elapsed.
+The goal of this lesson is to recognize the relationship of thermal energy and temperature. As thermal energy of water increases what happens to temperature of water? Similarly, what happens to particle movement as thermal energy increases. Students will utilize Micro:bits to create a timer that indicates time to collect temperature data during lab. Students will need to refine Micro:bit code to make timer more accurately represent time elapsed.
 ## ASSESSMENT PRE/POST-TEST
 1. Which describes particle movement at cold temperatures? 
 A. Particles move slowly B. Particles do not move C. Particles move quickly
@@ -152,7 +152,6 @@ o                Post lab also requires students to revise their initial model b
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1tN3l3i38hYbWi8Dndi8T3saLjnYPlQ6P, https://drive.google.com/file/d/1ddLA43L8pxMH_JzYyZFDwAVq0AiTt4nx
 
 
 
@@ -167,4 +166,4 @@ o        What happened to the state of matter when thermal energy was added?
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | NGSS MS-PS1-4  |
+| Other Content Standards | NGSS [MS-PS1-4](https://www.nextgenscience.org/search-standards?keys=MS-PS1-4)  |

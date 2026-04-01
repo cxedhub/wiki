@@ -58,7 +58,6 @@ Through this activity students will see what an algorithm is, why computers need
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1AAkQ6W1MUtPbWrkcxIlFYJpJi3APYESW
 
 
 
@@ -70,6 +69,4 @@ Discusse how would you give instructions to another person or a computer?
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CS: 5.AP.A.01, 5.AP.M.01, 5.AP.M.02, 5.AP.PD.01, 5.AP.PD.03, 5.AP.PD.04, 5.AP.PD.05, 5.IC.SI.02.
-ISTE: 4.A, 4.C, 4.D, 5.A, 5.C, 5.D, 6.D, 7.B, 7.C, 
-ELA: RL.5.5, RI.5.3, RI.5.9, SL.5.6  |
+| Other Content Standards | CS: [5.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/), [5.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/), [5.AP.M.02](https://edu.wyoming.gov/educators/standards/computer-science/), [5.AP.PD.01](https://edu.wyoming.gov/educators/standards/computer-science/), [5.AP.PD.03](https://edu.wyoming.gov/educators/standards/computer-science/), [5.AP.PD.04](https://edu.wyoming.gov/educators/standards/computer-science/), [5.AP.PD.05](https://edu.wyoming.gov/educators/standards/computer-science/), [5.IC.SI.02](https://edu.wyoming.gov/educators/standards/computer-science/). [ISTE](https://www.iste.org/standards/iste-standards-for-students): 4.A, 4.C, 4.D, 5.A, 5.C, 5.D, 6.D, 7.B, 7.C, ELA: [RL.5.5](https://www.thecorestandards.org/ELA-Literacy/), [RI.5.3](https://www.thecorestandards.org/ELA-Literacy/), [RI.5.9](https://www.thecorestandards.org/ELA-Literacy/), [SL.5.6](https://www.thecorestandards.org/ELA-Literacy/)  |

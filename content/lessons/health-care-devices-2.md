@@ -70,7 +70,6 @@ You may wish to run a series of ‘workshops/ micro:bit tangents’ with represe
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Y5KeAoFuLZyI5mIoFY8V8wJ-c8VI2q4e
 
 
 
@@ -82,6 +81,4 @@ Invite students to think/pair/share in their teams what they have achieved and l
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 5.AP.A.01. 
-5.AP.C.01. 
-MS-LS1-3.  |
+| Other Content Standards | [5.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/). [5.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/). [MS-LS1-3](https://www.nextgenscience.org/search-standards?keys=MS-LS1-3).  |

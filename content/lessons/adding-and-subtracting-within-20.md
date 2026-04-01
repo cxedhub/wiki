@@ -83,7 +83,6 @@ I use a lot of screen sharing in this process so the kids can see what other kid
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1_JFpGCiM3vpp14DJ9Y2g-wrZnRIlK7rB, https://drive.google.com/file/d/1iop0AO-hUBkohkocoJvOI9A7vr0IZXkd
 
 
 

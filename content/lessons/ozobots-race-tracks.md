@@ -69,7 +69,6 @@ When wrapping up this lesson, ask students what they noticed about other student
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1IvaV3lP2GA3ToZA83GblbaDAWnKAwNDu
 
 
 

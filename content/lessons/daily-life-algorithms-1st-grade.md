@@ -66,7 +66,6 @@ The detailed procedure can be accessed in the document upload below. Step-by-ste
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1CFpGMujle6f9u33L0-ReW0SOMcKnERng
 
 
 

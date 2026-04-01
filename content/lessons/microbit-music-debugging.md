@@ -1,5 +1,5 @@
 ---
-title: Microbit Music| Debugging
+title: Microbit Music: Debugging
 description: This lesson will provide students with the opportunity to debug computer
   code. Students will be provided with the necessary code blocks, but will have to
   identify, duplicate, and rearrange them for the program to run properly and for
@@ -72,7 +72,6 @@ When students have successfully debugged the code, they can then load their prog
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=19kIqXBLB2nRPxnWLNCdXc7JYoNpQXxiM
 
 
 

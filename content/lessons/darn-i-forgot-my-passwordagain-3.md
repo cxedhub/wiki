@@ -64,7 +64,6 @@ Student hook, then pretest, then activity through common sense, then debate, the
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Vcac49IDnElpiXnSq0OEPp-0QeQ6xl0vmou3oZSPp7E
 
 
 
@@ -76,4 +75,4 @@ The review lesson is the debate.
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | ISTE 1.2 Digital Citizenship  |
+| Other Content Standards | [ISTE](https://www.iste.org/standards/iste-standards-for-students) 1.2 Digital Citizenship  |

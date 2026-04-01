@@ -73,7 +73,6 @@ For additional information on handwashing activities visit https://www.cdc.gov/h
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=12fWDJLwxQzsqJvh8uR8PwM8sKdVp6s4yYPZOh22wjJQ
 
 
 
@@ -85,9 +84,7 @@ An algorithm is a set of steps needed to complete a task.  Today, we created an 
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | Wyoming Health Education Content Standards
-
-
+| Other Content Standards | Wyoming Health Education Content Standards  |
 Personal and Social Responsibility
 
 

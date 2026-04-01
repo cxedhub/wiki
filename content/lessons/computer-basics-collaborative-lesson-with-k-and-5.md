@@ -140,4 +140,4 @@ Whole discussion - what went well, what do you need more practice with?
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CCSS: SL5.1, SL5.2, SL5.3, SL5.6, ISTE: 1.1, 1.2, 1.6, 1.7  |
+| Other Content Standards | CCSS: SL5.1, SL5.2, SL5.3, SL5.6, [ISTE](https://www.iste.org/standards/iste-standards-for-students): 1.1, 1.2, 1.6, 1.7  |

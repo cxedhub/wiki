@@ -1,5 +1,5 @@
 ---
-title: Data| Patterns, Cause and Effect
+title: Data: Patterns, Cause and Effect
 description: Students will discover, explore, model and communicate patterns found
   within data. This lesson/activity will incorporate decimal use, place value changes,
 date: '2022-07-14 00:00:00+00:00'
@@ -82,15 +82,7 @@ In progress...
 |-----------|-----------|
 | CS Domains  | Data Analysis, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | **Art:
-FPA 4.1.A
-FPA 4.2.A.1
-FPA 4.4.A.1
-FPA 8.1.A
-FPA 8.2.A.1
-FPA 8.4.A.1
-
-
+| Other Content Standards | **Art: FPA 4.1.A FPA 4.2.A.1 FPA 4.4.A.1 FPA 8.1.A FPA 8.2.A.1 FPA 8.4.A.1  |
 **Math:
 CCSS.MATH.CONTENT.4.OA.5
 CCSS.MATH.CONTENT.4.MD.2

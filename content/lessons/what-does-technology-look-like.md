@@ -78,4 +78,4 @@ Transition ticket (quick recall).  What is ?, Is this technology?
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing|
-| Other Content Standards | K.RF.1b, K.L. 4-5, K.SL.6,  |
+| Other Content Standards | K.[RF.1b](https://www.thecorestandards.org/ELA-Literacy/), K.L. 4-5, K.SL.6,  |

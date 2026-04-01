@@ -55,7 +55,6 @@ This is the second part of a two-part lesson in entrepreneurship marketing resea
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1ZSKvNMIrjBAwpHzcQvRnhxsHRFIVFFpG
 
 
 
@@ -67,6 +66,4 @@ The teacher should think about the best way for students to make the final decis
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | CCM Standard for Probability Overview: Summarize, represent, and interpret data on two categorical and quantitative variables.
-CCR Standard for Speaking and Listening: Prepare for and participate effectively in a range of conversations and collaborations with diverse partners, building on others’ ideas and expressing their own clearly and persuasively.
-CCR Standard for Speaking and Listening: Integrate and evaluate information presented in diverse media and formats, including visually, quantitatively, and orally.  |
+| Other Content Standards | CCM Standard for Probability Overview: Summarize, represent, and interpret data on two categorical and quantitative variables. CCR Standard for Speaking and Listening: Prepare for and participate effectively in a range of conversations and collaborations with diverse partners, building on others’ ideas and expressing their own clearly and persuasively. CCR Standard for Speaking and Listening: Integrate and evaluate information presented in diverse media and formats, including visually, quantitatively, and orally.  |

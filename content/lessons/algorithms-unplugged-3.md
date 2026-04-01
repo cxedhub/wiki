@@ -70,4 +70,4 @@ Bring the class back together and ask them what is an algorithm and what is its 
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | 3-5.AP.C.01, 3-5.AP.M.01, K-2.AP.A.01, K-2.AP.C.0, K-2.AP.M.01  |
+| Other Content Standards | 3-[5.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/), 3-[5.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/), K-[2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/), K-2.AP.C.0, K-[2.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

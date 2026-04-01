@@ -82,7 +82,6 @@ EXTENSION ACTIVITY: Look through the other blocks of code in the ‘game’ tab 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1QGoN0tNW2c_Cp9XPNMGs_hjheRzwIo6m
 
 
 

@@ -71,7 +71,6 @@ The structure and processes of Internet data transfer.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1Dounk_AQwKQ93Q_fsYsOExYUoL0pMrWkRg_RN8yyd2A
 
 
 

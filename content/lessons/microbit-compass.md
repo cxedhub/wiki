@@ -67,7 +67,6 @@ To be determined
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1-h2SWearIjRgIfrhGeyk7Vsv-g-MIN22
 
 
 
@@ -79,4 +78,4 @@ To be determined
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | Science-MS-ESS2-2,Language Arts-WHST.6-8.2Mathematics-MP.2  |
+| Other Content Standards | Science-[MS-ESS2-2](https://www.nextgenscience.org/search-standards?keys=MS-ESS2-2),Language Arts-[WHST.6-8.2Mathematics-MP.2](https://www.thecorestandards.org/ELA-Literacy/)  |

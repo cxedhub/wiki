@@ -1,8 +1,8 @@
 ---
-title: See Ya Later, Alligator| Coding and Ratio Tabless
+title: See Ya Later, Alligator: Coding and Ratio Tabless
 description: Students will work in pairs to build ratio tables defining a list of
   data for distance traveled by various animals over time based on their speed. Students
-  will design a formula for their assigned ratio table and then program a Micro|Bit
+  will design a formula for their assigned ratio table and then program a Micro:Bit
   to quickly calculate the output data and record it in their Google Sheet. Then,
   students will discuss the efficiency of solving the problem and be introduced to
   the Google Sheets formula to validate their data.
@@ -33,7 +33,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will work in pairs to build ratio tables defining a list of data for distance traveled by various animals over time based on their speed. Students will design a formula for their assigned ratio table and then program a Micro|Bit to quickly calculate the output data and record it in their Google Sheet. Then, students will discuss the efficiency of solving the problem and be introduced to the Google Sheets formula to validate their data.
+Students will work in pairs to build ratio tables defining a list of data for distance traveled by various animals over time based on their speed. Students will design a formula for their assigned ratio table and then program a Micro:Bit to quickly calculate the output data and record it in their Google Sheet. Then, students will discuss the efficiency of solving the problem and be introduced to the Google Sheets formula to validate their data.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Technology 
 + *Grade Level :* 3-5 
@@ -61,7 +61,7 @@ This lesson may take two math blocks to complete, depending on student computati
 
 # Lesson Plan
 ## Overview
-Students will work in pairs to build ratio tables defining a list of data for distance traveled by various animals over time based on their speed. Students will design a formula for their assigned ratio table and then program a Micro|Bit to quickly calculate the output data and record it in their Google Sheet. Then, students will discuss the efficiency of solving the problem and be introduced to the Google Sheets formula to validate their data.
+Students will work in pairs to build ratio tables defining a list of data for distance traveled by various animals over time based on their speed. Students will design a formula for their assigned ratio table and then program a Micro:Bit to quickly calculate the output data and record it in their Google Sheet. Then, students will discuss the efficiency of solving the problem and be introduced to the Google Sheets formula to validate their data.
 ## ASSESSMENT PRE/POST-TEST
 1.  How far can an animal travel in 30 hours if it travels at a speed of 42mph?
 2. What is the most efficient way to solve this problem?

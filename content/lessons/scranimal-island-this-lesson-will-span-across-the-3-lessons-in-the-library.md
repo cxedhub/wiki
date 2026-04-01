@@ -85,4 +85,4 @@ We did alot! We learned about scranimals, you created your own scranimal, plotte
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Testing and Refining Computational Artifacts|
-| Other Content Standards | W.4.4, W.4.5, L.4.3, L.4.6  |
+| Other Content Standards | [W.4.4](https://www.thecorestandards.org/ELA-Literacy/), [W.4.5](https://www.thecorestandards.org/ELA-Literacy/), [L.4.3](https://www.thecorestandards.org/ELA-Literacy/), [L.4.6](https://www.thecorestandards.org/ELA-Literacy/)  |

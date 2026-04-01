@@ -69,7 +69,6 @@ Students were asked the pre test questions. Next the students took out their iPa
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1HbTiPn9OqHrvT4hMFw_X5-7PjoikjWqH
 
 
 

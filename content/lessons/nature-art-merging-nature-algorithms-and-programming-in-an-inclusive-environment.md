@@ -1,8 +1,8 @@
 ---
-title: Nature Art| Merging Nature, Algorithms, and Programming in an inclusive environment
+title: Nature Art: Merging Nature, Algorithms, and Programming in an inclusive environment
 description: This lesson is an introduction to computational thinking and the BBC
-  micro|bit. Students learn how to create nature abstractions by observing nature,,
-  using art materials and then using the LEDs on micro|bit. They'll develop an understanding
+  micro:bit. Students learn how to create nature abstractions by observing nature,,
+  using art materials and then using the LEDs on micro:bit. They'll develop an understanding
   of several key computational thinking concepts, including logical reasoning, abstraction,
   algorithms and evaluation. Students then develop their programming and debugging
   skills and are introduced to working with outputs.
@@ -32,7 +32,7 @@ materials: Website, Micro:bit, https://microbit.org/teach/lessons/nature-art-uni
 ---
 # OVERVIEW
 ## Activity Overview:  
-This lesson is an introduction to computational thinking and the BBC micro|bit. Students learn how to create nature abstractions by observing nature,, using art materials and then using the LEDs on micro|bit. They'll develop an understanding of several key computational thinking concepts, including logical reasoning, abstraction, algorithms and evaluation. Students then develop their programming and debugging skills and are introduced to working with outputs.
+This lesson is an introduction to computational thinking and the BBC micro:bit. Students learn how to create nature abstractions by observing nature,, using art materials and then using the LEDs on micro:bit. They'll develop an understanding of several key computational thinking concepts, including logical reasoning, abstraction, algorithms and evaluation. Students then develop their programming and debugging skills and are introduced to working with outputs.
 ## Meta description
 + *Subject Area:* Computer Science, Reading/Language Arts, Technology, Art 
 + *Grade Level :* 6-8 
@@ -48,7 +48,7 @@ This lesson is an introduction to computational thinking and the BBC micro|bit. 
 
 # Lesson Plan
 ## Overview
-This lesson is an introduction to computational thinking and the BBC micro|bit. Students learn how to create nature abstractions by observing nature,, using art materials and then using the LEDs on micro|bit. They'll develop an understanding of several key computational thinking concepts, including logical reasoning, abstraction, algorithms and evaluation. Students then develop their programming and debugging skills and are introduced to working with outputs.
+This lesson is an introduction to computational thinking and the BBC micro:bit. Students learn how to create nature abstractions by observing nature,, using art materials and then using the LEDs on micro:bit. They'll develop an understanding of several key computational thinking concepts, including logical reasoning, abstraction, algorithms and evaluation. Students then develop their programming and debugging skills and are introduced to working with outputs.
 ## ASSESSMENT PRE/POST-TEST
 I also did this lesson differently.  Our art program was dramatically cut.  In my past two lessons, the amount of girls was incredibly low.  I wanted to be creative to offer some CS experience to girls.  I have a lot of girls who come into my library.  I have many art supplies out for them to use and they do, all the time!  So I wanted to use my relationship with them and their love of art to get a micro:bit in their hands.  I also wanted to do it on their time frame with no assignment required-therefore I did not do any formal pre and post questions.
 ## OBJECTIVES
@@ -69,7 +69,6 @@ I also did this lesson differently.  Our art program was dramatically cut.  In m
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1u9u730k9gdhVxC9P0vudFkZSqCZMSP0v9qVJWXWZKMk
 
 
 
@@ -81,10 +80,4 @@ The wrap up is the hardest part.  I have not successfully had any of the microbi
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | USA CSTA STANDARDS
-Grades 3-5
-1B-CS-01 - Describe how internal and external parts of computing devices function to form a system.
-1B-CS-02 - Model how computer hardware and software work together as a system to accomplish tasks
-1B-CS-03 - Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.
-1B-AP-08 - Compare and refine multiple algorithms for the same task and determine which is the most appropriate.
-1B-AP-15 - Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.  |
+| Other Content Standards | USA CSTA STANDARDS Grades 3-5 1B-CS-01 - Describe how internal and external parts of computing devices function to form a system. 1B-CS-02 - Model how computer hardware and software work together as a system to accomplish tasks 1B-CS-03 - Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies. 1B-AP-08 - Compare and refine multiple algorithms for the same task and determine which is the most appropriate. 1B-AP-15 - Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.  |

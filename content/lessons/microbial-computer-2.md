@@ -74,7 +74,6 @@ Show the game of life on the board and allow students time to play around with t
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1cvyu9MIcgG8WFGsgebv701BN43Uu0o4O
 
 
 
@@ -86,4 +85,4 @@ https://drive.google.com/open?id=1cvyu9MIcgG8WFGsgebv701BN43Uu0o4O
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | MS-LS1-2, MS-LS1-5  |
+| Other Content Standards | [MS-LS1-2](https://www.nextgenscience.org/search-standards?keys=MS-LS1-2), [MS-LS1-5](https://www.nextgenscience.org/search-standards?keys=MS-LS1-5)  |

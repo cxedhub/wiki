@@ -1,6 +1,6 @@
 ---
 title: Power walkers
-description: Students will program a mirco|bit to count steps while walking and then
+description: Students will program a mirco: bit to count steps while walking and then
   while power walking. They will compare the two readings.
 date: '2023-03-13 00:00:00+00:00'
 draft: false
@@ -23,7 +23,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will program a mirco|bit to count steps while walking and then while power walking. They will compare the two readings.
+Students will program a mirco: bit to count steps while walking and then while power walking. They will compare the two readings.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 6-8 
@@ -39,7 +39,7 @@ Students will program a mirco|bit to count steps while walking and then while po
 
 # Lesson Plan
 ## Overview
-Students will program a mirco|bit to count steps while walking and then while power walking. They will compare the two readings.
+Students will program a mirco: bit to count steps while walking and then while power walking. They will compare the two readings.
 ## ASSESSMENT PRE/POST-TEST
 Can you program a micro:bit to count your steps? Is the coding done in the micro:bit accurate? How did your two tests compare? How would you add to the program to enhance this lesson?
 ## OBJECTIVES

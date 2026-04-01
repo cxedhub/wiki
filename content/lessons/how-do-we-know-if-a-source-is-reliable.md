@@ -84,7 +84,4 @@ We will have a class discussion about three websites and the three questions. I 
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | SS8.6.1
-SS8.6.2
-SS8.6.3
-SS8.6.4  |
+| Other Content Standards | SS8.6.1 SS8.6.2 SS8.6.3 SS8.6.4  |

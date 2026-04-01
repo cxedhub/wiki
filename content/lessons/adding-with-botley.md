@@ -56,7 +56,6 @@ Adding wtih Botley
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1I7XPNxht4kjpthImQYXN7SL9Y9p3dJB7
 
 
 

@@ -133,11 +133,7 @@ Discuss with the students what they learned about the microbit and the applicati
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | Domain - Computing Systems
-Standard - 2.CS.HS.01
-Demonstrate common components of computing systems.
-
-
+| Other Content Standards | Domain - Computing Systems Standard - [2.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/) Demonstrate common components of computing systems.  |
 Domain - Algorithms & Programming
 Standard - 2.AP.A.01
 Creating and following algorithms (Sets of step by step instructions) to complete tasks.  |

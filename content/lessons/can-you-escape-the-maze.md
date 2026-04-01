@@ -86,6 +86,4 @@ Have students compare and contrast the two websites
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CCSS.ELA-LITERACY.SL.4.1
-CCSS.ELA-LITERACY.SL.4.4
-CCSS.ELA-LITERACY.W.4.6  |
+| Other Content Standards | [CCSS.ELA-LITERACY.[SL.4.1](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[SL.4.4](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.4.6](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

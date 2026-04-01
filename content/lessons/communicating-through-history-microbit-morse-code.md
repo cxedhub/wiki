@@ -1,9 +1,9 @@
 ---
-title: Communicating Through History|  MicroBit Morse Code
+title: Communicating Through History: MicroBit Morse Code
 description: Students will read articles and then construct a timeline of the progression
   of communication technology in the developing United States. Then, they will use
-  MicroBits to encode and decode messages sent in Morse Code via radio output. (Note|
-  Morse Code Activity can be done Unplugged, without the Micro|Bits if necessary.)
+  MicroBits to encode and decode messages sent in Morse Code via radio output. (Note:
+  Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -31,7 +31,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode messages sent in Morse Code via radio output. (Note| Morse Code Activity can be done Unplugged, without the Micro|Bits if necessary.)
+Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode messages sent in Morse Code via radio output. (Note: Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)
 ## Meta description
 + *Subject Area:* Computer Science, Social Studies, Reading/Language Arts 
 + *Grade Level :* 3-5 
@@ -51,7 +51,7 @@ Students will read articles and then construct a timeline of the progression of 
 
 # Lesson Plan
 ## Overview
-Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode messages sent in Morse Code via radio output. (Note| Morse Code Activity can be done Unplugged, without the Micro|Bits if necessary.)
+Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode messages sent in Morse Code via radio output. (Note: Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)
 ## ASSESSMENT PRE/POST-TEST
 Why did the Pony Express end?
 How did the Transcontinental Railroad improve communication?
@@ -117,4 +117,4 @@ Discussion Questions:
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | RI.4.1, RI.4.3, W.4.4, SS5.3.1, SS5.3.3, SS5.4.1, SS5.4.2  |
+| Other Content Standards | [RI.4.1](https://www.thecorestandards.org/ELA-Literacy/), [RI.4.3](https://www.thecorestandards.org/ELA-Literacy/), [W.4.4](https://www.thecorestandards.org/ELA-Literacy/), SS5.3.1, SS5.3.3, SS5.4.1, SS5.4.2  |

@@ -1,7 +1,7 @@
 ---
 title: Future Job Research
 description: Student is required to 'explore future occupations' as defined by Occupational
-  Outlook Handbook at https|//www.bls.gov/ooh/. Present the results in their ready
+  Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready
   to be published web pages with the results. Indicate if you which to have them published
   on the Internet.
 date: '2023-04-01 00:00:00+00:00'
@@ -27,7 +27,7 @@ materials: Website
 ---
 # OVERVIEW
 ## Activity Overview:  
-Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https|//www.bls.gov/ooh/. Present the results in their ready to be published web pages with the results. Indicate if you which to have them published on the Internet.
+Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready to be published web pages with the results. Indicate if you which to have them published on the Internet.
 ## Meta description
 + *Subject Area:* Computer Science, Technology 
 + *Grade Level :* 6-8 
@@ -43,7 +43,7 @@ Student is required to 'explore future occupations' as defined by Occupational O
 
 # Lesson Plan
 ## Overview
-Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https|//www.bls.gov/ooh/. Present the results in their ready to be published web pages with the results. Indicate if you which to have them published on the Internet.
+Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready to be published web pages with the results. Indicate if you which to have them published on the Internet.
 ## ASSESSMENT PRE/POST-TEST
 Post your standard (minimum 5 sentence paragraph) of your expected future career and what you want to learn about it. Also present on your minimum 4+ different web pages what you expect to learn and why.
 ## OBJECTIVES

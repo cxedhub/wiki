@@ -68,7 +68,6 @@ Students will be developing their page in the Christmas book. They will create a
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1T5cCbDyUQHv9MlkBPJ-ng-yFFyerfF50HvRRWcXLiX8
 
 
 
@@ -80,4 +79,4 @@ Have students go back and double check their work and reviewing steps for drawin
 |-----------|-----------|
 | CS Domains  | Computing Systems, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | CCSS.ELA-LITERACY.W.1.1  |
+| Other Content Standards | [CCSS.ELA-LITERACY.[W.1.1](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

@@ -76,7 +76,6 @@ Once they finish, they will write an essay about how earth’s spheres interact 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1ehvWwyNpLepw38sNufQwIHKpZaKCJaVg
 
 
 

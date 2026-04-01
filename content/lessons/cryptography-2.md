@@ -88,7 +88,6 @@ Lesson based on and materials are from Cryptography: The Caesar Cipher by CodeHS
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1MRAJXl2f7k7Hpmzu1A6PtVhQHp4SF09Y, https://drive.google.com/file/d/1bx1LJYOelaK3KN85Jcbz45UiZUpkDaM5
 
 
 
@@ -100,4 +99,4 @@ Exit slip: in 2-3 sentences explain what a Caesar Cipher is and how does it work
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 8.AP.A.01  |
+| Other Content Standards | [8.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

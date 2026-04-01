@@ -1,6 +1,6 @@
 ---
 title: Magic 8 ball
-description: Make your own magic 8 ball! Students will code a micro|bit in makecode.org
+description: Make your own magic 8 ball! Students will code a micro:bit in makecode.org
   to tell other's 'fortunes'.
 date: '2022-11-01 00:00:00+00:00'
 draft: false
@@ -22,7 +22,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Make your own magic 8 ball! Students will code a micro|bit in makecode.org to tell other's 'fortunes'.
+Make your own magic 8 ball! Students will code a micro:bit in makecode.org to tell other's 'fortunes'.
 ## Meta description
 + *Subject Area:* Computer Science, Technology 
 + *Grade Level :* 6-8 
@@ -38,7 +38,7 @@ Make your own magic 8 ball! Students will code a micro|bit in makecode.org to te
 
 # Lesson Plan
 ## Overview
-Make your own magic 8 ball! Students will code a micro|bit in makecode.org to tell other's 'fortunes'.
+Make your own magic 8 ball! Students will code a micro:bit in makecode.org to tell other's 'fortunes'.
 ## ASSESSMENT PRE/POST-TEST
 Can programming a micro:bit be fun and entertaining? Can you make more programs like this (e.g. Rock, Paper, Scissors game, multiple choice answerer...)
 ## OBJECTIVES

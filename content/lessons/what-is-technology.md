@@ -58,7 +58,6 @@ These lessons or mini-unit would probably take 3-4 days to teach, with 40-minute
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1rpdPG0RmPqZB7r9U_M_BWg9p6OEzL8XR, https://drive.google.com/file/d/1k1oHhc9uqqvyocQ3PjaRKiQqIy006qBr
 
 
 
@@ -70,4 +69,4 @@ The wrap-up of this activity was to look at technological advancements of the st
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Fostering an Inclusive Computing Culture|
-| Other Content Standards | 8.CS.HS.01  |
+| Other Content Standards | [8.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

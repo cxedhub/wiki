@@ -89,7 +89,6 @@ Explain to the students that they once again acted  like a computer at the most 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=15RpVnsDmjRn2tXO_Jo01YFu-9YpZ0_fCZqYG2XY87xU
 
 
 
@@ -102,7 +101,4 @@ Review with students the vocabulary words ( algorithm, program, binary codes and
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Data Analysis|
 | CS Principles   | Developing and Using Abstractions, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | Visual Arts- Creating VA:Cr1.2.3a
-Visual Arts- Creating VA:Cr3.1.5a
-Visual Arts- Responding VA:Re8.1.5a
-Visual Arts- Connecting VA:Cn10.1.5a  |
+| Other Content Standards | Visual Arts- Creating VA:Cr1.2.3a Visual Arts- Creating VA:Cr3.1.5a Visual Arts- Responding VA:Re8.1.5a Visual Arts- Connecting VA:Cn10.1.5a  |

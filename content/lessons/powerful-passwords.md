@@ -113,4 +113,4 @@ What are real world consequences that could happen? -Identity theft, sharing of 
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | CCSS.SL.5.1 ; CCSS.L.5.4c  |
+| Other Content Standards | CCSS.[SL.5.1](https://www.thecorestandards.org/ELA-Literacy/) ; CCSS.[L.5.4c](https://www.thecorestandards.org/ELA-Literacy/)  |

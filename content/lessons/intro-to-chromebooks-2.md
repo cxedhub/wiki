@@ -75,4 +75,4 @@ Student will take district assessment on chromebook
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Communicating About Computing|
-| Other Content Standards | 2.CS.HS.01  |
+| Other Content Standards | [2.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

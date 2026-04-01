@@ -89,7 +89,6 @@ https://www.youtube.com/watch?v=7TMtKNLmkJs&list=PLqmhbnW2DVnvo_WjZnAFa-8AbVmYE5
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1M0XJ5Q_lxMhqYgOBjDKO4DJpDeTcP1w5
 
 
 
@@ -104,6 +103,4 @@ Some follow-up discussion:
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | CSTA 2-AP-15
-CSTA 2-AP-18
-CSTA 2-CS-02  |
+| Other Content Standards | CSTA [2-AP-15](https://www.nextgenscience.org/search-standards?keys=2-AP-15) CSTA [2-AP-18](https://www.nextgenscience.org/search-standards?keys=2-AP-18) CSTA [2-CS-02](https://www.nextgenscience.org/search-standards?keys=2-CS-02)  |

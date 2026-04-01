@@ -3,7 +3,7 @@ title: Get to Know Me Keynote Activity
 description: Students will participate in a community building activity that will
   integrate Computer Science through the use of Key Note and iPad. The students will
   populate an Instagram looking graphic organizer with a photo of a peer that matches
-  the given criteria such as| Find someone who| walked to school today, is wearing
+  the given criteria such as: Find someone who: walked to school today, is wearing
   same colored shirt as you, and is the oldest in the family.
 date: '2022-11-04 00:00:00+00:00'
 draft: false
@@ -26,7 +26,7 @@ materials: None
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will participate in a community building activity that will integrate Computer Science through the use of Key Note and iPad. The students will populate an Instagram looking graphic organizer with a photo of a peer that matches the given criteria such as| Find someone who| walked to school today, is wearing same colored shirt as you, and is the oldest in the family.
+Students will participate in a community building activity that will integrate Computer Science through the use of Key Note and iPad. The students will populate an Instagram looking graphic organizer with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family.
 ## Meta description
 + *Subject Area:* Computer Science, Technology 
 + *Grade Level :* 3-5 
@@ -42,7 +42,7 @@ Students will participate in a community building activity that will integrate C
 
 # Lesson Plan
 ## Overview
-Students will participate in a community building activity that will integrate Computer Science through the use of Key Note and iPad. The students will populate an Instagram looking graphic organizer with a photo of a peer that matches the given criteria such as| Find someone who| walked to school today, is wearing same colored shirt as you, and is the oldest in the family.
+Students will participate in a community building activity that will integrate Computer Science through the use of Key Note and iPad. The students will populate an Instagram looking graphic organizer with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family.
 ## ASSESSMENT PRE/POST-TEST
 How do we add photos into Keynote?
 How do we edit photos to adjust brightness and contrast?
@@ -69,7 +69,6 @@ o        I can use grade-level appropriate behaviors and responsibilities while 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=10P-aQ7cSBLStXy5SOudOcsoDFnNm9GGb
 
 
 
@@ -81,4 +80,4 @@ Students will gather in homeroom and complete the learn section of the KWL chart
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing|
-| Other Content Standards | 3-5.IC.SI.02  |
+| Other Content Standards | 3-[5.IC.SI.02](https://edu.wyoming.gov/educators/standards/computer-science/)  |

@@ -75,7 +75,6 @@ This is an activity that I would use multiple times throughout the school year. 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=16DxCk-gF7wyU0WBVgP9FiIJ4qJFWEuhA
 
 
 

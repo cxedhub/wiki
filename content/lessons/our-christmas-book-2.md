@@ -79,5 +79,4 @@ The book will be printed and put together. We will read it as a class.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Testing and Refining Computational Artifacts|
-| Other Content Standards | CCSS.ELA-LITERACY.W.1.1
-Write opinion pieces in which they introduce the topic or name the book they are writing about, state an opinion, supply a reason for the opinion, and provide some sense of closure.  |
+| Other Content Standards | [CCSS.ELA-LITERACY.[W.1.1](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) Write opinion pieces in which they introduce the topic or name the book they are writing about, state an opinion, supply a reason for the opinion, and provide some sense of closure.  |

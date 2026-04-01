@@ -1,9 +1,9 @@
 ---
 title: Getting to Know You, CPU
-description: Students will be introduced to Micro|Bit technology and have the opportunity
-  to program the Micro|Bit to share some personal information about themselves. This
+description: Students will be introduced to Micro:Bit technology and have the opportunity
+  to program the Micro:Bit to share some personal information about themselves. This
   activity is intended to be a beginning of the year, get to know you activity, and
-  introduction to Micro|Bit programming.
+  introduction to Micro:Bit programming.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -29,7 +29,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will be introduced to Micro|Bit technology and have the opportunity to program the Micro|Bit to share some personal information about themselves. This activity is intended to be a beginning of the year, get to know you activity, and introduction to Micro|Bit programming.
+Students will be introduced to Micro:Bit technology and have the opportunity to program the Micro:Bit to share some personal information about themselves. This activity is intended to be a beginning of the year, get to know you activity, and introduction to Micro:Bit programming.
 ## Meta description
 + *Subject Area:* Computer Science, Reading/Language Arts 
 + *Grade Level :* 3-5 
@@ -47,7 +47,7 @@ Students will be introduced to Micro|Bit technology and have the opportunity to 
 
 # Lesson Plan
 ## Overview
-Students will be introduced to Micro|Bit technology and have the opportunity to program the Micro|Bit to share some personal information about themselves. This activity is intended to be a beginning of the year, get to know you activity, and introduction to Micro|Bit programming.
+Students will be introduced to Micro:Bit technology and have the opportunity to program the Micro:Bit to share some personal information about themselves. This activity is intended to be a beginning of the year, get to know you activity, and introduction to Micro:Bit programming.
 ## ASSESSMENT PRE/POST-TEST
 1. How can I introduce myself to someone without using words?
 2. How can a programmed communication device be helpful in everyday life? 
@@ -114,4 +114,4 @@ How might a programmed device be helpful in everyday life?
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions|
-| Other Content Standards | SL.4.1, SL.4.4  |
+| Other Content Standards | [SL.4.1](https://www.thecorestandards.org/ELA-Literacy/), [SL.4.4](https://www.thecorestandards.org/ELA-Literacy/)  |

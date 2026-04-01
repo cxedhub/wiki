@@ -1,7 +1,7 @@
 ---
 title: Creating Mazes using Kodable
 description: Students will be able to create solvable mazes while applying grade-level
-  geometry concepts on Kodable Maze Maker https|//game.kodable.com/hour-of-code#maze-maker
+  geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
 date: '2020-11-24 00:00:00+00:00'
 draft: false
 author: Connie Hollin
@@ -23,7 +23,7 @@ materials: Website
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will be able to create solvable mazes while applying grade-level geometry concepts on Kodable Maze Maker https|//game.kodable.com/hour-of-code#maze-maker
+Students will be able to create solvable mazes while applying grade-level geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics 
 + *Grade Level :* 3-5 
@@ -39,7 +39,7 @@ Students will be able to create solvable mazes while applying grade-level geomet
 
 # Lesson Plan
 ## Overview
-Students will be able to create solvable mazes while applying grade-level geometry concepts on Kodable Maze Maker https|//game.kodable.com/hour-of-code#maze-maker
+Students will be able to create solvable mazes while applying grade-level geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
 ## ASSESSMENT PRE/POST-TEST
 Match the following coding vocabulary with the appropriate definitions: Algorithm, Sequence, events, loops and conditionals.
 ## OBJECTIVES
@@ -60,7 +60,6 @@ Hand out the Maze Maker challenge handout for students to begin workin
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1c3t2kykW7PDYTEtjlkNvVEv4UVXWT7oV
 
 
 
@@ -72,4 +71,4 @@ By randomly selecting different students to try and solve their maze creations.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | 5.AP.A.01,  |
+| Other Content Standards | [5.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/),  |

@@ -64,7 +64,6 @@ After singing the song with the apron on, students will examine how the song is 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1t-z2n18O_-Vw-gAo20EOwdLQK3UogBDO
 
 
 
@@ -76,5 +75,4 @@ This lesson could be as simple or complex as the age of the students and the kno
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions|
-| Other Content Standards | Oral language memory and sequencing (Heggerty Phonemic Awareness Skills)
-Rhyming and repetition (Heggerty)  |
+| Other Content Standards | Oral language memory and sequencing (Heggerty Phonemic Awareness Skills) Rhyming and repetition (Heggerty)  |

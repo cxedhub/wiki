@@ -130,7 +130,6 @@ Review and Reflect
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1xLhQGJtQs_SfYshvdROVikWxz2c66WSORvcClME58p4
 
 
 
@@ -152,13 +151,7 @@ How is coding like story-telling?
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | Common Core:
-ELA
-RL.6.2. 
-RL.6.3. 
-W.6.3. 3.
-
-
+| Other Content Standards | Common Core: ELA [RL.6.2](https://www.thecorestandards.org/ELA-Literacy/). [RL.6.3](https://www.thecorestandards.org/ELA-Literacy/). [W.6.3](https://www.thecorestandards.org/ELA-Literacy/). 3.  |
 LIT
 AASL
 Inquire/Explore/Engage

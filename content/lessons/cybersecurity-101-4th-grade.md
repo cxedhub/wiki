@@ -65,7 +65,6 @@ The detailed procedure, step-by-step, is located in the uploaded PDF lesson plan
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1BBTKsJRmKQieJtcaBo8wCLqF6dhyYU5G
 
 
 

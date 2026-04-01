@@ -1,6 +1,6 @@
 ---
 title: Virtual Pet
-description: Students will create a virtual pet using micro|bits and then collect
+description: Students will create a virtual pet using micro:bits and then collect
   data for their pet as it interacts with its 'environment'.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
@@ -34,7 +34,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will create a virtual pet using micro|bits and then collect data for their pet as it interacts with its 'environment'.
+Students will create a virtual pet using micro:bits and then collect data for their pet as it interacts with its 'environment'.
 ## Meta description
 + *Subject Area:* Computer Science, Science, Reading/Language Arts, Technology, Engineering, Art 
 + *Grade Level :* 3-5 
@@ -50,7 +50,7 @@ Students will create a virtual pet using micro|bits and then collect data for th
 
 # Lesson Plan
 ## Overview
-Students will create a virtual pet using micro|bits and then collect data for their pet as it interacts with its 'environment'.
+Students will create a virtual pet using micro:bits and then collect data for their pet as it interacts with its 'environment'.
 ## ASSESSMENT PRE/POST-TEST
 How will you program you virtual pet to meet its needs for food, shelter, and water?
 How will you collect data to show your animal's behavior as it meets its needs in order to survive?

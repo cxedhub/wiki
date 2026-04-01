@@ -103,7 +103,4 @@ For Improve: Once the timer goes off, have students stop and look at their desig
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CCSS.ELA-Literacy.RF.3.4
-CCSS.ELA-Literacy.SL.3.1
-CCSS.ELA-Literacy.SL.3.2
-CCSS.ELA-Literacy.RI.3.10  |
+| Other Content Standards | [CCSS.ELA-Literacy.[RF.3.4](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-Literacy.[SL.3.1](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-Literacy.[SL.3.2](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-Literacy.[RI.3.10](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

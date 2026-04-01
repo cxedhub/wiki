@@ -78,4 +78,4 @@ After the new work of art is created, then students will compare the famous artw
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems|
-| Other Content Standards | 8.AP.M.01; FPA 8.1.A.3  |
+| Other Content Standards | [8.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/); FPA 8.1.A.3  |

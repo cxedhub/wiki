@@ -1,8 +1,8 @@
 ---
 title: Penguin Lab
 description: Students will construct an penguin home to prevent the phase change of
-  an Ice-Cube Penguin. Students will code 2 micro|bit devices to be a radio and receiver
-  to record the temperature inside the penguin home using one micro|bit, and then
+  an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver
+  to record the temperature inside the penguin home using one micro:bit, and then
   creating a graphical representation of the temperature change in their penguin home.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
@@ -23,7 +23,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro|bit devices to be a radio and receiver to record the temperature inside the penguin home using one micro|bit, and then creating a graphical representation of the temperature change in their penguin home.
+Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver to record the temperature inside the penguin home using one micro:bit, and then creating a graphical representation of the temperature change in their penguin home.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 6-8 
@@ -39,7 +39,7 @@ Students will construct an penguin home to prevent the phase change of an Ice-Cu
 
 # Lesson Plan
 ## Overview
-Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro|bit devices to be a radio and receiver to record the temperature inside the penguin home using one micro|bit, and then creating a graphical representation of the temperature change in their penguin home.
+Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver to record the temperature inside the penguin home using one micro:bit, and then creating a graphical representation of the temperature change in their penguin home.
 ## ASSESSMENT PRE/POST-TEST
 Were you able to construct an home?
 What is the phase change your penguin went through?
@@ -60,7 +60,6 @@ Students will read about South Africa's penguin populations and their need for a
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1nF6wGzzTU7SBof7WAvKZJbbK2sWAOmVg
 
 
 

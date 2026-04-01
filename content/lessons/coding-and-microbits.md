@@ -63,7 +63,6 @@ The hook for this lesson would be showing the students the Microbit device with 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1ngVT_BXeZ0X55BZyMFRDw9-JiiJLPZyU
 
 
 

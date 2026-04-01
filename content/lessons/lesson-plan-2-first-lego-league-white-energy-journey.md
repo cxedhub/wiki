@@ -138,6 +138,4 @@ What does the invention and use of these types of tools do to our future outlook
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | MS-LS1-1: Conduct an investigation to produce data to serve as the basis for evidence that meet the goals of an investigation (Grades 6 - 8)
-Use mathematical representations to describe and/or support scientific conclusions and design solutions (Grades 6 - 8)
-MS-ETS1-3: Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success.  |
+| Other Content Standards | [MS-LS1-1](https://www.nextgenscience.org/search-standards?keys=MS-LS1-1): Conduct an investigation to produce data to serve as the basis for evidence that meet the goals of an investigation (Grades 6 - 8) Use mathematical representations to describe and/or support scientific conclusions and design solutions (Grades 6 - 8) [MS-ETS1-3](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-3): Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success.  |

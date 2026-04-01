@@ -61,7 +61,6 @@ See lesson plan
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=152dWot1fGU4kXnaPNQ4zBR1Fmx4i5Mgi49LDooD7iHo
 
 
 
@@ -73,9 +72,4 @@ See lesson plan
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | AP - Algorithms & Programming
-2-AP-12 - Design and iteratively develop programs that combine control structures, including nested loops and compound conditionals.
-2-AP-13 - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.
-2-AP-16 - Incorporate existing code, media, and libraries into original programs, and give attribution.
-2-AP-17 - Systematically test and refine programs using a range of test cases.
-2-AP-19 - Document programs in order to make them easier to follow, test, and debug.  |
+| Other Content Standards | AP - Algorithms & Programming [2-AP-12](https://www.nextgenscience.org/search-standards?keys=2-AP-12) - Design and iteratively develop programs that combine control structures, including nested loops and compound conditionals. [2-AP-13](https://www.nextgenscience.org/search-standards?keys=2-AP-13) - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs. [2-AP-16](https://www.nextgenscience.org/search-standards?keys=2-AP-16) - Incorporate existing code, media, and libraries into original programs, and give attribution. [2-AP-17](https://www.nextgenscience.org/search-standards?keys=2-AP-17) - Systematically test and refine programs using a range of test cases. [2-AP-19](https://www.nextgenscience.org/search-standards?keys=2-AP-19) - Document programs in order to make them easier to follow, test, and debug.  |

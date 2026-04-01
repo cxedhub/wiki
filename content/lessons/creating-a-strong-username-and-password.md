@@ -67,7 +67,6 @@ I will show the students the Caesar Cipher code I want them to use. We will then
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1uXJ38-42ZMuH62Pe-3OOeJMOdmOk_3_y
 
 
 
@@ -79,4 +78,4 @@ Having a discussion with students about the importance of internet safety, impor
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 2.NI.C.01, 5.NI.C.01  |
+| Other Content Standards | [2.NI.C.01](https://edu.wyoming.gov/educators/standards/computer-science/), [5.NI.C.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

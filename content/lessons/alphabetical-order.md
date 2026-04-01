@@ -87,7 +87,6 @@ I use a lot of screen sharing in this process so the kids can see what other kid
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1od4gtot0Sw32_YFMKgagNDM4hif8bA41, https://drive.google.com/file/d/1-qtQr1kTaVY7JSxD3hYu9DY4ENlPCeu6
 
 
 
@@ -99,4 +98,4 @@ What worked well?
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | CCSS.ELA-Literacy.L.2.2.E  |
+| Other Content Standards | [CCSS.ELA-Literacy.[L.2.2.E](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/)  |

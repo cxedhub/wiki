@@ -1,12 +1,12 @@
 ---
-title: Lesson 8| How does a cup’s surface affect how light warms up a liquid inside
+title: Lesson 8: How does a cup’s surface affect how light warms up a liquid inside
   the cup?
 description: This is modified from OpenSciEd under the Creative Common 4.0 License.
   We carry out an investigation to test the interaction between light and the cup
   surface in warming up the cold water inside the cups. We shine light on cups with
   walls of different materials and colors and measure the amount of incoming, reflected,
   and transmitted light, and we also place some cups in a completely dark condition.
-  This is measured by a micro|bit programmed to measure light. We figure out that
+  This is measured by a micro:bit programmed to measure light. We figure out that
   the water in all the cups warms up, even cups in the dark condition, but it warms
   up more in the cups in the light conditions. We wonder about additional mechanisms
   by which the water inside the cups warms up.
@@ -36,7 +36,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition. This is measured by a micro|bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions. We wonder about additional mechanisms by which the water inside the cups warms up.
+This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition. This is measured by a micro:bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions. We wonder about additional mechanisms by which the water inside the cups warms up.
 ## Meta description
 + *Subject Area:* Computer Science, Science, Technology 
 + *Grade Level :* 6-8, 9-12 
@@ -52,7 +52,7 @@ This is modified from OpenSciEd under the Creative Common 4.0 License. We carry 
 
 # Lesson Plan
 ## Overview
-This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition. This is measured by a micro|bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions. We wonder about additional mechanisms by which the water inside the cups warms up.
+This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition. This is measured by a micro:bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions. We wonder about additional mechanisms by which the water inside the cups warms up.
 ## ASSESSMENT PRE/POST-TEST
 Intro- 
 
@@ -114,4 +114,4 @@ Develop models to explain findings. Explain that we’re going to draw models to
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts|
-| Other Content Standards | MS-PS1-4, MS-PS3-3, MS-PS3-4, MS-PS3-5, MS-PS4-2, MS-ETS1-4  |
+| Other Content Standards | [MS-PS1-4](https://www.nextgenscience.org/search-standards?keys=MS-PS1-4), [MS-PS3-3](https://www.nextgenscience.org/search-standards?keys=MS-PS3-3), [MS-PS3-4](https://www.nextgenscience.org/search-standards?keys=MS-PS3-4), [MS-PS3-5](https://www.nextgenscience.org/search-standards?keys=MS-PS3-5), [MS-PS4-2](https://www.nextgenscience.org/search-standards?keys=MS-PS4-2), [MS-ETS1-4](https://www.nextgenscience.org/search-standards?keys=MS-ETS1-4)  |

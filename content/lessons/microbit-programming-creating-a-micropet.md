@@ -68,7 +68,6 @@ Students will create a micropet which will perform various outputs depending on 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1WcjJcU0O430zeeTlQOqoWC0obm2CPb6M
 
 
 
@@ -80,11 +79,4 @@ Go to https://makecode.microbit.org/# review the site and what each of the progr
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 1.b create original works as a means of personal or group expression.
-ISTE Standards (2)
-6.c communicate complex ideas clearly and effectively by creating or using a variety of digital objects such as visualizations, models or simulations.
-6.b create original works or responsibly repurpose or remix digital resources into new creations.
-Next Generation Science Standards
-Science and Engineering Practices Appendix F (8)
-SEP.1.a Ask questions about what would happen if a variable is changed.
-SEP.1.c Ask questions that can be investigated and predict reasonable outcomes based on patterns such as cause and effect relationships.  |
+| Other Content Standards | 1.b create original works as a means of personal or group expression. [ISTE Standards (2) 6.c](https://www.iste.org/standards/iste-standards-for-students) communicate complex ideas clearly and effectively by creating or using a variety of digital objects such as visualizations, models or simulations. 6.b create original works or responsibly repurpose or remix digital resources into new creations. Next Generation Science Standards Science and Engineering Practices Appendix F (8) SEP.1.a Ask questions about what would happen if a variable is changed. SEP.1.c Ask questions that can be investigated and predict reasonable outcomes based on patterns such as cause and effect relationships.  |

@@ -66,7 +66,6 @@ As the students learn to code we will continue to build on their skills for the 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=163HwMh6T6Y0oG2solsIczRJx-adlI3SH
 
 
 

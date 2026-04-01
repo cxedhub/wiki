@@ -87,5 +87,4 @@ The wrap-up will be the problem in history and what technological invention was 
 |-----------|-----------|
 | CS Domains  | Impacts of Computing|
 | CS Principles   | Communicating About Computing|
-| Other Content Standards | 8.IC.C.01 
-SS8.2.2  |
+| Other Content Standards | [8.IC.C.01](https://edu.wyoming.gov/educators/standards/computer-science/) SS8.2.2  |

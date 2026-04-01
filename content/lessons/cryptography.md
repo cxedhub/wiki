@@ -99,4 +99,4 @@ Exit slip: in 2-3 sentences explain what a Caesar Cipher is and how does it work
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 8.AP.A.01  |
+| Other Content Standards | [8.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

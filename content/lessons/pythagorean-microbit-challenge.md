@@ -58,7 +58,6 @@ In document
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1dxfLkbfZQ3hibUhsbdBp5jbc-G559G3z
 
 
 

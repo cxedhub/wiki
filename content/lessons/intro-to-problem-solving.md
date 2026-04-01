@@ -141,7 +141,6 @@ Transition: Ask class to return to their own seats to reflect on the activity.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1uEhI-XvsE0US_fJQN2z5iNZsVnIOc256
 
 
 
@@ -164,8 +163,4 @@ All of your thoughts around these questions were great. We're going to be doing 
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | CSTA K-12 Computer Science Standards (2017)
-AP - Algorithms & Programming
-1B-AP-08 - Compare and refine multiple algorithms for the same task and determine which is the most appropriate.
-1B-AP-11 - Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.
-1B-AP-16 - Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation and review stages of program development.  |
+| Other Content Standards | CSTA K-12 Computer Science Standards (2017) AP - Algorithms & Programming 1B-AP-08 - Compare and refine multiple algorithms for the same task and determine which is the most appropriate. 1B-AP-11 - Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process. 1B-AP-16 - Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation and review stages of program development.  |

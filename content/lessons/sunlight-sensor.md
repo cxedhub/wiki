@@ -1,7 +1,7 @@
 ---
 title: Sunlight Sensor
-description: Turn your micro|bit into a light sensor! Using the light level sensor
-  feature of the micro|bit, students will program the micro|bit to display different
+description: Turn your micro:bit into a light sensor! Using the light level sensor
+  feature of the micro:bit, students will program the micro:bit to display different
   images based on the level of light in the room.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
@@ -25,7 +25,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Turn your micro|bit into a light sensor! Using the light level sensor feature of the micro|bit, students will program the micro|bit to display different images based on the level of light in the room.
+Turn your micro:bit into a light sensor! Using the light level sensor feature of the micro:bit, students will program the micro:bit to display different images based on the level of light in the room.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 3-5 
@@ -68,7 +68,7 @@ https://microbit.org/get-started/user-guide/features-in-depth/#light-sensor
 
 # Lesson Plan
 ## Overview
-Turn your micro|bit into a light sensor! Using the light level sensor feature of the micro|bit, students will program the micro|bit to display different images based on the level of light in the room.
+Turn your micro:bit into a light sensor! Using the light level sensor feature of the micro:bit, students will program the micro:bit to display different images based on the level of light in the room.
 ## ASSESSMENT PRE/POST-TEST
 How can you program a micro:bit so the LED display becomes a sensor that reacts to light?
 ## OBJECTIVES
@@ -113,10 +113,7 @@ Discuss how this type of sensor could impact the future of solar energy.  Would 
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 4-PS3-2.        Make observations to provide evidence that energy can be transferred from place to place by sound, light, heat, and electric currents.
-4-PS3-4.        Apply scientific ideas to design, test, and refine a device that converts energy from one form to another.
-
-
+| Other Content Standards | [4-PS3-2](https://www.nextgenscience.org/search-standards?keys=4-PS3-2).        Make observations to provide evidence that energy can be transferred from place to place by sound, light, heat, and electric currents. [4-PS3-4](https://www.nextgenscience.org/search-standards?keys=4-PS3-4).        Apply scientific ideas to design, test, and refine a device that converts energy from one form to another.  |
 ELA
 RI.4.1        Refer to details and examples in a text when explaining what the text says explicitly and when drawing inferences from the text.
 RI.4.3        Explain events, procedures, ideas, or concepts in a historical, scientific, or technical text, including what happened and why, based on specific information in the text.

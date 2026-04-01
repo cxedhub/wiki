@@ -1,6 +1,6 @@
 ---
-title: Micro|bits / Makerspace
-description: The lesson is for coding with micro|bits. It is written broadly for implementation
+title: Micro:bits / Makerspace
+description: The lesson is for coding with micro:bits. It is written broadly for implementation
   as an activity for a whole group of students in a library/makerspace club or as
   a free-choice activity for small groups or individuals. However, it can be adapted
   for collaborative teaching to support various classroom curricula.
@@ -34,7 +34,7 @@ materials: Website, Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-The lesson is for coding with micro|bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
+The lesson is for coding with micro:bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
 ## Meta description
 + *Subject Area:* Computer Science, Reading/Language Arts, Technology 
 + *Grade Level :* 3-5, 6-8 
@@ -51,7 +51,7 @@ A self-directed path for students to visit the micro:bits site
 
 # Lesson Plan
 ## Overview
-The lesson is for coding with micro|bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
+The lesson is for coding with micro:bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
 ## ASSESSMENT PRE/POST-TEST
 List and describe each step in the design cycle.
 
@@ -102,11 +102,7 @@ Take survey through Google Form - forthcoming
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | W.7.7. 
-SL.7.1. 
-SL.7.1.d. 
-
-
+| Other Content Standards | [W.7.7](https://www.thecorestandards.org/ELA-Literacy/). [SL.7.1](https://www.thecorestandards.org/ELA-Literacy/). [SL.7.1.d](https://www.thecorestandards.org/ELA-Literacy/).  |
 ISTE
 1c.
 7c.  |

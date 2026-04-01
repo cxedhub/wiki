@@ -1,6 +1,6 @@
 ---
-title: Candy Burglar| Password Lesson
-description: Candy Burglar| Password Lesson Students will each receive a card with
+title: Candy Burglar: Password Lesson
+description: Candy Burglar: Password Lesson Students will each receive a card with
   a symbol or word on it. The symbol will match with one other card. Students will
   learn how a password protects the information (bowl of candy) that they have stored
   in a computer or on the internet.
@@ -24,7 +24,7 @@ materials: No technology required, a deck of cards, or a memory game etc to have
 ---
 # OVERVIEW
 ## Activity Overview:  
-Candy Burglar| Password Lesson Students will each receive a card with a symbol or word on it. The symbol will match with one other card. Students will learn how a password protects the information (bowl of candy) that they have stored in a computer or on the internet.
+Candy Burglar: Password Lesson Students will each receive a card with a symbol or word on it. The symbol will match with one other card. Students will learn how a password protects the information (bowl of candy) that they have stored in a computer or on the internet.
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* K-2 
@@ -40,7 +40,7 @@ Candy Burglar| Password Lesson Students will each receive a card with a symbol o
 
 # Lesson Plan
 ## Overview
-Candy Burglar| Password Lesson Students will each receive a card with a symbol or word on it. The symbol will match with one other card. Students will learn how a password protects the information (bowl of candy) that they have stored in a computer or on the internet.
+Candy Burglar: Password Lesson Students will each receive a card with a symbol or word on it. The symbol will match with one other card. Students will learn how a password protects the information (bowl of candy) that they have stored in a computer or on the internet.
 ## ASSESSMENT PRE/POST-TEST
 Why do we use a password on our devices?
 How do passwords work?

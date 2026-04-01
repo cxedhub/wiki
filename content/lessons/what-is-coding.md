@@ -69,7 +69,6 @@ You will introduce what it means to program a computer to follow a set of instru
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1AK3VidGt4RkKQVY8_y5SzcihbE8Qam7_
 
 
 
@@ -85,5 +84,4 @@ What is an algorithm?
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | CS: 2.AP.A.01, 2.AP.V.01, 2.AP.C.01, 2.AP.M.01, 2.AP.PD.01, 2.AP.PD.03, 2.AP.PD.04
-ISTE: 4.A, 4.C, 4.D, 5.D, 7.B, 7.C,  |
+| Other Content Standards | CS: [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.V.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.C.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.PD.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.PD.03](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.PD.04](https://edu.wyoming.gov/educators/standards/computer-science/) [ISTE](https://www.iste.org/standards/iste-standards-for-students): 4.A, 4.C, 4.D, 5.D, 7.B, 7.C,  |

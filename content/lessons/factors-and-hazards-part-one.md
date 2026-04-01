@@ -1,6 +1,6 @@
 ---
 title: Factors and Hazards (Part One)
-description: In this activity, students explore the three factors that affect weather|
+description: In this activity, students explore the three factors that affect weather:
   precipitation, temperature, and wind. Students learn how meteorologists use weather
   tools to collect data. They learn how to measure precipitation with a rain gauge
   and how to measure temperature with a thermometer.
@@ -27,7 +27,7 @@ materials: Website
 ---
 # OVERVIEW
 ## Activity Overview:  
-In this activity, students explore the three factors that affect weather| precipitation, temperature, and wind. Students learn how meteorologists use weather tools to collect data. They learn how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.
+In this activity, students explore the three factors that affect weather: precipitation, temperature, and wind. Students learn how meteorologists use weather tools to collect data. They learn how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Science, Reading/Language Arts 
 + *Grade Level :* 3-5 
@@ -43,7 +43,7 @@ In this activity, students explore the three factors that affect weather| precip
 
 # Lesson Plan
 ## Overview
-In this activity, students explore the three factors that affect weather| precipitation, temperature, and wind. Students learn how meteorologists use weather tools to collect data. They learn how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.
+In this activity, students explore the three factors that affect weather: precipitation, temperature, and wind. Students learn how meteorologists use weather tools to collect data. They learn how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.
 ## ASSESSMENT PRE/POST-TEST
 How do the three weather factors impact your local area?   Why is it important for meteorologists to collect weather data?
 ## OBJECTIVES
@@ -89,7 +89,6 @@ Wrap up with a partner to share about the different tools that are used to colle
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1_x9nSdikGSp5ftLyvXsD751kjpDwD8T_
 
 
 
@@ -101,10 +100,4 @@ Wrap up with a partner and share what they learned today.
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 3-ESS2-1: Represent data in tables and graphical displays to describe typical conditions expected during a particular season.
-3-ESS2-2: Obtain and combine information to describe climates in different regions of the world.
-3-ESS3-1: Make a claim about the merit of a design solution that reduces the impact of a weather-related hazard.
-RI.3.1: Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answer.
-3.MD.G.2: Measure and estimate liquid volumes and masses of objects using grams (g), kilograms (kg), and liters (L). (Excludes compound units such
-as cm^3 and finding the geometric volume of a container.) Add, subtract, multiply, or divide to solve one-step word problems involving masses or
-volumes that are given in the same units. (Excludes multiplicative comparison problems involving notions of “times as much.”)  |
+| Other Content Standards | [3-ESS2-1](https://www.nextgenscience.org/search-standards?keys=3-ESS2-1): Represent data in tables and graphical displays to describe typical conditions expected during a particular season. [3-ESS2-2](https://www.nextgenscience.org/search-standards?keys=3-ESS2-2): Obtain and combine information to describe climates in different regions of the world. [3-ESS3-1](https://www.nextgenscience.org/search-standards?keys=3-ESS3-1): Make a claim about the merit of a design solution that reduces the impact of a weather-related hazard. [RI.3.1](https://www.thecorestandards.org/ELA-Literacy/): Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answer. 3.MD.G.2: Measure and estimate liquid volumes and masses of objects using grams (g), kilograms (kg), and liters (L). (Excludes compound units such as cm^3 and finding the geometric volume of a container.) Add, subtract, multiply, or divide to solve one-step word problems involving masses or volumes that are given in the same units. (Excludes multiplicative comparison problems involving notions of “times as much.”)  |

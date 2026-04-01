@@ -1,5 +1,5 @@
 ---
-title: Scratch Sort| Events & Loops
+title: Scratch Sort: Events & Loops
 description: Students explore Scratch and recognize how the categories and blocks
   within the categories help students create projects in Scratch.
 date: '2023-03-02 00:00:00+00:00'
@@ -72,7 +72,6 @@ Lesson Procedures:
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=111QfZRPvdnzC2OoOQtvl1arDeIkau314
 
 
 

@@ -104,4 +104,4 @@ Exit slip: In 2-3 sentences write: What is a compression code and why would I ne
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | 8.EE.B.3; 8.AP.N.01-2  |
+| Other Content Standards | 8.EE.B.3; [8.AP.N.01](https://edu.wyoming.gov/educators/standards/computer-science/)-2  |

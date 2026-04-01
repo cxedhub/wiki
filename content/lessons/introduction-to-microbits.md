@@ -1,7 +1,7 @@
 ---
-title: Introduction to Micro|bits
-description: Students will learn what micro|bits are and how they can be used. They
-  will also learn how to code their own micro|bits. They will start by making flashing
+title: Introduction to Micro:bits
+description: Students will learn what micro:bits are and how they can be used. They
+  will also learn how to code their own micro:bits. They will start by making flashing
   hearts.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
@@ -27,7 +27,7 @@ materials: Website, Micro:bit, chromebook or some kind of computer or tablet
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will learn what micro|bits are and how they can be used. They will also learn how to code their own micro|bits. They will start by making flashing hearts.
+Students will learn what micro:bits are and how they can be used. They will also learn how to code their own micro:bits. They will start by making flashing hearts.
 ## Meta description
 + *Subject Area:* Computer Science, Technology 
 + *Grade Level :* K-2 
@@ -44,7 +44,7 @@ Students will learn what micro|bits are and how they can be used. They will also
 
 # Lesson Plan
 ## Overview
-Students will learn what micro|bits are and how they can be used. They will also learn how to code their own micro|bits. They will start by making flashing hearts.
+Students will learn what micro:bits are and how they can be used. They will also learn how to code their own micro:bits. They will start by making flashing hearts.
 ## ASSESSMENT PRE/POST-TEST
 What is a micro:bit?
 What do you have to do to get your micro:bit to work?
@@ -67,7 +67,6 @@ Students will get to code their own projects and will understand that the first 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1qY46so6uKowb3GrdVyDTlmjZF0Or6C9Ngtf3E6UT7Bg, https://drive.google.com/file/d/1oig8CiL5kwGYqD8fcYTporHM9RAPGUVxKRmzPFkU4_g
 
 
 

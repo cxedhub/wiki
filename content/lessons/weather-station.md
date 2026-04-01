@@ -64,7 +64,6 @@ Students will use resources to develop a Micro:Bit weather station that records 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1ir_5cmE6C4KWIxIDI-ZtBOfI2adLWfmw
 
 
 
@@ -76,4 +75,4 @@ Teacher can present the digital notebook for students to plan and produce a weat
 |-----------|-----------|
 | CS Domains  | Computing Systems, Data Analysis|
 | CS Principles   | Collaborating Around Computing, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | MS-ESS2-5  |
+| Other Content Standards | [MS-ESS2-5](https://www.nextgenscience.org/search-standards?keys=MS-ESS2-5)  |

@@ -142,4 +142,4 @@ Project a few student volunteers’ working drafts on a classroom large screen t
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | RI.5.6;  SS 5.3.4;  SS5.4.2;  SS5.4.3  |
+| Other Content Standards | [RI.5.6](https://www.thecorestandards.org/ELA-Literacy/);  SS 5.3.4;  SS5.4.2;  SS5.4.3  |

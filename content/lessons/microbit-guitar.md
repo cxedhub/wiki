@@ -80,6 +80,4 @@ Use the reflection slides and class discussion to go over the activity.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | 4-PS3-2
-4-PS3-4
-MS-PS4-2  |
+| Other Content Standards | [4-PS3-2](https://www.nextgenscience.org/search-standards?keys=4-PS3-2) [4-PS3-4](https://www.nextgenscience.org/search-standards?keys=4-PS3-4) [MS-PS4-2](https://www.nextgenscience.org/search-standards?keys=MS-PS4-2)  |

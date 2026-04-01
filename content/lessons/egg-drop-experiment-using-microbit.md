@@ -66,7 +66,6 @@ Students will make diagram, list materials needed and build an apparatus that ho
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1qwbuX3X3bxe7v5Rxjm-mVm0TxQvhTYEV
 
 
 
@@ -78,7 +77,4 @@ Have students' misconceptions from pre-test been addressed? Examples:Newton's 2n
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | Science-HS-PS2-1 and HS-PS2-3
-Computer Science- Add standards and appendix CS Practice 4.3
-Mathematics-MP.2 
-Engineering-HS-ETS1-4  |
+| Other Content Standards | Science-[HS-PS2-1](https://www.nextgenscience.org/search-standards?keys=HS-PS2-1) and [HS-PS2-3](https://www.nextgenscience.org/search-standards?keys=HS-PS2-3) Computer Science- Add standards and appendix CS Practice 4.3 Mathematics-MP.2 Engineering-[HS-ETS1-4](https://www.nextgenscience.org/search-standards?keys=HS-ETS1-4)  |

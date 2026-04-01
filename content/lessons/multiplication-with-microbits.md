@@ -1,9 +1,9 @@
 ---
 title: Multiplication with MicroBits
 description: This activity allows students to practice their multiplication fact fluency
-  while also covering computer science standards. Students will program a Micro|bit
+  while also covering computer science standards. Students will program a Micro:bit
   to answer multiplication questions. All students will need a piece of paper, a computer
-  and a Micro|bit.
+  and a Micro:bit.
 date: '2023-03-10 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton
@@ -28,7 +28,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro|bit to answer multiplication questions. All students will need a piece of paper, a computer and a Micro|bit.
+This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro:bit to answer multiplication questions. All students will need a piece of paper, a computer and a Micro:bit.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Technology 
 + *Grade Level :* 3-5 
@@ -44,7 +44,7 @@ This activity allows students to practice their multiplication fact fluency whil
 
 # Lesson Plan
 ## Overview
-This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro|bit to answer multiplication questions. All students will need a piece of paper, a computer and a Micro|bit.
+This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro:bit to answer multiplication questions. All students will need a piece of paper, a computer and a Micro:bit.
 ## ASSESSMENT PRE/POST-TEST
 What is a Micro:Bit?
 What is coding?
@@ -83,7 +83,6 @@ As students are working you can walk around the room and help as needed.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1-8z5pJc8d27MG55gRlvIFbqG5jGS7wGrV3umoHonOak
 
 
 
@@ -96,6 +95,4 @@ Call on volunteers to come up and display their Micro:Bit code over the projecto
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | CCSS.Math.Content.3.OA.C.7
-CCSS.Math.Content.3.OA.A.1
-CCSS.Math.Content.4.OA.B.4  |
+| Other Content Standards | [CCSS.Math.Content.3.OA.C.7](https://www.thecorestandards.org/Math/) [CCSS.Math.Content.3.OA.A.1](https://www.thecorestandards.org/Math/) [CCSS.Math.Content.4.OA.B.4](https://www.thecorestandards.org/Math/)  |

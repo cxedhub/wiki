@@ -1,5 +1,5 @@
 ---
-title: How Plants Grow | Grow a Digital Garden
+title: How Plants Grow : Grow a Digital Garden
 description: Students will be able to use the Scratch Jr. programming blocks to make
   animated stories and interactive projects that focus on how plants grow. They will
   explore coding and computational thinking practices as they use the Scratch Jr.
@@ -109,7 +109,6 @@ Students will share with a partner to check out each other's projects. Encourage
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1l_hHzSpdPJ4Vmd4CZgoOrRCFU8smBJ_XtJXHDwq-t9I
 
 
 
@@ -122,6 +121,4 @@ An educator would review this lesson with students by discussing the blocks used
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Recognizing and Defining Computational Problems, Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
 | Other Content Standards | Converse County Science Content Standards|
-
-
-Science 2.2| Students will conduct investigations to determine what plants and animals need to grow and how they are interdependent.  |
+Science 2.2: Students will conduct investigations to determine what plants and animals need to grow and how they are interdependent.  |

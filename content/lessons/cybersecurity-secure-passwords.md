@@ -93,4 +93,4 @@ How can we make our passwords easy to remember?
 |-----------|-----------|
 | CS Domains  | Networks and The Internet|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Developing and Using Abstractions, Communicating About Computing|
-| Other Content Standards | NI.NCO / IC.SI / IC.SLE / SL.5.1  |
+| Other Content Standards | NI.NCO / IC.SI / IC.SLE / [SL.5.1](https://www.thecorestandards.org/ELA-Literacy/)  |

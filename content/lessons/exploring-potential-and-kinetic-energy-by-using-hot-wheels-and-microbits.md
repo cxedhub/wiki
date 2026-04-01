@@ -1,5 +1,5 @@
 ---
-title: Exploring Potential and Kinetic Energy by Using Hot Wheels and Micro|bits
+title: Exploring Potential and Kinetic Energy by Using Hot Wheels and Micro:bits
 description: Students will be exploring potential and kinetic energy (how mass and
   velocity changes KE, when does an object have the most/least potential). They will
   have cars of different masses, with microbits attached, and a ramp to complete their
@@ -89,4 +89,4 @@ https://www.youtube.com/watch?v=zCKeniklH_c
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Data Analysis, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems|
-| Other Content Standards | NGSS: MS-PS3-1, MS-PS3-2  |
+| Other Content Standards | NGSS: [MS-PS3-1](https://www.nextgenscience.org/search-standards?keys=MS-PS3-1), [MS-PS3-2](https://www.nextgenscience.org/search-standards?keys=MS-PS3-2)  |

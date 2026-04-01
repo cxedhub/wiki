@@ -71,7 +71,6 @@ Students will go to microbit.com and we will begin to learn about the coding asp
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1uMPHhbnnOgDMtir_4vintq5lmZDSbpz_, https://drive.google.com/file/d/1iAmZq6r_Bb01QQv8r8p_0EqUfPzoVBoM
 
 
 

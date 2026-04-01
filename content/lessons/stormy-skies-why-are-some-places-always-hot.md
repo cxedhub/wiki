@@ -1,5 +1,5 @@
 ---
-title: Stormy Skies| Why are some places always hot?
+title: Stormy Skies: Why are some places always hot?
 description: In this lesson, students are introduced to the concept of “climate” and
   explore the world’s five major climates. In the activity, Climate Decoder, students
   color one part of a world map to figure out the different climates of that region.
@@ -79,6 +79,4 @@ Follow all instruction with Mystery Science Video
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | |
-| Other Content Standards | 3-ESS2-2: Obtain and combine information to describe climates in different regions of the world.
-RI.3.1: Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answer.
-3.MD.H.3: Draw a scaled picture graph and a scaled bar graph to represent a data set with several categories. Solve one- and two-step “how many more” and “how many less” problems using information presented in scaled graphs.  |
+| Other Content Standards | [3-ESS2-2](https://www.nextgenscience.org/search-standards?keys=3-ESS2-2): Obtain and combine information to describe climates in different regions of the world. [RI.3.1](https://www.thecorestandards.org/ELA-Literacy/): Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answer. 3.MD.H.3: Draw a scaled picture graph and a scaled bar graph to represent a data set with several categories. Solve one- and two-step “how many more” and “how many less” problems using information presented in scaled graphs.  |

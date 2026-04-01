@@ -61,7 +61,6 @@ Students will be shown a Pepper’s Ghost Illusion created by the teacher using 
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1S7nBQ95nOUJf493JBuBNbXjTC5L9WfZY
 
 
 
@@ -73,4 +72,4 @@ The review is going to be a discussion/share out of the models the students have
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing|
-| Other Content Standards | MS-PS4-2 & MS-LS1-8  |
+| Other Content Standards | [MS-PS4-2](https://www.nextgenscience.org/search-standards?keys=MS-PS4-2) & [MS-LS1-8](https://www.nextgenscience.org/search-standards?keys=MS-LS1-8)  |

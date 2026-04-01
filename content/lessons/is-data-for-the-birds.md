@@ -1,6 +1,6 @@
 ---
 title: Is data for the Birds?
-description: Students will program a Micro|bit and as a species counter, and to log
+description: Students will program a Micro:bit and as a species counter, and to log
   the data that is collected. Then they will analyze the data collected and work to
   identify factors that may affect the data - eg time of day, time of year, weather
   conditions.
@@ -27,7 +27,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will program a Micro|bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the data - eg time of day, time of year, weather conditions.
+Students will program a Micro:bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the data - eg time of day, time of year, weather conditions.
 ## Meta description
 + *Subject Area:* Computer Science, Science 
 + *Grade Level :* 6-8 
@@ -44,7 +44,7 @@ Schedule a timeframe when you know that birds are in the area (eg Winter may not
 
 # Lesson Plan
 ## Overview
-Students will program a Micro|bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the data - eg time of day, time of year, weather conditions.
+Students will program a Micro:bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the data - eg time of day, time of year, weather conditions.
 ## ASSESSMENT PRE/POST-TEST
 What is the most prevalent bird species in Douglas during the month of ___________.
 What factors affect observation of birds in the area?
@@ -64,7 +64,6 @@ See attached document for detailed activity plans.
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1gPp4Zi2Dhgcg0fI_hcO5XwiOmMcZBZAl, https://drive.google.com/file/d/1tme4oZIijI6rppIuhOtYXAz0DjkoRE-8
 
 
 

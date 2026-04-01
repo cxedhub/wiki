@@ -70,4 +70,4 @@ What is a algorithm? What is the algorithm for getting through the maze.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions|
-| Other Content Standards | 2.AP.A.01, 2.AP.M.01  |
+| Other Content Standards | [2.AP.A.01](https://edu.wyoming.gov/educators/standards/computer-science/), [2.AP.M.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

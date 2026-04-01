@@ -62,7 +62,6 @@ Students learn about trickster tales in different cultures, then learn about how
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1AKzA6F7OQsrg9Xtq_TIXcff2SFkUX19B
 
 
 
@@ -74,5 +73,4 @@ Teachers can share the progression with students as outlined in the lesson plan.
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Developing and Using Abstractions, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | Social Studies: SS2.2.2
-Language Arts: RL2.2, RL2.10, SL2.5  |
+| Other Content Standards | Social Studies: SS2.2.2 Language Arts: RL2.2, RL2.10, SL2.5  |

@@ -1,5 +1,5 @@
 ---
-title: Introduction to problem solving| It's getting hot in here
+title: Introduction to problem solving: It's getting hot in here
 description: Students will use micro bit and/ or Lego EV3 with temperature sensor
   to record temperature in the room and outside of building to identify differences
   in temperature by location and time. Once we have collected data we will analyze
@@ -90,5 +90,4 @@ review the steps and talk about how we can improve the problem solving process
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Communicating About Computing|
-| Other Content Standards | WYCSS 5.DA.CVT.01 Organize and present collected data to highlight
-relationships and support a claim.  |
+| Other Content Standards | WYCSS [5.DA.CVT.01](https://edu.wyoming.gov/educators/standards/computer-science/) Organize and present collected data to highlight relationships and support a claim.  |

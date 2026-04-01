@@ -1,6 +1,6 @@
 ---
-title: Intro to Coding| Unplugged
-description: Understanding Coding| How students use an algorithm in an unplugged lesson.
+title: Intro to Coding: Unplugged
+description: Understanding Coding: How students use an algorithm in an unplugged lesson.
   Students maneuver an object from start to end, using direction cards.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
@@ -22,7 +22,7 @@ materials: None
 ---
 # OVERVIEW
 ## Activity Overview:  
-Understanding Coding| How students use an algorithm in an unplugged lesson. Students maneuver an object from start to end, using direction cards.
+Understanding Coding: How students use an algorithm in an unplugged lesson. Students maneuver an object from start to end, using direction cards.
 ## Meta description
 + *Subject Area:* Computer Science 
 + *Grade Level :* K-2 
@@ -38,7 +38,7 @@ Understanding Coding| How students use an algorithm in an unplugged lesson. Stud
 
 # Lesson Plan
 ## Overview
-Understanding Coding| How students use an algorithm in an unplugged lesson. Students maneuver an object from start to end, using direction cards.
+Understanding Coding: How students use an algorithm in an unplugged lesson. Students maneuver an object from start to end, using direction cards.
 ## ASSESSMENT PRE/POST-TEST
 What is an algorithm?
 ## OBJECTIVES
@@ -60,7 +60,6 @@ Lesson Procedures:
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=17xVvyQ6Z_SX673yxWD4mIYtmg1PFYDXn
 
 
 

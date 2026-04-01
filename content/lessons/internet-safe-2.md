@@ -84,7 +84,6 @@ Fiction
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1YY5su20fpLvmyJJ7pJEUGZ7lfnEPnXLp
 
 
 

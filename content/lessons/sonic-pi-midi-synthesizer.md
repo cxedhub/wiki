@@ -1,5 +1,5 @@
 ---
-title: Sonic Pi| Midi Synthesizer
+title: Sonic Pi: Midi Synthesizer
 description: Most commercial music produced today involves the use of synthesized
   and sampled sounds. MIDI (musical instrument digital interface) is the standard
   language used for electronic musical instruments and computers to communicate with
@@ -120,7 +120,6 @@ end
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1TSG88_PTCCSrBrklwcp4sCF5_w63q7hC
 
 
 
@@ -132,6 +131,4 @@ Have a few student volunteers show the class what they were able to create and p
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Creating Computational Artifacts|
-| Other Content Standards | Wyoming Fine & Performing Arts
-FPA4.1.M.3
-FPA 4.1.M.4  |
+| Other Content Standards | Wyoming Fine & Performing Arts FPA4.1.M.3 FPA 4.1.M.4  |

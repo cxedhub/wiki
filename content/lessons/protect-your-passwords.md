@@ -120,4 +120,4 @@ POST-TEST
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Impacts of Computing|
 | CS Principles   | Recognizing and Defining Computational Problems, Creating Computational Artifacts, Communicating About Computing|
-| Other Content Standards | SL.5.1 - Participate in collaborative conversations with diverse partners about grade 5 topics and texts with peers and adults in small and larger groups.  |
+| Other Content Standards | [SL.5.1](https://www.thecorestandards.org/ELA-Literacy/) - Participate in collaborative conversations with diverse partners about grade 5 topics and texts with peers and adults in small and larger groups.  |

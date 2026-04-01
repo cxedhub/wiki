@@ -88,10 +88,4 @@ Survival groups will share with someone not in their group. They will also use a
 |-----------|-----------|
 | CS Domains  | Computing Systems|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Testing and Refining Computational Artifacts, Communicating About Computing|
-| Other Content Standards | CCSS.ELA-LITERACY.W.2.3
-CCSS.ELA-LITERACY.W.3.3.B
-CCSS.ELA-LITERACY.W.4.3.B
-CCSS.ELA-LITERACY.W.5.3.B.
-CCSS.ELA-LITERACY.W.6.3.B
-CCSS.ELA-LITERACY.W.7.3.B
-CCSS.ELA-LITERACY.W.8.3.B.  |
+| Other Content Standards | [CCSS.ELA-LITERACY.[W.2.3](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.3.3.B](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.4.3.B](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.5.3.B](https://www.thecorestandards.org/ELA-Literacy/).](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.6.3.B](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.7.3.B](https://www.thecorestandards.org/ELA-Literacy/)](https://www.thecorestandards.org/ELA-Literacy/) [CCSS.ELA-LITERACY.[W.8.3.B](https://www.thecorestandards.org/ELA-Literacy/).](https://www.thecorestandards.org/ELA-Literacy/)  |

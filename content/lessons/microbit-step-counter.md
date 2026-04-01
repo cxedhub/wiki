@@ -1,7 +1,7 @@
 ---
-title: Micro|bit Step Counter
+title: Micro:bit Step Counter
 description: This lesson focusses on coding concept variable with and lesson from
-  Code.Org. The students will program the micro|bit to keep track of their steps.
+  Code.Org. The students will program the micro:bit to keep track of their steps.
   Finally, the students will create their own fitness step counter strap.
 date: '2023-03-19 00:00:00+00:00'
 draft: false
@@ -24,7 +24,7 @@ materials: Micro:bit
 ---
 # OVERVIEW
 ## Activity Overview:  
-This lesson focusses on coding concept variable with and lesson from Code.Org. The students will program the micro|bit to keep track of their steps. Finally, the students will create their own fitness step counter strap.
+This lesson focusses on coding concept variable with and lesson from Code.Org. The students will program the micro:bit to keep track of their steps. Finally, the students will create their own fitness step counter strap.
 ## Meta description
 + *Subject Area:* Computer Science, Physical Education 
 + *Grade Level :* 3-5, 6-8 
@@ -40,7 +40,7 @@ This lesson focusses on coding concept variable with and lesson from Code.Org. T
 
 # Lesson Plan
 ## Overview
-This lesson focusses on coding concept variable with and lesson from Code.Org. The students will program the micro|bit to keep track of their steps. Finally, the students will create their own fitness step counter strap.
+This lesson focusses on coding concept variable with and lesson from Code.Org. The students will program the micro:bit to keep track of their steps. Finally, the students will create their own fitness step counter strap.
 ## ASSESSMENT PRE/POST-TEST
 Can the student independently create a program and download it to micro:bit.  
 Can the student troubleshoot and debug any issues?
@@ -79,7 +79,6 @@ Extension:  It the students want and extra challenge, design an ankle or wrist s
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1Tk6UFe2jM95FzWYYHUH7oFC32H8MgVQh, https://drive.google.com/file/d/1FHHw7OZNmPp1b6BAVhkre9viNIgnxfhO, https://drive.google.com/file/d/1UN6EfY-OIGCt_RQJxBmQPKsJ6D4TCdkz, https://drive.google.com/file/d/1PXOZNgBmxD0fl2P3fEuvH-6i5DW2lbQc, https://drive.google.com/file/d/1xCk8kksDRXXoaCj2vwYlmxzvtHeMdBVs
 
 
 

@@ -78,4 +78,4 @@ Wrap-Up Video
 |-----------|-----------|
 | CS Domains  | Data Analysis|
 | CS Principles   | Collaborating Around Computing|
-| Other Content Standards | 3ESS2-2   RI.3.1 3.MD.G.2  |
+| Other Content Standards | 3ESS2-2   [RI.3.1](https://www.thecorestandards.org/ELA-Literacy/) 3.MD.G.2  |

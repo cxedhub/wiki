@@ -65,7 +65,6 @@ Students will pretend they are in charge of cybersecurity for a app. Their job i
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1bW1cqX4KxbVxSxGiz01dmQXDXNrtplQF
 
 
 
@@ -77,15 +76,7 @@ Through discussions about what they learned and how their thinking about securit
 |-----------|-----------|
 | CS Domains  | Networks and The Internet, Algorithms and Programming, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | CSTA:  3A-NI-06
-              2-NI-06, 2-NI-05
-              1B-NI-05, 1A-NI-04
-WY CS Standards
-PRIORITY 
-5.NI.C.01 Discuss real-world cybersecurity problems and identify and implement appropriate strategies for how personal information can be protected.
-Practice 3.1 Recognizing and Defining Computational Problems 
-
-
+| Other Content Standards | CSTA:  3A-NI-06 [2-NI-06](https://www.nextgenscience.org/search-standards?keys=2-NI-06), [2-NI-05](https://www.nextgenscience.org/search-standards?keys=2-NI-05) 1B-NI-05, 1A-NI-04 WY CS Standards PRIORITY [5.NI.C.01](https://edu.wyoming.gov/educators/standards/computer-science/) Discuss real-world cybersecurity problems and identify and implement appropriate strategies for how personal information can be protected. Practice 3.1 Recognizing and Defining Computational Problems  |
 8.NI.C.01 Critique physical and digital procedures that could be implemented to protect electronic data/information. 
 Practice 7.3 Communicating About Computing 
 

@@ -63,7 +63,7 @@ Between storing data and opening people up to the world through social media, co
 
 
 ## ACTIVITY INSTRUCTIONS
-Lesson being modified PIXEL CODING 3 Ways (https://drive.google.com/file/d/1GNtIWWemewcpFLUbT0erQFr6ps5UfZgr/view?usp=sharing) Stepping point for assignment and work sheets are easy to understand. 
+Lesson being modified from PIXEL CODING 3 Ways. Stepping point for assignment and work sheets are easy to understand. 
 Further step by step directions need to be added to achieve end project of larger scale project
 
 
@@ -111,7 +111,4 @@ Students will create pixel art based off of another students Binary code.
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Data Analysis|
 | CS Principles   | Developing and Using Abstractions, Communicating About Computing|
-| Other Content Standards | Visual Arts- Creating VA:Cr1.2.3a
-Visual Arts- Creating VA:Cr3.1.5a
-Visual Arts- Responding VA:Re8.1.5a
-Visual Arts- Connecting VA:Cn10.1.5a  |
+| Other Content Standards | Visual Arts- Creating VA:Cr1.2.3a Visual Arts- Creating VA:Cr3.1.5a Visual Arts- Responding VA:Re8.1.5a Visual Arts- Connecting VA:Cn10.1.5a  |

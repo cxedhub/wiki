@@ -2,7 +2,7 @@
 title: Input/Output
 description: In this lesson students will be translating mathematical functions into
   computer programming functions to solve. This can be used as an introductory lesson
-  before teaching equation solving. Note| students will need to have an understanding
+  before teaching equation solving. Note: students will need to have an understanding
   of Javascript.
 date: '2022-10-30 00:00:00+00:00'
 draft: false
@@ -25,7 +25,7 @@ materials: Javascript
 ---
 # OVERVIEW
 ## Activity Overview:  
-In this lesson students will be translating mathematical functions into computer programming functions to solve. This can be used as an introductory lesson before teaching equation solving. Note| students will need to have an understanding of Javascript.
+In this lesson students will be translating mathematical functions into computer programming functions to solve. This can be used as an introductory lesson before teaching equation solving. Note: students will need to have an understanding of Javascript.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics 
 + *Grade Level :* 6-8 
@@ -41,7 +41,7 @@ In this lesson students will be translating mathematical functions into computer
 
 # Lesson Plan
 ## Overview
-In this lesson students will be translating mathematical functions into computer programming functions to solve. This can be used as an introductory lesson before teaching equation solving. Note| students will need to have an understanding of Javascript.
+In this lesson students will be translating mathematical functions into computer programming functions to solve. This can be used as an introductory lesson before teaching equation solving. Note: students will need to have an understanding of Javascript.
 ## ASSESSMENT PRE/POST-TEST
 List three examples of real world machines that input and output data.
 ## OBJECTIVES
@@ -96,7 +96,6 @@ Lesson based on Input and Output, Math Activity on Code.org
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=19TIRMq4FstJCYI6NGmur47VUvgd_CzOf1XcbGWKtrdY
 
 
 
@@ -108,5 +107,4 @@ Exit slip:  Write 2-3 sentences explaining at least 3 things in your life that h
 |-----------|-----------|
 | CS Domains  | Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | AP.V
-8.AP.V.01  |
+| Other Content Standards | AP.V [8.AP.V.01](https://edu.wyoming.gov/educators/standards/computer-science/)  |

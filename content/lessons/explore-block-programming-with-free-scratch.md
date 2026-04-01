@@ -82,7 +82,6 @@ A student takes a set and uses the cards to make their unique Scratch Program al
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1RCpQPclm40fZYnN2QSwAvWi4TUAyT-FD
 
 
 
@@ -94,4 +93,4 @@ Check you spreadsheet to see who has not finished all the Scratch Flash Card Set
 |-----------|-----------|
 | CS Domains  | Computing Systems, Algorithms and Programming|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Creating Computational Artifacts, Testing and Refining Computational Artifacts|
-| Other Content Standards | ISTE Standards for Students and Teachers  |
+| Other Content Standards | [ISTE](https://www.iste.org/standards/iste-standards-for-students) Standards for Students and Teachers  |

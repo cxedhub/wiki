@@ -1,6 +1,6 @@
 ---
-title: Micro|bit Temperature Reading
-description: Students will program micro|bits to measure temperature readings in Celsius
+title: Micro:bit Temperature Reading
+description: Students will program micro:bits to measure temperature readings in Celsius
   and then convert to Fahrenheit either using a math conversion.
 date: '2023-03-13 00:00:00+00:00'
 draft: false
@@ -28,7 +28,7 @@ materials: Website, Micro:bit, makecode.microbit.org
 ---
 # OVERVIEW
 ## Activity Overview:  
-Students will program micro|bits to measure temperature readings in Celsius and then convert to Fahrenheit either using a math conversion.
+Students will program micro:bits to measure temperature readings in Celsius and then convert to Fahrenheit either using a math conversion.
 ## Meta description
 + *Subject Area:* Computer Science, Mathematics, Science 
 + *Grade Level :* 6-8 
@@ -44,7 +44,7 @@ Students will program micro|bits to measure temperature readings in Celsius and 
 
 # Lesson Plan
 ## Overview
-Students will program micro|bits to measure temperature readings in Celsius and then convert to Fahrenheit either using a math conversion.
+Students will program micro:bits to measure temperature readings in Celsius and then convert to Fahrenheit either using a math conversion.
 ## ASSESSMENT PRE/POST-TEST
 Can you accurately measure and interpret the temperature outside?
 Can you program a micro:bit to measure the temperature outside?
@@ -79,7 +79,6 @@ https://nasaeclips.arc.nasa.gov/video/realworld/real-world-cubesats-a-satellite-
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/file/d/1wI0eVtrLVk0eHgSpqNlIAiAApVga_WPG, https://drive.google.com/file/d/1rrzT1lgMxO_eFH-QrgLvq0Vt7GQRnkaG
 
 
 

@@ -69,7 +69,6 @@ Students will be introduced to how data/information transfer works between compu
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1UU35eWH-_-Fx50vQjXGQc9OpvK8ypA0pPcHqI0jLajc
 
 
 
@@ -81,7 +80,4 @@ There are slideshow presentations and graphic diagrams to review included in the
 |-----------|-----------|
 | CS Domains  | Computing Systems, Networks and The Internet, Impacts of Computing|
 | CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
-| Other Content Standards | WY 5.CS.HS.01: Model how information is translated, transmitted, and processed in order to flow through hardware and software to accomplish tasks.
-WY 5.NI.NCO.01:Model and explain how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the internet, and reassembled at the destination.
-WY 5.IC.C.01: Give examples and explain how computing technologies have changed the world and express how those technologies influence and are influenced by cultural practices.
-ISTE 3A:  Students plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits.  |
+| Other Content Standards | WY [5.CS.HS.01](https://edu.wyoming.gov/educators/standards/computer-science/): Model how information is translated, transmitted, and processed in order to flow through hardware and software to accomplish tasks. WY [5.NI.NCO.01](https://edu.wyoming.gov/educators/standards/computer-science/):Model and explain how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the internet, and reassembled at the destination. WY [5.IC.C.01](https://edu.wyoming.gov/educators/standards/computer-science/): Give examples and explain how computing technologies have changed the world and express how those technologies influence and are influenced by cultural practices. [ISTE](https://www.iste.org/standards/iste-standards-for-students) 3A:  Students plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits.  |

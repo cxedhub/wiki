@@ -65,7 +65,6 @@ If groups are done quickly, give them an extension where once the bot reaches th
 
 ### Supplements
 **Any items in this section are the property & under the license of their respective owners.**
-https://drive.google.com/open?id=1C4y0gI7gxGVEoG1dmJP6UGO_Kqct6h7U
 
 
 
