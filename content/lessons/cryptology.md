@@ -12,7 +12,7 @@ grade_levels:
 - 9-12
 cs_domains:
 - Algorithms and Programming
-cs_principles:[]
+cs_principles: []
 tags:
 - cybersecurity
 - gencyber
