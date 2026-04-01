@@ -1,0 +1,82 @@
+---
+title: The Card Catalog| Computer of Yesteryear
+description: This lesson will show students how computer coding is used to solve the
+  problem of quickly accessing books using the online catalogs present in their school
+  and public libraries.
+date: '2020-07-30 00:00:00+00:00'
+draft: false
+author: Michelle Ottoes
+subjects:
+- Computer Science
+- Reading/Language Arts
+- library skills
+grade_levels:
+- 3-5
+- 6-8
+cs_domains:
+- Computing Systems
+- Networks and The Internet
+- Algorithms and Programming
+- Impacts of Computing
+cs_principles:
+- Collaborating Around Computing
+- Recognizing and Defining Computational Problems
+- Communicating About Computing
+tags:
+- computer science
+- Reading/Language Arts
+- library skills
+materials: way to project attached PowerPoint
+---
+# OVERVIEW
+## Activity Overview:  
+This lesson will show students how computer coding is used to solve the problem of quickly accessing books using the online catalogs present in their school and public libraries.
+## Meta description
++ *Subject Area:* Computer Science, Reading/Language Arts, library skills 
++ *Grade Level :* 3-5, 6-8 
++ *Computer Science Domains:*
+   + Computing Systems, Networks and The Internet, Algorithms and Programming, Impacts of Computing
++ *Computer Science Principles:*
+   + Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing
++ *Materials:* 
+   + way to project attached PowerPoint
++ *Considerations:*
+   + 
+
+
+# Lesson Plan
+## Overview
+This lesson will show students how computer coding is used to solve the problem of quickly accessing books using the online catalogs present in their school and public libraries.
+## ASSESSMENT PRE/POST-TEST
+How do we solve the problem of quickly sorting through thousands of books in a library to find just the ones we want?
+## OBJECTIVES
+Students will be able to explain the basics of how coding is used to power an online library catalog.
+Students will be able to use their school or public library online catalog to quickly access the books they want.
+
+
+## CATCH/HOOK
+Either show the slide of a pile of books from the PowerPoint or physically gather a huge pile of books and ask the students want problem they see with this system.
+
+
+## ACTIVITY INSTRUCTIONS
+This lesson will show students how computer coding is used to solve the problem of quickly accessing books using the online catalogs present in their school and public libraries.
+
+
+### Supplements
+**Any items in this section are the property & under the license of their respective owners.**
+https://drive.google.com/open?id=1wgrF4TDo0iPr4ypoD7JKYYYnoGGzdOML
+
+
+
+
+## REVIEW
+This is a PowerPoint presentation that should be combined with student practice using the online library catalog specific to their school.
+## STANDARDS        
+| Type | Listing | 
+|-----------|-----------|
+| CS Domains  | Computing Systems, Networks and The Internet, Algorithms and Programming, Impacts of Computing|
+| CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
+| Other Content Standards | AASL IV.A.1.  Learners determine the need to gather information.
+AASL.IV.A.2.  Learners identify possible sources of information.
+AASL V.A.1.   Learners develop and satisfy personal curiosity by reading widely and deeply.
+AASL  V.D.1.  Learners engage with information to extend personal learning by personalizing their use of information and information technologies.  |

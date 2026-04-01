@@ -1,0 +1,105 @@
+---
+title: CODIS & Forensic Science
+description: Students will work together as forensic scientists to solve the crime
+  of “Who broke into our school and stole all the tablets?” Students will compare
+  DNA samples from three suspects to DNA taken from a hair left at the crime scene.
+  From their comparisons they will draw conclusions to identify a suspect. Once the
+  suspect is identified, they will present their findings and rationale to the class.
+date: '2022-10-24 00:00:00+00:00'
+draft: false
+author: Alicia Vonberg
+subjects:
+- Computer Science
+- Science
+grade_levels:
+- 6-8
+cs_domains:
+- Networks and The Internet
+- Data Analysis
+- Algorithms and Programming
+cs_principles:
+- Recognizing and Defining Computational Problems
+- Developing and Using Abstractions
+- Communicating About Computing
+tags:
+- computer science
+- Science
+standards: 'NGSS: MS-LS1-1, 1-8, 1-3'
+materials: Website, CODIS website
+---
+# OVERVIEW
+## Activity Overview:  
+Students will work together as forensic scientists to solve the crime of “Who broke into our school and stole all the tablets?” Students will compare DNA samples from three suspects to DNA taken from a hair left at the crime scene. From their comparisons they will draw conclusions to identify a suspect. Once the suspect is identified, they will present their findings and rationale to the class.
+## Meta description
++ *Subject Area:* Computer Science, Science 
++ *Grade Level :* 6-8 
++ *Computer Science Domains:*
+   + Networks and The Internet, Data Analysis, Algorithms and Programming
++ *Computer Science Principles:*
+   + Recognizing and Defining Computational Problems, Developing and Using Abstractions, Communicating About Computing
++ *Materials:* 
+   + Website, CODIS website
++ *Considerations:*
+   + Basic knowledge of CODIS, forensic science, and tools available to police and medical personnel in solving crimes using genetics and DNA
+
+
+# Lesson Plan
+## Overview
+Students will work together as forensic scientists to solve the crime of “Who broke into our school and stole all the tablets?” Students will compare DNA samples from three suspects to DNA taken from a hair left at the crime scene. From their comparisons they will draw conclusions to identify a suspect. Once the suspect is identified, they will present their findings and rationale to the class.
+## ASSESSMENT PRE/POST-TEST
+Pre-Questions
+Explain what DNA is in your own words.
+Why is DNA important in solving crimes?
+What did we use before DNA?
+How has the use of DNA in investigations improved the rate of crimes being solved?
+
+
+Post Questions
+How did DNA sequencing help you solve this crime?
+Could you have done this without DNA (or the strand of hair)?
+Do you think the use of DNA in crime solving has improved the accuracy of solving crimes and imprisoning the correct person?
+## OBJECTIVES
+1-Describe the organization of DNA into repeating nucleotide base pair sequences (prior to beginning this project students should be well-versed in DNA and nucleotide sequences)
+2-Explain how DNA profiling is used to link people to crime and paternity cases (done in preparing for lesson, in lesson readings, and class discussion & presentations)
+3-Describe the role of biomedical engineering in DNA profiling (done in preparing for lesson, in lesson readings, and class discussion)
+
+
+## CATCH/HOOK
+Lesson ‘Hook”: Doors to the tablets and laptops cabinet will be open at the beginning of class, but only FOUR laptops will be left. Where did the devices go? Oh no! We’ve been robbed!
+
+
+## ACTIVITY INSTRUCTIONS
+Teacher Duty/Task-Before the Activity
+Make copies of the Suspect CODIS Analysis Worksheet, one per team/group
+Set the stage for the activity
+Hide/Remove most devices
+Create slideshow of project to guide students
+Conducting the Introduction/Motivation section
+Provide notes/template for SPED students
+
+
+During Lesson-With the Students
+Divide the class into pairs of students, and pass out a worksheet to each team.
+Assist students as they complete their worksheets.
+Have teams conclude by writing on their worksheets which suspect their DNA profiling implicates in the robbery.
+Have the teams with the correct answer describe how they arrived at their conclusion. (Answer: Suspect 2 seems likely based on a match with four CODIS sites).
+Have students calculate the likelihood that suspect 2, even though he matches four CODIS sites, is not the owner of the hair in the bank robber's glove. (Answer: (1/10)4 = 1 in 10,000, not good enough – need more CODIS site data)
+Have students act as biomedical engineers and analyze the results of the DNA profiling for the police investigators as described in the post-assessment activity.
+
+
+### Supplements
+**Any items in this section are the property & under the license of their respective owners.**
+https://drive.google.com/open?id=1fuqUJ9a2XSfe0fJMFKBErpL5HjOAPcof
+
+
+
+
+## REVIEW
+Whole Class Discussion
+In this activity, probability is used to determine which suspect is the most likely match. We are told that the likelihood of a random match between a CODIS site for one person and someone else is 1/10. Why is that? Each of the regions that we are considering here contains an allele, or, a version of a gene. Which allele you have at a particular site is determined by your parents' genetic data and meiosis, as well as any errors in replication. However, these alleles are not unique in a population; you can have the same allele as someone else. Statisticians study populations to get an idea about the distribution of alleles (how many people have each kind of allele). In this way, statisticians can estimate a probability that any two people have the same allele. If the likelihood of a CODIS site match between two random people was much greater or much less than the 1/10 used in this activity, the number of matches we would need in order to be reasonably certain of the suspect's guilt would also change.
+## STANDARDS        
+| Type | Listing | 
+|-----------|-----------|
+| CS Domains  | Networks and The Internet, Data Analysis, Algorithms and Programming|
+| CS Principles   | Recognizing and Defining Computational Problems, Developing and Using Abstractions, Communicating About Computing|
+| Other Content Standards | NGSS: MS-LS1-1, 1-8, 1-3  |

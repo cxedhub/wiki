@@ -1,0 +1,127 @@
+---
+title: Lesson Plan 3-Security Risks & Consequences
+description: Students will work individually and in groups to determine how they have
+  been “hacked” and one item “stolen” from them. It will be the job of the group to
+  research various security risks and identify how they believe their information
+  was stolen, how they were hacked, and how a new item was purchased or their account
+  emptied from lack of cybersecurity or a breach in cybersecurity. Upon completion
+  of research, students will individually create an infographic that describes common
+  security risks and possible solutions to preventing theft or loss of personally
+  identifiable information. Finally, students will host a one-minute “Flash Talk”
+  presenting their information and answering a minimum of three peer questions
+date: '2022-10-25 00:00:00+00:00'
+draft: false
+author: Alicia Vonberg
+subjects:
+- Computer Science
+- Technology
+- Computer Science and Robotics Club
+grade_levels:
+- 6-8
+cs_domains:
+- Networks and The Internet
+- Impacts of Computing
+cs_principles:
+- Collaborating Around Computing
+- Recognizing and Defining Computational Problems
+- Communicating About Computing
+tags:
+- computer science
+- Technology
+- Computer Science and Robotics Club
+materials: Website
+---
+# OVERVIEW
+## Activity Overview:  
+Students will work individually and in groups to determine how they have been “hacked” and one item “stolen” from them. It will be the job of the group to research various security risks and identify how they believe their information was stolen, how they were hacked, and how a new item was purchased or their account emptied from lack of cybersecurity or a breach in cybersecurity. Upon completion of research, students will individually create an infographic that describes common security risks and possible solutions to preventing theft or loss of personally identifiable information. Finally, students will host a one-minute “Flash Talk” presenting their information and answering a minimum of three peer questions
+## Meta description
++ *Subject Area:* Computer Science, Technology, Computer Science and Robotics Club 
++ *Grade Level :* 6-8 
++ *Computer Science Domains:*
+   + Networks and The Internet, Impacts of Computing
++ *Computer Science Principles:*
+   + Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing
++ *Materials:* 
+   + Website
++ *Considerations:*
+   + None
+
+
+# Lesson Plan
+## Overview
+Students will work individually and in groups to determine how they have been “hacked” and one item “stolen” from them. It will be the job of the group to research various security risks and identify how they believe their information was stolen, how they were hacked, and how a new item was purchased or their account emptied from lack of cybersecurity or a breach in cybersecurity. Upon completion of research, students will individually create an infographic that describes common security risks and possible solutions to preventing theft or loss of personally identifiable information. Finally, students will host a one-minute “Flash Talk” presenting their information and answering a minimum of three peer questions
+## ASSESSMENT PRE/POST-TEST
+What is CyberSecurity?
+What does it mean when someone has been “hacked”?
+Have you ever received a digital communication (chat, email, phone call, text) that seems suspicious?
+What are the ways we can protect ourselves from being hacked or exposing our personal information online?
+
+
+After completing this assignment, how would you define cybersecurity in your own words?
+What are three ways you can protect your personally identifiable information in the digital world?
+## OBJECTIVES
+Upon completion of this lesson students will be able to identify common security risks
+Students will become experts on their chosen cybersecurity risk and be able to comfortably answer 1-3 questions from their classmates during a Flash Talk and Q&A session.
+
+
+## CATCH/HOOK
+When students enter the classroom, they will be met with a “siren” sound (playing from the Smart Board). Lights will be off and there will be a poster paper on their lab tables saying: “URGET-You have been Hacked! Your information has been stolen and use to purchase a ________”
+Each group/table will have been hacked and one item “stolen” from them (either a car, new credit card issued and used, house purchased or bank account emptied). It will be the job of the group to research various security risks and identify (choose) how they believe their information was stolen, how they were hacked, and how a new item was purchased or their account emptied from lack of cybersecurity or a breach in cybersecurity.
+
+
+## ACTIVITY INSTRUCTIONS
+Procedure
+Class Discussion Prompts:
+Have you ever received an email or a text message that looked suspicious? 
+Have your parents ever discussed having their identity stolen?
+Have you ever been unsure if you should open the message or click the link? 
+What are the things that made you suspicious? 
+Examples:Misspellings of words in an email, a certain vagueness, asking for account numbers, ss#, personal information…
+What are the ways you know of to protect yourself online?
+
+
+Teacher Duty/Task-Before the Activity
+Prior to beginning the lesson, teachers should prepare a list of research topics for students (detailing cybersecurity risks)
+Teachers should have posters on each table/station prior to students entering the room
+Teachers should have an example of a final, completed infographic on the board to model to students what the final product should resemble
+
+
+During Lesson-With the Students (1-2 hour session)
+A list of topics will be given to make a selection from of security risks. 
+Each student will make a selection and create an INFOGRAPHIC about their topic using:
+Canva
+LucidPress
+Venngage
+WeVideo
+ VDSC
+Imovie
+If students have another tool/resource they would like to use, they need to review with the teacher for approval for use in this project
+Students  will also consider what the global or societal impact is of their selected security risk. These risks should be described in detail (a minimum of 3-4 sentences describing each risk).
+Students will consider and list possible solutions to their described impacts (1-3 solutions for each negative impact described).
+Students will take time to research the topic and give a 1-minute FLASH TALK on the topic with class.
+NOTE: If the student is virtual, this could be a video they recorded of their talk then presented to the class.
+Student presenting will host a “Q&A” session with their class following their Flash Talk”
+
+
+### Supplements
+**Any items in this section are the property & under the license of their respective owners.**
+
+
+
+
+
+
+## REVIEW
+After this lesson students should clean up their work area and return all materials back to their approrpriate location in the classroom.
+Once clean-up has been completed, students should participate in a group discussion answering the post activity discussion questions:
+After completing this assignment, how would you define cybersecurity in your own words?
+What are three ways you can protect your personally identifiable information in the digital world?
+What can you tell your friends now about cybersecurity and how to protect yourself online?
+## STANDARDS        
+| Type | Listing | 
+|-----------|-----------|
+| CS Domains  | Networks and The Internet, Impacts of Computing|
+| CS Principles   | Collaborating Around Computing, Recognizing and Defining Computational Problems, Communicating About Computing|
+| Other Content Standards | MS-LS1-1: Conduct an investigation to produce data to serve as the basis for evidence that meet the goals of an investigation (Grades 6 - 8)
+Use mathematical representations to describe and/or support scientific conclusions and design solutions (Grades 6 - 8)
+MS-ETS1-3: Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success.  |

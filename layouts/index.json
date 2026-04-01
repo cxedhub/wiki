@@ -1,0 +1,15 @@
+{{- $lessons := where site.RegularPages "Section" "lessons" -}}
+[
+{{- range $i, $p := $lessons -}}
+  {{- if $i }},{{ end }}
+  {
+    "title": {{ $p.Title | jsonify }},
+    "url": {{ $p.RelPermalink | jsonify }},
+    "description": {{ $p.Description | jsonify }},
+    "subjects": {{ $p.Params.subjects | jsonify }},
+    "grade_levels": {{ $p.Params.grade_levels | jsonify }},
+    "cs_domains": {{ $p.Params.cs_domains | jsonify }},
+    "author": {{ $p.Params.author | jsonify }}
+  }
+{{- end }}
+]

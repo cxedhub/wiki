@@ -1,0 +1,80 @@
+---
+title: Intro to Coding a Microbit
+description: In this lesson the students will be introduced to the website MakeCode
+  with programing the microbit simulator. To start off, the students will stat with
+  the first tutorial called Flashing Heart. They can progress once each tutorial is
+  completed. Those students who need extra support can work at their own pace.
+date: '2022-12-13 00:00:00+00:00'
+draft: false
+author: Terri Flock
+subjects:
+- Computer Science
+- Reading/Language Arts
+- Technology
+- Speaking and Listening
+grade_levels:
+- K-2
+- 3-5
+cs_domains:
+- Computing Systems
+- Algorithms and Programming
+cs_principles:
+- Fostering an Inclusive Computing Culture
+- Collaborating Around Computing
+- Testing and Refining Computational Artifacts
+tags:
+- computer science
+- Reading/Language Arts
+- Technology
+- Speaking and Listening
+standards: NA
+materials: Website, Micro:bit
+---
+# OVERVIEW
+## Activity Overview:  
+In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will stat with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
+## Meta description
++ *Subject Area:* Computer Science, Reading/Language Arts, Technology, Speaking and Listening 
++ *Grade Level :* K-2, 3-5 
++ *Computer Science Domains:*
+   + Computing Systems, Algorithms and Programming
++ *Computer Science Principles:*
+   + Fostering an Inclusive Computing Culture, Collaborating Around Computing, Testing and Refining Computational Artifacts
++ *Materials:* 
+   + Website, Micro:bit
++ *Considerations:*
+   + It helps to have some experience with coding so you understand what the students are doing.  It is nice to have more than 1 adult to help problem solve.
+
+
+# Lesson Plan
+## Overview
+In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will stat with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
+## ASSESSMENT PRE/POST-TEST
+What is the name of the 2 basic starting blocks used? What will the simulator do with the On Start Block? What will the simulator do with he Forever Block? What if the code doesn't work?
+## OBJECTIVES
+Complete the tutorials of Make a Heart and Name Tag individually or with support.
+
+
+## CATCH/HOOK
+The hook for this lesson is showing the students the Microbit device with a programmed code that says Hello.
+
+
+## ACTIVITY INSTRUCTIONS
+1. Teacher will display the physical Microchip with the word, 'hello' scrolling through. Teacher will collect Notice and Wonder thoughts from the students and write them on a chart paper. 2. Administer Pre Test-Teacher asks students the questions mentioned above. If students know the answer they can show thumbs up or thumbs down if they don't know it. 3. The students will follow along on their device (iPad) while the teacher displays the website: MakeCode.microbit.org on the smartboard. 4. The students will complete the first two tutorials called Make a Heart and Name Tag. 5. If the tutorials are completed, students can continue through the rest of the tutorials. 6. Post Assessment
+
+
+### Supplements
+**Any items in this section are the property & under the license of their respective owners.**
+https://drive.google.com/file/d/1zHuYNzdxO64NSXf09M9EoQDS4CImz8gM, https://drive.google.com/file/d/1iT4XZt58C09MeBgApF3set-rfspKECLc
+
+
+
+
+## REVIEW
+Discussion about want went well and what didn't.  We reviewed the pre-questions and discuss what we had learned.
+## STANDARDS        
+| Type | Listing | 
+|-----------|-----------|
+| CS Domains  | Computing Systems, Algorithms and Programming|
+| CS Principles   | Fostering an Inclusive Computing Culture, Collaborating Around Computing, Testing and Refining Computational Artifacts|
+| Other Content Standards | NA  |

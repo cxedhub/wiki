@@ -1,0 +1,27 @@
+<div class="filters" id="filters">
+  <div class="filter-row">
+    <input type="text" id="search-input" placeholder="Search lessons..." class="filter-search" aria-label="Search lessons">
+  </div>
+  <div class="filter-row">
+    <select id="filter-grade" aria-label="Filter by grade level">
+      <option value="">All Grade Levels</option>
+      {{ range site.Taxonomies.grade_levels.Alphabetical }}
+        <option value="{{ .Name }}">{{ .Name }} ({{ .Count }})</option>
+      {{ end }}
+    </select>
+    <select id="filter-subject" aria-label="Filter by subject">
+      <option value="">All Subjects</option>
+      {{ range site.Taxonomies.subjects.Alphabetical }}
+        <option value="{{ .Name }}">{{ .Name }} ({{ .Count }})</option>
+      {{ end }}
+    </select>
+    <select id="filter-domain" aria-label="Filter by CS domain">
+      <option value="">All CS Domains</option>
+      {{ range site.Taxonomies.cs_domains.Alphabetical }}
+        <option value="{{ .Name }}">{{ .Name }} ({{ .Count }})</option>
+      {{ end }}
+    </select>
+    <button id="clear-filters" class="btn btn-secondary btn-sm">Clear Filters</button>
+  </div>
+  <p id="filter-count" class="filter-count"></p>
+</div>
