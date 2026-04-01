@@ -1,10 +1,11 @@
 baseURL = "https://cxedhub.github.io/wiki/"
 languageCode = "en-us"
 title = "CX Ed Hub"
-theme = ""
-paginate = 24
 enableRobotsTXT = true
 summaryLength = 40
+
+[pagination]
+  pagerSize = 24
 
 [params]
   description = "Computing + X Educator Hub — Lesson plans and resources for K-12 educators integrating computing into their classrooms."
