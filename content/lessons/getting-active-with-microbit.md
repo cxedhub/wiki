@@ -1,12 +1,12 @@
 ---
 title: Getting Active with Microbit
-description: They are introduced to variables and develop their understanding through
+description: 'They are introduced to variables and develop their understanding through
   a mixture of unplugged and practical programming activities. Pupils design and program
   the micro:bit to be a star-jump and step counter and a family activity selector.
   The sequence comprises 5 lessons of approximately 60 minutes each: Describing with
   variables Using variables in algorithms and programs Analysing, programming and
   evaluating step-counters Planning to get active Programming and evaluating a family
-  activity picker
+  activity picker'
 date: '2020-11-27 00:00:00+00:00'
 draft: false
 author: Connie Hollin
