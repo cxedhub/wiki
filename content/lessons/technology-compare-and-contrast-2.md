@@ -20,6 +20,8 @@ materials: Website, Micro:bit, https://www.commonsense.org/education/digital-pas
 tags:
 - "Project-Based"
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

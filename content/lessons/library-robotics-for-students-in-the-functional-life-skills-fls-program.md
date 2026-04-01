@@ -31,6 +31,8 @@ materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Bo
 tags:
 - "Data Collection"
 - "Robotics"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

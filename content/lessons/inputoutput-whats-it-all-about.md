@@ -25,6 +25,8 @@ materials: Website, Micro:bit
 tags:
 - "Web Design"
 - "micro:bit"
+standard_types:
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

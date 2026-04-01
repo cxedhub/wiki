@@ -26,6 +26,8 @@ standards: RI5.6;  SS5.6.3;  SS5.4.3
 materials: Web availability to search 'Top 10 Cyber Attacks'
 tags:
 - "Cybersecurity"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

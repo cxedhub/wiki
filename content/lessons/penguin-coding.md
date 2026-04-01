@@ -16,6 +16,8 @@ cs_principles:
 standards: K-2.AP.14 K-2.AP.17
 materials: None
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -19,6 +19,8 @@ cs_principles:
 materials: Website, https://scratch.mit.edu/
 tags:
 - "Scratch"
+standard_types:
+- "CSTA"
 ---
 # OVERVIEW
 ## Activity Overview:  

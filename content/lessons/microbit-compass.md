@@ -24,6 +24,10 @@ standards: Science-MS-ESS2-2,Language Arts-WHST.6-8.2Mathematics-MP.2
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

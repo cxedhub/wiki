@@ -19,6 +19,8 @@ standards: 2.NI.C.01, 5.NI.C.01
 materials: Caesar Cipher
 tags:
 - "Cybersecurity"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

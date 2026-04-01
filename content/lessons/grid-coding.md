@@ -18,6 +18,8 @@ cs_principles:
 standards: 2.AP.A.01, 2.AP.M.01
 materials: None
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

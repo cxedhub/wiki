@@ -25,6 +25,8 @@ standards: '*5.NI.C.01 Discuss real-world cybersecurity problems and identify an
 materials: Website
 tags:
 - "Cybersecurity"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

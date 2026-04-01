@@ -20,6 +20,8 @@ materials: Website, Canvas LMS, Common Sense Media Digital Citizenship Curriculu
   (Google slides presentation & quiz)
 tags:
 - "Cybersecurity"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

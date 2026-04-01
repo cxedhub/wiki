@@ -95,7 +95,7 @@ function initExploreFilters() {
   var checkboxes = Array.from(document.querySelectorAll('.filter-check input[type="checkbox"]'));
 
   function getActiveFilters() {
-    var filters = { grade: [], subject: [], domain: [], tag: [] };
+    var filters = { grade: [], subject: [], domain: [], standard: [], tag: [] };
     checkboxes.forEach(function (cb) {
       if (cb.checked) {
         filters[cb.dataset.filterType].push(cb.value);
@@ -124,8 +124,9 @@ function initExploreFilters() {
       var matchSubject = matchesFilter(card.dataset.subjects, filters.subject);
       var matchDomain = matchesFilter(card.dataset.domains, filters.domain);
       var matchTag = matchesFilter(card.dataset.tags, filters.tag);
+      var matchStandard = matchesFilter(card.dataset.standards, filters.standard);
 
-      if (matchSearch && matchGrade && matchSubject && matchDomain && matchTag) {
+      if (matchSearch && matchGrade && matchSubject && matchDomain && matchTag && matchStandard) {
         card.style.display = '';
         visible++;
       } else {
@@ -151,7 +152,7 @@ function initExploreFilters() {
     if (query) {
       html += '<span class="active-chip">Search: "' + escapeHtml(query) + '" <button data-action="clear-search">&times;</button></span>';
     }
-    var types = ['grade', 'subject', 'domain', 'tag'];
+    var types = ['grade', 'subject', 'domain', 'standard', 'tag'];
     types.forEach(function (type) {
       filters[type].forEach(function (val) {
         html += '<span class="active-chip active-chip-' + type + '">' + escapeHtml(val) + ' <button data-action="uncheck" data-type="' + type + '" data-value="' + escapeHtml(val) + '">&times;</button></span>';
@@ -195,7 +196,7 @@ function initExploreFilters() {
 
         // Check all filter types
         var match = true;
-        ['grade', 'subject', 'domain', 'tag'].forEach(function (ft) {
+        ['grade', 'subject', 'domain', 'standard', 'tag'].forEach(function (ft) {
           if (ft === type) {
             // For this filter type, check only this specific value
             var cardValues = (card.dataset[ftToDataset(ft)] || '').split('|').map(function (s) { return s.trim().toLowerCase(); });
@@ -216,7 +217,7 @@ function initExploreFilters() {
   }
 
   function ftToDataset(ft) {
-    var map = { grade: 'grades', subject: 'subjects', domain: 'domains', tag: 'tags' };
+    var map = { grade: 'grades', subject: 'subjects', domain: 'domains', standard: 'standards', tag: 'tags' };
     return map[ft];
   }
 

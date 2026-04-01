@@ -16,6 +16,8 @@ standards: 8.AP.M.01; FPA 8.1.A.3
 materials: None, Website
 tags:
 - "Data Collection"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

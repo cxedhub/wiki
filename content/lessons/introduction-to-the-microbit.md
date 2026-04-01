@@ -21,6 +21,8 @@ cs_principles:
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

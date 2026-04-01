@@ -22,6 +22,8 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

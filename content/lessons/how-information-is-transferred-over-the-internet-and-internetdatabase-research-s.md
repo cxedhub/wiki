@@ -22,6 +22,9 @@ standards: 'ISTE 3A: Students plan and employ effective research strategies to l
   information and other resources for their intellectual or creative pursuits'
 materials: Website, YouTube educational videos, Kahoot quiz website
 tags: []
+standard_types:
+- "ISTE"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -20,6 +20,8 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: ScratchJr
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -29,6 +29,8 @@ materials: HexBug
 tags:
 - "Project-Based"
 - "Robotics"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

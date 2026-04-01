@@ -27,6 +27,9 @@ tags:
 - "Robotics"
 - "Scratch"
 - "Unplugged"
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

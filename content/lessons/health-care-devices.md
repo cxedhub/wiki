@@ -23,6 +23,8 @@ standards: MS-LS1-3
 materials: Website, Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

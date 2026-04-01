@@ -25,6 +25,9 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Google Email, Google Slides, Google Docs
 tags: []
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

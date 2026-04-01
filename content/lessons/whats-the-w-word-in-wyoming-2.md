@@ -18,6 +18,9 @@ cs_domains:
 materials: Slideshow that is included, there are websites linked in to help.
 tags:
 - "Data Collection"
+standard_types:
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

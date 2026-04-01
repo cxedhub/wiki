@@ -23,6 +23,8 @@ cs_principles:
 standards: 5.IC.C.01
 materials: Website
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,6 +21,8 @@ standards: ISTE Standards
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
 - "micro:bit"
+standard_types:
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

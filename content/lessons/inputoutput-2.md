@@ -22,6 +22,8 @@ materials: Javascript
 tags:
 - "Code.org"
 - "micro:bit"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

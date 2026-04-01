@@ -25,6 +25,8 @@ materials: Micro:bit
 tags:
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

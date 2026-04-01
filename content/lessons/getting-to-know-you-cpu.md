@@ -26,6 +26,8 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
 - "Web Design"
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

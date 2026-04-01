@@ -28,6 +28,8 @@ materials: Website, https://www.digitalpassport.org/password-protect.html;  http
 tags:
 - "Code.org"
 - "Web Design"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

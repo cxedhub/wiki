@@ -21,6 +21,8 @@ tags:
 - "Code.org"
 - "Cybersecurity"
 - "Web Design"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -29,6 +29,8 @@ materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other 
 tags:
 - "Project-Based"
 - "Robotics"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -26,6 +26,8 @@ materials: None
 tags:
 - "Cybersecurity"
 - "Project-Based"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

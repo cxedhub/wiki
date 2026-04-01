@@ -23,6 +23,8 @@ standards: CCSS.SL.5.1 ; CCSS.L.5.4c
 materials: Website, Computer
 tags:
 - "Code.org"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

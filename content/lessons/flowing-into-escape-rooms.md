@@ -20,6 +20,8 @@ standards: This can incorporate any math common core standard.
 materials: Website
 tags:
 - "Game-Based"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -25,6 +25,8 @@ standards: 'NGSS: MS-LS1-1, 1-8, 1-3'
 materials: Website, CODIS website
 tags:
 - "Data Collection"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

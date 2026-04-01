@@ -23,6 +23,9 @@ materials: Google doc.
 tags:
 - "Cybersecurity"
 - "GenCyber"
+standard_types:
+- "CCSS ELA"
+- "Wyoming CS"
 ---
 ## OVERVIEW
 

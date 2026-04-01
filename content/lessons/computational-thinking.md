@@ -26,6 +26,8 @@ materials: Website, scratch.mit.edu
 tags:
 - "Scratch"
 - "Unplugged"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

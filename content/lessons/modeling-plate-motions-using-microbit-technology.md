@@ -24,6 +24,9 @@ cs_principles:
 materials: Website, Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

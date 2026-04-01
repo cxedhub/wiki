@@ -37,6 +37,8 @@ materials: 'Sphero, Osmo, iPad, epic!: https://www.getepic.com/app/read/75256'
 tags:
 - "Data Collection"
 - "Robotics"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

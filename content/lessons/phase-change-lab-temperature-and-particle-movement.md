@@ -25,6 +25,8 @@ materials: Website, Micro:bit, https://makecode.microbit.org/_ipjfDDgLMDM8
 tags:
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

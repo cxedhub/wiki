@@ -23,6 +23,8 @@ materials: None
 tags:
 - "Project-Based"
 - "Robotics"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

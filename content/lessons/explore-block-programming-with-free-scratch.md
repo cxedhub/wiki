@@ -30,6 +30,8 @@ materials: Website, https://scratch.mit.edu/
 tags:
 - "Data Collection"
 - "Scratch"
+standard_types:
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

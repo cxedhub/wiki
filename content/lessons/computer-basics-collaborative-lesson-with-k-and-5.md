@@ -28,6 +28,9 @@ cs_principles:
 standards: 'CCSS: SL5.1, SL5.2, SL5.3, SL5.6, ISTE: 1.1, 1.2, 1.6, 1.7'
 materials: Website, personal computer, login badge, computer cleaning supplies
 tags: []
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

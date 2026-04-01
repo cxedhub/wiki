@@ -21,6 +21,9 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website, Chromebooks or other student devices, Smartboard
 tags: []
+standard_types:
+- "ISTE"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

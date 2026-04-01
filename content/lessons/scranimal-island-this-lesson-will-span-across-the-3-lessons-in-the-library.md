@@ -25,6 +25,8 @@ materials: Micro:bit, Scranimals by Jack Prelutsky, worksheets for Scranimal dev
   student Chromebooks, grid paper
 tags:
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

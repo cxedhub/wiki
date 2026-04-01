@@ -27,6 +27,8 @@ tags:
 - "GenCyber"
 - "Unplugged"
 - "micro:bit"
+standard_types:
+- "Wyoming CS"
 ---
 ## OVERVIEW
 

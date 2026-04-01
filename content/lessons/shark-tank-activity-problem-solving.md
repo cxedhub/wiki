@@ -24,6 +24,8 @@ cs_principles:
 materials: Poster board/paper and markers
 tags:
 - "Unplugged"
+standard_types:
+- "CSTA"
 ---
 # OVERVIEW
 ## Activity Overview:  

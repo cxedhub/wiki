@@ -26,6 +26,8 @@ materials: Website, unplugged
 tags:
 - "Data Collection"
 - "Unplugged"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

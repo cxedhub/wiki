@@ -22,6 +22,10 @@ standards: ELA SL.K.6, SL.K.3 Math K.CC.A2       2.AP.A.01, 2.AP.C.01
 materials: None
 tags:
 - "Unplugged"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

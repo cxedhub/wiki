@@ -20,6 +20,8 @@ materials: None, https://www.sciencebuddies.org/teacher-resources/lesson-plans/c
 tags:
 - "Cybersecurity"
 - "GenCyber"
+standard_types:
+- "NGSS"
 ---
 ## OVERVIEW
 

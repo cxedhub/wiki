@@ -30,6 +30,9 @@ tags:
 - "Project-Based"
 - "Robotics"
 - "micro:bit"
+standard_types:
+- "CCSS ELA"
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

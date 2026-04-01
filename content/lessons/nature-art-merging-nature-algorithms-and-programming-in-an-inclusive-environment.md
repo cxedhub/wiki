@@ -26,6 +26,8 @@ cs_principles:
 materials: Website, Micro:bit, https://microbit.org/teach/lessons/nature-art-unit-of-work/
 tags:
 - "micro:bit"
+standard_types:
+- "CSTA"
 ---
 # OVERVIEW
 ## Activity Overview:  

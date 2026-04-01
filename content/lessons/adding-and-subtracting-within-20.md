@@ -21,6 +21,8 @@ standards: CCSS. Math.Content.1.OA.A.1
 materials: Scratch Jr.
 tags:
 - "Scratch"
+standard_types:
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

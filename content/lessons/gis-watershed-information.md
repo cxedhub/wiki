@@ -22,6 +22,8 @@ standards: MS-ESS2-2
 materials: Website
 tags:
 - "Data Collection"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

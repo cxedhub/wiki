@@ -23,6 +23,8 @@ cs_principles:
 materials: Website
 tags:
 - "Code.org"
+standard_types:
+- "ISTE"
 ---
 # OVERVIEW
 ## Activity Overview:  

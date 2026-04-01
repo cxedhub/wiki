@@ -24,6 +24,8 @@ standards: MS-ESS2-1,MS-ETS1-4 and standards and appendix CS Practice 4.3
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

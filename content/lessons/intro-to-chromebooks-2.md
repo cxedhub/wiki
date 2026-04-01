@@ -17,6 +17,8 @@ cs_principles:
 standards: 2.CS.HS.01
 materials: Chromebook
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

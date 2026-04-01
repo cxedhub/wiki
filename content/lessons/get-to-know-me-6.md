@@ -25,6 +25,8 @@ cs_principles:
 standards: RF1.4, 2.4, 3.4; SL 1.1, 2.1, 3.1; SL 1.3, 2.3; SL 1.6, 2.6, 3.6
 materials: Keynote software
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

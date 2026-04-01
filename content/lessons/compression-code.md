@@ -23,6 +23,9 @@ cs_principles:
 standards: 8.EE.B.3; 8.AP.N.01-2
 materials: Website, Youtube
 tags: []
+standard_types:
+- "CCSS Math"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

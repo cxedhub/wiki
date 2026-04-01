@@ -25,6 +25,8 @@ materials: iPad app- voice recording device, student book of choice
 tags:
 - "Data Collection"
 - "Robotics"
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -29,6 +29,8 @@ tags:
 - "Code.org"
 - "Data Collection"
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

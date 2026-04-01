@@ -29,6 +29,8 @@ materials: graph paper, sticky notes, markers, gym/hall with square tile floor
 tags:
 - "Unplugged"
 - "micro:bit"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

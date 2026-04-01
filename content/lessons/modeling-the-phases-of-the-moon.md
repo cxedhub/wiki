@@ -23,6 +23,8 @@ standards: NGSS MS-ESS1-1
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

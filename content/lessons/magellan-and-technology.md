@@ -22,6 +22,8 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Google Maps,
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  

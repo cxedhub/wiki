@@ -37,6 +37,8 @@ tags:
 - "Data Collection"
 - "Robotics"
 - "Unplugged"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

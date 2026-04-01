@@ -21,6 +21,8 @@ cs_principles:
 standards: 3-5.IC.SI.02
 materials: None
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

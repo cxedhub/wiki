@@ -20,6 +20,8 @@ cs_principles:
 - Developing and Using Abstractions
 materials: SMART Board
 tags: []
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

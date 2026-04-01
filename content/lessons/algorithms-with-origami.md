@@ -19,6 +19,10 @@ materials: Website, Youtube.com Website can be used if you don't have the book a
   hand. Search youtube for any book on the list.
 tags:
 - "Unplugged"
+standard_types:
+- "CCSS ELA"
+- "ISTE"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

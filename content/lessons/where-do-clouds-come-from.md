@@ -22,6 +22,9 @@ standards: 3ESS2-2   RI.3.1 3.MD.G.2
 materials: Website, Mystery Science, Readworks
 tags:
 - "Data Collection"
+standard_types:
+- "CCSS ELA"
+- "CCSS Math"
 ---
 # OVERVIEW
 ## Activity Overview:  

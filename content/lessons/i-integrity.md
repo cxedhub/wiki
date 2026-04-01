@@ -23,6 +23,8 @@ materials: Website, https://youtu.be/wRyamihhBvQ,
 tags:
 - "Cybersecurity"
 - "GenCyber"
+standard_types:
+- "CCSS ELA"
 ---
 ## OVERVIEW
 

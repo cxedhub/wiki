@@ -26,6 +26,8 @@ standards: SCI.GPS.2.3 Students will use models to compare nuclear processes and
 materials: Website, Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

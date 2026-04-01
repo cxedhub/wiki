@@ -24,6 +24,10 @@ tags:
 - "Code.org"
 - "Robotics"
 - "Scratch"
+standard_types:
+- "CCSS ELA"
+- "NGSS"
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

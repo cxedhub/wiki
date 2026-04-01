@@ -26,6 +26,8 @@ cs_principles:
 materials: Computer for research
 tags:
 - "Project-Based"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

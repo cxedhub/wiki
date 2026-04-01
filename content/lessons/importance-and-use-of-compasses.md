@@ -21,6 +21,8 @@ standards: 8.CS.HS.01 and SS8.4.2
 materials: Micro:bit
 tags:
 - "micro:bit"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

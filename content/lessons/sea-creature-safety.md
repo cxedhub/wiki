@@ -21,6 +21,8 @@ materials: Micro:bit
 tags:
 - "Project-Based"
 - "micro:bit"
+standard_types:
+- "NGSS"
 ---
 # OVERVIEW
 ## Activity Overview:  

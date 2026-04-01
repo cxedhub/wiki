@@ -26,6 +26,8 @@ standards: 2.CS.T.01, 2.DA.CVT.01, 2.AP.A.01
 materials: Funny Gears & Bricks Set
 tags:
 - "Data Collection"
+standard_types:
+- "Wyoming CS"
 ---
 # OVERVIEW
 ## Activity Overview:  

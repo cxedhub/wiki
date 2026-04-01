@@ -18,6 +18,8 @@ cs_principles:
 standards: W2.6, W2.8, SL2.1,
 materials: Website, commonsense.org
 tags: []
+standard_types:
+- "CCSS ELA"
 ---
 # OVERVIEW
 ## Activity Overview:  
