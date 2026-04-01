@@ -1,5 +1,5 @@
 ---
-title: Data: Patterns, Cause and Effect
+title: 'Data: Patterns, Cause and Effect'
 description: Students will discover, explore, model and communicate patterns found
   within data. This lesson/activity will incorporate decimal use, place value changes,
 date: '2022-07-14 00:00:00+00:00'

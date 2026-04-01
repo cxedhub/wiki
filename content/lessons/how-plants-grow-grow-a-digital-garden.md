@@ -1,5 +1,5 @@
 ---
-title: How Plants Grow : Grow a Digital Garden
+title: 'How Plants Grow : Grow a Digital Garden'
 description: Students will be able to use the Scratch Jr. programming blocks to make
   animated stories and interactive projects that focus on how plants grow. They will
   explore coding and computational thinking practices as they use the Scratch Jr.

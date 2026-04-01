@@ -1,5 +1,5 @@
 ---
-title: See Ya Later, Alligator: Coding and Ratio Tabless
+title: 'See Ya Later, Alligator: Coding and Ratio Tabless'
 description: Students will work in pairs to build ratio tables defining a list of
   data for distance traveled by various animals over time based on their speed. Students
   will design a formula for their assigned ratio table and then program a Micro:Bit

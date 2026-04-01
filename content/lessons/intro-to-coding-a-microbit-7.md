@@ -1,13 +1,13 @@
 ---
 title: Intro to Coding a Microbit
-description: Brief description (3-5 sentences) for the lesson/activity: * This description
+description: 'Brief description (3-5 sentences) for the lesson/activity: * This description
   will be used publicly as an introduction to the lesson/activity, be as descriptive
-  as possible (assume you were searching for a lesson/activity and didn't want to
+  as possible (assume you were searching for a lesson/activity and didn''t want to
   read the whole document to figure it out) In this lesson the students will be introduced
   to the website MakeCode with programing the microbit simulator. To start off, the
   students will start with the first tutorial called Flashing Heart. They can progress
   once each tutorial is completed. Those students who need extra support can work
-  at their own pace.
+  at their own pace.'
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Terri Flock, Kiley Hiser, Heather Osterman, Will Burns, Kara Bowcutt, Melanie

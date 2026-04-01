@@ -1,5 +1,5 @@
 ---
-title: Weather: Factors and Hazards (Part Three)
+title: 'Weather: Factors and Hazards (Part Three)'
 description: In this activity, students use the scientific inquiry process to investigate
   the effect of water on Earth materials. They explore how water flows through different
   materials and make a connection between permeability and flooding.

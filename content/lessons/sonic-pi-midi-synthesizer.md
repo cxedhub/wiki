@@ -1,5 +1,5 @@
 ---
-title: Sonic Pi: Midi Synthesizer
+title: 'Sonic Pi: Midi Synthesizer'
 description: Most commercial music produced today involves the use of synthesized
   and sampled sounds. MIDI (musical instrument digital interface) is the standard
   language used for electronic musical instruments and computers to communicate with

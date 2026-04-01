@@ -1,5 +1,5 @@
 ---
-title: Communicating Through History: MicroBit Morse Code
+title: 'Communicating Through History: MicroBit Morse Code'
 description: Students will read articles and then construct a timeline of the progression
   of communication technology in the developing United States. Then, they will use
   MicroBits to encode and decode messages sent in Morse Code via radio output. (Note:

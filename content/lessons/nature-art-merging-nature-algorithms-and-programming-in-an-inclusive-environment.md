@@ -1,5 +1,5 @@
 ---
-title: Nature Art: Merging Nature, Algorithms, and Programming in an inclusive environment
+title: 'Nature Art: Merging Nature, Algorithms, and Programming in an inclusive environment'
 description: This lesson is an introduction to computational thinking and the BBC
   micro:bit. Students learn how to create nature abstractions by observing nature,,
   using art materials and then using the LEDs on micro:bit. They'll develop an understanding

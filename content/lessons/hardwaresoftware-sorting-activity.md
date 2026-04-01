@@ -1,12 +1,12 @@
 ---
 title: Hardware/Software Sorting Activity
-description: Hardware/Software Sorting Activity: For this exploration, you and your
+description: 'Hardware/Software Sorting Activity: For this exploration, you and your
   partner will sort the computer science resource cards into different categories.
   This will provide opportunities for you to consider things like whether the resource
   is hardware or software, what type of hardware it is (input, processing, output,
   storage), and the purpose of the resource, compatibility, etc.). You will have a
   better understanding of the differences between hardware and software after this
-  activity.
+  activity.'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Terry Highfield
