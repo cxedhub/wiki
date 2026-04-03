@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container pd-landing">
+
+  <header class="pd-series-header">
+    <h1>{{ .Title }}</h1>
+    <div class="craft-cycle-visual">
+      <span class="craft-letter" style="background: #D4A843;">C</span>
+      <span class="craft-letter" style="background: #C0392B;">R</span>
+      <span class="craft-letter" style="background: #27AE60;">A</span>
+      <span class="craft-letter" style="background: #1ABC9C;">F</span>
+      <span class="craft-letter" style="background: #8E6BBF;">T</span>
+    </div>
+    <p class="pd-series-meta">Virtual &middot; 8:30 AM &ndash; 12:00 PM PST &middot; Hosted by UCF DRACO Lab</p>
+  </header>
+
+  <div class="pd-intro">
+    {{ .Content }}
+  </div>
+
+  <h2 class="pd-workshops-heading">Workshops</h2>
+
+  <div class="card-grid pd-card-grid">
+    {{ range .Pages.ByDate }}
+      {{ partial "pd-card.html" . }}
+    {{ end }}
+  </div>
+
+  <div class="pd-cross-takeaways">
+    <h2>What Every Participant Receives</h2>
+    <ul>
+      <li><strong>Shared Google Drive folder</strong> &mdash; Templates, prompt libraries, lesson starters (all editable)</li>
+      <li><strong>Curated resource website</strong> &mdash; Bookmarkable page with links, guides, and updates</li>
+      <li><strong>Digital toolkit PDF</strong> &mdash; One downloadable document per session</li>
+      <li><strong>Customized lesson</strong> &mdash; NGSS-aligned template personalized during the session</li>
+    </ul>
+  </div>
+
+</div>
+{{ end }}
