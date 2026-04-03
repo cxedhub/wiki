@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slides — Verifying STEM AI Outputs: What You Really Need to Know</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:#111;font-family:'DM Sans',sans-serif}
+.deck{position:relative;width:100vw;height:100vh}
+.slide{position:absolute;inset:0;display:none;flex-direction:column;padding:48px 64px;overflow:hidden}
+.slide.active{display:flex}
+.slide.dark{background:#1B2A4A;color:#FFFFFF}
+.slide.light{background:#FAFBFE;color:#1B2A4A}
+
+.s-bar{position:absolute;top:0;left:0;right:0;height:5px}
+.s-bar-bottom{position:absolute;bottom:0;left:0;right:0;height:5px}
+.s-accent{position:absolute;top:0;left:0;width:6px;height:100%}
+
+.s-title-big{font-family:'DM Serif Display',serif;font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.15;margin-top:12px}
+.s-title{font-family:'DM Serif Display',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);line-height:1.2;margin-top:8px}
+.s-body{font-size:clamp(0.95rem,1.6vw,1.15rem);line-height:1.6;margin-top:16px;color:#2C4A6E;max-width:85%}
+.s-muted{color:#5A7FA0 !important}
+.s-small{font-size:0.85rem}
+.s-mono{font-family:'JetBrains Mono',monospace;letter-spacing:0.08em}
+
+.s-phase-letter{font-family:'DM Serif Display',serif;font-size:5rem;line-height:1;margin-top:auto}
+.s-time-tr{position:absolute;top:24px;right:48px;font-family:'JetBrains Mono',monospace;font-size:0.9rem;color:#999}
+
+.s-badges{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.s-badge{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:3px 10px;border-radius:3px;color:#fff}
+.s-badge-outline{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:3px 9px;border-radius:3px;border:1.5px solid}
+.s-time-badge{font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:#999;margin-left:auto}
+
+.s-bullets{margin-top:16px;padding-left:24px;font-size:clamp(0.9rem,1.4vw,1.05rem);line-height:1.7;color:#1B2A4A}
+.s-bullets li{margin-bottom:4px}
+.s-link{margin-top:auto;font-size:0.95rem;font-weight:600;color:#1ABC9C}
+
+.craft-bar{display:flex;gap:8px;margin-top:24px;flex:1;max-height:300px}
+.cb-phase{flex:1;border-radius:8px;padding:20px 14px;display:flex;flex-direction:column;align-items:center;color:#fff;text-align:center}
+.cb-letter{font-family:'DM Serif Display',serif;font-size:2.8rem;line-height:1}
+.cb-name{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;margin-top:6px}
+.cb-desc{font-size:0.75rem;margin-top:auto;opacity:0.85}
+
+.s-two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px;flex:1}
+.s-col{border-radius:8px;padding:20px;font-size:0.9rem;line-height:1.5}
+.s-col strong{display:block;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px}
+
+.s-resource-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.s-resource{background:#fff;border:1px solid #E8E8E8;border-radius:6px;padding:14px;font-size:0.85rem}
+.s-resource span{color:#666;font-size:0.78rem}
+
+.s-closing{font-family:'DM Serif Display',serif;font-size:clamp(1.4rem,3vw,2rem);line-height:1.4;text-align:center;margin:auto 0;font-style:italic}
+
+/* Progress bar */
+.progress{position:fixed;bottom:0;left:0;height:3px;background:#C0392B;transition:width 0.3s;z-index:10}
+/* Slide counter */
+.counter{position:fixed;bottom:12px;right:20px;font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:rgba(150,150,150,0.6);z-index:10}
+/* Nav hint */
+.nav-hint{position:fixed;bottom:12px;left:20px;font-size:0.7rem;color:rgba(150,150,150,0.4);z-index:10}
+
+@media(max-width:768px){
+  .slide{padding:28px 28px}
+  .craft-bar{flex-direction:column;max-height:none}
+  .s-two-col{grid-template-columns:1fr}
+  .s-resource-grid{grid-template-columns:1fr}
+}
+@media print{
+  .slide{position:relative!important;display:flex!important;page-break-after:always;height:100vh}
+  .progress,.counter,.nav-hint{display:none}
+}
+</style></head><body>
+<div class="deck" id="deck">
+<div class="slide dark"><div class="s-bar" style="background:#C0392B"></div>
+    <p class="s-mono s-small s-muted">WORKSHOP 02 · APRIL 18, 2026</p>
+    <h1 class="s-title-big">Verifying STEM AI Outputs:<br>What You Really Need to Know</h1>
+    <p class="s-body s-muted" style="margin-top:24px">The Check the Machine protocol and error-hunting skills for AI-generated code and content.</p>
+    <p class="s-small s-muted" style="margin-top:auto">April 18, 2026 · 8:30 AM – 12:00 PM PST · Virtual<br>CRAFT PD Series · UCF DRACO Lab &amp; School of Teacher Education</p>
+  </div>
+<div class="slide light"><h1 class="s-title">The CRAFT Cycle</h1>
+    <p class="s-body s-muted">Today's session IS a CRAFT cycle. You'll experience it — then learn to build your own.</p>
+    <div class="craft-bar"><div class="cb-phase" style="background:#D4A843"><span class="cb-letter">C</span><span class="cb-name">Contextualize</span><span class="cb-desc">Why it matters — real-world framing</span></div><div class="cb-phase" style="background:#C0392B"><span class="cb-letter">R</span><span class="cb-name">Reframe</span><span class="cb-desc">Surface the wrong model → install the right one</span></div><div class="cb-phase" style="background:#27AE60"><span class="cb-letter">A</span><span class="cb-name">Assemble</span><span class="cb-desc">I Do → We Do → You Do</span></div><div class="cb-phase" style="background:#1ABC9C"><span class="cb-letter">F</span><span class="cb-name">Fortify</span><span class="cb-desc">Verify with tools + AI; errors are features</span></div><div class="cb-phase" style="background:#8E6BBF"><span class="cb-letter">T</span><span class="cb-name">Transfer</span><span class="cb-desc">Connect forward to your classroom</span></div></div>
+  </div>
+<div class="slide dark"><div class="s-bar" style="background:#D4A843"></div>
+        <span class="s-time-tr">8:40</span>
+        <span class="s-phase-letter" style="color:#D4A843">C</span>
+        <h1 class="s-title">Contextualize</h1>
+        <p class="s-body s-muted">Your students are already using AI — here's what we know</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#D4A843"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#D4A843;border-color:#D4A843">Contextualize</span>
+          <span class="s-time-badge">8:45 (8 min)</span>
+        </div>
+        <h1 class="s-title">Self-Assessment: AI in Your Classroom</h1>
+        <p class="s-body">Answer honestly in the shared doc:</p>
+        <ul class="s-bullets"><li>How are your students using AI right now?</li><li>What's your biggest worry about student AI use?</li></ul>
+        <p class="s-link">→ Open Shared Doc</p>
+      </div>
+<div class="slide dark"><div class="s-bar" style="background:#C0392B"></div>
+        <span class="s-time-tr">8:53</span>
+        <span class="s-phase-letter" style="color:#C0392B">R</span>
+        <h1 class="s-title">Reframe</h1>
+        <p class="s-body s-muted">The problem isn't AI use — it's unverified AI use</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#C0392B"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#C0392B;border-color:#C0392B">Reframe</span>
+          <span class="s-time-badge">8:53 (3 min)</span>
+        </div>
+        <h1 class="s-title">Poll: The Biggest Concern</h1>
+        <p class="s-body">When a student uses AI: (a) plagiarism (b) didn't learn (c) might be wrong (d) can't tell</p>
+        
+        
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#C0392B"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#C0392B;border-color:#C0392B">Reframe</span>
+          <span class="s-time-badge">9:01 (14 min)</span>
+        </div>
+        <h1 class="s-title">Breakout: Rewriting the AI Policy</h1>
+        <p class="s-body">Your group is an AI policy committee.</p>
+        <ul class="s-bullets"><li>Draft 3 classroom norms requiring VERIFICATION</li><li>What does 'acceptable AI use' look like in your subject?</li></ul>
+        
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#999"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#999">BREAK</span>
+          
+          <span class="s-time-badge">9:15 (10 min)</span>
+        </div>
+        <h1 class="s-title">Break #1</h1>
+        <p class="s-body">Spot the error in the AI 'fun fact' in chat.</p>
+        
+        
+      </div>
+<div class="slide dark"><div class="s-bar" style="background:#27AE60"></div>
+        <span class="s-time-tr">9:25</span>
+        <span class="s-phase-letter" style="color:#27AE60">A</span>
+        <h1 class="s-title">Assemble</h1>
+        <p class="s-body s-muted">Error hunting — code first, then content</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#27AE60"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble</span>
+          <span class="s-time-badge">9:33 (22 min)</span>
+        </div>
+        <h1 class="s-title">Breakout: Code Error Hunt</h1>
+        <p class="s-body">3 AI-generated code snippets. For each:</p>
+        <ul class="s-bullets"><li>Read it. Predict. Find the error. Fix it.</li><li>Document findings in shared doc</li><li>First group to catch all 3 wins!</li></ul>
+        <p class="s-link">→ Open Code Snippets</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#27AE60"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble</span>
+          <span class="s-time-badge">9:55 (15 min)</span>
+        </div>
+        <h1 class="s-title">Solo: Break Your Own AI</h1>
+        <p class="s-body">Ask an LLM to solve a problem from YOUR subject.</p>
+        <ul class="s-bullets"><li>Try to break it</li><li>Document one error (or how you verified correctness)</li></ul>
+        
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#27AE60"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble</span>
+          <span class="s-time-badge">10:15 (20 min)</span>
+        </div>
+        <h1 class="s-title">Breakout: Content Error Hunt</h1>
+        <p class="s-body">Use the Content Audit Checklist:</p>
+        <ul class="s-bullets"><li>Check claims, verify facts, assess grade-level</li><li>Spot misleading simplifications</li><li>Flag the sneakiest error for share-out</li></ul>
+        <p class="s-link">→ Open Audit Checklist</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#999"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#999">BREAK</span>
+          
+          <span class="s-time-badge">10:35 (10 min)</span>
+        </div>
+        <h1 class="s-title">Break #2</h1>
+        <p class="s-body">Preview the CtM one-pager.</p>
+        
+        
+      </div>
+<div class="slide dark"><div class="s-bar" style="background:#1ABC9C"></div>
+        <span class="s-time-tr">10:45</span>
+        <span class="s-phase-letter" style="color:#1ABC9C">F</span>
+        <h1 class="s-title">Fortify</h1>
+        <p class="s-body s-muted">Check the Machine: Task → Before → After → Takeaway</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#1ABC9C"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#1ABC9C;border-color:#1ABC9C">Fortify</span>
+          <span class="s-time-badge">10:48 (10 min)</span>
+        </div>
+        <h1 class="s-title">Follow Along: Live CtM Cycle</h1>
+        <p class="s-body">Run the same prompt. Write your 'Before' prediction. Compare 'After' to ours.</p>
+        
+        
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#1ABC9C"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#1ABC9C;border-color:#1ABC9C">Fortify</span>
+          <span class="s-time-badge">10:58 (15 min)</span>
+        </div>
+        <h1 class="s-title">Partner Practice: Run Your Own CtM</h1>
+        <p class="s-body">Pair up. Full cycle each:</p>
+        <ul class="s-bullets"><li>Task → Before → After → Takeaway</li><li>Partner checks: 'Did you verify or just skim?'</li></ul>
+        <p class="s-link">→ CtM Template</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#1ABC9C"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#1ABC9C;border-color:#1ABC9C">Fortify</span>
+          <span class="s-time-badge">11:13 (12 min)</span>
+        </div>
+        <h1 class="s-title">Build: Customize CtM for Your Classroom</h1>
+        <p class="s-body">Adapt the template for your students:</p>
+        <ul class="s-bullets"><li>Adjust language for grade level</li><li>Pick a sample task from your subject</li><li>Write student-facing instructions</li></ul>
+        
+      </div>
+<div class="slide dark"><div class="s-bar" style="background:#8E6BBF"></div>
+        <span class="s-time-tr">11:25</span>
+        <span class="s-phase-letter" style="color:#8E6BBF">T</span>
+        <h1 class="s-title">Transfer</h1>
+        <p class="s-body s-muted">Building a verification culture</p>
+      </div>
+<div class="slide light"><div class="s-accent" style="background:#8E6BBF"></div>
+        <div class="s-badges">
+          <span class="s-badge" style="background:#27AE60">YOU DO</span>
+          <span class="s-badge-outline" style="color:#8E6BBF;border-color:#8E6BBF">Transfer</span>
+          <span class="s-time-badge">11:30 (10 min)</span>
+        </div>
+        <h1 class="s-title">Pair-Share: Your Verification Commitment</h1>
+        <p class="s-body">With a partner:</p>
+        <ul class="s-bullets"><li>One concrete step for verification-first culture</li><li>'I will...' not 'I might...'</li><li>Share the boldest commitments with the group</li></ul>
+        
+      </div>
+<div class="slide light"><div class="s-bar" style="background:#C0392B"></div>
+    <h1 class="s-title">Your Resource Kit</h1>
+    <p class="s-body s-muted">Everything is yours. Bookmark, download, remix.</p>
+    <div class="s-resource-grid"><div class="s-resource">🤖 <strong>CtM Template</strong><br><span>Editable Check the Machine protocol</span></div><div class="s-resource">🔍 <strong>Content Audit Checklist</strong><br><span>Claims, sources, accuracy, grade-level</span></div><div class="s-resource">🐛 <strong>AI Error Gallery</strong><br><span>Annotated AI failure examples</span></div><div class="s-resource">📄 <strong>Prompt Library</strong><br><span>Prompts for verify-able outputs</span></div><div class="s-resource">📂 <strong>Google Drive</strong><br><span>All materials from today</span></div><div class="s-resource">📝 <strong>Post-Survey</strong><br><span>Help us improve</span></div></div>
+  </div>
+<div class="slide dark"><div class="s-bar-bottom" style="background:#C0392B"></div>
+    <p class="s-closing">Your students don't need to be<br>AI experts.<br>They need to be AI skeptics.<br>That's a skill you just learned to teach.</p>
+    <p class="s-small s-muted" style="margin-top:auto">CRAFT PD Series · UCF DRACO Lab &amp; School of Teacher Education<br>Dr. Mike Borowczak &amp; Dr. Andrea Borowczak</p>
+  </div>
+</div>
+<div class="progress" id="progress"></div>
+<div class="counter" id="counter"></div>
+<div class="nav-hint">← → or click to navigate · F for fullscreen</div>
+<script>
+const slides=document.querySelectorAll('.slide'),total=slides.length;
+let cur=0;
+function show(n){
+  n=Math.max(0,Math.min(n,total-1));
+  slides[cur].classList.remove('active');
+  cur=n;
+  slides[cur].classList.add('active');
+  document.getElementById('progress').style.width=((cur+1)/total*100)+'%';
+  document.getElementById('counter').textContent=(cur+1)+' / '+total;
+  history.replaceState(null,null,'#'+(cur+1));
+}
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' ')show(cur+1);
+  else if(e.key==='ArrowLeft')show(cur-1);
+  else if(e.key==='f')document.documentElement.requestFullscreen?.();
+});
+document.addEventListener('click',e=>{
+  if(e.clientX>window.innerWidth/2)show(cur+1);else show(cur-1);
+});
+const h=parseInt(location.hash.slice(1))||1;
+show(h-1);
+</script></body></html>
