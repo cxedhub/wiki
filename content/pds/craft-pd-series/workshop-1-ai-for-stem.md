@@ -46,14 +46,22 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 | Fortify | Spot the Difference: AI Output Audit | 25 min | You Do |
 | Transfer | Design: Your Own CRAFT Lesson Sketch | 15 min | You Do |
 
-## Focus Tags
+## Participant Takeaways
 
-`Prompt Engineering` · `Curriculum Alignment` · `Multi-Platform Comparison`
+- Prompt library with tested prompts across STEM subjects
+- NGSS-aligned lesson template (customized during the session)
+- Platform comparison cheat sheet (ChatGPT vs Claude vs Gemini)
 
 ## Reframe Theme
 
 > "AI is a co-pilot, not an autopilot." — Just like a calculator doesn't replace mathematical thinking, an LLM doesn't replace pedagogical expertise.
 
+## Focus Tags
+
+`Prompt Engineering` · `Curriculum Alignment` · `Multi-Platform Comparison`
+
 ---
 
-[← Back to Series Overview]({{< ref "/pds/craft-pd-series" >}})
+**Other Workshops:** [Workshop 2: Verifying AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) · [Workshop 3: Edge/IoT with AI](/pds/craft-pd-series/workshop-3-edge-iot/)
+
+[← Back to Series Overview](/pds/craft-pd-series/) · [← All Professional Development](/pds/)

@@ -60,16 +60,27 @@ Take computing out of the browser and into the physical world. This session uses
 
 **Track A — MakeCode+:** Extend your project with LED visualization, radio communication between micro:bits, or complex sensor logic. Push MakeCode to its limits.
 
-**Track B — MicroPython:** Convert your MakeCode project to Python using the micro:bit Python editor. Ask an LLM to translate your blocks, then verify it actually runs on your device.
+**Track B — MicroPython:** Convert your MakeCode project to Python using the [micro:bit Python editor](https://python.microbit.org). Ask an LLM to translate your blocks, then verify it actually runs on your device.
 
-## Focus Tags
+## Participant Takeaways
 
-`BBC micro:bit` · `Physical Computing` · `LLM-Assisted Coding`
+- BBC micro:bit V2 kit (yours to keep!)
+- MakeCode project files from all session activities
+- MicroPython starter scripts (equivalents for every MakeCode activity)
+- Sensor reference guide for all micro:bit V2 onboard sensors
+- NGSS alignment crosswalk (IoT activities mapped to performance expectations)
+- Customized IoT lesson template with student-facing CtM prompt
 
 ## Reframe Theme
 
 > "Coding is PHYSICAL, not just screens." — The micro:bit costs ~$15, runs on USB with no WiFi needed. LLMs help you write the code — the skill is knowing WHAT to ask and HOW to verify.
 
+## Focus Tags
+
+`BBC micro:bit` · `Physical Computing` · `LLM-Assisted Coding`
+
 ---
 
-[← Back to Series Overview]({{< ref "/pds/craft-pd-series" >}})
+**Other Workshops:** [Workshop 1: AI for STEM](/pds/craft-pd-series/workshop-1-ai-for-stem/) · [Workshop 2: Verifying AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/)
+
+[← Back to Series Overview](/pds/craft-pd-series/) · [← All Professional Development](/pds/)

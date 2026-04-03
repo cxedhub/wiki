@@ -10,7 +10,7 @@ grade_levels: ["K-2", "3-5", "6-8", "9-12"]
 
 ## About This Series
 
-Co-hosted by the **UCF DRACO Lab** (Dept. of Electrical & Computer Engineering) and the **UCF School of Teacher Education** (College of Community Innovation & Education), this series equips STEM teachers with practical skills for bringing AI and IoT into their classrooms.
+Co-hosted by the **UCF DRACO Lab** (Dept. of Electrical & Computer Engineering) and the **UCF School of Teacher Education** (College of Community Innovation & Education), University of Central Florida, this series equips STEM teachers with practical skills for bringing AI and IoT into their classrooms.
 
 Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a five-phase instructional framework where participants experience each phase firsthand and learn to apply it in their own teaching:
 
@@ -32,9 +32,9 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 | Date | Workshop | Resources |
 |------|----------|-----------|
-| April 11 | [Using AI for STEM: Lessons & More]({{< ref "/pds/craft-pd-series/workshop-1-ai-for-stem" >}}) | ...
-| April 18 | [Verifying STEM AI Outputs]({{< ref "/pds/craft-pd-series/workshop-2-verifying-outputs" >}}) | ...
-| April 25 | [Programming Edge/IoT Systems with AI]({{< ref "/pds/craft-pd-series/workshop-3-edge-iot" >}}) | ...
+| April 11 | [Using AI for STEM: Lessons & More](/pds/craft-pd-series/workshop-1-ai-for-stem/) | [Live Agenda](/pds/craft-pd-series/workshop-1-agenda.html) · [Slides](/pds/craft-pd-series/slides-w1.html) · [PPTX](/pds/craft-pd-series/Workshop-1-Slides.pptx) |
+| April 18 | [Verifying STEM AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) | [Live Agenda](/pds/craft-pd-series/workshop-2-agenda.html) · [Slides](/pds/craft-pd-series/slides-w2.html) · [PPTX](/pds/craft-pd-series/Workshop-2-Slides.pptx) |
+| April 25 | [Programming Edge/IoT Systems with AI](/pds/craft-pd-series/workshop-3-edge-iot/) | [Live Agenda](/pds/craft-pd-series/workshop-3-agenda.html) · [Slides](/pds/craft-pd-series/slides-w3.html) · [PPTX](/pds/craft-pd-series/Workshop-3-Slides.pptx) |
 
 ---
 
@@ -45,3 +45,7 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 - **Digital toolkit PDF** — One downloadable document per session
 - **Customized lesson** — NGSS-aligned template personalized during the session
 - **Workshop 3 bonus:** BBC micro:bit V2 hardware kit (yours to keep!)
+
+---
+
+[← All Professional Development](/pds/)

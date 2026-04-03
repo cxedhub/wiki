@@ -56,14 +56,23 @@ A reusable 4-step classroom verification framework from the CRAFT pedagogy:
 3. **After** — What the AI actually produced
 4. **Takeaway** — What the comparison reveals about the tool AND about your own understanding
 
-## Focus Tags
+## Participant Takeaways
 
-`Error Analysis` · `Check the Machine` · `Critical Thinking`
+- Check the Machine template (editable, customized for your grade level)
+- Content Audit Checklist for evaluating AI-generated explanations
+- AI Error Gallery with annotated examples across STEM subjects
+- Prompt library designed to generate verify-able outputs
 
 ## Reframe Theme
 
 > "The problem isn't that students USE AI — it's that they don't VERIFY AI." — Banning teaches avoidance; verification teaches engineering thinking.
 
+## Focus Tags
+
+`Error Analysis` · `Check the Machine` · `Critical Thinking`
+
 ---
 
-[← Back to Series Overview]({{< ref "/pds/craft-pd-series" >}})
+**Other Workshops:** [Workshop 1: AI for STEM](/pds/craft-pd-series/workshop-1-ai-for-stem/) · [Workshop 3: Edge/IoT with AI](/pds/craft-pd-series/workshop-3-edge-iot/)
+
+[← Back to Series Overview](/pds/craft-pd-series/) · [← All Professional Development](/pds/)
