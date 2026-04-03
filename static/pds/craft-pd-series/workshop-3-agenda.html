@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Agenda — Workshop 3: Programming Edge/IoT Systems with AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B2A4A; --ink-med: #2C4A6E; --ink-light: #5A7FA0;
+    --paper: #FAFBFE; --warm: #F7F5F0;
+    --gold: #D4A843; --gold-bg: #FFF8E7;
+    --red: #C0392B; --red-bg: #FDECEC;
+    --green: #27AE60; --green-bg: #E8F8F0;
+    --teal: #1ABC9C; --teal-bg: #E8FAF6;
+    --purple: #8E6BBF; --purple-bg: #F3EDF9;
+    --blue-bg: #E8F0FE;
+    --gray-100: #F5F5F5; --gray-200: #E8E8E8; --gray-400: #999; --gray-600: #666;
+    --do-color: #27AE60; --listen-color: #2E86AB; --break-color: #999;
+    --radius: 10px; --radius-sm: 6px;
+    --shadow-sm: 0 1px 3px rgba(27,42,74,0.06);
+    --shadow-md: 0 4px 16px rgba(27,42,74,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; font-size: 16px; -webkit-font-smoothing: antialiased; }
+  .page-header { background: var(--ink); color: #fff; padding: 32px 24px 28px; position: relative; overflow: hidden; }
+  .page-header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--green), var(--teal), var(--purple)); }
+  .header-inner { max-width: 800px; margin: 0 auto; }
+  .header-inner .ws-num { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.6; margin-bottom: 6px; }
+  .header-inner h1 { font-family: 'DM Serif Display', serif; font-size: 1.7rem; line-height: 1.2; margin-bottom: 6px; }
+  .header-inner .meta { font-size: 0.88rem; opacity: 0.7; }
+  .print-btn { position: absolute; top: 24px; right: 24px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-family: 'DM Sans', sans-serif; font-size: 0.78rem; font-weight: 500; padding: 6px 14px; border-radius: 6px; cursor: pointer; transition: all 0.2s; }
+  .print-btn:hover { background: rgba(255,255,255,0.25); }
+  .quick-links { max-width: 800px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .quick-links a { display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1px solid var(--gray-200); border-radius: 8px; padding: 8px 14px; font-size: 0.82rem; font-weight: 500; color: var(--ink-med); text-decoration: none; transition: all 0.2s; box-shadow: var(--shadow-sm); }
+  .quick-links a:hover { border-color: var(--teal); color: var(--teal); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+  .quick-links .ql-icon { font-size: 1rem; }
+  .hw-alert { max-width: 800px; margin: 0 auto; padding: 0 24px 16px; }
+  .hw-alert-box { background: var(--gold-bg); border: 1px solid var(--gold); border-radius: var(--radius-sm); padding: 14px 18px; font-size: 0.88rem; color: var(--ink); display: flex; gap: 10px; align-items: flex-start; }
+  .hw-alert-box .hw-icon { font-size: 1.3rem; flex-shrink: 0; }
+  .hw-alert-box strong { color: var(--ink); }
+  .hw-alert-box a { color: var(--teal); }
+  .ratio-bar { max-width: 800px; margin: 0 auto; padding: 0 24px 20px; }
+  .ratio-visual { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--gray-200); margin-bottom: 6px; }
+  .ratio-visual .listen-seg { background: var(--listen-color); }
+  .ratio-visual .do-seg { background: var(--do-color); }
+  .ratio-visual .break-seg { background: var(--gray-400); }
+  .ratio-label { display: flex; gap: 16px; font-size: 0.75rem; color: var(--gray-600); }
+  .ratio-label span { display: flex; align-items: center; gap: 4px; }
+  .ratio-label .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .timeline { max-width: 800px; margin: 0 auto; padding: 0 24px 60px; }
+  .time-block { display: grid; grid-template-columns: 72px 1fr; gap: 0; position: relative; margin-bottom: 2px; }
+  .time-block::before { content: ''; position: absolute; left: 71px; top: 0; bottom: 0; width: 3px; background: var(--gray-200); z-index: 0; }
+  .time-block:last-child::before { display: none; }
+  .tb-time { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; font-weight: 500; color: var(--ink-light); padding-top: 14px; text-align: right; padding-right: 16px; position: relative; z-index: 1; }
+  .tb-content { background: #fff; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); padding: 14px 18px; margin-bottom: 6px; margin-left: 12px; position: relative; z-index: 1; transition: transform 0.15s; }
+  .tb-content:hover { transform: translateX(2px); }
+  .tb-top { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+  .tb-badge { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 8px; border-radius: 3px; color: #fff; }
+  .tb-badge.do { background: var(--do-color); }
+  .tb-badge.listen { background: var(--listen-color); }
+  .tb-badge.break { background: var(--gray-400); }
+  .tb-badge.admin { background: var(--ink-light); }
+  .tb-phase { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 7px; border-radius: 3px; border: 1px solid; }
+  .tb-phase.c { color: var(--gold); border-color: var(--gold); background: var(--gold-bg); }
+  .tb-phase.r { color: var(--red); border-color: var(--red); background: var(--red-bg); }
+  .tb-phase.a { color: var(--green); border-color: var(--green); background: var(--green-bg); }
+  .tb-phase.f { color: var(--teal); border-color: var(--teal); background: var(--teal-bg); }
+  .tb-phase.t { color: var(--purple); border-color: var(--purple); background: var(--purple-bg); }
+  .tb-dur { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--gray-400); margin-left: auto; }
+  .tb-title { font-weight: 600; font-size: 0.95rem; }
+  .tb-desc { font-size: 0.85rem; color: var(--ink-med); margin-top: 4px; line-height: 1.55; }
+  .tb-desc strong { color: var(--ink); }
+  .tb-link { display: inline-flex; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--teal); text-decoration: none; font-weight: 500; margin-top: 6px; }
+  .tb-link:hover { text-decoration: underline; }
+  .tb-content.shade-do { border-left: 3px solid var(--do-color); }
+  .tb-content.shade-listen { border-left: 3px solid var(--listen-color); }
+  .tb-content.shade-break { border-left: 3px solid var(--gray-400); background: var(--gray-100); }
+  .tb-content.shade-admin { border-left: 3px solid var(--ink-light); background: var(--blue-bg); }
+  .track-split { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .track-box { border-radius: var(--radius-sm); padding: 10px 14px; font-size: 0.82rem; line-height: 1.5; }
+  .track-box.track-a { background: var(--green-bg); border: 1px solid #b5e8cc; }
+  .track-box.track-b { background: var(--purple-bg); border: 1px solid #d4c4e8; }
+  .track-box strong { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 3px; }
+  .page-footer { max-width: 800px; margin: 0 auto; padding: 0 24px 40px; text-align: center; font-size: 0.82rem; color: var(--gray-600); }
+  .page-footer a { color: var(--teal); text-decoration: none; }
+  @media print {
+    body { font-size: 11pt; background: #fff; }
+    .page-header { background: #fff !important; color: var(--ink) !important; padding: 16px 0; }
+    .page-header::after { display: none; }
+    .print-btn, .quick-links, .ratio-bar, .hw-alert { display: none !important; }
+    .tb-content { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .time-block::before { background: #ccc; }
+    .tb-content:hover { transform: none; }
+    .timeline { padding: 0; }
+  }
+  @media (max-width: 600px) {
+    .time-block { grid-template-columns: 1fr; }
+    .tb-time { text-align: left; padding: 8px 0 0 16px; }
+    .time-block::before { left: 6px; }
+    .tb-content { margin-left: 16px; }
+    .quick-links { flex-direction: column; }
+    .print-btn { position: static; margin-top: 12px; }
+    .track-split { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <button class="print-btn" onclick="window.print()">🖨 Print View</button>
+  <div class="header-inner">
+    <div class="ws-num">Workshop 03 · April 25, 2026</div>
+    <h1>Integrated STEM: Programming Edge/IoT Systems with&nbsp;AI</h1>
+    <div class="meta">8:30 AM – 12:00 PM PST · Virtual (with hardware kits) · CRAFT PD Series</div>
+  </div>
+</div>
+
+<div class="back-nav"><a href="/pds/craft-pd-series/">← Series Home</a><a href="workshop-1-agenda.html">Workshop 1</a><a href="workshop-2-agenda.html">Workshop 2</a><a href="slides-w3.html">View Slides →</a></div>
+<div class="quick-links">
+  <a href="#" target="_blank"><span class="ql-icon">📝</span> Pre-Survey</a>
+  <a href="https://makecode.microbit.org" target="_blank"><span class="ql-icon">🧩</span> MakeCode Editor</a>
+  <a href="https://python.microbit.org" target="_blank"><span class="ql-icon">🐍</span> micro:bit Python</a>
+  <a href="#" target="_blank"><span class="ql-icon">📂</span> Shared Google Doc</a>
+  <a href="#" target="_blank"><span class="ql-icon">🤖</span> Any LLM</a>
+  <a href="#" target="_blank"><span class="ql-icon">📄</span> IoT Lesson Template</a>
+  <a href="#" target="_blank"><span class="ql-icon">📊</span> Post-Survey</a>
+</div>
+
+<div class="hw-alert">
+  <div class="hw-alert-box">
+    <span class="hw-icon">📦</span>
+    <div><strong>Hardware check:</strong> You should have your BBC micro:bit V2, USB cable, and a working connection. Open <a href="https://makecode.microbit.org" target="_blank">makecode.microbit.org</a> and confirm you can flash a program. Having trouble? Join the <strong>Help Room</strong> breakout during setup or Break #1.</div>
+  </div>
+</div>
+
+<div class="ratio-bar">
+  <div class="ratio-visual">
+    <div class="listen-seg" style="flex:25"></div>
+    <div class="break-seg" style="flex:20"></div>
+    <div class="do-seg" style="flex:165"></div>
+  </div>
+  <div class="ratio-label">
+    <span><span class="dot" style="background:var(--listen-color)"></span> Facilitator-led (25 min)</span>
+    <span><span class="dot" style="background:var(--do-color)"></span> You're doing (165 min)</span>
+    <span><span class="dot" style="background:var(--gray-400)"></span> Breaks (20 min)</span>
+  </div>
+</div>
+
+<div class="timeline">
+
+  <div class="time-block">
+    <div class="tb-time">8:30</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-dur">10 min</span></div>
+      <div class="tb-title">Hardware Check + Icebreaker</div>
+      <div class="tb-desc"><strong>Hold your micro:bit up to the camera!</strong> While TAs verify everyone's connection, open MakeCode and flash the default "Hello" program to your micro:bit. If it works, you're golden. If not, join the Help Room breakout.</div>
+      <a class="tb-link" href="https://makecode.microbit.org" target="_blank">→ Open MakeCode</a>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:40</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top"><span class="tb-badge admin">Admin</span><span class="tb-dur">5 min</span></div>
+      <div class="tb-title">Pre-Survey</div>
+      <div class="tb-desc">Quick survey while the last hardware connections come online.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Pre-Survey</a>
+    </div>
+  </div>
+
+  <!-- CONTEXTUALIZE -->
+  <div class="time-block">
+    <div class="tb-time">8:45</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top"><span class="tb-badge listen">Listen</span><span class="tb-phase c">Contextualize</span><span class="tb-dur">5 min</span></div>
+      <div class="tb-title">CRAFT Orientation + Where IoT Lives</div>
+      <div class="tb-desc">Quick CRAFT intro (C→R→A→F→T). Then: IoT in the real world — smart farms, wearable health tech, traffic systems. Every phone in your pocket is an IoT device. Today you become the engineer who programs one.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:50</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase c">Contextualize</span><span class="tb-dur">8 min</span></div>
+      <div class="tb-title">Brainstorm: IoT in Your Subject</div>
+      <div class="tb-desc">In the shared doc: <strong>Name one real-world sensor or data-collection scenario that connects to a topic you teach.</strong> (Temperature in a greenhouse = biology. Accelerometer on a roller coaster = physics. Light sensor for accessibility = CS.) Star your favorite from someone else.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Shared Doc</a>
+    </div>
+  </div>
+
+  <!-- REFRAME -->
+  <div class="time-block">
+    <div class="tb-time">8:58</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase r">Reframe</span><span class="tb-dur">3 min</span></div>
+      <div class="tb-title">Poll: When You Hear "Coding"…</div>
+      <div class="tb-desc">What image comes to mind? (a) A dark screen with green text, (b) A kid in a robotics club, (c) Something I don't do, (d) Physical things happening. Vote!</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:01</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top"><span class="tb-badge listen">Listen</span><span class="tb-phase r">Reframe</span><span class="tb-dur">5 min</span></div>
+      <div class="tb-title">Coding Is Physical, Not Just Screens</div>
+      <div class="tb-desc">The reframe: computing is PHYSICAL. Sensors collect real data. Actuators change the real world. And LLMs can help you write the code — the skill is knowing what to ask for and how to verify.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:06</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase r">Reframe</span><span class="tb-dur">9 min</span></div>
+      <div class="tb-title">Breakout: What Stops You from Teaching with Hardware?</div>
+      <div class="tb-desc">In small groups: <strong>What's the #1 barrier to using physical computing in your classroom?</strong> (Cost? Time? Your own comfort? Curriculum fit?) Brainstorm one way the micro:bit + LLM combo addresses that barrier. Share out to whole group.</div>
+    </div>
+  </div>
+
+  <!-- BREAK 1 -->
+  <div class="time-block">
+    <div class="tb-time">9:15</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top"><span class="tb-badge break">Break</span><span class="tb-dur">10 min</span></div>
+      <div class="tb-title">Break #1</div>
+      <div class="tb-desc">Last chance for hardware troubleshooting — TAs in the Help Room breakout. Everyone else: stretch and make sure MakeCode is open and ready.</div>
+    </div>
+  </div>
+
+  <!-- ASSEMBLE -->
+  <div class="time-block">
+    <div class="tb-time">9:25</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top"><span class="tb-badge listen">Listen</span><span class="tb-phase a">Assemble</span><span class="tb-dur">10 min</span></div>
+      <div class="tb-title">I Do: First Sensor + LLM Assist</div>
+      <div class="tb-desc">Watch: we read the temperature sensor in MakeCode and display it on the LED matrix. Then we ask an LLM: "Write MakeCode pseudocode for displaying temperature on a micro:bit" — and compare its suggestion to what we built. Then we add the light sensor to the same program.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:35</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase a">Assemble</span><span class="tb-dur">15 min</span></div>
+      <div class="tb-title">Guided: Build Your First Sensor Program</div>
+      <div class="tb-desc"><strong>Replicate what you just saw:</strong> in MakeCode, read the temperature sensor and show it on the LED display. Got it working? <strong>Add the light sensor too.</strong> Feel free to ask an LLM for help — paste "How do I read the light level on a micro:bit in MakeCode?" and see what it says. Flash it to your micro:bit and test.</div>
+      <a class="tb-link" href="https://makecode.microbit.org" target="_blank">→ Open MakeCode</a>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:50</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase a">Assemble</span><span class="tb-dur">30 min</span></div>
+      <div class="tb-title">Breakout: Multi-Sensor Challenge</div>
+      <div class="tb-desc">In your group, build a program that combines <strong>2+ sensors</strong> and <strong>triggers an action</strong>. Ideas: LED alert when temperature is high AND light is low. Shake detector + compass for direction. Sound level + temperature for "classroom comfort index." <strong>Use an LLM to help write or debug your code.</strong> Document in the shared doc: what you asked the LLM, what it got right, what you fixed. Everyone programs their own micro:bit.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:20</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase a">Assemble</span><span class="tb-dur">25 min</span></div>
+      <div class="tb-title">Level Up: Choose Your Track</div>
+      <div class="tb-desc">
+        <div class="track-split">
+          <div class="track-box track-a"><strong>Track A: MakeCode+</strong>Extend your project: add data visualization on the LED matrix, radio communication between two micro:bits, or more complex sensor logic. Push MakeCode to its limits.</div>
+          <div class="track-box track-b"><strong>Track B: MicroPython</strong>Convert your MakeCode project to Python using the micro:bit Python editor. Ask an LLM: "Convert this MakeCode to MicroPython for micro:bit." Then verify it actually works on your device.</div>
+        </div>
+      </div>
+      <a class="tb-link" href="https://python.microbit.org" target="_blank">→ Open micro:bit Python Editor (Track B)</a>
+    </div>
+  </div>
+
+  <!-- BREAK 2 -->
+  <div class="time-block">
+    <div class="tb-time">10:45</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top"><span class="tb-badge break">Break</span><span class="tb-dur">10 min</span></div>
+      <div class="tb-title">Break #2 — Show &amp; Tell</div>
+      <div class="tb-desc">Post a photo or screenshot of your micro:bit doing something cool in the chat. Brag a little.</div>
+    </div>
+  </div>
+
+  <!-- FORTIFY -->
+  <div class="time-block">
+    <div class="tb-time">10:55</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top"><span class="tb-badge listen">Listen</span><span class="tb-phase f">Fortify</span><span class="tb-dur">5 min</span></div>
+      <div class="tb-title">Demo: Does Your Sensor Tell the Truth?</div>
+      <div class="tb-desc">Watch: we cover the light sensor — does the reading drop? Breathe on the temperature sensor — does it rise? Compare to a real thermometer. Something's off...</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:00</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase f">Fortify</span><span class="tb-dur">15 min</span></div>
+      <div class="tb-title">Experiment: Verify YOUR Sensor Data</div>
+      <div class="tb-desc"><strong>Run these tests on your micro:bit:</strong> (1) Cover the light sensor — does the value go to 0? (2) Put your thumb on the CPU — watch the temp rise. (3) Compare the temp reading to any thermometer you have. <strong>Apply the Check the Machine protocol:</strong> Task → Before (what I expected) → After (what I got) → Takeaway. The micro:bit temp sensor reads CPU heat, not ambient air — that's a real engineering calibration problem! Verification isn't just for AI — it's for ALL data.</div>
+    </div>
+  </div>
+
+  <!-- TRANSFER -->
+  <div class="time-block">
+    <div class="tb-time">11:15</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top"><span class="tb-badge listen">Listen</span><span class="tb-phase t">Transfer</span><span class="tb-dur">5 min</span></div>
+      <div class="tb-title">CRAFT Debrief: What Just Happened?</div>
+      <div class="tb-desc">Walk through today's session — every activity mapped to C→R→A→F→T. Plus: how all three workshops connect: AI co-pilot (#1) + verification (#2) + physical computing (#3) = your integrated STEM toolkit.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:20</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase t">Transfer</span><span class="tb-dur">18 min</span></div>
+      <div class="tb-title">Build: Your IoT Lesson for Monday</div>
+      <div class="tb-desc">Open the NGSS-aligned IoT lesson template. <strong>Customize it for YOUR classroom:</strong> (1) Pick your sensors. (2) Define the data collection task. (3) Write the student-facing Check the Machine prompt. (4) Note the NGSS standard it hits. Pair-share when done: <strong>"What's the first IoT lesson you're going to try?"</strong></div>
+      <a class="tb-link" href="#" target="_blank">→ Open IoT Lesson Template</a>
+    </div>
+  </div>
+
+  <!-- CLOSE -->
+  <div class="time-block">
+    <div class="tb-time">11:38</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-dur">10 min</span></div>
+      <div class="tb-title">Explore: Your Hardware Toolkit</div>
+      <div class="tb-desc">Browse your resources: MakeCode project files, MicroPython starters, sensor reference guide, NGSS alignment crosswalk. <strong>The micro:bit is yours — take it to your classroom.</strong></div>
+      <a class="tb-link" href="#" target="_blank">→ Google Drive Folder</a>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:48</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top"><span class="tb-badge admin">Admin</span><span class="tb-dur">12 min</span></div>
+      <div class="tb-title">Post-Survey &amp; Closing</div>
+      <div class="tb-desc">You just programmed a physical computer using AI as your co-pilot and verified the results like an engineer. Your students can do this too.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Post-Survey</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  <p>CRAFT PD Series · <a href="https://thedracolab.com">UCF DRACO Lab</a> &amp; <a href="https://ccie.ucf.edu/ste/">UCF School of Teacher Education</a> · Dr. Mike Borowczak &amp; Dr. Andrea Borowczak</p>
+</div>
+
+</body>
+</html>

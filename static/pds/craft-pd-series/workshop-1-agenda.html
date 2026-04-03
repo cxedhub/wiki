@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Agenda — Workshop 1: Using AI for STEM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B2A4A; --ink-med: #2C4A6E; --ink-light: #5A7FA0;
+    --paper: #FAFBFE; --warm: #F7F5F0;
+    --gold: #D4A843; --gold-bg: #FFF8E7;
+    --red: #C0392B; --red-bg: #FDECEC;
+    --green: #27AE60; --green-bg: #E8F8F0;
+    --teal: #1ABC9C; --teal-bg: #E8FAF6;
+    --purple: #8E6BBF; --purple-bg: #F3EDF9;
+    --blue-bg: #E8F0FE;
+    --gray-100: #F5F5F5; --gray-200: #E8E8E8; --gray-400: #999; --gray-600: #666;
+    --do-color: #27AE60; --listen-color: #2E86AB; --break-color: #999;
+    --radius: 10px; --radius-sm: 6px;
+    --shadow-sm: 0 1px 3px rgba(27,42,74,0.06);
+    --shadow-md: 0 4px 16px rgba(27,42,74,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; font-size: 16px; -webkit-font-smoothing: antialiased; }
+
+  /* ── HEADER ── */
+  .page-header {
+    background: var(--ink); color: #fff; padding: 32px 24px 28px;
+    position: relative; overflow: hidden;
+  }
+  .page-header::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--gold), var(--green), var(--teal));
+  }
+  .header-inner { max-width: 800px; margin: 0 auto; }
+  .header-inner .ws-num {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+    text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.6; margin-bottom: 6px;
+  }
+  .header-inner h1 { font-family: 'DM Serif Display', serif; font-size: 1.7rem; line-height: 1.2; margin-bottom: 6px; }
+  .header-inner .meta { font-size: 0.88rem; opacity: 0.7; }
+  .print-btn {
+    position: absolute; top: 24px; right: 24px;
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25);
+    color: #fff; font-family: 'DM Sans', sans-serif; font-size: 0.78rem; font-weight: 500;
+    padding: 6px 14px; border-radius: 6px; cursor: pointer; transition: all 0.2s;
+  }
+  .print-btn:hover { background: rgba(255,255,255,0.25); }
+
+  /* ── BACK NAV ── */
+  .back-nav { max-width: 800px; margin: 0 auto; padding: 12px 24px 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .back-nav a { font-size: 0.78rem; font-weight: 500; color: var(--ink-light); text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: all 0.2s; }
+  .back-nav a:hover { background: var(--blue-bg); color: var(--ink); }
+
+  /* ── QUICK LINKS ── */
+  .quick-links {
+    max-width: 800px; margin: 0 auto; padding: 20px 24px;
+    display: flex; flex-wrap: wrap; gap: 8px;
+  }
+  .quick-links a {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #fff; border: 1px solid var(--gray-200); border-radius: 8px;
+    padding: 8px 14px; font-size: 0.82rem; font-weight: 500;
+    color: var(--ink-med); text-decoration: none;
+    transition: all 0.2s; box-shadow: var(--shadow-sm);
+  }
+  .quick-links a:hover { border-color: var(--teal); color: var(--teal); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+  .quick-links .ql-icon { font-size: 1rem; }
+
+  /* ── RATIO BAR ── */
+  .ratio-bar {
+    max-width: 800px; margin: 0 auto; padding: 0 24px 20px;
+  }
+  .ratio-visual {
+    display: flex; height: 10px; border-radius: 5px; overflow: hidden;
+    background: var(--gray-200); margin-bottom: 6px;
+  }
+  .ratio-visual .listen-seg { background: var(--listen-color); }
+  .ratio-visual .do-seg { background: var(--do-color); }
+  .ratio-visual .break-seg { background: var(--gray-400); }
+  .ratio-label { display: flex; gap: 16px; font-size: 0.75rem; color: var(--gray-600); }
+  .ratio-label span { display: flex; align-items: center; gap: 4px; }
+  .ratio-label .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+  /* ── TIMELINE ── */
+  .timeline { max-width: 800px; margin: 0 auto; padding: 0 24px 60px; }
+
+  .time-block {
+    display: grid; grid-template-columns: 72px 1fr; gap: 0;
+    position: relative; margin-bottom: 2px;
+  }
+  .time-block::before {
+    content: ''; position: absolute; left: 71px; top: 0; bottom: 0;
+    width: 3px; background: var(--gray-200); z-index: 0;
+  }
+  .time-block:last-child::before { display: none; }
+
+  .tb-time {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; font-weight: 500;
+    color: var(--ink-light); padding-top: 14px; text-align: right; padding-right: 16px;
+    position: relative; z-index: 1;
+  }
+  .tb-content {
+    background: #fff; border: 1px solid var(--gray-200);
+    border-radius: var(--radius-sm); padding: 14px 18px;
+    margin-bottom: 6px; margin-left: 12px;
+    position: relative; z-index: 1;
+    transition: transform 0.15s;
+  }
+  .tb-content:hover { transform: translateX(2px); }
+
+  .tb-top { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+  .tb-badge {
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    padding: 2px 8px; border-radius: 3px; color: #fff;
+  }
+  .tb-badge.do { background: var(--do-color); }
+  .tb-badge.listen { background: var(--listen-color); }
+  .tb-badge.break { background: var(--gray-400); }
+  .tb-badge.admin { background: var(--ink-light); }
+
+  .tb-phase {
+    font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 2px 7px; border-radius: 3px; border: 1px solid;
+  }
+  .tb-phase.c { color: var(--gold); border-color: var(--gold); background: var(--gold-bg); }
+  .tb-phase.r { color: var(--red); border-color: var(--red); background: var(--red-bg); }
+  .tb-phase.a { color: var(--green); border-color: var(--green); background: var(--green-bg); }
+  .tb-phase.f { color: var(--teal); border-color: var(--teal); background: var(--teal-bg); }
+  .tb-phase.t { color: var(--purple); border-color: var(--purple); background: var(--purple-bg); }
+
+  .tb-dur {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+    color: var(--gray-400); margin-left: auto;
+  }
+  .tb-title { font-weight: 600; font-size: 0.95rem; }
+  .tb-desc { font-size: 0.85rem; color: var(--ink-med); margin-top: 4px; line-height: 1.55; }
+  .tb-desc strong { color: var(--ink); }
+  .tb-link {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 0.8rem; color: var(--teal); text-decoration: none;
+    font-weight: 500; margin-top: 6px;
+  }
+  .tb-link:hover { text-decoration: underline; }
+
+  /* row shading */
+  .tb-content.shade-do { border-left: 3px solid var(--do-color); }
+  .tb-content.shade-listen { border-left: 3px solid var(--listen-color); }
+  .tb-content.shade-break { border-left: 3px solid var(--gray-400); background: var(--gray-100); }
+  .tb-content.shade-admin { border-left: 3px solid var(--ink-light); background: var(--blue-bg); }
+
+  /* ── SECTION DIVIDER ── */
+  .section-divider {
+    grid-column: 1 / -1; text-align: center; padding: 20px 0 10px;
+    font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--ink-light);
+  }
+
+  /* ── FOOTER ── */
+  .page-footer {
+    max-width: 800px; margin: 0 auto; padding: 0 24px 40px;
+    text-align: center; font-size: 0.82rem; color: var(--gray-600);
+  }
+  .page-footer a { color: var(--teal); text-decoration: none; }
+
+  /* ── PRINT ── */
+  @media print {
+    body { font-size: 11pt; background: #fff; }
+    .page-header { background: #fff !important; color: var(--ink) !important; padding: 16px 0; }
+    .page-header::after { display: none; }
+    .print-btn, .quick-links, .ratio-bar { display: none !important; }
+    .tb-content { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .time-block::before { background: #ccc; }
+    .tb-content:hover { transform: none; }
+    .timeline { padding: 0; }
+    .page-footer { padding-top: 20px; }
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 600px) {
+    .time-block { grid-template-columns: 1fr; }
+    .tb-time { text-align: left; padding: 8px 0 0 16px; }
+    .time-block::before { left: 6px; }
+    .tb-content { margin-left: 16px; }
+    .quick-links { flex-direction: column; }
+    .print-btn { position: static; margin-top: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <button class="print-btn" onclick="window.print()">🖨 Print View</button>
+  <div class="header-inner">
+    <div class="ws-num">Workshop 01 · April 11, 2026</div>
+    <h1>Using AI for STEM: Lessons &amp; More</h1>
+    <div class="meta">8:30 AM – 12:00 PM PST · Virtual · CRAFT PD Series</div>
+  </div>
+</div>
+
+<div class="back-nav"><a href="/pds/craft-pd-series/">← Series Home</a><a href="workshop-2-agenda.html">Workshop 2</a><a href="workshop-3-agenda.html">Workshop 3</a><a href="slides-w1.html">View Slides →</a></div>
+<div class="quick-links">
+  <a href="#" target="_blank"><span class="ql-icon">📝</span> Pre-Survey</a>
+  <a href="#" target="_blank"><span class="ql-icon">📂</span> Shared Google Doc</a>
+  <a href="https://chat.openai.com" target="_blank"><span class="ql-icon">🤖</span> ChatGPT</a>
+  <a href="https://claude.ai" target="_blank"><span class="ql-icon">🤖</span> Claude</a>
+  <a href="https://gemini.google.com" target="_blank"><span class="ql-icon">🤖</span> Gemini</a>
+  <a href="#" target="_blank"><span class="ql-icon">📄</span> Lesson Template</a>
+  <a href="#" target="_blank"><span class="ql-icon">📊</span> Post-Survey</a>
+</div>
+
+<div class="ratio-bar">
+  <div class="ratio-visual">
+    <div class="listen-seg" style="flex:28"></div>
+    <div class="break-seg" style="flex:20"></div>
+    <div class="do-seg" style="flex:162"></div>
+  </div>
+  <div class="ratio-label">
+    <span><span class="dot" style="background:var(--listen-color)"></span> Facilitator-led (28 min)</span>
+    <span><span class="dot" style="background:var(--do-color)"></span> You're doing (162 min)</span>
+    <span><span class="dot" style="background:var(--gray-400)"></span> Breaks (20 min)</span>
+  </div>
+</div>
+
+<div class="timeline">
+
+  <!-- ═══ BLOCK 1: OPENING ═══ -->
+  <div class="time-block">
+    <div class="tb-time">8:30</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">Icebreaker: Drop It in Chat</div>
+      <div class="tb-desc">What's one thing you've tried with AI — or one thing you're curious about? No wrong answers.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:35</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">Pre-Survey</div>
+      <div class="tb-desc">Quick pre-survey while we get everyone settled.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Pre-Survey</a>
+    </div>
+  </div>
+
+  <!-- ═══ CONTEXTUALIZE ═══ -->
+  <div class="time-block">
+    <div class="tb-time">8:40</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase c">Contextualize</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">The CRAFT Cycle &amp; Where AI Lives</div>
+      <div class="tb-desc">Quick intro to the CRAFT framework (C→R→A→F→T) — today's session IS one, and you'll learn to build your own. Plus: where AI actually shows up in STEM careers right now.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:45</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase c">Contextualize</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Brainstorm: AI in Your World</div>
+      <div class="tb-desc">In the shared doc, add to the table: <strong>Where have you (or your students) encountered AI in a STEM context?</strong> Star anything that surprised you in someone else's entry. Be ready to share one highlight.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Shared Doc</a>
+    </div>
+  </div>
+
+  <!-- ═══ REFRAME ═══ -->
+  <div class="time-block">
+    <div class="tb-time">8:55</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase r">Reframe</span>
+        <span class="tb-dur">3 min</span>
+      </div>
+      <div class="tb-title">Poll: What Do You Believe About AI?</div>
+      <div class="tb-desc">Vote honestly — no judgment here. We'll look at the results together.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:58</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase r">Reframe</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">Myth-Busting: An Engineer's Take</div>
+      <div class="tb-desc">We'll look at the poll results and reframe the big myths. Spoiler: AI is a co-pilot, not an autopilot.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:03</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase r">Reframe</span>
+        <span class="tb-dur">12 min</span>
+      </div>
+      <div class="tb-title">Breakout: Your Biggest AI Concern</div>
+      <div class="tb-desc">In small groups, discuss: <strong>What's the #1 barrier to using AI in your classroom?</strong> (Admin policy? Student misuse? Your own comfort?) Capture the group's top concern and one possible reframe in the shared doc.</div>
+    </div>
+  </div>
+
+  <!-- ═══ BREAK 1 ═══ -->
+  <div class="time-block">
+    <div class="tb-time">9:15</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #1</div>
+      <div class="tb-desc">Stretch, refill coffee. Check chat for a terrible AI-generated STEM dad joke.</div>
+    </div>
+  </div>
+
+  <!-- ═══ ASSEMBLE ═══ -->
+  <div class="time-block">
+    <div class="tb-time">9:25</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">I Do: Prompt Engineering Demo</div>
+      <div class="tb-desc">Watch the same prompt entered into ChatGPT, Claude, and Gemini side-by-side. Pay attention to <strong>prompt anatomy</strong>: role, task, constraints, format. Notice what's different across platforms.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:35</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">15 min</span>
+      </div>
+      <div class="tb-title">Guided Practice: Your First Engineered Prompt</div>
+      <div class="tb-desc">Using the prompt template in the shared doc, write a prompt for YOUR subject and grade band. Enter it into any LLM. <strong>Paste the result into the shared doc</strong> and note: what's good, what's wrong, what's missing?</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Prompt Template</a>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:50</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Breakout: Cross-Platform Prompt Lab</div>
+      <div class="tb-desc">In your group, take the <strong>same base prompt</strong> and each enter it into a <strong>different</strong> LLM platform. Compare results in your group's shared doc section. Discuss: Which gave the most useful output? What did you have to fix? <strong>Prepare one "aha" and one "uh-oh" for share-out.</strong></div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:15</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">Share-Out: Ahas &amp; Uh-Ohs</div>
+      <div class="tb-desc">Each group shares their best "aha" and worst "uh-oh" from the cross-platform comparison.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:20</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Build: Customize Your Lesson Template</div>
+      <div class="tb-desc">Open the NGSS-aligned lesson template. Using your prompt engineering skills, <strong>populate it for your specific classroom</strong>. Use any LLM. TAs are circulating — flag us if you get stuck. <em>Finished early?</em> Try: differentiation tiers, rubric generation, or a parent communication draft.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Lesson Template</a>
+    </div>
+  </div>
+
+  <!-- ═══ BREAK 2 ═══ -->
+  <div class="time-block">
+    <div class="tb-time">10:45</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #2</div>
+      <div class="tb-desc">Browse the resource website while you stretch.</div>
+      <a class="tb-link" href="#" target="_blank">→ Resource Website</a>
+    </div>
+  </div>
+
+  <!-- ═══ FORTIFY ═══ -->
+  <div class="time-block">
+    <div class="tb-time">10:55</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase f">Fortify</span>
+        <span class="tb-dur">3 min</span>
+      </div>
+      <div class="tb-title">Setup: Side-by-Side AI Outputs</div>
+      <div class="tb-desc">Three platforms, one prompt — let's see what happened.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:58</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase f">Fortify</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">Spot the Difference: AI Output Audit</div>
+      <div class="tb-desc">Look at the displayed outputs. In the chat and shared doc, call out: <strong>factual errors, hallucinated standards, wrong grade levels, vague assessments, copy-paste filler.</strong> This is the engineering trust-but-verify mindset. Sneak preview: Workshop #2 goes deep on verification with the "Check the Machine" protocol.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:18</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase f">Fortify</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">Quick Audit: Your Own Lesson</div>
+      <div class="tb-desc">Go back to the lesson you built. <strong>Find one thing the AI got wrong or one thing you'd need to fix before using it.</strong> Note it in the shared doc.</div>
+    </div>
+  </div>
+
+  <!-- ═══ TRANSFER ═══ -->
+  <div class="time-block">
+    <div class="tb-time">11:23</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase t">Transfer</span>
+        <span class="tb-dur">5 min</span>
+      </div>
+      <div class="tb-title">CRAFT Debrief: What Just Happened?</div>
+      <div class="tb-desc">Let's walk through today's session and name each CRAFT phase as we experienced it. You just lived a C→R→A→F→T cycle.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:28</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-phase t">Transfer</span>
+        <span class="tb-dur">15 min</span>
+      </div>
+      <div class="tb-title">Design: Your Own CRAFT Lesson Sketch</div>
+      <div class="tb-desc">Pair up. <strong>In 10 minutes, sketch a rough lesson for your classroom that follows C→R→A→F→T.</strong> It doesn't have to be perfect — just map one idea per phase. Share your favorite phase with the whole group in the last 5 minutes.</div>
+    </div>
+  </div>
+
+  <!-- ═══ CLOSE ═══ -->
+  <div class="time-block">
+    <div class="tb-time">11:43</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">You Do</span>
+        <span class="tb-dur">7 min</span>
+      </div>
+      <div class="tb-title">Explore: Your Resource Kit</div>
+      <div class="tb-desc">Open the shared Drive folder and bookmark the resource website. Everything is yours: prompt library, lesson templates, platform comparison cheat sheet.</div>
+      <a class="tb-link" href="#" target="_blank">→ Google Drive Folder</a>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:50</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Post-Survey &amp; Closing</div>
+      <div class="tb-desc">You are now an AI-equipped STEM educator. Go break things and learn from them.</div>
+      <a class="tb-link" href="#" target="_blank">→ Open Post-Survey</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  <p>CRAFT PD Series · <a href="https://thedracolab.com">UCF DRACO Lab</a> &amp; <a href="https://ccie.ucf.edu/ste/">UCF School of Teacher Education</a> · Dr. Mike Borowczak &amp; Dr. Andrea Borowczak</p>
+</div>
+
+</body>
+</html>
