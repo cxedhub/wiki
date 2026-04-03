@@ -483,3 +483,138 @@ h2 { font-size: 1.5rem; margin: 2rem 0 1rem; }
   .filter-toggle-btn { display: inline-block; }
   body.filters-open { overflow: hidden; }
 }
+
+/* === Professional Development (PD) Section === */
+
+/* -- PD Landing Page -- */
+.pd-landing { padding-top: 2rem; padding-bottom: 3rem; }
+
+.pd-series-header { text-align: center; margin-bottom: 2rem; }
+
+.craft-cycle-visual { display: flex; gap: 0.5rem; justify-content: center; margin: 1rem 0; }
+.craft-letter {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; border-radius: var(--radius);
+  color: #fff; font-weight: 700; font-size: 1.25rem;
+  box-shadow: var(--shadow);
+}
+.craft-letter--sm { width: 32px; height: 32px; font-size: 0.9rem; }
+.craft-cycle-visual--sm { margin: 0.75rem 0; }
+
+.pd-series-meta { color: var(--color-text-muted); font-size: 0.95rem; }
+
+.pd-intro { max-width: 800px; margin: 0 auto 2rem; }
+.pd-intro h2 { text-align: center; }
+.pd-intro p { color: var(--color-text-muted); }
+.pd-intro ol { padding-left: 1.5rem; margin: 0.75rem 0; }
+.pd-intro ol li { margin-bottom: 0.35rem; }
+
+.pd-workshops-heading { text-align: center; margin-bottom: 1.5rem; }
+
+/* -- PD Card Grid -- */
+.pd-card-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+
+.pd-card {
+  position: relative; overflow: hidden;
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.pd-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+.pd-card-accent { height: 6px; width: 100%; }
+
+.pd-card-body { padding: 1.25rem; }
+
+.pd-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
+
+.pd-workshop-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  color: #fff; font-weight: 700; font-size: 0.85rem;
+  flex-shrink: 0;
+}
+.pd-workshop-badge--lg { width: 48px; height: 48px; font-size: 1.1rem; }
+
+.pd-card-date { color: var(--color-text-muted); font-size: 0.85rem; }
+
+.pd-card h3 { margin-bottom: 0.5rem; font-size: 1.15rem; }
+.pd-card h3 a { color: var(--color-text); }
+.pd-card h3 a:hover { color: var(--color-primary); text-decoration: none; }
+
+.pd-card .card-desc { color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 0.75rem; font-style: italic; }
+
+.pd-card-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.75rem; }
+.pd-focus-tag {
+  display: inline-block; padding: 0.2rem 0.6rem;
+  background: var(--color-bg); border: 1px solid var(--color-border);
+  border-radius: 999px; font-size: 0.78rem; color: var(--color-text-muted);
+}
+
+/* -- Talk:Do ratio bar -- */
+.pd-talk-do { margin-top: 0.5rem; }
+.pd-talk-do-bar {
+  height: 6px; background: var(--color-border); border-radius: 3px; overflow: hidden;
+}
+.pd-talk-do-fill { height: 100%; border-radius: 3px; transition: width 0.3s; }
+.pd-talk-do-label { font-size: 0.78rem; color: var(--color-text-muted); margin-top: 0.25rem; display: block; }
+
+.pd-talk-do--lg .pd-talk-do-bar { height: 10px; border-radius: 5px; margin-bottom: 0.5rem; }
+.pd-talk-do-legend { display: flex; gap: 1.25rem; font-size: 0.85rem; color: var(--color-text-muted); }
+.pd-legend-dot {
+  display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+  margin-right: 0.35rem; vertical-align: middle;
+}
+
+/* -- Cross-session takeaways -- */
+.pd-cross-takeaways {
+  max-width: 800px; margin: 3rem auto 0;
+  padding: 2rem; background: var(--color-surface);
+  border: 1px solid var(--color-border); border-radius: var(--radius);
+}
+.pd-cross-takeaways h2 { margin-top: 0; text-align: center; }
+.pd-cross-takeaways ul { padding-left: 1.5rem; }
+.pd-cross-takeaways li { margin-bottom: 0.5rem; }
+
+/* -- PD Detail (Single) Page -- */
+.pd-detail { padding-top: 0; padding-bottom: 3rem; max-width: 860px; }
+
+.pd-detail-accent { height: 8px; border-radius: var(--radius) var(--radius) 0 0; margin: 0 -1.5rem; }
+
+.pd-detail-header { margin: 2rem 0; }
+.pd-detail-top { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; }
+.pd-detail-meta { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.9rem; color: var(--color-text-muted); }
+.pd-detail-series { font-weight: 600; color: var(--color-text); }
+
+.pd-detail-tagline { font-size: 1.15rem; font-style: italic; color: var(--color-text-muted); margin: 0.75rem 0; }
+
+.pd-section { margin: 2rem 0; }
+.pd-section h2 { font-size: 1.3rem; margin-bottom: 0.75rem; }
+
+.pd-objectives-list, .pd-activities-list, .pd-takeaways-list {
+  padding-left: 1.5rem;
+}
+.pd-objectives-list li, .pd-activities-list li, .pd-takeaways-list li {
+  margin-bottom: 0.5rem; line-height: 1.5;
+}
+
+.pd-content { margin: 2rem 0; }
+.pd-content h2 { margin-top: 2rem; }
+.pd-content table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+.pd-content th, .pd-content td { padding: 0.5rem 0.75rem; border: 1px solid var(--color-border); text-align: left; }
+.pd-content th { background: var(--color-bg); font-weight: 600; }
+
+.pd-closing-quote {
+  margin: 2.5rem 0; padding: 1.25rem 1.5rem;
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-bg); border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 1.1rem; font-style: italic; color: var(--color-text);
+}
+
+.pd-detail-footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
+
+@media (max-width: 600px) {
+  .pd-card-grid { grid-template-columns: 1fr; }
+  .craft-letter { width: 36px; height: 36px; font-size: 1rem; }
+  .pd-detail-top { flex-direction: column; }
+}

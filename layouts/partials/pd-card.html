@@ -1,0 +1,38 @@
+{{ $number := printf "%02d" (.Params.workshop_number | int) }}
+{{ $accent := .Params.accent_color | default "#1ABC9C" }}
+{{ $gradColors := .Params.accent_gradient }}
+{{ $grad := "" }}
+{{ if $gradColors }}
+  {{ $grad = delimit $gradColors ", " }}
+{{ else }}
+  {{ $grad = $accent }}
+{{ end }}
+
+<div class="card pd-card">
+  <div class="pd-card-accent" style="background: linear-gradient(135deg, {{ $grad }});"></div>
+  <div class="pd-card-body">
+    <div class="pd-card-top">
+      <span class="pd-workshop-badge" style="background: {{ $accent }};">{{ $number }}</span>
+      <span class="pd-card-date">{{ .Date.Format "January 2, 2006" }}</span>
+    </div>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Description }}<p class="card-desc">{{ . }}</p>{{ end }}
+    <div class="pd-card-tags">
+      {{ range .Params.focus_tags }}
+        <span class="pd-focus-tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ with .Params.talk_minutes }}
+    {{ $talk := . }}
+    {{ $do := $.Params.do_minutes }}
+    {{ $total := add $talk $do }}
+    {{ $doPct := math.Round (mul (div (float $do) (float $total)) 100) }}
+    <div class="pd-talk-do">
+      <div class="pd-talk-do-bar">
+        <div class="pd-talk-do-fill" style="width: {{ $doPct }}%; background: {{ $accent }};"></div>
+      </div>
+      <span class="pd-talk-do-label">{{ int $doPct }}% hands-on</span>
+    </div>
+    {{ end }}
+  </div>
+</div>

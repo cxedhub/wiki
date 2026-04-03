@@ -1,0 +1,105 @@
+{{ define "main" }}
+{{ $accent := .Params.accent_color | default "#1ABC9C" }}
+{{ $number := printf "%02d" (.Params.workshop_number | int) }}
+{{ $gradColors := .Params.accent_gradient }}
+{{ $grad := "" }}
+{{ if $gradColors }}
+  {{ $grad = delimit $gradColors ", " }}
+{{ else }}
+  {{ $grad = $accent }}
+{{ end }}
+
+<article class="container pd-detail">
+  <div class="pd-detail-accent" style="background: linear-gradient(135deg, {{ $grad }});"></div>
+
+  <header class="pd-detail-header">
+    <div class="pd-detail-top">
+      <span class="pd-workshop-badge pd-workshop-badge--lg" style="background: {{ $accent }};">{{ $number }}</span>
+      <div class="pd-detail-meta">
+        <span class="pd-detail-series">{{ .Params.series }}</span>
+        <span class="pd-detail-date">{{ .Date.Format "January 2, 2006" }} &middot; {{ .Params.time }}</span>
+        <span class="pd-detail-delivery">{{ .Params.delivery }}</span>
+      </div>
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="pd-detail-tagline">{{ . }}</p>{{ end }}
+
+    <div class="craft-cycle-visual craft-cycle-visual--sm">
+      <span class="craft-letter craft-letter--sm" style="background: #D4A843;">C</span>
+      <span class="craft-letter craft-letter--sm" style="background: #C0392B;">R</span>
+      <span class="craft-letter craft-letter--sm" style="background: #27AE60;">A</span>
+      <span class="craft-letter craft-letter--sm" style="background: #1ABC9C;">F</span>
+      <span class="craft-letter craft-letter--sm" style="background: #8E6BBF;">T</span>
+    </div>
+
+    <div class="pd-card-tags">
+      {{ range .Params.focus_tags }}
+        <span class="pd-focus-tag">{{ . }}</span>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ with .Params.learning_objectives }}
+  <section class="pd-section">
+    <h2>Learning Objectives</h2>
+    <ul class="pd-objectives-list">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{ with .Params.key_activities }}
+  <section class="pd-section">
+    <h2>Key Activities</h2>
+    <ul class="pd-activities-list">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{ with .Params.talk_do_ratio }}
+  <section class="pd-section">
+    <h2>Talk:Do Ratio</h2>
+    <p>{{ . }}</p>
+    {{ $talk := $.Params.talk_minutes }}
+    {{ $do := $.Params.do_minutes }}
+    {{ if and $talk $do }}
+    {{ $total := add $talk $do }}
+    {{ $doPct := math.Round (mul (div (float $do) (float $total)) 100) }}
+    <div class="pd-talk-do pd-talk-do--lg">
+      <div class="pd-talk-do-bar">
+        <div class="pd-talk-do-fill" style="width: {{ $doPct }}%; background: {{ $accent }};"></div>
+      </div>
+      <div class="pd-talk-do-legend">
+        <span><span class="pd-legend-dot" style="background: {{ $accent }};"></span> Hands-on ({{ int $doPct }}%)</span>
+        <span><span class="pd-legend-dot" style="background: var(--color-border);"></span> Facilitator-led ({{ int (sub 100 $doPct) }}%)</span>
+      </div>
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ with .Params.takeaways }}
+  <section class="pd-section">
+    <h2>Participant Takeaways</h2>
+    <ul class="pd-takeaways-list">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  <div class="pd-content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.closing_quote }}
+  <blockquote class="pd-closing-quote" style="border-left-color: {{ $accent }};">
+    {{ . }}
+  </blockquote>
+  {{ end }}
+
+  <footer class="pd-detail-footer">
+    <a href="{{ "pds/" | relURL }}" class="back-link">&larr; Back to Professional Development</a>
+  </footer>
+</article>
+{{ end }}
