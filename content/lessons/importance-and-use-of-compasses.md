@@ -1,10 +1,7 @@
 ---
 title: Importance and use of compasses
-description: This lesson will probably take one block day, or 85-minute class. It
-  will be a hands-on activity filled class that involves looking at different compasses,
-  using a few different ones, and building their own on a micro bit. The lesson will
-  look at how revolutionary a technology it was when it was invented, and how it has
-  evolved over the years and the role it plays today.
+description: This lesson will probably take one block day, or 85-minute class. It will be a hands-on activity filled class that involves looking at different compasses, using a few different ones, and building
+  their own on a micro bit. The lesson will look at how revolutionary a technology it was when it was invented, and how it has evolved over the years and the role it plays today.
 date: '2021-11-29 00:00:00+00:00'
 draft: false
 author: Michelle Petty
@@ -17,12 +14,29 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: 8.CS.HS.01 and SS8.4.2
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  NCSS C3:
+  - D2.Geo.1.6-8
+  - D2.Geo.2.6-8
+  - D2.Geo.4.6-8
+  - D2.Geo.5.6-8
+  - D2.Geo.7.6-8
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: Do you want to build a robot
-description: Students will learn about robots, how to program a microbit and create
-  a microbit pet.
+description: Students will learn about robots, how to program a microbit and create a microbit pet.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -23,10 +22,36 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "Project-Based"
-- "Robotics"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- Robotics
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-DA-06
+  - 1B-DA-07
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 5.MD
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

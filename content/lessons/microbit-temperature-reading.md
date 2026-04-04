@@ -1,7 +1,6 @@
 ---
 title: Micro:bit Temperature Reading
-description: Students will program micro:bits to measure temperature readings in Celsius
-  and then convert to Fahrenheit either using a math conversion.
+description: Students will program micro:bits to measure temperature readings in Celsius and then convert to Fahrenheit either using a math conversion.
 date: '2023-03-13 00:00:00+00:00'
 draft: false
 author: Casey Harmon
@@ -19,11 +18,45 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: ESS2
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  CCSS Math:
+  - 6.EE
+  - 6.SP
+  - 7.G
+  NGSS:
+  - MS-ESS2-4
+  - MS-ESS2-5
+  - MS-ESS2-6
+  - MS-PS1-4
+  - MS-PS1-6
+  - MS-PS3-3
 materials: Website, Micro:bit, makecode.microbit.org
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

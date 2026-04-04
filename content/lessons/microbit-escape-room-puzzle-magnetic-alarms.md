@@ -1,10 +1,7 @@
 ---
 title: Microbit Escape Room Puzzle - Magnetic Alarms
-description: In this project, you and a partner will create an alarm that will go
-  off when a magnet is moved away from the microbit. In many escape rooms, magnetic
-  sensors are used to detect if certain objects are placed in the correct position.
-  To make our program easier to troubleshoot, we will have our microbit make a noise
-  when a magnet is moved close to it.
+description: In this project, you and a partner will create an alarm that will go off when a magnet is moved away from the microbit. In many escape rooms, magnetic sensors are used to detect if certain
+  objects are placed in the correct position. To make our program easier to troubleshoot, we will have our microbit make a noise when a magnet is moved close to it.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Taylor Plantt
@@ -20,8 +17,25 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit, Magnets, headphones, alligator clips
 tags:
-- "Game-Based"
-- "micro:bit"
+- Game-Based
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

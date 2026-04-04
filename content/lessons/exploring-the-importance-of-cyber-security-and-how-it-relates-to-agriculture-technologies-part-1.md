@@ -1,11 +1,7 @@
 ---
-title: Exploring the importance of Cyber Security and how it relates to Agriculture
-  Technologies - Part 1
-description: Students will understand the importance of cybersecurity in agricultural
-  technologies. Students will explore the potential risks and vulnerabilities associated
-  with agricultural technologies. Students will learn strategies and best practices
-  for ensuring cybersecurity in agricultural settings based on research from provided
-  article resources and classroom discussion.
+title: Exploring the importance of Cyber Security and how it relates to Agriculture Technologies - Part 1
+description: Students will understand the importance of cybersecurity in agricultural technologies. Students will explore the potential risks and vulnerabilities associated with agricultural technologies.
+  Students will learn strategies and best practices for ensuring cybersecurity in agricultural settings based on research from provided article resources and classroom discussion.
 date: '2023-07-13T15:14:14'
 draft: false
 author: Jessica Pastran
@@ -16,13 +12,21 @@ grade_levels:
 - 9-12
 cs_domains: []
 cs_principles: []
-standards: N/A
-materials: Website, https://www.bbc.com/news/science-environment-61336659 https://agamerica.com/blog/protecting-farm-technology-against-cybersecurity-threats/
-  https://www.croplife.com/management/the-need-for-greater-cybersecurity-in-u-s-food-and-agriculture/
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+materials: Website, https://www.bbc.com/news/science-environment-61336659 https://agamerica.com/blog/protecting-farm-technology-against-cybersecurity-threats/ https://www.croplife.com/management/the-need-for-greater-cybersecurity-in-u-s-food-and-agriculture/
   https://www.frontiersin.org/articles/10.3389/fbioe.2021.737927/full
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

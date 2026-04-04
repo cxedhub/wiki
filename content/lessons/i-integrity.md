@@ -1,7 +1,6 @@
 ---
 title: I = Integrity
-description: Students will locate, read and research articles from sources to better
-  understand using  credible sources for research.
+description: Students will locate, read and research articles from sources to better understand using  credible sources for research.
 date: '2023-07-13T21:13:11'
 draft: false
 author: Billie Rainey
@@ -18,13 +17,35 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - RI.7
+  - SL.7
+  NCSS C3:
+  - D2.His.2.6-8
 materials: Website, https://youtu.be/wRyamihhBvQ,
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

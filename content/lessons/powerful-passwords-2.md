@@ -1,10 +1,7 @@
 ---
 title: Powerful Passwords
-description: This activity teaches students the importance of creating a safe and
-  secure password. In addition, students will also get to learn how hackers or computers
-  can hack passwords. Students will be able to create their own password using a set
-  of guidelines. The passwords they create may be used for accessing their school
-  computers or websites.
+description: This activity teaches students the importance of creating a safe and secure password. In addition, students will also get to learn how hackers or computers can hack passwords. Students will
+  be able to create their own password using a set of guidelines. The passwords they create may be used for accessing their school computers or websites.
 date: '2022-11-27 00:00:00+00:00'
 draft: false
 author: Marisol Armstrong
@@ -21,8 +18,25 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags:
-- "Code.org"
-- "Web Design"
+- Code.org
+- Web Design
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

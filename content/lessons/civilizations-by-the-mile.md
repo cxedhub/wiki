@@ -1,12 +1,8 @@
 ---
 title: Civilizations by the mile
-description: Civilizations by the mile is a 6th grade social studies lesson with a
-  focus on comparing and contrasting the different lengths of roads and routes established
-  in different cultures. It could be used with any subset of cultures that travel
-  or even animal migrations (wildebeest, pronghorn, albatross, caribou etc.). This
-  lesson uses Roman and Inca cultures as well as the Silk Road and the Oregon trail.
-  We will compare lengths of roads by using a Microbit set up as a pedometer to measure
-  distance and number of steps.
+description: Civilizations by the mile is a 6th grade social studies lesson with a focus on comparing and contrasting the different lengths of roads and routes established in different cultures. It could
+  be used with any subset of cultures that travel or even animal migrations (wildebeest, pronghorn, albatross, caribou etc.). This lesson uses Roman and Inca cultures as well as the Silk Road and the Oregon
+  trail. We will compare lengths of roads by using a Microbit set up as a pedometer to measure distance and number of steps.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Wade Moore
@@ -23,10 +19,34 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-standards: SS8.4.3, SS8.5.1, SS8.5.2, SS8.5.3
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  CCSS Math:
+  - 6.SP
+  NCSS C3:
+  - D2.His.2.6-8
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

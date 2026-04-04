@@ -1,11 +1,8 @@
 ---
 title: Svalbaroi Water - The World's Most Expensive Water
-description: Using the Svalbarði Water - The most expensive water in the world as
-  a hook, students will produce a computational artifact communicating the amounts
-  and percentages of water and fresh water in various reservoirs to provide evidence
-  about the distribution of water on Earth (5.ESS2-2). Students will use Microsoft
-  Excel to create a data table and then a graph. This artifact will be analyzed to
-  answer questions about water availability and conservation.
+description: Using the Svalbarði Water - The most expensive water in the world as a hook, students will produce a computational artifact communicating the amounts and percentages of water and fresh water
+  in various reservoirs to provide evidence about the distribution of water on Earth (5.ESS2-2). Students will use Microsoft Excel to create a data table and then a graph. This artifact will be analyzed
+  to answer questions about water availability and conservation.
 date: '2022-07-16 00:00:00+00:00'
 draft: false
 author: Julie L. Calkins
@@ -21,12 +18,29 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 5-ESS2-2
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  NGSS:
+  - 3-LS4-1
+  - 4-ESS1-1
+  - 4-ESS2-1
+  - 5-ESS2-2
 materials: Website, iPads, Microsft Excel
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

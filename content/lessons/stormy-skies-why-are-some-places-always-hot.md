@@ -1,9 +1,7 @@
 ---
 title: 'Stormy Skies: Why are some places always hot?'
-description: In this lesson, students are introduced to the concept of “climate” and
-  explore the world’s five major climates. In the activity, Climate Decoder, students
-  color one part of a world map to figure out the different climates of that region.
-  Students then combine maps and search for global climate patterns.
+description: In this lesson, students are introduced to the concept of “climate” and explore the world’s five major climates. In the activity, Climate Decoder, students color one part of a world map to
+  figure out the different climates of that region. Students then combine maps and search for global climate patterns.
 date: '2022-09-15 00:00:00+00:00'
 draft: false
 author: Melissa Skinner
@@ -18,11 +16,27 @@ cs_domains:
 - Data Analysis
 materials: Website
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
+- National Core Arts
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  NGSS:
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
 ---
 # OVERVIEW
 ## Activity Overview:  

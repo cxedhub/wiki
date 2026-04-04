@@ -12,12 +12,31 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: 8.AP.M.01; FPA 8.1.A.3
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-5a
+  - ISTE-5c
+  National Core Arts:
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Re7
+  - VA:Re8
+  - VA:Re9
 materials: None, Website
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

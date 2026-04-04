@@ -1,7 +1,6 @@
 ---
 title: Input/Output what's it all about?
-description: Students will learn the definition of input/output as it relates to computing
-  and will use the Micro:bits to demonstrate various examples of inputs and outputs.
+description: Students will learn the definition of input/output as it relates to computing and will use the Micro:bits to demonstrate various examples of inputs and outputs.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Christy Rodgers
@@ -20,13 +19,44 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: CV8.5.3, CV8.5.4, ISTE 1.3
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 materials: Website, Micro:bit
 tags:
-- "Web Design"
-- "micro:bit"
+- Web Design
+- micro:bit
 standard_types:
-- "ISTE"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: Nursery Rhymes and Microbits Pt. 3
-description: This will be the end of this mini unit, students will present to their
-  classmates the nursery rhyme that they have coded on the microbits. While students
-  present their nursery rhyme, they will show the code working in real time. The microbits
-  should caption the nursery rhyme.
+description: This will be the end of this mini unit, students will present to their classmates the nursery rhyme that they have coded on the microbits. While students present their nursery rhyme, they will
+  show the code working in real time. The microbits should caption the nursery rhyme.
 date: '2022-09-06 00:00:00+00:00'
 draft: false
 author: Maggie Unterseher
@@ -18,10 +16,28 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
-standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - SL.9-10
 materials: Micro:bit, laptop, nursery rhymes
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

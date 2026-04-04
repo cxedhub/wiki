@@ -1,11 +1,8 @@
 ---
 title: Litter Hunt
-description: In this lesson, pupils develop their understanding of the micro:bit by
-  using the buttons and sensors on the device to make different images display. Pupils
-  are introduced to the concept of a variable to store data, then create a program
-  to alter the value of a variable using the buttons and sensors. Pupils go on to
-  create a ‘push the button’ game, where they race against another player to see who
-  can press the button the fastest.
+description: In this lesson, pupils develop their understanding of the micro:bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of
+  a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player
+  to see who can press the button the fastest.
 date: '2023-04-14 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -21,8 +18,25 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Micro:bit
 tags:
-- "Game-Based"
-- "micro:bit"
+- Game-Based
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7a
+  - ISTE-7b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

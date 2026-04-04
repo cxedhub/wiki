@@ -1,10 +1,7 @@
 ---
 title: Storm is Coming
-description: Students are getting ready to make make observations about the weather
-  for the next two weeks. To help with the observations, students will need to use
-  different weather symbols to communicate what the weather is. Students will use
-  a small computing device to follow simple algorithms to match a sky symbol. They
-  will then write and test their own algorithms to predict the cloud cover for tomorrow.
+description: Students are getting ready to make make observations about the weather for the next two weeks. To help with the observations, students will need to use different weather symbols to communicate
+  what the weather is. Students will use a small computing device to follow simple algorithms to match a sky symbol. They will then write and test their own algorithms to predict the cloud cover for tomorrow.
 date: '2022-08-14 00:00:00+00:00'
 draft: false
 author: Julie L. Calkins
@@ -17,12 +14,26 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-standards: K-ESS2-1
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  NGSS:
+  - K-ESS2-1
+  - K-ESS3-2
 materials: Blue-Bots, Bee-Bots, or Code and Go Mouse
 tags:
-- "Robotics"
+- Robotics
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

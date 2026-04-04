@@ -1,11 +1,8 @@
 ---
 title: Use Micro:bit to Gather Temperature Data
-description: This lesson is a part of a multi-day project where students build a small
-  structure designed to interfere with thermal transfer from a heat lamp to an ice
-  cube. This lesson is an application of knowledge gathered from prior lessons about
-  heat transfer. A micro:bit and an ice cube will be used inside the structure to
-  determine the amount of heat transfer interferences resulted. Students will compare
-  if the data from the ice cube or the micro:bit was a better measurement tool.
+description: This lesson is a part of a multi-day project where students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube. This lesson is an application
+  of knowledge gathered from prior lessons about heat transfer. A micro:bit and an ice cube will be used inside the structure to determine the amount of heat transfer interferences resulted. Students will
+  compare if the data from the ice cube or the micro:bit was a better measurement tool.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Amber Martines
@@ -18,15 +15,33 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-standards: 'WYO: MS-PS3-3; MS-ETS1-2; MS-ETS1-4; 8.CS.D.01; 8.CS.HS.01'
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7b
+  - ISTE-7c
+  NGSS:
+  - MS-PS1-4
+  - MS-PS1-6
+  - MS-PS3-1
+  - MS-PS3-2
+  - MS-PS3-3
+  - MS-PS3-5
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "Project-Based"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- micro:bit
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

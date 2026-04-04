@@ -1,13 +1,8 @@
 ---
 title: Introduction to Cybersecurity Hand Concepts
-description: 'This lesson will take two days to go over the 6 parts of the hand in
-  relation to cybersecurity. We will do a general overview then have instruction and
-  student work time for all of the 6 parts: Confidentiality (index), integrity (ring),
-  Availability (thumb), Think like an Adversary (middle), Keep it Simple (Pinky),
-  and Defense in Depth (Palm). Finally, at the end of the two days, we will wrap up
-  knowledge and allow students work time to finish any activities. For Part 1, we
-  will focus on Think like an Adversary (middle), Keep it Simple (Pinky), and Defense
-  in Depth (Palm).'
+description: 'This lesson will take two days to go over the 6 parts of the hand in relation to cybersecurity. We will do a general overview then have instruction and student work time for all of the 6 parts:
+  Confidentiality (index), integrity (ring), Availability (thumb), Think like an Adversary (middle), Keep it Simple (Pinky), and Defense in Depth (Palm). Finally, at the end of the two days, we will wrap
+  up knowledge and allow students work time to finish any activities. For Part 1, we will focus on Think like an Adversary (middle), Keep it Simple (Pinky), and Defense in Depth (Palm).'
 date: '2023-07-14T07:56:49'
 draft: false
 author: Ashley Gecewicz
@@ -24,11 +19,31 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS Math:
+  - HSS-ID
 materials: Website
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

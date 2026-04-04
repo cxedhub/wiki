@@ -1,8 +1,7 @@
 ---
 title: Cybersecurity - Secure Passwords
-description: Online Authentication often revolves around passwords. We will discuss
-  how to develop simple rules to create strong passwords. These rules are scalable
-  and can be used for all websites to achieve desired password strength.
+description: Online Authentication often revolves around passwords. We will discuss how to develop simple rules to create strong passwords. These rules are scalable and can be used for all websites to achieve
+  desired password strength.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Justin Hansen
@@ -19,13 +18,27 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-standards: NI.NCO / IC.SI / IC.SLE / SL.5.1
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  CCSS ELA:
+  - SL.5
 materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
 tags:
-- "Code.org"
-- "Cybersecurity"
+- Code.org
+- Cybersecurity
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

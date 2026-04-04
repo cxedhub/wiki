@@ -1,7 +1,6 @@
 ---
 title: Mindstorms and Hidden Figures
-description: Students will design a robot to orbit the moon in conjunction with their
-  ELA class reading the book Hidden Figures.
+description: Students will design a robot to orbit the moon in conjunction with their ELA class reading the book Hidden Figures.
 date: '2021-12-14 00:00:00+00:00'
 draft: false
 author: Jennifer LaVanchy
@@ -23,9 +22,36 @@ cs_principles:
 - Communicating About Computing
 materials: Lego Mindstorms (I am using the NXT version)
 tags:
-- "Robotics"
+- Robotics
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS ELA:
+  - SL.5
+  - SL.7
 ---
 # OVERVIEW
 ## Activity Overview:  

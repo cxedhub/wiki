@@ -1,9 +1,7 @@
 ---
 title: Weather Factors
-description: 'In this activity, students explore the three factors that affect weather:
-  precipitation, temperature, and wind. Students learn how meteorologists use weather
-  tools to collect data. They learn how to measure precipitation with a rain gauge
-  and how to measure temperature with a thermometer.'
+description: 'In this activity, students explore the three factors that affect weather: precipitation, temperature, and wind. Students learn how meteorologists use weather tools to collect data. They learn
+  how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.'
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Tara Taliaferro
@@ -18,14 +16,34 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
-standards: 3-ESS2-1, 3-ESS2-2, 3-ESS3-1, RI.3.1, 3.MD.G.2
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - L.5
+  - SL.5
+  CCSS Math:
+  - 5.G
+  - 5.MD
+  NGSS:
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
 materials: Website, Project Lead the Way Website
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "NGSS"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

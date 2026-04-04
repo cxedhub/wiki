@@ -1,8 +1,6 @@
 ---
 title: Cybersecurity Training part II
-description: How are devices that are not physically connected able to communicate?
-  micro:bits will be used to help students understand and demonstrate how devices
-  communicate with each other.
+description: How are devices that are not physically connected able to communicate? micro:bits will be used to help students understand and demonstrate how devices communicate with each other.
 date: '2023-07-14T12:55:10'
 draft: false
 author: Genel Jasmin
@@ -14,12 +12,19 @@ grade_levels:
 - 6-8
 cs_domains: []
 cs_principles: []
-standards: N/A
+standards:
+  CSTA:
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
 materials: Website, micro:bit, https://makecode.microbit.org/
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

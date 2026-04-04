@@ -1,10 +1,7 @@
 ---
 title: Modeling the Phases of the Moon
-description: In this lesson, students are introduced to computer science through the
-  use of Micro:bits to create a model of the lunar phases as seen on Earth. In order
-  to complete this lesson, students must already have an understanding of the phases
-  of the moon. Students do not need previous experience working with Micro:bits for
-  the lesson.
+description: In this lesson, students are introduced to computer science through the use of Micro:bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students
+  must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro:bits for the lesson.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Crystal Seeley
@@ -19,12 +16,34 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: NGSS MS-ESS1-1
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  NGSS:
+  - MS-ESS1-1
+  - MS-ESS1-2
+  - MS-ESS1-3
+  - MS-ESS1-4
+  - MS-ESS2-1
+  - MS-ESS2-2
+  - MS-PS1-4
+  - MS-PS1-6
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

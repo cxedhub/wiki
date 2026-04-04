@@ -1,8 +1,7 @@
 ---
 title: Can You Keep a Secret?
-description: Elementary students will be able to identify the meaning of "password".
-  Students will explain reasons why a strong password is important. Students will
-  create an example of a memorable and strong password.
+description: Elementary students will be able to identify the meaning of "password". Students will explain reasons why a strong password is important. Students will create an example of a memorable and
+  strong password.
 date: '2023-07-14T13:25:14'
 draft: false
 author: Phaedra Davila
@@ -19,12 +18,40 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-standards: BENCHMARK SC.K2.CS-PC.4.1 Explain that some information is private and
-  should not be shared
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.2
+  - SL.5
+  CCSS Math:
+  - 2.MD
+  - 4.MD
 materials: Website
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

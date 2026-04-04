@@ -1,7 +1,6 @@
 ---
 title: Creating a Gear Amusement Park
-description: Students will use peer collaboration, engineering, problem solving, &
-  reflection, when given a set of Funny Gears & Bricks, to design an amusement park.
+description: Students will use peer collaboration, engineering, problem solving, & reflection, when given a set of Funny Gears & Bricks, to design an amusement park.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Amber McClure
@@ -22,12 +21,39 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 2.CS.T.01, 2.DA.CVT.01, 2.AP.A.01
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - L.2
+  - SL.2
+  NGSS:
+  - K-2-ETS1-1
+  - K-2-ETS1-2
+  - K-2-ETS1-3
 materials: Funny Gears & Bricks Set
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: Internet Safe!
-description: Students will understand what it means to be an active, safe, and responsible
-  citizen when participating in an online community.
+description: Students will understand what it means to be an active, safe, and responsible citizen when participating in an online community.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -20,7 +19,27 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://beinternetawesome.withgoogle.com/en_us/interland/landing/reality-river
 tags:
-- "Cybersecurity"
+- Cybersecurity
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

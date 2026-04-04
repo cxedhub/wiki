@@ -1,9 +1,7 @@
 ---
 title: Intro to Coding a Microbit
-description: In this lesson the students will be introduced to the website MakeCode
-  with programing the microbit simulator. To start off, the students will stat with
-  the first tutorial called Flashing Heart. They can progress once each tutorial is
-  completed. Those students who need extra support can work at their own pace.
+description: In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will stat with the first tutorial called Flashing Heart.
+  They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
 date: '2022-12-13 00:00:00+00:00'
 draft: false
 author: Terri Flock
@@ -21,10 +19,38 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
-standards: NA
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.2
+  - SL.5
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

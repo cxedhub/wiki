@@ -1,8 +1,6 @@
 ---
 title: Radio Kindness
-description: Sharing and receiving kindness is a good way to support your well-being
-  and that of your friends. In this activity you will use the radio function of the
-  micro:bit to send a smile to a friend.
+description: Sharing and receiving kindness is a good way to support your well-being and that of your friends. In this activity you will use the radio function of the micro:bit to send a smile to a friend.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Anita Tope
@@ -26,7 +24,45 @@ cs_principles:
 - Communicating About Computing
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  NCSS C3:
+  - D2.His.2.3-5
+  - D2.His.2.K-2
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

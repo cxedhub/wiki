@@ -1,8 +1,6 @@
 ---
 title: Modeling the Solar System with a Micro:bit
-description: Use the micro:bit to create a kinesthetic model of the solar system.
-  Students will be given an example at the beginning and then be asked to make their
-  own.
+description: Use the micro:bit to create a kinesthetic model of the solar system. Students will be given an example at the beginning and then be asked to make their own.
 date: '2020-07-14 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
@@ -20,15 +18,41 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: MS-ESS1-3, 6.RP.A.3, 6.RP.A.1
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS Math:
+  - 6.SP
+  NGSS:
+  - MS-ESS1-1
+  - MS-ESS1-2
+  - MS-ESS1-3
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "Unplugged"
-- "micro:bit"
+- Data Collection
+- Unplugged
+- micro:bit
 standard_types:
-- "CCSS Math"
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,10 +1,7 @@
 ---
-title: How Information is Transferred Over the Internet and Internet/Database Research
-  Search Strategies
-description: This lesson introduces the process by which information is sent between
-  computers and networks as packets of binary code on the Internet, as well as how
-  to use effective Internet search strategies to enhance search efficiency, relevance,
-  and accuracy.
+title: How Information is Transferred Over the Internet and Internet/Database Research Search Strategies
+description: This lesson introduces the process by which information is sent between computers and networks as packets of binary code on the Internet, as well as how to use effective Internet search strategies
+  to enhance search efficiency, relevance, and accuracy.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Ron Chesmore
@@ -18,13 +15,28 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Developing and Using Abstractions
-standards: 'ISTE 3A: Students plan and employ effective research strategies to locate
-  information and other resources for their intellectual or creative pursuits'
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  CCSS ELA:
+  - RI.7
 materials: Website, YouTube educational videos, Kahoot quiz website
 tags: []
 standard_types:
-- "ISTE"
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

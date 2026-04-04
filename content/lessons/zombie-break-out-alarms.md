@@ -1,8 +1,6 @@
 ---
 title: Zombie Break Out Alarms
-description: Students will use Cublets to make an alarm through trial and error. They
-  will then write/draw the sequence of blocks they used and record their experience
-  in their journal/comic book.
+description: Students will use Cublets to make an alarm through trial and error. They will then write/draw the sequence of blocks they used and record their experience in their journal/comic book.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -23,7 +21,36 @@ cs_principles:
 materials: Cublet
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - SL.2
+  - SL.5
+  - SL.7
+  - W.2
+  - W.5
+  - W.7
 ---
 # OVERVIEW
 ## Activity Overview:  

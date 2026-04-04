@@ -1,8 +1,7 @@
 ---
 title: Digital Citizenship
-description: In todays lesson we will be exploring internet privacy and security.Students
-  learn how to protect personal information and gain a deeper understanding of their
-  data privacy rights so they can advocate for themselves and others.
+description: In todays lesson we will be exploring internet privacy and security.Students learn how to protect personal information and gain a deeper understanding of their data privacy rights so they can
+  advocate for themselves and others.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kailey Simms
@@ -14,15 +13,25 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: 5.NI.C.01 - Discuss real-world cybersecurity problems and how personal
-  information can be protected.
+standards:
+  CSTA:
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
 materials: Website, https://studio.code.org/s/coursed-2022/lessons/1
 tags:
-- "Code.org"
-- "Cybersecurity"
-- "Web Design"
+- Code.org
+- Cybersecurity
+- Web Design
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: 'Micro:bits: Sequencing'
-description: The students will use Micro:bit blocks to create the image of snow when
-  shaken. This will be done with sequences, repetition, planning, and debugging.
+description: The students will use Micro:bit blocks to create the image of snow when shaken. This will be done with sequences, repetition, planning, and debugging.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Ryan Olson
@@ -14,10 +13,29 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: NA
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
 materials: Website, https://makecode.microbit.org/
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

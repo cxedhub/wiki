@@ -1,11 +1,8 @@
 ---
 title: Phase Change Lab (Temperature and Particle Movement)
-description: The goal of this lesson is to recognize the relationship of thermal energy
-  and temperature. As thermal energy of water increases what happens to temperature
-  of water? Similarly, what happens to particle movement as thermal energy increases.
-  Students will utilize Micro:bits to create a timer that indicates time to collect
-  temperature data during lab. Students will need to refine Micro:bit code to make
-  timer more accurately represent time elapsed.
+description: The goal of this lesson is to recognize the relationship of thermal energy and temperature. As thermal energy of water increases what happens to temperature of water? Similarly, what happens
+  to particle movement as thermal energy increases. Students will utilize Micro:bits to create a timer that indicates time to collect temperature data during lab. Students will need to refine Micro:bit
+  code to make timer more accurately represent time elapsed.
 date: '2021-07-27 00:00:00+00:00'
 draft: false
 author: Crystal Seeley
@@ -20,13 +17,37 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: NGSS MS-PS1-4
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-ESS2-2
+  - MS-ESS2-4
+  - MS-PS1-4
+  - MS-PS1-6
+  - MS-PS3-1
+  - MS-PS3-2
+  - MS-PS3-3
+  - MS-PS3-5
 materials: Website, Micro:bit, https://makecode.microbit.org/_ipjfDDgLMDM8
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

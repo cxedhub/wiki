@@ -1,9 +1,7 @@
 ---
 title: Wax Museum Part 1
-description: In this lesson series, students will research ways that technology has
-  impacted the world. They can choose to research people or specific systems. After
-  their small projects are completed, students will have a chance to present their
-  project in a 'museum' fashion.
+description: In this lesson series, students will research ways that technology has impacted the world. They can choose to research people or specific systems. After their small projects are completed,
+  students will have a chance to present their project in a 'museum' fashion.
 date: '2021-07-01 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -19,13 +17,29 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-standards: CCSS.ELA-LITERACY.RI.3.7, CCSS.ELA-LITERACY.W.3.6, CCSS.ELA-LITERACY.W.3.7,
-  CCSS.ELA-LITERACY.W.3.2.B
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - RI.5
+  - SL.5
+  - W.5
 materials: None, Website
 tags:
-- "Unplugged"
+- Unplugged
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

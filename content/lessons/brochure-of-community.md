@@ -1,8 +1,7 @@
 ---
 title: Brochure of Community
-description: This is a research project of students community. After research is complete
-  students will compile data into a computational artifact to present. Students then
-  have a deeper understanding of their community.
+description: This is a research project of students community. After research is complete students will compile data into a computational artifact to present. Students then have a deeper understanding of
+  their community.
 date: '2020-11-12 00:00:00+00:00'
 draft: false
 author: Heidi Dicks
@@ -16,9 +15,28 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Creating Computational Artifacts
-standards: SS5.4
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  NCSS C3:
+  - D2.His.2.3-5
 materials: Website, Google Drive
 tags: []
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

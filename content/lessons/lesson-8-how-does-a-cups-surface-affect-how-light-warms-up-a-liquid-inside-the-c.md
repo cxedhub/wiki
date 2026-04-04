@@ -1,15 +1,9 @@
 ---
-title: 'Lesson 8: How does a cup’s surface affect how light warms up a liquid inside
-  the cup?'
-description: This is modified from OpenSciEd under the Creative Common 4.0 License.
-  We carry out an investigation to test the interaction between light and the cup
-  surface in warming up the cold water inside the cups. We shine light on cups with
-  walls of different materials and colors and measure the amount of incoming, reflected,
-  and transmitted light, and we also place some cups in a completely dark condition.
-  This is measured by a micro:bit programmed to measure light. We figure out that
-  the water in all the cups warms up, even cups in the dark condition, but it warms
-  up more in the cups in the light conditions. We wonder about additional mechanisms
-  by which the water inside the cups warms up.
+title: 'Lesson 8: How does a cup’s surface affect how light warms up a liquid inside the cup?'
+description: This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside
+  the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition.
+  This is measured by a micro:bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions.
+  We wonder about additional mechanisms by which the water inside the cups warms up.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Abby Slavens
@@ -27,13 +21,39 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-standards: MS-PS1-4, MS-PS3-3, MS-PS3-4, MS-PS3-5, MS-PS4-2, MS-ETS1-4
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  NGSS:
+  - HS-PS3-1
+  - HS-PS3-4
+  - HS-PS4-1
+  - HS-PS4-3
+  - HS-PS4-5
+  - MS-ESS2-2
+  - MS-ESS2-4
+  - MS-PS1-4
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

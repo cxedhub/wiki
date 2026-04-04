@@ -1,9 +1,7 @@
 ---
 title: Secrets Told!
-description: Kids love to talk in code so parents and teachers can't figure out what
-  they are saying. Enter the world of emojis and text acronyms such as "TBH" and "IDK."
-  The codes can (and have been) broken. The history behind code is long and intricate.
-  Below are examples of how code exists now and in the past.
+description: Kids love to talk in code so parents and teachers can't figure out what they are saying. Enter the world of emojis and text acronyms such as "TBH" and "IDK." The codes can (and have been) broken.
+  The history behind code is long and intricate. Below are examples of how code exists now and in the past.
 date: '2023-09-13T09:10:45'
 draft: false
 author: Holley Nichols
@@ -19,17 +17,35 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
-standards: 'MS: Contemporary Health: Unit 1: 3. Recognize the benefits of being a
-  wise consumer. MS: Contemporary Health: Unit 1: 4. Analyze the influence of culture,
-  media, technology, and other factors on health. MS: Contemporary Health: Unit 9:
-  1. Discuss promotion of safety. MS: 21st Century Skills: T2: Digital Citizenship:
-  Students recognize the rights, responsibilities, and opportunities of living, learning
-  and working in in an interconnected digital world, and they act and model in ways
-  that are safe, legal and ethical.'
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
+  - HS-ETS1-4
 materials: Website, Copy of True Whispers
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 ## OVERVIEW
 

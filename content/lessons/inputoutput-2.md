@@ -1,9 +1,7 @@
 ---
 title: Input/Output
-description: 'In this lesson students will be translating mathematical functions into
-  computer programming functions to solve. This can be used as an introductory lesson
-  before teaching equation solving. Note: students will need to have an understanding
-  of Javascript.'
+description: 'In this lesson students will be translating mathematical functions into computer programming functions to solve. This can be used as an introductory lesson before teaching equation solving.
+  Note: students will need to have an understanding of Javascript.'
 date: '2022-10-30 00:00:00+00:00'
 draft: false
 author: Kristy Barr
@@ -20,10 +18,30 @@ cs_principles:
 - Communicating About Computing
 materials: Javascript
 tags:
-- "Code.org"
-- "micro:bit"
+- Code.org
+- micro:bit
 standard_types:
-- "Wyoming CS"
+- CCSS Math
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS Math:
+  - 6.EE
+  - 7.EE
+  - 8.F
 ---
 # OVERVIEW
 ## Activity Overview:  

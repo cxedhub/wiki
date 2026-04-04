@@ -1,9 +1,7 @@
 ---
 title: Create Your Own Musical Code
-description: Different applications and disciplines often require knowledge of different
-  communication systems and the ability to make sense of and decode those systems.
-  Through this lesson students will create an original written code to communicate
-  musical information to a group of their peers.
+description: Different applications and disciplines often require knowledge of different communication systems and the ability to make sense of and decode those systems. Through this lesson students will
+  create an original written code to communicate musical information to a group of their peers.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Colin Botts
@@ -22,7 +20,34 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  National Core Arts:
+  - MU:Cr1
+  - MU:Cr2
+  - MU:Cr3
+  - MU:Pr4
+  - MU:Pr5
+  - MU:Pr6
+  - MU:Re7
+  - MU:Re8
+  - MU:Re9
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

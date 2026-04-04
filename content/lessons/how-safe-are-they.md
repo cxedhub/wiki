@@ -1,9 +1,7 @@
 ---
 title: How safe are they?
-description: Each group will be provided a different scenario regarding cyber security.
-  After analyzing the scenario, they will need to explain the dangers presented, potential
-  pitfalls, or things they would need to be concerned about as well as what ways they
-  can implement more security measures.
+description: Each group will be provided a different scenario regarding cyber security. After analyzing the scenario, they will need to explain the dangers presented, potential pitfalls, or things they
+  would need to be concerned about as well as what ways they can implement more security measures.
 date: '2023-07-13T14:57:41'
 draft: false
 author: Brian Axon
@@ -18,11 +16,32 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.9-10
 materials: None
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

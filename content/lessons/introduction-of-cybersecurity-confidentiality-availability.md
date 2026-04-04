@@ -14,11 +14,24 @@ grade_levels:
 cs_domains:
 - Networks and The Internet
 cs_principles: []
-standards: N/A
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  - 2-AP-17
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
 materials: Website
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

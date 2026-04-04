@@ -1,9 +1,7 @@
 ---
 title: For Loops
-description: Designed for students learning Java programming, that are beyond the
-  use of block code, the students will make a program that uses a for loop and be
-  able to explain what each component of the for loop does and the syntax of the for
-  loop in Java.
+description: Designed for students learning Java programming, that are beyond the use of block code, the students will make a program that uses a for loop and be able to explain what each component of the
+  for loop does and the syntax of the for loop in Java.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Selena Pope
@@ -20,11 +18,30 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: Wyoming Boot Up L1.AP.C.01, L1.AP.C.02, L1.AP.C.03
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
+  CCSS Math:
+  - HSS-ID
 materials: None, IDE
 tags: []
 standard_types:
-- "Wyoming CS"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

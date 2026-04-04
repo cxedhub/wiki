@@ -1,7 +1,6 @@
 ---
 title: Representing Information
-description: This lesson introduces the concept of sending bits of information from
-  one place to another.
+description: This lesson introduces the concept of sending bits of information from one place to another.
 date: '2021-08-01 00:00:00+00:00'
 draft: false
 author: James Winn
@@ -22,9 +21,24 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
-- "Data Collection"
-- "Project-Based"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- micro:bit
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

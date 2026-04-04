@@ -1,7 +1,6 @@
 ---
 title: Morphology through Cyber Security
-description: Students will identify and define words utilizing basic tenets of cyber
-  security.
+description: Students will identify and define words utilizing basic tenets of cyber security.
 date: '2023-07-14T11:46:13'
 draft: false
 author: Andrew Disney
@@ -15,17 +14,32 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: 'ELA.9.V.1.2: Apply knowledge of etymology and derivations to determine
-  meanings of words and phrases in grade-level content.  ELA.9.V.1.3: Apply knowledge
-  of context clues, figurative language, word relationships, reference materials,
-  and/or background knowledge to determine the connotative and denotative meaning
-  of words and phrases, appropriate to grade level.'
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - L.9-10
+  - SL.9-10
 materials: Website
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

@@ -1,9 +1,7 @@
 ---
 title: Microbit Basic Multiplication and Division
-description: Students will create an online microbit “project” about basic multiplication
-  and array’s. The project will focus on one multiplication, division, and array equation.
-  This lesson will be a great introduction to students just learning to become fluent
-  with their multiplication and division math facts.
+description: Students will create an online microbit “project” about basic multiplication and array’s. The project will focus on one multiplication, division, and array equation. This lesson will be a great
+  introduction to students just learning to become fluent with their multiplication and division math facts.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -19,13 +17,31 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-standards: 'Operations and Algebraic Thinking: 3.OA.A.1, 3.OA.A.2, 3.OA.A.3'
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 5.OA
 materials: Website, Micro:bit
 tags:
-- "Unplugged"
-- "micro:bit"
+- Unplugged
+- micro:bit
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

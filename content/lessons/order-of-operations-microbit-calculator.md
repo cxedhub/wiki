@@ -1,8 +1,7 @@
 ---
 title: 'Order of Operations MICRO: BIT Calculator'
-description: Students will learn how to solve expressions with order of operations
-  Students will practice solving expressions using order of operations. Check their
-  correctness using a created virtual/physical Micro:bit calculator.
+description: Students will learn how to solve expressions with order of operations Students will practice solving expressions using order of operations. Check their correctness using a created virtual/physical
+  Micro:bit calculator.
 date: '2020-11-20 00:00:00+00:00'
 draft: false
 author: Timothy George
@@ -14,11 +13,26 @@ grade_levels:
 cs_domains:
 - Computing Systems
 - Algorithms and Programming
-standards: 5.0a.1  Use parentheses, brackets, or braces in numerical expressions,
-  and evaluate expressions with these symbols
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  CCSS Math:
+  - 5.OA
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

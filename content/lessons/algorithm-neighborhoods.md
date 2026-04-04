@@ -1,9 +1,7 @@
 ---
 title: Algorithm Neighborhoods
-description: These interdisciplinary lessons encompass standards across Computer Science,
-  Language Arts, Social Studies, and Mathematics. Students learn about maps, coordinates,
-  and directions, then create a map. They will then challenge friends to write algorithms
-  to help Dash navigate the neighborhood.
+description: These interdisciplinary lessons encompass standards across Computer Science, Language Arts, Social Studies, and Mathematics. Students learn about maps, coordinates, and directions, then create
+  a map. They will then challenge friends to write algorithms to help Dash navigate the neighborhood.
 date: '2020-11-18 00:00:00+00:00'
 draft: false
 author: Krista Sweckard
@@ -24,7 +22,38 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Dash Robot by Wonder, Blockly app (Wonder) or other robot.
 tags:
-- "Robotics"
+- Robotics
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS ELA:
+  - L.2
+  - RL.2
+  - SL.2
+  CCSS Math:
+  - 2.G
+  NCSS C3:
+  - D2.Geo.1.K-2
+  - D2.Geo.2.K-2
+  - D2.Geo.4.K-2
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

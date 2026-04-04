@@ -1,11 +1,8 @@
 ---
 title: Terrific Temperatures
-description: This lesson is part of a larger unit by PhD science that explores weather
-  and climate. This lesson is the beginning of a 3 lesson arc. The students will collect
-  data on the average temperature for a given month. The student will record that
-  data in a graphical format. The class will compile the temperature data into a graphical
-  display for the purpose of noticing changes in average monthly temperatures and
-  making predictions based on those patterns.
+description: This lesson is part of a larger unit by PhD science that explores weather and climate. This lesson is the beginning of a 3 lesson arc. The students will collect data on the average temperature
+  for a given month. The student will record that data in a graphical format. The class will compile the temperature data into a graphical display for the purpose of noticing changes in average monthly
+  temperatures and making predictions based on those patterns.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Crystal Graf
@@ -16,14 +13,24 @@ grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
-standards: 3-ESS2-1, MP.4, MP.3
-materials: printer, computer for student use, projector for teacher use with a computer
-  connected
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  NGSS:
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
+materials: printer, computer for student use, projector for teacher use with a computer connected
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS Math"
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

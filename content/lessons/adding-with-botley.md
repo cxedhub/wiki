@@ -1,8 +1,7 @@
 ---
 title: Adding with Botley
-description: In this lesson, students will be using simple addition problems to code
-  Botley. This is a great way to bring addition to the classroom as well as enrich
-  the concept. The lesson can be done whole group, with partners or independently.
+description: In this lesson, students will be using simple addition problems to code Botley. This is a great way to bring addition to the classroom as well as enrich the concept. The lesson can be done
+  whole group, with partners or independently.
 date: '2020-07-10 00:00:00+00:00'
 draft: false
 author: Heidi Dicks
@@ -15,12 +14,25 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-standards: Math- K.OA.D.5
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - 2.OA
 materials: Botley Robots
 tags:
-- "Robotics"
+- Robotics
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

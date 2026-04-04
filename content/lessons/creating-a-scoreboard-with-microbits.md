@@ -1,7 +1,6 @@
 ---
 title: Creating a Scoreboard with Microbits
-description: Create a scoreboard you can use with your microbit. Create a program
-  that you can use to keep score with your games.
+description: Create a scoreboard you can use with your microbit. Create a program that you can use to keep score with your games.
 date: '2023-03-12 00:00:00+00:00'
 draft: false
 author: Ryan Olson
@@ -14,10 +13,27 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: CS.HS, AP.A, AP.C
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: Is data for the Birds?
-description: Students will program a Micro:bit and as a species counter, and to log
-  the data that is collected. Then they will analyze the data collected and work to
-  identify factors that may affect the data - eg time of day, time of year, weather
-  conditions.
+description: Students will program a Micro:bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the
+  data - eg time of day, time of year, weather conditions.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Jeff Kitterman
@@ -22,8 +20,31 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  NGSS:
+  - MS-ESS2-4
+  - MS-ESS2-5
+  - MS-ESS2-6
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

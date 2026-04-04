@@ -1,9 +1,7 @@
 ---
 title: 'Microbit Music: Debugging'
-description: This lesson will provide students with the opportunity to debug computer
-  code. Students will be provided with the necessary code blocks, but will have to
-  identify, duplicate, and rearrange them for the program to run properly and for
-  the music to play correctly.
+description: This lesson will provide students with the opportunity to debug computer code. Students will be provided with the necessary code blocks, but will have to identify, duplicate, and rearrange
+  them for the program to run properly and for the music to play correctly.
 date: '2021-11-18 00:00:00+00:00'
 draft: false
 author: Colin Botts
@@ -20,7 +18,29 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit, Chromebook
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  National Core Arts:
+  - MU:Cr1
+  - MU:Cr2
+  - MU:Pr4
+  - MU:Pr5
+  - MU:Pr6
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

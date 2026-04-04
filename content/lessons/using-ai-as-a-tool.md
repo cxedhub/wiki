@@ -1,7 +1,6 @@
 ---
 title: Using AI As A Tool
-description: Students will learn about the potential of AI as a tool and how it can
-  be used to enhance various tasks.
+description: Students will learn about the potential of AI as a tool and how it can be used to enhance various tasks.
 date: '2023-07-15T20:51:03'
 draft: false
 author: Stephen Callum
@@ -15,11 +14,28 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  NCSS C3:
+  - D2.His.2.9-12
 materials: Website, ChatGPT
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

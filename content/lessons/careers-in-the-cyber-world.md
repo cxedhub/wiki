@@ -1,9 +1,7 @@
 ---
 title: Careers in the Cyber World
-description: This lesson is a brief overview of the 6 pillars of cybersecurity and
-  the of careers that are available for students after high school/college in the
-  cyber-domain.  The students will have the opportunity to research a possible career
-  and answer some questions about that position.
+description: This lesson is a brief overview of the 6 pillars of cybersecurity and the of careers that are available for students after high school/college in the cyber-domain.  The students will have the
+  opportunity to research a possible career and answer some questions about that position.
 date: '2023-07-13T14:25:48'
 draft: false
 author: Tina Simpson
@@ -15,12 +13,22 @@ grade_levels:
 cs_domains:
 - Networks and The Internet
 cs_principles: []
-standards: 'MS College and Career Readiness: Unit 5: Preparing for a Career and Internship'
-materials: Website, https://www.sans.org/ , https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt6b6beaf55a366a55/Poster_Coolest-Careers_v0322.pdf
-  ,https://www.coursera.org/professional-certificates/google-cybersecurity
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+materials: Website, https://www.sans.org/ , https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt6b6beaf55a366a55/Poster_Coolest-Careers_v0322.pdf ,https://www.coursera.org/professional-certificates/google-cybersecurity
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

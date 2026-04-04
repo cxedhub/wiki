@@ -1,8 +1,6 @@
 ---
 title: Shark Tank
-description: Students will design an application to solve a problem that exists in
-  'their world'. They will need to create something that is unique and marketable,
-  and then present to a selected panel.
+description: Students will design an application to solve a problem that exists in 'their world'. They will need to create something that is unique and marketable, and then present to a selected panel.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Shirley Johns
@@ -20,7 +18,41 @@ cs_domains:
 - Impacts of Computing
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  CCSS Math:
+  - 6.SP
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

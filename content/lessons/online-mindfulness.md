@@ -1,9 +1,7 @@
 ---
 title: Online Mindfulness
-description: On the internet, students interact with websites, peers, and strangers
-  throughout the day. With that said, students must be very careful about what they
-  share and what information they give out. Information travels fast along the internet.
-  Be mindful of what you say or post.
+description: On the internet, students interact with websites, peers, and strangers throughout the day. With that said, students must be very careful about what they share and what information they give
+  out. Information travels fast along the internet. Be mindful of what you say or post.
 date: '2022-08-12 00:00:00+00:00'
 draft: false
 author: Jonathan Broersma
@@ -18,7 +16,20 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 materials: Website
 tags:
-- "Cybersecurity"
+- Cybersecurity
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

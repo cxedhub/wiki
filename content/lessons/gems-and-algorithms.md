@@ -1,9 +1,7 @@
 ---
 title: GEMS and Algorithms
-description: In this lesson students will engage in discussion about whether order
-  matters. Students will write the steps to their favorite recipe and share out to
-  see if they work. They will then be introduced to GEMS. Finally, students will complete
-  the sequencing lessons on code.org.
+description: In this lesson students will engage in discussion about whether order matters. Students will write the steps to their favorite recipe and share out to see if they work. They will then be introduced
+  to GEMS. Finally, students will complete the sequencing lessons on code.org.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Mandy Sewell
@@ -20,10 +18,28 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, code.org- course D sequencing
 tags:
-- "Code.org"
+- Code.org
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  CCSS ELA:
+  - SL.5
+  CCSS Math:
+  - 5.G
+  - 5.OA
 ---
 # OVERVIEW
 ## Activity Overview:  

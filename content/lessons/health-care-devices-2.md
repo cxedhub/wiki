@@ -1,9 +1,7 @@
 ---
 title: Health Care Devices
-description: In this lesson students are reminded about the ever growing uses of technology
-  devices within the healthcare profession, and how technology addresses many of the
-  largest health issues we face. Students will brainstorm and program a device to
-  address a real-world healthcare problem, of their choice.
+description: In this lesson students are reminded about the ever growing uses of technology devices within the healthcare profession, and how technology addresses many of the largest health issues we face.
+  Students will brainstorm and program a device to address a real-world healthcare problem, of their choice.
 date: '2021-07-29 00:00:00+00:00'
 draft: false
 author: Sarah Jarvis
@@ -21,10 +19,27 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-6c
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
 ---
 # OVERVIEW
 ## Activity Overview:  

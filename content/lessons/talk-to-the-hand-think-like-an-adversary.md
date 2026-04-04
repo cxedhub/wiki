@@ -1,8 +1,7 @@
 ---
 title: TALK TO THE HAND – THINK LIKE AN ADVERSARY
-description: In this lesson, future CyberSecurity specialists (aka students) will
-  develop a CyberSecurity handbook where they will explore six vital CyberSecurity
-  concepts utilizing the HAND mnemonic learning method.
+description: In this lesson, future CyberSecurity specialists (aka students) will develop a CyberSecurity handbook where they will explore six vital CyberSecurity concepts utilizing the HAND mnemonic learning
+  method.
 date: '2023-07-14T14:12:59'
 draft: false
 author: Lorraine Grice
@@ -15,12 +14,26 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
 materials: Website, micro:bit, HANDbook
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

@@ -1,8 +1,7 @@
 ---
 title: Microbit Basics
-description: This is an introductory lesson that I used with my 5th & 6th grade students.
-  This lesson introduces students to basic programming on a microbit. Students will
-  then use this basics course to create games using microbits.
+description: This is an introductory lesson that I used with my 5th & 6th grade students. This lesson introduces students to basic programming on a microbit. Students will then use this basics course to
+  create games using microbits.
 date: '2023-03-02 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -20,7 +19,22 @@ cs_principles:
 - Communicating About Computing
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

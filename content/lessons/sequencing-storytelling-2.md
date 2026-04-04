@@ -1,8 +1,7 @@
 ---
 title: Sequencing-Storytelling
-description: This lesson, as adapted and written, is for middle school students in
-  the library setting. Students will explore algorithms to perform simple tasks. Then
-  they will explore online coding tools in order to retell a story.
+description: This lesson, as adapted and written, is for middle school students in the library setting. Students will explore algorithms to perform simple tasks. Then they will explore online coding tools
+  in order to retell a story.
 date: '2023-04-23 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -21,13 +20,31 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, https://studio.code.org/projects/spritelab/aDA-0v8O5PnRhUw2llrxn4Cz6c1_FJwuNc99vLJ0Oqw/edit
 tags:
-- "Code.org"
-- "Robotics"
-- "Scratch"
+- Code.org
+- Robotics
+- Scratch
 standard_types:
-- "CCSS ELA"
-- "NGSS"
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
+  CCSS ELA:
+  - L.7
+  - RL.7
+  - SL.7
 ---
 # OVERVIEW
 ## Activity Overview:  

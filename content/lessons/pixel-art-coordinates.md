@@ -1,7 +1,6 @@
 ---
 title: Pixel Art Coordinates
-description: Students use Google Sheets to create a drawing and plot the corresponding
-  ordered pairs that they used in their creation.
+description: Students use Google Sheets to create a drawing and plot the corresponding ordered pairs that they used in their creation.
 date: '2021-07-01 00:00:00+00:00'
 draft: false
 author: Ryan Martinez
@@ -15,12 +14,31 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-standards: Math 5.G.J.1
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  CCSS Math:
+  - 4.MD
+  - 6.SP
 materials: Website, https://docs.google.com/spreadsheets/d/1ozv_zDwCOTOXf0uYI13QfRlfuXQ88l48aFRrpL9-IxY/edit?usp=sharing
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: Controlled Collaboration
-description: Introduce your students to shared document norms while also identifying
-  main ideas and text structures.
+description: Introduce your students to shared document norms while also identifying main ideas and text structures.
 date: '2023-04-26 00:00:00+00:00'
 draft: false
 author: Marisol Armstrong
@@ -16,9 +15,27 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: 5.W.6, 5.RI.2, 5.RI.5
+standards:
+  CSTA:
+  - 1B-AP-09
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - RI.5
+  - SL.5
 materials: Website
 tags: []
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

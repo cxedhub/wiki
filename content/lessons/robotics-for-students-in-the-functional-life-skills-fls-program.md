@@ -1,13 +1,8 @@
 ---
 title: Robotics for Students in the Functional Life Skills (FLS) Program
-description: As the library exists to offer an inclusive space for everyone, this
-  lesson is geared toward giving students with complex needs in a Functional Life
-  Skills (FLS) class the opportunity to explore coding and robotics. Students will
-  read an ebook about robots and 3-D shapes. Then they will build models and discuss
-  uses for robots. Then they use coding and robotic tools such as an Osmo coding apparatus
-  on their iPad to code a virtual robot or a Sphero and its accompanying coding app.
-  Students shall also have the opportunity to build robots from kits and present their
-  projects.
+description: As the library exists to offer an inclusive space for everyone, this lesson is geared toward giving students with complex needs in a Functional Life Skills (FLS) class the opportunity to explore
+  coding and robotics. Students will read an ebook about robots and 3-D shapes. Then they will build models and discuss uses for robots. Then they use coding and robotic tools such as an Osmo coding apparatus
+  on their iPad to code a virtual robot or a Sphero and its accompanying coding app. Students shall also have the opportunity to build robots from kits and present their projects.
 date: '2022-09-14 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -31,14 +26,47 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 'Extended Standards for Students with Complex Needs: SES-MS-ETS1-1; SES-MS-ETS1-2.;
-  SES-MS-ETS1-3; SES-MS-ETS1-4'
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS Math:
+  - 6.SP
+  NGSS:
+  - MS-ESS1-1
+  - MS-ESS1-2
+  - MS-ESS1-3
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 materials: 'Sphero, Osmo, iPad, epic!: https://www.getepic.com/app/read/75256'
 tags:
-- "Data Collection"
-- "Robotics"
+- Data Collection
+- Robotics
 standard_types:
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

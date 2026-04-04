@@ -1,9 +1,7 @@
 ---
 title: The Hardware/Software Connection
-description: Students will learn about how hardware needs software in order for it
-  to do something. Students will create a program for the micro:bit to display different
-  icons on the LEDs. They will use the finite and infinite loops to create a flashing
-  pattern on the micro:bit and then create their own icon to be displayed.
+description: Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro:bit to display different icons on the LEDs. They will use
+  the finite and infinite loops to create a flashing pattern on the micro:bit and then create their own icon to be displayed.
 date: '2020-10-29 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl
@@ -20,7 +18,32 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

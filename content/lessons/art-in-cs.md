@@ -1,8 +1,6 @@
 ---
 title: Art in CS
-description: A good introductory lesson for students to learn how to start coding
-  in Scratch. This lesson uses Scratch to teach students how to program use iteration
-  and create unique designs.
+description: A good introductory lesson for students to learn how to start coding in Scratch. This lesson uses Scratch to teach students how to program use iteration and create unique designs.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: James Cunningham
@@ -18,9 +16,29 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://scratch.mit.edu/
 tags:
-- "Scratch"
+- Scratch
 standard_types:
-- "CSTA"
+- CSTA
+- ISTE
+- National Core Arts
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-6c
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
 ---
 # OVERVIEW
 ## Activity Overview:  

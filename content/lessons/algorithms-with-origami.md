@@ -15,14 +15,27 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-materials: Website, Youtube.com Website can be used if you don't have the book at
-  hand. Search youtube for any book on the list.
+materials: Website, Youtube.com Website can be used if you don't have the book at hand. Search youtube for any book on the list.
 tags:
-- "Unplugged"
+- Unplugged
 standard_types:
-- "CCSS ELA"
-- "ISTE"
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
 ---
 # OVERVIEW
 ## Activity Overview:  

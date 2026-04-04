@@ -1,10 +1,7 @@
 ---
 title: Effective Internet and Database Search Strategies
-description: Searching for information on the Internet can be a frustrating experience.
-  However, with an understanding of how Internet algorithms and search indexes function
-  and employing the right search strategies, any Internet user can find relevant information
-  efficiently. In this lesson, students will learn these concepts to be more efficient
-  users of digital information.
+description: Searching for information on the Internet can be a frustrating experience. However, with an understanding of how Internet algorithms and search indexes function and employing the right search
+  strategies, any Internet user can find relevant information efficiently. In this lesson, students will learn these concepts to be more efficient users of digital information.
 date: '2021-04-30 00:00:00+00:00'
 draft: false
 author: Ron Chesmore
@@ -22,8 +19,24 @@ cs_principles:
 materials: Website, Chromebooks or other student devices, Smartboard
 tags: []
 standard_types:
-- "ISTE"
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - RI.7
 ---
 # OVERVIEW
 ## Activity Overview:  

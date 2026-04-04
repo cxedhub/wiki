@@ -1,9 +1,7 @@
 ---
 title: 'How Plants Grow : Grow a Digital Garden'
-description: Students will be able to use the Scratch Jr. programming blocks to make
-  animated stories and interactive projects that focus on how plants grow. They will
-  explore coding and computational thinking practices as they use the Scratch Jr.
-  app.
+description: Students will be able to use the Scratch Jr. programming blocks to make animated stories and interactive projects that focus on how plants grow. They will explore coding and computational thinking
+  practices as they use the Scratch Jr. app.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Jenifer Albrandt
@@ -19,14 +17,34 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: Converse County Science Content Standards
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  NGSS:
+  - 1-LS1-1
+  - K-LS1-1
+  - K-PS2-1
+  - K-PS2-2
+  - K-PS3-1
+  - K-PS3-2
 materials: Website
 tags:
-- "Robotics"
-- "Scratch"
-- "Unplugged"
+- Robotics
+- Scratch
+- Unplugged
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

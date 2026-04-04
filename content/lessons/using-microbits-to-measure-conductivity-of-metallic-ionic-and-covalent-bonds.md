@@ -1,8 +1,6 @@
 ---
 title: Using Microbits to measure conductivity of metallic, ionic and covalent bonds.
-description: •        Observe the conductivity strength between different types of
-  bonds, metallic, ionic and covalent. •        Program a Microbit to test the electrical
-  conductivity of different materials.
+description: •        Observe the conductivity strength between different types of bonds, metallic, ionic and covalent. •        Program a Microbit to test the electrical conductivity of different materials.
 date: '2020-11-28 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -19,11 +17,33 @@ cs_principles:
 - Developing and Using Abstractions
 materials: Micro:bit, gator clips and different materials that conduct and don't
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "NGSS"
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.9-10
+  NGSS:
+  - HS-PS1-1
+  - HS-PS1-2
+  - HS-PS1-7
+  - HS-PS4-1
+  - HS-PS4-3
+  - HS-PS4-5
 ---
 # OVERVIEW
 ## Activity Overview:  

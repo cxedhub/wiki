@@ -14,18 +14,32 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-standards: 'ELA.9.R.1.3: Analyze the influence of narrator perspective on a text,
-  explaining how the author creates irony or satire. ELA.9.R.1.1: Explain how key
-  elements enhance or add layers of meaning and/or style in a literary text. ELA.9.C.1.4:
-  Write expository texts to explain and analyze information from multiple sources,
-  using a logical organization, varied purposeful transitions, and a tone appropriate
-  to the task.'
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - RI.9-10
+  - SL.9-10
 materials: None
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

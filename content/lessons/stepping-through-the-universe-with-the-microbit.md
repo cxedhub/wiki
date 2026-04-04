@@ -1,7 +1,6 @@
 ---
 title: Stepping through the Universe with the Micro:bit
-description: Using Astronomical Units, students will program and use a Micro:bit to
-  measure the AU distances to the scale of their steps.
+description: Using Astronomical Units, students will program and use a Micro:bit to measure the AU distances to the scale of their steps.
 date: '2022-11-29 00:00:00+00:00'
 draft: false
 author: Jeff Kitterman
@@ -16,7 +15,23 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

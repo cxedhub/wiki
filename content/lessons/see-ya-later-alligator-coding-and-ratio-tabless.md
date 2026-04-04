@@ -1,10 +1,7 @@
 ---
 title: 'See Ya Later, Alligator: Coding and Ratio Tabless'
-description: Students will work in pairs to build ratio tables defining a list of
-  data for distance traveled by various animals over time based on their speed. Students
-  will design a formula for their assigned ratio table and then program a Micro:Bit
-  to quickly calculate the output data and record it in their Google Sheet. Then,
-  students will discuss the efficiency of solving the problem and be introduced to
+description: Students will work in pairs to build ratio tables defining a list of data for distance traveled by various animals over time based on their speed. Students will design a formula for their assigned
+  ratio table and then program a Micro:Bit to quickly calculate the output data and record it in their Google Sheet. Then, students will discuss the efficiency of solving the problem and be introduced to
   the Google Sheets formula to validate their data.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
@@ -24,14 +21,35 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 4.OA.4, 4.NBT.4, 4.NBT.5, 4.MP.1, 4.MP.6
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 5.MD
+  - 5.OA
 materials: Website, Micro:bit
 tags:
-- "Data Collection"
-- "Project-Based"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- micro:bit
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

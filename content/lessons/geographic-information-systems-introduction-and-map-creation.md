@@ -1,10 +1,7 @@
 ---
 title: 'Geographic Information Systems: Introduction and Map Creation'
-description: This lesson introduces Geographic Information Systems (GIS) to students.
-  We explore ways in which GIS impacts our communities and our world as well as ways
-  in which it solves problems and affects decision making. Students will understand
-  domain-specific GIS vocabulary and use ArcGIS software to create a web map that
-  answers a research question.
+description: This lesson introduces Geographic Information Systems (GIS) to students. We explore ways in which GIS impacts our communities and our world as well as ways in which it solves problems and affects
+  decision making. Students will understand domain-specific GIS vocabulary and use ArcGIS software to create a web map that answers a research question.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Whitney Wilking
@@ -25,9 +22,40 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Laptops and possible ArcGIS software
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - L.7
+  - RI.7
+  - SL.7
+  NCSS C3:
+  - D2.Geo.1.6-8
+  - D2.Geo.2.6-8
+  - D2.Geo.4.6-8
+  - D2.Geo.5.6-8
+  - D2.Geo.7.6-8
 ---
 # OVERVIEW
 ## Activity Overview:  

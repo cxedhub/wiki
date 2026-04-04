@@ -1,8 +1,7 @@
 ---
 title: How safe are we? ¿Qué salvo estamos?
-description: I am planning to work with Spanish speaking students and parents after
-  school,using your resources show them what to look for when someone contacts them
-  through email and such. I want to create Awareness and not to be afraid to ask questions.
+description: I am planning to work with Spanish speaking students and parents after school,using your resources show them what to look for when someone contacts them through email and such. I want to create
+  Awareness and not to be afraid to ask questions.
 date: '2023-07-14T13:28:51'
 draft: false
 author: Emilia Figueroa
@@ -14,12 +13,23 @@ grade_levels:
 cs_domains:
 - Networks and The Internet
 cs_principles: []
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
 materials: Website, micro:bit
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

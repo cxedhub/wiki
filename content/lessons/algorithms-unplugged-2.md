@@ -1,10 +1,7 @@
 ---
 title: Algorithms Unplugged
-description: students will be learning how to create an algorithm/sequence by giving
-  set directions to their 'bot' (another student) to go to a specific location inside
-  a room with tile floor (7x7 tile for each paired group). They may work in groups
-  and take turns giving directions to their 'bot' and rotate bots as they reach their
-  destination.
+description: students will be learning how to create an algorithm/sequence by giving set directions to their 'bot' (another student) to go to a specific location inside a room with tile floor (7x7 tile
+  for each paired group). They may work in groups and take turns giving directions to their 'bot' and rotate bots as they reach their destination.
 date: '2022-11-18 00:00:00+00:00'
 draft: false
 author: Kara Bowcutt
@@ -24,13 +21,43 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-standards: 3-5.AP.C.01, 3-5.AP.M.01, K-2.AP.A.01, K-2.AP.C.0, K-2.AP.M.01
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - SL.2
+  - SL.5
+  CCSS Math:
+  - 2.MD
+  - 4.MD
 materials: graph paper, sticky notes, markers, gym/hall with square tile floor
 tags:
-- "Unplugged"
-- "micro:bit"
+- Unplugged
+- micro:bit
 standard_types:
-- "Wyoming CS"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

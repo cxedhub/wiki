@@ -1,9 +1,7 @@
 ---
 title: Getting the bugs out!
-description: Help! Can you debug the Microbit code? We will look briefly at Grace
-  Hopper to see the origins of debugging. Then develop strategies for debugging and
-  wrap it up with debugging exercises. Students will write a simple code to test another
-  student.
+description: Help! Can you debug the Microbit code? We will look briefly at Grace Hopper to see the origins of debugging. Then develop strategies for debugging and wrap it up with debugging exercises. Students
+  will write a simple code to test another student.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse
@@ -17,7 +15,22 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

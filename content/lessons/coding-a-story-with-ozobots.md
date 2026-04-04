@@ -1,10 +1,7 @@
 ---
 title: Coding a Story with Ozobots
-description: In this lesson, the students will create their own story or use one that's
-  already made, and draw out that story on a poster board with a path to follow. The
-  students will code the route for the Ozobot to take as the story is read. The Ozobot
-  will follow the path and complete the tasks that the students programed it to do
-  while the teacher reads the story.
+description: In this lesson, the students will create their own story or use one that's already made, and draw out that story on a poster board with a path to follow. The students will code the route for
+  the Ozobot to take as the story is read. The Ozobot will follow the path and complete the tasks that the students programed it to do while the teacher reads the story.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Kayla Horn
@@ -21,7 +18,26 @@ cs_principles:
 - Communicating About Computing
 materials: Ozobots
 tags:
-- "Robotics"
+- Robotics
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - RL.2
+  - SL.2
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

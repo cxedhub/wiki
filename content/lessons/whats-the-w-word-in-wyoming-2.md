@@ -1,8 +1,6 @@
 ---
 title: What's the 'W' Word in Wyoming?
-description: Students are going to build their own anemometer to check the wind speeds
-  in their hometown. They are going to use their data to help predict the weather
-  and see if the wind is an indicator.
+description: Students are going to build their own anemometer to check the wind speeds in their hometown. They are going to use their data to help predict the weather and see if the wind is an indicator.
 date: '2023-04-28 00:00:00+00:00'
 draft: false
 author: Katie Cline
@@ -17,10 +15,30 @@ cs_domains:
 - Data Analysis
 materials: Slideshow that is included, there are websites linked in to help.
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  CCSS Math:
+  - 5.MD
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
+  - 4-PS3-1
+  - 4-PS3-2
 ---
 # OVERVIEW
 ## Activity Overview:  

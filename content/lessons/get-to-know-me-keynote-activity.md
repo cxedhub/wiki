@@ -1,10 +1,7 @@
 ---
 title: Get to Know Me Keynote Activity
-description: 'Students will participate in a community building activity that will
-  integrate Computer Science through the use of Key Note and iPad. The students will
-  populate an Instagram looking graphic organizer with a photo of a peer that matches
-  the given criteria such as: Find someone who: walked to school today, is wearing
-  same colored shirt as you, and is the oldest in the family.'
+description: 'Students will participate in a community building activity that will integrate Computer Science through the use of Key Note and iPad. The students will populate an Instagram looking graphic
+  organizer with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family.'
 date: '2022-11-04 00:00:00+00:00'
 draft: false
 author: Will Burns
@@ -18,11 +15,22 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: 3-5.IC.SI.02
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
 materials: None
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

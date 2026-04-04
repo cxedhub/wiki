@@ -1,8 +1,6 @@
 ---
 title: Digital Citizenship Escape Room
-description: Beginning of the year introduction to digital citizenship. Students work
-  through escape room to perform tasks. The tasks will eventually result in teams
-  creating a slide show on digital citizenship.
+description: Beginning of the year introduction to digital citizenship. Students work through escape room to perform tasks. The tasks will eventually result in teams creating a slide show on digital citizenship.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -23,10 +21,37 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website
 tags:
-- "Game-Based"
+- Game-Based
 standard_types:
-- "CCSS ELA"
-- "ISTE"
+- CCSS ELA
+- CSTA
+- ISTE
+- National Core Arts
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5c
+  - ISTE-5d
+  CCSS ELA:
+  - SL.5
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 ---
 # OVERVIEW
 ## Activity Overview:  

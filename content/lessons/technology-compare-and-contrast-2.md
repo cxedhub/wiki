@@ -1,7 +1,6 @@
 ---
 title: Technology Compare and Contrast
-description: Students will independently or collaboratively compare and contrast technology
-  and how it has changed our lives and how technology devices have changed.
+description: Students will independently or collaboratively compare and contrast technology and how it has changed our lives and how technology devices have changed.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -14,14 +13,26 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Communicating About Computing
-standards: W.1 Opinion and W.2 Informative Writing as well as Speaking and Listening
-  SL.1
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.5
 materials: Website, Micro:bit, https://www.commonsense.org/education/digital-passport
 tags:
-- "Project-Based"
-- "micro:bit"
+- Project-Based
+- micro:bit
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

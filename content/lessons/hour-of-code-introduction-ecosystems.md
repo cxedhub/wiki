@@ -1,8 +1,6 @@
 ---
 title: Hour of Code introduction/ Ecosystems
-description: this will be an introduction to coding using Hour of Code, as a refresher/
-  attention grabber right after Christmas break. Will begin unit on Ecosystems which
-  will use code.org project.
+description: this will be an introduction to coding using Hour of Code, as a refresher/ attention grabber right after Christmas break. Will begin unit on Ecosystems which will use code.org project.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Brenna Franklin
@@ -23,8 +21,35 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags:
-- "Code.org"
-- "Data Collection"
+- Code.org
+- Data Collection
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

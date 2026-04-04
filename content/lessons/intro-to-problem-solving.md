@@ -1,15 +1,9 @@
 ---
 title: Intro to Problem Solving
-description: This lesson is a fun introduction to the open-ended, collaborative, and
-  creative problem solving students will be using over the rest of this unit and course.
-  The aluminum boats problem could easily be substituted out for any number of other
-  problems that require students to define their goals, devise a plan, try a solution,
-  evaluate their results, and then iteratively improve from there. The fact that the
-  problem chosen is 'non-computational' is intentional. Computer science is fundamentally
-  a problem-solving discipline and staying away from traditional computer science
-  problems at this point helps to frame this class as one about problem-solving more
-  generally with computer science being a new 'tool' to help attack certain types
-  of problems.
+description: This lesson is a fun introduction to the open-ended, collaborative, and creative problem solving students will be using over the rest of this unit and course. The aluminum boats problem could
+  easily be substituted out for any number of other problems that require students to define their goals, devise a plan, try a solution, evaluate their results, and then iteratively improve from there.
+  The fact that the problem chosen is 'non-computational' is intentional. Computer science is fundamentally a problem-solving discipline and staying away from traditional computer science problems at this
+  point helps to frame this class as one about problem-solving more generally with computer science being a new 'tool' to help attack certain types of problems.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Autumn Spiva
@@ -29,10 +23,36 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website, aluminum foil and pennies
 tags:
-- "Data Collection"
-- "Project-Based"
+- Data Collection
+- Project-Based
 standard_types:
-- "CSTA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.7
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 ---
 # OVERVIEW
 ## Activity Overview:  

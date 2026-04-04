@@ -1,11 +1,8 @@
 ---
 title: Implementing a Counter into Java
-description: 'Activity Overview: This activity is for more advanced students in the
-  Java Programming language. They will use their own IDE to create a program that
-  will take a starting number and allow them to increment and decrement the number.
-  They will start with ++ and then explore how to make other changes to their number.
-  The big idea is to relate counters, incrementing and decrementing, to how this could
-  be applied to loops.'
+description: 'Activity Overview: This activity is for more advanced students in the Java Programming language. They will use their own IDE to create a program that will take a starting number and allow
+  them to increment and decrement the number. They will start with ++ and then explore how to make other changes to their number. The big idea is to relate counters, incrementing and decrementing, to how
+  this could be applied to loops.'
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Selena Pope
@@ -21,7 +18,26 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Online IDE  or Eclipse
 tags:
-- "Robotics"
+- Robotics
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - HSS-ID
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

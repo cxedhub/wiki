@@ -1,7 +1,6 @@
 ---
 title: Weather Station
-description: In this activity, students develop a 'weather station' where they collect
-  at least three types of weather data.
+description: In this activity, students develop a 'weather station' where they collect at least three types of weather data.
 date: '2020-11-19 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
@@ -19,14 +18,40 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: MS-ESS2-5
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-ESS2-4
+  - MS-ESS2-5
+  - MS-ESS2-6
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  - MS-PS4-1
 materials: Website, Micro:bit, building supplies
 tags:
-- "Data Collection"
-- "Project-Based"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- micro:bit
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

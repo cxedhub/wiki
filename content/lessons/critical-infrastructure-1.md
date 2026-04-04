@@ -1,10 +1,7 @@
 ---
 title: Critical Infrastructure 1
-description: Students will be able to explain what Critical Infrastructure is, what
-  are common components that belong to critical infrastructure, and what could happen
-  if components of  Critical Infrastructure are damaged/ destroyed. Cyber security
-  and cyber warfare will be an important part of this because I believe that is not
-  thought of as much as physical issues (hurricanes, bombings, etc)
+description: Students will be able to explain what Critical Infrastructure is, what are common components that belong to critical infrastructure, and what could happen if components of  Critical Infrastructure
+  are damaged/ destroyed. Cyber security and cyber warfare will be an important part of this because I believe that is not thought of as much as physical issues (hurricanes, bombings, etc)
 date: '2023-07-14T11:34:41'
 draft: false
 author: Timothy Grier
@@ -23,12 +20,36 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: FL EPRS
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
 materials: Website, micro:bit
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

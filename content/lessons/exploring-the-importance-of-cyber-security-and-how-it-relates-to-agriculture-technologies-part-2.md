@@ -1,13 +1,8 @@
 ---
-title: Exploring the importance of Cyber Security and how it relates to Agriculture
-  Technologies - Part 2
-description: Students will understand the importance of cybersecurity in agricultural
-  technologies. Students will explore the potential risks and vulnerabilities associated
-  with agricultural technologies. Students will learn strategies and best practices
-  for ensuring cybersecurity in agricultural settings based on research from provided
-  article resources and classroom discussion. Students will then put together a presentation
-  to show different pieces of technology used in agriculture and show how important
-  cyber security is to the production of food and global food security.
+title: Exploring the importance of Cyber Security and how it relates to Agriculture Technologies - Part 2
+description: Students will understand the importance of cybersecurity in agricultural technologies. Students will explore the potential risks and vulnerabilities associated with agricultural technologies.
+  Students will learn strategies and best practices for ensuring cybersecurity in agricultural settings based on research from provided article resources and classroom discussion. Students will then put
+  together a presentation to show different pieces of technology used in agriculture and show how important cyber security is to the production of food and global food security.
 date: '2023-07-13T15:18:13'
 draft: false
 author: Jessica Pastran
@@ -18,11 +13,21 @@ grade_levels:
 - 9-12
 cs_domains: []
 cs_principles: []
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-14
+  - 3A-AP-21
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
 materials: Poster Board or tri-fold
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

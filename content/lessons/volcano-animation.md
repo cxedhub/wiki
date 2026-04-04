@@ -1,7 +1,6 @@
 ---
 title: Volcano Animation
-description: Students use flowcharts and repetition to explore building a volcanic
-  eruption on a Micro:Bit.
+description: Students use flowcharts and repetition to explore building a volcanic eruption on a Micro:Bit.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -24,11 +23,48 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "Unplugged"
-- "micro:bit"
+- Data Collection
+- Unplugged
+- micro:bit
 standard_types:
-- "NGSS"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - RL.5
+  - SL.5
+  CCSS Math:
+  - 5.G
+  - 5.MD
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-LS4-1
+  - 4-ESS1-1
+  - 4-ESS2-1
+  NCSS C3:
+  - D2.Geo.1.3-5
+  - D2.Geo.2.3-5
+  - D2.Geo.4.3-5
+  - D2.Geo.5.3-5
 ---
 # OVERVIEW
 ## Activity Overview:  

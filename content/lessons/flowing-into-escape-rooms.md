@@ -1,8 +1,6 @@
 ---
 title: Flowing into Escape Rooms
-description: This activity requires students to conceptualize a mathematical process
-  into a flow chart. Then they will use said flow chart as a map to create and escape
-  room in various formats.
+description: This activity requires students to conceptualize a mathematical process into a flow chart. Then they will use said flow chart as a map to create and escape room in various formats.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: John Soto
@@ -16,12 +14,29 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-standards: This can incorporate any math common core standard.
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  CCSS Math:
+  - 6.SP
+  - 7.G
+  - 7.RP
+  - 7.SP
 materials: Website
 tags:
-- "Game-Based"
+- Game-Based
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

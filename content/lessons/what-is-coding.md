@@ -1,9 +1,7 @@
 ---
 title: What is Coding
-description: This lesson is meant to introduce what coding is to a younger age group.
-  Students will learn what it means to program or code something that a computer will
-  be able to follow. The assignments are done both digitally or hands on. This will
-  help build a foundation of how to block code and what coding is.
+description: This lesson is meant to introduce what coding is to a younger age group. Students will learn what it means to program or code something that a computer will be able to follow. The assignments
+  are done both digitally or hands on. This will help build a foundation of how to block code and what coding is.
 date: '2020-10-14 00:00:00+00:00'
 draft: false
 author: Brooke George
@@ -19,13 +17,24 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-materials: A link to Youtube, https://youtu.be/THOEQ5soVpY, and digital option for
-  assignment. https://docs.google.com/presentation/d/17SXW6J-q0vzKNMJ8YSaNceE2WinfcSuEQao55pHg6vI/copy
+materials: A link to Youtube, https://youtu.be/THOEQ5soVpY, and digital option for assignment. https://docs.google.com/presentation/d/17SXW6J-q0vzKNMJ8YSaNceE2WinfcSuEQao55pHg6vI/copy
 tags:
-- "Project-Based"
+- Project-Based
 standard_types:
-- "ISTE"
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
 ---
 # OVERVIEW
 ## Activity Overview:  

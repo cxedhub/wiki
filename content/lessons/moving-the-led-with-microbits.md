@@ -1,9 +1,7 @@
 ---
 title: Moving the LED with Microbits
-description: In this project, you and a partner will code a program that can make
-  an LED move left, right, and up on the microbit screen. By pressing combinations
-  of the ‘a’ and ‘b’ buttons, the LED should move around on the screen. This will
-  act as a precursor lesson to more complicated game
+description: In this project, you and a partner will code a program that can make an LED move left, right, and up on the microbit screen. By pressing combinations of the ‘a’ and ‘b’ buttons, the LED should
+  move around on the screen. This will act as a precursor lesson to more complicated game
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Taylor Plantt
@@ -22,7 +20,27 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

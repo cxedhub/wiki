@@ -1,8 +1,6 @@
 ---
 title: 'Micro:bits: Happy Birthday'
-description: Turn your micro:bit into a music player. Code musical notes using simple
-  commands. Listen to your program using earphones and crocodile clips and wish your
-  friends or family a happy birthday!
+description: Turn your micro:bit into a music player. Code musical notes using simple commands. Listen to your program using earphones and crocodile clips and wish your friends or family a happy birthday!
 date: '2022-08-12 00:00:00+00:00'
 draft: false
 author: Ryan Olson
@@ -18,7 +16,35 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  National Core Arts:
+  - MU:Cn10
+  - MU:Cn11
+  - MU:Cr1
+  - MU:Cr2
+  - MU:Pr4
+  - MU:Pr5
+  - MU:Pr6
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

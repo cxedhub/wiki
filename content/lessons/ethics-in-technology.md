@@ -1,7 +1,6 @@
 ---
 title: Ethics in Technology
-description: Examination of ethical concerns revolving around technology, specifically
-  social media and technology giants like Google
+description: Examination of ethical concerns revolving around technology, specifically social media and technology giants like Google
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Jamie Le Jambre
@@ -21,13 +20,50 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-standards: NGSS, CC, WYSS Copied from Spreadsheets and pasted here
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  NCSS C3:
+  - D2.His.2.6-8
+  - D2.His.2.9-12
 materials: Netflix
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: WHAT DOES TECHNOLOGY LOOK LIKE?
-description: Students will brainstorm what technology is, what it looks like and the
-  parts/functions of a computer.
+description: Students will brainstorm what technology is, what it looks like and the parts/functions of a computer.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Alicia Auzqui
@@ -15,9 +14,25 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: K.RF.1b, K.L. 4-5, K.SL.6,
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.2
 materials: None
 tags: []
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

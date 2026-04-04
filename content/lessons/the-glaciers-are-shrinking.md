@@ -1,8 +1,6 @@
 ---
 title: The Glaciers Are Shrinking?!
-description: Using data gained from an article and a simulation, students will determine
-  whether or not the Glaciers of Glacier National Park are shrinking, and predict
-  the future of the glaciers.
+description: Using data gained from an article and a simulation, students will determine whether or not the Glaciers of Glacier National Park are shrinking, and predict the future of the glaciers.
 date: '2022-09-16 00:00:00+00:00'
 draft: false
 author: Julie L. Calkins
@@ -15,10 +13,27 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Communicating About Computing
-standards: 4 - ESS2-1
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - 3-LS4-1
+  - 4-ESS1-1
+  - 4-ESS2-1
+  - 5-ESS2-2
 materials: Website, Computing device.  Our district uses iPads
 tags:
-- "Data Collection"
+- Data Collection
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

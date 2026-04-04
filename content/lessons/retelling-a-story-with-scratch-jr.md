@@ -1,10 +1,7 @@
 ---
 title: Retelling a Story with Scratch Jr.
-description: This lesson allows students to retell the major aspects of a children's
-  book using Scratch Jr. Using their background knowledge of story elements and sequencing,
-  students will use programming on Scratch Jr to tell the story all over again! Students
-  will retell the story by programming characters and their movements, choosing backgrounds,
-  and using the record option.
+description: This lesson allows students to retell the major aspects of a children's book using Scratch Jr. Using their background knowledge of story elements and sequencing, students will use programming
+  on Scratch Jr to tell the story all over again! Students will retell the story by programming characters and their movements, choosing backgrounds, and using the record option.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Madison Mueller
@@ -21,8 +18,27 @@ cs_principles:
 - Communicating About Computing
 materials: Scratch Jr application on iPads and Chromebook
 tags:
-- "Scratch"
-- "Unplugged"
+- Scratch
+- Unplugged
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  CCSS ELA:
+  - RL.2
+  - SL.2
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,11 +1,8 @@
 ---
 title: Making Books Come Alive!
-description: Students will use an app of the teacher’s choosing (I prefer Voice Recorder
-  with the red speech bubble) to record themselves reading a book aloud. Once students
-  have successfully recorded their book with the app, they will share it- either in
-  small reading groups- depending on reading ability, or whole group. Students may
-  choose to hold the book up while playing their voice recording, or they may choose
-  to create an overall picture to correlate with their book.
+description: Students will use an app of the teacher’s choosing (I prefer Voice Recorder with the red speech bubble) to record themselves reading a book aloud. Once students have successfully recorded their
+  book with the app, they will share it- either in small reading groups- depending on reading ability, or whole group. Students may choose to hold the book up while playing their voice recording, or they
+  may choose to create an overall picture to correlate with their book.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Shelby Randall
@@ -23,10 +20,31 @@ cs_principles:
 - Creating Computational Artifacts
 materials: iPad app- voice recording device, student book of choice
 tags:
-- "Data Collection"
-- "Robotics"
+- Data Collection
+- Robotics
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7b
+  CCSS ELA:
+  - L.2
+  - RL.2
+  - SL.2
 ---
 # OVERVIEW
 ## Activity Overview:  

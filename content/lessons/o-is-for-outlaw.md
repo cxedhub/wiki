@@ -1,10 +1,7 @@
 ---
 title: O' is for Outlaw
-description: Students will be studying Outlaws and Law Enforcement in Wyoming History.
-  We will talk about how technology has changed and impacted our history and then
-  we'll do a what if.... What if Outlaws had Facebook pages or social media? What
-  would their page look like and what would inappropriate comments, passwords look
-  like. Students will be able to add on comments and we'll address appropriate use
+description: Students will be studying Outlaws and Law Enforcement in Wyoming History. We will talk about how technology has changed and impacted our history and then we'll do a what if.... What if Outlaws
+  had Facebook pages or social media? What would their page look like and what would inappropriate comments, passwords look like. Students will be able to add on comments and we'll address appropriate use
   of their sites.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
@@ -20,11 +17,29 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: 5.IC.C.01
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.5
+  NCSS C3:
+  - D2.Civ.1.3-5
+  - D2.Civ.12.3-5
+  - D2.Civ.2.3-5
+  - D2.Civ.6.3-5
 materials: Website
 tags: []
 standard_types:
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: I've got a secret!
-description: Bee Boop Bee Boop! This lesson will explore cryptology and ciphers. We
-  will reserach the topic using a scavenger hunt that students will be able to dig
-  deep into their thinking and how ciphers work. Then students will be able to create
-  and decode many ciphers with different keys.
+description: Bee Boop Bee Boop! This lesson will explore cryptology and ciphers. We will reserach the topic using a scavenger hunt that students will be able to dig deep into their thinking and how ciphers
+  work. Then students will be able to create and decode many ciphers with different keys.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse
@@ -17,9 +15,24 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website
 tags:
-- "Cybersecurity"
-- "Unplugged"
-- "micro:bit"
+- Cybersecurity
+- Unplugged
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

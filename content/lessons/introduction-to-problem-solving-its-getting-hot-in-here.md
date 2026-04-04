@@ -1,12 +1,8 @@
 ---
 title: 'Introduction to problem solving: It''s getting hot in here'
-description: Students will use micro bit and/ or Lego EV3 with temperature sensor
-  to record temperature in the room and outside of building to identify differences
-  in temperature by location and time. Once we have collected data we will analyze
-  for trends. We will determine where and when variances occur. We will problem solve
-  to determine what interventions could help control temperature in the room to maintain
-  student comfort level. Test ideas and collect data to determine best intervention
-  to use.
+description: Students will use micro bit and/ or Lego EV3 with temperature sensor to record temperature in the room and outside of building to identify differences in temperature by location and time. Once
+  we have collected data we will analyze for trends. We will determine where and when variances occur. We will problem solve to determine what interventions could help control temperature in the room to
+  maintain student comfort level. Test ideas and collect data to determine best intervention to use.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Will Barnes
@@ -22,10 +18,24 @@ cs_principles:
 - Communicating About Computing
 materials: Micro:bit, Lego EV3 with weather/ temperature probe
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "Wyoming CS"
+- CCSS Math
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS Math:
+  - 6.SP
 ---
 # OVERVIEW
 ## Activity Overview:  

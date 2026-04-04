@@ -1,8 +1,7 @@
 ---
 title: Microbit programming-Creating a Micropet
-description: Students will create a micropet and then program it to perform various
-  outcomes depending on what they do to it. Students will learn how to program a microbit.
-  Students will recognize programming faults and be able to make corrections.
+description: Students will create a micropet and then program it to perform various outcomes depending on what they do to it. Students will learn how to program a microbit. Students will recognize programming
+  faults and be able to make corrections.
 date: '2021-03-05 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -23,11 +22,41 @@ cs_principles:
 - Communicating About Computing
 materials: Micro:bit
 tags:
-- "Project-Based"
-- "micro:bit"
+- Project-Based
+- micro:bit
 standard_types:
-- "ISTE"
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
+- National Core Arts
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  National Core Arts:
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 ---
 # OVERVIEW
 ## Activity Overview:  

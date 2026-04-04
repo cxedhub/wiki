@@ -1,8 +1,7 @@
 ---
 title: Basic aspects of Cyber security and Copyrights
-description: Students will be learning about the basic aspects of Cyber security.
-  They will become aware of how to protect their information and or data on the internet.
-  Also, they will learn about how to respect the works of others over the internet,
+description: Students will be learning about the basic aspects of Cyber security. They will become aware of how to protect their information and or data on the internet. Also, they will learn about how
+  to respect the works of others over the internet,
 date: '2023-07-13T15:05:14'
 draft: false
 author: Judes Francois
@@ -18,11 +17,33 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  - 2-AP-17
+  - 2-IC-23
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.5
+  - SL.7
 materials: None
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

@@ -1,8 +1,7 @@
 ---
 title: Microbit compass
-description: THIS A DRAFT-Student will program a microbit that locate magnetic north,
-  south, east and west. They will create coordinates to find objects. Conclusion-explain
-  how does microbit correspond to the Earth magnetic pull.
+description: THIS A DRAFT-Student will program a microbit that locate magnetic north, south, east and west. They will create coordinates to find objects. Conclusion-explain how does microbit correspond
+  to the Earth magnetic pull.
 date: '2021-07-01 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -20,14 +19,42 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: Science-MS-ESS2-2,Language Arts-WHST.6-8.2Mathematics-MP.2
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - L.7
+  - SL.7
+  - W.7
+  CCSS Math:
+  - 7.G
+  NGSS:
+  - MS-ESS1-4
+  - MS-ESS2-1
+  - MS-ESS2-2
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  - MS-PS2-3
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "NGSS"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

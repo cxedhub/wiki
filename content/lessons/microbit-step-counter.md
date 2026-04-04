@@ -1,8 +1,7 @@
 ---
 title: Micro:bit Step Counter
-description: This lesson focusses on coding concept variable with and lesson from
-  Code.Org. The students will program the micro:bit to keep track of their steps.
-  Finally, the students will create their own fitness step counter strap.
+description: This lesson focusses on coding concept variable with and lesson from Code.Org. The students will program the micro:bit to keep track of their steps. Finally, the students will create their
+  own fitness step counter strap.
 date: '2023-03-19 00:00:00+00:00'
 draft: false
 author: Ryan Olson
@@ -19,8 +18,28 @@ cs_principles:
 - Developing and Using Abstractions
 materials: Micro:bit
 tags:
-- "Code.org"
-- "micro:bit"
+- Code.org
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

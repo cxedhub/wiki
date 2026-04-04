@@ -1,8 +1,7 @@
 ---
 title: Unplugged Coding
-description: To start students will learn to code with a desk of cards and manipulatives.
-  Students will have jobs such as the programmer, tester and the bot. They will physically
-  move an object through programming language.
+description: To start students will learn to code with a desk of cards and manipulatives. Students will have jobs such as the programmer, tester and the bot. They will physically move an object through
+  programming language.
 date: '2022-10-17 00:00:00+00:00'
 draft: false
 author: Alicia Auzqui  and Jonathan Broersma
@@ -19,8 +18,27 @@ cs_principles:
 - Communicating About Computing
 materials: None
 tags:
-- "Code.org"
-- "Unplugged"
+- Code.org
+- Unplugged
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

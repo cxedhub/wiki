@@ -1,11 +1,8 @@
 ---
 title: Library - Robotics for Students in the Functional Life Skills (FLS) Program
-description: This lesson provides robotics opportunities in the library for students
-  with complex needs in the Functional Life Skills(FLS) Program. After structured
-  introduction of various concepts and demonstration of different tools, students
-  shall have the opportunity to explore coding and programming. Students shall then
-  share their ideas regarding robotics and what its concepts and tools can do to impact
-  our lives.
+description: This lesson provides robotics opportunities in the library for students with complex needs in the Functional Life Skills(FLS) Program. After structured introduction of various concepts and
+  demonstration of different tools, students shall have the opportunity to explore coding and programming. Students shall then share their ideas regarding robotics and what its concepts and tools can do
+  to impact our lives.
 date: '2023-02-25 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -26,13 +23,45 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Botzees
-  + App / Code-a-pillar
+materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Botzees + App / Code-a-pillar
 tags:
-- "Data Collection"
-- "Robotics"
+- Data Collection
+- Robotics
 standard_types:
-- "NGSS"
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - L.7
+  - SL.7
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,8 +1,6 @@
 ---
 title: Microbial Computer
-description: Students will play Conways Game of Life after studying microbial behavior.
-  Students will use The game of life to Describe bacterial colony behavior and the
-  dependency on resources available.
+description: Students will play Conways Game of Life after studying microbial behavior. Students will use The game of life to Describe bacterial colony behavior and the dependency on resources available.
 date: '2023-03-31 00:00:00+00:00'
 draft: false
 author: Garrid Halsey
@@ -20,13 +18,41 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-standards: MS-LS1-2, MS-LS1-5
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  NGSS:
+  - MS-ESS3-3
+  - MS-ESS3-4
+  - MS-ESS3-5
+  - MS-LS2-1
+  - MS-LS2-2
+  - MS-LS2-4
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 materials: Website, Micro:bit, Arduino, https://playgameoflife.com/
 tags:
-- "Game-Based"
-- "micro:bit"
+- Game-Based
+- micro:bit
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

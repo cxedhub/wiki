@@ -1,9 +1,7 @@
 ---
 title: Future Job Research
-description: Student is required to 'explore future occupations' as defined by Occupational
-  Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready
-  to be published web pages with the results. Indicate if you which to have them published
-  on the Internet.
+description: Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready to be published web pages with
+  the results. Indicate if you which to have them published on the Internet.
 date: '2023-04-01 00:00:00+00:00'
 draft: false
 author: Harry C Guess
@@ -19,11 +17,31 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
 materials: Website
 tags:
-- "Project-Based"
-- "Web Design"
+- Project-Based
+- Web Design
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

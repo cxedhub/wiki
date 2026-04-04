@@ -1,10 +1,7 @@
 ---
 title: Get to Know Me
-description: 'Students will participate in a community building activity that will
-  integrate Computer Science through the use of the software/Key Note and hardware/iPad.
-  The students will populate an Instagram looking graphic organizer* with a photo
-  of a peer that matches the given criteria such as: Find someone who: walked to school
-  today, is wearing same colored shirt as you, and is the oldest in the family.'
+description: 'Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram
+  looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family.'
 date: '2022-11-05 00:00:00+00:00'
 draft: false
 author: Kiley Hiser
@@ -19,6 +16,17 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 materials: Key Note App
 tags: []
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-NI-04
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

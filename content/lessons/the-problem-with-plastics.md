@@ -1,10 +1,7 @@
 ---
 title: The Problem with Plastics
-description: 3rd grade learns about Jacques Cousteau and his conservation efforts
-  to clean up the ocean. Plastic waste has become a huge problem in the oceans affecting
-  animals and our planet. Students will be researching websites to graph data that
-  they find in relationship to the amount of plastics in the world and brainstorm
-  ideas about what they can do as a solution.
+description: 3rd grade learns about Jacques Cousteau and his conservation efforts to clean up the ocean. Plastic waste has become a huge problem in the oceans affecting animals and our planet. Students
+  will be researching websites to graph data that they find in relationship to the amount of plastics in the world and brainstorm ideas about what they can do as a solution.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Kathy Manker
@@ -25,10 +22,44 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-materials: Website, 1- https://kids.nationalgeographic.com/nature/kids-vs-plastic/article/10-tips-to-reduce-your-plastic-use;   2-https://youtu.be/Ue35VMmRwKg;  3-Tracking
-  Ocean Plastic From Space | Earthdata (nasa.gov) 4-https://sites.google.com/site/jacquescousteauconservation/artifact-2
+materials: Website, 1- https://kids.nationalgeographic.com/nature/kids-vs-plastic/article/10-tips-to-reduce-your-plastic-use;   2-https://youtu.be/Ue35VMmRwKg;  3-Tracking Ocean Plastic From Space | Earthdata
+  (nasa.gov) 4-https://sites.google.com/site/jacquescousteauconservation/artifact-2
 tags:
-- "Data Collection"
+- Data Collection
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-DA-06
+  - 1B-DA-07
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - RI.5
+  - SL.5
+  CCSS Math:
+  - 5.MD
+  NGSS:
+  - 5-ESS1-1
+  - 5-ESS1-2
+  - 5-ESS2-2
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,11 +1,8 @@
 ---
 title: Plant Growth Lab
-description: Students will plan an investigation into what plants need in order to
-  grow. Students will measure the height of their plants every day for 2 weeks after
-  planting seeds, while changing a plant growth variable (such as the amount of sunlight
-  or water). Students will code for and measure the amount of water in the soil by
-  measuring the conductivity of the soil using micro:bit and watering their plants
-  accordingly for the duration of two weeks.
+description: Students will plan an investigation into what plants need in order to grow. Students will measure the height of their plants every day for 2 weeks after planting seeds, while changing a plant
+  growth variable (such as the amount of sunlight or water). Students will code for and measure the amount of water in the soil by measuring the conductivity of the soil using micro:bit and watering their
+  plants accordingly for the duration of two weeks.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Sara Percy
@@ -19,13 +16,31 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: Utah 8th Grade Science Standards 8.3.1 Plan and conduct an investigation
-  and use evidence to construct and explanation of how photosynthetic organisms use
-  energy to transform matter
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  NGSS:
+  - MS-ESS2-2
+  - MS-ESS2-4
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

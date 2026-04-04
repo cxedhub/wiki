@@ -1,8 +1,6 @@
 ---
 title: Micro:bits on the Fly with Lego Cars
-description: Students will explore how sensors are used in our lives and what they
-  could measure. Students will build a Lego car and use the a microbit to measure
-  acceleration.
+description: Students will explore how sensors are used in our lives and what they could measure. Students will build a Lego car and use the a microbit to measure acceleration.
 date: '2020-11-16 00:00:00+00:00'
 draft: false
 author: Julie Snyder
@@ -20,12 +18,38 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: This could meet science standards in a science class.
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
 materials: Website, Micro:bit, legos
 tags:
-- "Data Collection"
-- "Project-Based"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

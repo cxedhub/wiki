@@ -1,9 +1,7 @@
 ---
 title: Kindergarten Computer Scientists
-description: Through six mini lessons, kindergarten students will be introduced to
-  Computer Science. Beginning with a working definition of CS using actions and words,
-  students will build a new skill in each lesson. Students also learn to persevere
-  in difficult challenges, just as computer scientists in the real world
+description: Through six mini lessons, kindergarten students will be introduced to Computer Science. Beginning with a working definition of CS using actions and words, students will build a new skill in
+  each lesson. Students also learn to persevere in difficult challenges, just as computer scientists in the real world
 date: '2021-11-19 00:00:00+00:00'
 draft: false
 author: Julia Tyser
@@ -18,13 +16,25 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 2.AP.A.01, 2.AP.C.01, 2.AP.M.01, 2.AP.PD.04, 2.IC.C.01
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6c
+  - ISTE-6d
 materials: None
 tags:
-- "Project-Based"
-- "Robotics"
+- Project-Based
+- Robotics
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

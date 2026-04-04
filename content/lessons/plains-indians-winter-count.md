@@ -1,8 +1,7 @@
 ---
 title: Plains Indians Winter Count
-description: Students will tell important events from their life using a Winter Counts
-  calendar. They will use the given symbols from their calendar to play Conway's Game
-  of Life. They will see how their symbols change as the pixels change.
+description: Students will tell important events from their life using a Winter Counts calendar. They will use the given symbols from their calendar to play Conway's Game of Life. They will see how their
+  symbols change as the pixels change.
 date: '2022-08-14 00:00:00+00:00'
 draft: false
 author: Amber E Johnson
@@ -16,11 +15,26 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-standards: Students will research tribal life and cultures to build a basic understanding
-  of Native American Tribes of Wyoming, and explain the importance of bison.
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  NCSS C3:
+  - D2.His.2.3-5
 materials: Website
 tags:
-- "Project-Based"
+- Project-Based
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

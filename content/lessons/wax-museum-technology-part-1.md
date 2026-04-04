@@ -1,10 +1,7 @@
 ---
 title: Wax Museum Technology Part 1
-description: In this lesson series, students will research ways that technology has
-  impacted the world. They can choose to research people or specific systems. After
-  their small projects are completed, students will have a chance to present their
-  project in a 'museum' fashion. They will have display projects and a plaque to go
-  in their museum and a small speaking part to tell about their project.
+description: In this lesson series, students will research ways that technology has impacted the world. They can choose to research people or specific systems. After their small projects are completed,
+  students will have a chance to present their project in a 'museum' fashion. They will have display projects and a plaque to go in their museum and a small speaking part to tell about their project.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -25,13 +22,58 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-standards: CCSS.ELA-LITERACY.RI.3.7, CCSS.ELA-LITERACY.W.3.6, CCSS.ELA-LITERACY.W.3.7,
-  CCSS.ELA-LITERACY.W.3.2.B
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - RI.5
+  - SL.5
+  - W.5
+  CCSS Math:
+  - 4.MD
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  NCSS C3:
+  - D2.His.2.3-5
+  National Core Arts:
+  - MU:Cn10
+  - MU:Cn11
+  - MU:Cr1
+  - MU:Cr2
+  - MU:Cr3
+  - MU:Pr4
+  - MU:Pr5
+  - MU:Pr6
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 materials: Website, Books, ReadWorks Articles
 tags:
-- "Unplugged"
+- Unplugged
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

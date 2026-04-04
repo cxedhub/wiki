@@ -1,12 +1,8 @@
 ---
 title: Computer Basics (Collaborative lesson with K and 5)
-description: 5th grade students will mentor kindergarten students in how to properly
-  care for and navigate their personal computer. To begin, they will outline the key
-  vocabulary of computer parts and how to keep their computers clean and safe. Next,
-  they will help kindergarteners to locate the Internet and login to Clever. Finally,
-  they will help kindergarteners login to specific apps within Clever. Each task will
-  be assessed by a 5th grader to ensure that the kindergartener has successfully mastered
-  the task and can repeat the task independently.
+description: 5th grade students will mentor kindergarten students in how to properly care for and navigate their personal computer. To begin, they will outline the key vocabulary of computer parts and how
+  to keep their computers clean and safe. Next, they will help kindergarteners to locate the Internet and login to Clever. Finally, they will help kindergarteners login to specific apps within Clever. Each
+  task will be assessed by a 5th grader to ensure that the kindergartener has successfully mastered the task and can repeat the task independently.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -25,12 +21,39 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: 'CCSS: SL5.1, SL5.2, SL5.3, SL5.6, ISTE: 1.1, 1.2, 1.6, 1.7'
+standards:
+  CSTA:
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - L.2
+  - L.5
+  - SL.2
+  - SL.5
 materials: Website, personal computer, login badge, computer cleaning supplies
 tags: []
 standard_types:
-- "CCSS ELA"
-- "ISTE"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

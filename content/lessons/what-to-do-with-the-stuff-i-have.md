@@ -1,8 +1,6 @@
 ---
 title: What to do with the stuff I have
-description: Students are given CONNEX or VEX pieces from a build kit and are given
-  a mission. As a team they will create an artifact to complete the project. They
-  can use any items available
+description: Students are given CONNEX or VEX pieces from a build kit and are given a mission. As a team they will create an artifact to complete the project. They can use any items available
 date: '2022-09-18 00:00:00+00:00'
 draft: false
 author: Will Barnes
@@ -21,6 +19,37 @@ cs_principles:
 - Developing and Using Abstractions
 materials: Website
 tags: []
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-7a
+  - ISTE-7b
+  National Core Arts:
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

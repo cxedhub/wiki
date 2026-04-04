@@ -1,7 +1,6 @@
 ---
 title: gingerbread man stem
-description: Students will plan, create, and test a raft to help the gingerbread man
-  cross the river.
+description: Students will plan, create, and test a raft to help the gingerbread man cross the river.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders
@@ -15,7 +14,20 @@ cs_principles:
 - Developing and Using Abstractions
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

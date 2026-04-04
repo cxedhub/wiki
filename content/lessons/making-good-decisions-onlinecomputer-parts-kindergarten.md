@@ -1,19 +1,11 @@
 ---
 title: Making Good Decisions Online/Computer Parts (Kindergarten)
-description: In the first activity, with the slideshow displayed, the teacher will
-  facilitate a discussion about making good decisions online and why this is important.
-  After a brief introduction, the teacher will go through the slides and have the
-  students decide which picture shows students making the better decision out of the
-  two pictures on each slide. Students will then have the opportunity to log onto
-  their Chromebooks and display good decision-making while working online (while the
-  teacher observes, making note of behaviors). In the second activity, with the slideshow
-  displayed and an actual Chromebook held up, the teacher will highlight the parts
-  of a Chromebook that students need to familiarize themselves with in order to be
-  able to work independently and solve problems independently on the Chromebook. (Students
-  may or may not be able to hold onto their own Chromebook at this time, depending
-  on the makeup of the class.) These computer parts will be reviewed throughout the
-  year and an appropriate checklist will be used to assess students' knowledge of
-  the parts of a Chromebook.
+description: In the first activity, with the slideshow displayed, the teacher will facilitate a discussion about making good decisions online and why this is important. After a brief introduction, the teacher
+  will go through the slides and have the students decide which picture shows students making the better decision out of the two pictures on each slide. Students will then have the opportunity to log onto
+  their Chromebooks and display good decision-making while working online (while the teacher observes, making note of behaviors). In the second activity, with the slideshow displayed and an actual Chromebook
+  held up, the teacher will highlight the parts of a Chromebook that students need to familiarize themselves with in order to be able to work independently and solve problems independently on the Chromebook.
+  (Students may or may not be able to hold onto their own Chromebook at this time, depending on the makeup of the class.) These computer parts will be reviewed throughout the year and an appropriate checklist
+  will be used to assess students' knowledge of the parts of a Chromebook.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Stacy Lynn Martinez
@@ -29,13 +21,27 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-standards: Currently, this lesson only addresses the Wyoming Computer Science Standards.
-materials: 'Website, Slideshow website: https://tinyurl.com/4ztekzpu Checklist for
-  computer parts grading template: https://tinyurl.com/yckkfv6z The teacher will also
-  use his/her computer and a projector to display information to students.'
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+materials: 'Website, Slideshow website: https://tinyurl.com/4ztekzpu Checklist for computer parts grading template: https://tinyurl.com/yckkfv6z The teacher will also use his/her computer and a projector
+  to display information to students.'
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

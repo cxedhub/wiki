@@ -1,9 +1,7 @@
 ---
 title: 'Communicating Through History: MicroBit Morse Code'
-description: 'Students will read articles and then construct a timeline of the progression
-  of communication technology in the developing United States. Then, they will use
-  MicroBits to encode and decode messages sent in Morse Code via radio output. (Note:
-  Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)'
+description: 'Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode
+  messages sent in Morse Code via radio output. (Note: Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -22,13 +20,41 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: RI.4.1, RI.4.3, W.4.4, SS5.3.1, SS5.3.3, SS5.4.1, SS5.4.2
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - RF.5
+  - SL.5
+  NCSS C3:
+  - D2.His.1.3-5
+  - D2.His.14.3-5
+  - D2.His.2.3-5
+  - D2.His.3.3-5
 materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
-- "Unplugged"
-- "micro:bit"
+- Unplugged
+- micro:bit
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

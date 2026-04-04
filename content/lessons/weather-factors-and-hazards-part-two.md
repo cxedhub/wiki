@@ -1,7 +1,6 @@
 ---
 title: 'Weather: Factors and Hazards (Part Two)'
-description: In this activity, students continue their exploration of weather. They
-  learn about two new weather tools- a wind sock and an anemometer.
+description: In this activity, students continue their exploration of weather. They learn about two new weather tools- a wind sock and an anemometer.
 date: '2022-08-12 00:00:00+00:00'
 draft: false
 author: Tara Taliaferro
@@ -18,10 +17,34 @@ cs_principles:
 - Developing and Using Abstractions
 materials: Website, https://pltw.read.inkling.com/a/b/c81739657f764e5d82bdb800b594b20b/p/a6414e9e60bc4888843295ab7573b9e1https://pltw.read.inkling.com/a/b/15e3927999d548049051312d8519e56b/p/2e50ab8a10274eb89aac95408a7cece5
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS Math"
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-09
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  CCSS Math:
+  - 5.MD
+  - 5.OA
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
+  - 4-PS3-1
+  - 4-PS3-2
 ---
 # OVERVIEW
 ## Activity Overview:  

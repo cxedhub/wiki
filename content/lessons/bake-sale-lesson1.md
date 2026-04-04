@@ -1,9 +1,7 @@
 ---
 title: Bake Sale Lesson1
-description: This is the first day of a two-part lesson in entrepreneurship marketing
-  research. In the overall project, Bake Sale, the class will become a company. In
-  this piece of the unit, students will be learning about market research. They will
-  create a survey and begin to collect the data, this is an unplugged lesson.
+description: This is the first day of a two-part lesson in entrepreneurship marketing research. In the overall project, Bake Sale, the class will become a company. In this piece of the unit, students will
+  be learning about market research. They will create a survey and begin to collect the data, this is an unplugged lesson.
 date: '2020-07-10 00:00:00+00:00'
 draft: false
 author: Nate Reinhardt
@@ -17,11 +15,26 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-standards: CV12.2.1, CV12.2.2, CV12.2.3, CV12.3.1, CV12.3.2, CV12.4.1
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
 materials: None
 tags:
-- "Data Collection"
-- "Unplugged"
+- Data Collection
+- Unplugged
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  
