@@ -32,15 +32,6 @@
       {{ range $i, $p := . }}{{ if $i }}, {{ end }}<a href="{{ "cs_principles/" | relURL }}{{ $p | urlize }}/">{{ $p }}</a>{{ end }}
     </div>
     {{ end }}
-    {{ with .Params.standard_types }}
-    <div class="meta-item">
-      <strong>Standard{{ if gt (len .) 1 }}s{{ end }} Framework:</strong>
-      {{ range $i, $st := . }}{{ if $i }}, {{ end }}<a href="{{ "standard_types/" | relURL }}{{ $st | urlize }}/">{{ $st }}</a>{{ end }}
-    </div>
-    {{ end }}
-    {{ with .Params.standards }}
-    <div class="meta-item"><strong>Standards:</strong> {{ . }}</div>
-    {{ end }}
     {{ with .Params.materials }}
     <div class="meta-item"><strong>Materials:</strong> {{ . }}</div>
     {{ end }}
@@ -51,6 +42,14 @@
     </div>
     {{ end }}
   </div>
+
+  {{/* ===== Standards Section (structured, with links) ===== */}}
+  {{ with .Params.standards }}
+  <div class="lesson-standards">
+    <h3>National Standards Alignment</h3>
+    {{ partial "standards-display.html" . }}
+  </div>
+  {{ end }}
   {{ end }}
 
   <div class="lesson-content">

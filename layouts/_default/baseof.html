@@ -7,6 +7,27 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   {{ $style := resources.Get "css/main.css" }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Standards display */
+    .lesson-standards{margin:1.25rem 0;padding:1rem;background:#f8f9fa;border-radius:8px;border:1px solid #e0e0e0}
+    .lesson-standards h3{font-size:.9rem;color:#1a1a2e;margin-bottom:.6rem;padding-bottom:.4rem;border-bottom:2px solid #0f3460}
+    .standards-grid{display:flex;flex-direction:column;gap:.35rem}
+    .standards-group{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem;padding:.35rem 0;border-bottom:1px solid #eee}
+    .standards-group:last-child{border-bottom:none}
+    .standards-framework{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#666;min-width:110px;flex-shrink:0}
+    .standards-framework a{color:#0f3460;text-decoration:none}
+    .standards-framework a:hover{text-decoration:underline}
+    .standards-codes{display:flex;flex-wrap:wrap;gap:.25rem}
+    .standard-code{display:inline-block;padding:.12rem .4rem;border-radius:4px;font-size:.72rem;font-weight:600;
+      font-family:'JetBrains Mono',monospace;background:#f3e5f5;color:#6a1b9a;text-decoration:none;transition:.15s}
+    a.standard-code:hover{background:#6a1b9a;color:#fff}
+    /* Citation footer */
+    .cxed-cite{padding:.75rem 1.5rem;text-align:center;font-size:.72rem;color:#888;line-height:1.5}
+    .cxed-cite strong{color:#555}.cxed-cite a{color:#0f3460;text-decoration:none}.cxed-cite a:hover{text-decoration:underline}
+    .cxed-cite .funding{font-size:.65rem;color:#aaa;margin-top:.2rem}
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -32,8 +53,13 @@
   <footer class="site-footer">
     <div class="container">
       <p>&copy; {{ now.Year }} CX Ed Hub &mdash; Computing + X Educator Hub</p>
-      <p>Funded by the National Science Foundation. Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
-      <p><a href="https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing">Google Drive Resources</a></p>
+      <p>Developed by <strong>Dr. Andrea C. Borowczak</strong> &amp; <strong>Dr. Mike Borowczak</strong> &middot; University of Central Florida</p>
+      <div class="cxed-cite">
+        <strong>Recommended Citation:</strong> Borowczak, A.C. &amp; Borowczak, M. (2026). <em>CxEd Hub: Cross-Disciplinary Computing-Integrated K-12 Lesson Plans.</em> 
+        Retrieved from <a href="https://cxedhub.github.io/wiki/">https://cxedhub.github.io/wiki/</a>
+        <div class="funding">Supported by NSF DRL Grant #1923542. Opinions, findings, or recommendations are those of the authors and do not necessarily reflect NSF views.</div>
+      </div>
+      <p>Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &middot; <a href="https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing">Google Drive Resources</a></p>
     </div>
   </footer>
 

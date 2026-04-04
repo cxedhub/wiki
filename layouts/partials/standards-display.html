@@ -1,0 +1,85 @@
+{{/* 
+  partials/standards-display.html
+  
+  Renders the structured standards dict from lesson frontmatter.
+  Usage: {{ partial "standards-display.html" .Params.standards }}
+  
+  Expects .Params.standards as a map like:
+    CSTA:
+      - 1A-AP-10
+      - 1A-AP-14
+    NGSS:
+      - K-2-ETS1-1
+*/}}
+
+{{ if . }}
+<div class="standards-grid">
+  {{ range $framework, $codes := . }}
+    {{ if $codes }}
+    <div class="standards-group">
+      <span class="standards-framework">
+        {{ if eq $framework "CSTA" }}
+          <a href="https://www.csteachers.org/k12standards/interactive" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else if eq $framework "CCSS Math" }}
+          <a href="https://www.thecorestandards.org/Math/" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else if eq $framework "CCSS ELA" }}
+          <a href="https://www.thecorestandards.org/ELA-Literacy/" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else if eq $framework "NGSS" }}
+          <a href="https://www.nextgenscience.org/search-standards" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else if eq $framework "ISTE" }}
+          <a href="https://www.iste.org/standards/iste-standards-for-students" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else if eq $framework "NCSS C3" }}
+          <a href="https://www.socialstudies.org/c3" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else if eq $framework "National Core Arts" }}
+          <a href="https://www.nationalartsstandards.org/" target="_blank" rel="noopener">{{ $framework }}</a>
+        {{ else }}
+          {{ $framework }}
+        {{ end }}
+      </span>
+      <span class="standards-codes">
+        {{ range $codes }}
+          {{ if eq $framework "NGSS" }}
+            {{/* NGSS deep links: code-lowercase-dci-slug */}}
+            {{ $slug := lower . }}
+            {{ $dci := "" }}
+            {{ if in . "PS1" }}{{ $dci = "matter-and-its-interactions" }}
+            {{ else if in . "PS2" }}{{ $dci = "motion-and-stability-forces-and-interactions" }}
+            {{ else if in . "PS3" }}{{ $dci = "energy" }}
+            {{ else if in . "PS4" }}{{ $dci = "waves-and-their-applications-in-technologies-for-information-transfer" }}
+            {{ else if in . "LS1" }}{{ $dci = "from-molecules-to-organisms-structures-and-processes" }}
+            {{ else if in . "LS2" }}{{ $dci = "ecosystems-interactions-energy-and-dynamics" }}
+            {{ else if in . "LS3" }}{{ $dci = "heredity-inheritance-and-variation-of-traits" }}
+            {{ else if in . "LS4" }}{{ $dci = "biological-evolution-unity-and-diversity" }}
+            {{ else if in . "ESS1" }}{{ $dci = "earths-place-in-the-universe" }}
+            {{ else if in . "ESS2" }}{{ $dci = "earths-systems" }}
+            {{ else if in . "ESS3" }}{{ $dci = "earth-and-human-activity" }}
+            {{ else if in . "ETS1" }}{{ $dci = "engineering-design" }}
+            {{ end }}
+            <a href="https://www.nextgenscience.org/pe/{{ $slug }}-{{ $dci }}" class="standard-code" target="_blank" rel="noopener">{{ . }}</a>
+          {{ else if eq $framework "CCSS ELA" }}
+            {{/* CCSS ELA deep links: /ELA-Literacy/STRAND/GRADE/ */}}
+            {{ $parts := split . "." }}
+            {{ $strand := index $parts 0 }}
+            {{ $grade := "" }}
+            {{ if gt (len $parts) 1 }}{{ $grade = index $parts 1 }}{{ end }}
+            {{ $g := replace $grade "-" "" }}
+            <a href="https://www.thecorestandards.org/ELA-Literacy/{{ $strand }}/{{ $g }}/" class="standard-code" target="_blank" rel="noopener">{{ . }}</a>
+          {{ else if eq $framework "CCSS Math" }}
+            {{/* CCSS Math deep links */}}
+            {{ if hasPrefix . "HS" }}
+              {{ $parts := split . "-" }}
+              <a href="https://www.thecorestandards.org/Math/Content/{{ index $parts 0 }}/{{ index $parts 1 }}/" class="standard-code" target="_blank" rel="noopener">{{ . }}</a>
+            {{ else }}
+              {{ $parts := split . "." }}
+              <a href="https://www.thecorestandards.org/Math/Content/{{ index $parts 0 }}/{{ index $parts 1 }}/" class="standard-code" target="_blank" rel="noopener">{{ . }}</a>
+            {{ end }}
+          {{ else }}
+            <span class="standard-code">{{ . }}</span>
+          {{ end }}
+        {{ end }}
+      </span>
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
