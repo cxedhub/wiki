@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  {{ partial "seo-head.html" . }}
+  {{ partial "json-ld.html" . }}
   {{ $style := resources.Get "css/main.css" }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
