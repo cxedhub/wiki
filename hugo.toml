@@ -48,6 +48,10 @@ summaryLength = 40
     url = "/resources/"
     weight = 4
   [[menu.main]]
+    name = "Standards Matrix"
+    url = "/matrix/"
+    weight = 5
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
