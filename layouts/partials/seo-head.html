@@ -1,0 +1,60 @@
+{{/*
+  partials/seo-head.html
+  Canonical URLs, Open Graph, Twitter Cards, and optimized <title> tags.
+*/}}
+
+{{- $siteTitle := site.Title -}}
+{{- $desc := or .Description site.Params.description -}}
+
+{{/* ── Optimized Page Titles ── */}}
+{{- $pageTitle := "" -}}
+{{- if .IsHome -}}
+  {{- $pageTitle = printf "%s — K-12 Computing Lesson Plans Aligned to CSTA, NGSS, CCSS & ISTE" $siteTitle -}}
+{{- else if eq .Type "matrix" -}}
+  {{- $pageTitle = printf "Cross-Disciplinary Standards Matrix — CSTA, NGSS, CCSS, ISTE | %s" $siteTitle -}}
+{{- else if and .IsSection (eq .Section "lessons") -}}
+  {{- $pageTitle = printf "K-12 Computing Lesson Plans | %s" $siteTitle -}}
+{{- else if and .IsSection (eq .Section "pds") -}}
+  {{- $pageTitle = printf "Professional Development for K-12 Computing Educators | %s" $siteTitle -}}
+{{- else if .IsPage -}}
+  {{- $pageTitle = printf "%s | %s" .Title $siteTitle -}}
+{{- else if eq .Kind "taxonomy" -}}
+  {{- $pageTitle = printf "%s — Browse by %s | %s" .Title (.Data.Singular | title) $siteTitle -}}
+{{- else if eq .Kind "term" -}}
+  {{- if eq .Data.Singular "standard_type" -}}
+    {{- $pageTitle = printf "%s Lesson Plans — K-12 Computing Integration | %s" .Title $siteTitle -}}
+  {{- else if eq .Data.Singular "grade_level" -}}
+    {{- $pageTitle = printf "%s Computing Lesson Plans | %s" .Title $siteTitle -}}
+  {{- else if eq .Data.Singular "subject" -}}
+    {{- $pageTitle = printf "%s — Cross-Disciplinary Computing Lessons | %s" .Title $siteTitle -}}
+  {{- else if eq .Data.Singular "cs_domain" -}}
+    {{- $pageTitle = printf "%s Lessons — Computer Science | %s" .Title $siteTitle -}}
+  {{- else -}}
+    {{- $pageTitle = printf "%s Lesson Plans | %s" .Title $siteTitle -}}
+  {{- end -}}
+{{- else -}}
+  {{- $pageTitle = printf "%s | %s" .Title $siteTitle -}}
+{{- end -}}
+
+<title>{{ $pageTitle }}</title>
+<meta name="description" content="{{ $desc }}">
+
+{{/* ── Canonical URL ── */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* ── Open Graph ── */}}
+<meta property="og:title" content="{{ $pageTitle }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ $siteTitle }}">
+<meta property="og:locale" content="en_US">
+{{- if .IsHome }}
+<meta property="og:type" content="website">
+{{- else }}
+<meta property="og:type" content="article">
+{{- end }}
+
+{{/* ── Twitter Card ── */}}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $pageTitle }}">
+<meta name="twitter:description" content="{{ $desc }}">
