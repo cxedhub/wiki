@@ -1,6 +1,17 @@
 {{ define "main" }}
 <div class="container">
+  {{- if eq .Data.Singular "standard_type" }}
+  <h1>{{ .Title }} — Computing-Integrated Lesson Plans</h1>
+  {{- else if eq .Data.Singular "grade_level" }}
+  <h1>{{ .Title }} Computing Lesson Plans</h1>
+  {{- else if eq .Data.Singular "subject" }}
+  <h1>{{ .Title }} — Cross-Disciplinary Computing Lessons</h1>
+  {{- else if eq .Data.Singular "cs_domain" }}
+  <h1>{{ .Title }} — Computer Science Lessons</h1>
+  {{- else }}
   <h1>{{ .Title }}</h1>
+  {{- end }}
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
   <p>{{ len .Pages }} lesson{{ if ne (len .Pages) 1 }}s{{ end }} found.</p>
 
   <div class="card-grid">
