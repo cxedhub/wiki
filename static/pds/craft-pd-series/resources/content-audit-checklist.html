@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Content Audit Checklist — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--teal:#1ABC9C;--teal-bg:#E8FAF6;--red:#C0392B;--green:#27AE60;--gold:#D4A843;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
+.checklist{background:#fff;border:1px solid var(--gray200);border-radius:8px;padding:20px;margin:12px 0}
+.check-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--gray100);align-items:flex-start;font-size:0.9rem}
+.check-item:last-child{border-bottom:none}
+.check-item input[type="checkbox"]{margin-top:4px;width:18px;height:18px;flex-shrink:0;accent-color:var(--teal)}
+.check-item label{cursor:pointer}
+.check-item .sub{font-size:0.82rem;color:var(--gray600);margin-top:2px}
+.category{font-weight:700;font-size:0.95rem;margin:16px 0 8px;padding:6px 12px;border-radius:4px;display:inline-block;color:#fff}
+.cat-facts{background:var(--red)}
+.cat-accuracy{background:var(--gold)}
+.cat-grade{background:var(--green)}
+.cat-bias{background:var(--teal)}
+.cat-source{background:#8E6BBF}
+textarea{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;min-height:60px;resize:vertical;background:#fff}
+label.field{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px}
+.verdict{display:flex;gap:12px;margin:16px 0;flex-wrap:wrap}
+.verdict label{display:flex;align-items:center;gap:6px;padding:8px 16px;border:2px solid var(--gray200);border-radius:6px;cursor:pointer;font-size:0.88rem;font-weight:600;transition:all 0.2s}
+.verdict input{display:none}
+.verdict input:checked+label.v-pass{border-color:var(--green);background:#E8F8F0;color:var(--green)}
+.verdict input:checked+label.v-fix{border-color:var(--gold);background:#FFF8E7;color:var(--gold)}
+.verdict input:checked+label.v-reject{border-color:var(--red);background:#FDECEC;color:var(--red)}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+@media print{.btn,.back{display:none}.check-item input[type="checkbox"]{-webkit-appearance:none;border:2px solid #000;border-radius:2px;width:14px;height:14px}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>Content Audit Checklist</h1>
+<p class="subtitle">Use this checklist to systematically evaluate any AI-generated STEM explanation, lesson content, or educational material. Check every item, then render your verdict.</p>
+
+<h2>AI Content Being Audited</h2>
+<label class="field">What did you ask the AI to produce?</label>
+<textarea placeholder="Paste your prompt or describe the request..."></textarea>
+<label class="field">Paste or summarize the AI's output</label>
+<textarea style="min-height:100px" placeholder="Paste the AI-generated content here for reference..."></textarea>
+
+<div class="checklist">
+
+<span class="category cat-facts">Factual Claims</span>
+<div class="check-item"><input type="checkbox" id="c1"><label for="c1"><strong>All factual claims are verifiable.</strong><div class="sub">Can you independently confirm each fact? Google a claim you're unsure about.</div></label></div>
+<div class="check-item"><input type="checkbox" id="c2"><label for="c2"><strong>No invented citations or references.</strong><div class="sub">If the AI cited a paper, textbook, or website — does it actually exist?</div></label></div>
+<div class="check-item"><input type="checkbox" id="c3"><label for="c3"><strong>Numbers and calculations are correct.</strong><div class="sub">Check at least one calculation by hand. AI frequently makes arithmetic errors.</div></label></div>
+<div class="check-item"><input type="checkbox" id="c4"><label for="c4"><strong>Units are correct and consistent.</strong><div class="sub">Watch for unit mismatches (e.g., mixing meters and centimeters, Celsius and Fahrenheit).</div></label></div>
+
+<span class="category cat-accuracy">Scientific Accuracy</span>
+<div class="check-item"><input type="checkbox" id="c5"><label for="c5"><strong>Core concept is accurately represented.</strong><div class="sub">Is the fundamental science/math correct? Or did the AI subtly distort it?</div></label></div>
+<div class="check-item"><input type="checkbox" id="c6"><label for="c6"><strong>No oversimplification to the point of inaccuracy.</strong><div class="sub">Simplifying for grade level is fine. Simplifying until it's wrong is not.</div></label></div>
+<div class="check-item"><input type="checkbox" id="c7"><label for="c7"><strong>No confident-sounding false statements.</strong><div class="sub">AI specializes in sounding authoritative even when wrong. Flag anything that "sounds right" but you can't verify.</div></label></div>
+<div class="check-item"><input type="checkbox" id="c8"><label for="c8"><strong>Formulas and equations are correct.</strong><div class="sub">Check variable names, signs, exponents, and units in every formula.</div></label></div>
+
+<span class="category cat-grade">Grade Appropriateness</span>
+<div class="check-item"><input type="checkbox" id="c9"><label for="c9"><strong>Reading level matches the target audience.</strong><div class="sub">Would your students understand this? Is vocabulary too advanced or too simple?</div></label></div>
+<div class="check-item"><input type="checkbox" id="c10"><label for="c10"><strong>Examples are age-appropriate and relevant.</strong><div class="sub">Are the contexts meaningful to students in this grade band?</div></label></div>
+<div class="check-item"><input type="checkbox" id="c11"><label for="c11"><strong>Complexity matches the standard.</strong><div class="sub">Is this pitched at the right depth for the NGSS performance expectation?</div></label></div>
+<div class="check-item"><input type="checkbox" id="c12"><label for="c12"><strong>Prerequisites are appropriate.</strong><div class="sub">Does this assume knowledge students haven't learned yet?</div></label></div>
+
+<span class="category cat-bias">Bias & Representation</span>
+<div class="check-item"><input type="checkbox" id="c13"><label for="c13"><strong>No cultural bias or stereotypes.</strong><div class="sub">Are examples inclusive? Do they represent diverse contexts and names?</div></label></div>
+<div class="check-item"><input type="checkbox" id="c14"><label for="c14"><strong>No gendered assumptions about STEM.</strong><div class="sub">Does the content assume who does/doesn't do science?</div></label></div>
+
+<span class="category cat-source">Standards Alignment</span>
+<div class="check-item"><input type="checkbox" id="c15"><label for="c15"><strong>NGSS codes are real and correctly cited.</strong><div class="sub">Verify every standard code at nextgenscience.org. AI frequently invents codes.</div></label></div>
+<div class="check-item"><input type="checkbox" id="c16"><label for="c16"><strong>Content actually addresses the cited standard.</strong><div class="sub">Even if the code is real, does the content match what the standard requires?</div></label></div>
+</div>
+
+<h2>Your Verdict</h2>
+<div class="verdict">
+<input type="radio" name="verdict" id="v1"><label for="v1" class="v-pass">✅ Usable as-is</label>
+<input type="radio" name="verdict" id="v2"><label for="v2" class="v-fix">⚠️ Usable with edits</label>
+<input type="radio" name="verdict" id="v3"><label for="v3" class="v-reject">❌ Reject — too many errors</label>
+</div>
+
+<label class="field">Errors Found (list them)</label>
+<textarea placeholder="List each error you found, where it occurs, and how you would fix it..."></textarea>
+
+<label class="field">Edits Needed Before Use</label>
+<textarea placeholder="What specific changes are required before this content is classroom-ready?"></textarea>
+
+<div style="margin-top:20px">
+<button class="btn" onclick="window.print()">🖨 Print Checklist</button>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+</body></html>

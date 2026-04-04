@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Check the Machine (CtM) — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--teal:#1ABC9C;--teal-bg:#E8FAF6;--gold:#D4A843;--red:#C0392B;--green:#27AE60;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:2rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.4rem;margin:28px 0 12px}
+h3{font-size:1rem;font-weight:600;margin:16px 0 6px}
+.subtitle{color:var(--gray600);font-size:0.95rem;margin-bottom:24px}
+.onepager{background:#fff;border:2px solid var(--teal);border-radius:10px;padding:28px;margin-bottom:32px}
+.onepager h2{margin-top:0;color:var(--teal)}
+.step{display:grid;grid-template-columns:56px 1fr;gap:12px;margin:16px 0;align-items:start}
+.step-num{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff;font-weight:700;flex-shrink:0}
+.step-num.s1{background:var(--gold)}
+.step-num.s2{background:var(--red)}
+.step-num.s3{background:var(--green)}
+.step-num.s4{background:var(--purple)}
+.step-body{padding-top:4px}
+.step-title{font-weight:700;font-size:1rem}
+.step-desc{font-size:0.9rem;color:var(--ink-med);margin-top:2px}
+.worksheet{background:#fff;border:1px solid var(--gray200);border-radius:10px;padding:24px;margin:16px 0;page-break-inside:avoid}
+.worksheet h3{color:var(--teal);margin-bottom:12px;font-size:1.1rem}
+label{display:block;font-weight:600;font-size:0.85rem;margin:14px 0 4px}
+textarea{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;min-height:70px;resize:vertical;background:#fff}
+input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.principle{background:var(--teal-bg);border-radius:6px;padding:12px;margin:8px 0;font-size:0.88rem}
+.principle strong{color:var(--teal)}
+.example{background:var(--gray100);border-radius:6px;padding:16px;margin:12px 0;font-size:0.88rem;border-left:3px solid var(--gold)}
+.example .ex-label{font-weight:700;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--gold);margin-bottom:6px}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
+.btn:hover{opacity:0.85}
+.btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+.divider{border:none;border-top:2px dashed var(--gray200);margin:32px 0}
+@media print{.btn,.back{display:none}body{max-width:100%}.onepager{border:2px solid #000}.worksheet{border:1px solid #999;page-break-inside:avoid}}
+@media(max-width:600px){.row{grid-template-columns:1fr}.step{grid-template-columns:44px 1fr}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>Check the Machine (CtM)</h1>
+<p class="subtitle">A 4-step protocol for verifying AI outputs. Use the one-pager as a reference. Use the worksheet with students.</p>
+
+<!-- ═══ ONE-PAGER ═══ -->
+<div class="onepager">
+<h2>The CtM Protocol — One-Pager</h2>
+<p style="font-size:0.9rem;margin-bottom:16px">Every time you or your students use AI to generate an answer, run this 4-step cycle before trusting the output.</p>
+
+<div class="step">
+<div class="step-num s1">1</div>
+<div class="step-body"><div class="step-title">TASK</div><div class="step-desc">What did you ask the AI to do? Write the prompt or describe the request. Be specific.</div></div>
+</div>
+
+<div class="step">
+<div class="step-num s2">2</div>
+<div class="step-body"><div class="step-title">BEFORE</div><div class="step-desc">What do you <em>expect</em> the answer to be? Write your prediction, estimate, or prior belief BEFORE looking at the AI's output. This is the most important step — it activates your own knowledge.</div></div>
+</div>
+
+<div class="step">
+<div class="step-num s3">3</div>
+<div class="step-body"><div class="step-title">AFTER</div><div class="step-desc">What did the AI actually produce? Describe the output. Compare it to your prediction. Flag anything that surprises you, contradicts what you know, or that you can't independently verify.</div></div>
+</div>
+
+<div class="step">
+<div class="step-num s4">4</div>
+<div class="step-body"><div class="step-title">TAKEAWAY</div><div class="step-desc">What did the comparison reveal? This is about TWO things: (1) What did you learn about the AI tool — where is it reliable? Where does it fail? (2) What did you learn about your OWN understanding?</div></div>
+</div>
+
+<div style="margin-top:16px;font-size:0.88rem">
+<div class="principle"><strong>Principle 1:</strong> AI is never the first step. You must have your own expectation before checking the AI's output.</div>
+<div class="principle"><strong>Principle 2:</strong> Errors are features, not failures. Finding an AI error means you're learning.</div>
+<div class="principle"><strong>Principle 3:</strong> Verification is a skill that transfers. The same mindset applies to checking any data source, calculation, or claim.</div>
+</div>
+</div>
+
+<!-- ═══ WORKED EXAMPLE ═══ -->
+<h2>Worked Example</h2>
+<div class="example">
+<div class="ex-label">Example: 7th Grade Math</div>
+<p><strong>Task:</strong> I asked the AI: "Write a word problem about proportional relationships using a recipe context for 7th graders."</p>
+<p><strong>Before:</strong> I expect a problem that gives a recipe for a certain number of servings and asks students to scale it up or down. The numbers should be reasonable (not fractions of eggs) and the proportion should be straightforward.</p>
+<p><strong>After:</strong> The AI produced a problem about tripling a cookie recipe. It was well-written BUT it asked students to use "3/4 × 3 = 9/4 cups of flour" — mathematically correct, but the AI didn't convert to mixed numbers (2¼ cups) which is how recipes actually work. A student could get the right math answer but an impractical cooking answer.</p>
+<p><strong>Takeaway:</strong> The AI is good at creating the structure of word problems but doesn't always check whether the answer makes practical sense in context. I need to verify that AI-generated problems have contextually reasonable answers, not just mathematically correct ones.</p>
+</div>
+
+<hr class="divider">
+
+<!-- ═══ STUDENT WORKSHEET ═══ -->
+<h2>Student Worksheet</h2>
+<p style="font-size:0.9rem;margin-bottom:12px">Print or share this section with students. Editable fields below — customize the header for your class.</p>
+
+<div class="worksheet">
+<h3>Check the Machine 🤖 → 🔍</h3>
+<div class="row">
+<div><label>Name</label><input type="text"></div>
+<div><label>Date</label><input type="text"></div>
+</div>
+<div class="row">
+<div><label>Subject / Class</label><input type="text"></div>
+<div><label>AI Tool Used</label><input type="text" placeholder="e.g., ChatGPT, Claude, Gemini"></div>
+</div>
+
+<label>Step 1: TASK — What did you ask the AI to do?</label>
+<textarea placeholder="Write your exact prompt or describe your request here..."></textarea>
+
+<label>Step 2: BEFORE — What do you predict the answer will be?</label>
+<textarea placeholder="WRITE THIS BEFORE LOOKING AT THE AI'S OUTPUT. What do you think the answer is? What do you expect to see? Even a rough guess counts."></textarea>
+
+<label>Step 3: AFTER — What did the AI actually produce?</label>
+<textarea placeholder="Describe or paste the AI's output. Then answer: Does it match your prediction? What's different? What surprises you? What can't you verify?"></textarea>
+
+<label>Step 4: TAKEAWAY — What did you learn?</label>
+<textarea placeholder="Two parts:
+(a) About the AI: Where was it right? Where was it wrong? What should you be cautious about?
+(b) About YOUR understanding: Did you know enough to spot the errors? What do you need to learn more about?"></textarea>
+
+<label>Verification Check (circle one)</label>
+<div style="display:flex;gap:16px;margin-top:6px;font-size:0.9rem">
+<span>✅ AI output is accurate — I verified it</span>
+<span>⚠️ AI output has errors — I found and corrected them</span>
+<span>❌ AI output is unreliable — I need to redo this myself</span>
+</div>
+</div>
+
+<!-- ═══ TEACHER CUSTOMIZATION ═══ -->
+<h2>Customize for Your Classroom</h2>
+<div class="worksheet">
+<h3>Your CtM Settings</h3>
+<label>Grade Level & Subject</label>
+<input type="text" placeholder="e.g., 8th Grade Physical Science">
+<label>Simplified Language (for younger students)</label>
+<textarea rows="3" placeholder="Rewrite the 4 steps in language your students will understand. Example for elementary:
+1. TASK: What did I ask the robot to do?
+2. BEFORE: What do I THINK the answer is?
+3. AFTER: What did the robot say? Was the robot right?
+4. TAKEAWAY: What did I learn about the robot? What did I learn about myself?"></textarea>
+<label>Sample CtM Task for Your Subject</label>
+<textarea placeholder="Write a specific AI task your students could run through the CtM cycle. e.g., 'Ask the AI to explain why leaves change color in autumn at a 5th grade reading level.'"></textarea>
+</div>
+
+<div style="margin-top:20px">
+<button class="btn" onclick="window.print()">🖨 Print</button>
+<button class="btn secondary" onclick="printWorksheetOnly()">🖨 Print Worksheet Only</button>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+<script>
+function printWorksheetOnly(){
+  const ws=document.querySelectorAll('.worksheet');
+  const body=document.body.innerHTML;
+  let wsHTML='<h1 style="font-family:Georgia,serif">Check the Machine</h1>';
+  ws.forEach(w=>wsHTML+=w.outerHTML);
+  document.body.innerHTML=wsHTML;
+  window.print();
+  document.body.innerHTML=body;
+}
+</script>
+</body></html>

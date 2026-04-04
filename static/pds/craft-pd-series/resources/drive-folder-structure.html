@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Google Drive Folder Structure — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:#1B2A4A;background:#FAFBFE;line-height:1.7;max-width:800px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px}
+.subtitle{color:#666;font-size:0.9rem;margin-bottom:20px}
+.tree{background:#fff;border:1px solid #E8E8E8;border-radius:8px;padding:20px;font-family:'JetBrains Mono',monospace;font-size:0.85rem;line-height:1.8;white-space:pre;overflow-x:auto}
+.folder{color:#D4A843;font-weight:600}
+.file{color:#2C4A6E}
+.note{color:#999;font-style:italic}
+.tip{background:#E8FAF6;border:1px solid #1ABC9C;border-radius:6px;padding:14px;font-size:0.88rem;margin:16px 0}
+.tip strong{color:#1ABC9C}
+.back{font-size:0.85rem;color:#1ABC9C;text-decoration:none;display:inline-block;margin-bottom:16px}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>Google Drive Folder Structure</h1>
+<p class="subtitle">Create this folder hierarchy in your shared Google Drive. Share the top-level folder with all participants (view access). Make templates "Make a copy" accessible.</p>
+
+<div class="tree"><span class="folder">📁 CRAFT PD Series — AI & IoT for K-12 STEM</span>
+│
+├── <span class="folder">📁 Workshop 1 — AI for STEM (Apr 11)</span>
+│   ├── <span class="file">📄 Prompt Library.html</span>                    <span class="note">← or Google Doc version</span>
+│   ├── <span class="file">📄 Platform Comparison Cheat Sheet.html</span>
+│   ├── <span class="file">📄 NGSS Lesson Template (MAKE A COPY).gdoc</span> <span class="note">← Google Doc, edit access off</span>
+│   ├── <span class="file">📄 Workshop 1 Slides.pptx</span>
+│   ├── <span class="folder">📁 Shared Collaboration Doc</span>
+│   │   └── <span class="file">📄 W1 Group Workspace.gdoc</span>             <span class="note">← edit access for all participants</span>
+│   └── <span class="folder">📁 Participant Lessons</span>                   <span class="note">← participants save their work here</span>
+│
+├── <span class="folder">📁 Workshop 2 — Verifying AI Outputs (Apr 18)</span>
+│   ├── <span class="file">📄 Check the Machine Template (MAKE A COPY).gdoc</span>
+│   ├── <span class="file">📄 CtM One-Pager.pdf</span>                      <span class="note">← print from ctm-template.html</span>
+│   ├── <span class="file">📄 Content Audit Checklist.html</span>
+│   ├── <span class="file">📄 AI Error Gallery & Code Snippets.html</span>
+│   ├── <span class="file">📄 Workshop 2 Slides.pptx</span>
+│   ├── <span class="folder">📁 Code Snippets (Python)</span>
+│   │   ├── <span class="file">snippet_1_projectile.py</span>
+│   │   ├── <span class="file">snippet_2_temperature.py</span>
+│   │   └── <span class="file">snippet_3_ph.py</span>
+│   ├── <span class="folder">📁 Shared Collaboration Doc</span>
+│   │   └── <span class="file">📄 W2 Group Workspace.gdoc</span>
+│   └── <span class="folder">📁 Participant CtM Templates</span>
+│
+├── <span class="folder">📁 Workshop 3 — Edge/IoT with AI (Apr 25)</span>
+│   ├── <span class="file">📄 Sensor Reference Guide.html</span>
+│   ├── <span class="file">📄 IoT Lesson Template (MAKE A COPY).gdoc</span>
+│   ├── <span class="file">📄 NGSS Crosswalk.html</span>                    <span class="note">← included in sensor guide</span>
+│   ├── <span class="file">📄 Workshop 3 Slides.pptx</span>
+│   ├── <span class="folder">📁 MakeCode Projects</span>
+│   │   ├── <span class="file">01_temperature_display.hex</span>             <span class="note">← export from MakeCode</span>
+│   │   ├── <span class="file">02_temp_and_light.hex</span>
+│   │   ├── <span class="file">03_greenhouse_monitor.hex</span>
+│   │   └── <span class="file">04_motion_compass.hex</span>
+│   ├── <span class="folder">📁 MicroPython Scripts</span>
+│   │   ├── <span class="file">01_temperature_display.py</span>
+│   │   ├── <span class="file">02_temp_and_light.py</span>
+│   │   ├── <span class="file">03_greenhouse_monitor.py</span>
+│   │   ├── <span class="file">04_motion_compass.py</span>
+│   │   └── <span class="file">05_comfort_index.py</span>
+│   ├── <span class="folder">📁 Shared Collaboration Doc</span>
+│   │   └── <span class="file">📄 W3 Group Workspace.gdoc</span>
+│   └── <span class="folder">📁 Participant IoT Lessons</span>
+│
+├── <span class="folder">📁 CRAFT Cycle Resources</span>
+│   ├── <span class="file">📄 CRAFT Cycle Overview (1-pager).pdf</span>
+│   └── <span class="file">📄 CRAFT Lesson Template (generic).gdoc</span>
+│
+└── <span class="folder">📁 Surveys & Admin</span>                          <span class="note">← facilitator access only</span>
+    ├── <span class="file">📄 Pre-Survey (Google Form link)</span>
+    ├── <span class="file">📄 Post-Survey (Google Form link)</span>
+    ├── <span class="file">📄 Hardware Check Email Template.html</span>
+    └── <span class="file">📄 Facilitator Agendas.docx</span></div>
+
+<h2>Setup Instructions</h2>
+
+<div class="tip"><strong>Templates:</strong> For Google Doc templates (lesson template, CtM template, IoT template), set sharing to "Anyone with the link can view" and instruct participants to go to File → Make a copy. This prevents accidental edits to the master.</div>
+
+<div class="tip"><strong>Collaboration Docs:</strong> Each workshop's group workspace should have "Anyone with the link can edit." Create a table of contents at the top with sections for each breakout group.</div>
+
+<div class="tip"><strong>MakeCode .hex files:</strong> Export from MakeCode by clicking the gear icon → "Save Project" → download .hex. Participants can import these via "Import" in MakeCode.</div>
+
+<div class="tip"><strong>Digital Toolkit PDFs:</strong> To create the per-session toolkit PDF, print each HTML resource page to PDF (Ctrl+P → Save as PDF) and combine them using any PDF merger. Each workshop's toolkit should include all resources from that workshop's folder.</div>
+
+<h2>Sharing Permissions Summary</h2>
+
+<div style="background:#fff;border:1px solid #E8E8E8;border-radius:8px;overflow:hidden;margin:12px 0">
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem">
+<tr style="background:#1B2A4A;color:#fff"><th style="padding:8px 12px;text-align:left">Folder / File</th><th style="padding:8px 12px;text-align:left">Participants</th><th style="padding:8px 12px;text-align:left">Facilitators</th></tr>
+<tr><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Top-level folder</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">View</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Edit</td></tr>
+<tr style="background:#F5F5F5"><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Templates (MAKE A COPY)</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">View (copy)</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Edit</td></tr>
+<tr><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Collaboration Docs</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Edit</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Edit</td></tr>
+<tr style="background:#F5F5F5"><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Participant work folders</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Edit</td><td style="padding:8px 12px;border-bottom:1px solid #E8E8E8">Edit</td></tr>
+<tr><td style="padding:8px 12px">Surveys & Admin</td><td style="padding:8px 12px">No access</td><td style="padding:8px 12px">Edit</td></tr>
+</table>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:#666">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+</body></html>

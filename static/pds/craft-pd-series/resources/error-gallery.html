@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Error Gallery & Code Snippets — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--teal:#1ABC9C;--red:#C0392B;--green:#27AE60;--gold:#D4A843;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:900px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:2rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.4rem;margin:32px 0 12px}
+.subtitle{color:var(--gray600);font-size:0.95rem;margin-bottom:24px}
+.error-card{background:#fff;border:1px solid var(--gray200);border-radius:8px;margin-bottom:20px;overflow:hidden}
+.error-header{padding:14px 18px;display:flex;align-items:center;gap:10px;cursor:pointer;user-select:none}
+.error-header:hover{background:var(--gray100)}
+.error-badge{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:3px 8px;border-radius:3px;color:#fff;flex-shrink:0}
+.badge-content{background:var(--gold)}
+.badge-code{background:var(--red)}
+.badge-math{background:var(--purple)}
+.badge-standards{background:var(--teal)}
+.error-title{font-weight:700;font-size:0.95rem;flex:1}
+.error-subject{font-size:0.78rem;color:var(--gray600);background:var(--gray100);padding:2px 8px;border-radius:3px}
+.toggle{font-size:0.8rem;color:var(--teal);font-weight:600}
+.error-body{padding:0 18px 18px;display:none}
+.error-body.open{display:block}
+.section-label{font-weight:700;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;margin:14px 0 4px}
+.section-label.prompt{color:var(--ink-med)}
+.section-label.output{color:var(--gold)}
+.section-label.error{color:var(--red)}
+.section-label.correct{color:var(--green)}
+.section-label.lesson{color:var(--teal)}
+.ai-output{background:var(--gray100);border-radius:6px;padding:14px;font-size:0.88rem;margin:4px 0 12px;line-height:1.6;border-left:3px solid var(--gold)}
+.ai-error{background:#FDECEC;border-radius:6px;padding:14px;font-size:0.88rem;margin:4px 0 12px;border-left:3px solid var(--red)}
+.ai-correct{background:#E8F8F0;border-radius:6px;padding:14px;font-size:0.88rem;margin:4px 0 12px;border-left:3px solid var(--green)}
+.ai-lesson{background:var(--teal);background:#E8FAF6;border-radius:6px;padding:14px;font-size:0.88rem;margin:4px 0;border-left:3px solid var(--teal)}
+code{font-family:'JetBrains Mono',monospace;font-size:0.85rem}
+pre{background:#1E1E1E;color:#D4D4D4;border-radius:6px;padding:16px;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:0.82rem;line-height:1.5;margin:4px 0 12px}
+.err-highlight{color:#F44747;font-weight:700}
+.fix-highlight{color:#4EC9B0;font-weight:700}
+.comment{color:#6A9955}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.nav a{font-size:0.82rem;padding:6px 12px;border-radius:6px;text-decoration:none;color:var(--ink-med);border:1px solid var(--gray200)}
+.nav a:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+@media print{pre{background:#f5f5f5;color:#000;border:1px solid #ccc}.toggle{display:none}.error-body{display:block!important}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>AI Error Gallery & Code Snippets</h1>
+<p class="subtitle">Real examples of AI-generated STEM errors — annotated with what went wrong, why, and what to learn from it. Use for the error hunt breakout activities. Click each card to expand.</p>
+
+<div class="nav">
+<a href="#code">Code Errors (3)</a>
+<a href="#content">Content Errors (4)</a>
+<a href="#standards">Standards Errors (2)</a>
+<a href="#math">Math Errors (2)</a>
+</div>
+
+<!-- ═══ CODE ERRORS ═══ -->
+<h2 id="code">Code Error Snippets</h2>
+<p style="font-size:0.9rem;color:var(--gray600);margin-bottom:16px">Use these for the Workshop 2 "Code Error Hunt" breakout. Each snippet has a subtle bug the AI introduced.</p>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-code">Code</span>
+<span class="error-title">Snippet 1: Projectile Range Calculator</span>
+<span class="error-subject">Physics · Grades 9-12</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label prompt">Prompt given to AI</div>
+<p style="font-size:0.88rem">"Write a Python function that calculates the range of a projectile given initial velocity (m/s) and launch angle (degrees). Use the standard range equation."</p>
+
+<div class="section-label output">AI-generated code</div>
+<pre>import math
+
+def projectile_range(velocity, angle):
+    """Calculate the range of a projectile.
+    velocity: initial velocity in m/s
+    angle: launch angle in degrees
+    Returns: range in meters
+    """
+    g = 9.81  <span class="comment"># acceleration due to gravity</span>
+    range_m = (velocity ** 2 * math.sin(2 * angle)) / g
+    return round(range_m, 2)
+
+<span class="comment"># Example: 20 m/s at 45 degrees</span>
+print(projectile_range(20, 45))  <span class="comment"># Expected: ~40.77 m</span></pre>
+
+<div class="section-label error">The bug</div>
+<div class="ai-error"><strong>Missing degree-to-radian conversion.</strong> <code>math.sin()</code> expects radians, but the angle is passed in degrees. <code>math.sin(2 * 45)</code> computes <code>sin(90)</code> in radians (≈ 0.894), not <code>sin(90°)</code> which equals 1.0. The output is 36.49 instead of the correct 40.77. It's close enough to look plausible — which makes it dangerous.</div>
+
+<div class="section-label correct">The fix</div>
+<pre>    angle_rad = math.radians(angle)
+    range_m = (velocity ** 2 * math.sin(2 * <span class="fix-highlight">angle_rad</span>)) / g</pre>
+
+<div class="section-label lesson">Teaching moment</div>
+<div class="ai-lesson"><strong>This is the #1 physics coding bug.</strong> AI models frequently forget the degree/radian conversion because the equation is "correct" without it — the code runs, it produces a number, and the number is even in the right ballpark. Students need to verify outputs against known values (45° should give maximum range ≈ v²/g).</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-code">Code</span>
+<span class="error-title">Snippet 2: Average Temperature Calculator</span>
+<span class="error-subject">Environmental Science · Grades 6-8</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label prompt">Prompt given to AI</div>
+<p style="font-size:0.88rem">"Write a Python function that takes a list of daily temperatures and returns the average, minimum, and maximum."</p>
+
+<div class="section-label output">AI-generated code</div>
+<pre>def temp_stats(temperatures):
+    """Return average, min, and max temperature."""
+    total = 0
+    for temp in temperatures:
+        total += temp
+    average = total / len(temperatures)
+    minimum = min(temperatures)
+    maximum = max(temperatures)
+    return {
+        "average": round(average, 1),
+        "min": minimum,
+        "max": maximum
+    }
+
+<span class="comment"># Test with a week of data</span>
+week = [72, 68, 75, 80, 77, None, 73]
+print(temp_stats(week))</pre>
+
+<div class="section-label error">The bug</div>
+<div class="ai-error"><strong>No handling of missing data.</strong> The test data includes <code>None</code> (a common real-world scenario — a sensor goes offline, a student misses a reading). The function crashes with <code>TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'</code>. The AI wrote clean code for clean data but real data is rarely clean.</div>
+
+<div class="section-label correct">The fix</div>
+<pre>def temp_stats(temperatures):
+    <span class="fix-highlight">clean = [t for t in temperatures if t is not None]</span>
+    <span class="fix-highlight">if not clean:</span>
+        <span class="fix-highlight">return {"average": None, "min": None, "max": None}</span>
+    average = sum(clean) / len(clean)
+    return {"average": round(average, 1), "min": min(clean), "max": max(clean)}</pre>
+
+<div class="section-label lesson">Teaching moment</div>
+<div class="ai-lesson"><strong>AI assumes perfect data.</strong> Real-world sensor data always has gaps, errors, and outliers. This connects beautifully to Workshop 3's micro:bit data collection — students will encounter missing readings and need to handle them.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-code">Code</span>
+<span class="error-title">Snippet 3: pH Classification</span>
+<span class="error-subject">Chemistry · Grades 6-8</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label prompt">Prompt given to AI</div>
+<p style="font-size:0.88rem">"Write a function that classifies a pH value as acidic, neutral, or basic."</p>
+
+<div class="section-label output">AI-generated code</div>
+<pre>def classify_ph(ph):
+    """Classify pH as acidic, neutral, or basic."""
+    if ph < 7:
+        return "acidic"
+    <span class="err-highlight">if ph == 7:</span>
+        return "neutral"
+    if ph > 7:
+        return "basic"
+
+<span class="comment"># Test</span>
+print(classify_ph(6.8))   <span class="comment"># acidic ✓</span>
+print(classify_ph(7.0))   <span class="comment"># neutral ✓</span>
+print(classify_ph(7.2))   <span class="comment"># basic ✓</span>
+print(classify_ph(<span class="err-highlight">-1</span>))    <span class="comment"># acidic? 🤔</span>
+print(classify_ph(<span class="err-highlight">15</span>))    <span class="comment"># basic? 🤔</span></pre>
+
+<div class="section-label error">The bug</div>
+<div class="ai-error"><strong>Two errors:</strong> (1) No input validation — pH of -1 or 15 is physically meaningless (valid range is 0-14), but the function happily classifies them. (2) Using <code>== 7</code> for "neutral" is scientifically misleading — water at different temperatures has pH ≠ 7.0, and the "neutral" range in practice is roughly 6.5-7.5.</div>
+
+<div class="section-label correct">The fix</div>
+<pre>def classify_ph(ph):
+    <span class="fix-highlight">if ph < 0 or ph > 14:</span>
+        <span class="fix-highlight">return "invalid (pH must be 0-14)"</span>
+    if ph < 6.5:
+        return "acidic"
+    if ph <= 7.5:
+        return "approximately neutral"
+    return "basic"</pre>
+
+<div class="section-label lesson">Teaching moment</div>
+<div class="ai-lesson"><strong>AI writes code that's logically correct but scientifically naive.</strong> The boundary conditions (what values are valid? what range counts as "neutral"?) require domain knowledge the AI doesn't reliably apply. This is why STEM teachers — not AI — are essential.</div>
+</div>
+</div>
+
+<!-- ═══ CONTENT ERRORS ═══ -->
+<h2 id="content">Content Errors</h2>
+<p style="font-size:0.9rem;color:var(--gray600);margin-bottom:16px">AI-generated STEM explanations that sound right but contain subtle inaccuracies.</p>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">Photosynthesis Explanation</span>
+<span class="error-subject">Biology · Grade 8</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen. This process takes place primarily in the leaves, specifically in the chloroplasts. The chlorophyll in chloroplasts absorbs <strong>all wavelengths of visible light</strong> to power the reaction. The chemical equation is: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. Photosynthesis is the <strong>only way</strong> plants obtain energy."</div>
+
+<div class="section-label error">Errors found (2)</div>
+<div class="ai-error"><strong>Error 1: "absorbs all wavelengths of visible light"</strong> — False. Chlorophyll primarily absorbs red and blue light, and reflects green light (that's why plants look green). This is a fundamental concept students need.<br><br><strong>Error 2: "only way plants obtain energy"</strong> — Misleading. Plants also perform cellular respiration to release energy from glucose. Photosynthesis produces glucose; respiration releases its energy. Some plants can also absorb nutrients through roots in parasitic or mycorrhizal relationships.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">Gravity Explanation</span>
+<span class="error-subject">Physics · Grade 6</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"Gravity is the force that pulls objects toward the center of the Earth. The strength of gravity depends on the mass of the object — <strong>heavier objects experience more gravitational pull and therefore fall faster</strong> than lighter objects. This is why a bowling ball falls faster than a feather. On Earth, gravity accelerates objects at 9.8 meters per second squared."</div>
+
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>"heavier objects fall faster"</strong> — This is the classic Aristotelian misconception that Galileo disproved. In a vacuum, all objects fall at the same rate regardless of mass. A bowling ball and a feather fall at different rates in air because of air resistance, not because of different gravitational pull. The AI reinforced exactly the misconception a physics teacher would spend a week correcting.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">CPU Architecture Explanation</span>
+<span class="error-subject">Computer Science · Grade 10</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"A CPU processes instructions in a cycle called fetch-decode-execute. The CPU <strong>processes one instruction at a time</strong>, sequentially reading from memory. Modern CPUs are fast because they have <strong>higher clock speeds</strong>, which means they can process more instructions per second. A 3 GHz processor processes 3 billion instructions per second."</div>
+
+<div class="section-label error">Errors found (2)</div>
+<div class="ai-error"><strong>Error 1: "processes one instruction at a time"</strong> — This hasn't been true since the 1990s. Modern CPUs use pipelining, superscalar execution, and out-of-order execution to process multiple instructions simultaneously. Even a basic explanation should mention that modern CPUs overlap instructions.<br><br><strong>Error 2: "3 GHz = 3 billion instructions per second"</strong> — Clock cycles ≠ instructions. A single instruction may take multiple cycles, and modern CPUs can also complete multiple instructions per cycle (IPC). 3 GHz means 3 billion clock cycles, not instructions.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">Evolution of Antibiotic Resistance</span>
+<span class="error-subject">Biology · Grade 9</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"When bacteria are exposed to antibiotics, they <strong>develop mutations to become resistant</strong>. The bacteria that survive pass on their resistance to the next generation. Over time, the entire population becomes resistant. This is why doctors tell you to <strong>finish your entire course of antibiotics — so the bacteria don't have time to evolve resistance</strong>."</div>
+
+<div class="section-label error">Errors found (2)</div>
+<div class="ai-error"><strong>Error 1: "develop mutations to become resistant"</strong> — This implies bacteria intentionally mutate in response to antibiotics (Lamarckian thinking). In reality, mutations occur randomly before antibiotic exposure. The antibiotic then selects for already-resistant bacteria. The mutation doesn't happen BECAUSE of the antibiotic.<br><br><strong>Error 2: The reason for finishing antibiotics</strong> — The explanation is oversimplified. Finishing the course primarily ensures the infection is fully cleared, reducing the population of bacteria that could serve as a reservoir. The relationship between incomplete courses and resistance is actually more nuanced than presented here — recent research has questioned the "always finish" dogma.</div>
+</div>
+</div>
+
+<!-- ═══ STANDARDS ERRORS ═══ -->
+<h2 id="standards">Standards Errors</h2>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-standards">Standards</span>
+<span class="error-title">Hallucinated NGSS Code</span>
+<span class="error-subject">Cross-subject</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI output</div>
+<div class="ai-output">"This lesson aligns to <strong>NGSS MS-PS3-7</strong>: Students who demonstrate understanding can apply scientific principles to design, construct, and test a device that converts thermal energy to electrical energy."</div>
+<div class="section-label error">Error</div>
+<div class="ai-error"><strong>MS-PS3-7 does not exist.</strong> The MS-PS3 cluster only goes up to MS-PS3-5. The AI invented a plausible-sounding code and wrote a plausible-sounding description. If you don't check the NGSS website, you'd never know. The actual closest standard is MS-PS3-3 (thermal energy design problem).</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-standards">Standards</span>
+<span class="error-title">Wrong Grade Band</span>
+<span class="error-subject">Cross-subject</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI output</div>
+<div class="ai-output">"For this 4th grade lesson on ecosystems, align to <strong>NGSS HS-LS2-1</strong>: Use mathematical and/or computational representations to support explanations of factors that affect carrying capacity."</div>
+<div class="section-label error">Error</div>
+<div class="ai-error"><strong>HS-LS2-1 is a high school standard</strong> (note the "HS-" prefix), not appropriate for 4th grade. The correct grade band would be elementary (e.g., 5-ESS3-1 for human impact on environments) or middle school. The AI grabbed the right topic but the wrong grade band — a common failure mode.</div>
+</div>
+</div>
+
+<!-- ═══ MATH ERRORS ═══ -->
+<h2 id="math">Math Errors</h2>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Significant Figures</span>
+<span class="error-subject">Chemistry · Grade 10</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated solution</div>
+<div class="ai-output">"If you have 12.5 mL of a solution with a concentration of 0.102 M, the number of moles is: n = M × V = 0.102 × 0.0125 = <strong>0.001275 moles</strong>"</div>
+<div class="section-label error">Error</div>
+<div class="ai-error"><strong>Too many significant figures.</strong> 12.5 mL has 3 significant figures and 0.102 M has 3 significant figures. The answer should be reported as <strong>0.00128 moles</strong> (3 sig figs), not 0.001275 (4 sig figs). AI almost never applies significant figure rules correctly.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Statistics Word Problem</span>
+<span class="error-subject">Math · Grade 7</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated problem + solution</div>
+<div class="ai-output">"A basketball player scores: 12, 15, 18, 22, 15, 20, 15 points in seven games. Find the mean, median, and mode.<br><br>Mean: (12+15+18+22+15+20+15)/7 = 117/7 = <strong>16.7</strong><br>Median: Arrange in order: 12, 15, 15, 15, 18, 20, 22. Middle value = <strong>15</strong> ✓<br>Mode: <strong>15</strong> (appears 3 times) ✓"</div>
+<div class="section-label error">Error</div>
+<div class="ai-error"><strong>Wrong mean.</strong> 12+15+18+22+15+20+15 = 117. Then 117/7 = 16.714..., which rounds to <strong>16.7</strong>. Wait — that's actually correct! But the AI showed 16.7 without specifying rounding, which could confuse students about precision. More importantly: the sum is actually correct here, but in many AI-generated stats problems the arithmetic is wrong. <strong>Always re-sum yourself.</strong> The teaching point: even when the AI gets it right, you need to verify. Trust but verify.</div>
+</div>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+</body></html>

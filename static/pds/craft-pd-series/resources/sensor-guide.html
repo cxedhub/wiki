@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>micro:bit Sensor Guide & NGSS Crosswalk — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--teal:#1ABC9C;--green:#27AE60;--gold:#D4A843;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:950px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:2rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.4rem;margin:28px 0 12px}
+h3{font-size:1rem;font-weight:700;margin:16px 0 6px}
+.subtitle{color:var(--gray600);font-size:0.95rem;margin-bottom:24px}
+.sensor-card{background:#fff;border:1px solid var(--gray200);border-radius:8px;margin-bottom:20px;overflow:hidden}
+.sensor-header{padding:16px 20px;background:var(--gray100);border-bottom:1px solid var(--gray200);display:flex;align-items:center;gap:12px}
+.sensor-icon{font-size:1.5rem}
+.sensor-name{font-weight:700;font-size:1.05rem;flex:1}
+.sensor-badge{font-size:0.7rem;padding:3px 8px;border-radius:3px;font-weight:600;background:var(--green);color:#fff}
+.sensor-badge.v2{background:var(--purple)}
+.sensor-body{padding:16px 20px}
+.spec-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:8px 0 16px}
+.spec{background:var(--gray100);padding:8px 12px;border-radius:4px;font-size:0.82rem}
+.spec strong{display:block;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--ink-med);margin-bottom:2px}
+pre{background:#1E1E1E;color:#D4D4D4;border-radius:6px;padding:14px;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:0.82rem;line-height:1.5;margin:8px 0}
+.code-tabs{display:flex;gap:4px;margin-top:12px}
+.code-tab{padding:4px 12px;border-radius:4px 4px 0 0;font-size:0.78rem;font-weight:600;cursor:pointer;border:1px solid var(--gray200);border-bottom:none;background:var(--gray100)}
+.code-tab.active{background:#1E1E1E;color:#D4D4D4;border-color:#1E1E1E}
+.code-panel{display:none}
+.code-panel.active{display:block}
+.ngss-row{display:flex;gap:8px;margin:6px 0;padding:8px;background:var(--gray100);border-radius:4px;font-size:0.85rem;align-items:flex-start}
+.ngss-code{font-family:'JetBrains Mono',monospace;font-size:0.78rem;background:var(--teal);color:#fff;padding:2px 8px;border-radius:3px;flex-shrink:0;margin-top:2px}
+.caution{background:#FFF8E7;border:1px solid var(--gold);border-radius:6px;padding:12px;font-size:0.85rem;margin:8px 0}
+.caution strong{color:var(--gold)}
+table{width:100%;border-collapse:collapse;font-size:0.85rem;margin:12px 0}
+th{background:var(--ink);color:#fff;padding:8px 12px;text-align:left;font-size:0.78rem;text-transform:uppercase}
+td{padding:8px 12px;border-bottom:1px solid var(--gray200);vertical-align:top}
+tr:nth-child(even) td{background:var(--gray100)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.nav a{font-size:0.82rem;padding:6px 12px;border-radius:6px;text-decoration:none;color:var(--ink-med);border:1px solid var(--gray200)}
+.nav a:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.copy-btn{background:var(--teal);color:#fff;border:none;padding:3px 8px;border-radius:3px;font-size:0.7rem;cursor:pointer;float:right;margin-top:-2px}
+@media print{pre{background:#f5f5f5;color:#000;border:1px solid #ccc}}
+@media(max-width:600px){.spec-grid{grid-template-columns:1fr}.ngss-row{flex-direction:column}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>micro:bit V2 Sensor Guide & NGSS Crosswalk</h1>
+<p class="subtitle">Every onboard sensor with specs, MakeCode blocks, MicroPython code, classroom activity ideas, and NGSS alignment. All code is tested and ready to flash.</p>
+
+<div class="nav">
+<a href="#temperature">Temperature</a>
+<a href="#light">Light</a>
+<a href="#accelerometer">Accelerometer</a>
+<a href="#compass">Compass</a>
+<a href="#microphone">Microphone (V2)</a>
+<a href="#touch">Touch Logo (V2)</a>
+<a href="#buttons">Buttons</a>
+<a href="#crosswalk">NGSS Crosswalk</a>
+<a href="#combos">Multi-Sensor Combos</a>
+</div>
+
+<!-- ═══ TEMPERATURE ═══ -->
+<div class="sensor-card" id="temperature">
+<div class="sensor-header">
+<span class="sensor-icon">🌡️</span>
+<span class="sensor-name">Temperature Sensor</span>
+<span class="sensor-badge">V1 + V2</span>
+</div>
+<div class="sensor-body">
+<div class="spec-grid">
+<div class="spec"><strong>Range</strong>-5°C to 50°C</div>
+<div class="spec"><strong>Resolution</strong>1°C</div>
+<div class="spec"><strong>Location</strong>CPU die (not ambient!)</div>
+</div>
+<div class="caution"><strong>⚠️ Calibration note:</strong> This sensor reads the CPU temperature, which runs 3-8°C warmer than ambient air. This is a real engineering calibration problem — perfect for the Fortify phase.</div>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'temp-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'temp-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="temp-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>basic.forever(function () {
+    basic.showNumber(input.temperature())
+    basic.pause(2000)
+})</pre>
+<p style="font-size:0.82rem;color:var(--gray600);margin-top:4px"><strong>MakeCode blocks:</strong> forever → show number → temperature (°C) → pause 2000ms</p>
+</div>
+<div class="code-panel" id="temp-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+while True:
+    display.scroll(temperature())
+    sleep(2000)</pre>
+</div>
+
+<h3>Activity Ideas</h3>
+<div class="ngss-row"><span class="ngss-code">MS-PS3-4</span>Plan an investigation to determine how temperature changes when hot and cold objects are in contact.</div>
+<div class="ngss-row"><span class="ngss-code">MS-ESS2-6</span>Compare micro:bit readings in sun vs shade to explore weather data collection.</div>
+</div>
+</div>
+
+<!-- ═══ LIGHT ═══ -->
+<div class="sensor-card" id="light">
+<div class="sensor-header">
+<span class="sensor-icon">💡</span>
+<span class="sensor-name">Light Sensor</span>
+<span class="sensor-badge">V1 + V2</span>
+</div>
+<div class="sensor-body">
+<div class="spec-grid">
+<div class="spec"><strong>Range</strong>0 – 255</div>
+<div class="spec"><strong>Type</strong>LED matrix (reverse-biased)</div>
+<div class="spec"><strong>Unit</strong>Arbitrary (not lux)</div>
+</div>
+<div class="caution"><strong>⚠️ Note:</strong> The "sensor" is actually the LED display running in reverse — it measures current generated by light hitting the LEDs. Values are relative, not calibrated lux. Good enough for "brighter/dimmer" comparisons.</div>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'light-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'light-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="light-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>basic.forever(function () {
+    led.plotBarGraph(input.lightLevel(), 255)
+    basic.pause(500)
+})</pre>
+<p style="font-size:0.82rem;color:var(--gray600);margin-top:4px"><strong>MakeCode blocks:</strong> forever → plot bar graph of → light level → up to 255 → pause 500ms</p>
+</div>
+<div class="code-panel" id="light-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+while True:
+    light = display.read_light_level()
+    display.scroll(light)
+    sleep(1000)</pre>
+</div>
+
+<h3>Activity Ideas</h3>
+<div class="ngss-row"><span class="ngss-code">4-PS4-2</span>Develop a model to describe that light reflecting from objects enters the eye. Compare readings from different surfaces.</div>
+<div class="ngss-row"><span class="ngss-code">MS-PS4-2</span>Investigate how light intensity changes with distance (inverse square law exploration).</div>
+</div>
+</div>
+
+<!-- ═══ ACCELEROMETER ═══ -->
+<div class="sensor-card" id="accelerometer">
+<div class="sensor-header">
+<span class="sensor-icon">📐</span>
+<span class="sensor-name">Accelerometer</span>
+<span class="sensor-badge">V1 + V2</span>
+</div>
+<div class="sensor-body">
+<div class="spec-grid">
+<div class="spec"><strong>Range</strong>±2g (default)</div>
+<div class="spec"><strong>Axes</strong>X, Y, Z</div>
+<div class="spec"><strong>Gestures</strong>shake, tilt, freefall, face up/down</div>
+</div>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'acc-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'acc-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="acc-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>// Show acceleration strength on LED bar
+basic.forever(function () {
+    let strength = input.acceleration(Dimension.Strength)
+    led.plotBarGraph(strength, 2048)
+    basic.pause(100)
+})</pre>
+</div>
+<div class="code-panel" id="acc-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+import math
+
+while True:
+    x = accelerometer.get_x()
+    y = accelerometer.get_y()
+    z = accelerometer.get_z()
+    strength = math.sqrt(x**2 + y**2 + z**2)
+    display.scroll(int(strength))
+    sleep(500)</pre>
+</div>
+
+<h3>Activity Ideas</h3>
+<div class="ngss-row"><span class="ngss-code">MS-PS2-2</span>Plan an investigation with the accelerometer to show that changing force on an object changes its motion.</div>
+<div class="ngss-row"><span class="ngss-code">HS-PS2-1</span>Analyze accelerometer data from a cart on a ramp to verify F=ma.</div>
+</div>
+</div>
+
+<!-- ═══ COMPASS ═══ -->
+<div class="sensor-card" id="compass">
+<div class="sensor-header">
+<span class="sensor-icon">🧭</span>
+<span class="sensor-name">Magnetometer / Compass</span>
+<span class="sensor-badge">V1 + V2</span>
+</div>
+<div class="sensor-body">
+<div class="spec-grid">
+<div class="spec"><strong>Range</strong>0° – 360°</div>
+<div class="spec"><strong>Sensitivity</strong>Detects magnets and magnetic fields</div>
+<div class="spec"><strong>Calibration</strong>Required on first use (tilt to fill circle)</div>
+</div>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'comp-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'comp-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="comp-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>basic.forever(function () {
+    let heading = input.compassHeading()
+    if (heading < 45 || heading > 315) {
+        basic.showString("N")
+    } else if (heading < 135) {
+        basic.showString("E")
+    } else if (heading < 225) {
+        basic.showString("S")
+    } else {
+        basic.showString("W")
+    }
+})</pre>
+</div>
+<div class="code-panel" id="comp-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+compass.calibrate()
+while True:
+    heading = compass.heading()
+    if heading < 45 or heading > 315:
+        display.show("N")
+    elif heading < 135:
+        display.show("E")
+    elif heading < 225:
+        display.show("S")
+    else:
+        display.show("W")
+    sleep(200)</pre>
+</div>
+
+<h3>Activity Ideas</h3>
+<div class="ngss-row"><span class="ngss-code">MS-PS2-3</span>Use compass readings to detect magnetic field strength near different magnets.</div>
+<div class="ngss-row"><span class="ngss-code">5-ESS1-2</span>Build a compass and use it for a mapping/navigation challenge.</div>
+</div>
+</div>
+
+<!-- ═══ MICROPHONE (V2) ═══ -->
+<div class="sensor-card" id="microphone">
+<div class="sensor-header">
+<span class="sensor-icon">🎤</span>
+<span class="sensor-name">Microphone</span>
+<span class="sensor-badge v2">V2 Only</span>
+</div>
+<div class="sensor-body">
+<div class="spec-grid">
+<div class="spec"><strong>Range</strong>0 – 255 (sound level)</div>
+<div class="spec"><strong>Events</strong>loud, quiet thresholds</div>
+<div class="spec"><strong>LED Indicator</strong>Red dot on front</div>
+</div>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'mic-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'mic-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="mic-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>// Sound level meter
+basic.forever(function () {
+    led.plotBarGraph(input.soundLevel(), 255)
+    basic.pause(100)
+})</pre>
+</div>
+<div class="code-panel" id="mic-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+while True:
+    level = microphone.sound_level()
+    display.scroll(level)
+    sleep(500)</pre>
+</div>
+
+<h3>Activity Ideas</h3>
+<div class="ngss-row"><span class="ngss-code">MS-PS4-1</span>Use sound level data to model how amplitude relates to energy of a wave.</div>
+<div class="ngss-row"><span class="ngss-code">4-PS4-1</span>Develop a model of waves showing patterns — measure classroom noise at different times.</div>
+</div>
+</div>
+
+<!-- ═══ TOUCH LOGO (V2) ═══ -->
+<div class="sensor-card" id="touch">
+<div class="sensor-header">
+<span class="sensor-icon">👆</span>
+<span class="sensor-name">Touch Logo</span>
+<span class="sensor-badge v2">V2 Only</span>
+</div>
+<div class="sensor-body">
+<div class="spec-grid">
+<div class="spec"><strong>Type</strong>Capacitive touch</div>
+<div class="spec"><strong>Location</strong>Gold logo on front</div>
+<div class="spec"><strong>Events</strong>pressed, released, long press</div>
+</div>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'touch-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'touch-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="touch-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showIcon(IconNames.Heart)
+})
+input.onLogoEvent(TouchButtonEvent.Released, function () {
+    basic.clearScreen()
+})</pre>
+</div>
+<div class="code-panel" id="touch-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+while True:
+    if pin_logo.is_touched():
+        display.show(Image.HEART)
+    else:
+        display.clear()
+    sleep(100)</pre>
+</div>
+</div>
+</div>
+
+<!-- ═══ BUTTONS ═══ -->
+<div class="sensor-card" id="buttons">
+<div class="sensor-header">
+<span class="sensor-icon">🔘</span>
+<span class="sensor-name">Buttons A & B</span>
+<span class="sensor-badge">V1 + V2</span>
+</div>
+<div class="sensor-body">
+<p style="font-size:0.9rem;margin-bottom:8px">Two physical buttons plus the ability to detect A+B pressed simultaneously. Useful for user input, mode switching, and data logging triggers.</p>
+
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'btn-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'btn-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="btn-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>// Simple counter
+let count = 0
+input.onButtonPressed(Button.A, function () {
+    count += 1
+    basic.showNumber(count)
+})
+input.onButtonPressed(Button.B, function () {
+    count = 0
+    basic.showNumber(count)
+})</pre>
+</div>
+<div class="code-panel" id="btn-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+count = 0
+while True:
+    if button_a.was_pressed():
+        count += 1
+        display.scroll(count)
+    if button_b.was_pressed():
+        count = 0
+        display.scroll(count)
+    sleep(100)</pre>
+</div>
+</div>
+</div>
+
+<!-- ═══ NGSS CROSSWALK TABLE ═══ -->
+<h2 id="crosswalk">NGSS Crosswalk: IoT Activities ↔ Standards</h2>
+
+<table>
+<tr><th>Activity</th><th>Sensors</th><th>NGSS Standard</th><th>Grade Band</th><th>CTE Pathway</th></tr>
+<tr><td>Temperature data logging (sun vs shade)</td><td>Temperature</td><td>MS-ESS2-6: Weather & climate data</td><td>6-8</td><td>STEM, Environmental Tech</td></tr>
+<tr><td>Light intensity vs distance investigation</td><td>Light</td><td>MS-PS4-2: Light wave properties</td><td>6-8</td><td>STEM</td></tr>
+<tr><td>Shake detector / motion alarm</td><td>Accelerometer</td><td>MS-PS2-2: Force and motion</td><td>6-8</td><td>Engineering, Manufacturing</td></tr>
+<tr><td>Classroom noise monitor</td><td>Microphone</td><td>MS-PS4-1: Wave amplitude & energy</td><td>6-8</td><td>STEM, Health Science</td></tr>
+<tr><td>Plant growth light monitor</td><td>Light + Temperature</td><td>MS-LS1-6: Photosynthesis</td><td>6-8</td><td>Agriculture, Environmental</td></tr>
+<tr><td>Ramp acceleration experiment</td><td>Accelerometer</td><td>HS-PS2-1: Newton's Second Law</td><td>9-12</td><td>Engineering, Physics</td></tr>
+<tr><td>Navigation compass challenge</td><td>Compass</td><td>5-ESS1-2: Earth's position</td><td>3-5</td><td>STEM</td></tr>
+<tr><td>Earthquake shake table model</td><td>Accelerometer</td><td>MS-ESS3-2: Natural hazards</td><td>6-8</td><td>Engineering, Geoscience</td></tr>
+<tr><td>Multi-sensor weather station</td><td>Temp + Light + Sound</td><td>MS-ESS2-5: Weather data collection</td><td>6-8</td><td>Environmental Tech, Data Science</td></tr>
+<tr><td>Comfort index (temp + light + noise)</td><td>Temp + Light + Microphone</td><td>MS-ETS1-4: Design optimization</td><td>6-8</td><td>Architecture, Building Tech</td></tr>
+</table>
+
+<!-- ═══ MULTI-SENSOR COMBOS ═══ -->
+<h2 id="combos">Multi-Sensor Combo Projects (Workshop 3 Breakout)</h2>
+
+<div class="sensor-card">
+<div class="sensor-header"><span class="sensor-icon">🌿</span><span class="sensor-name">Combo 1: Greenhouse Monitor (Temperature + Light)</span></div>
+<div class="sensor-body">
+<p style="font-size:0.9rem;margin-bottom:8px">Alert when temperature is above 30°C AND light level is below 50 (door closed, overheating risk).</p>
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'combo1-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'combo1-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="combo1-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>basic.forever(function () {
+    let temp = input.temperature()
+    let light = input.lightLevel()
+    if (temp > 30 && light < 50) {
+        basic.showIcon(IconNames.Sad)
+        music.playTone(880, 500)
+    } else {
+        basic.showIcon(IconNames.Happy)
+    }
+    basic.pause(1000)
+})</pre>
+</div>
+<div class="code-panel" id="combo1-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+import music
+
+while True:
+    temp = temperature()
+    light = display.read_light_level()
+    if temp > 30 and light < 50:
+        display.show(Image.SAD)
+        music.play(["A5:500"])
+    else:
+        display.show(Image.HAPPY)
+    sleep(1000)</pre>
+</div>
+</div>
+</div>
+
+<div class="sensor-card">
+<div class="sensor-header"><span class="sensor-icon">🏃</span><span class="sensor-name">Combo 2: Motion + Direction Tracker (Accelerometer + Compass)</span></div>
+<div class="sensor-body">
+<p style="font-size:0.9rem;margin-bottom:8px">Show compass direction only when the device is moving (shake detected). Stationary = show "—".</p>
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'combo2-mc')">MakeCode</span>
+<span class="code-tab" onclick="showTab(this,'combo2-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="combo2-mc">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>let moving = false
+input.onGesture(Gesture.Shake, function () {
+    moving = true
+})
+basic.forever(function () {
+    if (moving) {
+        let heading = input.compassHeading()
+        if (heading < 45 || heading > 315) { basic.showString("N") }
+        else if (heading < 135) { basic.showString("E") }
+        else if (heading < 225) { basic.showString("S") }
+        else { basic.showString("W") }
+        moving = false
+    } else {
+        basic.showString("-")
+    }
+    basic.pause(500)
+})</pre>
+</div>
+<div class="code-panel" id="combo2-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+compass.calibrate()
+while True:
+    if accelerometer.was_gesture("shake"):
+        heading = compass.heading()
+        if heading < 45 or heading > 315:
+            display.show("N")
+        elif heading < 135:
+            display.show("E")
+        elif heading < 225:
+            display.show("S")
+        else:
+            display.show("W")
+    else:
+        display.show("-")
+    sleep(300)</pre>
+</div>
+</div>
+</div>
+
+<div class="sensor-card">
+<div class="sensor-header"><span class="sensor-icon">📊</span><span class="sensor-name">Combo 3: Classroom Comfort Index (Temp + Light + Sound)</span></div>
+<div class="sensor-body">
+<p style="font-size:0.9rem;margin-bottom:8px">Score 0-9 based on: temperature (20-25°C ideal), light level (100-200 ideal), noise level (below 80 ideal). Display score on LED.</p>
+<div class="code-tabs">
+<span class="code-tab active" onclick="showTab(this,'combo3-py')">MicroPython</span>
+</div>
+<div class="code-panel active" id="combo3-py">
+<pre><button class="copy-btn" onclick="copyCode(this)">Copy</button>from microbit import *
+
+def comfort_score():
+    score = 0
+    # Temperature: ideal 20-25C
+    t = temperature()
+    if 20 <= t <= 25: score += 3
+    elif 18 <= t <= 28: score += 2
+    else: score += 0
+    # Light: ideal 100-200
+    light = display.read_light_level()
+    if 100 <= light <= 200: score += 3
+    elif 50 <= light <= 250: score += 2
+    else: score += 0
+    # Sound: ideal below 80
+    sound = microphone.sound_level()
+    if sound < 80: score += 3
+    elif sound < 150: score += 2
+    else: score += 0
+    return score
+
+while True:
+    s = comfort_score()
+    display.show(str(s))
+    sleep(2000)</pre>
+</div>
+</div>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+<script>
+function showTab(el,panelId){
+  const card=el.closest('.sensor-card,.sensor-body,.code-tabs').parentElement;
+  card.querySelectorAll('.code-tab').forEach(t=>t.classList.remove('active'));
+  card.querySelectorAll('.code-panel').forEach(p=>p.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById(panelId).classList.add('active');
+}
+function copyCode(btn){
+  const pre=btn.closest('pre');
+  const code=pre.textContent.replace('Copy','').trim();
+  navigator.clipboard.writeText(code).then(()=>{btn.textContent='Copied!';setTimeout(()=>btn.textContent='Copy',2000)});
+}
+</script>
+</body></html>

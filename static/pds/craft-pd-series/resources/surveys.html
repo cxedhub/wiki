@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pre/Post Survey Instruments — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.3rem;margin:28px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
+h3{font-size:0.95rem;font-weight:700;margin:16px 0 8px;color:var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:24px}
+.note{background:#FFF8E7;border:1px solid var(--gold);border-radius:6px;padding:14px;font-size:0.88rem;margin-bottom:20px}
+.note strong{color:var(--gold)}
+.q-block{background:#fff;border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:10px 0}
+.q-num{font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--teal);font-weight:600}
+.q-text{font-weight:600;font-size:0.92rem;margin:4px 0 8px}
+.q-type{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-bottom:6px}
+.likert{display:flex;gap:4px;flex-wrap:wrap;font-size:0.82rem}
+.likert span{padding:4px 10px;background:var(--gray100);border-radius:4px}
+.options{font-size:0.85rem;padding-left:20px}
+.options li{margin:4px 0}
+.open-box{border:1px dashed var(--gray200);padding:20px;text-align:center;color:var(--gray600);font-size:0.85rem;border-radius:4px;margin-top:6px}
+.tag{display:inline-block;font-size:0.68rem;font-weight:700;text-transform:uppercase;padding:2px 6px;border-radius:3px;color:#fff;margin-right:4px}
+.tag.pre{background:var(--teal)}
+.tag.post{background:var(--purple)}
+.tag.both{background:var(--ink)}
+.section-badge{display:inline-block;padding:4px 12px;border-radius:4px;font-size:0.78rem;font-weight:700;color:#fff;margin-bottom:8px}
+.section-badge.demo{background:var(--gray600)}
+.section-badge.know{background:var(--teal)}
+.section-badge.conf{background:var(--green)}
+.section-badge.prac{background:var(--gold)}
+.section-badge.reflect{background:var(--purple)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+@media print{body{max-width:100%}.back{display:none}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>Pre/Post Survey Instruments</h1>
+<p class="subtitle">Research-grade survey instruments for all three workshops. Pre-survey at session start, post-survey at session end. Identical constructs enable pre-post comparison.</p>
+
+<div class="note">
+<strong>Implementation note:</strong> Create these as Google Forms (or Qualtrics) with a unique participant ID that links pre and post without identifying individuals. Have participants create their ID using: first letter of birth month + last 2 digits of phone number + first letter of mother's first name. This allows matching without names.
+</div>
+
+<!-- ═══ SHARED DEMOGRAPHICS (PRE ONLY) ═══ -->
+<h2>Section A: Demographics (Pre-Survey Only)</h2>
+<span class="section-badge demo">Demographics</span>
+
+<div class="q-block">
+<span class="q-num">A1</span> <span class="tag pre">PRE</span>
+<div class="q-text">What is your current role?</div>
+<ul class="options">
+<li>In-service teacher (currently teaching K-12)</li>
+<li>Pre-service teacher (student teacher / intern)</li>
+<li>Pre-service teacher (not yet in a classroom)</li>
+<li>Other: ___</li>
+</ul>
+</div>
+
+<div class="q-block">
+<span class="q-num">A2</span> <span class="tag pre">PRE</span>
+<div class="q-text">What grade band do you teach (or plan to teach)?</div>
+<ul class="options"><li>K-2</li><li>3-5</li><li>6-8</li><li>9-12</li><li>Multiple</li></ul>
+</div>
+
+<div class="q-block">
+<span class="q-num">A3</span> <span class="tag pre">PRE</span>
+<div class="q-text">What subject(s) do you teach? (select all)</div>
+<ul class="options"><li>Science</li><li>Math</li><li>Computer Science / Technology</li><li>Engineering</li><li>Other STEM</li><li>Non-STEM</li></ul>
+</div>
+
+<div class="q-block">
+<span class="q-num">A4</span> <span class="tag pre">PRE</span>
+<div class="q-text">How many years of teaching experience do you have?</div>
+<ul class="options"><li>0 (pre-service)</li><li>1-3 years</li><li>4-7 years</li><li>8-15 years</li><li>16+ years</li></ul>
+</div>
+
+<!-- ═══ WORKSHOP 1 QUESTIONS ═══ -->
+<h2>Workshop 1: Using AI for STEM</h2>
+
+<h3><span class="section-badge know">Knowledge</span></h3>
+
+<div class="q-block">
+<span class="q-num">W1-K1</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your understanding of how Large Language Models (LLMs) work?</div>
+<div class="likert"><span>1 — No understanding</span><span>2</span><span>3 — Some understanding</span><span>4</span><span>5 — Strong understanding</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W1-K2</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your ability to write an effective prompt for an LLM to generate STEM lesson content?</div>
+<div class="likert"><span>1 — Cannot do this</span><span>2</span><span>3 — Could attempt</span><span>4</span><span>5 — Confident</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W1-K3</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How familiar are you with the differences between AI platforms (ChatGPT, Claude, Gemini)?</div>
+<div class="likert"><span>1 — Not at all</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very familiar</span></div>
+</div>
+
+<h3><span class="section-badge conf">Confidence</span></h3>
+
+<div class="q-block">
+<span class="q-num">W1-C1</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How confident are you in using AI tools to support your STEM teaching?</div>
+<div class="likert"><span>1 — Not confident</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very confident</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W1-C2</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How confident are you in identifying errors in AI-generated STEM content?</div>
+<div class="likert"><span>1 — Not confident</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very confident</span></div>
+</div>
+
+<h3><span class="section-badge prac">Practice</span></h3>
+
+<div class="q-block">
+<span class="q-num">W1-P1</span> <span class="tag pre">PRE</span>
+<div class="q-text">How often do you currently use AI tools for teaching tasks?</div>
+<ul class="options"><li>Never</li><li>Rarely (tried once or twice)</li><li>Sometimes (monthly)</li><li>Often (weekly)</li><li>Daily</li></ul>
+</div>
+
+<div class="q-block">
+<span class="q-num">W1-P2</span> <span class="tag post">POST</span>
+<div class="q-text">How likely are you to use AI tools for lesson planning within the next month?</div>
+<div class="likert"><span>1 — Very unlikely</span><span>2</span><span>3 — Neutral</span><span>4</span><span>5 — Very likely</span></div>
+</div>
+
+<h3><span class="section-badge reflect">Reflection (Post Only)</span></h3>
+
+<div class="q-block">
+<span class="q-num">W1-R1</span> <span class="tag post">POST</span>
+<div class="q-text">What is the most valuable thing you learned today?</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W1-R2</span> <span class="tag post">POST</span>
+<div class="q-text">What is one thing you will try in your classroom as a result of this workshop?</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<!-- ═══ WORKSHOP 2 QUESTIONS ═══ -->
+<h2>Workshop 2: Verifying AI Outputs</h2>
+
+<h3><span class="section-badge know">Knowledge</span></h3>
+
+<div class="q-block">
+<span class="q-num">W2-K1</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your understanding of common ways AI models produce errors in STEM content?</div>
+<div class="likert"><span>1 — No understanding</span><span>2</span><span>3 — Some</span><span>4</span><span>5 — Strong</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W2-K2</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your ability to systematically verify AI-generated code for correctness?</div>
+<div class="likert"><span>1 — Cannot</span><span>2</span><span>3 — Could attempt</span><span>4</span><span>5 — Confident</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W2-K3</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How familiar are you with structured verification frameworks (like Check the Machine) for AI outputs?</div>
+<div class="likert"><span>1 — Never heard of one</span><span>2</span><span>3 — Aware</span><span>4</span><span>5 — Use one</span></div>
+</div>
+
+<h3><span class="section-badge conf">Confidence</span></h3>
+
+<div class="q-block">
+<span class="q-num">W2-C1</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How confident are you in teaching students to critically evaluate AI-generated content?</div>
+<div class="likert"><span>1 — Not confident</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very confident</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W2-C2</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How confident are you in addressing academic integrity concerns around student AI use?</div>
+<div class="likert"><span>1 — Not confident</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very confident</span></div>
+</div>
+
+<h3><span class="section-badge reflect">Reflection (Post Only)</span></h3>
+
+<div class="q-block">
+<span class="q-num">W2-R1</span> <span class="tag post">POST</span>
+<div class="q-text">Describe one specific AI error you found today and how you verified it.</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W2-R2</span> <span class="tag post">POST</span>
+<div class="q-text">How will you implement the Check the Machine protocol in your classroom?</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<!-- ═══ WORKSHOP 3 QUESTIONS ═══ -->
+<h2>Workshop 3: Edge/IoT Systems</h2>
+
+<h3><span class="section-badge know">Knowledge</span></h3>
+
+<div class="q-block">
+<span class="q-num">W3-K1</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your understanding of Edge Computing and IoT concepts?</div>
+<div class="likert"><span>1 — No understanding</span><span>2</span><span>3 — Some</span><span>4</span><span>5 — Strong</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W3-K2</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your ability to program a physical computing device (like a micro:bit)?</div>
+<div class="likert"><span>1 — Cannot</span><span>2</span><span>3 — Could attempt</span><span>4</span><span>5 — Confident</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W3-K3</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How would you rate your ability to use an LLM to help write or debug code for a physical device?</div>
+<div class="likert"><span>1 — Cannot</span><span>2</span><span>3 — Could attempt</span><span>4</span><span>5 — Confident</span></div>
+</div>
+
+<h3><span class="section-badge conf">Confidence</span></h3>
+
+<div class="q-block">
+<span class="q-num">W3-C1</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How confident are you in using physical computing hardware in your STEM instruction?</div>
+<div class="likert"><span>1 — Not confident</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very confident</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W3-C2</span> <span class="tag both">PRE + POST</span>
+<div class="q-text">How confident are you in verifying sensor data for accuracy (calibration, error checking)?</div>
+<div class="likert"><span>1 — Not confident</span><span>2</span><span>3 — Somewhat</span><span>4</span><span>5 — Very confident</span></div>
+</div>
+
+<h3><span class="section-badge reflect">Reflection (Post Only)</span></h3>
+
+<div class="q-block">
+<span class="q-num">W3-R1</span> <span class="tag post">POST</span>
+<div class="q-text">Describe the sensor project you built today and one thing you discovered about the data.</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<div class="q-block">
+<span class="q-num">W3-R2</span> <span class="tag post">POST</span>
+<div class="q-text">What is the first IoT lesson you plan to try with your students? What NGSS standard does it address?</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<!-- ═══ CRAFT PEDAGOGY (ALL WORKSHOPS) ═══ -->
+<h2>CRAFT Pedagogy (All Workshops — Post Only)</h2>
+
+<div class="q-block">
+<span class="q-num">CRAFT-1</span> <span class="tag post">POST</span>
+<div class="q-text">Can you name the five phases of the CRAFT cycle in order?</div>
+<div class="open-box">[Open response — looking for: Contextualize, Reframe, Assemble, Fortify, Transfer]</div>
+</div>
+
+<div class="q-block">
+<span class="q-num">CRAFT-2</span> <span class="tag post">POST</span>
+<div class="q-text">How likely are you to use the CRAFT cycle to structure future lessons?</div>
+<div class="likert"><span>1 — Very unlikely</span><span>2</span><span>3 — Neutral</span><span>4</span><span>5 — Very likely</span></div>
+</div>
+
+<div class="q-block">
+<span class="q-num">CRAFT-3</span> <span class="tag post">POST</span>
+<div class="q-text">Which CRAFT phase was most valuable for you personally? Why?</div>
+<div class="open-box">[Open response]</div>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+</body></html>

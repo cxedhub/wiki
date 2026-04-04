@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IoT Lesson Template — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--green)}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
+label{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px}
+input[type="text"],textarea,select{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.sensor-select{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.sensor-select label{display:flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--gray200);border-radius:6px;font-weight:500;font-size:0.85rem;cursor:pointer;margin:0}
+.sensor-select input:checked+span{color:var(--green);font-weight:700}
+.craft-section{border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:12px 0;border-left:4px solid var(--green)}
+.craft-section.c{border-left-color:var(--gold)}
+.craft-section.r{border-left-color:var(--red)}
+.craft-section.a{border-left-color:var(--green)}
+.craft-section.f{border-left-color:var(--teal)}
+.craft-section.t{border-left-color:var(--purple)}
+.ctm-box{background:var(--teal);background:#E8FAF6;border:1px solid var(--teal);border-radius:8px;padding:16px;margin:12px 0}
+.ctm-box h3{color:var(--teal);margin-bottom:10px}
+.helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
+.btn{background:var(--green);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+@media print{.btn,.back{display:none}}
+@media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>IoT Lesson Template</h1>
+<p class="subtitle">Design a lesson that uses the BBC micro:bit and IoT concepts. This template follows the CRAFT cycle and includes a student-facing Check the Machine (CtM) prompt.</p>
+
+<h2>Lesson Overview</h2>
+<div class="row">
+<div><label>Lesson Title</label><input type="text" placeholder="e.g., Is Our Classroom Too Loud?"></div>
+<div><label>Your Name</label><input type="text"></div>
+</div>
+<div class="row">
+<div><label>Grade Level</label><select><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
+<div><label>Subject Area</label><input type="text" placeholder="e.g., Physical Science, Biology, Math"></div>
+</div>
+<div class="row">
+<div><label>NGSS Performance Expectation(s)</label><input type="text" placeholder="e.g., MS-PS4-1"><div class="helper">See the <a href="sensor-guide.html" style="color:var(--teal)">Sensor Guide</a> crosswalk for ideas</div></div>
+<div><label>Duration</label><input type="text" placeholder="e.g., 2 class periods (50 min each)"></div>
+</div>
+
+<h2>Hardware Setup</h2>
+<label>Which micro:bit sensors will students use? (check all that apply)</label>
+<div class="sensor-select">
+<label><input type="checkbox"><span>🌡️ Temperature</span></label>
+<label><input type="checkbox"><span>💡 Light</span></label>
+<label><input type="checkbox"><span>📐 Accelerometer</span></label>
+<label><input type="checkbox"><span>🧭 Compass</span></label>
+<label><input type="checkbox"><span>🎤 Microphone (V2)</span></label>
+<label><input type="checkbox"><span>👆 Touch Logo (V2)</span></label>
+<label><input type="checkbox"><span>🔘 Buttons A/B</span></label>
+</div>
+<label>Additional Materials Needed</label>
+<textarea rows="2" placeholder="e.g., USB cables, thermometer for calibration, graph paper, stopwatch"></textarea>
+<label>Programming Environment</label>
+<div class="row">
+<div><select><option>MakeCode (blocks)</option><option>MakeCode (JavaScript)</option><option>MicroPython</option><option>Start with MakeCode, option for MicroPython</option></select></div>
+<div><label style="margin:0"><input type="checkbox" style="width:auto;margin-right:6px">Students will use an LLM to help write/debug code</label></div>
+</div>
+
+<h2>CRAFT Lesson Structure</h2>
+
+<div class="craft-section c">
+<h3 style="color:var(--gold)">Contextualize: Why Does This Matter?</h3>
+<label>Real-World IoT Connection</label>
+<textarea placeholder="Where do sensors like this exist in the real world? (smart buildings, wearables, agriculture, environmental monitoring)
+
+Example: 'Smart greenhouses use temperature and light sensors to automatically adjust conditions for optimal plant growth — the same sensors on your micro:bit.'"></textarea>
+<label>Driving Question</label>
+<input type="text" placeholder="e.g., 'How loud is our classroom, and does it affect our focus?'">
+</div>
+
+<div class="craft-section r">
+<h3 style="color:var(--red)">Reframe: What Do Students Get Wrong?</h3>
+<label>Misconception to Address</label>
+<textarea rows="3" placeholder="e.g., 'Students think coding only happens on screens — they don't realize that physical devices in their daily life (phones, cars, smart speakers) all run code that reads sensor data.'"></textarea>
+</div>
+
+<div class="craft-section a">
+<h3 style="color:var(--green)">Assemble: I Do → We Do → You Do</h3>
+<label>I Do — Teacher Demonstrates (5-10 min)</label>
+<textarea placeholder="What will you demo? e.g., 'Show how to read the sound level sensor and display it on the LED matrix. Walk through the MakeCode blocks.'"></textarea>
+<label>We Do — Guided Practice (10-15 min)</label>
+<textarea placeholder="e.g., 'Together, we modify the code to show a happy face when noise is below 80 and a sad face when above. Students follow along on their own micro:bits.'"></textarea>
+<label>You Do — Student Investigation (15-30 min)</label>
+<textarea placeholder="e.g., 'Students design and run their own investigation: measure noise levels during quiet work time, group discussion, and transitions. Record data in a table. Create a bar chart.'"></textarea>
+<label>Data Collection Plan</label>
+<textarea rows="3" placeholder="How will students collect, record, and organize their sensor data? What format (table, spreadsheet, graph)?"></textarea>
+</div>
+
+<div class="craft-section f">
+<h3 style="color:var(--teal)">Fortify: Verify the Data + Check the Machine</h3>
+<label>Data Verification Activity</label>
+<textarea placeholder="How will students verify their sensor readings are accurate? e.g., 'Compare micro:bit temperature to a real thermometer. Discuss: why might they differ?'"></textarea>
+
+<div class="ctm-box">
+<h3>Student-Facing CtM Prompt</h3>
+<p style="font-size:0.85rem;margin-bottom:10px">Write the CtM exercise students will complete. This should be specific to your lesson.</p>
+<label>Task (what students ask the AI)</label>
+<textarea rows="2" placeholder="e.g., 'Ask an AI: What is a healthy classroom noise level in decibels, and how does noise affect student concentration?'"></textarea>
+<label>Before (what students predict)</label>
+<textarea rows="2" placeholder="e.g., 'Before looking at the AI's answer, write down: What do you THINK a healthy noise level is? How do you think noise affects focus?'"></textarea>
+<label>After (compare to AI output)</label>
+<textarea rows="2" placeholder="e.g., 'Read the AI's answer. Does it match your data from the micro:bit? Does it cite specific numbers? Can you verify those numbers?'"></textarea>
+<label>Takeaway (reflection)</label>
+<textarea rows="2" placeholder="e.g., 'What did you learn about the AI's claims? Did your actual data support or contradict the AI? What would you trust more — the AI's general answer or your specific measurements?'"></textarea>
+</div>
+</div>
+
+<div class="craft-section t">
+<h3 style="color:var(--purple)">Transfer: What's Next?</h3>
+<label>Connection to Next Lesson</label>
+<textarea rows="2" placeholder="How does this connect to your next unit or topic?"></textarea>
+<label>Extension Activity</label>
+<textarea rows="2" placeholder="For students who finish early or want to go deeper. e.g., 'Program the micro:bit to log data to a file using the data logging extension. Graph 24 hours of data.'"></textarea>
+</div>
+
+<h2>Assessment</h2>
+<label>How will you assess this lesson?</label>
+<textarea placeholder="e.g., 'CER paragraph: Make a claim about classroom noise levels, supported by micro:bit data (evidence), with scientific reasoning about how noise affects concentration.'"></textarea>
+
+<div style="margin-top:24px">
+<button class="btn" onclick="window.print()">🖨 Print Template</button>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+</body></html>

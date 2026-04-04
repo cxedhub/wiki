@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Platform Comparison — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--ink-light:#5A7FA0;--paper:#FAFBFE;--teal:#1ABC9C;--green:#27AE60;--gold:#D4A843;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;max-width:960px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:2rem;margin-bottom:8px}
+h2{font-family:'DM Serif Display',serif;font-size:1.3rem;margin:28px 0 12px}
+.subtitle{color:var(--gray600);font-size:0.95rem;margin-bottom:24px}
+table{width:100%;border-collapse:collapse;font-size:0.88rem;margin-bottom:24px}
+th{background:var(--ink);color:#fff;padding:10px 14px;text-align:left;font-weight:600;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em}
+td{padding:10px 14px;border-bottom:1px solid var(--gray200);vertical-align:top}
+tr:nth-child(even) td{background:var(--gray100)}
+.platform-header{font-weight:700;font-size:0.9rem}
+.strong{color:var(--green);font-weight:600}
+.weak{color:#C0392B;font-weight:600}
+.neutral{color:var(--gold);font-weight:600}
+.tip-box{background:#fff;border:1px solid var(--gray200);border-left:4px solid var(--teal);border-radius:6px;padding:16px;margin:16px 0;font-size:0.9rem}
+.tip-box strong{color:var(--teal)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+.badge{display:inline-block;font-size:0.7rem;padding:2px 8px;border-radius:3px;font-weight:600}
+.badge.free{background:#E8F8F0;color:var(--green)}
+.badge.paid{background:#FFF8E7;color:var(--gold)}
+@media print{body{max-width:100%;padding:12px}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>Platform Comparison Cheat Sheet</h1>
+<p class="subtitle">ChatGPT vs Claude vs Gemini — strengths, weaknesses, and when to use each for STEM education. Updated April 2026.</p>
+
+<h2>At a Glance</h2>
+<table>
+<tr><th style="width:20%">Feature</th><th style="width:26%">ChatGPT (OpenAI)</th><th style="width:26%">Claude (Anthropic)</th><th style="width:26%">Gemini (Google)</th></tr>
+<tr><td class="platform-header">Free Tier</td><td><span class="badge free">Yes</span> GPT-4o mini</td><td><span class="badge free">Yes</span> Sonnet</td><td><span class="badge free">Yes</span> Gemini 2.0</td></tr>
+<tr><td class="platform-header">Best For</td><td>Code generation, creative writing, image generation</td><td>Long documents, careful analysis, nuanced instructions</td><td>Google Workspace integration, multimodal (images, video)</td></tr>
+<tr><td class="platform-header">STEM Strengths</td><td><span class="strong">Strong</span> at math step-by-step, code execution, data analysis</td><td><span class="strong">Strong</span> at explaining concepts clearly, following complex lesson templates</td><td><span class="strong">Strong</span> at pulling current info, integrating with Google Docs/Sheets</td></tr>
+<tr><td class="platform-header">STEM Weaknesses</td><td><span class="weak">Can be verbose</span>; sometimes adds unnecessary complexity</td><td><span class="weak">Overly cautious</span>; may hedge when you want a direct answer</td><td><span class="weak">Inconsistent</span> on multi-step reasoning; can lose context</td></tr>
+<tr><td class="platform-header">Hallucination Risk</td><td><span class="neutral">Moderate</span> — confident even when wrong</td><td><span class="neutral">Lower</span> — tends to flag uncertainty</td><td><span class="neutral">Moderate</span> — can invent sources</td></tr>
+<tr><td class="platform-header">Image Input</td><td>Yes (upload photos of student work, diagrams)</td><td>Yes (upload and analyze images)</td><td>Yes (strong image understanding)</td></tr>
+<tr><td class="platform-header">File Upload</td><td>PDFs, spreadsheets, code files</td><td>PDFs, docs, code files</td><td>PDFs, Docs, Sheets (native Google)</td></tr>
+<tr><td class="platform-header">URL</td><td>chat.openai.com</td><td>claude.ai</td><td>gemini.google.com</td></tr>
+</table>
+
+<h2>When to Use Which</h2>
+<table>
+<tr><th>Task</th><th>Best Platform</th><th>Why</th></tr>
+<tr><td>Generate a week of lesson plans from a template</td><td>Claude</td><td>Best at following structured templates with many constraints</td></tr>
+<tr><td>Write or debug Python/JavaScript code</td><td>ChatGPT</td><td>Built-in code execution; can run and test code</td></tr>
+<tr><td>Explain a concept at different reading levels</td><td>Claude</td><td>Careful about accuracy; good at adjusting register</td></tr>
+<tr><td>Create practice problems with answer keys</td><td>ChatGPT or Claude</td><td>Both strong; Claude more careful with math accuracy</td></tr>
+<tr><td>Analyze student data in a spreadsheet</td><td>ChatGPT or Gemini</td><td>ChatGPT has code execution; Gemini integrates with Sheets</td></tr>
+<tr><td>Generate images for lessons</td><td>ChatGPT</td><td>Built-in DALL-E image generation</td></tr>
+<tr><td>Summarize a research paper</td><td>Claude</td><td>Handles long documents well; careful about claims</td></tr>
+<tr><td>Create a Google Slides presentation</td><td>Gemini</td><td>Native Google Workspace integration</td></tr>
+<tr><td>Write parent communications</td><td>Any</td><td>All handle tone and audience well</td></tr>
+<tr><td>Generate MakeCode for micro:bit</td><td>Claude or ChatGPT</td><td>Both produce decent MakeCode; always test on hardware</td></tr>
+</table>
+
+<h2>Common Pitfalls Across All Platforms</h2>
+
+<div class="tip-box">
+<strong>They all hallucinate standards.</strong> Every platform sometimes invents NGSS codes that don't exist or maps to the wrong grade band. Always verify standard numbers against the actual NGSS framework.
+</div>
+
+<div class="tip-box">
+<strong>They all struggle with math precision.</strong> Simple arithmetic is usually fine, but multi-step calculations (especially unit conversions, significant figures, and statistics) frequently have errors. Treat all math output as a draft.
+</div>
+
+<div class="tip-box">
+<strong>They all sound confident when wrong.</strong> None will spontaneously say "I'm not sure about this." The burden of verification is always on you. This is why we teach Check the Machine.
+</div>
+
+<div class="tip-box">
+<strong>Same prompt, different output every time.</strong> LLMs are non-deterministic. Running the exact same prompt twice may give different results. This is a feature, not a bug — but it means you can't assume one good output means the next will be identical.
+</div>
+
+<h2>Quick Decision Flowchart</h2>
+
+<div style="background:#fff;border:1px solid var(--gray200);border-radius:8px;padding:20px;font-size:0.9rem;line-height:1.8">
+<strong>Do I need to generate or run code?</strong> → ChatGPT<br>
+<strong>Do I need to follow a complex template?</strong> → Claude<br>
+<strong>Do I need current web info?</strong> → Gemini or ChatGPT<br>
+<strong>Do I need Google Workspace integration?</strong> → Gemini<br>
+<strong>Do I need to analyze uploaded files?</strong> → Any (all support file upload)<br>
+<strong>Not sure?</strong> → Try all three with the same prompt and compare. That's the whole point of Workshop 1!
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+</body></html>

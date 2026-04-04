@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STEM Prompt Library — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--ink-light:#5A7FA0;--paper:#FAFBFE;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;max-width:900px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:2rem;margin-bottom:8px}
+h2{font-family:'DM Serif Display',serif;font-size:1.4rem;margin:32px 0 12px;color:var(--ink)}
+h3{font-size:1rem;font-weight:600;margin:20px 0 8px;color:var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.95rem;margin-bottom:24px}
+.prompt-card{background:#fff;border:1px solid var(--gray200);border-radius:8px;padding:20px;margin-bottom:16px;border-left:4px solid var(--teal)}
+.prompt-card.physics{border-left-color:var(--purple)}
+.prompt-card.bio{border-left-color:var(--green)}
+.prompt-card.math{border-left-color:var(--gold)}
+.prompt-card.cs{border-left-color:var(--red)}
+.prompt-card.general{border-left-color:var(--ink-light)}
+.card-label{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-light);margin-bottom:6px}
+.card-title{font-weight:700;font-size:1rem;margin-bottom:8px}
+.prompt-box{background:var(--gray100);border-radius:6px;padding:14px;font-family:'JetBrains Mono',monospace;font-size:0.85rem;line-height:1.6;margin:10px 0;white-space:pre-wrap;position:relative}
+.copy-btn{position:absolute;top:8px;right:8px;background:var(--teal);color:#fff;border:none;padding:4px 10px;border-radius:4px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif}
+.copy-btn:hover{opacity:0.85}
+.tip{font-size:0.85rem;color:var(--ink-med);margin-top:8px;padding-left:16px;border-left:2px solid var(--gray200)}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.nav a{font-size:0.82rem;padding:6px 12px;border-radius:6px;text-decoration:none;color:var(--ink-med);border:1px solid var(--gray200);transition:all 0.2s}
+.nav a:hover,.nav a.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.anatomy{background:#fff;border:1px solid var(--gray200);border-radius:8px;padding:20px;margin-bottom:24px}
+.anatomy-row{display:flex;gap:12px;margin-bottom:8px;align-items:flex-start}
+.anatomy-label{background:var(--teal);color:#fff;font-size:0.72rem;font-weight:700;padding:3px 8px;border-radius:3px;min-width:80px;text-align:center;flex-shrink:0;margin-top:2px}
+.anatomy-text{font-size:0.9rem;color:var(--ink-med)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+@media print{.copy-btn,.nav{display:none}.prompt-box{border:1px solid #ccc}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>STEM Prompt Library</h1>
+<p class="subtitle">Tested, copy-ready prompts for generating NGSS-aligned content across STEM subjects. Each prompt follows the anatomy: Role → Task → Constraints → Format.</p>
+
+<div class="nav">
+<a href="#anatomy" class="active">Prompt Anatomy</a>
+<a href="#physics">Physics</a>
+<a href="#biology">Biology</a>
+<a href="#math">Math</a>
+<a href="#cs">Computer Science</a>
+<a href="#general">General / Cross-Subject</a>
+<a href="#differentiation">Differentiation</a>
+<a href="#admin">Admin Time-Savers</a>
+</div>
+
+<h2 id="anatomy">Prompt Anatomy</h2>
+<div class="anatomy">
+<p style="margin-bottom:12px;font-size:0.9rem">Every effective prompt has four components. The more specific you are, the better the output.</p>
+<div class="anatomy-row"><span class="anatomy-label">ROLE</span><span class="anatomy-text">Who the AI should be — "You are an experienced 9th grade physics teacher..."</span></div>
+<div class="anatomy-row"><span class="anatomy-label">TASK</span><span class="anatomy-text">What you want — "Create a 5-day inquiry-based unit on..."</span></div>
+<div class="anatomy-row"><span class="anatomy-label">CONSTRAINTS</span><span class="anatomy-text">Boundaries — grade level, reading level, NGSS standards, time, materials available</span></div>
+<div class="anatomy-row"><span class="anatomy-label">FORMAT</span><span class="anatomy-text">What the output should look like — "Output as a table with columns for..."</span></div>
+</div>
+
+<h2 id="physics">Physics</h2>
+
+<div class="prompt-card physics">
+<div class="card-label">Lesson Generation · Grades 9-12</div>
+<div class="card-title">Inquiry-Based Projectile Motion Unit</div>
+<div class="prompt-box" id="p1">You are an experienced high school physics teacher who designs inquiry-based lessons. Create a 5-day unit on projectile motion for 9th graders aligned to NGSS HS-PS2-1 (Newton's Second Law).
+
+Requirements:
+- Each day should take 50 minutes
+- Include a hands-on lab using only common classroom materials (rulers, balls, tape, stopwatches)
+- Differentiate for 3 levels: struggling (8th-grade reading), on-level, advanced (calculus-ready)
+- Include 2 formative assessment checkpoints
+- Day 5 should be a student-designed investigation
+
+Output as a table: Day | Objective | Activity | Materials | Assessment | Differentiation Notes<button class="copy-btn" onclick="copyPrompt('p1')">Copy</button></div>
+<div class="tip"><strong>Why it works:</strong> Specifies the standard, time constraints, material limitations, and differentiation tiers. The table format makes the output immediately usable.</div>
+</div>
+
+<div class="prompt-card physics">
+<div class="card-label">Problem Set · Grades 6-8</div>
+<div class="card-title">Force & Motion Practice Problems</div>
+<div class="prompt-box" id="p2">You are a middle school science teacher creating practice problems. Generate 12 problems about forces and motion for 7th graders aligned to NGSS MS-PS2-2 (force = mass × acceleration).
+
+Structure:
+- Problems 1-4: Conceptual (no calculation, predict direction/magnitude)
+- Problems 5-8: Single-step calculation (given F, m, find a or vice versa)
+- Problems 9-12: Multi-step with real-world context (sports, vehicles, animals)
+
+For each problem include: the problem text, the answer, a 1-sentence explanation of the key concept, and the common misconception this problem targets.<button class="copy-btn" onclick="copyPrompt('p2')">Copy</button></div>
+</div>
+
+<h2 id="biology">Biology / Life Science</h2>
+
+<div class="prompt-card bio">
+<div class="card-label">Lab Design · Grades 6-8</div>
+<div class="card-title">Photosynthesis Investigation</div>
+<div class="prompt-box" id="p3">You are a middle school life science teacher designing a 3-day lab sequence on photosynthesis aligned to NGSS MS-LS1-6 (role of photosynthesis in cycling matter and flow of energy).
+
+Day 1: Students design an investigation to test one variable affecting photosynthesis rate (light intensity, CO2 levels, or water availability). They must write a hypothesis and procedure.
+Day 2: Students conduct the investigation and collect data.
+Day 3: Students analyze data, create a graph, and write a CER (Claim-Evidence-Reasoning) conclusion.
+
+For each day, provide: learning objective, teacher setup instructions, student handout text (written at 6th grade reading level), safety considerations, and expected results with common errors students make.<button class="copy-btn" onclick="copyPrompt('p3')">Copy</button></div>
+</div>
+
+<div class="prompt-card bio">
+<div class="card-label">Reading Companion · Grades 9-12</div>
+<div class="card-title">Cell Division Misconception Buster</div>
+<div class="prompt-box" id="p4">You are a biology teacher who specializes in identifying and correcting student misconceptions. Create a "Misconception vs. Reality" handout about cell division (mitosis and meiosis) for 10th graders aligned to NGSS HS-LS3-2.
+
+Include exactly 8 misconception pairs:
+- State the common misconception students hold
+- Explain why students develop this misconception
+- Provide the correct scientific explanation using precise vocabulary
+- Give a simple analogy that helps students remember the correct concept
+
+Format each entry clearly with headers. Use language appropriate for 10th graders. Do NOT oversimplify to the point of inaccuracy.<button class="copy-btn" onclick="copyPrompt('p4')">Copy</button></div>
+</div>
+
+<h2 id="math">Mathematics</h2>
+
+<div class="prompt-card math">
+<div class="card-label">Personalized Tutor · Grades 3-5</div>
+<div class="card-title">Fraction Word Problems (Scaffolded)</div>
+<div class="prompt-box" id="p5">You are a patient, encouraging elementary math tutor. Create 10 word problems about adding and subtracting fractions with unlike denominators for 4th graders.
+
+Requirements:
+- Use real-world contexts students care about (cooking, sports, games, animals)
+- Problems 1-3: Visual support — include a description of a fraction bar model for each
+- Problems 4-7: Guided — provide the first step, students complete the rest
+- Problems 8-10: Independent — no scaffolding
+- All fractions should use denominators ≤ 12
+- Include an answer key with step-by-step solutions
+- Flag which problems align to CCSS 4.NF.B.3a vs 4.NF.B.3b<button class="copy-btn" onclick="copyPrompt('p5')">Copy</button></div>
+</div>
+
+<div class="prompt-card math">
+<div class="card-label">Assessment · Grades 9-12</div>
+<div class="card-title">Quadratic Functions Performance Task</div>
+<div class="prompt-box" id="p6">You are a high school math teacher creating an authentic performance task about quadratic functions for Algebra 2 students.
+
+The task should involve a real engineering scenario (bridge design, projectile trajectory, or parabolic antenna) where students must:
+1. Write a quadratic equation from given constraints
+2. Find the vertex and interpret it in context
+3. Determine the x-intercepts and interpret them
+4. Graph the function with labels
+5. Write a recommendation based on their analysis
+
+Include: the complete task prompt (1 page), a scoring rubric (4-point scale for each criterion), and sample student responses at the "proficient" and "developing" levels. Align to CCSS HSF-IF.C.7a.<button class="copy-btn" onclick="copyPrompt('p6')">Copy</button></div>
+</div>
+
+<h2 id="cs">Computer Science</h2>
+
+<div class="prompt-card cs">
+<div class="card-label">Unplugged Activity · Grades K-2</div>
+<div class="card-title">Algorithm Storytelling</div>
+<div class="prompt-box" id="p7">You are a K-2 teacher who integrates computing concepts into literacy lessons. Design a 30-minute unplugged activity that teaches the concept of "algorithms" (step-by-step instructions) through storytelling.
+
+Requirements:
+- Use a familiar fairy tale (Three Little Pigs, Goldilocks, or Little Red Riding Hood)
+- Students create an "algorithm" for the main character using picture cards (arrows, stop signs, decision diamonds)
+- Include exactly 6 picture card descriptions I can print
+- Activity should work for a class of 24 with mixed reading levels
+- Provide teacher script for the 5-minute introduction
+- Include 3 extension questions for early finishers
+- Align to CSTA K-2 1A-AP-08 (model daily processes by creating and following algorithms)<button class="copy-btn" onclick="copyPrompt('p7')">Copy</button></div>
+</div>
+
+<div class="prompt-card cs">
+<div class="card-label">Debugging Exercise · Grades 6-8</div>
+<div class="card-title">micro:bit Debugging Challenge</div>
+<div class="prompt-box" id="p8">You are a middle school CS teacher. Create a set of 4 MakeCode (block code) debugging challenges for the BBC micro:bit. Each challenge should have code that ALMOST works but has one logical error.
+
+For each challenge provide:
+1. What the code is supposed to do (in plain English)
+2. The block code description (describe each block in order since I'll recreate it in MakeCode)
+3. The specific bug and where it is
+4. The fix
+5. A hint to give students who are stuck (without revealing the answer)
+
+Difficulty progression: Challenge 1 uses only basic blocks, Challenge 4 uses variables and conditionals. All should involve the micro:bit's onboard sensors (buttons, accelerometer, temperature, light).<button class="copy-btn" onclick="copyPrompt('p8')">Copy</button></div>
+</div>
+
+<h2 id="general">General / Cross-Subject</h2>
+
+<div class="prompt-card general">
+<div class="card-label">Lesson Alignment · Any Grade</div>
+<div class="card-title">NGSS Standards Mapper</div>
+<div class="prompt-box" id="p9">I am a [GRADE] [SUBJECT] teacher. I want to teach a lesson about [TOPIC]. Identify the 3 most relevant NGSS performance expectations for this topic at this grade band.
+
+For each standard:
+1. State the full performance expectation code and text
+2. Identify the Science & Engineering Practice it emphasizes
+3. Identify the Crosscutting Concept
+4. Identify the Disciplinary Core Idea
+5. Suggest one specific classroom activity (30-45 min) that addresses this standard
+6. Note one common assessment mistake teachers make when assessing this standard
+
+Replace the bracketed terms with your specifics before using this prompt.<button class="copy-btn" onclick="copyPrompt('p9')">Copy</button></div>
+</div>
+
+<div class="prompt-card general">
+<div class="card-label">Discussion Starter · Grades 6-12</div>
+<div class="card-title">Socratic Seminar Question Generator</div>
+<div class="prompt-box" id="p10">You are a skilled facilitator of student-centered discussions. Generate 10 Socratic seminar questions about [TOPIC] for [GRADE] students.
+
+Structure the questions in three tiers:
+- Questions 1-3: Opening (accessible, opinion-based, gets everyone talking)
+- Questions 4-7: Core (analytical, requires evidence, connects to key concepts)
+- Questions 8-10: Closing (synthesis, real-world connection, "so what?" questions)
+
+For each question, include:
+- The question text
+- The type (opening/core/closing)
+- A follow-up probe if students give a surface-level answer
+- The key concept or misconception this question targets
+
+Questions should be open-ended (no yes/no) and should not have a single correct answer.<button class="copy-btn" onclick="copyPrompt('p10')">Copy</button></div>
+</div>
+
+<h2 id="differentiation">Differentiation Prompts</h2>
+
+<div class="prompt-card general">
+<div class="card-label">Differentiation · Any Lesson</div>
+<div class="card-title">Three-Tier Differentiation Converter</div>
+<div class="prompt-box" id="p11">I have an existing lesson about [TOPIC] for [GRADE] students. Here is the core activity:
+
+[PASTE YOUR ACTIVITY HERE]
+
+Create three differentiated versions of this activity:
+
+TIER 1 (Approaching): Simplify vocabulary to [TARGET] reading level. Add sentence starters. Reduce the number of steps. Provide a partially completed example. Add visual supports.
+
+TIER 2 (On-Level): Keep the activity as-is but add one extension question that requires application to a new context.
+
+TIER 3 (Advanced): Add complexity by requiring students to [evaluate/create/compare]. Include a challenge that connects to a related concept they haven't studied yet.
+
+For each tier, output the complete modified activity text I can hand directly to students.<button class="copy-btn" onclick="copyPrompt('p11')">Copy</button></div>
+</div>
+
+<h2 id="admin">Admin Time-Savers</h2>
+
+<div class="prompt-card general">
+<div class="card-label">Communication · Parents</div>
+<div class="card-title">Weekly STEM Newsletter</div>
+<div class="prompt-box" id="p12">You are a friendly, professional [GRADE] [SUBJECT] teacher writing a weekly parent newsletter. This week we worked on [TOPIC].
+
+Write a 200-word newsletter that includes:
+1. A brief summary of what students learned (no jargon, parent-friendly)
+2. One conversation starter parents can use at dinner ("Ask your child about...")
+3. One simple at-home extension activity using household materials
+4. A vocabulary word of the week with a kid-friendly definition
+5. A preview of next week's topic
+
+Tone: warm, encouraging, makes parents feel included without overwhelming them. Do NOT use educational buzzwords.<button class="copy-btn" onclick="copyPrompt('p12')">Copy</button></div>
+</div>
+
+<div class="prompt-card general">
+<div class="card-label">Rubric · Any Assignment</div>
+<div class="card-title">Single-Point Rubric Generator</div>
+<div class="prompt-box" id="p13">Create a single-point rubric for the following assignment:
+
+[PASTE YOUR ASSIGNMENT DESCRIPTION]
+
+The rubric should have:
+- 4-6 criteria rows (identify the most important skills being assessed)
+- Three columns: "Concerns" (blank, for teacher notes) | "Criteria" (the proficient-level description) | "Advanced" (blank, for teacher notes)
+- Each criterion should be specific, observable, and measurable
+- Include a row for the relevant NGSS or content standard alignment
+
+Output as a clean table I can paste into a Google Doc.<button class="copy-btn" onclick="copyPrompt('p13')">Copy</button></div>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education · Dr. Mike Borowczak & Dr. Andrea Borowczak</p>
+
+<script>
+function copyPrompt(id){
+  const el=document.getElementById(id);
+  const text=el.textContent.replace('Copy','').trim();
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn=el.querySelector('.copy-btn');
+    btn.textContent='Copied!';
+    setTimeout(()=>btn.textContent='Copy',2000);
+  });
+}
+</script>
+</body></html>

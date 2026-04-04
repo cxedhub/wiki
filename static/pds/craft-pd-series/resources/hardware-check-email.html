@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hardware Check Email — Workshop 3</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:#1B2A4A;background:#FAFBFE;line-height:1.6;max-width:700px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:16px}
+.email-box{background:#fff;border:1px solid #E8E8E8;border-radius:8px;padding:24px;margin:16px 0}
+.field{margin-bottom:16px}
+.field-label{font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:#5A7FA0;margin-bottom:4px}
+.field-value{font-size:0.95rem}
+.divider{border:none;border-top:1px solid #E8E8E8;margin:16px 0}
+.step{display:flex;gap:12px;margin:12px 0}
+.step-num{width:32px;height:32px;border-radius:50%;background:#1ABC9C;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85rem;flex-shrink:0}
+.step-text{padding-top:4px;font-size:0.9rem}
+.alert{background:#FFF8E7;border:1px solid #D4A843;border-radius:6px;padding:12px;font-size:0.88rem;margin:12px 0}
+.btn{background:#1ABC9C;color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin-top:16px}
+.back{font-size:0.85rem;color:#1ABC9C;text-decoration:none;display:inline-block;margin-bottom:16px}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+<h1>Hardware Check Email Template</h1>
+<p style="color:#666;font-size:0.9rem;margin-bottom:16px">Send this 3 days before Workshop 3. Copy the email body below and customize the bracketed fields.</p>
+
+<div class="email-box">
+<div class="field"><div class="field-label">Subject</div><div class="field-value">🔧 Workshop 3 Prep: Please Test Your micro:bit by [DATE - 1 day before]</div></div>
+<div class="field"><div class="field-label">To</div><div class="field-value">[Workshop 3 registered participants]</div></div>
+<div class="field"><div class="field-label">From</div><div class="field-value">[Your name / DRACO Lab]</div></div>
+
+<hr class="divider">
+
+<p>Hi [First Name],</p>
+
+<p style="margin-top:12px">We're excited for <strong>Workshop 3: Programming Edge/IoT Systems with AI</strong> on <strong>[Date]</strong>! You should have received your BBC micro:bit V2 kit by mail. Before the session, please take 10 minutes to make sure everything works.</p>
+
+<h3 style="margin-top:20px;color:#1ABC9C">Setup Steps (10 min)</h3>
+
+<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Unbox your kit.</strong> You should have: 1 BBC micro:bit V2 board, 1 micro-USB cable, and 1 battery pack (2×AAA). If anything is missing, reply to this email immediately.</div></div>
+
+<div class="step"><div class="step-num">2</div><div class="step-text"><strong>Connect the micro:bit</strong> to your computer using the USB cable. It should appear as a USB drive called "MICROBIT" in your file explorer/Finder.</div></div>
+
+<div class="step"><div class="step-num">3</div><div class="step-text"><strong>Open MakeCode</strong> in your browser: <a href="https://makecode.microbit.org" style="color:#1ABC9C">makecode.microbit.org</a></div></div>
+
+<div class="step"><div class="step-num">4</div><div class="step-text"><strong>Create a test program:</strong> Click "New Project." Drag a <code>show string "Hi"</code> block into the <code>on start</code> block. Click the purple "Download" button. Save the .hex file to the MICROBIT drive.</div></div>
+
+<div class="step"><div class="step-num">5</div><div class="step-text"><strong>Verify:</strong> Your micro:bit should scroll "Hi" across the LED display. If it does — you're ready! 🎉</div></div>
+
+<div class="alert">
+<strong>⚠️ Trouble?</strong> Common fixes:
+<ul style="margin-top:6px;padding-left:20px;font-size:0.85rem">
+<li><strong>MICROBIT drive doesn't appear:</strong> Try a different USB cable (some are charge-only, not data). Try a different USB port.</li>
+<li><strong>Download button doesn't work:</strong> Use Chrome or Edge (not Safari — it has pairing issues).</li>
+<li><strong>micro:bit shows "?" or error:</strong> Unplug, hold the reset button (on the back), plug back in while holding reset, then release.</li>
+<li><strong>Still stuck?</strong> Reply to this email and we'll help you troubleshoot before the session. We'll also have a Help Room breakout at the start of the workshop.</li>
+</ul>
+</div>
+
+<h3 style="margin-top:20px;color:#1ABC9C">Before the Workshop</h3>
+<p>Please have these ready:</p>
+<ul style="padding-left:20px;font-size:0.9rem;margin-top:6px">
+<li>✅ micro:bit connected and tested</li>
+<li>✅ <a href="https://makecode.microbit.org" style="color:#1ABC9C">makecode.microbit.org</a> open in one browser tab</li>
+<li>✅ An LLM of your choice (ChatGPT, Claude, or Gemini) open in another tab</li>
+<li>✅ Zoom link ready (sent separately)</li>
+</ul>
+
+<p style="margin-top:16px">See you on [Date] at 8:30 AM PST!</p>
+
+<p style="margin-top:16px">— Dr. Mike Borowczak & Dr. Andrea Borowczak<br>
+<span style="font-size:0.85rem;color:#666">UCF DRACO Lab & School of Teacher Education<br>CRAFT PD Series</span></p>
+</div>
+
+<button class="btn" onclick="copyEmail()">📋 Copy Email Body</button>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:#666">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+<script>
+function copyEmail(){
+  const box=document.querySelector('.email-box');
+  const range=document.createRange();
+  range.selectNodeContents(box);
+  const sel=window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  document.execCommand('copy');
+  sel.removeAllRanges();
+  event.target.textContent='✅ Copied!';
+  setTimeout(()=>event.target.textContent='📋 Copy Email Body',2000);
+}
+</script>
+</body></html>

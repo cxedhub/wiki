@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NGSS Lesson Template — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
+label{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px;color:var(--ink)}
+input[type="text"],textarea,select{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.phase-bar{display:flex;gap:4px;margin:20px 0 8px}
+.phase-tag{padding:4px 10px;border-radius:4px;font-size:0.72rem;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:0.06em}
+.craft-section{border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:12px 0;border-left:4px solid var(--teal)}
+.craft-section.c{border-left-color:var(--gold)}
+.craft-section.r{border-left-color:var(--red)}
+.craft-section.a{border-left-color:var(--green)}
+.craft-section.f{border-left-color:var(--teal)}
+.craft-section.t{border-left-color:var(--purple)}
+.craft-section h3{font-size:0.9rem;margin-bottom:8px}
+.helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
+.btn:hover{opacity:0.85}
+.btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+@media print{.btn,.back{display:none}input,textarea,select{border:1px solid #ccc}}
+@media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
+</style>
+</head><body>
+
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+
+<h1>NGSS-Aligned Lesson Template</h1>
+<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle.</p>
+
+<h2>Lesson Overview</h2>
+<div class="row">
+<div><label>Lesson Title</label><input type="text" placeholder="e.g., Investigating Projectile Motion with micro:bits"></div>
+<div><label>Your Name</label><input type="text" placeholder=""></div>
+</div>
+<div class="row">
+<div><label>Grade Level</label><select><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
+<div><label>Subject Area</label><input type="text" placeholder="e.g., Physical Science, Biology, Math, CS"></div>
+</div>
+<div class="row">
+<div><label>NGSS Performance Expectation(s)</label><input type="text" placeholder="e.g., MS-PS2-2, HS-LS1-6"><div class="helper">Verify at nextgenscience.org — LLMs sometimes hallucinate codes</div></div>
+<div><label>Estimated Duration</label><input type="text" placeholder="e.g., 3 class periods (50 min each)"></div>
+</div>
+<label>Lesson Summary (2-3 sentences)</label>
+<textarea placeholder="Brief description of what students will do and learn..."></textarea>
+
+<h2>Standards Alignment</h2>
+<div class="row3">
+<div><label>Science & Engineering Practice</label><textarea rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
+<div><label>Crosscutting Concept</label><textarea rows="3" placeholder="e.g., Cause and Effect"></textarea></div>
+<div><label>Disciplinary Core Idea</label><textarea rows="3" placeholder="e.g., PS2.A: Forces and Motion"></textarea></div>
+</div>
+
+<h2>CRAFT Cycle Structure</h2>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--gold)">C</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Contextualize</span>
+</div>
+<div class="craft-section c">
+<h3>Why This Matters (5-10 min)</h3>
+<label>Real-World Connection</label>
+<textarea placeholder="How does this concept appear in students' lives, careers, or the world? What hook will you use to open the lesson?
+
+LLM prompt idea: 'Give me 3 real-world applications of [TOPIC] that would be relevant to [GRADE] students in [REGION]'"></textarea>
+<label>Career Connection</label>
+<input type="text" placeholder="What jobs use this concept? e.g., Biomedical engineer, Environmental scientist">
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--red)">R</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Reframe</span>
+</div>
+<div class="craft-section r">
+<h3>Address the Misconception (5-10 min)</h3>
+<label>Common Misconception</label>
+<textarea rows="2" placeholder="What do students typically believe incorrectly about this topic?
+
+LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students have about [TOPIC]?'"></textarea>
+<label>Correct Understanding</label>
+<textarea rows="2" placeholder="What should they understand instead? How will you help them make the shift?"></textarea>
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--green)">A</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Assemble</span>
+</div>
+<div class="craft-section a">
+<h3>I Do → We Do → You Do</h3>
+<label>I Do — Teacher Demonstrates (5-10 min)</label>
+<textarea placeholder="What will you model? Describe the demonstration or worked example."></textarea>
+<label>We Do — Guided Practice (10-15 min)</label>
+<textarea placeholder="What will students do WITH you? Think-pair-share, group problem, collaborative lab setup?"></textarea>
+<label>You Do — Independent/Group Practice (15-25 min)</label>
+<textarea placeholder="What will students do on their own or in groups? This is the core activity."></textarea>
+<label>Materials Needed</label>
+<textarea rows="2" placeholder="List all materials. Be specific about quantities."></textarea>
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--teal)">F</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Fortify</span>
+</div>
+<div class="craft-section f">
+<h3>Verify Understanding (5-10 min)</h3>
+<label>Formative Assessment</label>
+<textarea placeholder="How will you check understanding? Exit ticket, quick quiz, thumbs up/down, CER paragraph?"></textarea>
+<label>Check the Machine (if using AI in this lesson)</label>
+<textarea rows="3" placeholder="If students used AI in this lesson, describe the CtM exercise:
+Task: What did they ask the AI?
+Before: What did they predict?
+After: What did the AI produce?
+Takeaway: What did the comparison reveal?"></textarea>
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--purple)">T</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Transfer</span>
+</div>
+<div class="craft-section t">
+<h3>Connect Forward (3-5 min)</h3>
+<label>Connection to Next Lesson</label>
+<textarea rows="2" placeholder="How does this connect to what's coming next in your curriculum?"></textarea>
+<label>Extension / Homework</label>
+<textarea rows="2" placeholder="Optional extension for students who want to go further."></textarea>
+</div>
+
+<h2>Assessment</h2>
+<label>Summative Assessment Description</label>
+<textarea placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
+
+<h2>Notes & Reflections</h2>
+<textarea placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+
+<div style="margin-top:24px">
+<button class="btn" onclick="window.print()">🖨 Print This Template</button>
+<button class="btn secondary" onclick="selectAll()">📋 Select All (to copy/paste)</button>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+<script>
+function selectAll(){
+  const range=document.createRange();
+  range.selectNodeContents(document.body);
+  const sel=window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+}
+</script>
+</body></html>
