@@ -2,6 +2,7 @@
 <div class="container">
   <article class="page-content">
     <h1>{{ .Title }}</h1>
+    {{ partial "share-buttons.html" . }}
     {{ .Content }}
   </article>
 </div>
