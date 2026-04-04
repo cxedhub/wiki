@@ -3,6 +3,7 @@
   <header class="lesson-header">
     <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="lesson-description">{{ . }}</p>{{ end }}
+    {{ partial "share-buttons.html" . }}
   </header>
 
   {{ if .Params.subjects }}
