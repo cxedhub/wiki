@@ -2,9 +2,9 @@
 {{- $title := .Title -}}
 {{- $desc := .Description | default site.Params.description -}}
 {{- /* Use urlquery then replace + with %20 for proper percent-encoding */ -}}
-{{- $encURL := $url | urlquery | replace "+" "%20" -}}
-{{- $encTitle := $title | urlquery | replace "+" "%20" -}}
-{{- $encDesc := $desc | urlquery | replace "+" "%20" -}}
+{{- $encURL := replace ($url | urlquery) "+" "%20" -}}
+{{- $encTitle := replace ($title | urlquery) "+" "%20" -}}
+{{- $encDesc := replace ($desc | urlquery) "+" "%20" -}}
 
 <div class="share-bar" aria-label="Share this page">
   <span class="share-label">Share:</span>
