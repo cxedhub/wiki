@@ -1,9 +1,7 @@
 ---
 title: I Am a Weather Watcher
-description: Students will become weather watchers. They will journal the weather
-  everyday and document the temperature using the micro:bit that has already been
-  programmed by the teacher. At the end of the week, students will create a flipgird
-  video with a group to explain their findings.
+description: Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro:bit that has already been programmed by the teacher. At the end of
+  the week, students will create a flipgird video with a group to explain their findings.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Sarah McKenzie
@@ -20,8 +18,26 @@ cs_principles:
 - Collaborating Around Computing
 materials: Website, Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  NGSS:
+  - K-ESS2-1
+  - K-ESS3-2
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

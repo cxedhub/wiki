@@ -1,9 +1,7 @@
 ---
 title: Secure Your Future. Cyber Security Safety.
-description: 'Students will be provided a scenario. In this scenario, a student is
-  applying to a college. They have created an application essay based upon the following
-  prompt: Described a time where you have either been inspired by, or inspired someone
-  else. How did this impact you?'
+description: 'Students will be provided a scenario. In this scenario, a student is applying to a college. They have created an application essay based upon the following prompt: Described a time where you
+  have either been inspired by, or inspired someone else. How did this impact you?'
 date: '2023-07-12T15:19:22'
 draft: false
 author: Brian Axon
@@ -18,14 +16,33 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-standards: ELA.10.C.1.3, ELA.10.C.3.1
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.9-10
+  - W.9-10
 materials: Google doc.
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "CCSS ELA"
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

@@ -1,8 +1,6 @@
 ---
 title: 'Cybersecurity: Denial of Service Attack'
-description: In this fun lesson plan, students will model one type of attack (a denial-of-service
-  attack) and figure out how to protect the network against it (no computer programming
-  required)!
+description: In this fun lesson plan, students will model one type of attack (a denial-of-service attack) and figure out how to protect the network against it (no computer programming required)!
 date: '2023-07-14T14:35:59'
 draft: false
 author: Jumoke Adebimpe
@@ -16,13 +14,29 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
-standards: MS-ETS1-3 MS-ETS1-4
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7a
+  - ISTE-7b
 materials: None
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

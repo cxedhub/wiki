@@ -1,9 +1,7 @@
 ---
 title: Teaching a Robot About Handwashing
-description: In this lesson, students will be teaching a robot about handwashing.
-  They will be introduced to the vocabulary term algorithm and be asked to write an
-  algorithm to teach a robot to wash its hands. They will then make changes to their
-  algorithms as necessary.
+description: In this lesson, students will be teaching a robot about handwashing. They will be introduced to the vocabulary term algorithm and be asked to write an algorithm to teach a robot to wash its
+  hands. They will then make changes to their algorithms as necessary.
 date: '2020-07-22 00:00:00+00:00'
 draft: false
 author: Jenifer Albrandt
@@ -20,8 +18,23 @@ cs_principles:
 - Communicating About Computing
 materials: Computer, Projector, and Google Slides
 tags:
-- "Robotics"
-- "Web Design"
+- Robotics
+- Web Design
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

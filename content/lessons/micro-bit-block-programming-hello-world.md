@@ -1,9 +1,7 @@
 ---
 title: 'Micro Bit Block Programming: ''Hello World'''
-description: This lesson introduces the basic components of the microbit, a beginners
-  program, and teaches how to download a program to the microbit. Students will program
-  in a block based language. Students will also utilize small electronics, and learn
-  how a computer is programmed.
+description: This lesson introduces the basic components of the microbit, a beginners program, and teaches how to download a program to the microbit. Students will program in a block based language. Students
+  will also utilize small electronics, and learn how a computer is programmed.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Rosetter E. Dirden
@@ -19,7 +17,23 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Micro:bit, www.makecode.microbit.org
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5c
+  - ISTE-5d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,8 +1,6 @@
 ---
 title: Our Christmas Book
-description: Students will create a page in a class book about their favorite part
-  of Christmas using words and pictures. Students will use the Book Creator app on
-  the i-pads and chromebooks.
+description: Students will create a page in a class book about their favorite part of Christmas using words and pictures. Students will use the Book Creator app on the i-pads and chromebooks.
 date: '2022-04-08 00:00:00+00:00'
 draft: false
 author: Sarah McKenzie
@@ -17,11 +15,29 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
-standards: CCSS.ELA-LITERACY.W.1.1
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7b
+  CCSS ELA:
+  - SL.2
 materials: Book Creation App on I-Pad
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

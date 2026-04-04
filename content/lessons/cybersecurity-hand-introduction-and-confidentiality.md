@@ -1,7 +1,6 @@
 ---
 title: Cybersecurity  - Hand Introduction and Confidentiality
-description: Introduction to the GenCyber Hand concepts - also includes Confidentiality
-  topics.
+description: Introduction to the GenCyber Hand concepts - also includes Confidentiality topics.
 date: '2023-07-13T21:56:38'
 draft: false
 author: Jeff Kitterman
@@ -13,12 +12,25 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-IC-23
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
 materials: Website, arcade.makecode.com
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

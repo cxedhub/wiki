@@ -1,10 +1,7 @@
 ---
 title: Battle your CuteBot
-description: Get ready to battle your CuteBot car! Develop code for your Microbit
-  using loops, variables, and conditionals to outsmart the other Cutebots to be the
-  last bot standing or be the first to take out the threat! Using your design thinking
-  skills to think outside the box to build a battle shell for your cutebot to withstand
-  all challengers in the Lancer Arena!
+description: Get ready to battle your CuteBot car! Develop code for your Microbit using loops, variables, and conditionals to outsmart the other Cutebots to be the last bot standing or be the first to take
+  out the threat! Using your design thinking skills to think outside the box to build a battle shell for your cutebot to withstand all challengers in the Lancer Arena!
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse
@@ -19,8 +16,25 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, Micro:bit
 tags:
-- "Project-Based"
-- "micro:bit"
+- Project-Based
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-7a
+  - ISTE-7b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

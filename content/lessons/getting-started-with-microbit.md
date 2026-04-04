@@ -1,9 +1,7 @@
 ---
 title: Getting started with Micro:bit
-description: 'Students will explore the functions of the MIcro: bit. Students have
-  not had experience with this and I have very little. Together, we will learn basic
-  programming operations using makecode.mirobit.org tutorials. Students will work
-  in pairs/groups to complete tasks such as programing dice and a name tag.'
+description: 'Students will explore the functions of the MIcro: bit. Students have not had experience with this and I have very little. Together, we will learn basic programming operations using makecode.mirobit.org
+  tutorials. Students will work in pairs/groups to complete tasks such as programing dice and a name tag.'
 date: '2021-12-13 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -25,7 +23,49 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.2
+  - SL.5
+  CCSS Math:
+  - 2.MD
+  - 4.MD
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,8 +1,7 @@
 ---
 title: Trickster Tales
-description: Students learn about trickster tales in different cultures, then learn
-  about how algorithms tell a story using ScratchJr. This is a multi-lesson activity
-  that integrates with Language Arts, Social Studies and Computer Science.
+description: Students learn about trickster tales in different cultures, then learn about how algorithms tell a story using ScratchJr. This is a multi-lesson activity that integrates with Language Arts,
+  Social Studies and Computer Science.
 date: '2020-07-21 00:00:00+00:00'
 draft: false
 author: Krista Sweckard
@@ -21,7 +20,23 @@ cs_principles:
 materials: ScratchJr
 tags: []
 standard_types:
-- "CCSS ELA"
+- CSTA
+- ISTE
+- NCSS C3
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
+  NCSS C3:
+  - D2.His.2.K-2
 ---
 # OVERVIEW
 ## Activity Overview:  

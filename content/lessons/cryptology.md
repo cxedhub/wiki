@@ -1,9 +1,7 @@
 ---
 title: Cryptology
-description: This lesson will help students to understand cryptology.  Students will
-  use problem solving skills to encrypt and decrypt messages.  By investigating a
-  shift cipher, students will reinforce their understanding of the concepts of functions
-  and transformations of functions.
+description: This lesson will help students to understand cryptology.  Students will use problem solving skills to encrypt and decrypt messages.  By investigating a shift cipher, students will reinforce
+  their understanding of the concepts of functions and transformations of functions.
 date: '2023-07-13T18:01:03'
 draft: false
 author: Elizabeth Busch
@@ -16,13 +14,32 @@ grade_levels:
 cs_domains:
 - Algorithms and Programming
 cs_principles: []
-standards: MA.912.F.2.1 Identify the effect on the graph or table of a given function
-  after replacing f(x) by f(x) + k, for specific values of k.
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  CCSS Math:
+  - 6.SP
 materials: Website, https://www.cerias.purdue.edu/education/k-12/teaching_resources/lessons_presentations/cryptology.html
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "Web Design"
+- Cybersecurity
+- GenCyber
+- Web Design
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

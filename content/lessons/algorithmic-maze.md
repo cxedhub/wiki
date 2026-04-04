@@ -1,7 +1,6 @@
 ---
 title: Algorithmic Maze
-description: Students will use popsicle sticks to design maze systems and work to
-  create a flowchart that helps a user to find the exit of the maze every time.
+description: Students will use popsicle sticks to design maze systems and work to create a flowchart that helps a user to find the exit of the maze every time.
 date: '2022-09-16 00:00:00+00:00'
 draft: false
 author: Garrid Halsey
@@ -18,6 +17,30 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: None
 tags: []
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-7a
+  - ISTE-7b
+  National Core Arts:
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

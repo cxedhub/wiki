@@ -1,10 +1,7 @@
 ---
 title: Draw a snowflake with code
-description: Draw a snowflake using code.org. My students were really challenged to
-  follow the directions in the lesson, so I created an 'I do, we do, you do' type
-  of lesson through the slide show. My students then had to follow along with my slides
-  and I could see where they were still having trouble with understanding the vocabulary
-  of coding.
+description: Draw a snowflake using code.org. My students were really challenged to follow the directions in the lesson, so I created an 'I do, we do, you do' type of lesson through the slide show. My students
+  then had to follow along with my slides and I could see where they were still having trouble with understanding the vocabulary of coding.
 date: '2023-03-28 00:00:00+00:00'
 draft: false
 author: Michelle Black
@@ -22,7 +19,35 @@ cs_principles:
 - Creating Computational Artifacts
 materials: code.org access  Level E of the 2022 program
 tags:
-- "Code.org"
+- Code.org
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7a
+  CCSS Math:
+  - 4.MD
+  National Core Arts:
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

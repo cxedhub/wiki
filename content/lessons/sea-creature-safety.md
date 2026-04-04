@@ -1,8 +1,7 @@
 ---
 title: Sea Creature Safety
-description: •        To discover more about the threats faced by sea turtles •        To
-  learn about efforts to help them •        To learn how micro:bit inputs (sensors)
-  and outputs (LED lights) can be used to make a prototype to help protect sea turtles
+description: •        To discover more about the threats faced by sea turtles •        To learn about efforts to help them •        To learn how micro:bit inputs (sensors) and outputs (LED lights) can be
+  used to make a prototype to help protect sea turtles
 date: '2023-04-14 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -16,13 +15,25 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 4-PS4-3 Waves and Their Applications in Technologies for Information Transfer
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6c
+  - ISTE-6d
 materials: Micro:bit
 tags:
-- "Project-Based"
-- "micro:bit"
+- Project-Based
+- micro:bit
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

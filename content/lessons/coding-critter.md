@@ -1,9 +1,7 @@
 ---
 title: Coding Critter
-description: The students will create a path for the coding critter to follow using
-  arrow cards and then inputting the directions into the coding critter using the
-  arrow buttons on the critter. After inputting the information, the student will
-  start the critter and watch it move through the programed path.
+description: The students will create a path for the coding critter to follow using arrow cards and then inputting the directions into the coding critter using the arrow buttons on the critter. After inputting
+  the information, the student will start the critter and watch it move through the programed path.
 date: '2022-09-14 00:00:00+00:00'
 draft: false
 author: Jody Durst
@@ -19,10 +17,27 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-standards: Mathematics 1b, 3a
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 2.MD
 materials: Coding Critter
 tags:
-- "Robotics"
+- Robotics
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

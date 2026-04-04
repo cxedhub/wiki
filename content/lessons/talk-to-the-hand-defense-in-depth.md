@@ -1,9 +1,7 @@
 ---
 title: TALK TO THE HAND – DEFENSE IN DEPTH
-description: Defense in depth is a strategy that leverages multiple security measures
-  to protect an organization's assets. The thinking is that if one line of defense
-  is compromised, additional layers exist as a backup to ensure that threats are stopped
-  along the way.
+description: Defense in depth is a strategy that leverages multiple security measures to protect an organization's assets. The thinking is that if one line of defense is compromised, additional layers exist
+  as a backup to ensure that threats are stopped along the way.
 date: '2023-07-14T14:29:01'
 draft: false
 author: Lorraine Grice
@@ -17,12 +15,28 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
 materials: Website, micro:bit, HANDbook handout
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

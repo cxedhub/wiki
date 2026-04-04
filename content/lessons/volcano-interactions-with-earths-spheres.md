@@ -23,10 +23,39 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 5.ESS2.1
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS ELA:
+  - SL.5
+  - W.5
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-LS4-1
+  - 4-ESS1-1
+  - 4-ESS2-1
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

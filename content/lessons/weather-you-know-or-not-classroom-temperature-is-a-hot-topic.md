@@ -1,10 +1,7 @@
 ---
 title: “Weather” you know or not…. Classroom temperature is a hot topic!
-description: This lesson merges weather, microbit, programming and social impact.
-  Does the temperature of a classroom matter? Yes! In PSD, the school calendar has
-  been modified, school days have been cancelled, participants health have been compromised
-  because of hot classrooms. How can you tell when a classroom is too hot? Easy! Code
-  a microbit!
+description: This lesson merges weather, microbit, programming and social impact. Does the temperature of a classroom matter? Yes! In PSD, the school calendar has been modified, school days have been cancelled,
+  participants health have been compromised because of hot classrooms. How can you tell when a classroom is too hot? Easy! Code a microbit!
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Tracey Winey
@@ -23,7 +20,35 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7a
+  - ISTE-7b
+  NGSS:
+  - MS-ESS2-4
+  - MS-ESS2-5
+  - MS-ESS2-6
+  - MS-PS1-4
+  - MS-PS1-6
+  - MS-PS3-3
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

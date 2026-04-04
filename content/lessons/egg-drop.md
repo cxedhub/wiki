@@ -1,8 +1,7 @@
 ---
 title: Egg Drop
-description: Using the MicroBit students will make a safe container for an egg drop.
-  Instead of an egg, the students will be using the microbit to sense the impact.
-  Students will learn about force and energy transfer.
+description: Using the MicroBit students will make a safe container for an egg drop. Instead of an egg, the students will be using the microbit to sense the impact. Students will learn about force and energy
+  transfer.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -19,8 +18,35 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - 5.MD
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-PS2-1
+  - 3-PS2-3
+  - 4-PS3-1
+  - 4-PS3-2
+  - 4-PS3-4
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

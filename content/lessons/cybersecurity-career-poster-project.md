@@ -1,10 +1,7 @@
 ---
 title: Cybersecurity Career Poster Project
-description: Students will design a poster project detailing an individual cybersecurity
-  career.  The poster project will include educational requirements, basic job responsibilities,
-  ways the career contributes to overall cybersecurity, salary expectations, and example
-  companies that are looking for this type of position.  The end product will be a
-  poster with the above requirements clearly addressed.
+description: Students will design a poster project detailing an individual cybersecurity career.  The poster project will include educational requirements, basic job responsibilities, ways the career contributes
+  to overall cybersecurity, salary expectations, and example companies that are looking for this type of position.  The end product will be a poster with the above requirements clearly addressed.
 date: '2023-07-16T08:55:00'
 draft: false
 author: Jana Simmerly
@@ -23,12 +20,44 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 materials: None
 tags:
-- "Cybersecurity"
-- "Data Collection"
-- "GenCyber"
+- Cybersecurity
+- Data Collection
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 ## OVERVIEW
 

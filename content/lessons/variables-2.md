@@ -1,9 +1,7 @@
 ---
 title: Variables
-description: This lesson introduces the use of variables to store data or the results
-  of mathematical operations. Students will practice giving variables unique and meaningful
-  names. We will also introduce the basic mathematical operations for adding, subtracting,
-  multiplying, and dividing variables.
+description: This lesson introduces the use of variables to store data or the results of mathematical operations. Students will practice giving variables unique and meaningful names. We will also introduce
+  the basic mathematical operations for adding, subtracting, multiplying, and dividing variables.
 date: '2022-11-03 00:00:00+00:00'
 draft: false
 author: Autumn Spiva
@@ -23,7 +21,29 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit, https://makecode.microbit.org/courses/csintro-educator
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS Math:
+  - 6.EE
+  - 6.SP
+  - 7.EE
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

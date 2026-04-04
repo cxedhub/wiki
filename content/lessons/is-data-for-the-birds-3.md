@@ -1,7 +1,6 @@
 ---
 title: Is Data for the Birds?
-description: Use the micro:bit as a step counter to measure and mark the planets'
-  relative distances from the Sun.
+description: Use the micro:bit as a step counter to measure and mark the planets' relative distances from the Sun.
 date: '2022-11-29 00:00:00+00:00'
 draft: false
 author: Jeff Kitterman
@@ -15,8 +14,23 @@ cs_domains:
 - Algorithms and Programming
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

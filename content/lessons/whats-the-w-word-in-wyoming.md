@@ -1,7 +1,6 @@
 ---
 title: What's the 'W' word in Wyoming?
-description: Students will build an anemometer to measure the wind and predict weather
-  patterns in Wyoming.
+description: Students will build an anemometer to measure the wind and predict weather patterns in Wyoming.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Katie Cline
@@ -21,11 +20,34 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS Math:
+  - 5.MD
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
+  - 4-PS3-1
+  - 4-PS3-2
 ---
 # OVERVIEW
 ## Activity Overview:  

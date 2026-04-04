@@ -1,9 +1,7 @@
 ---
 title: Alphabetical Order
-description: Using a Scratch Jr. activity, students will program different alphabet
-  letter sprites to line up in alphabetical order. The purpose of this activity is
-  to integrate the literacy skill of alphabetizing with the programing of a control
-  sequence in computer science.
+description: Using a Scratch Jr. activity, students will program different alphabet letter sprites to line up in alphabetical order. The purpose of this activity is to integrate the literacy skill of alphabetizing
+  with the programing of a control sequence in computer science.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Kristine Gaskill
@@ -19,12 +17,28 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: CCSS.ELA-Literacy.L.2.2.E
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS ELA:
+  - L.2
+  - RF.2
 materials: Scratch Jr.
 tags:
-- "Scratch"
+- Scratch
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

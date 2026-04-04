@@ -1,9 +1,7 @@
 ---
 title: Micro:bits / Makerspace
-description: The lesson is for coding with micro:bits. It is written broadly for implementation
-  as an activity for a whole group of students in a library/makerspace club or as
-  a free-choice activity for small groups or individuals. However, it can be adapted
-  for collaborative teaching to support various classroom curricula.
+description: The lesson is for coding with micro:bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for
+  small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
 date: '2022-08-13 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -28,12 +26,49 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit
 tags:
-- "Data Collection"
-- "Project-Based"
-- "micro:bit"
+- Data Collection
+- Project-Based
+- micro:bit
 standard_types:
-- "CCSS ELA"
-- "ISTE"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS ELA:
+  - SL.5
+  - SL.7
 ---
 # OVERVIEW
 ## Activity Overview:  

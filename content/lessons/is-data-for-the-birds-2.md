@@ -1,7 +1,6 @@
 ---
 title: Is data for the birds?
-description: Students will explore probability and coding by coding the Micro:bit
-  to generate random responses similar to flipping a coin.
+description: Students will explore probability and coding by coding the Micro:bit to generate random responses similar to flipping a coin.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Jeff Kitterman
@@ -19,8 +18,30 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 6.SP
+  - 7.SP
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

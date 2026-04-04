@@ -1,9 +1,7 @@
 ---
 title: Fraction Racing
-description: Students engineered mint mobiles to race through a micro bit timing gate.
-  The data was then collected and plotted on a number line in the form of whole numbers
-  and fractions. The students took this data and asked/answered questions based on
-  the collection.
+description: Students engineered mint mobiles to race through a micro bit timing gate. The data was then collected and plotted on a number line in the form of whole numbers and fractions. The students took
+  this data and asked/answered questions based on the collection.
 date: '2021-11-22 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -20,13 +18,39 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: CCSS.MATH.CONTENT.4.MD.B.4
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS Math:
+  - 5.MD
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 4-PS3-1
+  - 4-PS3-2
+  - 4-PS3-4
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

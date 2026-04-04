@@ -1,8 +1,7 @@
 ---
 title: Blind Maze - a lesson with combined classes K and 5
-description: This is an unplugged activity where students will work in mixed grade
-  level teams (Kindergarten and 5th grade) to guide a blindfolded partner through
-  an obstacle course in as little time as possible.
+description: This is an unplugged activity where students will work in mixed grade level teams (Kindergarten and 5th grade) to guide a blindfolded partner through an obstacle course in as little time as
+  possible.
 date: '2022-08-04 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -17,12 +16,32 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
-standards: 'CCSS: ELA SL.5.1, SL.K.6'
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.2
+  - SL.5
 materials: None
 tags:
-- "Unplugged"
+- Unplugged
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

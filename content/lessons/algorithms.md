@@ -1,7 +1,6 @@
 ---
 title: Algorithms
-description: This lesson explains what algorithms are and how they work in relation
-  to computer science. It breaks the concept down to make it easier to understand.
+description: This lesson explains what algorithms are and how they work in relation to computer science. It breaks the concept down to make it easier to understand.
 date: '2023-03-14 00:00:00+00:00'
 draft: false
 author: Christy Rodgers
@@ -23,6 +22,30 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags: []
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 6.SP
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

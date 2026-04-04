@@ -1,10 +1,7 @@
 ---
 title: 'ESP Problem Solving: A Problem Solving Model'
-description: This is an introductory lesson to the problem-solving process. The goal
-  is for students to see that they, in a manner similar to computers, engage in a
-  process of input, processing, deciding, and acting. It will serve as an introduction
-  to both my Problem Solving elective as well as an introductory look at computer
-  science.
+description: This is an introductory lesson to the problem-solving process. The goal is for students to see that they, in a manner similar to computers, engage in a process of input, processing, deciding,
+  and acting. It will serve as an introduction to both my Problem Solving elective as well as an introductory look at computer science.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Travis Burns
@@ -18,11 +15,32 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: Wyoming HE 2 - Decision Making and Problem Solving
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-23
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - SL.7
 materials: None
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

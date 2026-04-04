@@ -1,10 +1,7 @@
 ---
 title: HexBug Mazes
-description: In this lesson/activity students will learn about who Margaret Hamilton
-  is and what she did for NASA. Students will be introduced to computer science vocabulary.
-  Students will work with a partner to create a maze for a HexBugs to get through.
-  The HexBug represents a computer bug that needs to get removed from the software
-  in order for it to work right.
+description: In this lesson/activity students will learn about who Margaret Hamilton is and what she did for NASA. Students will be introduced to computer science vocabulary. Students will work with a partner
+  to create a maze for a HexBugs to get through. The HexBug represents a computer bug that needs to get removed from the software in order for it to work right.
 date: '2023-03-10 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton
@@ -27,10 +24,42 @@ cs_principles:
 - Communicating About Computing
 materials: HexBug
 tags:
-- "Project-Based"
-- "Robotics"
+- Project-Based
+- Robotics
 standard_types:
-- "CCSS ELA"
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 5-ESS1-1
+  - 5-ESS1-2
+  NCSS C3:
+  - D2.Civ.1.3-5
+  - D2.Civ.12.3-5
+  - D2.Civ.2.3-5
+  - D2.Civ.6.3-5
 ---
 # OVERVIEW
 ## Activity Overview:  

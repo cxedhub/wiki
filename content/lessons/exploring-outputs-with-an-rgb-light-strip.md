@@ -1,11 +1,8 @@
 ---
 title: Exploring Outputs with an RGB Light Strip
-description: In this lesson you will be introducing the connection of color with computer
-  science through the use of a micro:bit and RGB LED strip(instructions below on how
-  to make it). This type of output component is incredibly engaging for students since
-  they can create and adjust the properties of light through various colors and sequences.
-  At the end of the lesson; students will design and prototype a light strip for usage
-  in a rock concert.
+description: In this lesson you will be introducing the connection of color with computer science through the use of a micro:bit and RGB LED strip(instructions below on how to make it). This type of output
+  component is incredibly engaging for students since they can create and adjust the properties of light through various colors and sequences. At the end of the lesson; students will design and prototype
+  a light strip for usage in a rock concert.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Laramie McCullough
@@ -25,7 +22,47 @@ cs_principles:
 - Communicating About Computing
 materials: Micro:bit, RGB Light Strip(Instruction attached with how to make)
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - HS-ESS1-5
+  - HS-ESS2-1
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
+  - HS-ETS1-4
+  - HS-PS4-1
+  - HS-PS4-3
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+standard_types:
+- CSTA
+- ISTE
+- NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

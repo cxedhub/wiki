@@ -1,11 +1,8 @@
 ---
 title: Using Microbits to measure light level of sunlight for optimal plant growth
-description: Students will investigate and design an experiment that explores the
-  natural world using microprocessors. They will study the phenomenon of photosynthesis.
-  Students will create an experiment that uses Microbit light sensors to determine
-  the optimal amount of sunlight needed to grow the fastest growing bean plant, from
-  seed to germination. They will program a Microbit to accurately measure the amount
-  of sunlight a plant receives.
+description: Students will investigate and design an experiment that explores the natural world using microprocessors. They will study the phenomenon of photosynthesis. Students will create an experiment
+  that uses Microbit light sensors to determine the optimal amount of sunlight needed to grow the fastest growing bean plant, from seed to germination. They will program a Microbit to accurately measure
+  the amount of sunlight a plant receives.
 date: '2020-07-24 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -27,13 +24,38 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "ISTE"
-- "NGSS"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7b
+  CCSS ELA:
+  - SL.7
+  CCSS Math:
+  - 6.SP
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 ---
 # OVERVIEW
 ## Activity Overview:  

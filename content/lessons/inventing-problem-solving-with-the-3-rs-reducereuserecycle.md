@@ -1,7 +1,6 @@
 ---
 title: Inventing & Problem Solving with the 3 R’s (Reduce/Reuse/Recycle)
-description: Students will work collaboratively to respond to a text by using recycled
-  materials to create an invention that will solve a character’s problem.
+description: Students will work collaboratively to respond to a text by using recycled materials to create an invention that will solve a character’s problem.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Amber McClure
@@ -22,23 +21,43 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: 2.CS.T.01 Recognize computing systems might not work as expected and identify
-  and effectively communicate simple hardware or software problems and implement solutions
-  (e.g., app or program is not working as expected, no sound is coming from the device,
-  caps lock turned on) and discuss problems with peers and adults.  2.DA.CVT.01 With
-  guidance, collect data and independently present the same data in various visual
-  formats.  2.AP.A.01 With guidance, identify and model daily processes by creating
-  and following algorithms (sets of step-by- step instructions) to complete tasks
-  (e.g., verbally, kinesthetically, with robot devices, or a programming language).
-materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots
-  of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm
-  page (included in lesson document).'
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - L.2
+  - RL.2
+  - SL.2
+  NGSS:
+  - K-2-ETS1-1
+  - K-2-ETS1-2
+  - K-2-ETS1-3
+materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson
+  document).'
 tags:
-- "Data Collection"
-- "Robotics"
-- "Unplugged"
+- Data Collection
+- Robotics
+- Unplugged
 standard_types:
-- "Wyoming CS"
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

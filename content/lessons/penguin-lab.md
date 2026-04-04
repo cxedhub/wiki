@@ -1,9 +1,7 @@
 ---
 title: Penguin Lab
-description: Students will construct an penguin home to prevent the phase change of
-  an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver
-  to record the temperature inside the penguin home using one micro:bit, and then
-  creating a graphical representation of the temperature change in their penguin home.
+description: Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver to record the temperature inside
+  the penguin home using one micro:bit, and then creating a graphical representation of the temperature change in their penguin home.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Sara Percy
@@ -15,10 +13,30 @@ grade_levels:
 cs_domains:
 - Computing Systems
 - Algorithms and Programming
-standards: Utah 8th Grade Science Standard 8.1.7
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  NGSS:
+  - MS-PS1-4
+  - MS-PS1-6
+  - MS-PS3-3
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,11 +1,8 @@
 ---
 title: Real World Cyber Security Historical Event
-description: Cybersecurity and personal information protection go hand in hand. This
-  is the second of a three lesson unit that offers 5th graders a historical look at
-  one example of a real world cyber attack that took place at an Australian WasteWater
-  Facility in 2001. The lesson is easily adaptable for 3rd grade and up through high
-  school integrating ELA, Soc Studies, Science, and CS standards through the lens
-  of real-world cyber security.
+description: Cybersecurity and personal information protection go hand in hand. This is the second of a three lesson unit that offers 5th graders a historical look at one example of a real world cyber attack
+  that took place at an Australian WasteWater Facility in 2001. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Soc Studies, Science, and CS standards through the
+  lens of real-world cyber security.
 date: '2022-07-23 00:00:00+00:00'
 draft: false
 author: Chad Lemley
@@ -22,12 +19,33 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-standards: RI.5.6;  SS 5.3.4;  SS5.4.2;  SS5.4.3
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - RI.5
+  - SL.5
+  NCSS C3:
+  - D2.His.2.3-5
 materials: Website, https://www.industrialcybersecuritypulse.com/throwback-attack-an-insider-releases-265000-gallons-of-sewage-on-the-maroochy-shire/  https://www.theregister.com/2001/10/31/hacker_jailed_for_revenge_sewage/  https://www.youtube.com/watch?v=C_PRhTXp6VQ
 tags:
-- "Cybersecurity"
+- Cybersecurity
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

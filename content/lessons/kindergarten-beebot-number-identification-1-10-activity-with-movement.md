@@ -1,10 +1,7 @@
 ---
 title: Kindergarten Beebot Number Identification (1-10) Activity with Movement
-description: Bee-bots are utilized collaboratively by students to problem solve while
-  reinforcing the skill of identifying numbers 1-10 in a variety of ways. Movement
-  exercises that reinforce standard counting and one-to-one correspondence are also
-  built into the activity. Many of these activities focus on crossing mid-line which
-  is crucial especially for reading in early grades.
+description: Bee-bots are utilized collaboratively by students to problem solve while reinforcing the skill of identifying numbers 1-10 in a variety of ways. Movement exercises that reinforce standard counting
+  and one-to-one correspondence are also built into the activity. Many of these activities focus on crossing mid-line which is crucial especially for reading in early grades.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Nicole Asay
@@ -23,9 +20,25 @@ cs_principles:
 - Communicating About Computing
 materials: Bee-Bot and Bee-Bot mat
 tags:
-- "Robotics"
+- Robotics
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS Math:
+  - 2.MD
 ---
 # OVERVIEW
 ## Activity Overview:  

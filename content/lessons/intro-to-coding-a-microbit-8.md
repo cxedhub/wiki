@@ -1,7 +1,6 @@
 ---
 title: Intro To Coding a Microbit
-description: Students will be introduced to block coding using the website makecode.org.
-  They will code a virtual microbit by completing a tutorial of making a heart.
+description: Students will be introduced to block coding using the website makecode.org. They will code a virtual microbit by completing a tutorial of making a heart.
 date: '2023-03-17 00:00:00+00:00'
 draft: false
 author: Kiley Hiser
@@ -21,8 +20,37 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, https://makecode.microbit.org/
 tags:
-- "Code.org"
-- "micro:bit"
+- Code.org
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.2
+  - SL.5
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

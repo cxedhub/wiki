@@ -1,7 +1,6 @@
 ---
 title: 'Scratch Sort: Events & Loops'
-description: Students explore Scratch and recognize how the categories and blocks
-  within the categories help students create projects in Scratch.
+description: Students explore Scratch and recognize how the categories and blocks within the categories help students create projects in Scratch.
 date: '2023-03-02 00:00:00+00:00'
 draft: false
 author: Minda Blevins
@@ -18,7 +17,22 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags:
-- "Scratch"
+- Scratch
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-6c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

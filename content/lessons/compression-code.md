@@ -1,9 +1,7 @@
 ---
 title: Compression Code
-description: This is an introductory activity used before teaching scientific notation
-  and exponents. Students will learn about compression coding and practice and apply
-  that skill. Ideally this will be taught the day before the teacher introduces scientific
-  notation.
+description: This is an introductory activity used before teaching scientific notation and exponents. Students will learn about compression coding and practice and apply that skill. Ideally this will be
+  taught the day before the teacher introduces scientific notation.
 date: '2022-11-26 00:00:00+00:00'
 draft: false
 author: Kristy Barr
@@ -20,12 +18,34 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-standards: 8.EE.B.3; 8.AP.N.01-2
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 6.SP
+  National Core Arts:
+  - MU:Cn10
+  - MU:Cn11
+  - MU:Cr1
+  - MU:Cr2
 materials: Website, Youtube
 tags: []
 standard_types:
-- "CCSS Math"
-- "Wyoming CS"
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

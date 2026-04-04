@@ -1,8 +1,6 @@
 ---
 title: Introduction to Micro:bits
-description: Students will learn what micro:bits are and how they can be used. They
-  will also learn how to code their own micro:bits. They will start by making flashing
-  hearts.
+description: Students will learn what micro:bits are and how they can be used. They will also learn how to code their own micro:bits. They will start by making flashing hearts.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Jenny Day
@@ -19,13 +17,31 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: n/a
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-NI-04
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
 materials: Website, Micro:bit, chromebook or some kind of computer or tablet
 tags:
-- "Robotics"
-- "Scratch"
-- "Unplugged"
-- "micro:bit"
+- Robotics
+- Scratch
+- Unplugged
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: What is Technology?
-description: The purpose of this lesson was to introduce the students to what the
-  definition of technology is, what everyday items around them qualify as technology,
-  and how technology has evolved and with the evolution how it has positive and negative
-  consequences.
+description: The purpose of this lesson was to introduce the students to what the definition of technology is, what everyday items around them qualify as technology, and how technology has evolved and with
+  the evolution how it has positive and negative consequences.
 date: '2021-11-18 00:00:00+00:00'
 draft: false
 author: Michelle Petty
@@ -16,11 +14,27 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: 8.CS.HS.01
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  NCSS C3:
+  - D2.His.1.6-8
+  - D2.His.14.6-8
+  - D2.His.3.6-8
+  - D2.His.9.6-8
 materials: cameras, ipods, watch, cellphones, toothbrush, pencils, etc.
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

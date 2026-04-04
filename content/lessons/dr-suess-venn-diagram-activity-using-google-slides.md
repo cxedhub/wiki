@@ -1,9 +1,7 @@
 ---
 title: Dr. Suess Venn Diagram Activity using Google Slides
-description: Create a Venn Diagram using Google Slides. The activity can be used for
-  Dr. Seuss' birthday and incorporates moving Red Fish, Blue Fish, One Fish, Two Fish
-  to visually show and create a Venn diagram. Students Copy and Paste fish to show
-  their difference and relations in numbers and colors on a Venn diagram.
+description: Create a Venn Diagram using Google Slides. The activity can be used for Dr. Seuss' birthday and incorporates moving Red Fish, Blue Fish, One Fish, Two Fish to visually show and create a Venn
+  diagram. Students Copy and Paste fish to show their difference and relations in numbers and colors on a Venn diagram.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Charles Morton
@@ -19,10 +17,32 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Creating Computational Artifacts
-standards: 2. CS.D.01
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7a
+  CCSS ELA:
+  - SL.5
+  - SL.7
 materials: Google Slides
 tags:
-- "Project-Based"
+- Project-Based
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

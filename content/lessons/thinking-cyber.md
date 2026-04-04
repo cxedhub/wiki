@@ -1,10 +1,7 @@
 ---
 title: Thinking Cyber
-description: I intend to use the idea of Cyber Security to introduce safe processes
-  when preparing for my class, I do a break-up DBQ which follows a students relationship
-  which I will add the security portion to, and last hitting Modern World History
-  in terms of the new non-traditional battle space not in the traditional set piece
-  way (tanks & foot soldiers)
+description: I intend to use the idea of Cyber Security to introduce safe processes when preparing for my class, I do a break-up DBQ which follows a students relationship which I will add the security portion
+  to, and last hitting Modern World History in terms of the new non-traditional battle space not in the traditional set piece way (tanks & foot soldiers)
 date: '2023-07-13T12:37:52'
 draft: false
 author: Jerry Updike
@@ -19,14 +16,35 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
-standards: AP Historical Thinking Skills (Comparative Analysis, Comparison, Continuity
-  & Change)
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  - 3A-IC-29
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.9-10
+  NCSS C3:
+  - D2.His.2.9-12
 materials: None, Website, micro:bit
 tags:
-- "Cybersecurity"
-- "Data Collection"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- Data Collection
+- GenCyber
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

@@ -1,7 +1,6 @@
 ---
 title: Nursery Rhymes and Microbits Pt. 2
-description: This lesson uses familiar nursery rhymes to introduce secondary students
-  to the concepts of coding, sequencing, and looping with microbits.
+description: This lesson uses familiar nursery rhymes to introduce secondary students to the concepts of coding, sequencing, and looping with microbits.
 date: '2022-08-11 00:00:00+00:00'
 draft: false
 author: Maggie Unterseher
@@ -14,10 +13,26 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.9-10
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: Shark Tank Activity (Problem Solving)
-description: This is an unplugged activity where students will design an application
-  for a cell phone or personal device to solve a problem that exists in 'their world'.
-  The created application should be unique in design and resolution. Simply put, this
-  application should not be a duplication of one already on the market today.
+description: This is an unplugged activity where students will design an application for a cell phone or personal device to solve a problem that exists in 'their world'. The created application should be
+  unique in design and resolution. Simply put, this application should not be a duplication of one already on the market today.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Shirley Johns
@@ -23,9 +21,38 @@ cs_principles:
 - Communicating About Computing
 materials: Poster board/paper and markers
 tags:
-- "Unplugged"
+- Unplugged
 standard_types:
-- "CSTA"
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-6c
+  CCSS Math:
+  - 7.G
+  National Core Arts:
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 ---
 # OVERVIEW
 ## Activity Overview:  

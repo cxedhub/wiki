@@ -1,10 +1,7 @@
 ---
 title: WonderBots
-description: We are going to start by introducing the WonderBots to the children.
-  I will introduce them to the program and the IPad that they will be using to code
-  the robot. Then we will start with the very first program which will be turning
-  on the lights and progress to drawing pictures on paper. This lesson will be broken
-  up over more than one day.
+description: We are going to start by introducing the WonderBots to the children. I will introduce them to the program and the IPad that they will be using to code the robot. Then we will start with the
+  very first program which will be turning on the lights and progress to drawing pictures on paper. This lesson will be broken up over more than one day.
 date: '2023-03-29 00:00:00+00:00'
 draft: false
 author: Sadie Graff
@@ -22,13 +19,27 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-standards: Math-K.MD.B.3, K.CC.A.3  ELA.W.K.3, RF.K.2, W.K.8
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
 materials: Wonder Robots, I-Pad
 tags:
-- "Robotics"
+- Robotics
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

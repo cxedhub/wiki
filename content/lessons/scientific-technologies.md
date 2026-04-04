@@ -1,11 +1,8 @@
 ---
 title: Scientific Technologies
-description: 'Students research a field of science that interests them and the technologies
-  that are used to solve-problems in that field. Questions students should answer
-  are: what are the technologies and how do they work? How have the technologies evolved
-  over time. Students then should recreate one of the technologies with a micro:bit;
-  they may use a previously created project or create a new one. They must also reflect
-  on this question: what''s one way you would improve or enhance the technology?'
+description: 'Students research a field of science that interests them and the technologies that are used to solve-problems in that field. Questions students should answer are: what are the technologies
+  and how do they work? How have the technologies evolved over time. Students then should recreate one of the technologies with a micro:bit; they may use a previously created project or create a new one.
+  They must also reflect on this question: what''s one way you would improve or enhance the technology?'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Amanda Katelyn Carson
@@ -25,8 +22,55 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-DA-06
+  - 1B-DA-07
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - MS-PS2-3
+  - MS-PS2-5
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

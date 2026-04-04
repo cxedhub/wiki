@@ -1,9 +1,7 @@
 ---
 title: Multiplication with MicroBits
-description: This activity allows students to practice their multiplication fact fluency
-  while also covering computer science standards. Students will program a Micro:bit
-  to answer multiplication questions. All students will need a piece of paper, a computer
-  and a Micro:bit.
+description: This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro:bit to answer multiplication questions.
+  All students will need a piece of paper, a computer and a Micro:bit.
 date: '2023-03-10 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton
@@ -22,9 +20,28 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7a
+  - ISTE-7b
+  CCSS Math:
+  - 4.MD
 ---
 # OVERVIEW
 ## Activity Overview:  

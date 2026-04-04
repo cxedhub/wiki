@@ -1,7 +1,6 @@
 ---
 title: 5 Senses
-description: Students will learn about the 5 senses as a whole then learn about each
-  individual sense and complete science activities using the iPads.
+description: Students will learn about the 5 senses as a whole then learn about each individual sense and complete science activities using the iPads.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -15,12 +14,21 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: 'K-2.IC.SI.01: Practice grade-level appropriate behaviors and responsibilities
-  while participating in an online community. Identify and report inappropriate behavior'
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
 materials: Website, iPads, https://www.youtube.com/watch?v=q1xNuU7gaAQ, https://www.abcya.com/games/five_senses
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

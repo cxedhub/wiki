@@ -1,11 +1,8 @@
 ---
 title: Honesty and Integrity
-description: Honesty and Integrity are valuable and necessary skills to flourish in
-  various environments, including higher education, the workplace and personal and
-  civic life.  This lesson is designed to help students understand, evaluate and apply
-  skills of integrity.  Furthermore, students will connect psychological theories
-  to these transferable skills in order to help them navigate situations where honesty
-  and integrity are required in their future environments, such as college or work.
+description: Honesty and Integrity are valuable and necessary skills to flourish in various environments, including higher education, the workplace and personal and civic life.  This lesson is designed
+  to help students understand, evaluate and apply skills of integrity.  Furthermore, students will connect psychological theories to these transferable skills in order to help them navigate situations where
+  honesty and integrity are required in their future environments, such as college or work.
 date: '2023-07-15T20:27:45'
 draft: false
 author: Stephen Callum
@@ -18,13 +15,29 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Collaborating Around Computing
-standards: 'Domain: Development and Learning Standard Area: Development Content Standard
-  2: Theories of lifespan development 2.2 Discuss theories of moral development Content
-  Standard 6: Adolescence 6.2 Describe the development of reasoning and morality'
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  NCSS C3:
+  - D2.Civ.1.9-12
+  - D2.Civ.14.9-12
+  - D2.Civ.2.9-12
+  - D2.Civ.5.9-12
 materials: Website, https://www.ethicalsystems.org/cheating-honesty/
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

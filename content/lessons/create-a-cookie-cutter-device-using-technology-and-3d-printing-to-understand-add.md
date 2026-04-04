@@ -1,13 +1,8 @@
 ---
-title: Create a cookie cutter device using technology and 3D printing to understand
-  adding and subtracting fractions.
-description: In this lesson students will create a cookie cutter to help them practice
-  adding and subtracting fractions. They will start by using play-doh to create a
-  model of what they would like their cutter to look like. Then they will use a computer
-  program to create the model. Once the model is finished, students will be able to
-  print the cookie cutter (artifact) using a 3D printer. Once they have this tool
-  students can use it model adding and subtracting fractions and provide them hands
-  on practice to check their work.
+title: Create a cookie cutter device using technology and 3D printing to understand adding and subtracting fractions.
+description: In this lesson students will create a cookie cutter to help them practice adding and subtracting fractions. They will start by using play-doh to create a model of what they would like their
+  cutter to look like. Then they will use a computer program to create the model. Once the model is finished, students will be able to print the cookie cutter (artifact) using a 3D printer. Once they have
+  this tool students can use it model adding and subtracting fractions and provide them hands on practice to check their work.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Brandi Rodriguez
@@ -23,11 +18,26 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-standards: 4.NF.3
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - 5.NF
 materials: Website, 3D Printer
 tags: []
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: Microbits Introduction
-description: This lesson is used to introduce microbits to students. Students will
-  be able to code with inclusion of sequences, events, loops, conditionals, and variables.
+description: This lesson is used to introduce microbits to students. Students will be able to code with inclusion of sequences, events, loops, conditionals, and variables.
 date: '2023-03-15 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -19,9 +18,22 @@ cs_principles:
 - Communicating About Computing
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

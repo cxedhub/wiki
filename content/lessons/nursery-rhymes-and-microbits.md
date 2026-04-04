@@ -1,10 +1,7 @@
 ---
 title: Nursery Rhymes and Microbits
-description: This lesson uses familiar nursery rhymes to introduce secondary students
-  to the concepts of coding, sequencing, and looping with microbits. Students in a
-  STEM Class will outline code for their for a nursery rhyme that will eventually
-  be read to kindergarten students. This will be implemented with Science course and
-  integrated through the library.
+description: This lesson uses familiar nursery rhymes to introduce secondary students to the concepts of coding, sequencing, and looping with microbits. Students in a STEM Class will outline code for their
+  for a nursery rhyme that will eventually be read to kindergarten students. This will be implemented with Science course and integrated through the library.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Maggie Unterseher
@@ -19,10 +16,28 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
-standards: 'AASL: INQUIRE, EXPLORE, ENGAGE'
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - RL.9-10
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: Sight Word Bowling
-description: Students will draw a sight word card and then program either a kibo or
-  bee bot to knock down the matching bowling pin.
+description: Students will draw a sight word card and then program either a kibo or bee bot to knock down the matching bowling pin.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Jenny Day
@@ -17,14 +16,32 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
-standards: CCSS.ELA-LITERACY.RF.2.3.F
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5c
+  - ISTE-5d
+  CCSS ELA:
+  - RF.2
 materials: Kibo or Bee Bot
 tags:
-- "Robotics"
-- "Unplugged"
-- "micro:bit"
+- Robotics
+- Unplugged
+- micro:bit
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: Zoo Data
-description: Students will collect data on what animals they would keep in a library.
-  Students will choose their top 5 animals that they would have in their zoo. They
-  will then take surveys of students in the classroom to see which animals are the
-  most popular, or how many people chose the same animals as them.
+description: Students will collect data on what animals they would keep in a library. Students will choose their top 5 animals that they would have in their zoo. They will then take surveys of students
+  in the classroom to see which animals are the most popular, or how many people chose the same animals as them.
 date: '2021-11-29 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -17,12 +15,27 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Developing and Using Abstractions
-standards: CCSS.MATH.CONTENT.2.MD.D.10
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-NI-04
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  CCSS Math:
+  - 2.MD
+  - 5.MD
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

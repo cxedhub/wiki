@@ -1,8 +1,6 @@
 ---
 title: 'Intro to Coding: Unplugged'
-description: This lesson will help students gain familiarity with algorithms and how
-  to create a path on a coding mat. This will help prepare students to begin coding
-  online.
+description: This lesson will help students gain familiarity with algorithms and how to create a path on a coding mat. This will help prepare students to begin coding online.
 date: '2022-12-07 00:00:00+00:00'
 draft: false
 author: Minda Blevins
@@ -16,7 +14,20 @@ cs_principles:
 - Collaborating Around Computing
 materials: None
 tags:
-- "Unplugged"
+- Unplugged
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

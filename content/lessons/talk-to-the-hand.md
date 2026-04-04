@@ -1,7 +1,6 @@
 ---
 title: Talk to the Hand
-description: This is practicing lesson plan for Thinking like an Adversary and the
-  Availability.
+description: This is practicing lesson plan for Thinking like an Adversary and the Availability.
 date: '2023-07-14T14:04:58'
 draft: false
 author: Everett Fleming
@@ -16,12 +15,32 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - HSS-ID
 materials: Website
 tags:
-- "Cybersecurity"
-- "Data Collection"
-- "GenCyber"
+- Cybersecurity
+- Data Collection
+- GenCyber
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

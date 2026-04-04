@@ -1,12 +1,8 @@
 ---
 title: Hardware/Software Sorting Activity
-description: 'Hardware/Software Sorting Activity: For this exploration, you and your
-  partner will sort the computer science resource cards into different categories.
-  This will provide opportunities for you to consider things like whether the resource
-  is hardware or software, what type of hardware it is (input, processing, output,
-  storage), and the purpose of the resource, compatibility, etc.). You will have a
-  better understanding of the differences between hardware and software after this
-  activity.'
+description: 'Hardware/Software Sorting Activity: For this exploration, you and your partner will sort the computer science resource cards into different categories. This will provide opportunities for
+  you to consider things like whether the resource is hardware or software, what type of hardware it is (input, processing, output, storage), and the purpose of the resource, compatibility, etc.). You will
+  have a better understanding of the differences between hardware and software after this activity.'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Terry Highfield
@@ -24,6 +20,28 @@ cs_principles:
 - Communicating About Computing
 materials: Hardware/Software Sorting Cards; Exit Ticket
 tags: []
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-NI-04
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

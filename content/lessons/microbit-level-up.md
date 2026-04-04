@@ -1,7 +1,6 @@
 ---
 title: Micro:bit Level Up
-description: This lesson provides an introduction to micro:bits and 4 levels of activities
-  to learn about the possibilities of the micro:bit.
+description: This lesson provides an introduction to micro:bits and 4 levels of activities to learn about the possibilities of the micro:bit.
 date: '2021-03-18 00:00:00+00:00'
 draft: false
 author: Julie Snyder
@@ -17,12 +16,29 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: ISTE Standards
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "ISTE"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

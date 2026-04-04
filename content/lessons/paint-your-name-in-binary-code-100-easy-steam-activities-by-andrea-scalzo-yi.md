@@ -1,10 +1,7 @@
 ---
-title: Paint Your Name in Binary Code (100 Easy STEAM Activities by Andrea Scalzo
-  Yi)
-description: Using the binary conversion chart, students will create a binary code
-  for each letter of their name on a piece of paper. Using a paint and a brush, students
-  will paint over their pencil drawing to create a final version. This lesson promotes
-  creativity while learning about binary code.
+title: Paint Your Name in Binary Code (100 Easy STEAM Activities by Andrea Scalzo Yi)
+description: Using the binary conversion chart, students will create a binary code for each letter of their name on a piece of paper. Using a paint and a brush, students will paint over their pencil drawing
+  to create a final version. This lesson promotes creativity while learning about binary code.
 date: '2022-08-09 00:00:00+00:00'
 draft: false
 author: Ginny Nading
@@ -17,10 +14,27 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Creating Computational Artifacts
-standards: Unsure
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

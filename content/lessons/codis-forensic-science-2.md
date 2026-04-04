@@ -1,10 +1,8 @@
 ---
 title: CODIS & Forensic Science
-description: Students will work together as forensic scientists to solve the crime
-  of “Who broke into our school and stole all the tablets?” Students will compare
-  DNA samples from three suspects to DNA taken from a hair left at the crime scene.
-  From their comparisons they will draw conclusions to identify a suspect. Once the
-  suspect is identified, they will present their findings and rationale to the class.
+description: Students will work together as forensic scientists to solve the crime of “Who broke into our school and stole all the tablets?” Students will compare DNA samples from three suspects to DNA
+  taken from a hair left at the crime scene. From their comparisons they will draw conclusions to identify a suspect. Once the suspect is identified, they will present their findings and rationale to the
+  class.
 date: '2022-10-24 00:00:00+00:00'
 draft: false
 author: Alicia Vonberg
@@ -21,12 +19,30 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Communicating About Computing
-standards: 'NGSS: MS-LS1-1, 1-8, 1-3'
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
 materials: Website, CODIS website
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

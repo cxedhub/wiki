@@ -1,9 +1,7 @@
 ---
 title: Magellan and Technology
-description: 'Adapted from: Flocabulary.com 7/2020 “Become a Map-Maker and Explorer”
-  Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November
-  of 1520. Students will practice key geography vocabulary and learn about Magellan’s
-  contributions.'
+description: 'Adapted from: Flocabulary.com 7/2020 “Become a Map-Maker and Explorer” Use this lesson plan to commemorate Magellan’s arrival at the Pacific Ocean in November of 1520. Students will practice
+  key geography vocabulary and learn about Magellan’s contributions.'
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Timothy George
@@ -23,7 +21,36 @@ cs_principles:
 materials: Website, Google Maps,
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - L.5
+  - RL.5
+  - SL.5
+  - W.5
+  NCSS C3:
+  - D2.Geo.1.3-5
+  - D2.Geo.2.3-5
+  - D2.Geo.4.3-5
+  - D2.Geo.5.3-5
+  - D2.His.1.3-5
+  - D2.His.14.3-5
+  - D2.His.2.3-5
+  - D2.His.3.3-5
 ---
 # OVERVIEW
 ## Activity Overview:  

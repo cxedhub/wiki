@@ -1,8 +1,7 @@
 ---
 title: Can you escape the maze?
-description: Students will use two different maze websites throughout the lesson.
-  They will use speaking and listening skills to exit the mazes. They will write their
-  directions down and see if a partner is able to follow the directions to escape.
+description: Students will use two different maze websites throughout the lesson. They will use speaking and listening skills to exit the mazes. They will write their directions down and see if a partner
+  is able to follow the directions to escape.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Amber E Johnson
@@ -23,7 +22,28 @@ cs_principles:
 materials: Website
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.5
 ---
 # OVERVIEW
 ## Activity Overview:  

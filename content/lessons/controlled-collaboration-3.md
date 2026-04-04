@@ -1,7 +1,6 @@
 ---
 title: Controlled Collaboration
-description: Introduce your students to shared document norms while practicing identifying
-  main idea and key details.
+description: Introduce your students to shared document norms while practicing identifying main idea and key details.
 date: '2020-11-27 00:00:00+00:00'
 draft: false
 author: Crystal Graf
@@ -15,9 +14,25 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-standards: 3.RI.2/3.W.6b
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - RI.5
+  - SL.5
 materials: One computer per student/pair and access to the Google suite
 tags: []
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

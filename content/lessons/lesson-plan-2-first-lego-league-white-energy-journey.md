@@ -1,10 +1,7 @@
 ---
 title: Lesson Plan 2-First LEGO ® League “White Energy Journey”
-description: Students will work independently to design a ‘driving base’ using the
-  SPIKE PRIME LEGO sets. Upon completion of the base students will develop the code
-  to drive the base around the LEGO Super Powered map. Students will have to problem
-  solve to find errors in code and re-program their driving bases to allow their model
-  to follow the most accurate and direct path around the map.
+description: Students will work independently to design a ‘driving base’ using the SPIKE PRIME LEGO sets. Upon completion of the base students will develop the code to drive the base around the LEGO Super
+  Powered map. Students will have to problem solve to find errors in code and re-program their driving bases to allow their model to follow the most accurate and direct path around the map.
 date: '2022-10-25 00:00:00+00:00'
 draft: false
 author: Alicia Vonberg
@@ -24,13 +21,45 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other personal
-  device, access to the internet
+materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other personal device, access to the internet
 tags:
-- "Project-Based"
-- "Robotics"
+- Project-Based
+- Robotics
 standard_types:
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS Math:
+  - 6.SP
+  - 7.G
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  - MS-PS3-1
+  - MS-PS3-2
+  - MS-PS3-5
 ---
 # OVERVIEW
 ## Activity Overview:  

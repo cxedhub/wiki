@@ -1,8 +1,6 @@
 ---
 title: 'The Card Catalog: Computer of Yesteryear'
-description: This lesson will show students how computer coding is used to solve the
-  problem of quickly accessing books using the online catalogs present in their school
-  and public libraries.
+description: This lesson will show students how computer coding is used to solve the problem of quickly accessing books using the online catalogs present in their school and public libraries.
 date: '2020-07-30 00:00:00+00:00'
 draft: false
 author: Michelle Ottoes
@@ -24,6 +22,46 @@ cs_principles:
 - Communicating About Computing
 materials: way to project attached PowerPoint
 tags: []
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.5
+  - SL.7
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

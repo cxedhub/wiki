@@ -1,7 +1,6 @@
 ---
 title: They're Listening
-description: This lesson is going to be about discussing internet safety, and how
-  simple home items may be listening.
+description: This lesson is going to be about discussing internet safety, and how simple home items may be listening.
 date: '2023-07-14T14:39:40'
 draft: false
 author: David Fonseca
@@ -19,14 +18,35 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: ELA.11.R.2.1 Evaluate the structure(s) and features in text ELA.11.R.3.4
-  Evaluate an author’s use of rhetoric in text.
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.9-10
 materials: Website
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

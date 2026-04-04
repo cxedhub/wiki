@@ -1,7 +1,6 @@
 ---
 title: Impacts of Computing
-description: Students will begin the year of computer science by talking about how
-  the people in their lives use different types of technology.
+description: Students will begin the year of computer science by talking about how the people in their lives use different types of technology.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Traci Gardner
@@ -15,11 +14,26 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: W2.6, W2.8, SL2.1,
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - SL.2
 materials: Website, commonsense.org
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

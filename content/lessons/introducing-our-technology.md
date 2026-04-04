@@ -1,9 +1,7 @@
 ---
 title: Introducing our Technology
-description: This lesson is designed to be delivered early in the year to establish
-  a common knowledge base on the programs to be used for the year, and to ensure a
-  level of comfort for students in using their Chromebook to access classroom resources
-  to be used throughout the year.
+description: This lesson is designed to be delivered early in the year to establish a common knowledge base on the programs to be used for the year, and to ensure a level of comfort for students in using
+  their Chromebook to access classroom resources to be used throughout the year.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Chase Christensen
@@ -21,6 +19,29 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Chromebook
 tags: []
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-18
+  - 1A-NI-04
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.2
+  CCSS Math:
+  - 2.MD
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

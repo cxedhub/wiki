@@ -1,9 +1,7 @@
 ---
 title: Getting to Know You, CPU
-description: Students will be introduced to Micro:Bit technology and have the opportunity
-  to program the Micro:Bit to share some personal information about themselves. This
-  activity is intended to be a beginning of the year, get to know you activity, and
-  introduction to Micro:Bit programming.
+description: Students will be introduced to Micro:Bit technology and have the opportunity to program the Micro:Bit to share some personal information about themselves. This activity is intended to be a
+  beginning of the year, get to know you activity, and introduction to Micro:Bit programming.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -21,13 +19,34 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
-standards: SL.4.1, SL.4.4
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-7a
+  CCSS ELA:
+  - SL.5
 materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
-- "Web Design"
-- "micro:bit"
+- Web Design
+- micro:bit
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

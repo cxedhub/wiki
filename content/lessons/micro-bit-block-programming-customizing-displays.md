@@ -1,8 +1,7 @@
 ---
 title: Micro bit Block Programming - 'Customizing Displays'
-description: This lesson focuses on the LED array and how to customize graphics plus
-  LED intensity. Students will program in Block based language. Students will utilize
-  small electronics, and learn how a computer is programmed.
+description: This lesson focuses on the LED array and how to customize graphics plus LED intensity. Students will program in Block based language. Students will utilize small electronics, and learn how
+  a computer is programmed.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Rosetter E. Dirden
@@ -18,7 +17,23 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, Micro:bit, www.Makercode.microbit.org
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

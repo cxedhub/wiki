@@ -1,8 +1,7 @@
 ---
 title: Transitioning
-description: The students will work together to create an algorithm to solve the problem
-  of how we transition. Steps will be created and agreed upon by the class as to how
-  we will transition from one activity to another.
+description: The students will work together to create an algorithm to solve the problem of how we transition. Steps will be created and agreed upon by the class as to how we will transition from one activity
+  to another.
 date: '2022-12-02 00:00:00+00:00'
 draft: false
 author: Jody Durst
@@ -15,11 +14,21 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Developing and Using Abstractions
-standards: 2.AP.A.01, 2.AP.M.01
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
 materials: SMART Board
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

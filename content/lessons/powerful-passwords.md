@@ -1,9 +1,7 @@
 ---
 title: Powerful Passwords
-description: This activity teaches students the importance of creating a safe and
-  secure password. In addition, students will also make their own password using a
-  set of guidelines. The passwords they create may be used for accessing their school
-  computers, websites or social media.
+description: This activity teaches students the importance of creating a safe and secure password. In addition, students will also make their own password using a set of guidelines. The passwords they create
+  may be used for accessing their school computers, websites or social media.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Marisol Armstrong
@@ -19,12 +17,26 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
-standards: CCSS.SL.5.1 ; CCSS.L.5.4c
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.5
 materials: Website, Computer
 tags:
-- "Code.org"
+- Code.org
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

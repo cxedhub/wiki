@@ -17,14 +17,35 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
-standards: 2.CS.D.01, K-2-ETS1-1.
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - 2.MD
+  NGSS:
+  - K-ESS2-1
+  - K-ESS3-2
 materials: Micro:bit, Arduino
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

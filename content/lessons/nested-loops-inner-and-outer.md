@@ -1,8 +1,7 @@
 ---
 title: Nested Loops - Inner and Outer
-description: This lesson is for more advanced students wanting to code a Python program
-  that uses nested loops. This is not block coding. They will use their own IDE to
-  write the program. I have attached a photo of a sample program that they can write.
+description: This lesson is for more advanced students wanting to code a Python program that uses nested loops. This is not block coding. They will use their own IDE to write the program. I have attached
+  a photo of a sample program that they can write.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Selena Pope
@@ -15,11 +14,24 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-standards: Wyoming BootUp L1.AP.C.01, L2. AP.C.01, L1.AP.C.02
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
 materials: Raspberry Pi, Python friendly IDE
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

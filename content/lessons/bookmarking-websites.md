@@ -1,9 +1,7 @@
 ---
 title: Bookmarking Websites
-description: Searching for websites can be time-consuming. Imagine having to re-discover
-  the places where we buy our groceries or where we like to play. For the same reason
-  we memorize the routes to our favorite locations, our devices memorize our favorite
-  websites. This is called bookmarking.
+description: Searching for websites can be time-consuming. Imagine having to re-discover the places where we buy our groceries or where we like to play. For the same reason we memorize the routes to our
+  favorite locations, our devices memorize our favorite websites. This is called bookmarking.
 date: '2022-08-15 00:00:00+00:00'
 draft: false
 author: Justin Hansen
@@ -19,6 +17,21 @@ cs_principles:
 - Communicating About Computing
 materials: Chromebook
 tags: []
+standards:
+  CSTA:
+  - 1B-AP-09
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-6c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

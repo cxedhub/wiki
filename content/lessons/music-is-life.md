@@ -1,8 +1,7 @@
 ---
 title: Music is Life
-description: Students will use coding to develop animation and sound for a music simulator.
-  students will demonstrate locating and uploading a sound file to the computer. Students
-  will develop a program to display animation form the computer to simulate an instrument.
+description: Students will use coding to develop animation and sound for a music simulator. students will demonstrate locating and uploading a sound file to the computer. Students will develop a program
+  to display animation form the computer to simulate an instrument.
 date: '2022-08-15 00:00:00+00:00'
 draft: false
 author: Will Barnes
@@ -22,7 +21,43 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Lego Mindstorms
 tags:
-- "Robotics"
+- Robotics
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS Math:
+  - 6.SP
+  National Core Arts:
+  - MU:Cn10
+  - MU:Cn11
+  - MU:Cr1
+  - MU:Cr2
+  - MU:Cr3
+  - MU:Pr4
+  - MU:Pr5
+  - MU:Pr6
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

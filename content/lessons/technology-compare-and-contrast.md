@@ -1,7 +1,6 @@
 ---
 title: Technology Compare and Contrast
-description: Students will independently or collaboratively compare and contrast technology
-  and how it has changed our lives and how technology devices have changed.
+description: Students will independently or collaboratively compare and contrast technology and how it has changed our lives and how technology devices have changed.
 date: '2022-10-24 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -18,8 +17,27 @@ cs_principles:
 - Communicating About Computing
 materials: 'None, Website, Teachers Pay Teachers: Paired Text Passages'
 tags:
-- "Project-Based"
-- "micro:bit"
+- Project-Based
+- micro:bit
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  CCSS ELA:
+  - RI.5
+  - SL.5
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

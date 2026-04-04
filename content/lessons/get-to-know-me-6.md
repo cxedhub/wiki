@@ -1,11 +1,8 @@
 ---
 title: Get to Know Me
-description: 'Students will participate in a community building activity that will
-  integrate Computer Science through the use of the software/Key Note and hardware/iPad.
-  The students will populate an Instagram looking graphic organizer* with a photo
-  of a peer that matches the given criteria such as: Find someone who: walked to school
-  today, is wearing same colored shirt as you, and is the oldest in the family * edited
-  the original which was created by Travis Pearson, Central High School English Teacher'
+description: 'Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram
+  looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family
+  * edited the original which was created by Travis Pearson, Central High School English Teacher'
 date: '2022-09-02 00:00:00+00:00'
 draft: false
 author: Melanie Mullikin
@@ -22,11 +19,33 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: RF1.4, 2.4, 3.4; SL 1.1, 2.1, 3.1; SL 1.3, 2.3; SL 1.6, 2.6, 3.6
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.2
+  - SL.5
 materials: Keynote software
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

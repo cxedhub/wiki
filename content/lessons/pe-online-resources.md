@@ -1,13 +1,9 @@
 ---
 title: PE Online Resources
-description: Students will be using their school-provided technology (whether it be
-  an IPad or a Chromebook) and being walked through how to use a school-safe search
-  engine. Once we have all gotten the devices powered on and the search engine open,
-  we will all be looking for age-appropriate walkthrough videos that will be walking
-  the students through different physical activities of their own choosing. Each student
-  will find a video that they like, present them to me, and when they have all made
-  their choices, I will cast them one at a time, and each student will participate
-  in all videos for the class activity.
+description: Students will be using their school-provided technology (whether it be an IPad or a Chromebook) and being walked through how to use a school-safe search engine. Once we have all gotten the
+  devices powered on and the search engine open, we will all be looking for age-appropriate walkthrough videos that will be walking the students through different physical activities of their own choosing.
+  Each student will find a video that they like, present them to me, and when they have all made their choices, I will cast them one at a time, and each student will participate in all videos for the class
+  activity.
 date: '2022-08-11 00:00:00+00:00'
 draft: false
 author: Cameron Spade
@@ -22,9 +18,23 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: PE2.K2.1.4, PE2.KS.2.4
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-NI-04
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
 materials: Chromebooks/IPads
 tags: []
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

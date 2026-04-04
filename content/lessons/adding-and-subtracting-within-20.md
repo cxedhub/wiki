@@ -1,9 +1,7 @@
 ---
 title: Adding and Subtracting within 20
-description: Using a Scratch Jr. activity, students will program different counter
-  sprites to move into a ten frame. The purpose of this activity is to integrate the
-  math skill of adding and subtracting within 20 with the programing of a control
-  sequence in computer science.
+description: Using a Scratch Jr. activity, students will program different counter sprites to move into a ten frame. The purpose of this activity is to integrate the math skill of adding and subtracting
+  within 20 with the programing of a control sequence in computer science.
 date: '2021-11-30 00:00:00+00:00'
 draft: false
 author: Kristine Gaskill
@@ -17,12 +15,27 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: CCSS. Math.Content.1.OA.A.1
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  CCSS Math:
+  - 2.OA
 materials: Scratch Jr.
 tags:
-- "Scratch"
+- Scratch
 standard_types:
-- "CCSS Math"
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

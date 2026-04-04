@@ -1,7 +1,6 @@
 ---
 title: TALK TO THE HAND – INTEGRITY
-description: The students will be able to create a handbook using the Hand Method
-  of CyberSecurity.
+description: The students will be able to create a handbook using the Hand Method of CyberSecurity.
 date: '2023-07-14T12:11:37'
 draft: false
 author: Shamrie Jones
@@ -14,13 +13,26 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: Future CyberSecurity Specialist will need to have an understanding of the
-  importance of cyber information in society today and the need to secure this information.
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-IC-23
+  - 2-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
 materials: Website, micro:bit
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

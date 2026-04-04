@@ -1,10 +1,7 @@
 ---
 title: Understanding Pseudocode
-description: In this lesson, students explore the methods of writing pseudocode to
-  complex problems. Writing pseudocode is a great way to understand the design of
-  algorithms and how the initial algorithm will be set up. The focus of this language
-  is on human reading rather than machine reading so many students will find this
-  as a great tool to use before actually developing an algorithm through a programming
+description: In this lesson, students explore the methods of writing pseudocode to complex problems. Writing pseudocode is a great way to understand the design of algorithms and how the initial algorithm
+  will be set up. The focus of this language is on human reading rather than machine reading so many students will find this as a great tool to use before actually developing an algorithm through a programming
   language.
 date: '2021-12-10 00:00:00+00:00'
 draft: false
@@ -22,6 +19,25 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags: []
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

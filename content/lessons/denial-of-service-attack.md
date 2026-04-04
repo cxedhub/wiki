@@ -1,7 +1,6 @@
 ---
 title: Denial of Service Attack
-description: Students will model one type of attack (a denial-of-service attack) and
-  figure out how to protect the network against it (no computer programming required)
+description: Students will model one type of attack (a denial-of-service attack) and figure out how to protect the network against it (no computer programming required)
 date: '2023-09-12T21:38:23'
 draft: false
 author: Jumoke Adebimpe
@@ -15,13 +14,28 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Recognizing and Defining Computational Problems
-standards: MS-ETS1-3  MS-ETS1-4
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  NGSS:
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
 materials: None, https://www.sciencebuddies.org/teacher-resources/lesson-plans/cybersecurity-denial-of-service
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 ## OVERVIEW
 

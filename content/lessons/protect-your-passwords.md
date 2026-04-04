@@ -1,10 +1,7 @@
 ---
 title: Protect Your Passwords
-description: This activity teaches students the importance of creating a safe and
-  secure password. In addition, students will also get to learn how hackers or computers
-  can hack passwords. Students will be able to create their own password using a set
-  of guidelines. The passwords they create may be used for accessing their school
-  computers or websites.
+description: This activity teaches students the importance of creating a safe and secure password. In addition, students will also get to learn how hackers or computers can hack passwords. Students will
+  be able to create their own password using a set of guidelines. The passwords they create may be used for accessing their school computers or websites.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Kryssi Soule
@@ -22,14 +19,36 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-standards: SL.5.1 - Participate in collaborative conversations with diverse partners
-  about grade 5 topics and texts with peers and adults in small and larger groups.
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS ELA:
+  - L.5
+  - SL.5
+  NCSS C3:
+  - D2.Eco.1.3-5
+  - D2.Eco.2.3-5
+  - D2.Eco.4.3-5
 materials: Website, https://www.digitalpassport.org/password-protect.html;  https://curriculum.code.org/csf-19/coursec/2/#powerful-passwords2
 tags:
-- "Code.org"
-- "Web Design"
+- Code.org
+- Web Design
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

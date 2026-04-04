@@ -17,16 +17,36 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: No standard, as this is tied to club work, but it is an extension of AP
-  Historical style questioning skills (Causation, Comparison, Similarities/Differences,
-  Cause/Effect)
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  NCSS C3:
+  - D2.His.2.9-12
 materials: Website, micro:bit, Raspberry Pi, Sphero
 tags:
-- "Cybersecurity"
-- "Data Collection"
-- "GenCyber"
-- "Robotics"
-- "micro:bit"
+- Cybersecurity
+- Data Collection
+- GenCyber
+- Robotics
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

@@ -1,8 +1,6 @@
 ---
 title: The HANDbook
-description: Implementing effective cybersecurity measures is particularly challenging
-  today because there are more devices than people, and attackers are becoming more
-  innovative.
+description: Implementing effective cybersecurity measures is particularly challenging today because there are more devices than people, and attackers are becoming more innovative.
 date: '2023-07-14T12:24:59'
 draft: false
 author: Everett Fleming
@@ -17,11 +15,30 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: N/A
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - HSS-ID
 materials: Website, MS Word
 tags:
-- "Cybersecurity"
-- "GenCyber"
+- Cybersecurity
+- GenCyber
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

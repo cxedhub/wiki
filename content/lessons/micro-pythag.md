@@ -1,8 +1,6 @@
 ---
 title: Micro-Pythag
-description: This lesson will walk students through the process of writing a micro-bit
-  program to solve basic math problems. It will culminate with students writing a
-  program to solve the pythagorean theorem.
+description: This lesson will walk students through the process of writing a micro-bit program to solve basic math problems. It will culminate with students writing a program to solve the pythagorean theorem.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: John Soto
@@ -22,7 +20,27 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  CCSS Math:
+  - 7.EE
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

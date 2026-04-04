@@ -1,7 +1,6 @@
 ---
 title: Magic 8 ball
-description: Make your own magic 8 ball! Students will code a micro:bit in makecode.org
-  to tell other's 'fortunes'.
+description: Make your own magic 8 ball! Students will code a micro:bit in makecode.org to tell other's 'fortunes'.
 date: '2022-11-01 00:00:00+00:00'
 draft: false
 author: Casey Harmon
@@ -17,8 +16,26 @@ cs_principles:
 - Collaborating Around Computing
 materials: Micro:bit
 tags:
-- "Code.org"
-- "micro:bit"
+- Code.org
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

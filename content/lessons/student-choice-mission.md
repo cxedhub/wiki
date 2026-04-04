@@ -1,9 +1,7 @@
 ---
 title: Student Choice Mission
-description: In this final project for the course, students team to Independently,
-  scope the features of a piece of software,or Prototype a physical computing device,
-  or Implement a plan for tackling a piece of software that integrates hardware inputs
-  and outputs, or explain the inner workings of a physical computer.
+description: In this final project for the course, students team to Independently, scope the features of a piece of software,or Prototype a physical computing device, or Implement a plan for tackling a
+  piece of software that integrates hardware inputs and outputs, or explain the inner workings of a physical computer.
 date: '2020-07-29 00:00:00+00:00'
 draft: false
 author: James Cunningham
@@ -20,9 +18,32 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-standards: Na
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  NGSS:
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
+  - HS-ETS1-4
 materials: Website, Arduino, Raspberry Pi, Old computer, Lego Mind Storm
 tags: []
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

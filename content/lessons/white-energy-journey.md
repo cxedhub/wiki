@@ -1,10 +1,7 @@
 ---
 title: “White Energy Journey”
-description: Students will work independently to design a ‘driving base’ using the
-  SPIKE PRIME LEGO sets. Upon completion of the base students will develop the code
-  to drive the base around the LEGO SuperPowered map. Students will have to problem
-  solve to find errors in code and re-program their driving bases to allow their model
-  to follow the most accurate and direct path around the map.
+description: Students will work independently to design a ‘driving base’ using the SPIKE PRIME LEGO sets. Upon completion of the base students will develop the code to drive the base around the LEGO SuperPowered
+  map. Students will have to problem solve to find errors in code and re-program their driving bases to allow their model to follow the most accurate and direct path around the map.
 date: '2023-02-08 00:00:00+00:00'
 draft: false
 author: Alicia Vonberg
@@ -25,11 +22,41 @@ cs_principles:
 - Communicating About Computing
 materials: Website, LEGO League Robotics Kit
 tags:
-- "Data Collection"
-- "Project-Based"
-- "Robotics"
+- Data Collection
+- Project-Based
+- Robotics
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  - MS-PS3-1
+  - MS-PS3-2
+  - MS-PS3-5
 ---
 # OVERVIEW
 ## Activity Overview:  

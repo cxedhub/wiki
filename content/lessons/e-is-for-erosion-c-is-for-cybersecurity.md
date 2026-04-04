@@ -1,13 +1,8 @@
 ---
 title: E is for Erosion, C is for Cybersecurity
-description: Students will learn the effects of wind and water erosion. They will
-  create their own landscape to show how water erosion works. After the background
-  knowledge has been built, students will be introduced to different ways to keep
-  themselves safe on from cyber threats. To connect the two components, we are saying
-  that the town of Rawlins has had a cybersecurity breech and they have released all
-  of the water supply in Rawlins. Students will create a slideshow and come up with
-  a plan to avoid cybersecurity breeches in the future and then determine the impact
-  of the breech on the community.
+description: Students will learn the effects of wind and water erosion. They will create their own landscape to show how water erosion works. After the background knowledge has been built, students will
+  be introduced to different ways to keep themselves safe on from cyber threats. To connect the two components, we are saying that the town of Rawlins has had a cybersecurity breech and they have released
+  all of the water supply in Rawlins. Students will create a slideshow and come up with a plan to avoid cybersecurity breeches in the future and then determine the impact of the breech on the community.
 date: '2022-11-09 00:00:00+00:00'
 draft: false
 author: Katie Cline
@@ -24,10 +19,31 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: None
 tags:
-- "Cybersecurity"
-- "Project-Based"
+- Cybersecurity
+- Project-Based
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7b
+  - ISTE-7c
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-LS4-1
+  - 4-ESS1-1
+  - 4-ESS2-1
+  - 5-ESS2-2
 ---
 # OVERVIEW
 ## Activity Overview:  

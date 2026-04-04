@@ -1,7 +1,6 @@
 ---
 title: I Can Create a Thermometer
-description: Students will be able to experiment with micro-bits. Then students will
-  be able to create the code for taking a temperature. Students can test their micro-bit.
+description: Students will be able to experiment with micro-bits. Then students will be able to create the code for taking a temperature. Students can test their micro-bit.
 date: '2021-11-21 00:00:00+00:00'
 draft: false
 author: Sarah McKenzie
@@ -16,14 +15,31 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
-standards: W.1.8 With guidance and support from adults, recall information from experiences
-  or gather information from provided sources to answer a question.
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  - ISTE-7c
+  NGSS:
+  - K-ESS2-1
+  - K-ESS3-2
 materials: Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
 standard_types:
-- "CCSS ELA"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

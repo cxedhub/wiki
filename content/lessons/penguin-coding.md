@@ -1,7 +1,6 @@
 ---
 title: Penguin Coding
-description: Write out the code using arrows to help the penguin get the fish and
-  go to the igloo.
+description: Write out the code using arrows to help the penguin get the fish and go to the igloo.
 date: '2022-07-19 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders
@@ -13,11 +12,22 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-standards: K-2.AP.14 K-2.AP.17
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
 materials: None
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

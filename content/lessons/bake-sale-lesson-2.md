@@ -1,8 +1,7 @@
 ---
 title: Bake Sale Lesson 2
-description: Students will analyze their data from the survey they conducted, find
-  ways to represent the data, make suggestions about how to use the results and present
-  the information to the class. They will create tables, graphs and a presentation.
+description: Students will analyze their data from the survey they conducted, find ways to represent the data, make suggestions about how to use the results and present the information to the class. They
+  will create tables, graphs and a presentation.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Nate Reinhardt
@@ -17,7 +16,20 @@ cs_principles:
 - Collaborating Around Computing
 materials: computer and wifi
 tags:
-- "Data Collection"
+- Data Collection
+standards:
+  CSTA:
+  - 3A-AP-21
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

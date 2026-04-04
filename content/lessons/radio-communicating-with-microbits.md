@@ -1,10 +1,7 @@
 ---
 title: Radio Communicating with Microbits
-description: In this project, you and a partner will code a program that is capable
-  of sending a coded message to each other. Each of you will have a microbit and will
-  need to code the ‘a’ and ‘b’ buttons to send two different messages, that when combined
-  with a key can be decrypted. You can use binary, morse code, or create a coded message
-  system of your own!
+description: In this project, you and a partner will code a program that is capable of sending a coded message to each other. Each of you will have a microbit and will need to code the ‘a’ and ‘b’ buttons
+  to send two different messages, that when combined with a key can be decrypted. You can use binary, morse code, or create a coded message system of your own!
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Taylor Plantt
@@ -25,8 +22,39 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Micro:bit
 tags:
-- "Cybersecurity"
-- "micro:bit"
+- Cybersecurity
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-6b
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  NCSS C3:
+  - D2.His.2.6-8
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

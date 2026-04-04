@@ -1,9 +1,7 @@
 ---
 title: Introduction to the microbit
-description: This lesson will teach 5th & 6th grade elementary students how to program
-  and use a microbit. Learners will be able to use basic program commands to make
-  the microbit display names, banners, and numbers. Learners will also be able to
-  program simple programs, then download it to the microbit.
+description: This lesson will teach 5th & 6th grade elementary students how to program and use a microbit. Learners will be able to use basic program commands to make the microbit display names, banners,
+  and numbers. Learners will also be able to program simple programs, then download it to the microbit.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Charles Morton
@@ -20,9 +18,32 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

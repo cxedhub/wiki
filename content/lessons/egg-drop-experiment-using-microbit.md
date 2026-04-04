@@ -1,10 +1,7 @@
 ---
 title: Egg Drop Experiment using Microbit
-description: Students will investigate and design an experiment that explores Newton’s
-  2nd Law, momentum and impulse using a microprocessor. They will study the phenomenon
-  of gravity , -9.8 m/s2. They will be able to calculate the force of the egg on impact
-  and create an apparatus that increases the impulse so that the egg and Microbit
-  do not break on impact.
+description: Students will investigate and design an experiment that explores Newton’s 2nd Law, momentum and impulse using a microprocessor. They will study the phenomenon of gravity , -9.8 m/s2. They will
+  be able to calculate the force of the egg on impact and create an apparatus that increases the impulse so that the egg and Microbit do not break on impact.
 date: '2022-05-01 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -22,10 +19,33 @@ cs_principles:
 - Collaborating Around Computing
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "CCSS Math"
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS Math:
+  - HSS-ID
+  NGSS:
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
+  - HS-ETS1-4
+  - HS-PS2-1
+  - HS-PS2-2
+  - HS-PS2-4
+  - HS-PS3-1
 ---
 # OVERVIEW
 ## Activity Overview:  

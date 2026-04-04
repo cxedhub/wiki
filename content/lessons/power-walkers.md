@@ -1,7 +1,6 @@
 ---
 title: Power walkers
-description: 'Students will program a mirco: bit to count steps while walking and
-  then while power walking. They will compare the two readings.'
+description: 'Students will program a mirco: bit to count steps while walking and then while power walking. They will compare the two readings.'
 date: '2023-03-13 00:00:00+00:00'
 draft: false
 author: Casey Harmon
@@ -18,8 +17,26 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Micro:bit
 tags:
-- "Data Collection"
-- "micro:bit"
+- Data Collection
+- micro:bit
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7a
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

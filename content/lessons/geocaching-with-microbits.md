@@ -1,10 +1,7 @@
 ---
 title: Geocaching with Microbits
-description: Geodynamics powers the Earth’s magnetic field, which is magnetic north.
-  There is also a true north which is the Earth’s geographic north. Can students accurately
-  determine Earth’s magnetic north using a micro-processor to have a successful geocaching
-  experience? Students will investigate and design an experiment that explores the
-  natural world using microprocessors.
+description: Geodynamics powers the Earth’s magnetic field, which is magnetic north. There is also a true north which is the Earth’s geographic north. Can students accurately determine Earth’s magnetic
+  north using a micro-processor to have a successful geocaching experience? Students will investigate and design an experiment that explores the natural world using microprocessors.
 date: '2021-07-29 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -20,12 +17,35 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-standards: MS-ESS2-1,MS-ETS1-4 and standards and appendix CS Practice 4.3
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - SL.7
+  NGSS:
+  - MS-ESS1-4
+  - MS-ESS2-1
+  - MS-ESS2-2
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  - MS-PS2-3
 materials: Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "NGSS"
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

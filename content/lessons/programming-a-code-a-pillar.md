@@ -1,8 +1,6 @@
 ---
 title: Programming a Code-a-Pillar
-description: This lesson introduces the beginning concepts of coding. Students will
-  learn with a programmable caterpillar or code-a-pillar that will be coded to reach
-  an end point.
+description: This lesson introduces the beginning concepts of coding. Students will learn with a programmable caterpillar or code-a-pillar that will be coded to reach an end point.
 date: '2021-02-17 00:00:00+00:00'
 draft: false
 author: Kayla Horn
@@ -18,7 +16,20 @@ cs_principles:
 materials: Think and Learn Code-a-Pillar
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-7b
+  - ISTE-7c
 ---
 # OVERVIEW
 ## Activity Overview:  

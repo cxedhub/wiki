@@ -1,10 +1,7 @@
 ---
 title: Thanksgiving Day Parade
-description: This lesson is a great one to do right before Thanksgiving. Students
-  will read or listen to the book Balloons Over Broadway by Melissa Sweet. After completing
-  the book students are challenged to create a balloon for the Macy's Thanksgiving
-  Day Parade. Students will attach their balloon to a Sphero robot that they will
-  code to follow a parade route.
+description: This lesson is a great one to do right before Thanksgiving. Students will read or listen to the book Balloons Over Broadway by Melissa Sweet. After completing the book students are challenged
+  to create a balloon for the Macy's Thanksgiving Day Parade. Students will attach their balloon to a Sphero robot that they will code to follow a parade route.
 date: '2022-11-11 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton
@@ -25,8 +22,34 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Sphero
 tags:
-- "Project-Based"
-- "Robotics"
+- Project-Based
+- Robotics
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5c
+  - ISTE-5d
+  CCSS ELA:
+  - SL.5
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

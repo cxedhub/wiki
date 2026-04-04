@@ -1,7 +1,6 @@
 ---
 title: Intro. to Chromebooks
-description: Students will be able to identify the parts/features of a chromebook,
-  and sign technology agreement.
+description: Students will be able to identify the parts/features of a chromebook, and sign technology agreement.
 date: '2022-11-29 00:00:00+00:00'
 draft: false
 author: Alicia Auzqui
@@ -14,11 +13,21 @@ cs_domains:
 - Computing Systems
 cs_principles:
 - Communicating About Computing
-standards: 2.CS.HS.01
+standards:
+  CSTA:
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
 materials: Chromebook
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

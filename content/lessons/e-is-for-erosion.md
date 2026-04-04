@@ -1,11 +1,8 @@
 ---
 title: E' is for Erosion
-description: Students will learn the effects of wind and water erosion. They will
-  create their own landscape to show how water erosion works. After the background
-  knowledge has been built, the town of Rawlins has had a cybersecurity breech and
-  they have released all of the water supply in Rawlins. Students will have to come
-  up with a plan to avoid the cybersecurity breech in the future and then determine
-  the impact of the breech on the community.
+description: Students will learn the effects of wind and water erosion. They will create their own landscape to show how water erosion works. After the background knowledge has been built, the town of Rawlins
+  has had a cybersecurity breech and they have released all of the water supply in Rawlins. Students will have to come up with a plan to avoid the cybersecurity breech in the future and then determine the
+  impact of the breech on the community.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Katie Cline
@@ -20,13 +17,32 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Fostering an Inclusive Computing Culture
-standards: '*5.NI.C.01 Discuss real-world cybersecurity problems and identify and
-  implement appropriate strategies for how personal information can be protected.'
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 3-LS4-1
+  - 4-ESS1-1
+  - 4-ESS2-1
+  - 5-ESS2-2
 materials: Website
 tags:
-- "Cybersecurity"
+- Cybersecurity
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

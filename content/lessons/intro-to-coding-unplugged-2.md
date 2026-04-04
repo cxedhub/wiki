@@ -1,7 +1,6 @@
 ---
 title: 'Intro to Coding: Unplugged'
-description: 'Understanding Coding: How students use an algorithm in an unplugged
-  lesson. Students maneuver an object from start to end, using direction cards.'
+description: 'Understanding Coding: How students use an algorithm in an unplugged lesson. Students maneuver an object from start to end, using direction cards.'
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Minda Blevins
@@ -13,13 +12,23 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-standards: K.AP.A.01 With guidance, model daily processes and follow algorithms (sets
-  of step-by-step instructions) to complete tasks (e.g., verbally, kinesthetically,
-  with robot devices, or a programing language).
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
 materials: None
 tags:
-- "Robotics"
-- "Unplugged"
+- Robotics
+- Unplugged
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

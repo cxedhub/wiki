@@ -1,9 +1,7 @@
 ---
 title: Self Driving Moral Dilemma and Machine Learning - 1
-description: This lesson asks students to create their own moral dilemma scenario
-  and create possible outcomes for their scenario. Students must describe why someone
-  would choose both outcomes and what outcome they believe to be the correct choice
-  and why.
+description: This lesson asks students to create their own moral dilemma scenario and create possible outcomes for their scenario. Students must describe why someone would choose both outcomes and what
+  outcome they believe to be the correct choice and why.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Garrid Halsey
@@ -22,7 +20,29 @@ cs_principles:
 materials: Website, https://www.moralmachine.net/
 tags: []
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  NCSS C3:
+  - D2.His.2.6-8
 ---
 # OVERVIEW
 ## Activity Overview:  

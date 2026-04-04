@@ -1,10 +1,7 @@
 ---
 title: Half Life Radioactive Decay with Micro:bits
-description: Introduce basic programming of the micro:bit while reiterating the integration
-  of math in physical science exploring half life radioactive decay. Will calculate
-  starting mass, ending mass or half life but the limitations on half life include
-  1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for
-  an unknown exponent is not possible.
+description: Introduce basic programming of the micro:bit while reiterating the integration of math in physical science exploring half life radioactive decay. Will calculate starting mass, ending mass or
+  half life but the limitations on half life include 1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for an unknown exponent is not possible.
 date: '2021-07-03 00:00:00+00:00'
 draft: false
 author: Clint Chandler
@@ -20,14 +17,33 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
-standards: SCI.GPS.2.3 Students will use models to compare nuclear processes and the
-  energy they release. (i.e. radioactivity, nuclear fusion, and nuclear fission).
-  HS-PS3-4
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
+  CCSS Math:
+  - HSS-ID
+  NGSS:
+  - HS-PS1-8
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "NGSS"
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

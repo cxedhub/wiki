@@ -1,8 +1,7 @@
 ---
 title: Algorithms and Programming, Impacts of Computing
-description: Explaining what algorithms are and how computers use them. Students will
-  try to follow a set of step by step instructions to see what they come out with.
-  They will use origami instructions for this.
+description: Explaining what algorithms are and how computers use them. Students will try to follow a set of step by step instructions to see what they come out with. They will use origami instructions
+  for this.
 date: '2020-10-14 00:00:00+00:00'
 draft: false
 author: Brooke George
@@ -20,9 +19,23 @@ cs_principles:
 materials: None
 tags: []
 standard_types:
-- "CCSS ELA"
-- "ISTE"
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
 ---
 # OVERVIEW
 ## Activity Overview:  

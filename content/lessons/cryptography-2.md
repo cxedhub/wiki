@@ -1,7 +1,6 @@
 ---
 title: Cryptography
-description: In this activity students are introduced to The Caesar Cipher and create
-  a cipher wheel and practice using the cipher.
+description: In this activity students are introduced to The Caesar Cipher and create a cipher wheel and practice using the cipher.
 date: '2023-03-19 00:00:00+00:00'
 draft: false
 author: Kristy Barr
@@ -15,12 +14,26 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
-standards: 8.AP.A.01
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-5a
+  - ISTE-5c
 materials: None
 tags:
-- "Cybersecurity"
+- Cybersecurity
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,8 +1,7 @@
 ---
 title: Modeling Plate Motions using Microbit Technology
-description: This lesson is going to be a supplemental lesson to our OpenSciEd Plate
-  Tectonics unit that we are implementing this year. In this lesson students will
-  be learning how to use microbit technology to code the different plate motions.
+description: This lesson is going to be a supplemental lesson to our OpenSciEd Plate Tectonics unit that we are implementing this year. In this lesson students will be learning how to use microbit technology
+  to code the different plate motions.
 date: '2021-07-31 00:00:00+00:00'
 draft: false
 author: Morgan Krysl
@@ -23,10 +22,36 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit
 tags:
-- "micro:bit"
+- micro:bit
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-ESS1-4
+  - MS-ESS2-1
+  - MS-ESS2-2
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,9 +1,7 @@
 ---
 title: Learning the Importance of Authentication Factors
-description: Students will learn what authentication factors are, and the importance
-  of keeping them private. They will apply the use of authentication factors to log
-  into a variety of programs and applications in preparation for work throughout the
-  school year.
+description: Students will learn what authentication factors are, and the importance of keeping them private. They will apply the use of authentication factors to log into a variety of programs and applications
+  in preparation for work throughout the school year.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kathleen Cherry
@@ -17,6 +15,19 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 materials: Locked Mystery Box, IPads, Login Sheets
 tags: []
+standards:
+  CSTA:
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-IC-18
+  - 1A-NI-04
+  ISTE:
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,8 +1,7 @@
 ---
 title: Digital and Analog Activity Project
-description: This is a project for students to experience the differences between
-  analog and digital waves. Students will be comparing and contrasting the particulars
-  of these waves, as well as coding a radio game to use digital waves.
+description: This is a project for students to experience the differences between analog and digital waves. Students will be comparing and contrasting the particulars of these waves, as well as coding a
+  radio game to use digital waves.
 date: '2022-12-13 00:00:00+00:00'
 draft: false
 author: Sara Percy
@@ -17,10 +16,34 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-standards: Utah Science 8 Standard 8.2.6
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-PS4-1
+  - MS-PS4-2
+  - MS-PS4-3
 materials: Website, Micro:bit, slinky, pictures of digital and analog devices
 tags:
-- "micro:bit"
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

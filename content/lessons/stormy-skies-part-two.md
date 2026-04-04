@@ -1,10 +1,7 @@
 ---
 title: Stormy Skies (Part Two)
-description: 'This lesson continues with the next section of Mystery Science: Grade
-  3 Water Cycle & Phases of Matter: Local Weather Patterns & Weather Predication.
-  Following Stormy Skies, Part One, this listen will go into more details about clouds.
-  Students will learn about different types of clouds, wind direction, and how to
-  prepare for a change in weather by looking at patterns.'
+description: 'This lesson continues with the next section of Mystery Science: Grade 3 Water Cycle & Phases of Matter: Local Weather Patterns & Weather Predication. Following Stormy Skies, Part One, this
+  listen will go into more details about clouds. Students will learn about different types of clouds, wind direction, and how to prepare for a change in weather by looking at patterns.'
 date: '2022-08-15 00:00:00+00:00'
 draft: false
 author: Melissa Skinner
@@ -21,11 +18,35 @@ cs_principles:
 - Collaborating Around Computing
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "CCSS ELA"
-- "CCSS Math"
-- "NGSS"
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 1B-AP-15
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-1d
+  - ISTE-7b
+  - ISTE-7c
+  CCSS ELA:
+  - L.5
+  - RL.5
+  - SL.5
+  CCSS Math:
+  - 5.MD
+  NGSS:
+  - 3-ESS2-1
+  - 3-ESS2-2
+  - 3-ESS3-1
+  - 5-ESS2-2
+  - 5-PS1-1
+  - 5-PS1-3
 ---
 # OVERVIEW
 ## Activity Overview:  

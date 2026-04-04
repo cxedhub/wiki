@@ -1,7 +1,6 @@
 ---
 title: GIS Watershed Information
-description: Students use GIS online software to analyze local watersheds and draw
-  conclusions about earth changes over time and connect local areas to a larger region.
+description: Students use GIS online software to analyze local watersheds and draw conclusions about earth changes over time and connect local areas to a larger region.
 date: '2021-11-12 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
@@ -18,12 +17,33 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-standards: MS-ESS2-2
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  NGSS:
+  - MS-ESS1-4
+  - MS-ESS2-1
+  - MS-ESS2-2
+  - MS-ESS2-4
 materials: Website
 tags:
-- "Data Collection"
+- Data Collection
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

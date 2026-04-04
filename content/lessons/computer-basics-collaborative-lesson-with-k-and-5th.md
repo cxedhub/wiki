@@ -1,13 +1,8 @@
 ---
 title: Computer Basics (Collaborative lesson with K and 5th)
-description: Kindergarten students will be working with 5th grade students to learn
-  about the proper care and use of their computers. They will learn how to turn on
-  their Chrome books and login using their badge. They will then be able to get into
-  the internet and find clever in the bookmarks. Once in clever they will be able
-  to navigate the apps provided. They will know how to login in to the app if necessary
-  and how to find their avatar. Each task will be assessed by a 5th grader to ensure
-  that the Kindergartener has successfully mastered the task and can repeat the task
-  independently
+description: Kindergarten students will be working with 5th grade students to learn about the proper care and use of their computers. They will learn how to turn on their Chrome books and login using their
+  badge. They will then be able to get into the internet and find clever in the bookmarks. Once in clever they will be able to navigate the apps provided. They will know how to login in to the app if necessary
+  and how to find their avatar. Each task will be assessed by a 5th grader to ensure that the Kindergartener has successfully mastered the task and can repeat the task independently
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Sadie Graff
@@ -25,11 +20,37 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-standards: SL.K.1, SL.K.2, SL.K.3, SL.K.6
+standards:
+  CSTA:
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-10
+  - 1B-AP-15
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-NI-04
+  - 1B-NI-05
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  CCSS ELA:
+  - SL.2
+  - SL.5
 materials: Website, Personal Computers, Login Badge, computer cleaning supplies
 tags: []
 standard_types:
-- "CCSS ELA"
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

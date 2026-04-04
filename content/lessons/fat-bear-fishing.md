@@ -1,10 +1,7 @@
 ---
 title: Fat Bear Fishing
-description: My 5/6 grade class will use micro:bits to design a predator/prey program
-  on micro:bits that assigns each device a fish or bear identity. They will program
-  the devices to signal when the opposite animal gets closer. These micro:bits will
-  be used by 1/2 grade class who is studying bears preparing for hibernation. They
-  will play this game as an introduction to their project of viewing live cameras
+description: My 5/6 grade class will use micro:bits to design a predator/prey program on micro:bits that assigns each device a fish or bear identity. They will program the devices to signal when the opposite
+  animal gets closer. These micro:bits will be used by 1/2 grade class who is studying bears preparing for hibernation. They will play this game as an introduction to their project of viewing live cameras
   of bears fishing and collecting data to share on a Jamboard.
 date: '2021-07-27 00:00:00+00:00'
 draft: false
@@ -26,12 +23,45 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, Micro:bit
 tags:
-- "Data Collection"
-- "Game-Based"
-- "micro:bit"
+- Data Collection
+- Game-Based
+- micro:bit
 standard_types:
-- "NGSS"
-- "Wyoming CS"
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
+  NGSS:
+  - 1-LS1-1
+  - K-2-ETS1-1
+  - K-2-ETS1-2
+  - K-2-ETS1-3
+  - K-LS1-1
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
 ---
 # OVERVIEW
 ## Activity Overview:  

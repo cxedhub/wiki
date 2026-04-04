@@ -1,7 +1,6 @@
 ---
 title: Cybersecurity - Integrity
-description: Introduction to the concept of integrity  with a video, unplugged activity,
-  and discussion
+description: Introduction to the concept of integrity  with a video, unplugged activity, and discussion
 date: '2023-07-13T23:07:24'
 draft: false
 author: Jeff Kitterman
@@ -13,12 +12,24 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-standards: N/A
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-6c
+  - ISTE-6d
 materials: Website, https://youtu.be/FHEqIC4peTI
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "Unplugged"
+- Cybersecurity
+- GenCyber
+- Unplugged
+standard_types:
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 

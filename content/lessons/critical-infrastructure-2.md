@@ -1,7 +1,6 @@
 ---
 title: Critical Infrastructure 2
-description: Students will be able to demonstrate foundational knowledge and skills
-  that are related to cybersecurity
+description: Students will be able to demonstrate foundational knowledge and skills that are related to cybersecurity
 date: '2023-07-14T11:52:00'
 draft: false
 author: Timothy Grier
@@ -25,12 +24,44 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-standards: FL EPRS
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+  NGSS:
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
+  - HS-ETS1-4
+  NCSS C3:
+  - D2.His.2.9-12
 materials: micro:bit
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
 ---
 ## OVERVIEW
 

@@ -1,8 +1,6 @@
 ---
 title: Security Risks & Consequences
-description: This lesson can be done either in person OR virtually. Students will
-  work individually and in groups to determine how they have been “hacked” and one
-  item “stolen” from them...
+description: This lesson can be done either in person OR virtually. Students will work individually and in groups to determine how they have been “hacked” and one item “stolen” from them...
 date: '2025-01-06 21:25:15.206000+00:00'
 draft: false
 author: Alicia Vonberg
@@ -22,9 +20,35 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags:
-- "Cybersecurity"
+- Cybersecurity
 standard_types:
-- "NGSS"
+- CSTA
+- ISTE
+- NGSS
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 2-IC-23
+  - 2-NI-04
+  - 2-NI-05
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-ETS1-4
+  - MS-PS4-1
+  - MS-PS4-2
+  - MS-PS4-3
 ---
 # OVERVIEW
 ## Activity Overview:  

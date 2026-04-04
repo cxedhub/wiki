@@ -1,11 +1,8 @@
 ---
 title: Collaborative Grid Poster
-description: The instructor will ask the students to decode a message from binary.
-  The instructor will then explain to students the connection between binary and computer
-  memory and strings of bits. After this, the instructor will take the students through
-  the process of creating an individual drawing that will be pieced together to make
-  a large poster image. This relates to a binary code, in that each small piece is
-  like a code and together strings to make a final piece or image.
+description: The instructor will ask the students to decode a message from binary. The instructor will then explain to students the connection between binary and computer memory and strings of bits. After
+  this, the instructor will take the students through the process of creating an individual drawing that will be pieced together to make a large poster image. This relates to a binary code, in that each
+  small piece is like a code and together strings to make a final piece or image.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Mackenzie Wiginton
@@ -23,7 +20,34 @@ cs_principles:
 - Creating Computational Artifacts
 materials: None
 tags:
-- "Data Collection"
+- Data Collection
+standards:
+  CSTA:
+  - 3A-AP-15
+  - 3A-AP-21
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-6b
+  - ISTE-7b
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

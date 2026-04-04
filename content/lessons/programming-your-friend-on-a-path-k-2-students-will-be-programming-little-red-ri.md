@@ -1,10 +1,8 @@
 ---
-title: Programming your friend on a path K-2 students will be programming Little Red
-  Riding Hood to Grandmas House  3-5th grade students will be programming their friend
-  to deliver their latest I-phone or game from manufacturing to delivery
-description: Students will use arrows on a piece of graph paper to give directions
-  to their classmates. They will guide their friends around the room without bumping
-  into desks etc, from a certain point to an end point.
+title: Programming your friend on a path K-2 students will be programming Little Red Riding Hood to Grandmas House  3-5th grade students will be programming their friend to deliver their latest I-phone
+  or game from manufacturing to delivery
+description: Students will use arrows on a piece of graph paper to give directions to their classmates. They will guide their friends around the room without bumping into desks etc, from a certain point
+  to an end point.
 date: '2023-03-28 00:00:00+00:00'
 draft: false
 author: Michelle Black
@@ -25,7 +23,26 @@ cs_principles:
 - Communicating About Computing
 materials: None
 tags:
-- "Robotics"
+- Robotics
+standards:
+  CSTA:
+  - 1A-AP-08
+  - 1A-AP-09
+  - 1A-AP-10
+  - 1A-AP-14
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

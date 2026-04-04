@@ -1,9 +1,7 @@
 ---
 title: Computational Thinking
-description: Through this lesson, students will be introduced to the basics of computational
-  thinking including decomposition, abstraction, algorithms, testing and debugging,
-  and pattern recognition. This lesson can be done as one large lesson or in four
-  mini-lessons.
+description: Through this lesson, students will be introduced to the basics of computational thinking including decomposition, abstraction, algorithms, testing and debugging, and pattern recognition. This
+  lesson can be done as one large lesson or in four mini-lessons.
 date: '2021-11-19 00:00:00+00:00'
 draft: false
 author: Julia Tyser
@@ -24,10 +22,29 @@ cs_principles:
 - Communicating About Computing
 materials: Website, scratch.mit.edu
 tags:
-- "Scratch"
-- "Unplugged"
+- Scratch
+- Unplugged
 standard_types:
-- "Wyoming CS"
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 1B-AP-15
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5a
 ---
 # OVERVIEW
 ## Activity Overview:  

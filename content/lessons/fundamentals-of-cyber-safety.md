@@ -1,8 +1,7 @@
 ---
 title: Fundamentals of Cyber Safety
-description: Students will listen to a short presentation about three of the six cybersecurity
-  hand concepts. Students will then be introduced to the micro:bit through video and
-  live demonstrations. and then we will move to the make code website.
+description: Students will listen to a short presentation about three of the six cybersecurity hand concepts. Students will then be introduced to the micro:bit through video and live demonstrations. and
+  then we will move to the make code website.
 date: '2023-07-13T21:23:13'
 draft: false
 author: Genel Jasmin
@@ -14,12 +13,24 @@ grade_levels:
 - 6-8
 cs_domains: []
 cs_principles: []
-standards: SS.8.FL.6.7
+standards:
+  CSTA:
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
+  ISTE:
+  - ISTE-1d
+  CCSS ELA:
+  - SL.7
 materials: micro:bit
 tags:
-- "Cybersecurity"
-- "GenCyber"
-- "micro:bit"
+- Cybersecurity
+- GenCyber
+- micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 ## OVERVIEW
 
