@@ -1,0 +1,160 @@
+{{/*
+  partials/json-ld.html
+  Schema.org structured data for search engines.
+*/}}
+
+{{- $baseURL := site.BaseURL -}}
+
+{{/* ── WebSite schema (all pages) ── */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.Title }},
+  "url": {{ $baseURL }},
+  "description": {{ site.Params.description }},
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "CX Ed Hub — University of Central Florida",
+    "url": {{ $baseURL }}
+  }
+}
+</script>
+
+{{/* ── BreadcrumbList (non-home pages) ── */}}
+{{- if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ $baseURL }}
+    }{{ if .Parent }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Parent.Title }},
+      "item": {{ .Parent.Permalink }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title }},
+      "item": {{ .Permalink }}
+    }{{ else }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Title }},
+      "item": {{ .Permalink }}
+    }{{ end }}
+  ]
+}
+</script>
+{{- end }}
+
+{{/* ── LearningResource (individual lesson pages) ── */}}
+{{- if and .IsPage (eq .Section "lessons") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "name": {{ .Title }},
+  "description": {{ .Description }},
+  "url": {{ .Permalink }},
+  "datePublished": {{ .Date.Format "2006-01-02" }},
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  {{- with .Params.author }}
+  "author": {
+    "@type": "Person",
+    "name": {{ . }}
+  },
+  {{- end }}
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "CX Ed Hub — University of Central Florida"
+  },
+  {{- with $.Params.grade_levels }}
+  "educationalLevel": [{{ range $i, $v := . }}{{ if $i }}, {{ end }}{{ $v }}{{ end }}],
+  {{- end }}
+  {{- with $.Params.subjects }}
+  "about": [{{ range $i, $v := . }}{{ if $i }}, {{ end }}{{ $v }}{{ end }}],
+  {{- end }}
+  {{- with $.Params.cs_domains }}
+  "teaches": [{{ range $i, $v := . }}{{ if $i }}, {{ end }}{{ $v }}{{ end }}],
+  {{- end }}
+  {{- with $.Params.standards }}
+  "educationalAlignment": [
+    {{- $first := true -}}
+    {{- $frameworkMap := dict "csta" "CSTA" "iste" "ISTE" "ngss" "NGSS" "ccss math" "CCSS Math" "ccss ela" "CCSS ELA" "ncss c3" "NCSS C3" "national core arts" "National Core Arts" -}}
+    {{- range $framework, $codes := . -}}
+      {{- $displayFramework := $framework -}}
+      {{- with index $frameworkMap $framework }}{{ $displayFramework = . }}{{ end -}}
+      {{- range $codes -}}
+        {{- if not $first }},{{ end -}}
+        {{- $first = false }}
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalSubject",
+      "educationalFramework": {{ $displayFramework }},
+      "targetName": {{ . }}
+    }
+      {{- end -}}
+    {{- end }}
+  ],
+  {{- end }}
+  "learningResourceType": "lesson plan"
+}
+</script>
+{{- end }}
+
+{{/* ── DataCatalog for Standards Matrix ── */}}
+{{- if eq .Type "matrix" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "Cross-Disciplinary Standards Matrix",
+  "description": {{ .Description }},
+  "url": {{ .Permalink }},
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "CX Ed Hub — University of Central Florida"
+  },
+  "about": [
+    "CSTA K-12 Computer Science Standards",
+    "Next Generation Science Standards (NGSS)",
+    "Common Core State Standards - Mathematics (CCSS Math)",
+    "Common Core State Standards - English Language Arts (CCSS ELA)",
+    "ISTE Standards for Students",
+    "NCSS C3 Framework for Social Studies",
+    "National Core Arts Standards"
+  ],
+  "keywords": "cross-disciplinary standards, computing lesson plans, CSTA, NGSS, CCSS, ISTE, C3, K-12, computer science integration, standards alignment"
+}
+</script>
+{{- end }}
+
+{{/* ── CollectionPage for taxonomy term pages ── */}}
+{{- if eq .Kind "term" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ printf "%s — Computing Lesson Plans" .Title }},
+  "description": {{ .Description }},
+  "url": {{ .Permalink }},
+  "numberOfItems": {{ len .Pages }},
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "CX Ed Hub — University of Central Florida"
+  }
+}
+</script>
+{{- end }}

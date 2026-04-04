@@ -17,6 +17,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}">
   <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  {{ partial "seo-head.html" . }}
+  {{ partial "json-ld.html" . }}
   {{ $style := resources.Get "css/main.css" }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">

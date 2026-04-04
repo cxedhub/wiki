@@ -22,6 +22,11 @@ summaryLength = 40
   cs_principle = "cs_principles"
   standard_type = "standard_types"
 
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
