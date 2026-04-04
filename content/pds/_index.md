@@ -38,7 +38,7 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 Turn LLMs into your STEM curriculum co-pilot through hands-on prompt engineering across ChatGPT, Claude, and Gemini side-by-side. Talk:Do ratio of 1:5.8 — you're doing, not just listening.
 
-[Workshop Details](/pds/craft-pd-series/workshop-1-ai-for-stem/) · [Live Agenda](/pds/craft-pd-series/workshop-1-agenda.html) · [Web Slides](/pds/craft-pd-series/slides-w1.html) · [Download PPTX](/pds/craft-pd-series/Workshop-1-Slides.pptx)
+[Workshop Details →](/pds/craft-pd-series/workshop-1-ai-for-stem/)
 
 ---
 
@@ -47,7 +47,7 @@ Turn LLMs into your STEM curriculum co-pilot through hands-on prompt engineering
 
 Your students are using AI — but do they know when it's wrong? Learn the Check the Machine protocol and hands-on error-hunting skills for both code and content. Talk:Do ratio of 1:6.3.
 
-[Workshop Details](/pds/craft-pd-series/workshop-2-verifying-outputs/) · [Live Agenda](/pds/craft-pd-series/workshop-2-agenda.html) · [Web Slides](/pds/craft-pd-series/slides-w2.html) · [Download PPTX](/pds/craft-pd-series/Workshop-2-Slides.pptx)
+[Workshop Details →](/pds/craft-pd-series/workshop-2-verifying-outputs/)
 
 ---
 
@@ -56,7 +56,7 @@ Your students are using AI — but do they know when it's wrong? Learn the Check
 
 BBC micro:bit + LLM-assisted coding — take computing out of the browser and into the physical world. Hardware kit included and yours to keep! Talk:Do ratio of 1:6.6.
 
-[Workshop Details](/pds/craft-pd-series/workshop-3-edge-iot/) · [Live Agenda](/pds/craft-pd-series/workshop-3-agenda.html) · [Web Slides](/pds/craft-pd-series/slides-w3.html) · [Download PPTX](/pds/craft-pd-series/Workshop-3-Slides.pptx)
+[Workshop Details →](/pds/craft-pd-series/workshop-3-edge-iot/)
 
 ## What Every Participant Receives
 
