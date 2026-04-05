@@ -1,6 +1,8 @@
 ---
 title: Microbial Computer
-description: Students will play Conways Game of Life after studying microbial behavior. Students will use The game of life to Describe bacterial colony behavior and the dependency on resources available.
+description: Students will play Conways Game of Life after studying microbial behavior.
+  Students will use The game of life to Describe bacterial colony behavior and the
+  dependency on resources available.
 date: '2023-03-31 00:00:00+00:00'
 draft: false
 author: Garrid Halsey

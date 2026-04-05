@@ -22,12 +22,6 @@ materials: Website
 tags:
 - Data Collection
 - Web Design
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -54,6 +48,12 @@ standards:
   - 5-ESS2-2
 supplements:
 - /uploads/factors-and-hazards-part-one/meteorologist_-_Tara_Taliaferro.jfif
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

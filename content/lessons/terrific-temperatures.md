@@ -31,12 +31,13 @@ materials: printer, computer for student use, projector for teacher use with a c
   connected
 tags:
 - Data Collection
+supplements:
+- /uploads/terrific-temperatures/Terrific_Temperatures_-_Crystal_Graf.docx
 standard_types:
+- CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/terrific-temperatures/Terrific_Temperatures_-_Crystal_Graf.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

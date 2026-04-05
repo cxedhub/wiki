@@ -53,14 +53,14 @@ materials: Website, Micro:bit, makecode.microbit.org
 tags:
 - Data Collection
 - micro:bit
+supplements:
+- /uploads/microbit-temperature-reading/microbit-temperature_-_Casey_Harmon.hex
+- /uploads/microbit-temperature-reading/microbit-caseys-temp_-_Casey_Harmon.hex
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/microbit-temperature-reading/microbit-temperature_-_Casey_Harmon.hex
-- /uploads/microbit-temperature-reading/microbit-caseys-temp_-_Casey_Harmon.hex
 ---
 # OVERVIEW
 ## Activity Overview:  

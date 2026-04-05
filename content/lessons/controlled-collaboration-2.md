@@ -33,12 +33,12 @@ standards:
   - SL.5
 materials: Website
 tags: []
+supplements:
+- /uploads/controlled-collaboration-2/WY-SLICE_Controlled_Collaboration_-_Marisol_Armstrong.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/controlled-collaboration-2/WY-SLICE_Controlled_Collaboration_-_Marisol_Armstrong.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

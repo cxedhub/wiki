@@ -41,12 +41,12 @@ tags:
 - Scratch
 - Unplugged
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/introduction-to-microbits/Introduction_to_Micro_bits_-_Jenny_Day.pptx
 - /uploads/introduction-to-microbits/Introduction_to_Micro_bits_Lesson_1_-Jenny_Day_-_Jenny_Day.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

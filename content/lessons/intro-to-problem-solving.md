@@ -31,11 +31,6 @@ materials: Website, aluminum foil and pennies
 tags:
 - Data Collection
 - Project-Based
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 2-AP-12
@@ -61,6 +56,11 @@ standards:
   - MS-ETS1-4
 supplements:
 - /uploads/intro-to-problem-solving/IntrotoProblemSolving_-_Autumn_Spiva.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

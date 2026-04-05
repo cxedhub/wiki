@@ -1,7 +1,10 @@
 ---
 title: Critical Infrastructure 1
-description: Students will be able to explain what Critical Infrastructure is, what are common components that belong to critical infrastructure, and what could happen if components of  Critical Infrastructure
-  are damaged/ destroyed. Cyber security and cyber warfare will be an important part of this because I believe that is not thought of as much as physical issues (hurricanes, bombings, etc)
+description: Students will be able to explain what Critical Infrastructure is, what
+  are common components that belong to critical infrastructure, and what could happen
+  if components of  Critical Infrastructure are damaged/ destroyed. Cyber security
+  and cyber warfare will be an important part of this because I believe that is not
+  thought of as much as physical issues (hurricanes, bombings, etc)
 date: '2023-07-14T11:34:41'
 draft: false
 author: Timothy Grier

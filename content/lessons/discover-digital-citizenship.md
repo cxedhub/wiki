@@ -25,12 +25,6 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Google Email, Google Slides, Google Docs
 tags: []
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- National Core Arts
 standards:
   CSTA:
   - 1B-AP-08
@@ -76,6 +70,12 @@ standards:
 supplements:
 - /uploads/discover-digital-citizenship/Clue_4_Digital_Citizenship_-_MELISSA_HARRIS.pdf
 - /uploads/discover-digital-citizenship/What_is_Digital_Citizenship_1_-_MELISSA_HARRIS.pdf
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

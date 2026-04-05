@@ -57,15 +57,15 @@ materials: Micro:bit, Arduino
 tags:
 - Data Collection
 - micro:bit
+supplements:
+- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick1.docx
+- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick.docx
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick1.docx
-- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

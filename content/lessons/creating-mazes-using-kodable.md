@@ -1,19 +1,18 @@
 ---
 title: Creating Mazes using Kodable
-description: Students will be able to create solvable mazes while applying grade-level geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
+description: Students will be able to create solvable mazes while applying grade-level
+  geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
 date: '2020-11-24 00:00:00+00:00'
 draft: false
 author: Connie Hollin
 subjects:
 - Computer Science
-- Mathematics
 grade_levels:
 - 3-5
 cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Creating Computational Artifacts
-- Testing and Refining Computational Artifacts
 standards:
   CSTA:
   - 1B-AP-08
@@ -35,6 +34,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

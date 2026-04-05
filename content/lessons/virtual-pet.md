@@ -1,6 +1,7 @@
 ---
 title: Virtual Pet
-description: Students will create a virtual pet using micro:bits and then collect data for their pet as it interacts with its 'environment'.
+description: Students will create a virtual pet using micro:bits and then collect
+  data for their pet as it interacts with its 'environment'.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Anita Tope

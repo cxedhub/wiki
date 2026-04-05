@@ -1,6 +1,8 @@
 ---
 title: Shark Tank
-description: Students will design an application to solve a problem that exists in 'their world'. They will need to create something that is unique and marketable, and then present to a selected panel.
+description: Students will design an application to solve a problem that exists in
+  'their world'. They will need to create something that is unique and marketable,
+  and then present to a selected panel.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Shirley Johns

@@ -27,11 +27,11 @@ standards:
   - ISTE-1d
   - ISTE-7a
   - ISTE-7b
+supplements:
+- /uploads/learning-the-importance-of-authentication-factors/Learning_the_Importance_of_Authentication_Factors_-_Kathleen_Cherry.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/learning-the-importance-of-authentication-factors/Learning_the_Importance_of_Authentication_Factors_-_Kathleen_Cherry.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

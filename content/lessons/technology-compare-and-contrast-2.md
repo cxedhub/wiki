@@ -1,6 +1,7 @@
 ---
 title: Technology Compare and Contrast
-description: Students will independently or collaboratively compare and contrast technology and how it has changed our lives and how technology devices have changed.
+description: Students will independently or collaboratively compare and contrast technology
+  and how it has changed our lives and how technology devices have changed.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Megan Moore

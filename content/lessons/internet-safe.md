@@ -1,6 +1,7 @@
 ---
 title: Internet Safe!
-description: Students will understand what it means to be an active, safe, and responsible citizen when participating in an online community.
+description: Students will understand what it means to be an active, safe, and responsible
+  citizen when participating in an online community.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Megan Moore

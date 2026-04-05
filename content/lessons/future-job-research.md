@@ -41,11 +41,11 @@ materials: Website
 tags:
 - Project-Based
 - Web Design
+supplements:
+- /uploads/future-job-research/Scratch_Cards_for_Students_-_Directions_for_Teachers_-_Harry_Guess.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/future-job-research/Scratch_Cards_for_Students_-_Directions_for_Teachers_-_Harry_Guess.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

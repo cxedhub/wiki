@@ -33,13 +33,13 @@ standards:
   - ISTE-5c
   CCSS ELA:
   - RL.2
+supplements:
+- /uploads/coding-through-stories/Brown_Bear_Brown_Bear_Unplugged_-_Madilynne_Nading.pdf
+- /uploads/coding-through-stories/Screen_Shot_2022-08-09_at_2.48.42_PM_-_Madilynne_Nading.png
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/coding-through-stories/Brown_Bear_Brown_Bear_Unplugged_-_Madilynne_Nading.pdf
-- /uploads/coding-through-stories/Screen_Shot_2022-08-09_at_2.48.42_PM_-_Madilynne_Nading.png
 ---
 # OVERVIEW
 ## Activity Overview:  

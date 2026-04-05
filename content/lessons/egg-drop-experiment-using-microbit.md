@@ -23,11 +23,6 @@ cs_principles:
 materials: Website, Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 3A-AP-13
@@ -51,6 +46,11 @@ standards:
   - HS-PS3-1
 supplements:
 - /uploads/egg-drop-experiment-using-microbit/WySlice_lesson_2_2021_Egg_Drop_Physics_Schwessinger_-_SAM_SCHWESSINGER.docx
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

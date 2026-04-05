@@ -31,11 +31,6 @@ materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Bo
 tags:
 - Data Collection
 - Robotics
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -68,6 +63,11 @@ standards:
   - MS-ETS1-4
 supplements:
 - /uploads/library-robotics-for-students-in-the-functional-life-skills-fls-program/Copy_of_Copy_of_Lesson_Plan_-_Library_Robotics_for_Students_in_the_FLS_Program_-_Devin_Hodgins.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,9 @@
 ---
 title: Cryptology
-description: This lesson will help students to understand cryptology.  Students will use problem solving skills to encrypt and decrypt messages.  By investigating a shift cipher, students will reinforce
-  their understanding of the concepts of functions and transformations of functions.
+description: This lesson will help students to understand cryptology.  Students will
+  use problem solving skills to encrypt and decrypt messages.  By investigating a
+  shift cipher, students will reinforce their understanding of the concepts of functions
+  and transformations of functions.
 date: '2023-07-13T18:01:03'
 draft: false
 author: Elizabeth Busch

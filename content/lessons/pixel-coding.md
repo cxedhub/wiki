@@ -52,12 +52,12 @@ standards:
   - VA:Re7
   - VA:Re8
   - VA:Re9
+supplements:
+- /uploads/pixel-coding/Pixel_Coding_-_Mackenzie_Wiginton.docx
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/pixel-coding/Pixel_Coding_-_Mackenzie_Wiginton.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

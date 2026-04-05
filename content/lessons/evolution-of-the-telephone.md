@@ -65,10 +65,6 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
 supplements:
 - /uploads/evolution-of-the-telephone/LessonPlan_WeatherStation_-_Victoria_Davis.docx
 - /uploads/evolution-of-the-telephone/Watershed_Analysis_-_Victoria_Davis.docx
@@ -77,6 +73,10 @@ supplements:
 - /uploads/evolution-of-the-telephone/MicroBit_Guitar_-_Victoria_Davis.pptx
 - /uploads/evolution-of-the-telephone/LessonPlan_SolarSystem_-_Victoria_Davis1.docx
 - /uploads/evolution-of-the-telephone/MicroBit_Guitar_-_Victoria_Davis1.pptx
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

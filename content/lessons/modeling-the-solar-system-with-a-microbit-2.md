@@ -1,6 +1,8 @@
 ---
 title: Modeling the Solar System with a microbit
-description: Use the micro:bit to create a kinesthetic model of the solar system. Students will be given an example at the beginning and then be asked to make their own.
+description: Use the micro:bit to create a kinesthetic model of the solar system.
+  Students will be given an example at the beginning and then be asked to make their
+  own.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
@@ -22,7 +24,6 @@ cs_principles:
 materials: Website, Micro:bit, https://www.exploratorium.edu/ronh/solar_system/
 tags:
 - Data Collection
-- Unplugged
 - micro:bit
 standards:
   CSTA:

@@ -30,11 +30,11 @@ standards:
   - ISTE-1d
   - ISTE-6c
   - ISTE-6d
+supplements:
+- /uploads/candy-burglar-password-lesson/M_Black_Draft_1_WySlice_Lesson_Planning_-_Michelle_Black.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/candy-burglar-password-lesson/M_Black_Draft_1_WySlice_Lesson_Planning_-_Michelle_Black.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -32,12 +32,13 @@ standards:
 materials: None
 tags:
 - Cybersecurity
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/cryptography-2/cryptography_-_Kristy_Barr.docx
 - /uploads/cryptography-2/cryptography_-_Kristy_Barr.pdf
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

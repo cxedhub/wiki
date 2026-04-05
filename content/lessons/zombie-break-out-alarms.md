@@ -22,10 +22,6 @@ cs_principles:
 - Communicating About Computing
 materials: Cublet
 tags: []
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1A-AP-14
@@ -55,6 +51,10 @@ standards:
   - W.7
 supplements:
 - /uploads/zombie-break-out-alarms/download_-_Taylor_Wailes-Putnam.jpeg
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

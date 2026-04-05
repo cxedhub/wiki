@@ -30,12 +30,12 @@ standards:
   - SL.2
 materials: None
 tags: []
+supplements:
+- /uploads/what-does-technology-look-like/IMG_1972_-_Alicia_Auzqui.jpg
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/what-does-technology-look-like/IMG_1972_-_Alicia_Auzqui.jpg
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -46,13 +46,13 @@ standards:
   - VA:Pr4
   - VA:Pr5
   - VA:Pr6
+supplements:
+- /uploads/draw-a-snowflake-with-code/Creating_Nested_Loops_-_Michelle_Black.pptx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/draw-a-snowflake-with-code/Creating_Nested_Loops_-_Michelle_Black.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

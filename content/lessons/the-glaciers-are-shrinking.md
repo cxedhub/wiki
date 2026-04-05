@@ -32,12 +32,12 @@ standards:
 materials: Website, Computing device.  Our district uses iPads
 tags:
 - Data Collection
+supplements:
+- /uploads/the-glaciers-are-shrinking/The_Glaciers_Are_Shrinking__-_Julie_Calkins.docx
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/the-glaciers-are-shrinking/The_Glaciers_Are_Shrinking__-_Julie_Calkins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

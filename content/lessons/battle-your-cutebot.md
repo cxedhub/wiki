@@ -35,12 +35,12 @@ standards:
   - ISTE-4d
   - ISTE-7a
   - ISTE-7b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/battle-your-cutebot/Copy_of_Imogen_SlidesCarnival_-_Stephanie_Newhouse.pptx
 - /uploads/battle-your-cutebot/create_a_code_-_Stephanie_Newhouse.pptx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

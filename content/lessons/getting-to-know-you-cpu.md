@@ -45,14 +45,14 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
 - Web Design
 - micro:bit
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 supplements:
 - /uploads/getting-to-know-you-cpu/Getting_to_Know_You_CPU_-_Becky_Junge.pptx
 - /uploads/getting-to-know-you-cpu/Getting_to_Know_You_CPU__Lesson_Plan_1_-_Becky_Junge.pdf
 - /uploads/getting-to-know-you-cpu/Ratio_Table_Handout_-_Becky_Junge.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

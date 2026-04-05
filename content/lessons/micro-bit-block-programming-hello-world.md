@@ -1,7 +1,9 @@
 ---
 title: 'Micro Bit Block Programming: ''Hello World'''
-description: This lesson introduces the basic components of the microbit, a beginners program, and teaches how to download a program to the microbit. Students will program in a block based language. Students
-  will also utilize small electronics, and learn how a computer is programmed.
+description: This lesson introduces the basic components of the microbit, a beginners
+  program, and teaches how to download a program to the microbit. Students will program
+  in a block based language. Students will also utilize small electronics, and learn
+  how a computer is programmed.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Rosetter E. Dirden

@@ -54,12 +54,12 @@ standards:
   - SL.5
 materials: Website, personal computer, login badge, computer cleaning supplies
 tags: []
+supplements:
+- /uploads/computer-basics-collaborative-lesson-with-k-and-5/Screen_Shot_2022-07-14_at_2.18.06_PM_-_MELISSA_HARRIS.png
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/computer-basics-collaborative-lesson-with-k-and-5/Screen_Shot_2022-07-14_at_2.18.06_PM_-_MELISSA_HARRIS.png
 ---
 # OVERVIEW
 ## Activity Overview:  

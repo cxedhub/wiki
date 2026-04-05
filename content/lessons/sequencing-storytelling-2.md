@@ -24,10 +24,6 @@ tags:
 - Code.org
 - Robotics
 - Scratch
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-10
@@ -50,6 +46,12 @@ supplements:
 - /uploads/sequencing-storytelling-2/Copy_of_Lesson_Plan_-_Sequencing_-_Devin_Hodgins.docx
 - /uploads/sequencing-storytelling-2/Copy_of_Copy_of_Lesson_Plan_-_Sequencing_-_Devin_Hodgins.docx
 - /uploads/sequencing-storytelling-2/Coding_Practice_-_Devin_Hodgins.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

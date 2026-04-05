@@ -46,12 +46,12 @@ materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
+supplements:
+- /uploads/what-are-the-chances/What_are_the_chances_-_Jeff_Kitterman.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/what-are-the-chances/What_are_the_chances_-_Jeff_Kitterman.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

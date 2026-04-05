@@ -34,12 +34,12 @@ standards:
   - D2.His.2.3-5
 materials: Website, Google Drive
 tags: []
+supplements:
+- /uploads/brochure-of-community/Surrounding_Area_Brochure_-_Heidi_DICKS.docx
 standard_types:
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/brochure-of-community/Surrounding_Area_Brochure_-_Heidi_DICKS.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

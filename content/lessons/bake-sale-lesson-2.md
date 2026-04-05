@@ -28,11 +28,11 @@ standards:
   - ISTE-1d
   - ISTE-7b
   - ISTE-7c
+supplements:
+- /uploads/bake-sale-lesson-2/Bake_Sale_Lesson_2_-_Nate_Reinhardt.docx
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/bake-sale-lesson-2/Bake_Sale_Lesson_2_-_Nate_Reinhardt.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

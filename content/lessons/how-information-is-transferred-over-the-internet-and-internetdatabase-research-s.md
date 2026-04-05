@@ -1,18 +1,19 @@
 ---
-title: How Information is Transferred Over the Internet and Internet/Database Research Search Strategies
-description: This lesson introduces the process by which information is sent between computers and networks as packets of binary code on the Internet, as well as how to use effective Internet search strategies
-  to enhance search efficiency, relevance, and accuracy.
+title: How Information is Transferred Over the Internet and Internet/Database Research
+  Search Strategies
+description: This lesson introduces the process by which information is sent between
+  computers and networks as packets of binary code on the Internet, as well as how
+  to use effective Internet search strategies to enhance search efficiency, relevance,
+  and accuracy.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Ron Chesmore
 subjects:
 - Computer Science
-- Library Media
 grade_levels:
 - 6-8
 cs_domains:
 - Computing Systems
-- Networks and The Internet
 cs_principles:
 - Developing and Using Abstractions
 standards:
@@ -37,6 +38,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

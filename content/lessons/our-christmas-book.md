@@ -1,20 +1,19 @@
 ---
 title: Our Christmas Book
-description: Students will create a page in a class book about their favorite part of Christmas using words and pictures. Students will use the Book Creator app on the i-pads and chromebooks.
+description: Students will create a page in a class book about their favorite part
+  of Christmas using words and pictures. Students will use the Book Creator app on
+  the i-pads and chromebooks.
 date: '2022-04-08 00:00:00+00:00'
 draft: false
 author: Sarah McKenzie
 subjects:
 - Computer Science
-- Reading/Language Arts
 grade_levels:
 - K-2
 cs_domains:
 - Computing Systems
-- Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-- Creating Computational Artifacts
 standards:
   CSTA:
   - 1A-AP-14

@@ -36,12 +36,12 @@ materials: Website, https://curriculum.code.org/csf-19/coursec/2/#powerful-passw
 tags:
 - Code.org
 - Cybersecurity
+supplements:
+- /uploads/cybersecurity-secure-passwords/Lesson_Plan_1_-_Justin_Hansen.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/cybersecurity-secure-passwords/Lesson_Plan_1_-_Justin_Hansen.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

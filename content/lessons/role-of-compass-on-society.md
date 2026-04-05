@@ -44,14 +44,14 @@ materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
 supplements:
 - /uploads/role-of-compass-on-society/WYSlice_Lesson_Plan_2_-_Michelle_Petty.docx
 - /uploads/role-of-compass-on-society/WYSlice_Lesson_Plan_1_-_Michelle_Petty.docx
 - /uploads/role-of-compass-on-society/WYSlice_Lesson_Plan_2_-_Michelle_Petty1.docx
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

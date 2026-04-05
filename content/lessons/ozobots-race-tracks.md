@@ -41,12 +41,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/ozobots-race-tracks/S.Randall_Lesson_Plan_1_-_Shelby_RANDALL.docx
 - /uploads/ozobots-race-tracks/S.Randall_Lesson_Plan_2_-_Shelby_RANDALL.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

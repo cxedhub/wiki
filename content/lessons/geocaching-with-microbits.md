@@ -44,14 +44,14 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
+supplements:
+- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER.docx
+- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER1.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER.docx
-- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER1.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

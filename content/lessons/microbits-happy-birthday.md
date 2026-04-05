@@ -43,13 +43,13 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+supplements:
+- /uploads/microbits-happy-birthday/microbit_happy_birthday_code_2_-_Ryan_Olson.jpg
+- /uploads/microbits-happy-birthday/mircrobit_happy_birthday_code_1_-_Ryan_Olson.jpg
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/microbits-happy-birthday/microbit_happy_birthday_code_2_-_Ryan_Olson.jpg
-- /uploads/microbits-happy-birthday/mircrobit_happy_birthday_code_1_-_Ryan_Olson.jpg
 ---
 # OVERVIEW
 ## Activity Overview:  

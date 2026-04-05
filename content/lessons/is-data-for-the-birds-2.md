@@ -39,14 +39,14 @@ standards:
   CCSS Math:
   - 6.SP
   - 7.SP
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 supplements:
 - /uploads/is-data-for-the-birds-2/JKitterman-Draft-Lesson1-2022_-_Jeff_Kitterman.docx
 - /uploads/is-data-for-the-birds-2/Kitterman-Draft-Lesson1_-_Jeff_Kitterman.docx
 - /uploads/is-data-for-the-birds-2/Jeff_Kitterman-Final-Lesson-Lesson_B_-_Jeff_Kitterman.pdf
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

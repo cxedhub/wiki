@@ -1,7 +1,8 @@
 ---
 title: 'Weather: Factors and Hazards (Part Three)'
-description: In this activity, students use the scientific inquiry process to investigate the effect of water on Earth materials. They explore how water flows through different materials and make a connection
-  between permeability and flooding.
+description: In this activity, students use the scientific inquiry process to investigate
+  the effect of water on Earth materials. They explore how water flows through different
+  materials and make a connection between permeability and flooding.
 date: '2022-09-09 00:00:00+00:00'
 draft: false
 author: Tara Taliaferro
@@ -18,10 +19,6 @@ cs_principles:
 materials: None
 tags:
 - Data Collection
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -39,6 +36,11 @@ standards:
   - 4-ESS1-1
   - 4-ESS2-1
   - 5-ESS2-2
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

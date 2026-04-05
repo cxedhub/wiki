@@ -32,9 +32,6 @@ standards:
   - ISTE-1d
   - ISTE-5a
   - ISTE-5c
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/ive-got-a-secret/Cutebot_Battle_Bots__Rules_-_Stephanie_Newhouse.docx
 - /uploads/ive-got-a-secret/cutebot_challenge_-_Stephanie_Newhouse.docx
@@ -43,6 +40,9 @@ supplements:
 - /uploads/ive-got-a-secret/activity_rubrics_1_-_Stephanie_Newhouse.docx
 - /uploads/ive-got-a-secret/activity_rubrics_-_Stephanie_Newhouse.docx
 - /uploads/ive-got-a-secret/cipher_rubric_-_Stephanie_Newhouse.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

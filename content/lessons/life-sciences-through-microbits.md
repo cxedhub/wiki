@@ -1,10 +1,18 @@
 ---
 title: Life Sciences Through micro:bits
-description: 'Students will participate in a discussion post regarding confidentiality on Canvas. “What do you think confidentiality means in terms of cybersecurity, what is one example of a breach in confidentiality
-  and what solutions can you provide to address your issue? (Response must be a minimum of 100 words). In this lesson students will go through several data displays through direct instructions. Students
-  will utilize a gradual release model referred to as TATER (Title, Axis, Trend, Explanation, & Relationship) to interpret and analyze their data tables/ diagrams. Students will complete 4 – 5 data display
-  independently. Students use their programmed Micro: bits to participate in a series of multiple-choice questions regarding data tables/ diagrams. Students will collaborate with one another and clarify
-  any misconceptions during whole group. The element of confidentiality will be a crucial element in this portion of the lesson as students will establish a foundation of security and privacy.'
+description: 'Students will participate in a discussion post regarding confidentiality
+  on Canvas. “What do you think confidentiality means in terms of cybersecurity, what
+  is one example of a breach in confidentiality and what solutions can you provide
+  to address your issue? (Response must be a minimum of 100 words). In this lesson
+  students will go through several data displays through direct instructions. Students
+  will utilize a gradual release model referred to as TATER (Title, Axis, Trend, Explanation,
+  & Relationship) to interpret and analyze their data tables/ diagrams. Students will
+  complete 4 – 5 data display independently. Students use their programmed Micro:
+  bits to participate in a series of multiple-choice questions regarding data tables/
+  diagrams. Students will collaborate with one another and clarify any misconceptions
+  during whole group. The element of confidentiality will be a crucial element in
+  this portion of the lesson as students will establish a foundation of security and
+  privacy.'
 date: '2023-07-14T11:59:46'
 draft: false
 author: Sebastian Herrera

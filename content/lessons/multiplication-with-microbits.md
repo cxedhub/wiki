@@ -23,10 +23,6 @@ cs_principles:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -48,6 +44,10 @@ supplements:
 - /uploads/multiplication-with-microbits/Lesson_Plan_1_-_WY-SLICE_-_Kalista_Pendleton.docx
 - /uploads/multiplication-with-microbits/Lesson_Plan_2_-_WY-Slice_-_Kalista_Pendleton.docx
 - /uploads/multiplication-with-microbits/Lesson_Plan_1_-_WY-SLICE_-_Kalista_Pendleton1.docx
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

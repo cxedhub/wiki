@@ -36,14 +36,14 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
+supplements:
+- /uploads/creepy-carrots/Creepyy_Carrots_-_Jeanie_SANDERS.pdf
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/creepy-carrots/Creepyy_Carrots_-_Jeanie_SANDERS.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

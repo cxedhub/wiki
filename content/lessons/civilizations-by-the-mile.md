@@ -46,13 +46,13 @@ standards:
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
 - micro:bit
+supplements:
+- /uploads/civilizations-by-the-mile/Civilizations_by_the_mile_-_Wade_Moore.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/civilizations-by-the-mile/Civilizations_by_the_mile_-_Wade_Moore.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

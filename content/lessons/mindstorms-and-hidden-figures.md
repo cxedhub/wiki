@@ -24,10 +24,6 @@ cs_principles:
 materials: Lego Mindstorms (I am using the NXT version)
 tags:
 - Robotics
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -56,6 +52,10 @@ standards:
 supplements:
 - /uploads/mindstorms-and-hidden-figures/WySlice_Lesson_Plan_2_LaVanchy_-_Jennifer_LaVanchy.docx
 - /uploads/mindstorms-and-hidden-figures/WySlice-Lesson_1_-_Jennifer_LaVanchy.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

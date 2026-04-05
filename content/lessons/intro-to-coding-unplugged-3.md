@@ -27,14 +27,14 @@ standards:
   - ISTE-1d
   - ISTE-7b
   - ISTE-7c
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_A_updated-_Blevins_-_Minda_Blevins.pdf
 - /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_C-_Blevins_first_draft_-_Minda_Blevins.docx
 - /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_B_Final_Draft-_Blevins_-_Minda_Blevins.docx
 - /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_A-_Blevins_-_M_Blevins.doc
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

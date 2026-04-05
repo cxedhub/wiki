@@ -34,12 +34,12 @@ standards:
   - ISTE-6d
   - ISTE-7a
   - ISTE-7b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/internet-safe-2/WYSLICE_Lesson_One__Internet_Safe_-_Megan_Moore.pdf
 - /uploads/internet-safe-2/WYSLICE_Lesson_One__Internet_Safe_1_-_Megan_Moore.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

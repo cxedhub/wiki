@@ -37,13 +37,13 @@ standards:
   CCSS ELA:
   - RL.2
   - SL.2
+supplements:
+- /uploads/coding-a-story-with-ozobots/Coding_a_Story_with_Ozobots_-_Lesson_Plan-2_-_Kayla_Horn.pdf
+- /uploads/coding-a-story-with-ozobots/Coding_Caterpillar_-_Kayla_Horn.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/coding-a-story-with-ozobots/Coding_a_Story_with_Ozobots_-_Lesson_Plan-2_-_Kayla_Horn.pdf
-- /uploads/coding-a-story-with-ozobots/Coding_Caterpillar_-_Kayla_Horn.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

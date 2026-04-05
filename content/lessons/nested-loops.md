@@ -1,7 +1,8 @@
 ---
 title: Nested Loops
-description: This lesson is for more advanced students wanting to code a Python program that uses nested loops. This is not block coding. They will use their own IDE to write the program. I have attached
-  a photo of a sample program that they can write.
+description: This lesson is for more advanced students wanting to code a Python program
+  that uses nested loops. This is not block coding. They will use their own IDE to
+  write the program. I have attached a photo of a sample program that they can write.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Selena Pope
@@ -13,7 +14,6 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-- Creating Computational Artifacts
 standards:
   CSTA:
   - 3A-AP-13
@@ -32,6 +32,7 @@ tags: []
 standard_types:
 - CSTA
 - ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

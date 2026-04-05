@@ -30,12 +30,12 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
+supplements:
+- /uploads/order-of-operations-microbit-calculator/Order_of_Operations_MICRO_BIT_Calculator_-_Timothy_George.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/order-of-operations-microbit-calculator/Order_of_Operations_MICRO_BIT_Calculator_-_Timothy_George.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

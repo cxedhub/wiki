@@ -32,12 +32,13 @@ materials: Micro:bit
 tags:
 - Project-Based
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/sea-creature-safety/WySLICE_Lesson_1_1_-_Rebecca_Butterfield.pdf
 - /uploads/sea-creature-safety/saving-sea-creatures-2-slides_-_Rebecca_Butterfield.pptx
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

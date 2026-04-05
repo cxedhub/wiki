@@ -1,6 +1,7 @@
 ---
 title: Critical Infrastructure 2
-description: Students will be able to demonstrate foundational knowledge and skills that are related to cybersecurity
+description: Students will be able to demonstrate foundational knowledge and skills
+  that are related to cybersecurity
 date: '2023-07-14T11:52:00'
 draft: false
 author: Timothy Grier

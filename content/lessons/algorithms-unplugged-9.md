@@ -41,9 +41,6 @@ standards:
   - ISTE-1d
   - ISTE-5a
   - ISTE-5c
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/algorithms-unplugged-9/Algorithms_Unplugged_lesson_B_-_Melanie_Mullikin.pdf
 - /uploads/algorithms-unplugged-9/Lesson_C_PPT_-_Terri_Flock.pptx
@@ -52,6 +49,9 @@ supplements:
 - /uploads/algorithms-unplugged-9/Lesson_C_PPT_-_Terri_Flock1.pptx
 - /uploads/algorithms-unplugged-9/Lesson_A_-_Terri_Flock1.docx
 - /uploads/algorithms-unplugged-9/WySLICE_Lesson_B_-_Terri_Flock1.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

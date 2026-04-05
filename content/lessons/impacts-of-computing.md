@@ -31,12 +31,12 @@ standards:
   - SL.2
 materials: Website, commonsense.org
 tags: []
+supplements:
+- /uploads/impacts-of-computing/Untitled_document_-_Traci_Gardner.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/impacts-of-computing/Untitled_document_-_Traci_Gardner.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -60,14 +60,14 @@ materials: Website, Paper cards for unplugged activity
 tags:
 - Data Collection
 - Unplugged
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 supplements:
 - /uploads/internet-information-research-and-retrieval-processes-and-effective-search-strat/Ron_Chesmore-CS_Lesson_Plan_-_Ron_Chesmore.docx
 - /uploads/internet-information-research-and-retrieval-processes-and-effective-search-strat/Ron_Chesmore-CS_Lesson_Plan_-_Ron_Chesmore1.docx
 - /uploads/internet-information-research-and-retrieval-processes-and-effective-search-strat/Ron_Chesmore-CS_Lesson_Plan_-_Ron_Chesmore2.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

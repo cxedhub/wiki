@@ -38,13 +38,13 @@ standards:
   CCSS ELA:
   - RL.2
   - SL.2
+supplements:
+- /uploads/retelling-a-story-with-scratch-jr/lesson_plan_1_CS_-_Madison_Mueller.doc
+- /uploads/retelling-a-story-with-scratch-jr/Lesson_plan_2_CS_-_Madison_Mueller.docx_-_Maddie_Mueller.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/retelling-a-story-with-scratch-jr/lesson_plan_1_CS_-_Madison_Mueller.doc
-- /uploads/retelling-a-story-with-scratch-jr/Lesson_plan_2_CS_-_Madison_Mueller.docx_-_Maddie_Mueller.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

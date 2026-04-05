@@ -26,10 +26,6 @@ cs_principles:
 materials: Computer for research
 tags:
 - Project-Based
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
 standards:
   CSTA:
   - 2-AP-11
@@ -48,6 +44,11 @@ standards:
   - D2.His.9.6-8
 supplements:
 - /uploads/evolution-and-impact-of-technology-throughout-history/WYSlice_Lesson_Plan_1_-_Updated_-_Michelle_Petty.docx
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

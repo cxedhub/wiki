@@ -20,10 +20,6 @@ materials: Website, Canvas LMS, Common Sense Media Digital Citizenship Curriculu
   (Google slides presentation & quiz)
 tags:
 - Cybersecurity
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-17
@@ -38,6 +34,11 @@ standards:
   - SL.7
 supplements:
 - /uploads/dont-feed-the-phish-adapted-from-common-sense-medias-digital-citizenship-curricu/7_-_Don_t_Feed_the_Phish_-_Lesson_Slides_-_Ron_Chesmore.pptx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

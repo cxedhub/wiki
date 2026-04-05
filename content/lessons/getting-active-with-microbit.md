@@ -53,13 +53,13 @@ standards:
   - 3-5-ETS1-3
   - 5-ESS1-1
   - 5-ESS1-2
+supplements:
+- /uploads/getting-active-with-microbit/getting-active_-_Connie_Hollin.zip
+- /uploads/getting-active-with-microbit/Connie_H_WYSlice_Lesson_1_-_Connie_Hollin.pdf
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/getting-active-with-microbit/getting-active_-_Connie_Hollin.zip
-- /uploads/getting-active-with-microbit/Connie_H_WYSlice_Lesson_1_-_Connie_Hollin.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

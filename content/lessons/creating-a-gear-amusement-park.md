@@ -50,13 +50,14 @@ standards:
 materials: Funny Gears & Bricks Set
 tags:
 - Data Collection
+supplements:
+- /uploads/creating-a-gear-amusement-park/McClure_WySLICE_-_Gear_Amusement_Park_Lesson_1_-_Amber_McClure.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/creating-a-gear-amusement-park/McClure_WySLICE_-_Gear_Amusement_Park_Lesson_1_-_Amber_McClure.pdf
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

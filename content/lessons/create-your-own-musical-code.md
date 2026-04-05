@@ -46,12 +46,12 @@ standards:
   - MU:Re7
   - MU:Re8
   - MU:Re9
+supplements:
+- /uploads/create-your-own-musical-code/Create_Your_Own_Musical_Code_-_Colin_Botts.pdf
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/create-your-own-musical-code/Create_Your_Own_Musical_Code_-_Colin_Botts.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

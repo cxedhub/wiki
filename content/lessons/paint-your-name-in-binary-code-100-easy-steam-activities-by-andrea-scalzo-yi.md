@@ -34,12 +34,12 @@ standards:
 materials: None
 tags:
 - Data Collection
+supplements:
+- /uploads/paint-your-name-in-binary-code-100-easy-steam-activities-by-andrea-scalzo-yi/Paint_Your_Name_in_Binary_Coden_Lesson_Plan_Draft_B_-_Ginny_Nading.pdf
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/paint-your-name-in-binary-code-100-easy-steam-activities-by-andrea-scalzo-yi/Paint_Your_Name_in_Binary_Coden_Lesson_Plan_Draft_B_-_Ginny_Nading.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

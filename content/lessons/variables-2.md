@@ -42,14 +42,14 @@ standards:
   - 6.EE
   - 6.SP
   - 7.EE
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 supplements:
 - /uploads/variables-2/Variables_-_Autumn_Spiva.pdf
 - /uploads/variables-2/Autumn_Spiva-Draft-Lesson-Lesson_A-7-14-2022_-_Autumn_Spiva.docx
 - /uploads/variables-2/Variables_Assessment_-_Autumn_Spiva.docx
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

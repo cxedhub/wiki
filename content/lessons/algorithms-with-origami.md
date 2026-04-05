@@ -19,9 +19,6 @@ materials: Website, Youtube.com Website can be used if you don't have the book a
   hand. Search youtube for any book on the list.
 tags:
 - Unplugged
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -40,6 +37,11 @@ standards:
 supplements:
 - /uploads/algorithms-with-origami/lesson_plan_2_-_Marisol_Armstrong.docx
 - /uploads/algorithms-with-origami/lesson_plan_1_-_Marisol_Armstrong.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -40,12 +40,12 @@ standards:
 materials: Micro:bit, Chromebooks (school supplied)
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/pe-cryptic-decoding/Lesson_plan_WySlice_-_Cameron_Spade.pdf
 - /uploads/pe-cryptic-decoding/Lesson_plan_WySlice_2_-_Cameron_Spade.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

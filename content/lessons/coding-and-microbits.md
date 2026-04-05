@@ -36,12 +36,12 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/coding-and-microbits/Lesson_B_FINAL_-_Will_Burns.pdf
 - /uploads/coding-and-microbits/Will_Burns_WySLICE_Lesson_C_-_Will_Burns.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

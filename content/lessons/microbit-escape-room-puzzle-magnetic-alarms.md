@@ -36,11 +36,11 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
+supplements:
+- /uploads/microbit-escape-room-puzzle-magnetic-alarms/Escape_Room_Puzzle_-_Magnetic_Alarms_1_-_Taylor_Plantt.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/microbit-escape-room-puzzle-magnetic-alarms/Escape_Room_Puzzle_-_Magnetic_Alarms_1_-_Taylor_Plantt.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,11 +21,6 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://www.moralmachine.net/
 tags: []
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
 standards:
   CSTA:
   - 2-AP-17
@@ -50,6 +45,12 @@ supplements:
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Copy_of_Halsey_-_WySLICE_Lesson_Plan_2.docx_-_Garrid_Halsey1.pdf
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Halsey_-_WySLICE_Lesson_Plan_1_-_Garrid_Halsey.docx
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Copy_of_Halsey_-_WySLICE_Lesson_Plan_2.docx_-_Garrid_Halsey.pdf
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

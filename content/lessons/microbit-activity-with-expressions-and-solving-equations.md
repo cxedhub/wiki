@@ -52,13 +52,13 @@ standards:
 materials: Micro:bit, Computer
 tags:
 - micro:bit
+supplements:
+- /uploads/microbit-activity-with-expressions-and-solving-equations/Computer_Science_Lesson_1_-_Willis_-_Sarah_Willis.pdf
+- /uploads/microbit-activity-with-expressions-and-solving-equations/Computer_Basics_Check_List_-_Sadie_Williams.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/microbit-activity-with-expressions-and-solving-equations/Computer_Science_Lesson_1_-_Willis_-_Sarah_Willis.pdf
-- /uploads/microbit-activity-with-expressions-and-solving-equations/Computer_Basics_Check_List_-_Sadie_Williams.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

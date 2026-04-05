@@ -21,11 +21,6 @@ cs_principles:
 materials: Website, code.org- course D sequencing
 tags:
 - Code.org
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -45,6 +40,11 @@ standards:
 supplements:
 - /uploads/gems-and-algorithms/Volcanic_Interactions_-_Mandy_Sewell.docx
 - /uploads/gems-and-algorithms/Algorithms_GEMS_-_Mandy_Sewell.docx
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

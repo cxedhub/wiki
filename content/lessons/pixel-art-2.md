@@ -51,13 +51,13 @@ standards:
   - VA:Re7
   - VA:Re8
   - VA:Re9
+supplements:
+- /uploads/pixel-art-2/Pixel_Art_-_Mackenzie_Wiginton.docx
+- /uploads/pixel-art-2/Pixel_Art_-_Mackenzie_Wiginton1.docx
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/pixel-art-2/Pixel_Art_-_Mackenzie_Wiginton.docx
-- /uploads/pixel-art-2/Pixel_Art_-_Mackenzie_Wiginton1.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

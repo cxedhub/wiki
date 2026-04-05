@@ -33,15 +33,16 @@ standards:
   - D2.His.9.6-8
 materials: cameras, ipods, watch, cellphones, toothbrush, pencils, etc.
 tags: []
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
 supplements:
 - /uploads/what-is-technology/Post-Test_2_-_Michelle_Petty.docx
 - /uploads/what-is-technology/Technology_PP_-_Michelle_Petty.pptx
 - /uploads/what-is-technology/WySLICE2_PP_-_Michelle_Petty.pptx
 - /uploads/what-is-technology/Pre-Test_2_-_Michelle_Petty.docx
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

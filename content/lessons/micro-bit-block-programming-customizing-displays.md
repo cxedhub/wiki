@@ -32,12 +32,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/micro-bit-block-programming-customizing-displays/HelloWorldMicrobitActivity_-_ROSETTER_DIRDEN.pdf
 - /uploads/micro-bit-block-programming-customizing-displays/CustomizingDisplaysMicrobitActivity_-_ROSETTER_DIRDEN.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

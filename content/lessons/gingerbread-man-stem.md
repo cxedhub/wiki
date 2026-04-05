@@ -26,11 +26,11 @@ standards:
   - ISTE-1d
   - ISTE-5c
   - ISTE-5d
+supplements:
+- /uploads/gingerbread-man-stem/gingerbread_man_Stem_-_Jeanie_SANDERS.docx
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/gingerbread-man-stem/gingerbread_man_Stem_-_Jeanie_SANDERS.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

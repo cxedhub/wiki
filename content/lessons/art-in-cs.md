@@ -19,10 +19,6 @@ cs_principles:
 materials: Website, https://scratch.mit.edu/
 tags:
 - Scratch
-standard_types:
-- CSTA
-- ISTE
-- National Core Arts
 standards:
   CSTA:
   - 2-AP-10
@@ -43,6 +39,10 @@ standards:
   - VA:Cr3
 supplements:
 - /uploads/art-in-cs/Art_in_CS_-_James_Cunningham.docx
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

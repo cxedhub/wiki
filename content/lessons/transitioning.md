@@ -1,7 +1,10 @@
 ---
 title: Transitioning
-description: The teacher will present a problem to the class, such as 'How do you get dressed in the morning?' Discuss that we will create an algorithm (steps to take) to show how we get dressed. Share
-  that there is a correct order, such as, 'do you put your pants on before your underwear?'. Complete the steps together, individually paste sequence pictures in the correct order, Continue on about how
+description: The teacher will present a problem to the class, such as 'How do you
+  get dressed in the morning?' Discuss that we will create an algorithm (steps to
+  take) to show how we get dressed. Share that there is a correct order, such as,
+  'do you put your pants on before your underwear?'. Complete the steps together,
+  individually paste sequence pictures in the correct order, Continue on about how
   do we transition to the bathroom? Create an algorithm to solve the problem.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
@@ -17,9 +20,6 @@ cs_principles:
 - Developing and Using Abstractions
 materials: SMART Board
 tags: []
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1A-AP-08
@@ -30,6 +30,10 @@ standards:
   - ISTE-1d
   - ISTE-5c
   - ISTE-5d
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

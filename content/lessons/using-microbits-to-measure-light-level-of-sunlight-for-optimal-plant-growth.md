@@ -29,12 +29,6 @@ materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -61,6 +55,12 @@ standards:
   - MS-ETS1-4
 supplements:
 - /uploads/using-microbits-to-measure-light-level-of-sunlight-for-optimal-plant-growth/Schwessinger_Wyslice_lesson_1_Life_Science_-_SAM_SCHWESSINGER.pdf
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

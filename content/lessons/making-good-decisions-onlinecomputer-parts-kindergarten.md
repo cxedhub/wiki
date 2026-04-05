@@ -48,13 +48,14 @@ materials: 'Website, Slideshow website: https://tinyurl.com/4ztekzpu Checklist f
   computer parts grading template: https://tinyurl.com/yckkfv6z The teacher will also
   use his/her computer and a projector to display information to students.'
 tags: []
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/making-good-decisions-onlinecomputer-parts-kindergarten/Computer_Science_Lesson_Plan_3_-_Stacy_Martinez.pdf
 - /uploads/making-good-decisions-onlinecomputer-parts-kindergarten/Computer_Science_Lesson_Plan_2_-_Stacy_Martinez.pdf
 - /uploads/making-good-decisions-onlinecomputer-parts-kindergarten/Computer_Science_Lesson_Plan_1_-_Stacy_Martinez.pdf
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

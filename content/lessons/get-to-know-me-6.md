@@ -45,10 +45,6 @@ standards:
   - SL.5
 materials: Keynote software
 tags: []
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 supplements:
 - /uploads/get-to-know-me-6/Lesson_A_-_Melanie_Mullikin.docx
 - /uploads/get-to-know-me-6/Get_to_know_me_1st_-_Melanie_Mullikin.pptx
@@ -61,6 +57,10 @@ supplements:
 - /uploads/get-to-know-me-6/Get_to_know_me_Teachers_-_Terri_Flock.key
 - /uploads/get-to-know-me-6/Get_to_know_me_3rd_-_Terri_Flock.pptx
 - /uploads/get-to-know-me-6/Get_to_know_me_3rd_-_Terri_Flock.key
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

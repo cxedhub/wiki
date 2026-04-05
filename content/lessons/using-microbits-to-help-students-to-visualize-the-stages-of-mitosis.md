@@ -18,10 +18,6 @@ cs_principles:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 3A-AP-13
@@ -36,6 +32,11 @@ standards:
   - HS-LS1-4
 supplements:
 - /uploads/using-microbits-to-help-students-to-visualize-the-stages-of-mitosis/Schwessinger_Wyslice_lesson_3_Mitosis_-_SAM_SCHWESSINGER.docx
+standard_types:
+- CSTA
+- ISTE
+- NGSS
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

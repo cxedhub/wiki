@@ -43,13 +43,13 @@ standards:
   - 4-PS3-1
   - 4-PS3-2
   - 4-PS3-4
+supplements:
+- /uploads/egg-drop/DraftEgg_Drop_Lesson_Plan_-_Rebecca_Butterfield.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/egg-drop/DraftEgg_Drop_Lesson_Plan_-_Rebecca_Butterfield.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

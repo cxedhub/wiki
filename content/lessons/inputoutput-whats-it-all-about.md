@@ -54,12 +54,12 @@ materials: Website, Micro:bit
 tags:
 - Web Design
 - micro:bit
+supplements:
+- /uploads/inputoutput-whats-it-all-about/Inputs_and_Outputs_I_O_-_Christy_Rodgers.pdf
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/inputoutput-whats-it-all-about/Inputs_and_Outputs_I_O_-_Christy_Rodgers.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

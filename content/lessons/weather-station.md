@@ -1,6 +1,7 @@
 ---
 title: Weather Station
-description: In this activity, students develop a 'weather station' where they collect at least three types of weather data.
+description: In this activity, students develop a 'weather station' where they collect
+  at least three types of weather data.
 date: '2020-11-19 00:00:00+00:00'
 draft: false
 author: Victoria L Davis

@@ -34,13 +34,13 @@ standards:
 materials: Scratch Jr.
 tags:
 - Scratch
+supplements:
+- /uploads/adding-and-subtracting-within-20/T-Addandsubtractwithin20_-_Kristine_Gaskill.sjr
+- /uploads/adding-and-subtracting-within-20/Addandsubtractwithin20_-_Kristine_Gaskill.sjr
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/adding-and-subtracting-within-20/T-Addandsubtractwithin20_-_Kristine_Gaskill.sjr
-- /uploads/adding-and-subtracting-within-20/Addandsubtractwithin20_-_Kristine_Gaskill.sjr
 ---
 # OVERVIEW
 ## Activity Overview:  

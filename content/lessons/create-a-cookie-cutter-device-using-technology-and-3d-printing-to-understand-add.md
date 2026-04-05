@@ -39,12 +39,12 @@ standards:
   - 5.NF
 materials: Website, 3D Printer
 tags: []
+supplements:
+- /uploads/create-a-cookie-cutter-device-using-technology-and-3d-printing-to-understand-add/Understanding-Fractions-With-Cookie-Cutters_-_Brandi_Rodriguez.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/create-a-cookie-cutter-device-using-technology-and-3d-printing-to-understand-add/Understanding-Fractions-With-Cookie-Cutters_-_Brandi_Rodriguez.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

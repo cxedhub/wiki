@@ -35,12 +35,12 @@ standards:
 materials: Website, Computer
 tags:
 - Code.org
+supplements:
+- /uploads/powerful-passwords/L_Plan_A_MA_-_Marisol_Armstrong.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/powerful-passwords/L_Plan_A_MA_-_Marisol_Armstrong.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -49,11 +49,11 @@ standards:
   - ISTE-6c
   - ISTE-6d
   - ISTE-7a
+supplements:
+- /uploads/hour-of-code-introduction-ecosystems/Franklin_WYSLICE_lesson_2_-_Brenna_Franklin.docx
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/hour-of-code-introduction-ecosystems/Franklin_WYSLICE_lesson_2_-_Brenna_Franklin.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

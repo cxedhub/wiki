@@ -34,12 +34,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/teaching-a-robot-about-handwashing/Computer_Science_Integration_Lesson_1_Jenifer_Albrandt_-_Jenifer_Albrandt.docx
 - /uploads/teaching-a-robot-about-handwashing/Computer_Science_Integration_Lesson_2_Jenifer_Albrandt_-_Jenifer_Albrandt.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

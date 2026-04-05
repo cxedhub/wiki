@@ -22,10 +22,6 @@ materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -55,6 +51,11 @@ standards:
 supplements:
 - /uploads/sunlight-sensor/Micro_bit_Sunlight_Sensor_-_Anita_Tope.docx
 - /uploads/sunlight-sensor/send-a-smile-makecode_-_Anita_Tope.hex
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

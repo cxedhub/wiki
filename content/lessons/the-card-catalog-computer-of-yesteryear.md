@@ -60,12 +60,12 @@ standards:
   CCSS ELA:
   - SL.5
   - SL.7
+supplements:
+- /uploads/the-card-catalog-computer-of-yesteryear/OttoesWYSLICElesson2_-_Michelle_Ottoes.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/the-card-catalog-computer-of-yesteryear/OttoesWYSLICElesson2_-_Michelle_Ottoes.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

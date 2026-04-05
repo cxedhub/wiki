@@ -32,9 +32,6 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/creating-a-scoreboard-with-microbits/IMG-2880_-_Ryan_Olson.jpg
 - /uploads/creating-a-scoreboard-with-microbits/IMG-0405_-_Ryan_Olson.jpg
@@ -43,6 +40,9 @@ supplements:
 - /uploads/creating-a-scoreboard-with-microbits/IMG-0403_-_Ryan_Olson.jpg
 - /uploads/creating-a-scoreboard-with-microbits/IMG-0404_-_Ryan_Olson.jpg
 - /uploads/creating-a-scoreboard-with-microbits/IMG-0406_-_Ryan_Olson.jpg
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

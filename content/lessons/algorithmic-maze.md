@@ -1,6 +1,7 @@
 ---
 title: Algorithmic Maze
-description: Students will use popsicle sticks to design maze systems and work to create a flowchart that helps a user to find the exit of the maze every time.
+description: Students will use popsicle sticks to design maze systems and work to
+  create a flowchart that helps a user to find the exit of the maze every time.
 date: '2022-09-16 00:00:00+00:00'
 draft: false
 author: Garrid Halsey

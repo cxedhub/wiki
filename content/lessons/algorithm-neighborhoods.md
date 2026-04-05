@@ -50,14 +50,14 @@ standards:
   - D2.Geo.1.K-2
   - D2.Geo.2.K-2
   - D2.Geo.4.K-2
+supplements:
+- /uploads/algorithm-neighborhoods/Algorithm_Neighborhoods_-_Krista_Sweckard.pdf
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/algorithm-neighborhoods/Algorithm_Neighborhoods_-_Krista_Sweckard.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -22,10 +22,6 @@ materials: Javascript
 tags:
 - Code.org
 - micro:bit
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-10
@@ -47,6 +43,11 @@ standards:
 supplements:
 - /uploads/inputoutput-2/Output_-_Kristy_Barr_-_Kristy_Barr.docx
 - /uploads/inputoutput-2/Output_-_Kristy_Barr.docx
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

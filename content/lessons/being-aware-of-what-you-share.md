@@ -21,10 +21,6 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://www.commonsense.org/education/digital-citizenship/lesson/being-aware-of-what-you-share
 tags: []
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-11
@@ -46,6 +42,10 @@ standards:
   - SL.7
 supplements:
 - /uploads/being-aware-of-what-you-share/Being_Aware_of_What_You_Share___Common_Sense_Education_-_Autumn_Spiva.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -33,12 +33,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-5a
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/microbit-basics/Joslin_Microbit_Basics_Lesson_-_Sindy_Joslin.docx
 - /uploads/microbit-basics/Joslin_Microbit_Basics_Lesson_-_Sindy_Joslin.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

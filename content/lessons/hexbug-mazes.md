@@ -29,11 +29,6 @@ materials: HexBug
 tags:
 - Project-Based
 - Robotics
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -66,6 +61,12 @@ standards:
 supplements:
 - /uploads/hexbug-mazes/HexBug_Maze_-_Kalista_Pendleton.pptx
 - /uploads/hexbug-mazes/HexBug_Maze_-_Kalista_Pendleton1.pptx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

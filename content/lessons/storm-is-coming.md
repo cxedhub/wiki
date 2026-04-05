@@ -33,12 +33,12 @@ standards:
 materials: Blue-Bots, Bee-Bots, or Code and Go Mouse
 tags:
 - Robotics
+supplements:
+- /uploads/storm-is-coming/Storm_Is_Coming_-_Julie_Calkins.docx
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/storm-is-coming/Storm_Is_Coming_-_Julie_Calkins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

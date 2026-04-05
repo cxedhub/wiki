@@ -47,13 +47,13 @@ materials: Website, https://www.digitalpassport.org/password-protect.html;  http
 tags:
 - Code.org
 - Web Design
+supplements:
+- /uploads/protect-your-passwords/Passwords_Lesson_Draft_1_-_Kryssi_Soule.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/protect-your-passwords/Passwords_Lesson_Draft_1_-_Kryssi_Soule.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

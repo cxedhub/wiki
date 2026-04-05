@@ -39,12 +39,12 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+supplements:
+- /uploads/microbit-music-debugging/Microbit_Music_Debugging_-_Colin_Botts.docx
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/microbit-music-debugging/Microbit_Music_Debugging_-_Colin_Botts.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

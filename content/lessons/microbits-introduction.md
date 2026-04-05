@@ -20,9 +20,6 @@ cs_principles:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -41,6 +38,10 @@ supplements:
 - /uploads/microbits-introduction/Sandra_Joslin_Lesson_Plan2_-_Sindy_Joslin.docx
 - /uploads/microbits-introduction/Joslin_lesson_plan_A_-_Sindy_Joslin.docx
 - /uploads/microbits-introduction/Sandra_Joslin_Lesson_Plan2_-_Sindy_Joslin1.docx
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

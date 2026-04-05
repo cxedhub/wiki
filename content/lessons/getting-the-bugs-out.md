@@ -30,12 +30,12 @@ standards:
   - ISTE-1d
   - ISTE-5a
   - ISTE-5c
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/getting-the-bugs-out/cipher_decoding_-_Stephanie_Newhouse.docx
 - /uploads/getting-the-bugs-out/Copy_of_Student_Bug_Report_-_quarters_-_Stephanie_Newhouse.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

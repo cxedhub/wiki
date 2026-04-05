@@ -24,10 +24,6 @@ cs_principles:
 materials: Website, Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -56,6 +52,11 @@ standards:
 supplements:
 - /uploads/modeling-plate-motions-using-microbit-technology/Lesson_2_-_Morgan_Krysl.docx
 - /uploads/modeling-plate-motions-using-microbit-technology/Lesson_1_-_Morgan_Krysl.docx
+standard_types:
+- CSTA
+- ISTE
+- NGSS
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

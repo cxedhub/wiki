@@ -37,15 +37,16 @@ materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 supplements:
 - /uploads/i-can-create-a-thermometer/WYSlice_Lesson_1_-_Sarah_McKenzie1.docx
 - /uploads/i-can-create-a-thermometer/WYSlice_Lesson_2_-_Sarah_McKenzie1.docx
 - /uploads/i-can-create-a-thermometer/WYSlice_Lesson_1_-_Sarah_McKenzie.docx
 - /uploads/i-can-create-a-thermometer/WYSlice_Lesson_2_-_Sarah_McKenzie.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

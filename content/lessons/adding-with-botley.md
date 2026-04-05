@@ -1,7 +1,8 @@
 ---
 title: Adding with Botley
-description: In this lesson, students will be using simple addition problems to code Botley. This is a great way to bring addition to the classroom as well as enrich the concept. The lesson can be done
-  whole group, with partners or independently.
+description: In this lesson, students will be using simple addition problems to code
+  Botley. This is a great way to bring addition to the classroom as well as enrich
+  the concept. The lesson can be done whole group, with partners or independently.
 date: '2020-07-10 00:00:00+00:00'
 draft: false
 author: Heidi Dicks

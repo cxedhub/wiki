@@ -22,10 +22,6 @@ cs_principles:
 - Communicating About Computing
 materials: Website
 tags: []
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -48,6 +44,10 @@ standards:
 supplements:
 - /uploads/can-you-escape-the-maze/Screen_Shot_2022-07-13_at_3.18.05_PM_-_Amber_Johnson.png
 - /uploads/can-you-escape-the-maze/Screen_Shot_2022-07-13_at_3.19.05_PM_-_Amber_Johnson.png
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

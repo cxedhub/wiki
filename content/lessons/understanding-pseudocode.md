@@ -38,12 +38,12 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/understanding-pseudocode/Understanding_Pseudocode_-_Presentation_-_Laramie_McCullough.pptx
 - /uploads/understanding-pseudocode/Pseudocode_Worksheet_-_Laramie_McCullough.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

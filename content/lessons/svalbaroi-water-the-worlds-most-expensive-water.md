@@ -40,12 +40,12 @@ standards:
 materials: Website, iPads, Microsft Excel
 tags:
 - Data Collection
+supplements:
+- /uploads/svalbaroi-water-the-worlds-most-expensive-water/Svalbarði_Water_-_The_Worlds_Most_Expensive_Water_-_Julie_Calkins.docx
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/svalbaroi-water-the-worlds-most-expensive-water/Svalbarði_Water_-_The_Worlds_Most_Expensive_Water_-_Julie_Calkins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

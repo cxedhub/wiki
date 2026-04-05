@@ -1,6 +1,7 @@
 ---
 title: Penguin Coding
-description: Write out the code using arrows to help the penguin get the fish and go to the igloo.
+description: Write out the code using arrows to help the penguin get the fish and
+  go to the igloo.
 date: '2022-07-19 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders
@@ -28,6 +29,7 @@ tags: []
 standard_types:
 - CSTA
 - ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

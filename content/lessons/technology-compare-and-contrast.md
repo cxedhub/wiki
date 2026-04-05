@@ -35,14 +35,14 @@ standards:
   CCSS ELA:
   - RI.5
   - SL.5
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 supplements:
 - /uploads/technology-compare-and-contrast/Lesson_Two__Technology_Compare_and_Contrast_-_Megan_Moore.docx
 - /uploads/technology-compare-and-contrast/Megan_Moore_-Draft-Lesson-Lesson_C-7-15-2022_-_Megan_Moore.docx
 - /uploads/technology-compare-and-contrast/Lesson_Two__Technology_Compare_and_Contrast_-_Megan_Moore.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

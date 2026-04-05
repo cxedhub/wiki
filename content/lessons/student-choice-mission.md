@@ -42,12 +42,12 @@ standards:
   - HS-ETS1-4
 materials: Website, Arduino, Raspberry Pi, Old computer, Lego Mind Storm
 tags: []
+supplements:
+- /uploads/student-choice-mission/Lesson__Student_Choice_Missions_-_James_Cunningham.docx
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/student-choice-mission/Lesson__Student_Choice_Missions_-_James_Cunningham.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

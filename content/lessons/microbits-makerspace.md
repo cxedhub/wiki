@@ -29,12 +29,7 @@ cs_principles:
 materials: Website, Micro:bit
 tags:
 - Data Collection
-- Project-Based
 - micro:bit
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -75,6 +70,10 @@ supplements:
 - /uploads/microbits-makerspace/Copy_of_Lesson_Plan_-_Micro_bits_-_Devin_Hodgins.docx
 - /uploads/microbits-makerspace/Lesson_Plan_-_DH_-_Micro_bits_-_Devin_Hodgins.pdf
 - /uploads/microbits-makerspace/Lesson_Plan_-_DH_-_Micro_bits_-_Devin_Hodgins.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

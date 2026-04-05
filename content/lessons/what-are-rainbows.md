@@ -43,14 +43,14 @@ standards:
   NGSS:
   - K-PS3-1
   - K-PS3-2
+supplements:
+- /uploads/what-are-rainbows/BLANK_FILE_-_Madilynne_Nading.docx
+- /uploads/what-are-rainbows/The_Very_Hungry_Caterpillar_Unplugged_2_-_Madilynne_Nading.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/what-are-rainbows/BLANK_FILE_-_Madilynne_Nading.docx
-- /uploads/what-are-rainbows/The_Very_Hungry_Caterpillar_Unplugged_2_-_Madilynne_Nading.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

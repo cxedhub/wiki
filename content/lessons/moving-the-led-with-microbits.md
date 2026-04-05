@@ -40,12 +40,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-5a
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/moving-the-led-with-microbits/Moving_the_LED_with_Microbits_-_TAYLOR_PLANTT.pdf
 - /uploads/moving-the-led-with-microbits/Moving_the_LED_with_Microbits_-_Taylor_Plantt1.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

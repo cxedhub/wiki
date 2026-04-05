@@ -43,17 +43,18 @@ standards:
   - MU:Cr2
 materials: Website, Youtube
 tags: []
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- National Core Arts
 supplements:
 - /uploads/compression-code/Compression_Code_final_-_Kristy_Barr.pdf
 - /uploads/compression-code/Compression_Code_key_-_Kristy_Barr.pdf
 - /uploads/compression-code/Compression_Code_-_Kristy_Barr.docx
 - /uploads/compression-code/Caesar_Cipher_ws_-_Kristy_Barr.pdf
 - /uploads/compression-code/Compression_Code_puzzle_-_Kristy_Barr.pdf
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

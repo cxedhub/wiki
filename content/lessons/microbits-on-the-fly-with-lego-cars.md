@@ -48,12 +48,12 @@ tags:
 - Data Collection
 - Project-Based
 - micro:bit
+supplements:
+- /uploads/microbits-on-the-fly-with-lego-cars/Lesson_Plan-Microbits_-_Julie_Snyder.pdf
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/microbits-on-the-fly-with-lego-cars/Lesson_Plan-Microbits_-_Julie_Snyder.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

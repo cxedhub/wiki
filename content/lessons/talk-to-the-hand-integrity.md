@@ -1,6 +1,7 @@
 ---
 title: TALK TO THE HAND – INTEGRITY
-description: The students will be able to create a handbook using the Hand Method of CyberSecurity.
+description: The students will be able to create a handbook using the Hand Method
+  of CyberSecurity.
 date: '2023-07-14T12:11:37'
 draft: false
 author: Shamrie Jones

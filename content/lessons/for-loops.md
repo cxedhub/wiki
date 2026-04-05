@@ -33,9 +33,6 @@ standards:
   - ISTE-5c
 materials: IDE for Java
 tags: []
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/for-loops/forloop1_-_Selena_Pope.png
 - /uploads/for-loops/forloop1_-_Selena_Pope1.png
@@ -43,6 +40,10 @@ supplements:
 - /uploads/for-loops/forloop2_-_Selena_Pope1.png
 - /uploads/for-loops/forloop_-_Selena_Pope1.png
 - /uploads/for-loops/forloop2_-_Selena_Pope.png
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

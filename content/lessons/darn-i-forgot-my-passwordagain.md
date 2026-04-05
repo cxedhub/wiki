@@ -23,10 +23,6 @@ cs_principles:
 materials: Website
 tags:
 - Code.org
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-17
@@ -47,6 +43,10 @@ supplements:
 - /uploads/darn-i-forgot-my-passwordagain/Copy_of_Tracey_Winey-Draft-Lesson-Lesson_B-8-14-2022_-_Tracey_Winey.docx
 - /uploads/darn-i-forgot-my-passwordagain/draftWeather_or_Not__Microbits_-_Tracey_Winey.pdf
 - /uploads/darn-i-forgot-my-passwordagain/Password_Slides_-_Tracey_Winey.pptx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

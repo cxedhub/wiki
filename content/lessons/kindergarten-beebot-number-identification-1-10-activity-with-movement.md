@@ -24,10 +24,6 @@ cs_principles:
 materials: Bee-Bot and Bee-Bot mat
 tags:
 - Robotics
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1A-AP-08
@@ -44,6 +40,10 @@ standards:
   - 2.MD
 supplements:
 - /uploads/kindergarten-beebot-number-identification-1-10-activity-with-movement/Kindergarten_Beebot_Number_Identification_1-10_Lesson_Plan-merged_-_Nicole_Asay.pdf
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -55,13 +55,14 @@ tags:
 - Data Collection
 - Robotics
 - Unplugged
+supplements:
+- /uploads/inventing-problem-solving-with-the-3-rs-reducereuserecycle/McClure_WySLICE_-_Inventing_Problem_Solving_with_the_3_Rs_Lesson_-_Amber_McClure.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/inventing-problem-solving-with-the-3-rs-reducereuserecycle/McClure_WySLICE_-_Inventing_Problem_Solving_with_the_3_Rs_Lesson_-_Amber_McClure.docx
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

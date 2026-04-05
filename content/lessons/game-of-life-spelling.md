@@ -42,11 +42,11 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-5c
+supplements:
+- /uploads/game-of-life-spelling/Be_a_Robot_Act_out_Code_Cards_2_-_Rachel_Gibson.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/game-of-life-spelling/Be_a_Robot_Act_out_Code_Cards_2_-_Rachel_Gibson.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

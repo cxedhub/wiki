@@ -27,9 +27,6 @@ standards:
   - ISTE-1d
   - ISTE-7a
   - ISTE-7b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/get-to-know-me-5/Lesson_A_-_Kara_Bowcutt1.docx
 - /uploads/get-to-know-me-5/Get_to_know_me_Teachers_-_Kara_Bowcutt.key
@@ -50,6 +47,9 @@ supplements:
 - /uploads/get-to-know-me-5/WYSLICE_Lesson_A_Get_to_know_me_-_Heather_Osterman.pptx
 - /uploads/get-to-know-me-5/Lesson_C_PPT_-_Kiley_Hiser1.pptx
 - /uploads/get-to-know-me-5/Lesson_C_PPT_-_Kiley_Hiser.pptx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

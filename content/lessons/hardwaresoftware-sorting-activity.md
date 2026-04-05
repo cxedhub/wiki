@@ -43,12 +43,12 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/hardwaresoftware-sorting-activity/C.S._Hardware_Software_Sort_-_Terry_Highfield.pdf
 - /uploads/hardwaresoftware-sorting-activity/Highfield_WySLICE_Lesson_1_Exit_Ticket_-_Terry_Highfield.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

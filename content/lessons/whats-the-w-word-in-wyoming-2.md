@@ -18,11 +18,6 @@ cs_domains:
 materials: Slideshow that is included, there are websites linked in to help.
 tags:
 - Data Collection
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -44,6 +39,12 @@ standards:
 supplements:
 - /uploads/whats-the-w-word-in-wyoming-2/WySLICE_Lesson_Plan-Predict_Wind_Speed_and_Weather_Build_an_Anemometer_-_Katherine_Cline.pptx
 - /uploads/whats-the-w-word-in-wyoming-2/WySLICE_Lesson_Plan-Predict_Wind_Speed_and_Weather_Build_an_Anemometer_-_Katherine_Cline1.pptx
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

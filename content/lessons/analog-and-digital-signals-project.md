@@ -41,13 +41,13 @@ standards:
 materials: Micro:bit, slinky, pictures of digital and analog devices
 tags:
 - micro:bit
+supplements:
+- /uploads/analog-and-digital-signals-project/Analog_Digital_Signals_Lab_WySLiCE_-_Sara_Percy.pdf
+- /uploads/analog-and-digital-signals-project/Analog_Digital_Signals_Lab_WySLiCE_1_-_Sara_Percy.pdf
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/analog-and-digital-signals-project/Analog_Digital_Signals_Lab_WySLiCE_-_Sara_Percy.pdf
-- /uploads/analog-and-digital-signals-project/Analog_Digital_Signals_Lab_WySLiCE_1_-_Sara_Percy.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

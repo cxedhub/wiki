@@ -30,12 +30,12 @@ standards:
   - SL.5
 materials: One computer per student/pair and access to the Google suite
 tags: []
+supplements:
+- /uploads/controlled-collaboration-3/Controlled_collaboration_-_Crystal_Graf.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/controlled-collaboration-3/Controlled_collaboration_-_Crystal_Graf.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -33,14 +33,15 @@ standards:
 materials: None, Website
 tags:
 - Data Collection
-standard_types:
-- CSTA
-- ISTE
-- National Core Arts
 supplements:
 - /uploads/data-design/Elements_Illustrated_Half_Page_Elements_Book_-_Tifaney_Jenkins.pdf
 - /uploads/data-design/_Elements_Illustrated_Interactive_Google_Slide_Activity_-_Tifaney_Jenkins.pptx
 - /uploads/data-design/Foldable_Example_-_Tifaney_Jenkins.JPG
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

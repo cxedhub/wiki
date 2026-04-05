@@ -49,12 +49,12 @@ standards:
   - ISTE-5c
   CCSS Math:
   - 5.MD
+supplements:
+- /uploads/do-you-want-to-build-a-robot/Joslin_lesson_plan_B_-_Sindy_Joslin.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/do-you-want-to-build-a-robot/Joslin_lesson_plan_B_-_Sindy_Joslin.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

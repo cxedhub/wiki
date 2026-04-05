@@ -49,14 +49,14 @@ tags:
 - Data Collection
 - Project-Based
 - micro:bit
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 supplements:
 - /uploads/see-ya-later-alligator-coding-and-ratio-tabless/Using_Coding_to_Build_Ratio_Tables_-_Becky_Junge.pptx
 - /uploads/see-ya-later-alligator-coding-and-ratio-tabless/See_Ya_Later_Alligator__Using_Coding_to_Build_Ratio_Tables_Lesson_Plan_1_-_Becky_Junge.pdf
 - /uploads/see-ya-later-alligator-coding-and-ratio-tabless/Morse_Code_Handout_-_Becky_Junge.docx
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

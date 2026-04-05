@@ -1,7 +1,10 @@
 ---
 title: Blind Maze (Collaborative activity with 5th Grade
-description: This is an unplugged activity, in collaboration with 5th grade, that will help students learn to give directions verbally. Students will be working in mixed grade level teams to navigate an
-  obstacle course blindfolded by giving step by step directions. This will be the first step to learning how to program and use algorithms.
+description: This is an unplugged activity, in collaboration with 5th grade, that
+  will help students learn to give directions verbally. Students will be working in
+  mixed grade level teams to navigate an obstacle course blindfolded by giving step
+  by step directions. This will be the first step to learning how to program and use
+  algorithms.
 date: '2022-08-04 00:00:00+00:00'
 draft: false
 author: Sadie Graff
@@ -33,9 +36,11 @@ materials: None
 tags:
 - Unplugged
 standard_types:
+- CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

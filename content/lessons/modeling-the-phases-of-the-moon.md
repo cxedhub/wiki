@@ -43,14 +43,14 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 supplements:
 - /uploads/modeling-the-phases-of-the-moon/Modeling_Lunar_Phases_-_Crystal_Seeley.pptx
 - /uploads/modeling-the-phases-of-the-moon/Modeling_Lunar_Phases_-_Crystal_Seeley1.pptx
 - /uploads/modeling-the-phases-of-the-moon/Model_chart_-_Crystal_Seeley.png
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

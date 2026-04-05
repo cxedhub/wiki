@@ -31,12 +31,13 @@ standards:
   - ISTE-7c
 materials: None
 tags: []
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/get-to-know-me-keynote-activity/Lesson_A_-_Will_Burns.docx
 - /uploads/get-to-know-me-keynote-activity/WySLICE_Lesson_B_-_Will_Burns.docx
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

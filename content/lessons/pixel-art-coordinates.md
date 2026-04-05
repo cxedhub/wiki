@@ -34,14 +34,13 @@ standards:
   - 4.MD
   - 6.SP
 materials: Website, https://docs.google.com/spreadsheets/d/1ozv_zDwCOTOXf0uYI13QfRlfuXQ88l48aFRrpL9-IxY/edit?usp=sharing
-tags:
-- Data Collection
+tags: []
+supplements:
+- /uploads/pixel-art-coordinates/Pixel_Art_and_Ordered_Pairs_-_Ryan_Martinez.xlsx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/pixel-art-coordinates/Pixel_Art_and_Ordered_Pairs_-_Ryan_Martinez.xlsx
 ---
 # OVERVIEW
 ## Activity Overview:  

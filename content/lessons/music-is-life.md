@@ -1,7 +1,8 @@
 ---
 title: Music is Life
-description: Students will use coding to develop animation and sound for a music simulator. students will demonstrate locating and uploading a sound file to the computer. Students will develop a program
-  to display animation form the computer to simulate an instrument.
+description: Students will use coding to develop animation and sound for a music simulator.
+  students will demonstrate locating and uploading a sound file to the computer. Students
+  will develop a program to display animation form the computer to simulate an instrument.
 date: '2022-08-15 00:00:00+00:00'
 draft: false
 author: Will Barnes

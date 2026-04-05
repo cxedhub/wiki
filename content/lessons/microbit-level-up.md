@@ -37,11 +37,11 @@ standards:
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
 - micro:bit
+supplements:
+- /uploads/microbit-level-up/Lesson_Plan-Microbit_Cars_-_Julie_Snyder.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/microbit-level-up/Lesson_Plan-Microbit_Cars_-_Julie_Snyder.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

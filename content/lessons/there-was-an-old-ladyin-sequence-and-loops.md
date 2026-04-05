@@ -53,12 +53,12 @@ standards:
   - L.5
   - L.7
   - L.9-10
+supplements:
+- /uploads/there-was-an-old-ladyin-sequence-and-loops/coding_behind_MARC_record1_-_Michelle_Ottoes.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/there-was-an-old-ladyin-sequence-and-loops/coding_behind_MARC_record1_-_Michelle_Ottoes.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

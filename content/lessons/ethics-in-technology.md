@@ -61,12 +61,13 @@ standards:
 materials: Netflix
 tags:
 - Data Collection
+supplements:
+- /uploads/ethics-in-technology/Social_Dilemma_Timings_-_Jamie_LeJambre.docx
 standard_types:
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/ethics-in-technology/Social_Dilemma_Timings_-_Jamie_LeJambre.docx
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

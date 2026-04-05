@@ -70,15 +70,14 @@ standards:
 materials: Website
 tags:
 - Game-Based
-- Project-Based
 - Scratch
+supplements:
+- /uploads/scratch-multi-level-maze/Scratch_Multi-Level_Maze_Lesson_Plan_-_Adrienne_Unertl.pdf
 standard_types:
 - CSTA
 - ISTE
 - NGSS
 - National Core Arts
-supplements:
-- /uploads/scratch-multi-level-maze/Scratch_Multi-Level_Maze_Lesson_Plan_-_Adrienne_Unertl.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

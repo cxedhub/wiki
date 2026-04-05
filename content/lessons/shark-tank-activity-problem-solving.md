@@ -24,11 +24,6 @@ cs_principles:
 materials: Poster board/paper and markers
 tags:
 - Unplugged
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- National Core Arts
 standards:
   CSTA:
   - 2-AP-10
@@ -58,6 +53,11 @@ standards:
 supplements:
 - /uploads/shark-tank-activity-problem-solving/Shark_Tank_Worksheet_-_Shirley_Johns.docx
 - /uploads/shark-tank-activity-problem-solving/download-11_-_Shirley_Johns.jpg
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

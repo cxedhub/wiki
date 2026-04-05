@@ -20,11 +20,6 @@ cs_principles:
 materials: Micro:bit, gator clips and different materials that conduct and don't
 tags:
 - micro:bit
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 3A-AP-21
@@ -48,6 +43,12 @@ standards:
   - HS-PS4-5
 supplements:
 - /uploads/using-microbits-to-measure-conductivity-of-metallic-ionic-and-covalent-bonds/Schwessinger_Wyslice_lesson_2_Physical_Science_-_SAM_SCHWESSINGER.docx
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -37,13 +37,13 @@ standards:
   - ISTE-7c
   CCSS Math:
   - HSS-ID
+supplements:
+- /uploads/implementing-a-counter-into-java/counterprogram_-_Selena_Pope.png
+- /uploads/implementing-a-counter-into-java/counterprogram_-_Selena_Pope1.png
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/implementing-a-counter-into-java/counterprogram_-_Selena_Pope.png
-- /uploads/implementing-a-counter-into-java/counterprogram_-_Selena_Pope1.png
 ---
 # OVERVIEW
 ## Activity Overview:  

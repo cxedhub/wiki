@@ -22,11 +22,6 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website, Google Maps,
 tags: []
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NCSS C3
 standards:
   CSTA:
   - 1B-AP-15
@@ -55,6 +50,11 @@ standards:
   - D2.His.3.3-5
 supplements:
 - /uploads/magellan-and-technology/CS_Tools_new_vs_-_Timothy_George._old_Magellan.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

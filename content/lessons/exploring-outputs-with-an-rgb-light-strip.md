@@ -61,14 +61,14 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
+supplements:
+- /uploads/exploring-outputs-with-an-rgb-light-strip/Exploring_Outputs_with_an_RGB_Light_Strip_-_Laramie_McCullough.pptx
+- /uploads/exploring-outputs-with-an-rgb-light-strip/Building_RGB_Light_Strips_-_Laramie_McCullough.pptx
 standard_types:
 - CSTA
 - ISTE
 - NGSS
 - National Core Arts
-supplements:
-- /uploads/exploring-outputs-with-an-rgb-light-strip/Exploring_Outputs_with_an_RGB_Light_Strip_-_Laramie_McCullough.pptx
-- /uploads/exploring-outputs-with-an-rgb-light-strip/Building_RGB_Light_Strips_-_Laramie_McCullough.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

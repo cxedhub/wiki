@@ -52,11 +52,6 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
 - Unplugged
 - micro:bit
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NCSS C3
 supplements:
 - /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History__MicroBit_Morse_Code__Lesson_Plan_-_Becky_Junge.pdf
 - /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History__MicroBit_Morse_Code__Lesson_Plan_-_Becky_Junge.docx
@@ -64,6 +59,11 @@ supplements:
 - /uploads/communicating-through-history-microbit-morse-code/Activity__Marco_Polo_and_Morse_code_-_Becky_Junge.pdf
 - /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History_Timeline_-_Becky_Junge.docx
 - /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History_Micro_Bit_Morse_Code_-_Becky_Junge.pptx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

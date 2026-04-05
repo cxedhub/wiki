@@ -37,11 +37,11 @@ standards:
   - ISTE-5c
   - ISTE-7a
   - ISTE-7b
+supplements:
+- /uploads/litter-hunt/barefoot-litter-hunt-1-slides-uks-2-barefoot-lesson-1_-_Rebecca_Butterfield.pptx
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/litter-hunt/barefoot-litter-hunt-1-slides-uks-2-barefoot-lesson-1_-_Rebecca_Butterfield.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

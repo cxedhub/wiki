@@ -62,12 +62,12 @@ tags:
 - Code.org
 - Data Collection
 - micro:bit
+supplements:
+- /uploads/exploring-potential-and-kinetic-energy-by-using-hot-wheels-and-microbits/Micro_Bit_Ideas_-_Noel_Davis.docx
 standard_types:
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/exploring-potential-and-kinetic-energy-by-using-hot-wheels-and-microbits/Micro_Bit_Ideas_-_Noel_Davis.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

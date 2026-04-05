@@ -24,11 +24,6 @@ cs_principles:
 materials: Website
 tags:
 - Game-Based
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- National Core Arts
 standards:
   CSTA:
   - 1B-AP-08
@@ -58,6 +53,11 @@ supplements:
 - /uploads/digital-citizenship-escape-room/Digital_Citizenship_Lesson_Resources_-_MELISSA_HARRIS.pdf
 - /uploads/digital-citizenship-escape-room/Digital_Citizenship_Escape_Room_-_MELISSA_HARRIS.docx
 - /uploads/digital-citizenship-escape-room/Digital_Citizenship_Lesson_Plan_-_MELISSA_HARRIS.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

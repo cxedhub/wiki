@@ -48,13 +48,14 @@ standards:
 materials: Chromebook with access to Google Slides
 tags:
 - Project-Based
+supplements:
+- /uploads/build-your-own-snowman/WY_Slice_-_Lesson_Plan_C_-_One_Fish_Two_Fish_Red_Fish_Blue_Fish_Sorting_Template_-_Charles_Morton.pdf
+- /uploads/build-your-own-snowman/WY_Slice_-_Lesson_Plan_B_-_Build_a_Snowman_-_Charles_Morton.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/build-your-own-snowman/WY_Slice_-_Lesson_Plan_C_-_One_Fish_Two_Fish_Red_Fish_Blue_Fish_Sorting_Template_-_Charles_Morton.pdf
-- /uploads/build-your-own-snowman/WY_Slice_-_Lesson_Plan_B_-_Build_a_Snowman_-_Charles_Morton.pdf
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

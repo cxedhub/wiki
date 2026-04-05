@@ -1,7 +1,10 @@
 ---
 title: Sequencing = Storytelling
-description: This lesson helps learners connect storytelling with simple coding through the study of the sequence of events. It begins with a read-aloud, progresses through unplugged activities in composing
-  algorithms, and ends with story composition and creation using online interfaces. This lesson is designed to occur in the library setting for primary grades but may be adapted for the classroom setting.
+description: This lesson helps learners connect storytelling with simple coding through
+  the study of the sequence of events. It begins with a read-aloud, progresses through
+  unplugged activities in composing algorithms, and ends with story composition and
+  creation using online interfaces. This lesson is designed to occur in the library
+  setting for primary grades but may be adapted for the classroom setting.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -18,15 +21,12 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-materials: Website, https://www.getepic.com/ ; https://sites.google.com/myncsd.org/cresthill-library/learning-commons-pages/virtual-makerspace ; https://scratch.mit.edu/ ;  https://www.storyboardthat.com/comic-maker
+materials: Website, https://www.getepic.com/ ; https://sites.google.com/myncsd.org/cresthill-library/learning-commons-pages/virtual-makerspace
+  ; https://scratch.mit.edu/ ;  https://www.storyboardthat.com/comic-maker
 tags:
 - Robotics
 - Scratch
 - Unplugged
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1A-AP-08
@@ -46,6 +46,10 @@ standards:
   - L.2
   - RL.2
   - SL.2
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

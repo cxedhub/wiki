@@ -26,11 +26,6 @@ cs_principles:
 materials: Website, Laptops and possible ArcGIS software
 tags:
 - Data Collection
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NCSS C3
 standards:
   CSTA:
   - 2-AP-17
@@ -61,6 +56,11 @@ standards:
   - D2.Geo.7.6-8
 supplements:
 - /uploads/geographic-information-systems-introduction-and-map-creation/Lesson_Plan_A_-_Draft_-_WYSLICE_2022_-_Whitney_Wilking.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

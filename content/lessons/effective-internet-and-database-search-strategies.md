@@ -21,10 +21,6 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website, Chromebooks or other student devices, Smartboard
 tags: []
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-10
@@ -42,6 +38,11 @@ standards:
   - RI.7
 supplements:
 - /uploads/effective-internet-and-database-search-strategies/Ron_Chesmore-CS_Lesson_Plan-Effective_Internet_Database_Search_Strategies_-_Ron_Chesmore.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

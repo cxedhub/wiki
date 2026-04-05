@@ -28,9 +28,6 @@ materials: Website
 tags:
 - Cybersecurity
 - Robotics
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-17
@@ -52,6 +49,10 @@ supplements:
 - /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_3-Security_Risks_Consequences_1_-_Alicia_Vonberg.pdf
 - /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_3-Security_Risks_Consequences_-_Alicia_Vonberg.pdf
 - /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_1-CODIS_-_Alicia_Vonberg.pdf
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

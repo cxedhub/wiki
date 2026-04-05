@@ -30,12 +30,13 @@ standards:
   - ISTE-5c
 materials: Raspberry Pi, Python friendly IDE
 tags: []
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/nested-loops-inner-and-outer/nestedloopsinnerouter_-_Selena_Pope.png
 - /uploads/nested-loops-inner-and-outer/nestedloopsinnerouter_-_Selena_Pope1.png
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

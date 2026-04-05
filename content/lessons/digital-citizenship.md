@@ -30,12 +30,13 @@ tags:
 - Code.org
 - Cybersecurity
 - Web Design
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/digital-citizenship/Grade_3_-_Password_Power-Up_-_If...Then...Scenarios_Student_Handout_-_Kailey_Simms.docx
 - /uploads/digital-citizenship/Copy_of_Course_D_-_Password_Power-Up_-_Lesson_Slides_-_Kailey_Simms.pptx
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

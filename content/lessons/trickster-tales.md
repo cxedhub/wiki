@@ -20,10 +20,6 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: ScratchJr
 tags: []
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
 standards:
   CSTA:
   - 1A-AP-08
@@ -40,6 +36,10 @@ standards:
   - D2.His.2.K-2
 supplements:
 - /uploads/trickster-tales/Trickster_Tales_-_Krista_Sweckard.pdf
+standard_types:
+- CSTA
+- ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

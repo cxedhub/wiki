@@ -42,13 +42,13 @@ standards:
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-ETS1-4
+supplements:
+- /uploads/algorithms/Algorithms_-_Christy_Rodgers.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/algorithms/Algorithms_-_Christy_Rodgers.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

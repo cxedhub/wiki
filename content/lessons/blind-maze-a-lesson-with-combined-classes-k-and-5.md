@@ -1,7 +1,8 @@
 ---
 title: Blind Maze - a lesson with combined classes K and 5
-description: This is an unplugged activity where students will work in mixed grade level teams (Kindergarten and 5th grade) to guide a blindfolded partner through an obstacle course in as little time as
-  possible.
+description: This is an unplugged activity where students will work in mixed grade
+  level teams (Kindergarten and 5th grade) to guide a blindfolded partner through
+  an obstacle course in as little time as possible.
 date: '2022-08-04 00:00:00+00:00'
 draft: false
 author: Melissa Harris

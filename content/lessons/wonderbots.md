@@ -40,11 +40,13 @@ standards:
 materials: Wonder Robots, I-Pad
 tags:
 - Robotics
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/wonderbots/WonderBot_Lesson_-_SADIE_Graff.pdf
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

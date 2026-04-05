@@ -1,6 +1,7 @@
 ---
 title: Microbit programming
-description: Creating a program for their microbit 'pets'. Their program must include noise, pictures and words/phrases
+description: Creating a program for their microbit 'pets'. Their program must include
+  noise, pictures and words/phrases
 date: '2020-11-18 00:00:00+00:00'
 draft: false
 author: Sandra Joslin

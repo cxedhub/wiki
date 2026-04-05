@@ -1,6 +1,7 @@
 ---
 title: Magic 8 ball
-description: Make your own magic 8 ball! Students will code a micro:bit in makecode.org to tell other's 'fortunes'.
+description: Make your own magic 8 ball! Students will code a micro:bit in makecode.org
+  to tell other's 'fortunes'.
 date: '2022-11-01 00:00:00+00:00'
 draft: false
 author: Casey Harmon

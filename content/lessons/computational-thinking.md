@@ -26,9 +26,6 @@ materials: Website, scratch.mit.edu
 tags:
 - Scratch
 - Unplugged
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -49,6 +46,10 @@ standards:
   - ISTE-5a
 supplements:
 - /uploads/computational-thinking/JTyserCompThinking_-_Julia_Tyser.pptx
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

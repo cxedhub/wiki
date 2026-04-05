@@ -27,11 +27,12 @@ standards:
 materials: Caesar Cipher
 tags:
 - Cybersecurity
+supplements:
+- /uploads/creating-a-strong-username-and-password/Username_Password_Safety_Lesson_Plan_2_-_Kayla_Horn.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/creating-a-strong-username-and-password/Username_Password_Safety_Lesson_Plan_2_-_Kayla_Horn.pdf
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

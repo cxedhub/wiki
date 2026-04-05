@@ -67,13 +67,13 @@ materials: 'Sphero, Osmo, iPad, epic!: https://www.getepic.com/app/read/75256'
 tags:
 - Data Collection
 - Robotics
+supplements:
+- /uploads/robotics-for-students-in-the-functional-life-skills-fls-program/Copy_of_Lesson_Plan_-_Robotics_for_Students_in_the_FLS_Program_-_Devin_Hodgins.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/robotics-for-students-in-the-functional-life-skills-fls-program/Copy_of_Lesson_Plan_-_Robotics_for_Students_in_the_FLS_Program_-_Devin_Hodgins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

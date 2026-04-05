@@ -1,6 +1,8 @@
 ---
 title: Radio Kindness
-description: Sharing and receiving kindness is a good way to support your well-being and that of your friends. In this activity you will use the radio function of the micro:bit to send a smile to a friend.
+description: Sharing and receiving kindness is a good way to support your well-being
+  and that of your friends. In this activity you will use the radio function of the
+  micro:bit to send a smile to a friend.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Anita Tope

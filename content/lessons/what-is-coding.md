@@ -23,9 +23,6 @@ materials: A link to Youtube, https://youtu.be/THOEQ5soVpY, and digital option f
   assignment. https://docs.google.com/presentation/d/17SXW6J-q0vzKNMJ8YSaNceE2WinfcSuEQao55pHg6vI/copy
 tags:
 - Project-Based
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1A-AP-08
@@ -40,6 +37,10 @@ standards:
   - ISTE-5c
 supplements:
 - /uploads/what-is-coding/WySLICE2020-What_is_Coding.docx_-_Brooke_George.pdf
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

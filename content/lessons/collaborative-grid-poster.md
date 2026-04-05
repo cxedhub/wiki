@@ -47,12 +47,12 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
+supplements:
+- /uploads/collaborative-grid-poster/Collabrative_Grid_Poster_-_Mackenzie_Wiginton.docx
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/collaborative-grid-poster/Collabrative_Grid_Poster_-_Mackenzie_Wiginton.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

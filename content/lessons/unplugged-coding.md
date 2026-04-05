@@ -1,7 +1,8 @@
 ---
 title: Unplugged Coding
-description: To start students will learn to code with a desk of cards and manipulatives. Students will have jobs such as the programmer, tester and the bot. They will physically move an object through
-  programming language.
+description: To start students will learn to code with a desk of cards and manipulatives.
+  Students will have jobs such as the programmer, tester and the bot. They will physically
+  move an object through programming language.
 date: '2022-10-17 00:00:00+00:00'
 draft: false
 author: Alicia Auzqui  and Jonathan Broersma

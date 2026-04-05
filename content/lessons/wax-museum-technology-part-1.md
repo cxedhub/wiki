@@ -69,6 +69,9 @@ standards:
 materials: Website, Books, ReadWorks Articles
 tags:
 - Unplugged
+supplements:
+- /uploads/wax-museum-technology-part-1/Untitled_document_1_-_Taylor_Wailes-Putnam.pdf
+- /uploads/wax-museum-technology-part-1/Wax_Museum_Technology_Part_1_-_Taylor_Wailes-Putnam.pdf
 standard_types:
 - CCSS ELA
 - CCSS Math
@@ -77,9 +80,6 @@ standard_types:
 - NCSS C3
 - NGSS
 - National Core Arts
-supplements:
-- /uploads/wax-museum-technology-part-1/Untitled_document_1_-_Taylor_Wailes-Putnam.pdf
-- /uploads/wax-museum-technology-part-1/Wax_Museum_Technology_Part_1_-_Taylor_Wailes-Putnam.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

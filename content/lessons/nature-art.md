@@ -19,10 +19,6 @@ cs_principles:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- National Core Arts
 standards:
   CSTA:
   - 2-AP-10
@@ -45,6 +41,10 @@ standards:
 supplements:
 - /uploads/nature-art/Nature_Art_-_Tracey_Winey.pptx
 - /uploads/nature-art/Nature_Art_-_Tracey_Winey1.pptx
+standard_types:
+- CSTA
+- ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

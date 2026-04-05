@@ -38,14 +38,15 @@ standards:
   - D2.Civ.6.3-5
 materials: Website
 tags: []
+supplements:
+- /uploads/o-is-for-outlaw/_O__is_for_Outlaw_-_Katherine_Cline.pptx
+- /uploads/o-is-for-outlaw/_O__is_for_Outlaw_-_Katherine_Cline1.pptx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/o-is-for-outlaw/_O__is_for_Outlaw_-_Katherine_Cline.pptx
-- /uploads/o-is-for-outlaw/_O__is_for_Outlaw_-_Katherine_Cline1.pptx
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

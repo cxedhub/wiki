@@ -24,11 +24,6 @@ cs_principles:
 materials: Bee-bots, Bee-bot mats, Plastic Bowling Pins
 tags:
 - Robotics
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1A-AP-08
@@ -49,6 +44,11 @@ standards:
 supplements:
 - /uploads/kindergarten-bee-bot-letter-identificationsounds-activity/Kindergarten_Beebot_Letter_identification_sounds_Lesson_Plan_-_Nicole_Asay.pdf
 - /uploads/kindergarten-bee-bot-letter-identificationsounds-activity/Kindergarten_Bee-Bot_Lesson_-_Nicole_Asay.pdf
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

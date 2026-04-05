@@ -57,14 +57,14 @@ standards:
   - 5-ESS1-1
   - 5-ESS1-2
   - 5-ESS2-2
+supplements:
+- /uploads/the-problem-with-plastics/3rd_grade_Module_1_The_Sea_-_Kathleen_Neill-Manker.pdf
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/the-problem-with-plastics/3rd_grade_Module_1_The_Sea_-_Kathleen_Neill-Manker.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -43,12 +43,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/the-hardwaresoftware-connection/Replace_Lesson_1_WY-Slice1_-_Adrienne_Unertl.pdf
 - /uploads/the-hardwaresoftware-connection/WY-Slice_2nd_Lesson_Cybersecurity_A.Unertl_-_Adrienne_Unertl.pdf
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

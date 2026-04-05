@@ -1,7 +1,10 @@
 ---
 title: “Weather” you know or not…. Classroom temperature is a hot topic!
-description: This lesson merges weather, microbit, programming and social impact. Does the temperature of a classroom matter? Yes! In PSD, the school calendar has been modified, school days have been cancelled,
-  participants health have been compromised because of hot classrooms. How can you tell when a classroom is too hot? Easy! Code a microbit!
+description: This lesson merges weather, microbit, programming and social impact.
+  Does the temperature of a classroom matter? Yes! In PSD, the school calendar has
+  been modified, school days have been cancelled, participants health have been compromised
+  because of hot classrooms. How can you tell when a classroom is too hot? Easy! Code
+  a microbit!
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Tracey Winey

@@ -1,7 +1,10 @@
 ---
 title: Explore Block Programming with Free Scratch
-description: Students are introduced to block programing for the first time and are given several sets of tasks to complete to show that they were able to follow directions an able to customize their program
-  to their individual taste. They enter a competition periodically perhaps every fourth or fifth period to select the top programs from the class by demonstrating to another elementary class.
+description: Students are introduced to block programing for the first time and are
+  given several sets of tasks to complete to show that they were able to follow directions
+  an able to customize their program to their individual taste. They enter a competition
+  periodically perhaps every fourth or fifth period to select the top programs from
+  the class by demonstrating to another elementary class.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Harry C Guess III
@@ -57,7 +60,6 @@ standards:
   - VA:Cr3
 materials: Website, https://scratch.mit.edu/
 tags:
-- Data Collection
 - Scratch
 standard_types:
 - CCSS ELA

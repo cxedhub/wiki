@@ -27,10 +27,6 @@ materials: Website, Laptops - Future sessions would require more tech.
 tags:
 - Data Collection
 - Robotics
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-AP-10
@@ -57,6 +53,10 @@ standards:
   - SL.7
 supplements:
 - /uploads/introduction-to-computer-science-and-speedgeeking-101/Computer_Science_Lesson_2_-_Whitney_Wilking.docx
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

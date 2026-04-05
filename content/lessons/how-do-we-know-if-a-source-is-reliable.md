@@ -31,12 +31,12 @@ standards:
   - ISTE-7c
   NCSS C3:
   - D2.His.2.6-8
+supplements:
+- /uploads/how-do-we-know-if-a-source-is-reliable/Exploring_Web_Pages_Activity_Guide_-_Chad_Miller.pdf
 standard_types:
 - CSTA
 - ISTE
 - NCSS C3
-supplements:
-- /uploads/how-do-we-know-if-a-source-is-reliable/Exploring_Web_Pages_Activity_Guide_-_Chad_Miller.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

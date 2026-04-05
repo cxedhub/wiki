@@ -29,11 +29,6 @@ materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other 
 tags:
 - Project-Based
 - Robotics
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -67,6 +62,11 @@ standards:
 supplements:
 - /uploads/lesson-plan-2-first-lego-league-white-energy-journey/Lesson_Plan_2-First_LEGO_League_White_Energy_-_Alicia_Vonberg.pdf
 - /uploads/lesson-plan-2-first-lego-league-white-energy-journey/Lesson_Plan_2-First_LEGO_League_White_Energy_1_-_Alicia_Vonberg.pdf
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

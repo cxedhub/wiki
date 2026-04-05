@@ -27,13 +27,6 @@ tags:
 - Data Collection
 - Unplugged
 - micro:bit
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -72,6 +65,13 @@ supplements:
 - /uploads/volcano-animation/volcano-animations-1-slides_-_Rebecca_Butterfield.pptx
 - /uploads/volcano-animation/volcano-animations-5-slides_-_Rebecca_Butterfield.pptx
 - /uploads/volcano-animation/volcano-animations-2-slides_-_Rebecca_Butterfield.pptx
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- NCSS C3
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

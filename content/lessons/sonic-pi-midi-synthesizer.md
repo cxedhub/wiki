@@ -47,12 +47,12 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+supplements:
+- /uploads/sonic-pi-midi-synthesizer/Sonic_Pi_Intro_-_Colin_Botts.pdf
 standard_types:
 - CSTA
 - ISTE
 - National Core Arts
-supplements:
-- /uploads/sonic-pi-midi-synthesizer/Sonic_Pi_Intro_-_Colin_Botts.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

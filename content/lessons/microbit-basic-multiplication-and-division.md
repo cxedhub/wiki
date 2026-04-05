@@ -40,12 +40,12 @@ materials: Website, Micro:bit
 tags:
 - Unplugged
 - micro:bit
+supplements:
+- /uploads/microbit-basic-multiplication-and-division/Lesson_Three__Microbit_Basic_Multiplication_and_Division_-_Megan_Moore.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/microbit-basic-multiplication-and-division/Lesson_Three__Microbit_Basic_Multiplication_and_Division_-_Megan_Moore.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

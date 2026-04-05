@@ -37,13 +37,13 @@ standards:
 materials: Scratch Jr.
 tags:
 - Scratch
+supplements:
+- /uploads/alphabetical-order/StudentAlphamixup_-_Kristine_Gaskill.sjr
+- /uploads/alphabetical-order/AlpabetMixup_-_Kristine_Gaskill.sjr
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/alphabetical-order/StudentAlphamixup_-_Kristine_Gaskill.sjr
-- /uploads/alphabetical-order/AlpabetMixup_-_Kristine_Gaskill.sjr
 ---
 # OVERVIEW
 ## Activity Overview:  

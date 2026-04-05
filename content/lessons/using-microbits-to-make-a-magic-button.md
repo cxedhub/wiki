@@ -34,11 +34,11 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
+supplements:
+- /uploads/using-microbits-to-make-a-magic-button/MICROBITS_submission_1-_magic_button_-_Ryan_Olson.pdf
 standard_types:
 - CSTA
 - ISTE
-supplements:
-- /uploads/using-microbits-to-make-a-magic-button/MICROBITS_submission_1-_magic_button_-_Ryan_Olson.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

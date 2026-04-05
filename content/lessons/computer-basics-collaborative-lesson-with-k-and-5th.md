@@ -1,25 +1,24 @@
 ---
 title: Computer Basics (Collaborative lesson with K and 5th)
-description: Kindergarten students will be working with 5th grade students to learn about the proper care and use of their computers. They will learn how to turn on their Chrome books and login using their
-  badge. They will then be able to get into the internet and find clever in the bookmarks. Once in clever they will be able to navigate the apps provided. They will know how to login in to the app if necessary
-  and how to find their avatar. Each task will be assessed by a 5th grader to ensure that the Kindergartener has successfully mastered the task and can repeat the task independently
+description: Kindergarten students will be working with 5th grade students to learn
+  about the proper care and use of their computers. They will learn how to turn on
+  their Chrome books and login using their badge. They will then be able to get into
+  the internet and find clever in the bookmarks. Once in clever they will be able
+  to navigate the apps provided. They will know how to login in to the app if necessary
+  and how to find their avatar. Each task will be assessed by a 5th grader to ensure
+  that the Kindergartener has successfully mastered the task and can repeat the task
+  independently
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Sadie Graff
 subjects:
 - Computer Science
-- Reading/Language Arts
-- Technology
 grade_levels:
 - K-2
-- 3-5
 cs_domains:
 - Computing Systems
-- Networks and The Internet
 cs_principles:
 - Fostering an Inclusive Computing Culture
-- Collaborating Around Computing
-- Communicating About Computing
 standards:
   CSTA:
   - 1A-AP-10

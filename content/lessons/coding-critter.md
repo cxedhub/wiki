@@ -36,15 +36,15 @@ standards:
 materials: Coding Critter
 tags:
 - Robotics
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 supplements:
 - /uploads/coding-critter/Document_11_-_Jody_Durst.docx
 - /uploads/coding-critter/Document_9_-_Jody_Durst_-_Jody_Durst.pdf
 - /uploads/coding-critter/Document_9_-_Jody_Durst.pdf
 - /uploads/coding-critter/Coding_Critter_-_Jody_Durst.pdf
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

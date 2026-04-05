@@ -41,14 +41,14 @@ materials: Micro:bit, Paid access to Gizmo's website
 tags:
 - Data Collection
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 supplements:
 - /uploads/plant-growth-experiment-with-microbits/Penguin_Lab_with_microbits_-_Sara_Percy.pdf
 - /uploads/plant-growth-experiment-with-microbits/Plant_Growth_Experiment_1_-_Sara_Percy.pdf
 - /uploads/plant-growth-experiment-with-microbits/Plant_Growth_Experiment_-_Sara_Percy.pdf
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,8 @@
 ---
 title: What to do with the stuff I have
-description: Students are given CONNEX or VEX pieces from a build kit and are given a mission. As a team they will create an artifact to complete the project. They can use any items available
+description: Students are given CONNEX or VEX pieces from a build kit and are given
+  a mission. As a team they will create an artifact to complete the project. They
+  can use any items available
 date: '2022-09-18 00:00:00+00:00'
 draft: false
 author: Will Barnes

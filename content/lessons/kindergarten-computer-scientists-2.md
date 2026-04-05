@@ -34,9 +34,6 @@ materials: None
 tags:
 - Project-Based
 - Robotics
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/kindergarten-computer-scientists-2/JTyserKinderCompScientists_-_Julia_Tyser1.pptx
 - /uploads/kindergarten-computer-scientists-2/JTyserKinderCompScientists_-_Julia_Tyser.pptx
@@ -44,6 +41,10 @@ supplements:
 - /uploads/kindergarten-computer-scientists-2/K2021R2L7_-_Julia_Tyser.pptx
 - /uploads/kindergarten-computer-scientists-2/K2021R2L6_-_Julia_Tyser.pptx
 - /uploads/kindergarten-computer-scientists-2/K2021R2L5_-_Julia_Tyser.pptx
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

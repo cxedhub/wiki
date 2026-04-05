@@ -39,12 +39,12 @@ tags:
 - Robotics
 - Unplugged
 - micro:bit
+supplements:
+- /uploads/sight-word-bowling/Sight_Word_Bowling_Lesson_-Jenny_Day_-_Jenny_Day.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-supplements:
-- /uploads/sight-word-bowling/Sight_Word_Bowling_Lesson_-Jenny_Day_-_Jenny_Day.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

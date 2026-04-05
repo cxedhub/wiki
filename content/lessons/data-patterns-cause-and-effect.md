@@ -27,11 +27,6 @@ materials: 'Micro:bit, Physicial Materials: ruler, calculator, construction pape
 tags:
 - Data Collection
 - micro:bit
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- National Core Arts
 standards:
   CSTA:
   - 1B-AP-08
@@ -57,6 +52,12 @@ standards:
   - VA:Cr2
 supplements:
 - /uploads/data-patterns-cause-and-effect/Data_logging___micro_bit_-_Kendrea_Herring.pdf
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,9 +21,6 @@ cs_principles:
 materials: Micro:bit
 tags:
 - micro:bit
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -48,6 +45,10 @@ standards:
   - ISTE-7b
 supplements:
 - /uploads/introduction-to-the-microbit/Charles_Morton_WY_Slice_2022_-_Lessonplan_A_Draft_-_Charles_Morton.pdf
+standard_types:
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

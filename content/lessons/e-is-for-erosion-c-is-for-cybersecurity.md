@@ -26,10 +26,6 @@ materials: None
 tags:
 - Cybersecurity
 - Project-Based
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -52,6 +48,10 @@ standards:
 supplements:
 - /uploads/e-is-for-erosion-c-is-for-cybersecurity/E_for_Erosion_-_Katherine_Cline.pptx
 - /uploads/e-is-for-erosion-c-is-for-cybersecurity/E_for_Erosion_-_Katherine_Cline1.pptx
+standard_types:
+- CSTA
+- ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

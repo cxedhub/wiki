@@ -63,14 +63,14 @@ standards:
   CCSS Math:
   - 2.MD
   - 4.MD
+supplements:
+- /uploads/getting-started-with-microbit/Getting_started_with_Micro_bit_Lesson_Plan.docx_-_MELISSA_HARRIS.pdf
+- /uploads/getting-started-with-microbit/Caeser-Cipher-Wheel-Template-Design-V5_-_MELISSA_HARRIS.pdf
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
-supplements:
-- /uploads/getting-started-with-microbit/Getting_started_with_Micro_bit_Lesson_Plan.docx_-_MELISSA_HARRIS.pdf
-- /uploads/getting-started-with-microbit/Caeser-Cipher-Wheel-Template-Design-V5_-_MELISSA_HARRIS.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

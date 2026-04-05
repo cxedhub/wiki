@@ -53,14 +53,14 @@ standards:
   - MS-ETS1-4
   NCSS C3:
   - D2.His.2.6-8
+supplements:
+- /uploads/radio-communicating-with-microbits/Radio_Communicating_with_Microbits_-_TAYLOR_PLANTT.pdf
+- /uploads/radio-communicating-with-microbits/Radio_Communicating_with_Microbits_-_Taylor_Plantt1.pdf
 standard_types:
 - CSTA
 - ISTE
 - NCSS C3
 - NGSS
-supplements:
-- /uploads/radio-communicating-with-microbits/Radio_Communicating_with_Microbits_-_TAYLOR_PLANTT.pdf
-- /uploads/radio-communicating-with-microbits/Radio_Communicating_with_Microbits_-_Taylor_Plantt1.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -38,15 +38,15 @@ standards:
 materials: Website, Mystery Science, Readworks
 tags:
 - Data Collection
+supplements:
+- /uploads/where-do-clouds-come-from/Weather_Data_Calendar_-_Melissa_Skinner.xlsx
+- /uploads/where-do-clouds-come-from/clouds_-_Melissa_Skinner.PNG
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
 - NGSS
-supplements:
-- /uploads/where-do-clouds-come-from/Weather_Data_Calendar_-_Melissa_Skinner.xlsx
-- /uploads/where-do-clouds-come-from/clouds_-_Melissa_Skinner.PNG
 ---
 # OVERVIEW
 ## Activity Overview:  

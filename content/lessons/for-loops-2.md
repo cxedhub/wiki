@@ -1,23 +1,20 @@
 ---
 title: For Loops
-description: Designed for students learning Java programming, that are beyond the use of block code, the students will make a program that uses a for loop and be able to explain what each component of the
-  for loop does and the syntax of the for loop in Java.
+description: Designed for students learning Java programming, that are beyond the
+  use of block code, the students will make a program that uses a for loop and be
+  able to explain what each component of the for loop does and the syntax of the for
+  loop in Java.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Selena Pope
 subjects:
 - Computer Science
-- Mathematics
 grade_levels:
 - 9-12
 cs_domains:
 - Computing Systems
-- Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
-- Developing and Using Abstractions
-- Creating Computational Artifacts
-- Testing and Refining Computational Artifacts
 standards:
   CSTA:
   - 3A-AP-13
@@ -42,6 +39,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

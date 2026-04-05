@@ -29,12 +29,12 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
-standard_types:
-- CSTA
-- ISTE
 supplements:
 - /uploads/penguin-coding-2/penguin_coding_-_Jeanie_SANDERS.docx
 - /uploads/penguin-coding-2/penguin_coding_grid_-_Jeanie_SANDERS.docx
+standard_types:
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

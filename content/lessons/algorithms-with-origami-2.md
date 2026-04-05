@@ -17,9 +17,6 @@ cs_principles:
 - Communicating About Computing
 materials: None
 tags: []
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 1B-AP-08
@@ -38,6 +35,11 @@ standards:
 supplements:
 - /uploads/algorithms-with-origami-2/WySLICE2020-Algorithms.docx_1_-_Brooke_George.pdf
 - /uploads/algorithms-with-origami-2/WySLICE2020-Algorithms.docx_1_-_Brooke_George1.pdf
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  
