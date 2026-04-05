@@ -1,7 +1,9 @@
 ---
 title: Factors and Hazards (Part One)
-description: 'In this activity, students explore the three factors that affect weather: precipitation, temperature, and wind. Students learn how meteorologists use weather tools to collect data. They learn
-  how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.'
+description: 'In this activity, students explore the three factors that affect weather:
+  precipitation, temperature, and wind. Students learn how meteorologists use weather
+  tools to collect data. They learn how to measure precipitation with a rain gauge
+  and how to measure temperature with a thermometer.'
 date: '2022-11-01 00:00:00+00:00'
 draft: false
 author: Tara Taliaferro
@@ -50,6 +52,8 @@ standards:
   - 3-ESS2-2
   - 3-ESS3-1
   - 5-ESS2-2
+supplements:
+- /uploads/factors-and-hazards-part-one/meteorologist_-_Tara_Taliaferro.jfif
 ---
 # OVERVIEW
 ## Activity Overview:  

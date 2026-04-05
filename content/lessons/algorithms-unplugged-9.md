@@ -1,7 +1,9 @@
 ---
 title: Algorithms Unplugged
-description: This lesson/activity is an introduction of algorithms. Students will be in small groups and assign someone as a 'bot' and will guide them by giving specific instructions/algorithms to move
-  to a specific location for no more than 10 'blocks'/directions. Students can rotate 'bots' and find different ways to create an algorithm.
+description: This lesson/activity is an introduction of algorithms. Students will
+  be in small groups and assign someone as a 'bot' and will guide them by giving specific
+  instructions/algorithms to move to a specific location for no more than 10 'blocks'/directions.
+  Students can rotate 'bots' and find different ways to create an algorithm.
 date: '2023-03-15 00:00:00+00:00'
 draft: false
 author: Burns William
@@ -42,6 +44,14 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/algorithms-unplugged-9/Algorithms_Unplugged_lesson_B_-_Melanie_Mullikin.pdf
+- /uploads/algorithms-unplugged-9/Lesson_C_PPT_-_Terri_Flock.pptx
+- /uploads/algorithms-unplugged-9/Lesson_A_-_Terri_Flock.docx
+- /uploads/algorithms-unplugged-9/WySLICE_Lesson_B_-_Terri_Flock.docx
+- /uploads/algorithms-unplugged-9/Lesson_C_PPT_-_Terri_Flock1.pptx
+- /uploads/algorithms-unplugged-9/Lesson_A_-_Terri_Flock1.docx
+- /uploads/algorithms-unplugged-9/WySLICE_Lesson_B_-_Terri_Flock1.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

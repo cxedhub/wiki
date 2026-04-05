@@ -1,7 +1,9 @@
 ---
 title: Student Choice Mission
-description: In this final project for the course, students team to Independently, scope the features of a piece of software,or Prototype a physical computing device, or Implement a plan for tackling a
-  piece of software that integrates hardware inputs and outputs, or explain the inner workings of a physical computer.
+description: In this final project for the course, students team to Independently,
+  scope the features of a piece of software,or Prototype a physical computing device,
+  or Implement a plan for tackling a piece of software that integrates hardware inputs
+  and outputs, or explain the inner workings of a physical computer.
 date: '2020-07-29 00:00:00+00:00'
 draft: false
 author: James Cunningham
@@ -44,6 +46,8 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/student-choice-mission/Lesson__Student_Choice_Missions_-_James_Cunningham.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

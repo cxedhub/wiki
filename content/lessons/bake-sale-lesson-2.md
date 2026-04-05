@@ -1,7 +1,8 @@
 ---
 title: Bake Sale Lesson 2
-description: Students will analyze their data from the survey they conducted, find ways to represent the data, make suggestions about how to use the results and present the information to the class. They
-  will create tables, graphs and a presentation.
+description: Students will analyze their data from the survey they conducted, find
+  ways to represent the data, make suggestions about how to use the results and present
+  the information to the class. They will create tables, graphs and a presentation.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Nate Reinhardt
@@ -30,6 +31,8 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/bake-sale-lesson-2/Bake_Sale_Lesson_2_-_Nate_Reinhardt.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

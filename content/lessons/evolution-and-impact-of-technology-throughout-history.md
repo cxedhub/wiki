@@ -1,10 +1,15 @@
 ---
 title: Evolution and Impact of Technology Throughout History
-description: This is going to be one of the first lessons that will be taught this school year as a way to set the stage for the year of social studies and will be more of an introduction to technology
-  than a hands on use of technology. We will look at what the definition of technology is and some examples of it in every civilization we will be studying throughout the year. We will look at the positive
-  and negative side effects of the technology had on people at the time and how it impacted or affected their daily lives and then jump forward to modern day and do the same thing with technology we have
-  available. There will be a computer science and social studies standard for this one and the STEM integration will be in the form of giving the students a problem in history and what technology then invented
-  to solve that problem.
+description: This is going to be one of the first lessons that will be taught this
+  school year as a way to set the stage for the year of social studies and will be
+  more of an introduction to technology than a hands on use of technology. We will
+  look at what the definition of technology is and some examples of it in every civilization
+  we will be studying throughout the year. We will look at the positive and negative
+  side effects of the technology had on people at the time and how it impacted or
+  affected their daily lives and then jump forward to modern day and do the same thing
+  with technology we have available. There will be a computer science and social studies
+  standard for this one and the STEM integration will be in the form of giving the
+  students a problem in history and what technology then invented to solve that problem.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Michelle Petty
@@ -41,6 +46,8 @@ standards:
   - D2.His.14.6-8
   - D2.His.3.6-8
   - D2.His.9.6-8
+supplements:
+- /uploads/evolution-and-impact-of-technology-throughout-history/WYSlice_Lesson_Plan_1_-_Updated_-_Michelle_Petty.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

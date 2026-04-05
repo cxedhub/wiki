@@ -15,7 +15,8 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
-materials: Website, Youtube.com Website can be used if you don't have the book at hand. Search youtube for any book on the list.
+materials: Website, Youtube.com Website can be used if you don't have the book at
+  hand. Search youtube for any book on the list.
 tags:
 - Unplugged
 standard_types:
@@ -36,6 +37,9 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
+supplements:
+- /uploads/algorithms-with-origami/lesson_plan_2_-_Marisol_Armstrong.docx
+- /uploads/algorithms-with-origami/lesson_plan_1_-_Marisol_Armstrong.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

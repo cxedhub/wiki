@@ -1,6 +1,7 @@
 ---
 title: Evolution of the Telephone
-description: Students spend several periods looking at the development of communication over the past 200 years.
+description: Students spend several periods looking at the development of communication
+  over the past 200 years.
 date: '2022-02-08 00:00:00+00:00'
 draft: false
 author: Victoria Davis
@@ -68,6 +69,14 @@ standard_types:
 - CSTA
 - ISTE
 - NCSS C3
+supplements:
+- /uploads/evolution-of-the-telephone/LessonPlan_WeatherStation_-_Victoria_Davis.docx
+- /uploads/evolution-of-the-telephone/Watershed_Analysis_-_Victoria_Davis.docx
+- /uploads/evolution-of-the-telephone/LessonPlan_SolarSystem_-_Victoria_Davis.docx
+- /uploads/evolution-of-the-telephone/History_of_the_Telephone_-_Victoria_Davis.docx
+- /uploads/evolution-of-the-telephone/MicroBit_Guitar_-_Victoria_Davis.pptx
+- /uploads/evolution-of-the-telephone/LessonPlan_SolarSystem_-_Victoria_Davis1.docx
+- /uploads/evolution-of-the-telephone/MicroBit_Guitar_-_Victoria_Davis1.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

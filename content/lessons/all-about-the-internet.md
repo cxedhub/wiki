@@ -37,6 +37,9 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/all-about-the-internet/What_is_the_Internet_and_How_Does_it_work_-_Christy_Rodgers.pdf
+- /uploads/all-about-the-internet/how-does-the-internet-work-infographic1559005944974_-_Christy_Rodgers.jpeg
 ---
 # OVERVIEW
 ## Activity Overview:  

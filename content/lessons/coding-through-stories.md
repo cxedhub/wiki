@@ -1,7 +1,9 @@
 ---
 title: Coding through Stories
-description: Reading is powerful, it can unlock a world of possibilities. Reading and having others read to us can increase our comprehension and memory. Through this activity we are going to tap into how
-  well students can use their memory of stories to code unplugged using directions as code.
+description: Reading is powerful, it can unlock a world of possibilities. Reading
+  and having others read to us can increase our comprehension and memory. Through
+  this activity we are going to tap into how well students can use their memory of
+  stories to code unplugged using directions as code.
 date: '2022-08-09 00:00:00+00:00'
 draft: false
 author: Madilynne Nading
@@ -14,7 +16,9 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Recognizing and Defining Computational Problems
-materials: 'None, Books: If you Give a Pig a Pancake, The very Hungry Caterpillar, and Brown Bear, Brown Bear what do you see?. As well as a class set of of each stories unplugged code page.'
+materials: 'None, Books: If you Give a Pig a Pancake, The very Hungry Caterpillar,
+  and Brown Bear, Brown Bear what do you see?. As well as a class set of of each stories
+  unplugged code page.'
 tags:
 - Unplugged
 standards:
@@ -33,6 +37,9 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/coding-through-stories/Brown_Bear_Brown_Bear_Unplugged_-_Madilynne_Nading.pdf
+- /uploads/coding-through-stories/Screen_Shot_2022-08-09_at_2.48.42_PM_-_Madilynne_Nading.png
 ---
 # OVERVIEW
 ## Activity Overview:  

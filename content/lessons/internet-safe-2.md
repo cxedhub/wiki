@@ -1,6 +1,7 @@
 ---
 title: Internet Safe!
-description: Students will understand what it means to be an active, safe, and responsible citizen when participating in an online community.
+description: Students will understand what it means to be an active, safe, and responsible
+  citizen when participating in an online community.
 date: '2022-08-30 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -36,6 +37,9 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/internet-safe-2/WYSLICE_Lesson_One__Internet_Safe_-_Megan_Moore.pdf
+- /uploads/internet-safe-2/WYSLICE_Lesson_One__Internet_Safe_1_-_Megan_Moore.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

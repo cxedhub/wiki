@@ -1,7 +1,9 @@
 ---
 title: Introduction to the microbit
-description: This lesson will teach 5th & 6th grade elementary students how to program and use a microbit. Learners will be able to use basic program commands to make the microbit display names, banners,
-  and numbers. Learners will also be able to program simple programs, then download it to the microbit.
+description: This lesson will teach 5th & 6th grade elementary students how to program
+  and use a microbit. Learners will be able to use basic program commands to make
+  the microbit display names, banners, and numbers. Learners will also be able to
+  program simple programs, then download it to the microbit.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Charles Morton
@@ -44,6 +46,8 @@ standards:
   - ISTE-4c
   - ISTE-6b
   - ISTE-7b
+supplements:
+- /uploads/introduction-to-the-microbit/Charles_Morton_WY_Slice_2022_-_Lessonplan_A_Draft_-_Charles_Morton.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

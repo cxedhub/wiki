@@ -1,6 +1,7 @@
 ---
 title: WHAT DOES TECHNOLOGY LOOK LIKE?
-description: Students will brainstorm what technology is, what it looks like and the parts/functions of a computer.
+description: Students will brainstorm what technology is, what it looks like and the
+  parts/functions of a computer.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Alicia Auzqui
@@ -33,6 +34,8 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/what-does-technology-look-like/IMG_1972_-_Alicia_Auzqui.jpg
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,8 @@
 ---
 title: Sea Creature Safety
-description: •        To discover more about the threats faced by sea turtles •        To learn about efforts to help them •        To learn how micro:bit inputs (sensors) and outputs (LED lights) can be
-  used to make a prototype to help protect sea turtles
+description: •        To discover more about the threats faced by sea turtles •        To
+  learn about efforts to help them •        To learn how micro:bit inputs (sensors)
+  and outputs (LED lights) can be used to make a prototype to help protect sea turtles
 date: '2023-04-14 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -34,6 +35,9 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/sea-creature-safety/WySLICE_Lesson_1_1_-_Rebecca_Butterfield.pdf
+- /uploads/sea-creature-safety/saving-sea-creatures-2-slides_-_Rebecca_Butterfield.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Pixel Art Coordinates
-description: Students use Google Sheets to create a drawing and plot the corresponding ordered pairs that they used in their creation.
+description: Students use Google Sheets to create a drawing and plot the corresponding
+  ordered pairs that they used in their creation.
 date: '2021-07-01 00:00:00+00:00'
 draft: false
 author: Ryan Martinez
@@ -39,6 +40,8 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/pixel-art-coordinates/Pixel_Art_and_Ordered_Pairs_-_Ryan_Martinez.xlsx
 ---
 # OVERVIEW
 ## Activity Overview:  

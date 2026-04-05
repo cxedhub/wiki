@@ -1,6 +1,7 @@
 ---
 title: Penguin Coding
-description: The students had to use arrows to provide directions for the penguin to take in order to get to the fish without landing on a whale.
+description: The students had to use arrows to provide directions for the penguin
+  to take in order to get to the fish without landing on a whale.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders
@@ -31,6 +32,9 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/penguin-coding-2/penguin_coding_-_Jeanie_SANDERS.docx
+- /uploads/penguin-coding-2/penguin_coding_grid_-_Jeanie_SANDERS.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

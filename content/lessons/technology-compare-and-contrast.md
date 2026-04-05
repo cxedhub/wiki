@@ -1,6 +1,7 @@
 ---
 title: Technology Compare and Contrast
-description: Students will independently or collaboratively compare and contrast technology and how it has changed our lives and how technology devices have changed.
+description: Students will independently or collaboratively compare and contrast technology
+  and how it has changed our lives and how technology devices have changed.
 date: '2022-10-24 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -38,6 +39,10 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/technology-compare-and-contrast/Lesson_Two__Technology_Compare_and_Contrast_-_Megan_Moore.docx
+- /uploads/technology-compare-and-contrast/Megan_Moore_-Draft-Lesson-Lesson_C-7-15-2022_-_Megan_Moore.docx
+- /uploads/technology-compare-and-contrast/Lesson_Two__Technology_Compare_and_Contrast_-_Megan_Moore.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

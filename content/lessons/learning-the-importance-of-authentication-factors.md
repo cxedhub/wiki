@@ -1,7 +1,9 @@
 ---
 title: Learning the Importance of Authentication Factors
-description: Students will learn what authentication factors are, and the importance of keeping them private. They will apply the use of authentication factors to log into a variety of programs and applications
-  in preparation for work throughout the school year.
+description: Students will learn what authentication factors are, and the importance
+  of keeping them private. They will apply the use of authentication factors to log
+  into a variety of programs and applications in preparation for work throughout the
+  school year.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kathleen Cherry
@@ -28,6 +30,8 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/learning-the-importance-of-authentication-factors/Learning_the_Importance_of_Authentication_Factors_-_Kathleen_Cherry.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

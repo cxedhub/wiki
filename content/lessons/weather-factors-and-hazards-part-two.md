@@ -1,6 +1,7 @@
 ---
 title: 'Weather: Factors and Hazards (Part Two)'
-description: In this activity, students continue their exploration of weather. They learn about two new weather tools- a wind sock and an anemometer.
+description: In this activity, students continue their exploration of weather. They
+  learn about two new weather tools- a wind sock and an anemometer.
 date: '2022-08-12 00:00:00+00:00'
 draft: false
 author: Tara Taliaferro
@@ -45,6 +46,8 @@ standards:
   - 3-ESS3-1
   - 4-PS3-1
   - 4-PS3-2
+supplements:
+- /uploads/weather-factors-and-hazards-part-two/weather_factors_and_hazards_logbook_-_Tara_Taliaferro.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

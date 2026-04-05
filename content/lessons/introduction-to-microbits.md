@@ -1,6 +1,8 @@
 ---
 title: Introduction to Micro:bits
-description: Students will learn what micro:bits are and how they can be used. They will also learn how to code their own micro:bits. They will start by making flashing hearts.
+description: Students will learn what micro:bits are and how they can be used. They
+  will also learn how to code their own micro:bits. They will start by making flashing
+  hearts.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Jenny Day
@@ -42,6 +44,9 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/introduction-to-microbits/Introduction_to_Micro_bits_-_Jenny_Day.pptx
+- /uploads/introduction-to-microbits/Introduction_to_Micro_bits_Lesson_1_-Jenny_Day_-_Jenny_Day.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Ethics in Technology
-description: Examination of ethical concerns revolving around technology, specifically social media and technology giants like Google
+description: Examination of ethical concerns revolving around technology, specifically
+  social media and technology giants like Google
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Jamie Le Jambre
@@ -64,6 +65,8 @@ standard_types:
 - CSTA
 - ISTE
 - NCSS C3
+supplements:
+- /uploads/ethics-in-technology/Social_Dilemma_Timings_-_Jamie_LeJambre.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Micro:bit Level Up
-description: This lesson provides an introduction to micro:bits and 4 levels of activities to learn about the possibilities of the micro:bit.
+description: This lesson provides an introduction to micro:bits and 4 levels of activities
+  to learn about the possibilities of the micro:bit.
 date: '2021-03-18 00:00:00+00:00'
 draft: false
 author: Julie Snyder
@@ -39,6 +40,8 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/microbit-level-up/Lesson_Plan-Microbit_Cars_-_Julie_Snyder.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,8 @@
 ---
 title: Sequencing-Storytelling
-description: This lesson, as adapted and written, is for middle school students in the library setting. Students will explore algorithms to perform simple tasks. Then they will explore online coding tools
-  in order to retell a story.
+description: This lesson, as adapted and written, is for middle school students in
+  the library setting. Students will explore algorithms to perform simple tasks. Then
+  they will explore online coding tools in order to retell a story.
 date: '2023-04-23 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -45,6 +46,10 @@ standards:
   - L.7
   - RL.7
   - SL.7
+supplements:
+- /uploads/sequencing-storytelling-2/Copy_of_Lesson_Plan_-_Sequencing_-_Devin_Hodgins.docx
+- /uploads/sequencing-storytelling-2/Copy_of_Copy_of_Lesson_Plan_-_Sequencing_-_Devin_Hodgins.docx
+- /uploads/sequencing-storytelling-2/Coding_Practice_-_Devin_Hodgins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

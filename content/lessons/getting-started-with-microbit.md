@@ -1,7 +1,9 @@
 ---
 title: Getting started with Micro:bit
-description: 'Students will explore the functions of the MIcro: bit. Students have not had experience with this and I have very little. Together, we will learn basic programming operations using makecode.mirobit.org
-  tutorials. Students will work in pairs/groups to complete tasks such as programing dice and a name tag.'
+description: 'Students will explore the functions of the MIcro: bit. Students have
+  not had experience with this and I have very little. Together, we will learn basic
+  programming operations using makecode.mirobit.org tutorials. Students will work
+  in pairs/groups to complete tasks such as programing dice and a name tag.'
 date: '2021-12-13 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -66,6 +68,9 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/getting-started-with-microbit/Getting_started_with_Micro_bit_Lesson_Plan.docx_-_MELISSA_HARRIS.pdf
+- /uploads/getting-started-with-microbit/Caeser-Cipher-Wheel-Template-Design-V5_-_MELISSA_HARRIS.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

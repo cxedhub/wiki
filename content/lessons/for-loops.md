@@ -1,7 +1,9 @@
 ---
 title: For Loops
-description: Designed for students learning Java programming, that are beyond the use of block code, the students will make a program that uses a for loop and be able to explain what each component of the
-  for loop does and the syntax of the for loop in Java.
+description: Designed for students learning Java programming, that are beyond the
+  use of block code, the students will make a program that uses a for loop and be
+  able to explain what each component of the for loop does and the syntax of the for
+  loop in Java.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Selena Pope
@@ -34,6 +36,13 @@ tags: []
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/for-loops/forloop1_-_Selena_Pope.png
+- /uploads/for-loops/forloop1_-_Selena_Pope1.png
+- /uploads/for-loops/forloop_-_Selena_Pope.png
+- /uploads/for-loops/forloop2_-_Selena_Pope1.png
+- /uploads/for-loops/forloop_-_Selena_Pope1.png
+- /uploads/for-loops/forloop2_-_Selena_Pope.png
 ---
 # OVERVIEW
 ## Activity Overview:  

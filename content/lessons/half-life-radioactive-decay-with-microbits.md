@@ -1,7 +1,10 @@
 ---
 title: Half Life Radioactive Decay with Micro:bits
-description: Introduce basic programming of the micro:bit while reiterating the integration of math in physical science exploring half life radioactive decay. Will calculate starting mass, ending mass or
-  half life but the limitations on half life include 1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for an unknown exponent is not possible.
+description: Introduce basic programming of the micro:bit while reiterating the integration
+  of math in physical science exploring half life radioactive decay. Will calculate
+  starting mass, ending mass or half life but the limitations on half life include
+  1 or 2 half lives only. Without the use of logarithms on micro:bits, solving for
+  an unknown exponent is not possible.
 date: '2021-07-03 00:00:00+00:00'
 draft: false
 author: Clint Chandler
@@ -44,6 +47,8 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/half-life-radioactive-decay-with-microbits/Lesson_Plan_microbits_half_life_-_Clinton_Chandler.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

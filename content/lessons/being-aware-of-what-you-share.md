@@ -1,7 +1,9 @@
 ---
 title: Being Aware of What You Share
-description: Kids share a lot of information whenever they go online -- sometimes on purpose, sometimes not. But do they understand that online privacy isn't just what they say and post? Help your students
-  learn about their digital footprints and the steps they can take to shape what others find and see about them.
+description: Kids share a lot of information whenever they go online -- sometimes
+  on purpose, sometimes not. But do they understand that online privacy isn't just
+  what they say and post? Help your students learn about their digital footprints
+  and the steps they can take to shape what others find and see about them.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Autumn Spiva
@@ -42,6 +44,8 @@ standards:
   - ISTE-7b
   CCSS ELA:
   - SL.7
+supplements:
+- /uploads/being-aware-of-what-you-share/Being_Aware_of_What_You_Share___Common_Sense_Education_-_Autumn_Spiva.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

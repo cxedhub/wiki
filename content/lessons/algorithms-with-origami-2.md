@@ -35,6 +35,9 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
+supplements:
+- /uploads/algorithms-with-origami-2/WySLICE2020-Algorithms.docx_1_-_Brooke_George.pdf
+- /uploads/algorithms-with-origami-2/WySLICE2020-Algorithms.docx_1_-_Brooke_George1.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,8 @@
 ---
 title: Using Microbits to measure conductivity of metallic, ionic and covalent bonds.
-description: •        Observe the conductivity strength between different types of bonds, metallic, ionic and covalent. •        Program a Microbit to test the electrical conductivity of different materials.
+description: •        Observe the conductivity strength between different types of
+  bonds, metallic, ionic and covalent. •        Program a Microbit to test the electrical
+  conductivity of different materials.
 date: '2020-11-28 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -44,6 +46,8 @@ standards:
   - HS-PS4-1
   - HS-PS4-3
   - HS-PS4-5
+supplements:
+- /uploads/using-microbits-to-measure-conductivity-of-metallic-ionic-and-covalent-bonds/Schwessinger_Wyslice_lesson_2_Physical_Science_-_SAM_SCHWESSINGER.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,9 @@
 ---
 title: Input/Output
-description: 'In this lesson students will be translating mathematical functions into computer programming functions to solve. This can be used as an introductory lesson before teaching equation solving.
-  Note: students will need to have an understanding of Javascript.'
+description: 'In this lesson students will be translating mathematical functions into
+  computer programming functions to solve. This can be used as an introductory lesson
+  before teaching equation solving. Note: students will need to have an understanding
+  of Javascript.'
 date: '2022-10-30 00:00:00+00:00'
 draft: false
 author: Kristy Barr
@@ -42,6 +44,9 @@ standards:
   - 6.EE
   - 7.EE
   - 8.F
+supplements:
+- /uploads/inputoutput-2/Output_-_Kristy_Barr_-_Kristy_Barr.docx
+- /uploads/inputoutput-2/Output_-_Kristy_Barr.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

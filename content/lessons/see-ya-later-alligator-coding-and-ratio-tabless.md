@@ -1,7 +1,10 @@
 ---
 title: 'See Ya Later, Alligator: Coding and Ratio Tabless'
-description: Students will work in pairs to build ratio tables defining a list of data for distance traveled by various animals over time based on their speed. Students will design a formula for their assigned
-  ratio table and then program a Micro:Bit to quickly calculate the output data and record it in their Google Sheet. Then, students will discuss the efficiency of solving the problem and be introduced to
+description: Students will work in pairs to build ratio tables defining a list of
+  data for distance traveled by various animals over time based on their speed. Students
+  will design a formula for their assigned ratio table and then program a Micro:Bit
+  to quickly calculate the output data and record it in their Google Sheet. Then,
+  students will discuss the efficiency of solving the problem and be introduced to
   the Google Sheets formula to validate their data.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
@@ -50,6 +53,10 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/see-ya-later-alligator-coding-and-ratio-tabless/Using_Coding_to_Build_Ratio_Tables_-_Becky_Junge.pptx
+- /uploads/see-ya-later-alligator-coding-and-ratio-tabless/See_Ya_Later_Alligator__Using_Coding_to_Build_Ratio_Tables_Lesson_Plan_1_-_Becky_Junge.pdf
+- /uploads/see-ya-later-alligator-coding-and-ratio-tabless/Morse_Code_Handout_-_Becky_Junge.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

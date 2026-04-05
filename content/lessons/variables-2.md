@@ -1,7 +1,9 @@
 ---
 title: Variables
-description: This lesson introduces the use of variables to store data or the results of mathematical operations. Students will practice giving variables unique and meaningful names. We will also introduce
-  the basic mathematical operations for adding, subtracting, multiplying, and dividing variables.
+description: This lesson introduces the use of variables to store data or the results
+  of mathematical operations. Students will practice giving variables unique and meaningful
+  names. We will also introduce the basic mathematical operations for adding, subtracting,
+  multiplying, and dividing variables.
 date: '2022-11-03 00:00:00+00:00'
 draft: false
 author: Autumn Spiva
@@ -44,6 +46,10 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/variables-2/Variables_-_Autumn_Spiva.pdf
+- /uploads/variables-2/Autumn_Spiva-Draft-Lesson-Lesson_A-7-14-2022_-_Autumn_Spiva.docx
+- /uploads/variables-2/Variables_Assessment_-_Autumn_Spiva.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

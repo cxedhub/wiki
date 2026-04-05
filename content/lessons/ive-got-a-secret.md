@@ -1,7 +1,9 @@
 ---
 title: I've got a secret!
-description: Bee Boop Bee Boop! This lesson will explore cryptology and ciphers. We will reserach the topic using a scavenger hunt that students will be able to dig deep into their thinking and how ciphers
-  work. Then students will be able to create and decode many ciphers with different keys.
+description: Bee Boop Bee Boop! This lesson will explore cryptology and ciphers. We
+  will reserach the topic using a scavenger hunt that students will be able to dig
+  deep into their thinking and how ciphers work. Then students will be able to create
+  and decode many ciphers with different keys.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse
@@ -33,6 +35,14 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/ive-got-a-secret/Cutebot_Battle_Bots__Rules_-_Stephanie_Newhouse.docx
+- /uploads/ive-got-a-secret/cutebot_challenge_-_Stephanie_Newhouse.docx
+- /uploads/ive-got-a-secret/CuteBot_Challenge_-_Stephanie_Newhouse.pptx
+- /uploads/ive-got-a-secret/cipher_activity_guide_-_Stephanie_Newhouse.docx
+- /uploads/ive-got-a-secret/activity_rubrics_1_-_Stephanie_Newhouse.docx
+- /uploads/ive-got-a-secret/activity_rubrics_-_Stephanie_Newhouse.docx
+- /uploads/ive-got-a-secret/cipher_rubric_-_Stephanie_Newhouse.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

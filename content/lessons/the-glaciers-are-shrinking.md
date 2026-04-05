@@ -1,6 +1,8 @@
 ---
 title: The Glaciers Are Shrinking?!
-description: Using data gained from an article and a simulation, students will determine whether or not the Glaciers of Glacier National Park are shrinking, and predict the future of the glaciers.
+description: Using data gained from an article and a simulation, students will determine
+  whether or not the Glaciers of Glacier National Park are shrinking, and predict
+  the future of the glaciers.
 date: '2022-09-16 00:00:00+00:00'
 draft: false
 author: Julie L. Calkins
@@ -34,6 +36,8 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/the-glaciers-are-shrinking/The_Glaciers_Are_Shrinking__-_Julie_Calkins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

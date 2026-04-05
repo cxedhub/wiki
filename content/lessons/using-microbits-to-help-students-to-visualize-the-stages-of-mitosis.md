@@ -1,7 +1,9 @@
 ---
 title: Using Microbits to help Students to Visualize the Stages of  Mitosis
-description: Using Microbits to help students visualize the stages of Mitosis lesson can be used after the concept of Mitosis has been reviewed or taught. This lesson can be used to address misconceptions
-  or as a reinforcement for the stages of Mitosis. Students are given a choice of how they can represent the stages of Mitosis.
+description: Using Microbits to help students visualize the stages of Mitosis lesson
+  can be used after the concept of Mitosis has been reviewed or taught. This lesson
+  can be used to address misconceptions or as a reinforcement for the stages of Mitosis.
+  Students are given a choice of how they can represent the stages of Mitosis.
 date: '2021-05-07 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
@@ -32,6 +34,8 @@ standards:
   NGSS:
   - HS-LS1-1
   - HS-LS1-4
+supplements:
+- /uploads/using-microbits-to-help-students-to-visualize-the-stages-of-mitosis/Schwessinger_Wyslice_lesson_3_Mitosis_-_SAM_SCHWESSINGER.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

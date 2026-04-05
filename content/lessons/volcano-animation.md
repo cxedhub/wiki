@@ -1,6 +1,7 @@
 ---
 title: Volcano Animation
-description: Students use flowcharts and repetition to explore building a volcanic eruption on a Micro:Bit.
+description: Students use flowcharts and repetition to explore building a volcanic
+  eruption on a Micro:Bit.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
@@ -65,6 +66,12 @@ standards:
   - D2.Geo.2.3-5
   - D2.Geo.4.3-5
   - D2.Geo.5.3-5
+supplements:
+- /uploads/volcano-animation/volcano-animations-3-slides_-_Rebecca_Butterfield.pptx
+- /uploads/volcano-animation/volcano-animations-4-slides_-_Rebecca_Butterfield.pptx
+- /uploads/volcano-animation/volcano-animations-1-slides_-_Rebecca_Butterfield.pptx
+- /uploads/volcano-animation/volcano-animations-5-slides_-_Rebecca_Butterfield.pptx
+- /uploads/volcano-animation/volcano-animations-2-slides_-_Rebecca_Butterfield.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

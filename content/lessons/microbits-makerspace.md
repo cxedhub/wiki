@@ -1,7 +1,9 @@
 ---
 title: Micro:bits / Makerspace
-description: The lesson is for coding with micro:bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for
-  small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
+description: The lesson is for coding with micro:bits. It is written broadly for implementation
+  as an activity for a whole group of students in a library/makerspace club or as
+  a free-choice activity for small groups or individuals. However, it can be adapted
+  for collaborative teaching to support various classroom curricula.
 date: '2022-08-13 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
@@ -69,6 +71,10 @@ standards:
   CCSS ELA:
   - SL.5
   - SL.7
+supplements:
+- /uploads/microbits-makerspace/Copy_of_Lesson_Plan_-_Micro_bits_-_Devin_Hodgins.docx
+- /uploads/microbits-makerspace/Lesson_Plan_-_DH_-_Micro_bits_-_Devin_Hodgins.pdf
+- /uploads/microbits-makerspace/Lesson_Plan_-_DH_-_Micro_bits_-_Devin_Hodgins.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

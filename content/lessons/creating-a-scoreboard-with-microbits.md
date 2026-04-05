@@ -1,6 +1,7 @@
 ---
 title: Creating a Scoreboard with Microbits
-description: Create a scoreboard you can use with your microbit. Create a program that you can use to keep score with your games.
+description: Create a scoreboard you can use with your microbit. Create a program
+  that you can use to keep score with your games.
 date: '2023-03-12 00:00:00+00:00'
 draft: false
 author: Ryan Olson
@@ -34,6 +35,14 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/creating-a-scoreboard-with-microbits/IMG-2880_-_Ryan_Olson.jpg
+- /uploads/creating-a-scoreboard-with-microbits/IMG-0405_-_Ryan_Olson.jpg
+- /uploads/creating-a-scoreboard-with-microbits/IMG-0398_-_Ryan_Olson.jpg
+- /uploads/creating-a-scoreboard-with-microbits/IMG-0402_-_Ryan_Olson.jpg
+- /uploads/creating-a-scoreboard-with-microbits/IMG-0403_-_Ryan_Olson.jpg
+- /uploads/creating-a-scoreboard-with-microbits/IMG-0404_-_Ryan_Olson.jpg
+- /uploads/creating-a-scoreboard-with-microbits/IMG-0406_-_Ryan_Olson.jpg
 ---
 # OVERVIEW
 ## Activity Overview:  

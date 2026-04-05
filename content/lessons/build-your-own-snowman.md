@@ -1,7 +1,9 @@
 ---
 title: Build Your Own Snowman
-description: Student learners will build a snowman using a Google Slides template. They will click and drag snowman parts and accessories to create a unique snowman. Once the snowman is built, they will
-  write a story about their snowman and it's unique personality.
+description: Student learners will build a snowman using a Google Slides template.
+  They will click and drag snowman parts and accessories to create a unique snowman.
+  Once the snowman is built, they will write a story about their snowman and it's
+  unique personality.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Charles Morton
@@ -50,6 +52,9 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/build-your-own-snowman/WY_Slice_-_Lesson_Plan_C_-_One_Fish_Two_Fish_Red_Fish_Blue_Fish_Sorting_Template_-_Charles_Morton.pdf
+- /uploads/build-your-own-snowman/WY_Slice_-_Lesson_Plan_B_-_Build_a_Snowman_-_Charles_Morton.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,9 @@
 ---
 title: Powerful Passwords
-description: This activity teaches students the importance of creating a safe and secure password. In addition, students will also make their own password using a set of guidelines. The passwords they create
-  may be used for accessing their school computers, websites or social media.
+description: This activity teaches students the importance of creating a safe and
+  secure password. In addition, students will also make their own password using a
+  set of guidelines. The passwords they create may be used for accessing their school
+  computers, websites or social media.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Marisol Armstrong
@@ -37,6 +39,8 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/powerful-passwords/L_Plan_A_MA_-_Marisol_Armstrong.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

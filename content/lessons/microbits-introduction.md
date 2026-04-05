@@ -1,6 +1,7 @@
 ---
 title: Microbits Introduction
-description: This lesson is used to introduce microbits to students. Students will be able to code with inclusion of sequences, events, loops, conditionals, and variables.
+description: This lesson is used to introduce microbits to students. Students will
+  be able to code with inclusion of sequences, events, loops, conditionals, and variables.
 date: '2023-03-15 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -34,6 +35,12 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
+supplements:
+- /uploads/microbits-introduction/Microbits_Investigation_-_Sindy_Joslin.pdf
+- /uploads/microbits-introduction/History_of_Robots_Student_data_-_Sindy_Joslin.xlsx
+- /uploads/microbits-introduction/Sandra_Joslin_Lesson_Plan2_-_Sindy_Joslin.docx
+- /uploads/microbits-introduction/Joslin_lesson_plan_A_-_Sindy_Joslin.docx
+- /uploads/microbits-introduction/Sandra_Joslin_Lesson_Plan2_-_Sindy_Joslin1.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

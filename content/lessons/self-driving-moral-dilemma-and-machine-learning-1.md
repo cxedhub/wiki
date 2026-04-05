@@ -1,7 +1,9 @@
 ---
 title: Self Driving Moral Dilemma and Machine Learning - 1
-description: This lesson asks students to create their own moral dilemma scenario and create possible outcomes for their scenario. Students must describe why someone would choose both outcomes and what
-  outcome they believe to be the correct choice and why.
+description: This lesson asks students to create their own moral dilemma scenario
+  and create possible outcomes for their scenario. Students must describe why someone
+  would choose both outcomes and what outcome they believe to be the correct choice
+  and why.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Garrid Halsey
@@ -43,6 +45,11 @@ standards:
   - MS-ETS1-4
   NCSS C3:
   - D2.His.2.6-8
+supplements:
+- /uploads/self-driving-moral-dilemma-and-machine-learning-1/Halsey_-_WySLICE_Lesson_Plan_1_-_Garrid_Halsey1.docx
+- /uploads/self-driving-moral-dilemma-and-machine-learning-1/Copy_of_Halsey_-_WySLICE_Lesson_Plan_2.docx_-_Garrid_Halsey1.pdf
+- /uploads/self-driving-moral-dilemma-and-machine-learning-1/Halsey_-_WySLICE_Lesson_Plan_1_-_Garrid_Halsey.docx
+- /uploads/self-driving-moral-dilemma-and-machine-learning-1/Copy_of_Halsey_-_WySLICE_Lesson_Plan_2.docx_-_Garrid_Halsey.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

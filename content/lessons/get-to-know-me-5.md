@@ -1,7 +1,10 @@
 ---
 title: Get to Know Me
-description: 'Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram
-  looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family.'
+description: 'Students will participate in a community building activity that will
+  integrate Computer Science through the use of the software/Key Note and hardware/iPad.
+  The students will populate an Instagram looking graphic organizer* with a photo
+  of a peer that matches the given criteria such as: Find someone who: walked to school
+  today, is wearing same colored shirt as you, and is the oldest in the family.'
 date: '2022-11-05 00:00:00+00:00'
 draft: false
 author: Kiley Hiser
@@ -27,6 +30,26 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/get-to-know-me-5/Lesson_A_-_Kara_Bowcutt1.docx
+- /uploads/get-to-know-me-5/Get_to_know_me_Teachers_-_Kara_Bowcutt.key
+- /uploads/get-to-know-me-5/Get_to_know_me_3rd_-_Kara_Bowcutt.key
+- /uploads/get-to-know-me-5/Get_to_know_me_1st_-_Kara_Bowcutt.key
+- /uploads/get-to-know-me-5/Get_to_know_me_3rd_-_Kara_Bowcutt.pptx
+- /uploads/get-to-know-me-5/Lesson_A_-_Kara_Bowcutt.docx
+- /uploads/get-to-know-me-5/WySLICE_Lesson_B_-_Kara_Bowcutt.docx
+- /uploads/get-to-know-me-5/Get_to_know_me_Teachers_-_Kara_Bowcutt.pptx
+- /uploads/get-to-know-me-5/Get_to_know_me_1st_-_Kara_Bowcutt.pptx
+- /uploads/get-to-know-me-5/Lesson_B_FINAL_-_Kara_Bowcutt.pdf
+- /uploads/get-to-know-me-5/Lesson_C_PPT_-_Kara_Bowcutt.pptx
+- /uploads/get-to-know-me-5/WySLICE_Lesson_B_-_Heather_Osterman.docx
+- /uploads/get-to-know-me-5/Lesson_C_PPT_-_Heather_Osterman.pptx
+- /uploads/get-to-know-me-5/WYSLICE_Lesson_A_Get_to_know_me_1st_-_Heather_Osterman.key
+- /uploads/get-to-know-me-5/WYSLICE_Lesson_A_Get_to_know_me_3rd_-_Heather_Osterman.key
+- /uploads/get-to-know-me-5/WYSLICE_Lesson_A_Get_to_know_me_Teachers_-_Heather_Osterman.key
+- /uploads/get-to-know-me-5/WYSLICE_Lesson_A_Get_to_know_me_-_Heather_Osterman.pptx
+- /uploads/get-to-know-me-5/Lesson_C_PPT_-_Kiley_Hiser1.pptx
+- /uploads/get-to-know-me-5/Lesson_C_PPT_-_Kiley_Hiser.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

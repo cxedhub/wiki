@@ -1,6 +1,7 @@
 ---
 title: Do you want to build a robot
-description: Students will learn about robots, how to program a microbit and create a microbit pet.
+description: Students will learn about robots, how to program a microbit and create
+  a microbit pet.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
@@ -52,6 +53,8 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/do-you-want-to-build-a-robot/Joslin_lesson_plan_B_-_Sindy_Joslin.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

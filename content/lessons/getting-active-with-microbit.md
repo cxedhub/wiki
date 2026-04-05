@@ -1,8 +1,12 @@
 ---
 title: Getting Active with Microbit
-description: 'They are introduced to variables and develop their understanding through a mixture of unplugged and practical programming activities. Pupils design and program the micro:bit to be a star-jump
-  and step counter and a family activity selector. The sequence comprises 5 lessons of approximately 60 minutes each: Describing with variables Using variables in algorithms and programs Analysing, programming
-  and evaluating step-counters Planning to get active Programming and evaluating a family activity picker'
+description: 'They are introduced to variables and develop their understanding through
+  a mixture of unplugged and practical programming activities. Pupils design and program
+  the micro:bit to be a star-jump and step counter and a family activity selector.
+  The sequence comprises 5 lessons of approximately 60 minutes each: Describing with
+  variables Using variables in algorithms and programs Analysing, programming and
+  evaluating step-counters Planning to get active Programming and evaluating a family
+  activity picker'
 date: '2020-11-27 00:00:00+00:00'
 draft: false
 author: Connie Hollin
@@ -21,8 +25,10 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-materials: 'Website, Micro:bit, Lesson plan Lesson slides Student handouts HEX files Other resources:  colour marker pens MakeCode editor micro:bits (optional) paper - large sheets printouts of slides stacking
-  games student work from previous lesson whiteboards & dry-wipe marker pens'
+materials: 'Website, Micro:bit, Lesson plan Lesson slides Student handouts HEX files
+  Other resources:  colour marker pens MakeCode editor micro:bits (optional) paper
+  - large sheets printouts of slides stacking games student work from previous lesson
+  whiteboards & dry-wipe marker pens'
 tags:
 - Unplugged
 - micro:bit
@@ -51,6 +57,9 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/getting-active-with-microbit/getting-active_-_Connie_Hollin.zip
+- /uploads/getting-active-with-microbit/Connie_H_WYSlice_Lesson_1_-_Connie_Hollin.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

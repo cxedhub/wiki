@@ -1,7 +1,10 @@
 ---
 title: Pixel Coding
-description: In this unplugged activity students will learn different ways to write out programs/codes to create large scale pixel art pieces. Students will learn three different ways to program/code through
-  out class practiced activities. End project will include a large scale art piece created out of a binary code that students individually created and another student has to decode.
+description: In this unplugged activity students will learn different ways to write
+  out programs/codes to create large scale pixel art pieces. Students will learn three
+  different ways to program/code through out class practiced activities. End project
+  will include a large scale art piece created out of a binary code that students
+  individually created and another student has to decode.
 date: '2021-07-26 00:00:00+00:00'
 draft: false
 author: Mackenzie Wiginton
@@ -53,6 +56,8 @@ standard_types:
 - CSTA
 - ISTE
 - National Core Arts
+supplements:
+- /uploads/pixel-coding/Pixel_Coding_-_Mackenzie_Wiginton.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

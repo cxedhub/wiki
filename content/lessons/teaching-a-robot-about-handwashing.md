@@ -1,7 +1,9 @@
 ---
 title: Teaching a Robot About Handwashing
-description: In this lesson, students will be teaching a robot about handwashing. They will be introduced to the vocabulary term algorithm and be asked to write an algorithm to teach a robot to wash its
-  hands. They will then make changes to their algorithms as necessary.
+description: In this lesson, students will be teaching a robot about handwashing.
+  They will be introduced to the vocabulary term algorithm and be asked to write an
+  algorithm to teach a robot to wash its hands. They will then make changes to their
+  algorithms as necessary.
 date: '2020-07-22 00:00:00+00:00'
 draft: false
 author: Jenifer Albrandt
@@ -35,6 +37,9 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/teaching-a-robot-about-handwashing/Computer_Science_Integration_Lesson_1_Jenifer_Albrandt_-_Jenifer_Albrandt.docx
+- /uploads/teaching-a-robot-about-handwashing/Computer_Science_Integration_Lesson_2_Jenifer_Albrandt_-_Jenifer_Albrandt.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

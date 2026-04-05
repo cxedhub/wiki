@@ -1,6 +1,8 @@
 ---
 title: Hour of Code introduction/ Ecosystems
-description: this will be an introduction to coding using Hour of Code, as a refresher/ attention grabber right after Christmas break. Will begin unit on Ecosystems which will use code.org project.
+description: this will be an introduction to coding using Hour of Code, as a refresher/
+  attention grabber right after Christmas break. Will begin unit on Ecosystems which
+  will use code.org project.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Brenna Franklin
@@ -50,6 +52,8 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/hour-of-code-introduction-ecosystems/Franklin_WYSLICE_lesson_2_-_Brenna_Franklin.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

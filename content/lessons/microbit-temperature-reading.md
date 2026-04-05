@@ -1,6 +1,7 @@
 ---
 title: Micro:bit Temperature Reading
-description: Students will program micro:bits to measure temperature readings in Celsius and then convert to Fahrenheit either using a math conversion.
+description: Students will program micro:bits to measure temperature readings in Celsius
+  and then convert to Fahrenheit either using a math conversion.
 date: '2023-03-13 00:00:00+00:00'
 draft: false
 author: Casey Harmon
@@ -57,6 +58,9 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/microbit-temperature-reading/microbit-temperature_-_Casey_Harmon.hex
+- /uploads/microbit-temperature-reading/microbit-caseys-temp_-_Casey_Harmon.hex
 ---
 # OVERVIEW
 ## Activity Overview:  

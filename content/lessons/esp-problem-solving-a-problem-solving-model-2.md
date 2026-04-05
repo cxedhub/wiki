@@ -1,7 +1,10 @@
 ---
 title: 'ESP Problem Solving: A Problem Solving Model'
-description: This is an introductory lesson to the problem-solving process. The goal is for students to see that they, in a manner similar to computers, engage in a process of input, processing, deciding,
-  and acting. It will serve as an introduction to both my Problem Solving elective as well as an introductory look at computer science.
+description: This is an introductory lesson to the problem-solving process. The goal
+  is for students to see that they, in a manner similar to computers, engage in a
+  process of input, processing, deciding, and acting. It will serve as an introduction
+  to both my Problem Solving elective as well as an introductory look at computer
+  science.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Travis Burns
@@ -41,6 +44,8 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/esp-problem-solving-a-problem-solving-model-2/problemsolvingsample_-_Travis_Burns.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

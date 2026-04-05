@@ -1,6 +1,7 @@
 ---
 title: Mindstorms and Hidden Figures
-description: Students will design a robot to orbit the moon in conjunction with their ELA class reading the book Hidden Figures.
+description: Students will design a robot to orbit the moon in conjunction with their
+  ELA class reading the book Hidden Figures.
 date: '2021-12-14 00:00:00+00:00'
 draft: false
 author: Jennifer LaVanchy
@@ -52,6 +53,9 @@ standards:
   CCSS ELA:
   - SL.5
   - SL.7
+supplements:
+- /uploads/mindstorms-and-hidden-figures/WySlice_Lesson_Plan_2_LaVanchy_-_Jennifer_LaVanchy.docx
+- /uploads/mindstorms-and-hidden-figures/WySlice-Lesson_1_-_Jennifer_LaVanchy.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

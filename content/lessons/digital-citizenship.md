@@ -1,7 +1,8 @@
 ---
 title: Digital Citizenship
-description: In todays lesson we will be exploring internet privacy and security.Students learn how to protect personal information and gain a deeper understanding of their data privacy rights so they can
-  advocate for themselves and others.
+description: In todays lesson we will be exploring internet privacy and security.Students
+  learn how to protect personal information and gain a deeper understanding of their
+  data privacy rights so they can advocate for themselves and others.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kailey Simms
@@ -32,6 +33,9 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/digital-citizenship/Grade_3_-_Password_Power-Up_-_If...Then...Scenarios_Student_Handout_-_Kailey_Simms.docx
+- /uploads/digital-citizenship/Copy_of_Course_D_-_Password_Power-Up_-_Lesson_Slides_-_Kailey_Simms.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

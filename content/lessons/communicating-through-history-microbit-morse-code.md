@@ -1,7 +1,9 @@
 ---
 title: 'Communicating Through History: MicroBit Morse Code'
-description: 'Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode
-  messages sent in Morse Code via radio output. (Note: Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)'
+description: 'Students will read articles and then construct a timeline of the progression
+  of communication technology in the developing United States. Then, they will use
+  MicroBits to encode and decode messages sent in Morse Code via radio output. (Note:
+  Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -55,6 +57,13 @@ standard_types:
 - CSTA
 - ISTE
 - NCSS C3
+supplements:
+- /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History__MicroBit_Morse_Code__Lesson_Plan_-_Becky_Junge.pdf
+- /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History__MicroBit_Morse_Code__Lesson_Plan_-_Becky_Junge.docx
+- /uploads/communicating-through-history-microbit-morse-code/U2M2S4__Ratio_Table_Math_Activity_-_Animal_Speeds_-_Becky_Junge.xlsx
+- /uploads/communicating-through-history-microbit-morse-code/Activity__Marco_Polo_and_Morse_code_-_Becky_Junge.pdf
+- /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History_Timeline_-_Becky_Junge.docx
+- /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History_Micro_Bit_Morse_Code_-_Becky_Junge.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

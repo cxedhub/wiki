@@ -1,7 +1,8 @@
 ---
 title: 'Order of Operations MICRO: BIT Calculator'
-description: Students will learn how to solve expressions with order of operations Students will practice solving expressions using order of operations. Check their correctness using a created virtual/physical
-  Micro:bit calculator.
+description: Students will learn how to solve expressions with order of operations
+  Students will practice solving expressions using order of operations. Check their
+  correctness using a created virtual/physical Micro:bit calculator.
 date: '2020-11-20 00:00:00+00:00'
 draft: false
 author: Timothy George
@@ -33,6 +34,8 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/order-of-operations-microbit-calculator/Order_of_Operations_MICRO_BIT_Calculator_-_Timothy_George.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

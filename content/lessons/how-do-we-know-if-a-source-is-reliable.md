@@ -1,7 +1,9 @@
 ---
 title: How do we know if a source is reliable?
-description: The students will analyze three different websites. During their exploration the students will answer three questions. The students will determine what the website is sharing, why is it important
-  to them, and if the information is reliable? Students will collaboratively work together to try to answer the three questions.
+description: The students will analyze three different websites. During their exploration
+  the students will answer three questions. The students will determine what the website
+  is sharing, why is it important to them, and if the information is reliable? Students
+  will collaboratively work together to try to answer the three questions.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Chad Miller
@@ -33,6 +35,8 @@ standard_types:
 - CSTA
 - ISTE
 - NCSS C3
+supplements:
+- /uploads/how-do-we-know-if-a-source-is-reliable/Exploring_Web_Pages_Activity_Guide_-_Chad_Miller.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,8 @@
 ---
 title: Analog and Digital Signals Project
-description: This is a project for students to experience the differences between analog and digital waves. Students will be comparing and contrasting the particulars of these waves, as well as coding a
-  radio game to use digital waves.
+description: This is a project for students to experience the differences between
+  analog and digital waves. Students will be comparing and contrasting the particulars
+  of these waves, as well as coding a radio game to use digital waves.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Sara Percy
@@ -44,6 +45,9 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/analog-and-digital-signals-project/Analog_Digital_Signals_Lab_WySLiCE_-_Sara_Percy.pdf
+- /uploads/analog-and-digital-signals-project/Analog_Digital_Signals_Lab_WySLiCE_1_-_Sara_Percy.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,9 @@
 ---
 title: Compression Code
-description: This is an introductory activity used before teaching scientific notation and exponents. Students will learn about compression coding and practice and apply that skill. Ideally this will be
-  taught the day before the teacher introduces scientific notation.
+description: This is an introductory activity used before teaching scientific notation
+  and exponents. Students will learn about compression coding and practice and apply
+  that skill. Ideally this will be taught the day before the teacher introduces scientific
+  notation.
 date: '2022-11-26 00:00:00+00:00'
 draft: false
 author: Kristy Barr
@@ -46,6 +48,12 @@ standard_types:
 - CSTA
 - ISTE
 - National Core Arts
+supplements:
+- /uploads/compression-code/Compression_Code_final_-_Kristy_Barr.pdf
+- /uploads/compression-code/Compression_Code_key_-_Kristy_Barr.pdf
+- /uploads/compression-code/Compression_Code_-_Kristy_Barr.docx
+- /uploads/compression-code/Caesar_Cipher_ws_-_Kristy_Barr.pdf
+- /uploads/compression-code/Compression_Code_puzzle_-_Kristy_Barr.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

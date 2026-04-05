@@ -1,7 +1,8 @@
 ---
 title: Brochure of Community
-description: This is a research project of students community. After research is complete students will compile data into a computational artifact to present. Students then have a deeper understanding of
-  their community.
+description: This is a research project of students community. After research is complete
+  students will compile data into a computational artifact to present. Students then
+  have a deeper understanding of their community.
 date: '2020-11-12 00:00:00+00:00'
 draft: false
 author: Heidi Dicks
@@ -37,6 +38,8 @@ standard_types:
 - CSTA
 - ISTE
 - NCSS C3
+supplements:
+- /uploads/brochure-of-community/Surrounding_Area_Brochure_-_Heidi_DICKS.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

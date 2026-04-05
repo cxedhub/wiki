@@ -1,9 +1,14 @@
 ---
 title: Lesson Plan 3-Security Risks & Consequences
-description: Students will work individually and in groups to determine how they have been “hacked” and one item “stolen” from them. It will be the job of the group to research various security risks and
-  identify how they believe their information was stolen, how they were hacked, and how a new item was purchased or their account emptied from lack of cybersecurity or a breach in cybersecurity. Upon completion
-  of research, students will individually create an infographic that describes common security risks and possible solutions to preventing theft or loss of personally identifiable information. Finally, students
-  will host a one-minute “Flash Talk” presenting their information and answering a minimum of three peer questions
+description: Students will work individually and in groups to determine how they have
+  been “hacked” and one item “stolen” from them. It will be the job of the group to
+  research various security risks and identify how they believe their information
+  was stolen, how they were hacked, and how a new item was purchased or their account
+  emptied from lack of cybersecurity or a breach in cybersecurity. Upon completion
+  of research, students will individually create an infographic that describes common
+  security risks and possible solutions to preventing theft or loss of personally
+  identifiable information. Finally, students will host a one-minute “Flash Talk”
+  presenting their information and answering a minimum of three peer questions
 date: '2022-10-25 00:00:00+00:00'
 draft: false
 author: Alicia Vonberg
@@ -42,6 +47,11 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
+supplements:
+- /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_1-CODIS_2_-_Alicia_Vonberg.pdf
+- /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_3-Security_Risks_Consequences_1_-_Alicia_Vonberg.pdf
+- /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_3-Security_Risks_Consequences_-_Alicia_Vonberg.pdf
+- /uploads/lesson-plan-3-security-risks-consequences/Lesson_Plan_1-CODIS_-_Alicia_Vonberg.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

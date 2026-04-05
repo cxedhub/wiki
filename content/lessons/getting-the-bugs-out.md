@@ -1,7 +1,9 @@
 ---
 title: Getting the bugs out!
-description: Help! Can you debug the Microbit code? We will look briefly at Grace Hopper to see the origins of debugging. Then develop strategies for debugging and wrap it up with debugging exercises. Students
-  will write a simple code to test another student.
+description: Help! Can you debug the Microbit code? We will look briefly at Grace
+  Hopper to see the origins of debugging. Then develop strategies for debugging and
+  wrap it up with debugging exercises. Students will write a simple code to test another
+  student.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse
@@ -31,6 +33,9 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/getting-the-bugs-out/cipher_decoding_-_Stephanie_Newhouse.docx
+- /uploads/getting-the-bugs-out/Copy_of_Student_Bug_Report_-_quarters_-_Stephanie_Newhouse.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

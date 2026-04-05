@@ -1,8 +1,11 @@
 ---
 title: Svalbaroi Water - The World's Most Expensive Water
-description: Using the Svalbarði Water - The most expensive water in the world as a hook, students will produce a computational artifact communicating the amounts and percentages of water and fresh water
-  in various reservoirs to provide evidence about the distribution of water on Earth (5.ESS2-2). Students will use Microsoft Excel to create a data table and then a graph. This artifact will be analyzed
-  to answer questions about water availability and conservation.
+description: Using the Svalbarði Water - The most expensive water in the world as
+  a hook, students will produce a computational artifact communicating the amounts
+  and percentages of water and fresh water in various reservoirs to provide evidence
+  about the distribution of water on Earth (5.ESS2-2). Students will use Microsoft
+  Excel to create a data table and then a graph. This artifact will be analyzed to
+  answer questions about water availability and conservation.
 date: '2022-07-16 00:00:00+00:00'
 draft: false
 author: Julie L. Calkins
@@ -41,6 +44,8 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/svalbaroi-water-the-worlds-most-expensive-water/Svalbarði_Water_-_The_Worlds_Most_Expensive_Water_-_Julie_Calkins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

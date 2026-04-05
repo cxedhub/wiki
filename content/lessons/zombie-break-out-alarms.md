@@ -1,6 +1,8 @@
 ---
 title: Zombie Break Out Alarms
-description: Students will use Cublets to make an alarm through trial and error. They will then write/draw the sequence of blocks they used and record their experience in their journal/comic book.
+description: Students will use Cublets to make an alarm through trial and error. They
+  will then write/draw the sequence of blocks they used and record their experience
+  in their journal/comic book.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -51,6 +53,8 @@ standards:
   - W.2
   - W.5
   - W.7
+supplements:
+- /uploads/zombie-break-out-alarms/download_-_Taylor_Wailes-Putnam.jpeg
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,8 +1,11 @@
 ---
 title: Collaborative Grid Poster
-description: The instructor will ask the students to decode a message from binary. The instructor will then explain to students the connection between binary and computer memory and strings of bits. After
-  this, the instructor will take the students through the process of creating an individual drawing that will be pieced together to make a large poster image. This relates to a binary code, in that each
-  small piece is like a code and together strings to make a final piece or image.
+description: The instructor will ask the students to decode a message from binary.
+  The instructor will then explain to students the connection between binary and computer
+  memory and strings of bits. After this, the instructor will take the students through
+  the process of creating an individual drawing that will be pieced together to make
+  a large poster image. This relates to a binary code, in that each small piece is
+  like a code and together strings to make a final piece or image.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Mackenzie Wiginton
@@ -48,6 +51,8 @@ standard_types:
 - CSTA
 - ISTE
 - National Core Arts
+supplements:
+- /uploads/collaborative-grid-poster/Collabrative_Grid_Poster_-_Mackenzie_Wiginton.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

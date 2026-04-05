@@ -1,6 +1,7 @@
 ---
 title: Sight Word Bowling
-description: Students will draw a sight word card and then program either a kibo or bee bot to knock down the matching bowling pin.
+description: Students will draw a sight word card and then program either a kibo or
+  bee bot to knock down the matching bowling pin.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Jenny Day
@@ -42,6 +43,8 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/sight-word-bowling/Sight_Word_Bowling_Lesson_-Jenny_Day_-_Jenny_Day.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

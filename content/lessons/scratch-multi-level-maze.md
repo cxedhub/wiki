@@ -1,7 +1,8 @@
 ---
 title: Scratch Multi-Level Maze
-description: Students will use Scratch to create a multi-level maze. Students will program a main sprite, obstacles and a goal, which level changes. Students will provide feedback to peers and redesign
-  or improve their game based on the feedback
+description: Students will use Scratch to create a multi-level maze. Students will
+  program a main sprite, obstacles and a goal, which level changes. Students will
+  provide feedback to peers and redesign or improve their game based on the feedback
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl
@@ -76,6 +77,8 @@ standard_types:
 - ISTE
 - NGSS
 - National Core Arts
+supplements:
+- /uploads/scratch-multi-level-maze/Scratch_Multi-Level_Maze_Lesson_Plan_-_Adrienne_Unertl.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

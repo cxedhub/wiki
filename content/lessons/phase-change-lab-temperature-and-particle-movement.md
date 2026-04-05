@@ -1,8 +1,11 @@
 ---
 title: Phase Change Lab (Temperature and Particle Movement)
-description: The goal of this lesson is to recognize the relationship of thermal energy and temperature. As thermal energy of water increases what happens to temperature of water? Similarly, what happens
-  to particle movement as thermal energy increases. Students will utilize Micro:bits to create a timer that indicates time to collect temperature data during lab. Students will need to refine Micro:bit
-  code to make timer more accurately represent time elapsed.
+description: The goal of this lesson is to recognize the relationship of thermal energy
+  and temperature. As thermal energy of water increases what happens to temperature
+  of water? Similarly, what happens to particle movement as thermal energy increases.
+  Students will utilize Micro:bits to create a timer that indicates time to collect
+  temperature data during lab. Students will need to refine Micro:bit code to make
+  timer more accurately represent time elapsed.
 date: '2021-07-27 00:00:00+00:00'
 draft: false
 author: Crystal Seeley
@@ -48,6 +51,8 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/phase-change-lab-temperature-and-particle-movement/Phase_Change_Lab_Handouts_-_Crystal_Seeley.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

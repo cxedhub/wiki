@@ -1,6 +1,8 @@
 ---
 title: 'Intro to Coding: Unplugged'
-description: This lesson will help students gain familiarity with algorithms and how to create a path on a coding mat. This will help prepare students to begin coding online.
+description: This lesson will help students gain familiarity with algorithms and how
+  to create a path on a coding mat. This will help prepare students to begin coding
+  online.
 date: '2022-12-07 00:00:00+00:00'
 draft: false
 author: Minda Blevins
@@ -28,6 +30,11 @@ standards:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_A_updated-_Blevins_-_Minda_Blevins.pdf
+- /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_C-_Blevins_first_draft_-_Minda_Blevins.docx
+- /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_B_Final_Draft-_Blevins_-_Minda_Blevins.docx
+- /uploads/intro-to-coding-unplugged-3/2022-2023_WySLICE_lesson_A-_Blevins_-_M_Blevins.doc
 ---
 # OVERVIEW
 ## Activity Overview:  

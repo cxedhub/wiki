@@ -1,7 +1,9 @@
 ---
 title: Health Care Devices
-description: In this lesson students are reminded about the ever growing uses of technology devices within the healthcare profession, and how technology addresses many of the largest health issues we face.
-  Students will brainstorm and program a device to address a real-world healthcare problem, of their choice.
+description: In this lesson students are reminded about the ever growing uses of technology
+  devices within the healthcare profession, and how technology addresses many of the
+  largest health issues we face. Students will brainstorm and program a device to
+  address a real-world healthcare problem, of their choice.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Sarah Jarvis
@@ -35,6 +37,9 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+supplements:
+- /uploads/health-care-devices/Health_Care_Devices_-_Sarah_Jarvis.docx
+- /uploads/health-care-devices/Health_Care_Devices_-_Sarah_Jarvis.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

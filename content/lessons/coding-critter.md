@@ -1,7 +1,9 @@
 ---
 title: Coding Critter
-description: The students will create a path for the coding critter to follow using arrow cards and then inputting the directions into the coding critter using the arrow buttons on the critter. After inputting
-  the information, the student will start the critter and watch it move through the programed path.
+description: The students will create a path for the coding critter to follow using
+  arrow cards and then inputting the directions into the coding critter using the
+  arrow buttons on the critter. After inputting the information, the student will
+  start the critter and watch it move through the programed path.
 date: '2022-09-14 00:00:00+00:00'
 draft: false
 author: Jody Durst
@@ -38,6 +40,11 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/coding-critter/Document_11_-_Jody_Durst.docx
+- /uploads/coding-critter/Document_9_-_Jody_Durst_-_Jody_Durst.pdf
+- /uploads/coding-critter/Document_9_-_Jody_Durst.pdf
+- /uploads/coding-critter/Coding_Critter_-_Jody_Durst.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

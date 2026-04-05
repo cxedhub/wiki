@@ -1,7 +1,9 @@
 ---
 title: Microbit Basic Multiplication and Division
-description: Students will create an online microbit “project” about basic multiplication and array’s. The project will focus on one multiplication, division, and array equation. This lesson will be a great
-  introduction to students just learning to become fluent with their multiplication and division math facts.
+description: Students will create an online microbit “project” about basic multiplication
+  and array’s. The project will focus on one multiplication, division, and array equation.
+  This lesson will be a great introduction to students just learning to become fluent
+  with their multiplication and division math facts.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Megan Moore
@@ -42,6 +44,8 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+supplements:
+- /uploads/microbit-basic-multiplication-and-division/Lesson_Three__Microbit_Basic_Multiplication_and_Division_-_Megan_Moore.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

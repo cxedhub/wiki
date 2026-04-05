@@ -1,7 +1,9 @@
 ---
 title: Computational Thinking
-description: Through this lesson, students will be introduced to the basics of computational thinking including decomposition, abstraction, algorithms, testing and debugging, and pattern recognition. This
-  lesson can be done as one large lesson or in four mini-lessons.
+description: Through this lesson, students will be introduced to the basics of computational
+  thinking including decomposition, abstraction, algorithms, testing and debugging,
+  and pattern recognition. This lesson can be done as one large lesson or in four
+  mini-lessons.
 date: '2021-11-19 00:00:00+00:00'
 draft: false
 author: Julia Tyser
@@ -45,6 +47,8 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-5a
+supplements:
+- /uploads/computational-thinking/JTyserCompThinking_-_Julia_Tyser.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

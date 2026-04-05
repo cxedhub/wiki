@@ -1,6 +1,7 @@
 ---
 title: Creating a Gear Amusement Park
-description: Students will use peer collaboration, engineering, problem solving, & reflection, when given a set of Funny Gears & Bricks, to design an amusement park.
+description: Students will use peer collaboration, engineering, problem solving, &
+  reflection, when given a set of Funny Gears & Bricks, to design an amusement park.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Amber McClure
@@ -54,6 +55,8 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+supplements:
+- /uploads/creating-a-gear-amusement-park/McClure_WySLICE_-_Gear_Amusement_Park_Lesson_1_-_Amber_McClure.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,8 @@
 ---
 title: Modeling Plate Motions using Microbit Technology
-description: This lesson is going to be a supplemental lesson to our OpenSciEd Plate Tectonics unit that we are implementing this year. In this lesson students will be learning how to use microbit technology
-  to code the different plate motions.
+description: This lesson is going to be a supplemental lesson to our OpenSciEd Plate
+  Tectonics unit that we are implementing this year. In this lesson students will
+  be learning how to use microbit technology to code the different plate motions.
 date: '2021-07-31 00:00:00+00:00'
 draft: false
 author: Morgan Krysl
@@ -52,6 +53,9 @@ standards:
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-ETS1-4
+supplements:
+- /uploads/modeling-plate-motions-using-microbit-technology/Lesson_2_-_Morgan_Krysl.docx
+- /uploads/modeling-plate-motions-using-microbit-technology/Lesson_1_-_Morgan_Krysl.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

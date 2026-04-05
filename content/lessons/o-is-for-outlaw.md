@@ -1,7 +1,10 @@
 ---
 title: O' is for Outlaw
-description: Students will be studying Outlaws and Law Enforcement in Wyoming History. We will talk about how technology has changed and impacted our history and then we'll do a what if.... What if Outlaws
-  had Facebook pages or social media? What would their page look like and what would inappropriate comments, passwords look like. Students will be able to add on comments and we'll address appropriate use
+description: Students will be studying Outlaws and Law Enforcement in Wyoming History.
+  We will talk about how technology has changed and impacted our history and then
+  we'll do a what if.... What if Outlaws had Facebook pages or social media? What
+  would their page look like and what would inappropriate comments, passwords look
+  like. Students will be able to add on comments and we'll address appropriate use
   of their sites.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
@@ -40,6 +43,9 @@ standard_types:
 - CSTA
 - ISTE
 - NCSS C3
+supplements:
+- /uploads/o-is-for-outlaw/_O__is_for_Outlaw_-_Katherine_Cline.pptx
+- /uploads/o-is-for-outlaw/_O__is_for_Outlaw_-_Katherine_Cline1.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

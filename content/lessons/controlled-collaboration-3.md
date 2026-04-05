@@ -1,6 +1,7 @@
 ---
 title: Controlled Collaboration
-description: Introduce your students to shared document norms while practicing identifying main idea and key details.
+description: Introduce your students to shared document norms while practicing identifying
+  main idea and key details.
 date: '2020-11-27 00:00:00+00:00'
 draft: false
 author: Crystal Graf
@@ -33,6 +34,8 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+supplements:
+- /uploads/controlled-collaboration-3/Controlled_collaboration_-_Crystal_Graf.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

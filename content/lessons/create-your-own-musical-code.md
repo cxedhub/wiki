@@ -1,7 +1,9 @@
 ---
 title: Create Your Own Musical Code
-description: Different applications and disciplines often require knowledge of different communication systems and the ability to make sense of and decode those systems. Through this lesson students will
-  create an original written code to communicate musical information to a group of their peers.
+description: Different applications and disciplines often require knowledge of different
+  communication systems and the ability to make sense of and decode those systems.
+  Through this lesson students will create an original written code to communicate
+  musical information to a group of their peers.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Colin Botts
@@ -48,6 +50,8 @@ standard_types:
 - CSTA
 - ISTE
 - National Core Arts
+supplements:
+- /uploads/create-your-own-musical-code/Create_Your_Own_Musical_Code_-_Colin_Botts.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  
