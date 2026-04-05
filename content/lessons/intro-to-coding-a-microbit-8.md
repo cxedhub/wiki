@@ -1,14 +1,12 @@
 ---
 title: Intro To Coding a Microbit
-description: Students will be introduced to block coding using the website makecode.org.
-  They will code a virtual microbit by completing a tutorial of making a heart.
+description: Students will be introduced to block coding using the website makecode.org. They will code a virtual microbit by completing a tutorial of making a heart.
 date: '2023-03-17 00:00:00+00:00'
 draft: false
 author: Kiley Hiser
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - K-2
 - 3-5

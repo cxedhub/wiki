@@ -1,15 +1,11 @@
 ---
 title: Darn! I forgot my password...again!
-description: Middle School Students love to share everything-including their water
-  bottles, their sense of humor and even their passwords. This lesson demonstrates
-  why passwords shouldnt be shared and furthermore the importance of a strong password.
-  It also teaches how to create a strong password!
+description: Middle School Students love to share everything-including their water bottles, their sense of humor and even their passwords. This lesson demonstrates why passwords shouldnt be shared and furthermore the importance of a strong password. It also teaches how to create a strong password!
 date: '2022-10-27 00:00:00+00:00'
 draft: false
 author: Tracey Winey
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

@@ -1,8 +1,6 @@
 ---
 title: Can You Keep a Secret?
-description: Elementary students will be able to identify the meaning of "password".
-  Students will explain reasons why a strong password is important. Students will
-  create an example of a memorable and strong password.
+description: Elementary students will be able to identify the meaning of "password". Students will explain reasons why a strong password is important. Students will create an example of a memorable and strong password.
 date: '2023-07-14T13:25:14'
 draft: false
 author: Phaedra Davila
@@ -10,7 +8,6 @@ subjects:
 - Computer Science
 - Mathematics
 - Reading/Language Arts
-- Technology
 grade_levels:
 - K-2
 - 3-5

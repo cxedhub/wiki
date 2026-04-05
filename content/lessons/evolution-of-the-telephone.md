@@ -1,7 +1,6 @@
 ---
 title: Evolution of the Telephone
-description: Students spend several periods looking at the development of communication
-  over the past 200 years.
+description: Students spend several periods looking at the development of communication over the past 200 years.
 date: '2022-02-08 00:00:00+00:00'
 draft: false
 author: Victoria Davis
@@ -9,7 +8,6 @@ subjects:
 - Computer Science
 - Science
 - Social Studies
-- Technology
 grade_levels:
 - K-2
 - 3-5
@@ -76,7 +74,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

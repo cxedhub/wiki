@@ -1,9 +1,6 @@
 ---
 title: Artificial Intelligence?
-description: Students will be introduced to AI, AR, and VR concepts using the Tynker
-  platform. They will then create (with assistance) a program that uses each concept.
-  First project-facial recognition and AR. Second project-hand recognition and painting
-  program. Third project-body recognition and dancing program.
+description: Students will be introduced to AI, AR, and VR concepts using the Tynker platform. They will then create (with assistance) a program that uses each concept. First project-facial recognition and AR. Second project-hand recognition and painting program. Third project-body recognition and dancing program.
 date: '2024-04-12'
 draft: false
 author: Jennifer LaVanchy
@@ -23,7 +20,21 @@ tags:
 - WySTACK
 supplements:
 - /uploads/artificial-intelligence/WyStack_Lesson_Plan_2_-_Jennifer_LaVanchy.docx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  ISTE:
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

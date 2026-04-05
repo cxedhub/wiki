@@ -1,23 +1,13 @@
 ---
 title: Shaw Plans for Classroom Implementation
-description: This lesson consists of introducing students to the concepts of finite
-  state machines (FSM), side-channel attacks, and simple power analysis (SPA). From
-  there, a discussion of Arduino Microcontrollers and demonstrations of their capability,
-  as well as controlling model traffic signals will take place. After that, the lesson
-  becomes more encompassing of the function of traffic signals and their importance.
-  After spending time programming and operating the Arduino boards, the class will
-  walk to a nearby intersection that utilizes traffic lights. A discussion will ensue
-  around what might happen if the traffic signal stops working or remains red or green
-  too long in one direction. Students will collect data on the length of time the
-  traffic lights remain red, yellow, and green.
+description: This lesson consists of introducing students to the concepts of finite state machines (FSM), side-channel attacks, and simple power analysis (SPA). From there, a discussion of Arduino Microcontrollers and demonstrations of their capability, as well as controlling model traffic signals will take place. After that, the lesson becomes more encompassing of the function of traffic signals and their importance. After spending time programming and operating the Arduino boards, the class will walk to a nearby intersection that utilizes traffic lights. A discussion will ensue around what might happen if the traffic signal stops working or remains red or green too long in one direction. Students will collect data on the length of time the traffic lights remain red, yellow, and green.
 date: '2023-07-21'
 draft: false
 author: Shari Shaw
 subjects:
 - Computer Science
 - Mathematics
-- Technology
-- Engineering
+- Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -29,7 +19,6 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 materials: Website, Arduino,
 tags:
-- Cybersecurity
 - Data Collection
 - WySTACK
 supplements:
@@ -41,7 +30,24 @@ standards:
   Wyoming CS:
   - 8.AP.A.01
   - 8.CS.D.01
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

@@ -1,11 +1,6 @@
 ---
 title: Scientific Technologies
-description: 'Students research a field of science that interests them and the technologies
-  that are used to solve-problems in that field. Questions students should answer
-  are: what are the technologies and how do they work? How have the technologies evolved
-  over time. Students then should recreate one of the technologies with a micro:bit;
-  they may use a previously created project or create a new one. They must also reflect
-  on this question: what''s one way you would improve or enhance the technology?'
+description: 'Students research a field of science that interests them and the technologies that are used to solve-problems in that field. Questions students should answer are: what are the technologies and how do they work? How have the technologies evolved over time. Students then should recreate one of the technologies with a micro:bit; they may use a previously created project or create a new one. They must also reflect on this question: what''s one way you would improve or enhance the technology?'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Amanda Katelyn Carson

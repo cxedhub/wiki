@@ -1,10 +1,6 @@
 ---
 title: Getting Results 1 print at a time
-description: Students will use Tinkercad to make a basic key chain with their own
-  name on it. They will export the STL file to get sliced for the 3D printer. They
-  will document the estimated print time and the time to complete the print. Data
-  will be gathered to chart a trend line. Students will have a key chain and data
-  to analyze.
+description: Students will use Tinkercad to make a basic key chain with their own name on it. They will export the STL file to get sliced for the 3D printer. They will document the estimated print time and the time to complete the print. Data will be gathered to chart a trend line. Students will have a key chain and data to analyze.
 date: '2022-04-26'
 draft: false
 author: Bryce Cushman
@@ -24,8 +20,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-materials: 'Website, Maker Station (3D printer). Google Sheets and tinkercad (https://www.tinkercad.com/)
-  Resource websites: http://bit.ly/2Vwp4Vb, http://bit.ly/2ZDgT6M, https://bit.ly/3a27MU5'
+materials: 'Website, Maker Station (3D printer). Google Sheets and tinkercad (https://www.tinkercad.com/) Resource websites: http://bit.ly/2Vwp4Vb, http://bit.ly/2ZDgT6M, https://bit.ly/3a27MU5'
 tags:
 - Data Collection
 - WySTACK
@@ -42,7 +37,35 @@ standards:
   - L2.DA.CVT.01
   - L2.DA.CVT.02
   - L2.DA.IM.01
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

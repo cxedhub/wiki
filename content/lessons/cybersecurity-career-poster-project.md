@@ -1,16 +1,11 @@
 ---
 title: Cybersecurity Career Poster Project
-description: Students will design a poster project detailing an individual cybersecurity
-  career.  The poster project will include educational requirements, basic job responsibilities,
-  ways the career contributes to overall cybersecurity, salary expectations, and example
-  companies that are looking for this type of position.  The end product will be a
-  poster with the above requirements clearly addressed.
+description: Students will design a poster project detailing an individual cybersecurity career.  The poster project will include educational requirements, basic job responsibilities, ways the career contributes to overall cybersecurity, salary expectations, and example companies that are looking for this type of position.  The end product will be a poster with the above requirements clearly addressed.
 date: '2023-07-16T08:55:00'
 draft: false
 author: Jana Simmerly
 subjects:
 - Computer Science
-- Engineering
 - Science
 grade_levels:
 - 6-8

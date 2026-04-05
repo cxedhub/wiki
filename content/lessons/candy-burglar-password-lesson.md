@@ -1,9 +1,6 @@
 ---
 title: 'Candy Burglar: Password Lesson'
-description: 'Candy Burglar: Password Lesson Students will each receive a card with
-  a symbol or word on it. The symbol will match with one other card. Students will
-  learn how a password protects the information (bowl of candy) that they have stored
-  in a computer or on the internet.'
+description: 'Candy Burglar: Password Lesson Students will each receive a card with a symbol or word on it. The symbol will match with one other card. Students will learn how a password protects the information (bowl of candy) that they have stored in a computer or on the internet.'
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Michelle Black
@@ -15,10 +12,7 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Communicating About Computing
-materials: No technology required, a deck of cards, or a memory game etc to have like
-  images, split into two different piles, making sure that there is a paired match
-  for each image.  Student Computer Science Notebooks, they will use these all year
-  long to keep track of their own understanding.
+materials: No technology required, a deck of cards, or a memory game etc to have like images, split into two different piles, making sure that there is a paired match for each image.  Student Computer Science Notebooks, they will use these all year long to keep track of their own understanding.
 tags:
 - Unplugged
 standards:

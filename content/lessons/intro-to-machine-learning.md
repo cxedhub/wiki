@@ -1,14 +1,12 @@
 ---
 title: Intro to machine learning
-description: Students will train ML models to recognize images in code.org and will
-  understand ML concepts.
+description: Students will train ML models to recognize images in code.org and will understand ML concepts.
 date: '2023-07-21'
 draft: false
 author: Jesse Smith
 subjects:
 - Computer Science
-- Technology
-- Engineering
+- Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -25,7 +23,26 @@ tags:
 - WySTACK
 supplements:
 - /uploads/intro-to-machine-learning/Evaluation_of_Project_Prototypes__-_Sammie_Smith.docx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

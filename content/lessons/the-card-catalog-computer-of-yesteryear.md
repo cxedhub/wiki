@@ -1,8 +1,6 @@
 ---
 title: 'The Card Catalog: Computer of Yesteryear'
-description: This lesson will show students how computer coding is used to solve the
-  problem of quickly accessing books using the online catalogs present in their school
-  and public libraries.
+description: This lesson will show students how computer coding is used to solve the problem of quickly accessing books using the online catalogs present in their school and public libraries.
 date: '2020-07-30 00:00:00+00:00'
 draft: false
 author: Michelle Ottoes

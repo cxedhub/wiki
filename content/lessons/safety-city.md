@@ -1,15 +1,12 @@
 ---
 title: Safety City
-description: Create a safety city scale model and make a working traffic light system.
-  Role playing let them experience the safety world and obey lights.
+description: Create a safety city scale model and make a working traffic light system. Role playing let them experience the safety world and obey lights.
 date: '2023-07-22'
 draft: false
 author: Tonya R Taylor
 subjects:
 - Computer Science
 - Science
-- Technology
-- Engineering
 grade_levels:
 - K-2
 - 3-5
@@ -27,7 +24,37 @@ materials: Website
 tags:
 - Data Collection
 - WySTACK
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  - 1A-IC-16
+  - 1A-IC-17
+  - 1A-IC-18
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-DA-06
+  - 1B-DA-07
+  - 1B-IC-18
+  - 1B-IC-19
+  - 1B-IC-20
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

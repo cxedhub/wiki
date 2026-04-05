@@ -1,13 +1,11 @@
 ---
 title: What is Python?
-description: Welcome to coding! In this lesson, you will be given an introduction
-  to Python, a High Level coding language.
+description: Welcome to coding! In this lesson, you will be given an introduction to Python, a High Level coding language.
 date: '2023-07-21'
 draft: false
 author: Ethan Highsmith
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -17,7 +15,17 @@ cs_principles:
 materials: Desktop with IDE installed.
 tags:
 - WySTACK
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,17 +1,12 @@
 ---
 title: Exploring Eye Tracking
-description: The objective of this lesson is to introduce middle school students to
-  the concept of eye tracking and its applications. Through engaging activities and
-  discussions, students will understand how eye tracking works, its uses in various
-  fields, and its impact on technology and research.
+description: The objective of this lesson is to introduce middle school students to the concept of eye tracking and its applications. Through engaging activities and discussions, students will understand how eye tracking works, its uses in various fields, and its impact on technology and research.
 date: '2023-07-20'
 draft: false
 author: Christy Rodgers
 subjects:
 - Computer Science
 - Science
-- Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -31,7 +26,29 @@ supplements:
 - /uploads/exploring-eye-tracking/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_Christy_Rodgers.pdf
 - /uploads/exploring-eye-tracking/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_Christy_Rodgers.docx
 - /uploads/exploring-eye-tracking/Screenshot_2024-04-02_105725_-_Christy_Rodgers.png
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

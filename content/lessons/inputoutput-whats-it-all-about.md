@@ -1,14 +1,12 @@
 ---
 title: Input/Output what's it all about?
-description: Students will learn the definition of input/output as it relates to computing
-  and will use the Micro:bits to demonstrate various examples of inputs and outputs.
+description: Students will learn the definition of input/output as it relates to computing and will use the Micro:bits to demonstrate various examples of inputs and outputs.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Christy Rodgers
 subjects:
 - Computer Science
-- Engineering
-- Technology
+- Science
 grade_levels:
 - 3-5
 - 6-8

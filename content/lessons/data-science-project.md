@@ -1,9 +1,6 @@
 ---
 title: Data Science - Project
-description: This lesson serves as a final project for my Data Science unit. Students
-  will ask a question, write a hypothesis, develop a means of collecting data, analyze
-  their data. In culmination they present their data to the class and write an essay
-  evaluating their process.
+description: This lesson serves as a final project for my Data Science unit. Students will ask a question, write a hypothesis, develop a means of collecting data, analyze their data. In culmination they present their data to the class and write an essay evaluating their process.
 date: '2022-03-30'
 draft: false
 author: Clint Elliott
@@ -23,7 +20,22 @@ tags:
 - WySTACK
 supplements:
 - /uploads/data-science-project/Data_Project_-_Clint_Elliott.docx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

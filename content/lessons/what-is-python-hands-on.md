@@ -1,14 +1,11 @@
 ---
 title: 'What is Python: Hands On'
-description: In this part 2 lesson, you will no get to see, modify, and create your
-  own code! Think you can write the code to say your name, or your friends name, or
-  even create a video game? The world is your oyster with Python!
+description: In this part 2 lesson, you will no get to see, modify, and create your own code! Think you can write the code to say your name, or your friends name, or even create a video game? The world is your oyster with Python!
 date: '2023-07-21'
 draft: false
 author: Ethan Highsmith
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -27,7 +24,24 @@ supplements:
 - /uploads/what-is-python-hands-on/what_is_python_post_-_Ethan_Highsmith.pdf
 - /uploads/what-is-python-hands-on/What_is_Python_Lesson_Doc_-_Ethan_Highsmith.pdf
 - /uploads/what-is-python-hands-on/PowerPoint_Python_what_is_-_Ethan_Highsmith.pdf
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

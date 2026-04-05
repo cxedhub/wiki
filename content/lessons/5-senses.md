@@ -1,7 +1,6 @@
 ---
 title: 5 Senses
-description: Students will learn about the 5 senses as a whole then learn about each
-  individual sense and complete science activities using the iPads.
+description: Students will learn about the 5 senses as a whole then learn about each individual sense and complete science activities using the iPads.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Sandra Joslin

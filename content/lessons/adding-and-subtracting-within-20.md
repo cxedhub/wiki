@@ -1,9 +1,6 @@
 ---
 title: Adding and Subtracting within 20
-description: Using a Scratch Jr. activity, students will program different counter
-  sprites to move into a ten frame. The purpose of this activity is to integrate the
-  math skill of adding and subtracting within 20 with the programing of a control
-  sequence in computer science.
+description: Using a Scratch Jr. activity, students will program different counter sprites to move into a ten frame. The purpose of this activity is to integrate the math skill of adding and subtracting within 20 with the programing of a control sequence in computer science.
 date: '2021-11-30 00:00:00+00:00'
 draft: false
 author: Kristine Gaskill

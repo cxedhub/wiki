@@ -1,11 +1,6 @@
 ---
 title: Use Micro:bit to Gather Temperature Data
-description: This lesson is a part of a multi-day project where students build a small
-  structure designed to interfere with thermal transfer from a heat lamp to an ice
-  cube. This lesson is an application of knowledge gathered from prior lessons about
-  heat transfer. A micro:bit and an ice cube will be used inside the structure to
-  determine the amount of heat transfer interferences resulted. Students will compare
-  if the data from the ice cube or the micro:bit was a better measurement tool.
+description: This lesson is a part of a multi-day project where students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube. This lesson is an application of knowledge gathered from prior lessons about heat transfer. A micro:bit and an ice cube will be used inside the structure to determine the amount of heat transfer interferences resulted. Students will compare if the data from the ice cube or the micro:bit was a better measurement tool.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Amber Martines

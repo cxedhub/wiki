@@ -1,16 +1,11 @@
 ---
 title: Get to Know Me
-description: 'Students will participate in a community building activity that will
-  integrate Computer Science through the use of the software/Key Note and hardware/iPad.
-  The students will populate an Instagram looking graphic organizer* with a photo
-  of a peer that matches the given criteria such as: Find someone who: walked to school
-  today, is wearing same colored shirt as you, and is the oldest in the family.'
+description: 'Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family.'
 date: '2022-11-05 00:00:00+00:00'
 draft: false
 author: Kiley Hiser
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - K-2
 cs_domains:

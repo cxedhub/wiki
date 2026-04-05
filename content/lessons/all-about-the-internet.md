@@ -6,7 +6,6 @@ draft: false
 author: Christy Rodgers
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

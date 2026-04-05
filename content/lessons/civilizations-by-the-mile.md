@@ -1,12 +1,6 @@
 ---
 title: Civilizations by the mile
-description: Civilizations by the mile is a 6th grade social studies lesson with a
-  focus on comparing and contrasting the different lengths of roads and routes established
-  in different cultures. It could be used with any subset of cultures that travel
-  or even animal migrations (wildebeest, pronghorn, albatross, caribou etc.). This
-  lesson uses Roman and Inca cultures as well as the Silk Road and the Oregon trail.
-  We will compare lengths of roads by using a Microbit set up as a pedometer to measure
-  distance and number of steps.
+description: Civilizations by the mile is a 6th grade social studies lesson with a focus on comparing and contrasting the different lengths of roads and routes established in different cultures. It could be used with any subset of cultures that travel or even animal migrations (wildebeest, pronghorn, albatross, caribou etc.). This lesson uses Roman and Inca cultures as well as the Silk Road and the Oregon trail. We will compare lengths of roads by using a Microbit set up as a pedometer to measure distance and number of steps.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Wade Moore
@@ -14,7 +8,6 @@ subjects:
 - Computer Science
 - Mathematics
 - Social Studies
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -52,7 +45,6 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

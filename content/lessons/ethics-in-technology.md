@@ -1,14 +1,12 @@
 ---
 title: Ethics in Technology
-description: Examination of ethical concerns revolving around technology, specifically
-  social media and technology giants like Google
+description: Examination of ethical concerns revolving around technology, specifically social media and technology giants like Google
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Jamie Le Jambre
 subjects:
 - Computer Science
 - Social Studies
-- Technology
 grade_levels:
 - 6-8
 - 9-12
@@ -66,7 +64,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 - NGSS
 ---
 # OVERVIEW

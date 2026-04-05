@@ -1,22 +1,15 @@
 ---
 title: Using Microbits to measure light level of sunlight for optimal plant growth
-description: Students will investigate and design an experiment that explores the
-  natural world using microprocessors. They will study the phenomenon of photosynthesis.
-  Students will create an experiment that uses Microbit light sensors to determine
-  the optimal amount of sunlight needed to grow the fastest growing bean plant, from
-  seed to germination. They will program a Microbit to accurately measure the amount
-  of sunlight a plant receives.
+description: Students will investigate and design an experiment that explores the natural world using microprocessors. They will study the phenomenon of photosynthesis. Students will create an experiment that uses Microbit light sensors to determine the optimal amount of sunlight needed to grow the fastest growing bean plant, from seed to germination. They will program a Microbit to accurately measure the amount of sunlight a plant receives.
 date: '2020-07-24 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger
 subjects:
 - Career and Technical Education
 - Computer Science
-- Engineering
+- Science
 - Mathematics
 - Reading/Language Arts
-- Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

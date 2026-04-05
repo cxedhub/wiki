@@ -1,14 +1,12 @@
 ---
 title: Brochure of Community
-description: This is a research project of students community. After research is complete
-  students will compile data into a computational artifact to present. Students then
-  have a deeper understanding of their community.
+description: This is a research project of students community. After research is complete students will compile data into a computational artifact to present. Students then have a deeper understanding of their community.
 date: '2020-11-12 00:00:00+00:00'
 draft: false
 author: Heidi Dicks
 subjects:
 - Social Studies
-- Technology
+- Computer Science
 grade_levels:
 - 3-5
 cs_domains:
@@ -39,7 +37,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

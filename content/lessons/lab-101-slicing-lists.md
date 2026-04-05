@@ -29,7 +29,19 @@ supplements:
 - /uploads/lab-101-slicing-lists/20230309_121813_-_John_Lupher.jpg
 - /uploads/lab-101-slicing-lists/Wystack_lab_10.4_and_10.2_-_John_Lupher.xlsx
 - /uploads/lab-101-slicing-lists/WyStack_Lab_10-2_-_John_Lupher.xlsx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,19 +1,12 @@
 ---
 title: E' is for Erosion
-description: Students will learn the effects of wind and water erosion. They will
-  create their own landscape to show how water erosion works. After the background
-  knowledge has been built, the town of Rawlins has had a cybersecurity breech and
-  they have released all of the water supply in Rawlins. Students will have to come
-  up with a plan to avoid the cybersecurity breech in the future and then determine
-  the impact of the breech on the community.
+description: Students will learn the effects of wind and water erosion. They will create their own landscape to show how water erosion works. After the background knowledge has been built, the town of Rawlins has had a cybersecurity breech and they have released all of the water supply in Rawlins. Students will have to come up with a plan to avoid the cybersecurity breech in the future and then determine the impact of the breech on the community.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Katie Cline
 subjects:
 - Computer Science
-- Engineering
 - Science
-- Technology
 grade_levels:
 - 3-5
 cs_domains:

@@ -1,8 +1,6 @@
 ---
 title: Using Microbits to measure conductivity of metallic, ionic and covalent bonds.
-description: •        Observe the conductivity strength between different types of
-  bonds, metallic, ionic and covalent. •        Program a Microbit to test the electrical
-  conductivity of different materials.
+description: •        Observe the conductivity strength between different types of bonds, metallic, ionic and covalent. •        Program a Microbit to test the electrical conductivity of different materials.
 date: '2020-11-28 00:00:00+00:00'
 draft: false
 author: Samantha Schwessinger

@@ -1,7 +1,6 @@
 ---
 title: 'Scratch Sort: Events & Loops'
-description: Students explore Scratch and recognize how the categories and blocks
-  within the categories help students create projects in Scratch.
+description: Students explore Scratch and recognize how the categories and blocks within the categories help students create projects in Scratch.
 date: '2023-03-02 00:00:00+00:00'
 draft: false
 author: Minda Blevins

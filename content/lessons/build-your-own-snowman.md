@@ -1,9 +1,6 @@
 ---
 title: Build Your Own Snowman
-description: Student learners will build a snowman using a Google Slides template.
-  They will click and drag snowman parts and accessories to create a unique snowman.
-  Once the snowman is built, they will write a story about their snowman and it's
-  unique personality.
+description: Student learners will build a snowman using a Google Slides template. They will click and drag snowman parts and accessories to create a unique snowman. Once the snowman is built, they will write a story about their snowman and it's unique personality.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Charles Morton

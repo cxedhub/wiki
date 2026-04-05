@@ -1,9 +1,6 @@
 ---
 title: Traffic Signals - Real World Finite State Machines
-description: "•\tThis lesson has been improvised to accommodate for the fact that\
-  \ computers in the building have been blocked from accessing and utilizing Arduino\
-  \ boards. In light of this, the lesson will primarily be a discussion of traffic\
-  \ signals and how they are programmed."
+description: "•\tThis lesson has been improvised to accommodate for the fact that computers in the building have been blocked from accessing and utilizing Arduino boards. In light of this, the lesson will primarily be a discussion of traffic signals and how they are programmed."
 date: '2024-03-27'
 draft: false
 author: Shari Shaw
@@ -11,8 +8,7 @@ subjects:
 - Computer Science
 - Mathematics
 - Reading/Language Arts
-- Technology
-- Engineering
+- Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -34,8 +30,26 @@ standards:
   - MP.3
   - MP.4
   - MP.7
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
 standard_types:
 - CCSS Math
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

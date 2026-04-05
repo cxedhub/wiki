@@ -1,15 +1,12 @@
 ---
 title: Configure godot_rl
-description: Student will install prerequisites such as pip, python-is-python3 etc.
-  Will follow instructions I have given them and using the command line will install
-  and configure both Godot and the godot_rl agents framework.
+description: Student will install prerequisites such as pip, python-is-python3 etc. Will follow instructions I have given them and using the command line will install and configure both Godot and the godot_rl agents framework.
 date: '2023-07-26'
 draft: false
 author: Jesse Smith
 subjects:
 - Computer Science
-- Technology
-- Engineering
+- Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -23,12 +20,37 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-materials: Website, will require machine with high graphical and cpu resources with
-  linux/unix capabilities, also access to github and other websites
+materials: Website, will require machine with high graphical and cpu resources with linux/unix capabilities, also access to github and other websites
 tags:
 - Game-Based
 - WySTACK
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

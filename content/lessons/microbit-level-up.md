@@ -1,13 +1,11 @@
 ---
 title: Micro:bit Level Up
-description: This lesson provides an introduction to micro:bits and 4 levels of activities
-  to learn about the possibilities of the micro:bit.
+description: This lesson provides an introduction to micro:bits and 4 levels of activities to learn about the possibilities of the micro:bit.
 date: '2021-03-18 00:00:00+00:00'
 draft: false
 author: Julie Snyder
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

@@ -1,23 +1,12 @@
 ---
-title: Internet Information Research and Retrieval Processes and Effective Search
-  Strategies
-description: This lesson will introduce the concepts of information research strategies,
-  information storage, and retrieval systems (databases and search engines, etc.).
-  Students will learn the digital process of how information is requested by a person
-  and sent through the Internet via networks in encoded packets, then retrieved from
-  the content creator or curator, which in turn delivers an encoded packet (response/answer
-  or solution/outcome) back to the original person making the search query. There
-  will be unplugged activities as well as Internet search tests to help students understand
-  how to use effective search strings via the use of boolean operators and specific
-  keywords. Students will be introduced to the concept of metadata programming and
-  algorithms that enable this process to function.
+title: Internet Information Research and Retrieval Processes and Effective Search Strategies
+description: This lesson will introduce the concepts of information research strategies, information storage, and retrieval systems (databases and search engines, etc.). Students will learn the digital process of how information is requested by a person and sent through the Internet via networks in encoded packets, then retrieved from the content creator or curator, which in turn delivers an encoded packet (response/answer or solution/outcome) back to the original person making the search query. There will be unplugged activities as well as Internet search tests to help students understand how to use effective search strings via the use of boolean operators and specific keywords. Students will be introduced to the concept of metadata programming and algorithms that enable this process to function.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Ron Chesmore
 subjects:
 - Computer Science
 - Library Media
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

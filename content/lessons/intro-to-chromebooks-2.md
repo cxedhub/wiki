@@ -1,7 +1,6 @@
 ---
 title: Intro. to Chromebooks
-description: Students will be able to identify the parts/features of a chromebook,
-  and sign technology agreement.
+description: Students will be able to identify the parts/features of a chromebook, and sign technology agreement.
 date: '2022-11-29 00:00:00+00:00'
 draft: false
 author: Alicia Auzqui

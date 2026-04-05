@@ -1,7 +1,6 @@
 ---
 title: Cybersecurity  - Hand Introduction and Confidentiality
-description: Introduction to the GenCyber Hand concepts - also includes Confidentiality
-  topics.
+description: Introduction to the GenCyber Hand concepts - also includes Confidentiality topics.
 date: '2023-07-13T21:56:38'
 draft: false
 author: Jeff Kitterman

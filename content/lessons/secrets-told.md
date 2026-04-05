@@ -1,16 +1,12 @@
 ---
 title: Secrets Told!
-description: Kids love to talk in code so parents and teachers can't figure out what
-  they are saying. Enter the world of emojis and text acronyms such as "TBH" and "IDK."
-  The codes can (and have been) broken. The history behind code is long and intricate.
-  Below are examples of how code exists now and in the past.
+description: Kids love to talk in code so parents and teachers can't figure out what they are saying. Enter the world of emojis and text acronyms such as "TBH" and "IDK." The codes can (and have been) broken. The history behind code is long and intricate. Below are examples of how code exists now and in the past.
 date: '2023-09-13T09:10:45'
 draft: false
 author: Holley Nichols
 subjects:
 - Computer Science
-- Engineering
-- Technology
+- Science
 grade_levels:
 - 9-12
 cs_domains:

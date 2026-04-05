@@ -1,9 +1,6 @@
 ---
 title: Writing CSV files in Python
-description: Students will design a flight path for a programmable drone and collect
-  the data from the drone such as altitude, motor temperature, air pressure, and flight
-  time.  The students will record the data to a file on their computer using python
-  .
+description: Students will design a flight path for a programmable drone and collect the data from the drone such as altitude, motor temperature, air pressure, and flight time.  The students will record the data to a file on their computer using python .
 date: '2023-04-03'
 draft: false
 author: John Lupher
@@ -19,6 +16,7 @@ cs_principles:
 - Testing and Refining Computational Artifacts
 materials: Website, CoDrone Lite Programmable Drones
 tags:
+- Data Collection
 - WySTACK
 supplements:
 - /uploads/writing-csv-files-in-python/Wystack_asg1_-_John_Lupher.docx
@@ -36,7 +34,20 @@ standards:
   - L1.DA.CVT.01
   - L2.AP.A.03
   - L2.DA.CVT.02
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 standard_types:
+- CSTA
+- ISTE
 - NGSS
 - Wyoming CS
 ---

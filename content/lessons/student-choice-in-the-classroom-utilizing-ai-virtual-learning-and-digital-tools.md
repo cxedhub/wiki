@@ -1,11 +1,6 @@
 ---
-title: Student Choice in the Classroom Utilizing AI, Virtual Learning and Digital
-  Tools
-description: in person, learning taking place in a brick and mortar classroom. Students
-  have the choice whether to dissect a frog using a real preserved specimen or through
-  the use of a virtual frog dissection at the end of the lab. All students will be
-  given an end of unit quiz reviewing all the information they should have learned
-  throughout the lab.
+title: Student Choice in the Classroom Utilizing AI, Virtual Learning and Digital Tools
+description: in person, learning taking place in a brick and mortar classroom. Students have the choice whether to dissect a frog using a real preserved specimen or through the use of a virtual frog dissection at the end of the lab. All students will be given an end of unit quiz reviewing all the information they should have learned throughout the lab.
 date: '2023-07-24'
 draft: false
 author: Alicia Vonberg
@@ -31,7 +26,28 @@ supplements:
 - /uploads/student-choice-in-the-classroom-utilizing-ai-virtual-learning-and-digital-tools/Lesson_Plan_A-In_Person_Frog_DissectionLesson_Plan_A-In_person_learning_taking_place_in_a_brick_and_mortar_classroom._Students_have_the_choice_whether_to_dissect_a_frog_using_a_real_preserved_specimen_or_t_-_Alicia_Gochenour-Vonberg.pdf
 - /uploads/student-choice-in-the-classroom-utilizing-ai-virtual-learning-and-digital-tools/StudentWork1022024_-_Alicia_Gochenour-Vonberg.jpg
 - /uploads/student-choice-in-the-classroom-utilizing-ai-virtual-learning-and-digital-tools/StudentWork022024_-_Alicia_Gochenour-Vonberg.jpg
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

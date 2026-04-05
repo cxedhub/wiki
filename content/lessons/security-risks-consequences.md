@@ -1,16 +1,12 @@
 ---
 title: Security Risks & Consequences
-description: This lesson can be done either in person OR virtually. Students will
-  work individually and in groups to determine how they have been “hacked” and one
-  item “stolen” from them...
+description: This lesson can be done either in person OR virtually. Students will work individually and in groups to determine how they have been “hacked” and one item “stolen” from them...
 date: '2025-01-06 21:25:15.206000+00:00'
 draft: false
 author: Alicia Vonberg
 subjects:
 - Computer Science
-- Engineering
 - Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

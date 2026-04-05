@@ -1,8 +1,6 @@
 ---
 title: Surprise! We get to have new Pets!
-description: This is an opportunity for students to learn more about coding through
-  creating a micro:pet with a partner,  It will involve following directions.  It
-  will involve design and problem solving.
+description: This is an opportunity for students to learn more about coding through creating a micro:pet with a partner,  It will involve following directions.  It will involve design and problem solving.
 date: '2023-07-14T16:20:22'
 draft: false
 author: Phaedra Davila
@@ -71,9 +69,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 - NGSS
-- National Core Arts
 ---
 ## OVERVIEW
 

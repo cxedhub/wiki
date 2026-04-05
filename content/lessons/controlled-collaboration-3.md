@@ -1,14 +1,12 @@
 ---
 title: Controlled Collaboration
-description: Introduce your students to shared document norms while practicing identifying
-  main idea and key details.
+description: Introduce your students to shared document norms while practicing identifying main idea and key details.
 date: '2020-11-27 00:00:00+00:00'
 draft: false
 author: Crystal Graf
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 3-5
 cs_domains:

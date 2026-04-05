@@ -1,8 +1,6 @@
 ---
 title: 'Adding Click-Based Interaction (CodeHS Lesson: 4.1)'
-description: In this lesson, students will create VR worlds that allow the user to
-  animate objects interacting with them using a mouse. They will learn how to interactively
-  move, resize, and recolor shapes
+description: In this lesson, students will create VR worlds that allow the user to animate objects interacting with them using a mouse. They will learn how to interactively move, resize, and recolor shapes
 date: '2023-07-27'
 draft: false
 author: Stephanie May
@@ -24,7 +22,22 @@ supplements:
 - /uploads/adding-click-based-interaction-codehs-lesson-41/_Lesson_Plan_for_Animation___CodeHS_-_Stephanie_May.pdf
 - /uploads/adding-click-based-interaction-codehs-lesson-41/CodeHS_lesson_plan1.1_-_Stephanie_May.docx
 - /uploads/adding-click-based-interaction-codehs-lesson-41/S_May_Education_Poster_VR_Scene_Creation_-_Stephanie_May.pdf
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  ISTE:
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

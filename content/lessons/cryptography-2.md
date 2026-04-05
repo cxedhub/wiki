@@ -1,7 +1,6 @@
 ---
 title: Cryptography
-description: In this activity students are introduced to The Caesar Cipher and create
-  a cipher wheel and practice using the cipher.
+description: In this activity students are introduced to The Caesar Cipher and create a cipher wheel and practice using the cipher.
 date: '2023-03-19 00:00:00+00:00'
 draft: false
 author: Kristy Barr

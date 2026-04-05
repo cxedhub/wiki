@@ -1,8 +1,6 @@
 ---
 title: Egg Drop
-description: Using the MicroBit students will make a safe container for an egg drop.
-  Instead of an egg, the students will be using the microbit to sense the impact.
-  Students will learn about force and energy transfer.
+description: Using the MicroBit students will make a safe container for an egg drop. Instead of an egg, the students will be using the microbit to sense the impact. Students will learn about force and energy transfer.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Becki Butterfield

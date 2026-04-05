@@ -1,19 +1,12 @@
 ---
 title: Computer Basics (Collaborative lesson with K and 5)
-description: 5th grade students will mentor kindergarten students in how to properly
-  care for and navigate their personal computer. To begin, they will outline the key
-  vocabulary of computer parts and how to keep their computers clean and safe. Next,
-  they will help kindergarteners to locate the Internet and login to Clever. Finally,
-  they will help kindergarteners login to specific apps within Clever. Each task will
-  be assessed by a 5th grader to ensure that the kindergartener has successfully mastered
-  the task and can repeat the task independently.
+description: 5th grade students will mentor kindergarten students in how to properly care for and navigate their personal computer. To begin, they will outline the key vocabulary of computer parts and how to keep their computers clean and safe. Next, they will help kindergarteners to locate the Internet and login to Clever. Finally, they will help kindergarteners login to specific apps within Clever. Each task will be assessed by a 5th grader to ensure that the kindergartener has successfully mastered the task and can repeat the task independently.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Melissa Harris
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - K-2
 - 3-5

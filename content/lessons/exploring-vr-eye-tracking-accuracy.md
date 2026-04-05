@@ -1,18 +1,12 @@
 ---
 title: Exploring VR Eye Tracking Accuracy
-description: This lesson uses discussions and hands-on activities to help students  better
-  understand what eye tracking is, how data is collected from tracking systems, and
-  how to understand the data.  This unit will also help students understand how eye
-  tracking can be used in various fields and start to better understand the social
-  implications of using these systems in all fields.  This lessons will allow students
-  to simulate an eye tracking system by observing and recording each other’s eye movement
-  while looking at different objects and images within the GazeSense program.
+description: This lesson uses discussions and hands-on activities to help students  better understand what eye tracking is, how data is collected from tracking systems, and how to understand the data.  This unit will also help students understand how eye tracking can be used in various fields and start to better understand the social implications of using these systems in all fields.  This lessons will allow students to simulate an eye tracking system by observing and recording each other’s eye movement while looking at different objects and images within the GazeSense program.
 date: '2023-07-20'
 draft: false
 author: Autumn Spiva
 subjects:
 - Computer Science
-- Engineering
+- Science
 grade_levels:
 - 6-8
 cs_domains:
@@ -25,15 +19,38 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-materials: Spreadsheet (Google Sheets) and eye tracking software (GazeSense) device
-  with camera and internet access (chromebook) and possibly webcams if needed
+materials: Spreadsheet (Google Sheets) and eye tracking software (GazeSense) device with camera and internet access (chromebook) and possibly webcams if needed
 tags:
 - Data Collection
 - WySTACK
 supplements:
 - /uploads/exploring-vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_-_AUTUMN_SPIVA.pdf
 - /uploads/exploring-vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_-_AUTUMN_SPIVA.docx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

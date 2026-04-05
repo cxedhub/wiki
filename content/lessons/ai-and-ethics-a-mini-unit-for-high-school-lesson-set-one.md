@@ -1,18 +1,11 @@
 ---
 title: 'AI and Ethics: A Mini-Unit for High School Lesson Set One'
-description: This is the first set of three lessons in a six-lesson mini unit on the
-  basics of how artificial intelligence/machine learning works and the ethics involved
-  with artificial intelligence.  In this lesson set, students will learn about artificial
-  intelligence, supervised machine learning, build their own teachable machine, and
-  look at how datasets influence results.  Students will also begin to consider ethical
-  implications of artificial intelligence, especially in relation to datasets.
+description: This is the first set of three lessons in a six-lesson mini unit on the basics of how artificial intelligence/machine learning works and the ethics involved with artificial intelligence.  In this lesson set, students will learn about artificial intelligence, supervised machine learning, build their own teachable machine, and look at how datasets influence results.  Students will also begin to consider ethical implications of artificial intelligence, especially in relation to datasets.
 date: '2024-04-12'
 draft: false
 author: Sarah Horen
 subjects:
 - Computer Science
-- Technology
-- Advisement classes.  Lessons can also be adapted to other content areas.
 grade_levels:
 - 9-12
 cs_domains:
@@ -24,6 +17,7 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Works best with Google Chrome and Google Education Suite; https://teachablemachine.withgoogle.com/
 tags:
+- Data Collection
 - Project-Based
 - WySTACK
 supplements:
@@ -37,7 +31,24 @@ supplements:
 - /uploads/ai-and-ethics-a-mini-unit-for-high-school-lesson-set-one/3_-_Sarah_Horen.png
 - /uploads/ai-and-ethics-a-mini-unit-for-high-school-lesson-set-one/AI_and_Ethics_Survey_Students_-_Sarah_Horen.pdf
 - /uploads/ai-and-ethics-a-mini-unit-for-high-school-lesson-set-one/WySTACK_Lesson_Plans_-_Sarah_Horen1.docx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

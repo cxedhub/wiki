@@ -1,7 +1,6 @@
 ---
 title: Creating Mazes using Kodable
-description: Students will be able to create solvable mazes while applying grade-level
-  geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
+description: Students will be able to create solvable mazes while applying grade-level geometry concepts on Kodable Maze Maker https://game.kodable.com/hour-of-code#maze-maker
 date: '2020-11-24 00:00:00+00:00'
 draft: false
 author: Connie Hollin

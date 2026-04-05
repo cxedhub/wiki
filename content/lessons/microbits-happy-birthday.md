@@ -1,14 +1,12 @@
 ---
 title: 'Micro:bits: Happy Birthday'
-description: Turn your micro:bit into a music player. Code musical notes using simple
-  commands. Listen to your program using earphones and crocodile clips and wish your
-  friends or family a happy birthday!
+description: Turn your micro:bit into a music player. Code musical notes using simple commands. Listen to your program using earphones and crocodile clips and wish your friends or family a happy birthday!
 date: '2022-08-12 00:00:00+00:00'
 draft: false
 author: Ryan Olson
 subjects:
 - Computer Science
-- Music
+- Art
 grade_levels:
 - 3-5
 - 6-8
@@ -49,7 +47,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

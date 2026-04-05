@@ -1,7 +1,6 @@
 ---
 title: Creepy Carrots
-description: Stem activity for 5-year olds. Students will work cooperatively to construct
-  a structure using a variety of items.
+description: Stem activity for 5-year olds. Students will work cooperatively to construct a structure using a variety of items.
 date: '2022-11-19 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders

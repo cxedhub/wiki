@@ -1,17 +1,12 @@
 ---
 title: 'Geometric planter : find volume'
-description: The purpose for this geometry lesson is integrated with computer science
-  3 D printing so students know what is Tinkercad and Blender .  In the meantime,
-  this lesson emphasizes visual as well as kinesthetic learning and engaged students
-  to create their own designed geometric planter and use it to gain deeper understanding
-  about the concept of the total volume of any polygon.
+description: The purpose for this geometry lesson is integrated with computer science 3 D printing so students know what is Tinkercad and Blender .  In the meantime, this lesson emphasizes visual as well as kinesthetic learning and engaged students to create their own designed geometric planter and use it to gain deeper understanding about the concept of the total volume of any polygon.
 date: '2023-03-18'
 draft: false
 author: Yung Richards
 subjects:
 - Computer Science
 - Mathematics
-- Technology
 grade_levels:
 - 6-8
 - 9-12
@@ -25,6 +20,7 @@ cs_principles:
 - Communicating About Computing
 materials: Website, https://www.tinkercad.com
 tags:
+- Unplugged
 - WySTACK
 supplements:
 - /uploads/geometric-planter-find-volume/Lesson_1_pre_test_-_Yung_Richards.pdf
@@ -39,8 +35,26 @@ standards:
   Wyoming CS:
   - L1.AP.PD.04
   - L2.AP.M.01
+  CSTA:
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
 - CCSS Math
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

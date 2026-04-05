@@ -1,10 +1,6 @@
 ---
-title: 'The Knight''s Tour: Solve a puzzle to find a way for a knight to visit every
-  square on a board exactly once. Once solved, lead students through the power of
-  using abstraction to make the problem easier.'
-description: Solve a puzzle to find a way for a knight to visit every square on a
-  board exactly once. Once solved, lead students through the power of using abstraction
-  to make the problem easier.
+title: 'The Knight''s Tour: Solve a puzzle to find a way for a knight to visit every square on a board exactly once. Once solved, lead students through the power of using abstraction to make the problem easier.'
+description: Solve a puzzle to find a way for a knight to visit every square on a board exactly once. Once solved, lead students through the power of using abstraction to make the problem easier.
 date: '2023-07-27'
 draft: false
 author: Doc Shaw
@@ -28,7 +24,25 @@ tags:
 standards:
   Wyoming CS:
   - 8.AP.A.01
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

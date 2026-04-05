@@ -1,15 +1,12 @@
 ---
 title: Fraction Racing
-description: Students engineered mint mobiles to race through a micro bit timing gate.
-  The data was then collected and plotted on a number line in the form of whole numbers
-  and fractions. The students took this data and asked/answered questions based on
-  the collection.
+description: Students engineered mint mobiles to race through a micro bit timing gate. The data was then collected and plotted on a number line in the form of whole numbers and fractions. The students took this data and asked/answered questions based on the collection.
 date: '2021-11-22 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Mathematics
 grade_levels:
 - 3-5
@@ -46,6 +43,7 @@ standards:
   - 4-PS3-4
 materials: Micro:bit
 tags:
+- Data Collection
 - micro:bit
 standard_types:
 - CCSS Math

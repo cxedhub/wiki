@@ -1,7 +1,6 @@
 ---
 title: I Can Create a Thermometer
-description: Students will be able to experiment with micro-bits. Then students will
-  be able to create the code for taking a temperature. Students can test their micro-bit.
+description: Students will be able to experiment with micro-bits. Then students will be able to create the code for taking a temperature. Students can test their micro-bit.
 date: '2021-11-21 00:00:00+00:00'
 draft: false
 author: Sarah McKenzie

@@ -1,14 +1,12 @@
 ---
 title: GIS Watershed Information
-description: Students use GIS online software to analyze local watersheds and draw
-  conclusions about earth changes over time and connect local areas to a larger region.
+description: Students use GIS online software to analyze local watersheds and draw conclusions about earth changes over time and connect local areas to a larger region.
 date: '2021-11-12 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
 subjects:
 - Computer Science
 - Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

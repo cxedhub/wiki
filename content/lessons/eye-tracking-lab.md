@@ -1,7 +1,6 @@
 ---
 title: Eye Tracking Lab
-description: Eye tracking, is a technology that helps us understand how our eyes move
-  and what we look at.
+description: Eye tracking, is a technology that helps us understand how our eyes move and what we look at.
 date: '2024-04-02'
 draft: false
 author: Christy Rodgers
@@ -9,7 +8,6 @@ subjects:
 - Computer Science
 - Mathematics
 - Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -26,7 +24,27 @@ tags:
 - WySTACK
 supplements:
 - /uploads/eye-tracking-lab/Title__Eye_TrackingLab__A_Lesson_for_Middle_School_Students_-_Christy_Rodgers.docx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

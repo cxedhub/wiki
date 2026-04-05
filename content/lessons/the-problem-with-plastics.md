@@ -1,10 +1,6 @@
 ---
 title: The Problem with Plastics
-description: 3rd grade learns about Jacques Cousteau and his conservation efforts
-  to clean up the ocean. Plastic waste has become a huge problem in the oceans affecting
-  animals and our planet. Students will be researching websites to graph data that
-  they find in relationship to the amount of plastics in the world and brainstorm
-  ideas about what they can do as a solution.
+description: 3rd grade learns about Jacques Cousteau and his conservation efforts to clean up the ocean. Plastic waste has become a huge problem in the oceans affecting animals and our planet. Students will be researching websites to graph data that they find in relationship to the amount of plastics in the world and brainstorm ideas about what they can do as a solution.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Kathy Manker
@@ -13,7 +9,6 @@ subjects:
 - Mathematics
 - Reading/Language Arts
 - Science
-- Technology
 grade_levels:
 - 3-5
 cs_domains:
@@ -25,8 +20,7 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
-materials: Website, 1- https://kids.nationalgeographic.com/nature/kids-vs-plastic/article/10-tips-to-reduce-your-plastic-use;   2-https://youtu.be/Ue35VMmRwKg;  3-Tracking
-  Ocean Plastic From Space | Earthdata (nasa.gov) 4-https://sites.google.com/site/jacquescousteauconservation/artifact-2
+materials: Website, 1- https://kids.nationalgeographic.com/nature/kids-vs-plastic/article/10-tips-to-reduce-your-plastic-use;   2-https://youtu.be/Ue35VMmRwKg;  3-Tracking Ocean Plastic From Space | Earthdata (nasa.gov) 4-https://sites.google.com/site/jacquescousteauconservation/artifact-2
 tags:
 - Data Collection
 standards:

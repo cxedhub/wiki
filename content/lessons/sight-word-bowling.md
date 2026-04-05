@@ -1,14 +1,12 @@
 ---
 title: Sight Word Bowling
-description: Students will draw a sight word card and then program either a kibo or
-  bee bot to knock down the matching bowling pin.
+description: Students will draw a sight word card and then program either a kibo or bee bot to knock down the matching bowling pin.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Jenny Day
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - K-2
 cs_domains:

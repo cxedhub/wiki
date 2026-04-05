@@ -1,8 +1,6 @@
 ---
 title: Using Microbits to Make a Magic Button
-description: Create a magic trick you can perform to impress your friends. When you
-  move the sticky labels on your micro:bit’s A and B button, you appear to make the
-  buttons really switch over.
+description: Create a magic trick you can perform to impress your friends. When you move the sticky labels on your micro:bit’s A and B button, you appear to make the buttons really switch over.
 date: '2023-03-11 00:00:00+00:00'
 draft: false
 author: Ryan Olson

@@ -1,16 +1,13 @@
 ---
 title: Compression Code
-description: This is an introductory activity used before teaching scientific notation
-  and exponents. Students will learn about compression coding and practice and apply
-  that skill. Ideally this will be taught the day before the teacher introduces scientific
-  notation.
+description: This is an introductory activity used before teaching scientific notation and exponents. Students will learn about compression coding and practice and apply that skill. Ideally this will be taught the day before the teacher introduces scientific notation.
 date: '2022-11-26 00:00:00+00:00'
 draft: false
 author: Kristy Barr
 subjects:
 - Computer Science
 - Mathematics
-- Music
+- Art
 grade_levels:
 - 6-8
 cs_domains:
@@ -53,7 +50,6 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-- National Core Arts
 - Wyoming CS
 ---
 # OVERVIEW

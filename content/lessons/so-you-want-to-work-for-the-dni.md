@@ -7,7 +7,6 @@ author: Jerry Updike
 subjects:
 - Computer Science
 - Social Studies
-- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -46,7 +45,6 @@ tags:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 ---
 ## OVERVIEW
 

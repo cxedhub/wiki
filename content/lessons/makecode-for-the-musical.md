@@ -1,21 +1,13 @@
 ---
 title: Make.code for the Musical
-description: Students were gearing up for a second semester project in design for
-  the spring musical.  This was a collaborative effort across many school departments
-  including my Year 2 FabLab students. Students researched the history of the musical
-  (Chicago) including major cultural things happening during the 1920s era. Students
-  then went through the design thinking process to develop design ideas.  During this
-  time, students were also learning about Micro:bits, neopixels, and a wide variety
-  of other electronic options for lighting.  A requirement of all projects is that
-  they needed to include light(s) in some capacity.
+description: Students were gearing up for a second semester project in design for the spring musical.  This was a collaborative effort across many school departments including my Year 2 FabLab students. Students researched the history of the musical (Chicago) including major cultural things happening during the 1920s era. Students then went through the design thinking process to develop design ideas.  During this time, students were also learning about Micro:bits, neopixels, and a wide variety of other electronic options for lighting.  A requirement of all projects is that they needed to include light(s) in some capacity.
 date: '2022-04-27'
 draft: false
 author: Samantha J Smith
 subjects:
 - Computer Science
-- Technology
-- Engineering
-- Design
+- Science
+- Art
 grade_levels:
 - 9-12
 cs_domains:
@@ -23,12 +15,24 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
-materials: Micro:bit, Wide variety of building materials, other electronics options
-  such as neopixels,LED lights, neon lights
+materials: Micro:bit, Wide variety of building materials, other electronics options such as neopixels,LED lights, neon lights
 tags:
 - WySTACK
 - micro:bit
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

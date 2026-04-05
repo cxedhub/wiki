@@ -1,7 +1,6 @@
 ---
 title: Creating a Scoreboard with Microbits
-description: Create a scoreboard you can use with your microbit. Create a program
-  that you can use to keep score with your games.
+description: Create a scoreboard you can use with your microbit. Create a program that you can use to keep score with your games.
 date: '2023-03-12 00:00:00+00:00'
 draft: false
 author: Ryan Olson

@@ -1,14 +1,12 @@
 ---
 title: Denial of Service Attack
-description: Students will model one type of attack (a denial-of-service attack) and
-  figure out how to protect the network against it (no computer programming required)
+description: Students will model one type of attack (a denial-of-service attack) and figure out how to protect the network against it (no computer programming required)
 date: '2023-09-12T21:38:23'
 draft: false
 author: Jumoke Adebimpe
 subjects:
-- Cybersecurity
 - Science
-- Technology
+- Computer Science
 grade_levels:
 - 9-12
 cs_domains:

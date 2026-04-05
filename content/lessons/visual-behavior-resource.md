@@ -1,16 +1,12 @@
 ---
 title: Visual Behavior Resource
-description: The first lesson plan will consist of some physical and behavioral activities
-  that will show the meanings of the traffic lights and how they can be used in the
-  classroom. A transportation unit over the side channel vocabulary and explanation
-  of how they work with traffic lights.
+description: The first lesson plan will consist of some physical and behavioral activities that will show the meanings of the traffic lights and how they can be used in the classroom. A transportation unit over the side channel vocabulary and explanation of how they work with traffic lights.
 date: '2023-07-22'
 draft: false
 author: Tonya Taylor
 subjects:
-- Technology
-- Engineering
-- Behavior
+- Computer Science
+- Science
 grade_levels:
 - K-2
 - 3-5
@@ -24,7 +20,6 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Arduino
 tags:
-- Cybersecurity
 - Data Collection
 - WySTACK
 supplements:
@@ -34,8 +29,29 @@ supplements:
 standards:
   CCSS ELA:
   - RL.2.4
+  CSTA:
+  - 1A-CS-01
+  - 1A-CS-02
+  - 1A-CS-03
+  - 1A-DA-05
+  - 1A-DA-06
+  - 1A-DA-07
+  - 1B-CS-01
+  - 1B-CS-02
+  - 1B-CS-03
+  - 1B-DA-06
+  - 1B-DA-07
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
 - CCSS ELA
+- CSTA
+- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

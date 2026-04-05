@@ -1,11 +1,6 @@
 ---
 title: Finite State Machine
-description: 'Students activity starts with choosing a 2 - 3 state simulation by using
-  an object (EX: TV, car, etc) or process within their daily life while at home.  Next,
-  the student will plan out their FSM by drawing or using software tools to create
-  a table of how the FMS operates.  Last task will be to convert the information from
-  the table into a FSM diagram by using diagram software tools or drawing by hand
-  a FMS diagram.'
+description: 'Students activity starts with choosing a 2 - 3 state simulation by using an object (EX: TV, car, etc) or process within their daily life while at home.  Next, the student will plan out their FSM by drawing or using software tools to create a table of how the FMS operates.  Last task will be to convert the information from the table into a FSM diagram by using diagram software tools or drawing by hand a FMS diagram.'
 date: '2023-07-26'
 draft: false
 author: Dana Theriot
@@ -24,7 +19,19 @@ tags:
 - WySTACK
 supplements:
 - /uploads/finite-state-machine/Lesson_PLAN_-_FSM_-_Dana_Theriot.pdf
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

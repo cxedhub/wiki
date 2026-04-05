@@ -1,13 +1,11 @@
 ---
 title: 'Intro to Coding: Unplugged'
-description: This lesson will help students gain familiarity with algorithms and how
-  to create a path on a coding mat. This will help prepare students to begin coding
-  online.
+description: This lesson will help students gain familiarity with algorithms and how to create a path on a coding mat. This will help prepare students to begin coding online.
 date: '2022-12-07 00:00:00+00:00'
 draft: false
 author: Minda Blevins
 subjects:
-- Technology
+- Computer Science
 grade_levels:
 - K-2
 cs_domains:

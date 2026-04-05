@@ -1,19 +1,12 @@
 ---
 title: 'Cats or Dogs: Intro to Supervised Machine Learning'
-description: In this lesson, students will learn what supervised machine learning
-  is and how it operates.  Students will then work with version one and two of Google's
-  Teachable machine to create classification models.  They will analyze how biased
-  data changes the output of the algorithm and look at ways in which to avoid algorithmic
-  bias.  Students will begin to consider how bias in data is one example of an ethical
-  issue in AI.
+description: In this lesson, students will learn what supervised machine learning is and how it operates.  Students will then work with version one and two of Google's Teachable machine to create classification models.  They will analyze how biased data changes the output of the algorithm and look at ways in which to avoid algorithmic bias.  Students will begin to consider how bias in data is one example of an ethical issue in AI.
 date: '2023-07-24'
 draft: false
 author: Sarah Horen
 subjects:
 - Computer Science
-- Technology
-- Engineering
-- Advisement or general enrichment classes
+- Science
 grade_levels:
 - 6-8
 - 9-12
@@ -26,9 +19,33 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website
 tags:
+- Data Collection
 - Project-Based
 - WySTACK
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

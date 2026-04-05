@@ -1,10 +1,6 @@
 ---
 title: 'Geographic Information Systems: Introduction and Map Creation'
-description: This lesson introduces Geographic Information Systems (GIS) to students.
-  We explore ways in which GIS impacts our communities and our world as well as ways
-  in which it solves problems and affects decision making. Students will understand
-  domain-specific GIS vocabulary and use ArcGIS software to create a web map that
-  answers a research question.
+description: This lesson introduces Geographic Information Systems (GIS) to students. We explore ways in which GIS impacts our communities and our world as well as ways in which it solves problems and affects decision making. Students will understand domain-specific GIS vocabulary and use ArcGIS software to create a web map that answers a research question.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Whitney Wilking
@@ -12,7 +8,6 @@ subjects:
 - Computer Science
 - Reading/Language Arts
 - Social Studies
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -60,7 +55,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

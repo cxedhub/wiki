@@ -1,9 +1,6 @@
 ---
 title: Alphabetical Order
-description: Using a Scratch Jr. activity, students will program different alphabet
-  letter sprites to line up in alphabetical order. The purpose of this activity is
-  to integrate the literacy skill of alphabetizing with the programing of a control
-  sequence in computer science.
+description: Using a Scratch Jr. activity, students will program different alphabet letter sprites to line up in alphabetical order. The purpose of this activity is to integrate the literacy skill of alphabetizing with the programing of a control sequence in computer science.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Kristine Gaskill

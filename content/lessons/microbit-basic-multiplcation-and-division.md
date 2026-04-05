@@ -1,9 +1,6 @@
 ---
 title: Microbit Basic Multiplcation and Division
-description: Students will create an online microbit “project” about basic multiplication
-  and array’s. The project will focus on one multiplication, division, and array equation.
-  This lesson will be a great introduction to students just learning to become fluent
-  with their multiplication and division math facts.
+description: Students will create an online microbit “project” about basic multiplication and array’s. The project will focus on one multiplication, division, and array equation. This lesson will be a great introduction to students just learning to become fluent with their multiplication and division math facts.
 date: '2023-03-20 00:00:00+00:00'
 draft: false
 author: Megan Moore

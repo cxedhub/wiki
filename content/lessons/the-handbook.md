@@ -1,13 +1,10 @@
 ---
 title: The HANDbook
-description: Implementing effective cybersecurity measures is particularly challenging
-  today because there are more devices than people, and attackers are becoming more
-  innovative.
+description: Implementing effective cybersecurity measures is particularly challenging today because there are more devices than people, and attackers are becoming more innovative.
 date: '2023-07-14T12:24:59'
 draft: false
 author: Everett Fleming
 subjects:
-- Cybersecurity
 - Mathematics
 grade_levels:
 - 9-12

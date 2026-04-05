@@ -1,14 +1,11 @@
 ---
 title: Introduction to A-Frame
-description: This lesson would be targeted as a challenge to students that have completed
-  HTML lessons and the ability to work independently.  This is just an introductory
-  lesson.  A-frame gives students the ability to use HTML in a different way.
+description: This lesson would be targeted as a challenge to students that have completed HTML lessons and the ability to work independently.  This is just an introductory lesson.  A-frame gives students the ability to use HTML in a different way.
 date: '2022-04-08'
 draft: false
 author: Skye Mader
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 - 9-12
@@ -23,7 +20,20 @@ tags:
 supplements:
 - /uploads/introduction-to-a-frame/Mader_WySTACK_Education_Posters2021_A_Frame_-_Skye_Mader.pptx
 - /uploads/introduction-to-a-frame/Mader_WySTACK_Education_Posters2021_-_Skye_Mader.pptx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  ISTE:
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

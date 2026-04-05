@@ -1,15 +1,11 @@
 ---
 title: Moving the LED with Microbits
-description: In this project, you and a partner will code a program that can make
-  an LED move left, right, and up on the microbit screen. By pressing combinations
-  of the ‘a’ and ‘b’ buttons, the LED should move around on the screen. This will
-  act as a precursor lesson to more complicated game
+description: In this project, you and a partner will code a program that can make an LED move left, right, and up on the microbit screen. By pressing combinations of the ‘a’ and ‘b’ buttons, the LED should move around on the screen. This will act as a precursor lesson to more complicated game
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Taylor Plantt
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

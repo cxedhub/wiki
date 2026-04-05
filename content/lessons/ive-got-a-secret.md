@@ -1,9 +1,6 @@
 ---
 title: I've got a secret!
-description: Bee Boop Bee Boop! This lesson will explore cryptology and ciphers. We
-  will reserach the topic using a scavenger hunt that students will be able to dig
-  deep into their thinking and how ciphers work. Then students will be able to create
-  and decode many ciphers with different keys.
+description: Bee Boop Bee Boop! This lesson will explore cryptology and ciphers. We will reserach the topic using a scavenger hunt that students will be able to dig deep into their thinking and how ciphers work. Then students will be able to create and decode many ciphers with different keys.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse

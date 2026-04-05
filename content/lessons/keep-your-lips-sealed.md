@@ -1,14 +1,12 @@
 ---
 title: Keep Your Lips Sealed
-description: There are multiple ways to gain information. Many people will openly
-  provide information with minimal thought to how the information can be used maliciously.
+description: There are multiple ways to gain information. Many people will openly provide information with minimal thought to how the information can be used maliciously.
 date: '2023-09-13T11:46:07'
 draft: false
 author: Holley Nichols
 subjects:
 - Computer Science
-- Engineering
-- Technology
+- Science
 grade_levels:
 - 9-12
 cs_domains:

@@ -1,23 +1,13 @@
 ---
 title: Intro to Problem Solving
-description: This lesson is a fun introduction to the open-ended, collaborative, and
-  creative problem solving students will be using over the rest of this unit and course.
-  The aluminum boats problem could easily be substituted out for any number of other
-  problems that require students to define their goals, devise a plan, try a solution,
-  evaluate their results, and then iteratively improve from there. The fact that the
-  problem chosen is 'non-computational' is intentional. Computer science is fundamentally
-  a problem-solving discipline and staying away from traditional computer science
-  problems at this point helps to frame this class as one about problem-solving more
-  generally with computer science being a new 'tool' to help attack certain types
-  of problems.
+description: This lesson is a fun introduction to the open-ended, collaborative, and creative problem solving students will be using over the rest of this unit and course. The aluminum boats problem could easily be substituted out for any number of other problems that require students to define their goals, devise a plan, try a solution, evaluate their results, and then iteratively improve from there. The fact that the problem chosen is 'non-computational' is intentional. Computer science is fundamentally a problem-solving discipline and staying away from traditional computer science problems at this point helps to frame this class as one about problem-solving more generally with computer science being a new 'tool' to help attack certain types of problems.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Autumn Spiva
 subjects:
 - Computer Science
-- Engineering
-- Reading/Language Arts
 - Science
+- Reading/Language Arts
 grade_levels:
 - 6-8
 cs_domains:

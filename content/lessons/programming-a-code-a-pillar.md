@@ -1,8 +1,6 @@
 ---
 title: Programming a Code-a-Pillar
-description: This lesson introduces the beginning concepts of coding. Students will
-  learn with a programmable caterpillar or code-a-pillar that will be coded to reach
-  an end point.
+description: This lesson introduces the beginning concepts of coding. Students will learn with a programmable caterpillar or code-a-pillar that will be coded to reach an end point.
 date: '2021-02-17 00:00:00+00:00'
 draft: false
 author: Kayla Horn

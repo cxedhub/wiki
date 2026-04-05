@@ -1,18 +1,15 @@
 ---
 title: Volcano Animation
-description: Students use flowcharts and repetition to explore building a volcanic
-  eruption on a Micro:Bit.
+description: Students use flowcharts and repetition to explore building a volcanic eruption on a Micro:Bit.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becki Butterfield
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Mathematics
 - Reading/Language Arts
-- Science
 - Social Studies
-- Technology
 grade_levels:
 - 3-5
 cs_domains:
@@ -70,7 +67,6 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-- NCSS C3
 - NGSS
 ---
 # OVERVIEW

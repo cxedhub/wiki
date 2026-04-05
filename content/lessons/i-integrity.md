@@ -1,7 +1,6 @@
 ---
 title: I = Integrity
-description: Students will locate, read and research articles from sources to better
-  understand using  credible sources for research.
+description: Students will locate, read and research articles from sources to better understand using  credible sources for research.
 date: '2023-07-13T21:13:11'
 draft: false
 author: Billie Rainey
@@ -9,7 +8,6 @@ subjects:
 - Computer Science
 - Reading/Language Arts
 - Social Studies
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -46,7 +44,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- NCSS C3
 ---
 ## OVERVIEW
 

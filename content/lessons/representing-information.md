@@ -1,13 +1,11 @@
 ---
 title: Representing Information
-description: This lesson introduces the concept of sending bits of information from
-  one place to another.
+description: This lesson introduces the concept of sending bits of information from one place to another.
 date: '2021-08-01 00:00:00+00:00'
 draft: false
 author: James Winn
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 9-12
 cs_domains:

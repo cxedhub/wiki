@@ -1,9 +1,6 @@
 ---
 title: What is Technology?
-description: The purpose of this lesson was to introduce the students to what the
-  definition of technology is, what everyday items around them qualify as technology,
-  and how technology has evolved and with the evolution how it has positive and negative
-  consequences.
+description: The purpose of this lesson was to introduce the students to what the definition of technology is, what everyday items around them qualify as technology, and how technology has evolved and with the evolution how it has positive and negative consequences.
 date: '2021-11-18 00:00:00+00:00'
 draft: false
 author: Michelle Petty
@@ -41,7 +38,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 - Wyoming CS
 ---
 # OVERVIEW

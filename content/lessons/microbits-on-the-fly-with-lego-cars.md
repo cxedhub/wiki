@@ -1,8 +1,6 @@
 ---
 title: Micro:bits on the Fly with Lego Cars
-description: Students will explore how sensors are used in our lives and what they
-  could measure. Students will build a Lego car and use the a microbit to measure
-  acceleration.
+description: Students will explore how sensors are used in our lives and what they could measure. Students will build a Lego car and use the a microbit to measure acceleration.
 date: '2020-11-16 00:00:00+00:00'
 draft: false
 author: Julie Snyder

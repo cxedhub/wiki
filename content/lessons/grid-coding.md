@@ -1,8 +1,6 @@
 ---
 title: Grid Coding
-description: This activity focuses on creating a following an algorithm to solve a
-  problem. Using a white shower curtain liner, draw a grid. Place toys in some grids.
-  Using algorithms, the teacher will guide the student through the grid.
+description: This activity focuses on creating a following an algorithm to solve a problem. Using a white shower curtain liner, draw a grid. Place toys in some grids. Using algorithms, the teacher will guide the student through the grid.
 date: '2022-08-10 00:00:00+00:00'
 draft: false
 author: Jody Durst

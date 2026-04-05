@@ -1,13 +1,12 @@
 ---
 title: Inventing & Problem Solving with the 3 R’s (Reduce/Reuse/Recycle)
-description: Students will work collaboratively to respond to a text by using recycled
-  materials to create an invention that will solve a character’s problem.
+description: Students will work collaboratively to respond to a text by using recycled materials to create an invention that will solve a character’s problem.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Amber McClure
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Reading/Language Arts
 grade_levels:
 - K-2
@@ -48,9 +47,7 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
-materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots
-  of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm
-  page (included in lesson document).'
+materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson document).'
 tags:
 - Data Collection
 - Robotics

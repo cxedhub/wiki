@@ -1,17 +1,12 @@
 ---
 title: Sensory Classroom
-description: Students, in small groups, collaborate to design one thing that would
-  turn the classroom into a sensory classroom.  Students researched sensory disorders,
-  sensory classrooms, and communicated with our SPED staff to assess the needs of
-  our SPED students in order to create meaningful designs that could be used elsewhere
-  in the building.
+description: Students, in small groups, collaborate to design one thing that would turn the classroom into a sensory classroom.  Students researched sensory disorders, sensory classrooms, and communicated with our SPED staff to assess the needs of our SPED students in order to create meaningful designs that could be used elsewhere in the building.
 date: '2022-02-16'
 draft: false
 author: Samantha Joyce Smith
 subjects:
 - Computer Science
-- Technology
-- Engineering
+- Science
 - Art
 grade_levels:
 - 9-12
@@ -25,7 +20,19 @@ tags:
 - Scratch
 - WySTACK
 - micro:bit
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

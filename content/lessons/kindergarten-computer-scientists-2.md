@@ -1,9 +1,6 @@
 ---
 title: Kindergarten Computer Scientists
-description: Through six mini lessons, kindergarten students will be introduced to
-  Computer Science. Beginning with a working definition of CS using actions and words,
-  students will build a new skill in each lesson. Students also learn to persevere
-  in difficult challenges, just as computer scientists in the real world
+description: Through six mini lessons, kindergarten students will be introduced to Computer Science. Beginning with a working definition of CS using actions and words, students will build a new skill in each lesson. Students also learn to persevere in difficult challenges, just as computer scientists in the real world
 date: '2021-11-19 00:00:00+00:00'
 draft: false
 author: Julia Tyser

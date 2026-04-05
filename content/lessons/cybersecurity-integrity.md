@@ -1,7 +1,6 @@
 ---
 title: Cybersecurity - Integrity
-description: Introduction to the concept of integrity  with a video, unplugged activity,
-  and discussion
+description: Introduction to the concept of integrity  with a video, unplugged activity, and discussion
 date: '2023-07-13T23:07:24'
 draft: false
 author: Jeff Kitterman

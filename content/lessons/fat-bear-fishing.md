@@ -1,18 +1,12 @@
 ---
 title: Fat Bear Fishing
-description: My 5/6 grade class will use micro:bits to design a predator/prey program
-  on micro:bits that assigns each device a fish or bear identity. They will program
-  the devices to signal when the opposite animal gets closer. These micro:bits will
-  be used by 1/2 grade class who is studying bears preparing for hibernation. They
-  will play this game as an introduction to their project of viewing live cameras
-  of bears fishing and collecting data to share on a Jamboard.
+description: My 5/6 grade class will use micro:bits to design a predator/prey program on micro:bits that assigns each device a fish or bear identity. They will program the devices to signal when the opposite animal gets closer. These micro:bits will be used by 1/2 grade class who is studying bears preparing for hibernation. They will play this game as an introduction to their project of viewing live cameras of bears fishing and collecting data to share on a Jamboard.
 date: '2021-07-27 00:00:00+00:00'
 draft: false
 author: Jennifer LaVanchy
 subjects:
 - Computer Science
 - Science
-- Technology
 grade_levels:
 - K-2
 - 6-8

@@ -1,7 +1,6 @@
 ---
 title: Virtual Reality Oculus Quest 2
-description: 'Goal Work: Depending on the individual students’ goals, the appropriate
-  application will be selected according to their level and skill area.
+description: 'Goal Work: Depending on the individual students’ goals, the appropriate application will be selected according to their level and skill area.
 
 
   Assessment: Data kept inputted into graphs of growth students have made.'
@@ -10,7 +9,6 @@ draft: false
 author: Jennifer Puckett
 subjects:
 - Reading/Language Arts
-- Colors and Letters of Names
 grade_levels:
 - K-2
 cs_domains:
@@ -22,7 +20,12 @@ tags:
 - WySTACK
 supplements:
 - /uploads/virtual-reality-oculus-quest-2/Lesson_Plan__Virtual_Reality_Oculus_Quest_2_-_Jennifer_Puckett.docx
-standard_types: []
+standard_types:
+- ISTE
+standards:
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
 ---
 # OVERVIEW
 ## Activity Overview:  

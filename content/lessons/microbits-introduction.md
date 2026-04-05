@@ -1,13 +1,11 @@
 ---
 title: Microbits Introduction
-description: This lesson is used to introduce microbits to students. Students will
-  be able to code with inclusion of sequences, events, loops, conditionals, and variables.
+description: This lesson is used to introduce microbits to students. Students will be able to code with inclusion of sequences, events, loops, conditionals, and variables.
 date: '2023-03-15 00:00:00+00:00'
 draft: false
 author: Sandra Joslin
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 3-5
 cs_domains:

@@ -1,18 +1,13 @@
 ---
 title: Thanksgiving Day Parade
-description: This lesson is a great one to do right before Thanksgiving. Students
-  will read or listen to the book Balloons Over Broadway by Melissa Sweet. After completing
-  the book students are challenged to create a balloon for the Macy's Thanksgiving
-  Day Parade. Students will attach their balloon to a Sphero robot that they will
-  code to follow a parade route.
+description: This lesson is a great one to do right before Thanksgiving. Students will read or listen to the book Balloons Over Broadway by Melissa Sweet. After completing the book students are challenged to create a balloon for the Macy's Thanksgiving Day Parade. Students will attach their balloon to a Sphero robot that they will code to follow a parade route.
 date: '2022-11-11 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 3-5
 cs_domains:

@@ -1,12 +1,11 @@
 ---
 title: gingerbread man stem
-description: Students will plan, create, and test a raft to help the gingerbread man
-  cross the river.
+description: Students will plan, create, and test a raft to help the gingerbread man cross the river.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Jeanie Sanders
 subjects:
-- Technology
+- Computer Science
 grade_levels:
 - K-2
 cs_domains:

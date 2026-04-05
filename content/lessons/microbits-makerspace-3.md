@@ -1,16 +1,12 @@
 ---
 title: Micro:bits / Makerspace
-description: The lesson is for coding with micro:bits. It is written broadly for implementation
-  as an activity for a whole group of students in a library/makerspace club or as
-  a free-choice activity for small groups or individuals. However, it can be adapted
-  for collaborative teaching to support various classroom curricula.
+description: The lesson is for coding with micro:bits. It is written broadly for implementation as an activity for a whole group of students in a library/makerspace club or as a free-choice activity for small groups or individuals. However, it can be adapted for collaborative teaching to support various classroom curricula.
 date: '2023-03-10 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -27,6 +23,7 @@ cs_principles:
 - Communicating About Computing
 materials: Website, Micro:bit, Sphero, https://sites.google.com/myncsd.org/centennial-library-home/learning-commons-pages/virtual-makerspace
 tags:
+- Project-Based
 - Robotics
 - micro:bit
 standards:

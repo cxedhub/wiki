@@ -1,15 +1,12 @@
 ---
 title: Micro-Pythag
-description: This lesson will walk students through the process of writing a micro-bit
-  program to solve basic math problems. It will culminate with students writing a
-  program to solve the pythagorean theorem.
+description: This lesson will walk students through the process of writing a micro-bit program to solve basic math problems. It will culminate with students writing a program to solve the pythagorean theorem.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: John Soto
 subjects:
 - Computer Science
 - Mathematics
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

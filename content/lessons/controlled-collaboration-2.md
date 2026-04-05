@@ -1,14 +1,12 @@
 ---
 title: Controlled Collaboration
-description: Introduce your students to shared document norms while also identifying
-  main ideas and text structures.
+description: Introduce your students to shared document norms while also identifying main ideas and text structures.
 date: '2023-04-26 00:00:00+00:00'
 draft: false
 author: Marisol Armstrong
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 3-5
 cs_domains:

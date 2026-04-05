@@ -1,13 +1,11 @@
 ---
 title: Arduino Traffic Light
-description: Students will code an Arduino traffic light code. Build an Arduino traffic
-  light simulator.  Change timings for their variables.
+description: Students will code an Arduino traffic light code. Build an Arduino traffic light simulator.  Change timings for their variables.
 date: '2023-07-27'
 draft: false
 author: Sandra Joslin
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 3-5
 - 6-8
@@ -21,7 +19,24 @@ materials: Arduino
 tags:
 - Project-Based
 - WySTACK
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 1B-AP-08
+  - 1B-AP-09
+  - 1B-AP-10
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  ISTE:
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

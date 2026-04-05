@@ -1,17 +1,12 @@
 ---
 title: Exploring Potential and Kinetic Energy by Using Hot Wheels and Micro:bits
-description: Students will be exploring potential and kinetic energy (how mass and
-  velocity changes KE, when does an object have the most/least potential). They will
-  have cars of different masses, with microbits attached, and a ramp to complete their
-  trials. Afterwards, students will upload data, make graphs of the data, and interpret
-  how different variables affected potential and kinetic energy.
+description: Students will be exploring potential and kinetic energy (how mass and velocity changes KE, when does an object have the most/least potential). They will have cars of different masses, with microbits attached, and a ramp to complete their trials. Afterwards, students will upload data, make graphs of the data, and interpret how different variables affected potential and kinetic energy.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Noel Davis
 subjects:
 - Computer Science
 - Science
-- Technology
 grade_levels:
 - 6-8
 - 9-12
@@ -56,8 +51,7 @@ standards:
   - MS-PS3-1
   - MS-PS3-2
   - MS-PS3-5
-materials: Micro:bit, hot wheels or some other type of toy car, ramp, duct tape, computers
-  to upload data, lab worksheet or form.
+materials: Micro:bit, hot wheels or some other type of toy car, ramp, duct tape, computers to upload data, lab worksheet or form.
 tags:
 - Code.org
 - Data Collection

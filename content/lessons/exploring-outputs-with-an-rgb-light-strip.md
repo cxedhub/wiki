@@ -1,19 +1,13 @@
 ---
 title: Exploring Outputs with an RGB Light Strip
-description: In this lesson you will be introducing the connection of color with computer
-  science through the use of a micro:bit and RGB LED strip(instructions below on how
-  to make it). This type of output component is incredibly engaging for students since
-  they can create and adjust the properties of light through various colors and sequences.
-  At the end of the lesson; students will design and prototype a light strip for usage
-  in a rock concert.
+description: In this lesson you will be introducing the connection of color with computer science through the use of a micro:bit and RGB LED strip(instructions below on how to make it). This type of output component is incredibly engaging for students since they can create and adjust the properties of light through various colors and sequences. At the end of the lesson; students will design and prototype a light strip for usage in a rock concert.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Laramie McCullough
 subjects:
 - Art
 - Computer Science
-- Engineering
-- Technology
+- Science
 grade_levels:
 - 6-8
 - 9-12
@@ -68,7 +62,6 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

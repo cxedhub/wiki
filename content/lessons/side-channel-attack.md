@@ -1,9 +1,6 @@
 ---
 title: Side Channel Attack
-description: Students will use their example from Lesson 1 to figure out what is the
-  side channel element of their choice (design a FSM using a device or element in
-  own environment-home).  They will need to research their choice and come up with
-  1 side channel element and write a 4 sentence explanation.
+description: Students will use their example from Lesson 1 to figure out what is the side channel element of their choice (design a FSM using a device or element in own environment-home).  They will need to research their choice and come up with 1 side channel element and write a 4 sentence explanation.
 date: '2023-07-29'
 draft: false
 author: Dana Theriot
@@ -17,12 +14,21 @@ cs_principles:
 - Creating Computational Artifacts
 materials: Website
 tags:
-- Cybersecurity
 - Data Collection
 - WySTACK
 supplements:
 - /uploads/side-channel-attack/Lesson_PLAN_-_Side_Channel-DanaTheriot_-_Dana_Theriot.pdf
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
+  ISTE:
+  - ISTE-5a
+  - ISTE-5b
 ---
 # OVERVIEW
 ## Activity Overview:  

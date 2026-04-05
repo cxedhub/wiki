@@ -1,19 +1,12 @@
 ---
 title: Exploring VR Eye Movement Tracking Accuracy
-description: Students use their understanding of eye movement tracking learned in
-  the prior lesson to test the accuracy of an eye movement tracking program and create
-  a visual representation of the data to present their findings.  Students will analyze
-  how many times gaze points in an image were looked at and use that data provided
-  by the program to create a spreadsheet that includes visual representation of the
-  data (charts/graphs) to display their findings.  Students will also need to have
-  a strong understanding of spreadsheets and data tables to complete this lesson.
+description: Students use their understanding of eye movement tracking learned in the prior lesson to test the accuracy of an eye movement tracking program and create a visual representation of the data to present their findings.  Students will analyze how many times gaze points in an image were looked at and use that data provided by the program to create a spreadsheet that includes visual representation of the data (charts/graphs) to display their findings.  Students will also need to have a strong understanding of spreadsheets and data tables to complete this lesson.
 date: '2024-04-01'
 draft: false
 author: Autumn Spiva
 subjects:
 - Computer Science
 - Science
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -38,7 +31,32 @@ standards:
   - 8.CS.HS.01
   - 8.DA.CVT.01
   - 8.DA.IM.01
+  CSTA:
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

@@ -1,11 +1,6 @@
 ---
 title: 'Nature Art: Merging Nature, Algorithms, and Programming in an inclusive environment'
-description: This lesson is an introduction to computational thinking and the BBC
-  micro:bit. Students learn how to create nature abstractions by observing nature,,
-  using art materials and then using the LEDs on micro:bit. They'll develop an understanding
-  of several key computational thinking concepts, including logical reasoning, abstraction,
-  algorithms and evaluation. Students then develop their programming and debugging
-  skills and are introduced to working with outputs.
+description: This lesson is an introduction to computational thinking and the BBC micro:bit. Students learn how to create nature abstractions by observing nature,, using art materials and then using the LEDs on micro:bit. They'll develop an understanding of several key computational thinking concepts, including logical reasoning, abstraction, algorithms and evaluation. Students then develop their programming and debugging skills and are introduced to working with outputs.
 date: '2023-03-26 00:00:00+00:00'
 draft: false
 author: Tracey Winey
@@ -13,7 +8,6 @@ subjects:
 - Art
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -50,7 +44,6 @@ standards:
 standard_types:
 - CSTA
 - ISTE
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

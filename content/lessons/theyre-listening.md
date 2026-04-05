@@ -1,12 +1,10 @@
 ---
 title: They're Listening
-description: This lesson is going to be about discussing internet safety, and how
-  simple home items may be listening.
+description: This lesson is going to be about discussing internet safety, and how simple home items may be listening.
 date: '2023-07-14T14:39:40'
 draft: false
 author: David Fonseca
 subjects:
-- Cybersecurity
 - Reading/Language Arts
 grade_levels:
 - 9-12

@@ -1,16 +1,12 @@
 ---
 title: Introduction to Computer Science and SpeedGeeking 101
-description: 'Part 1: Gauge student understanding of computer science and introduce
-  basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative
-  and energetic sharing of computer science apps and tools. Students create computational
-  artifacts and participate in a SpeedGeeking workshop.'
+description: 'Part 1: Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.'
 date: '2023-04-03 00:00:00+00:00'
 draft: false
 author: Whitney Wilking
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

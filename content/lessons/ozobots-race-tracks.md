@@ -1,19 +1,11 @@
 ---
 title: Ozobots- Race Tracks
-description: Students will use the drawing paper, colored markers, and the various
-  codes available to Ozobot to create a racetrack. Students will need to work together
-  to determine appropriate line thickness, correct coding of colors, and Ozobot’s
-  ability to follow the track, in order to complete the task. At the end, students
-  can participate in racing Ozobot on each of the tracks created, if only one Ozobot
-  is available, timing Ozobot to see how long it takes to complete each track will
-  work, however, if there is more than one Ozobot available, students can start their
-  Ozobots at the same time and see which bot crosses which track the fastest.
+description: Students will use the drawing paper, colored markers, and the various codes available to Ozobot to create a racetrack. Students will need to work together to determine appropriate line thickness, correct coding of colors, and Ozobot’s ability to follow the track, in order to complete the task. At the end, students can participate in racing Ozobot on each of the tracks created, if only one Ozobot is available, timing Ozobot to see how long it takes to complete each track will work, however, if there is more than one Ozobot available, students can start their Ozobots at the same time and see which bot crosses which track the fastest.
 date: '2020-11-23 00:00:00+00:00'
 draft: false
 author: Shelby Randall
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - K-2
 cs_domains:

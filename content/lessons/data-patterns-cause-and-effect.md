@@ -1,7 +1,6 @@
 ---
 title: 'Data: Patterns, Cause and Effect'
-description: Students will discover, explore, model and communicate patterns found
-  within data. This lesson/activity will incorporate decimal use, place value changes,
+description: Students will discover, explore, model and communicate patterns found within data. This lesson/activity will incorporate decimal use, place value changes,
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kendrea Herring
@@ -21,9 +20,7 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
-materials: 'Micro:bit, Physicial Materials: ruler, calculator, construction paper,
-  pencil, glue, scissors or kid-safe hobby knives, markers, sand, water, plastic tub,
-  gravel, dirt, glitter, basic drip system;'
+materials: 'Micro:bit, Physicial Materials: ruler, calculator, construction paper, pencil, glue, scissors or kid-safe hobby knives, markers, sand, water, plastic tub, gravel, dirt, glitter, basic drip system;'
 tags:
 - Data Collection
 - micro:bit
@@ -57,7 +54,6 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -7,7 +7,6 @@ author: Judes Francois
 subjects:
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 3-5
 - 6-8

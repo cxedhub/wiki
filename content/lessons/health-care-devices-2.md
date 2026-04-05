@@ -1,16 +1,12 @@
 ---
 title: Health Care Devices
-description: In this lesson students are reminded about the ever growing uses of technology
-  devices within the healthcare profession, and how technology addresses many of the
-  largest health issues we face. Students will brainstorm and program a device to
-  address a real-world healthcare problem, of their choice.
+description: In this lesson students are reminded about the ever growing uses of technology devices within the healthcare profession, and how technology addresses many of the largest health issues we face. Students will brainstorm and program a device to address a real-world healthcare problem, of their choice.
 date: '2021-07-29 00:00:00+00:00'
 draft: false
 author: Sarah Jarvis
 subjects:
 - Computer Science
 - Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

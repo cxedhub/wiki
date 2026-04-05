@@ -1,10 +1,6 @@
 ---
 title: Microbit Activity with Expressions and Solving Equations
-description: Students will incorporate the use of microbits to help them understand
-  how to utilize parentheses. This will help reinforce the idea that order matters
-  when solving equations or generating equivalent equations. The microbits can be
-  used at multiple times throughout the year to help students understand the importance
-  of sequencing involved in coding and math.
+description: Students will incorporate the use of microbits to help them understand how to utilize parentheses. This will help reinforce the idea that order matters when solving equations or generating equivalent equations. The microbits can be used at multiple times throughout the year to help students understand the importance of sequencing involved in coding and math.
 date: '2020-07-13 00:00:00+00:00'
 draft: false
 author: Sarah Willis

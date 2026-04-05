@@ -1,10 +1,6 @@
 ---
 title: Godot RL Agents Activity
-description: In this section, you will learn how to create a custom environment in
-  the Godot Game Engine and then implement an AI controller that learns to play with
-  Deep Reinforcement Learning. The example game we create today is simple, but shows
-  off many of the features of the Godot Engine and the Godot RL Agents library. You
-  can then dive into the examples for more complex environments and behaviors.
+description: In this section, you will learn how to create a custom environment in the Godot Game Engine and then implement an AI controller that learns to play with Deep Reinforcement Learning. The example game we create today is simple, but shows off many of the features of the Godot Engine and the Godot RL Agents library. You can then dive into the examples for more complex environments and behaviors.
 date: '2023-07-21'
 draft: false
 author: Jesse Smith
@@ -12,8 +8,6 @@ subjects:
 - Computer Science
 - Mathematics
 - Science
-- Technology
-- Engineering
 grade_levels:
 - 9-12
 cs_domains:
@@ -40,7 +34,35 @@ supplements:
 - /uploads/godot-rl-agents-activity/Screen_Shot_2022-02-16_at_1.39.45_PM_-_Sammie_Smith.png
 - /uploads/godot-rl-agents-activity/lesson2godotrl_-_Jesse_Smith.pdf
 - /uploads/godot-rl-agents-activity/lesson2godotrl_-_Jesse_Smith1.pdf
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

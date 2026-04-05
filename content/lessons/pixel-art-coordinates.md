@@ -1,7 +1,6 @@
 ---
 title: Pixel Art Coordinates
-description: Students use Google Sheets to create a drawing and plot the corresponding
-  ordered pairs that they used in their creation.
+description: Students use Google Sheets to create a drawing and plot the corresponding ordered pairs that they used in their creation.
 date: '2021-07-01 00:00:00+00:00'
 draft: false
 author: Ryan Martinez
@@ -34,7 +33,8 @@ standards:
   - 4.MD
   - 6.SP
 materials: Website, https://docs.google.com/spreadsheets/d/1ozv_zDwCOTOXf0uYI13QfRlfuXQ88l48aFRrpL9-IxY/edit?usp=sharing
-tags: []
+tags:
+- Data Collection
 supplements:
 - /uploads/pixel-art-coordinates/Pixel_Art_and_Ordered_Pairs_-_Ryan_Martinez.xlsx
 standard_types:

@@ -1,14 +1,6 @@
 ---
 title: Role of Compass on Society
-description: This lesson will combine technology and social studies to understand
-  the role the compass has played in the discovery of the new world. They will look
-  at three different types of compasses and use them on a scavenger hunt to navigate
-  through it and then collect data from how effective they were. One of the compasses
-  will be a micro bit that they will breakdown the process of making a compass and
-  building the code for it. The students at the end of the lesson will talk about
-  the pros and cons of the various compasses, what data they collected, which was
-  most effective, how could we improve the others, and how far compasses have come
-  from their invention.
+description: This lesson will combine technology and social studies to understand the role the compass has played in the discovery of the new world. They will look at three different types of compasses and use them on a scavenger hunt to navigate through it and then collect data from how effective they were. One of the compasses will be a micro bit that they will breakdown the process of making a compass and building the code for it. The students at the end of the lesson will talk about the pros and cons of the various compasses, what data they collected, which was most effective, how could we improve the others, and how far compasses have come from their invention.
 date: '2022-03-02 00:00:00+00:00'
 draft: false
 author: Michelle Petty
@@ -51,7 +43,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

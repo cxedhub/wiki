@@ -6,10 +6,8 @@ draft: false
 author: Mandy M Sewell
 subjects:
 - Computer Science
-- Engineering
-- Reading/Language Arts
 - Science
-- Technology
+- Reading/Language Arts
 grade_levels:
 - 3-5
 cs_domains:

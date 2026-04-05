@@ -1,8 +1,6 @@
 ---
 title: Introduction to Virtual Reality - Animation Module
-description: In this lesson, students will learn how to add animations to the shapes
-  in a VR world. Students will learn how to program shapes to move, change color,
-  change size, and rotate.
+description: In this lesson, students will learn how to add animations to the shapes in a VR world. Students will learn how to program shapes to move, change color, change size, and rotate.
 date: '2024-04-10'
 draft: false
 author: Stephanie May
@@ -25,7 +23,19 @@ supplements:
 - /uploads/introduction-to-virtual-reality-animation-module/IMG_4777_-_Stephanie_May.jpg
 - /uploads/introduction-to-virtual-reality-animation-module/IMG_4778_-_Stephanie_May.jpg
 - /uploads/introduction-to-virtual-reality-animation-module/IMG_4771_-_Stephanie_May.MOV
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  ISTE:
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
 ---
 # OVERVIEW
 ## Activity Overview:  

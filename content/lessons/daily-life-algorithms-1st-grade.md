@@ -1,15 +1,6 @@
 ---
 title: Daily Life Algorithms (1st Grade)
-description: The teacher will present a slideshow outlining the definition of an algorithm,
-  which will provide examples of algorithms used in daily life. After the slideshow
-  and discussion, students will be given some sheets of paper that have daily life
-  steps on them (making toast, daily routine in the morning, washing hands). The students
-  will use scissors and cut out each picture (step) to each algorithm and place them
-  in the correct order, drawing arrows or numbers to indicate what order the pictures
-  go in. A teacher will check their work before the students glue the pictures (steps)
-  onto their paper. After the cut/paste activity, the teacher will bring the class
-  back together and review the definition of the word algorithm and ask students to
-  provide more daily life examples of algorithms.
+description: The teacher will present a slideshow outlining the definition of an algorithm, which will provide examples of algorithms used in daily life. After the slideshow and discussion, students will be given some sheets of paper that have daily life steps on them (making toast, daily routine in the morning, washing hands). The students will use scissors and cut out each picture (step) to each algorithm and place them in the correct order, drawing arrows or numbers to indicate what order the pictures go in. A teacher will check their work before the students glue the pictures (steps) onto their paper. After the cut/paste activity, the teacher will bring the class back together and review the definition of the word algorithm and ask students to provide more daily life examples of algorithms.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Stacy Lynn Martinez
@@ -33,9 +24,7 @@ standards:
   - ISTE-6d
   - ISTE-7a
   - ISTE-7b
-materials: 'Website, The teacher will use a computer to present, the students will
-  use scissors and glue after the presentation. The following URLs will be used: Presentation:
-  https://tinyurl.com/bdenpxv3 Documents for Lesson: https://tinyurl.com/mr27kncs'
+materials: 'Website, The teacher will use a computer to present, the students will use scissors and glue after the presentation. The following URLs will be used: Presentation: https://tinyurl.com/bdenpxv3 Documents for Lesson: https://tinyurl.com/mr27kncs'
 tags: []
 standard_types:
 - CSTA

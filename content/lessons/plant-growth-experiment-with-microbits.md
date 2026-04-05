@@ -1,18 +1,12 @@
 ---
 title: Plant Growth Experiment with Micro:bits
-description: Students will plan an investigation into what plants need in order to
-  grow. Students will measure the height of their plants every day for 2 weeks after
-  planting seeds, while changing a plant growth variable (such as the amount of sunlight
-  or water). Students will code for and measure the amount of water in the soil by
-  measuring the conductivity of the soil using micro:bit and watering their plants
-  accordingly for the duration of two weeks.
+description: Students will plan an investigation into what plants need in order to grow. Students will measure the height of their plants every day for 2 weeks after planting seeds, while changing a plant growth variable (such as the amount of sunlight or water). Students will code for and measure the amount of water in the soil by measuring the conductivity of the soil using micro:bit and watering their plants accordingly for the duration of two weeks.
 date: '2023-03-26 00:00:00+00:00'
 draft: false
 author: Sara Percy
 subjects:
 - Computer Science
 - Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:

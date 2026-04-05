@@ -1,8 +1,6 @@
 ---
 title: Flowing into Escape Rooms
-description: This activity requires students to conceptualize a mathematical process
-  into a flow chart. Then they will use said flow chart as a map to create and escape
-  room in various formats.
+description: This activity requires students to conceptualize a mathematical process into a flow chart. Then they will use said flow chart as a map to create and escape room in various formats.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: John Soto

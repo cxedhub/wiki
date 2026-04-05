@@ -1,19 +1,13 @@
 ---
 title: Library - Robotics for Students in the Functional Life Skills (FLS) Program
-description: This lesson provides robotics opportunities in the library for students
-  with complex needs in the Functional Life Skills(FLS) Program. After structured
-  introduction of various concepts and demonstration of different tools, students
-  shall have the opportunity to explore coding and programming. Students shall then
-  share their ideas regarding robotics and what its concepts and tools can do to impact
-  our lives.
+description: This lesson provides robotics opportunities in the library for students with complex needs in the Functional Life Skills(FLS) Program. After structured introduction of various concepts and demonstration of different tools, students shall have the opportunity to explore coding and programming. Students shall then share their ideas regarding robotics and what its concepts and tools can do to impact our lives.
 date: '2023-02-25 00:00:00+00:00'
 draft: false
 author: Devin Hodgins
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -26,8 +20,7 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
-materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Botzees
-  + App / Code-a-pillar
+materials: Website, Sphero, https://www.getepic.com/app/read/75256 / Botley / Botzees + App / Code-a-pillar
 tags:
 - Data Collection
 - Robotics

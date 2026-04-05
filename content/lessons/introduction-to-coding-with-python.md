@@ -1,16 +1,11 @@
 ---
 title: Introduction to Coding with Python
-description: I will present a powerpoint presentation on Python programming concepts.
-  The presentation will be followed up by a class game of Kahoot where the questions
-  are drawn from the presentation. Hopefully this is a fun way to reinforce the foundational
-  principals of Python Programming before I have the students jump in with their own
-  coding projects.
+description: I will present a powerpoint presentation on Python programming concepts. The presentation will be followed up by a class game of Kahoot where the questions are drawn from the presentation. Hopefully this is a fun way to reinforce the foundational principals of Python Programming before I have the students jump in with their own coding projects.
 date: '2023-07-21'
 draft: false
 author: Josh McCoy
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -23,7 +18,23 @@ cs_principles:
 materials: Website, Screen for PPT presentation
 tags:
 - WySTACK
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

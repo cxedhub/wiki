@@ -1,14 +1,11 @@
 ---
 title: A hands on intro to Python Programming
-description: The students will use Python to plot basic functions in a Jupyter notebook.
-  They will need to use their problem solving skills to write python code to accomplish
-  a simple task.
+description: The students will use Python to plot basic functions in a Jupyter notebook. They will need to use their problem solving skills to write python code to accomplish a simple task.
 date: '2023-07-21'
 draft: false
 author: Josh McCoy
 subjects:
 - Computer Science
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -26,7 +23,27 @@ tags:
 supplements:
 - /uploads/a-hands-on-intro-to-python-programming/WyStack23AA-what-is-python-presentation_1_-_Josh_McCoy.pptx
 - /uploads/a-hands-on-intro-to-python-programming/WyStack23AA-what-is-python-presentation_1_-_Josh_McCoy1.pptx
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

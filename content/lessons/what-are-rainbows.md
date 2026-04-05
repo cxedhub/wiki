@@ -1,10 +1,6 @@
 ---
 title: What are Rainbows?
-description: When it rains, it causes a phenomenon known as a rainbow. The rainbow
-  is a simple construction because it only uses light and water. In this lesson we
-  are going to do a couple of science experiments to make a rainbow, then we are going
-  to do an unplugged computer science activity of sorting/ coding objects of the colors
-  of the rainbow.
+description: When it rains, it causes a phenomenon known as a rainbow. The rainbow is a simple construction because it only uses light and water. In this lesson we are going to do a couple of science experiments to make a rainbow, then we are going to do an unplugged computer science activity of sorting/ coding objects of the colors of the rainbow.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Madilynne Nading
@@ -20,10 +16,7 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
-materials: Website, https://www.youtube.com/watch?v=nCPPLhPTAIk , two glasses, small
-  piece of mirror, flashlight, a white piece of paper, paper towel, markers in the
-  colors of the rainbow, three groups of rainbow colored items, and cards with each
-  color written on them.
+materials: Website, https://www.youtube.com/watch?v=nCPPLhPTAIk , two glasses, small piece of mirror, flashlight, a white piece of paper, paper towel, markers in the colors of the rainbow, three groups of rainbow colored items, and cards with each color written on them.
 tags:
 - Unplugged
 standards:

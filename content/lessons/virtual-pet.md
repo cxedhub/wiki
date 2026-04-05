@@ -1,17 +1,14 @@
 ---
 title: Virtual Pet
-description: Students will create a virtual pet using micro:bits and then collect
-  data for their pet as it interacts with its 'environment'.
+description: Students will create a virtual pet using micro:bits and then collect data for their pet as it interacts with its 'environment'.
 date: '2022-11-30 00:00:00+00:00'
 draft: false
 author: Anita Tope
 subjects:
 - Art
 - Computer Science
-- Engineering
-- Reading/Language Arts
 - Science
-- Technology
+- Reading/Language Arts
 grade_levels:
 - 3-5
 cs_domains:
@@ -61,7 +58,6 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

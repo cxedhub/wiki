@@ -1,7 +1,6 @@
 ---
 title: What’s the Weather
-description: Micro bit will project temp - students will graph the data accordingly
-  Arduino will be set up as a weather station
+description: Micro bit will project temp - students will graph the data accordingly Arduino will be set up as a weather station
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Tesha Frederick
@@ -10,7 +9,6 @@ subjects:
 - Mathematics
 - Reading/Language Arts
 - Science
-- Technology
 grade_levels:
 - K-2
 - 3-5

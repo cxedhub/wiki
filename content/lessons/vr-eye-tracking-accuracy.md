@@ -14,8 +14,6 @@ subjects:
 - Computer Science
 - Science
 - Social Studies
-- Technology
-- Engineering
 grade_levels:
 - 6-8
 cs_domains:
@@ -41,7 +39,32 @@ standards:
   - 8.CS.HS.01
   - 8.DA.CVT.01
   - 8.DA.IM.01
+  CSTA:
+  - 2-CS-01
+  - 2-CS-02
+  - 2-CS-03
+  - 2-DA-07
+  - 2-DA-08
+  - 2-DA-09
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

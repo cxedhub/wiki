@@ -1,9 +1,6 @@
 ---
 title: Where do clouds come from?
-description: Students will begin with background knowledge of reading materials about
-  water and clouds. Students will then review knowledge from science standards of
-  2nd grade dealing with states of matter. Them they will have an experiment where
-  they trap water droplets to make a cloud.
+description: Students will begin with background knowledge of reading materials about water and clouds. Students will then review knowledge from science standards of 2nd grade dealing with states of matter. Them they will have an experiment where they trap water droplets to make a cloud.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Melissa Skinner

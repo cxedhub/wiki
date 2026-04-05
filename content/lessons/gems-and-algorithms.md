@@ -1,9 +1,6 @@
 ---
 title: GEMS and Algorithms
-description: In this lesson students will engage in discussion about whether order
-  matters. Students will write the steps to their favorite recipe and share out to
-  see if they work. They will then be introduced to GEMS. Finally, students will complete
-  the sequencing lessons on code.org.
+description: In this lesson students will engage in discussion about whether order matters. Students will write the steps to their favorite recipe and share out to see if they work. They will then be introduced to GEMS. Finally, students will complete the sequencing lessons on code.org.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Mandy Sewell
@@ -11,7 +8,6 @@ subjects:
 - Computer Science
 - Mathematics
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 3-5
 cs_domains:

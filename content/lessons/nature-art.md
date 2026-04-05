@@ -1,8 +1,6 @@
 ---
 title: Nature art
-description: This lesson is an introduction to computational thinking and the BBC
-  micro:bit. Students learn how to create nature abstractions by observing nature,
-  using art materials and then using the LEDs on micro:bit.
+description: This lesson is an introduction to computational thinking and the BBC micro:bit. Students learn how to create nature abstractions by observing nature, using art materials and then using the LEDs on micro:bit.
 date: '2022-11-04 00:00:00+00:00'
 draft: false
 author: Tracey Winey
@@ -44,7 +42,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,18 +1,13 @@
 ---
 title: Radio Communicating with Microbits
-description: In this project, you and a partner will code a program that is capable
-  of sending a coded message to each other. Each of you will have a microbit and will
-  need to code the ‘a’ and ‘b’ buttons to send two different messages, that when combined
-  with a key can be decrypted. You can use binary, morse code, or create a coded message
-  system of your own!
+description: In this project, you and a partner will code a program that is capable of sending a coded message to each other. Each of you will have a microbit and will need to code the ‘a’ and ‘b’ buttons to send two different messages, that when combined with a key can be decrypted. You can use binary, morse code, or create a coded message system of your own!
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Taylor Plantt
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Social Studies
-- Technology
 grade_levels:
 - 6-8
 cs_domains:
@@ -59,7 +54,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 - NGSS
 ---
 # OVERVIEW

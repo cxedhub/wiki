@@ -1,14 +1,12 @@
 ---
 title: MicroBit Guitars
-description: Students will create a 'guitar' from cardboard, aluminum foil, and a
-  micro:bit and explain how energy is converted from touch to electricity to sound.
+description: Students will create a 'guitar' from cardboard, aluminum foil, and a micro:bit and explain how energy is converted from touch to electricity to sound.
 date: '2021-11-18 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
 subjects:
 - Computer Science
 - Science
-- Technology
 grade_levels:
 - 3-5
 - 6-8

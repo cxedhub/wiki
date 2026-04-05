@@ -1,13 +1,12 @@
 ---
 title: Creating a Gear Amusement Park
-description: Students will use peer collaboration, engineering, problem solving, &
-  reflection, when given a set of Funny Gears & Bricks, to design an amusement park.
+description: Students will use peer collaboration, engineering, problem solving, & reflection, when given a set of Funny Gears & Bricks, to design an amusement park.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Amber McClure
 subjects:
 - Computer Science
-- Engineering
+- Science
 - Reading/Language Arts
 grade_levels:
 - K-2

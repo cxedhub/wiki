@@ -1,17 +1,13 @@
 ---
 title: Scranimal Island (This lesson will span across the 3 lessons in the library.)
-description: Students will listen to the poetry from the book Scranimals by Jack Prelutsky.
-  Students will choose an animal and a fruit/ vegetable of their choice to create
-  their new animal. Using the book Scranimals as an example, students will create
-  their own Scranimals on grid paper. (Paper/ Pencil) Students will complete this
-  lesson by successfully creating a poem to accompany their Scranimal.
+description: Students will listen to the poetry from the book Scranimals by Jack Prelutsky. Students will choose an animal and a fruit/ vegetable of their choice to create their new animal. Using the book Scranimals as an example, students will create their own Scranimals on grid paper. (Paper/ Pencil) Students will complete this lesson by successfully creating a poem to accompany their Scranimal.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Ginny Nading
 subjects:
 - Art
 - Computer Science
-- Engineering
+- Science
 - Reading/Language Arts
 grade_levels:
 - 3-5
@@ -43,8 +39,7 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-materials: Micro:bit, Scranimals by Jack Prelutsky, worksheets for Scranimal development,
-  student Chromebooks, grid paper
+materials: Micro:bit, Scranimals by Jack Prelutsky, worksheets for Scranimal development, student Chromebooks, grid paper
 tags:
 - micro:bit
 standard_types:
@@ -52,7 +47,6 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

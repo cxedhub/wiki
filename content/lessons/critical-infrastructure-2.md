@@ -1,16 +1,13 @@
 ---
 title: Critical Infrastructure 2
-description: Students will be able to demonstrate foundational knowledge and skills
-  that are related to cybersecurity
+description: Students will be able to demonstrate foundational knowledge and skills that are related to cybersecurity
 date: '2023-07-14T11:52:00'
 draft: false
 author: Timothy Grier
 subjects:
 - Computer Science
-- Engineering
 - Science
 - Social Studies
-- Technology
 grade_levels:
 - 9-12
 cs_domains:
@@ -61,7 +58,6 @@ tags:
 standard_types:
 - CSTA
 - ISTE
-- NCSS C3
 - NGSS
 ---
 ## OVERVIEW

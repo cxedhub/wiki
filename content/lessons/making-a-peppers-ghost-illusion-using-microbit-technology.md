@@ -1,9 +1,6 @@
 ---
 title: Making a Pepper’s Ghost Illusion using Microbit Technology
-description: This lesson is going to be a supplemental lesson to our OpenSciEd Light
-  and Matter unit that we are implementing this year. In this lesson, students will
-  be playing around with microbits to assist them in creating their own Pepper’s Ghost
-  Illusion.
+description: This lesson is going to be a supplemental lesson to our OpenSciEd Light and Matter unit that we are implementing this year. In this lesson, students will be playing around with microbits to assist them in creating their own Pepper’s Ghost Illusion.
 date: '2021-11-23 00:00:00+00:00'
 draft: false
 author: Morgan Krysl

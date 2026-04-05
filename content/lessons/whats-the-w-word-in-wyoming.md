@@ -1,16 +1,13 @@
 ---
 title: What's the 'W' word in Wyoming?
-description: Students will build an anemometer to measure the wind and predict weather
-  patterns in Wyoming.
+description: Students will build an anemometer to measure the wind and predict weather patterns in Wyoming.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Katie Cline
 subjects:
 - Computer Science
-- Engineering
-- Mathematics
 - Science
-- Technology
+- Mathematics
 grade_levels:
 - 3-5
 cs_domains:

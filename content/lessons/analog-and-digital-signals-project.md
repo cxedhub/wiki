@@ -1,8 +1,6 @@
 ---
 title: Analog and Digital Signals Project
-description: This is a project for students to experience the differences between
-  analog and digital waves. Students will be comparing and contrasting the particulars
-  of these waves, as well as coding a radio game to use digital waves.
+description: This is a project for students to experience the differences between analog and digital waves. Students will be comparing and contrasting the particulars of these waves, as well as coding a radio game to use digital waves.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Sara Percy

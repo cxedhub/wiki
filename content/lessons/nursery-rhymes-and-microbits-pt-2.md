@@ -1,7 +1,6 @@
 ---
 title: Nursery Rhymes and Microbits Pt. 2
-description: This lesson uses familiar nursery rhymes to introduce secondary students
-  to the concepts of coding, sequencing, and looping with microbits.
+description: This lesson uses familiar nursery rhymes to introduce secondary students to the concepts of coding, sequencing, and looping with microbits.
 date: '2022-08-11 00:00:00+00:00'
 draft: false
 author: Maggie Unterseher

@@ -1,8 +1,6 @@
 ---
 title: Digital Citizenship Escape Room
-description: Beginning of the year introduction to digital citizenship. Students work
-  through escape room to perform tasks. The tasks will eventually result in teams
-  creating a slide show on digital citizenship.
+description: Beginning of the year introduction to digital citizenship. Students work through escape room to perform tasks. The tasks will eventually result in teams creating a slide show on digital citizenship.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -10,7 +8,6 @@ subjects:
 - Art
 - Computer Science
 - Reading/Language Arts
-- Technology
 grade_levels:
 - 3-5
 cs_domains:
@@ -57,7 +54,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

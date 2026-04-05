@@ -1,17 +1,13 @@
 ---
 title: Plotting Data in Python using Matplotlib
-description: CSV files can be read using pandas read_csv method. Using this method
-  you can easily use the dataframes created to plot the data. For today’s exercise
-  we will be using the recorded flight time for the x-axis of our line charts. Students
-  will record flight data from their drones and plot the data against time using Python.
+description: CSV files can be read using pandas read_csv method. Using this method you can easily use the dataframes created to plot the data. For today’s exercise we will be using the recorded flight time for the x-axis of our line charts. Students will record flight data from their drones and plot the data against time using Python.
 date: '2023-04-14'
 draft: false
 author: John Lupher
 subjects:
 - Computer Science
 - Mathematics
-- Technology
-- Engineering
+- Science
 grade_levels:
 - 9-12
 cs_domains:
@@ -39,7 +35,12 @@ standards:
   ISTE:
   - ISTE-5
   - ISTE-6
+  CSTA:
+  - 3A-DA-09
+  - 3A-DA-10
+  - 3A-DA-11
 standard_types:
+- CSTA
 - ISTE
 ---
 # OVERVIEW

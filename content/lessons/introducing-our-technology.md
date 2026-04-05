@@ -1,9 +1,6 @@
 ---
 title: Introducing our Technology
-description: This lesson is designed to be delivered early in the year to establish
-  a common knowledge base on the programs to be used for the year, and to ensure a
-  level of comfort for students in using their Chromebook to access classroom resources
-  to be used throughout the year.
+description: This lesson is designed to be delivered early in the year to establish a common knowledge base on the programs to be used for the year, and to ensure a level of comfort for students in using their Chromebook to access classroom resources to be used throughout the year.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Chase Christensen

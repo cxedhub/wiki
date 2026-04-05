@@ -1,17 +1,12 @@
 ---
 title: 'Lesson 1/ activity: Geometric planter find total surface area'
-description: The purpose for this geometry lesson is integrated with computer science
-  3 D printing so students know what is 3 D printing and its impact to today’s world.  In
-  the meantime, this lesson emphasizes visual as well as kinesthetic learning and
-  engaged students to create their own designed geometric planter and use it to gain
-  deeper understanding about the concept of the total surface area of any polygon.
+description: The purpose for this geometry lesson is integrated with computer science 3 D printing so students know what is 3 D printing and its impact to today’s world.  In the meantime, this lesson emphasizes visual as well as kinesthetic learning and engaged students to create their own designed geometric planter and use it to gain deeper understanding about the concept of the total surface area of any polygon.
 date: '2023-03-18'
 draft: false
 author: Yung Richards
 subjects:
 - Computer Science
 - Mathematics
-- Technology
 grade_levels:
 - 6-8
 - 9-12
@@ -26,6 +21,7 @@ cs_principles:
 - Communicating About Computing
 materials: "Website, •\thttps://www.youtube.com/watch?v=bcTzyx35odY"
 tags:
+- Unplugged
 - WySTACK
 supplements:
 - /uploads/lesson-1-activity-geometric-planter-find-total-surface-area/Lesson_2_post_test_-_Yung_Richards.pdf
@@ -42,8 +38,32 @@ standards:
   - G-MG.3
   Wyoming CS:
   - L2.AP.M.01
+  CSTA:
+  - 2-AP-10
+  - 2-AP-11
+  - 2-AP-12
+  - 2-IC-20
+  - 2-IC-21
+  - 2-IC-22
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-2a
+  - ISTE-2b
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-7a
+  - ISTE-7b
 standard_types:
 - CCSS Math
+- CSTA
+- ISTE
 - Wyoming CS
 ---
 # OVERVIEW

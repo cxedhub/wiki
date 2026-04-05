@@ -1,16 +1,13 @@
 ---
 title: What's the 'W' Word in Wyoming?
-description: Students are going to build their own anemometer to check the wind speeds
-  in their hometown. They are going to use their data to help predict the weather
-  and see if the wind is an indicator.
+description: Students are going to build their own anemometer to check the wind speeds in their hometown. They are going to use their data to help predict the weather and see if the wind is an indicator.
 date: '2023-04-28 00:00:00+00:00'
 draft: false
 author: Katie Cline
 subjects:
 - Computer Science
-- Engineering
-- Mathematics
 - Science
+- Mathematics
 grade_levels:
 - 3-5
 cs_domains:

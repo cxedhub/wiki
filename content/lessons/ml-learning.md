@@ -1,8 +1,6 @@
 ---
 title: ML Learning
-description: In this lesson students are introduced to a form of artificial intelligence
-  called machine learning and how they can use the Problem Solving Process to help
-  train a robot to solve problems.
+description: In this lesson students are introduced to a form of artificial intelligence called machine learning and how they can use the Problem Solving Process to help train a robot to solve problems.
 date: '2023-07-26'
 draft: false
 author: Jesse Smith
@@ -10,8 +8,6 @@ subjects:
 - Computer Science
 - Mathematics
 - Science
-- Technology
-- Engineering
 grade_levels:
 - 9-12
 cs_domains:
@@ -33,7 +29,33 @@ tags:
 supplements:
 - /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith.pdf
 - /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith1.pdf
-standard_types: []
+standard_types:
+- CSTA
+- ISTE
+standards:
+  CSTA:
+  - 3A-AP-13
+  - 3A-AP-14
+  - 3A-AP-15
+  - 3A-CS-01
+  - 3A-CS-02
+  - 3A-CS-03
+  - 3A-IC-24
+  - 3A-IC-25
+  - 3A-IC-26
+  ISTE:
+  - ISTE-1c
+  - ISTE-1d
+  - ISTE-3a
+  - ISTE-3b
+  - ISTE-4a
+  - ISTE-4b
+  - ISTE-5a
+  - ISTE-5b
+  - ISTE-6a
+  - ISTE-6b
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  
