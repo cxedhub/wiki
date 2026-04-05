@@ -52,6 +52,25 @@
   {{ end }}
   {{ end }}
 
+  {{/* ===== Supplemental Documents ===== */}}
+  {{ with .Params.supplements }}
+  <div class="lesson-supplements">
+    <h3>Supplemental Documents</h3>
+    <ul class="supplements-list">
+      {{ range . }}
+      <li>
+        {{ $fname := path.Base . }}
+        {{ $ext := path.Ext . | lower }}
+        <a href="{{ . | relURL }}" target="_blank">
+          {{ if eq $ext ".pdf" }}📄{{ else if eq $ext ".docx" }}📝{{ else if eq $ext ".doc" }}📝{{ else if eq $ext ".pptx" }}📊{{ else if eq $ext ".key" }}📊{{ else if eq $ext ".xlsx" }}📈{{ else }}📎{{ end }}
+          {{ $fname }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
   <div class="lesson-content">
     {{ .Content }}
   </div>
