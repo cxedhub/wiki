@@ -45,7 +45,6 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

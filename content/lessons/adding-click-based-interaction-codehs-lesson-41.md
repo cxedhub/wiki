@@ -30,12 +30,22 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
   ISTE:
+  - ISTE-1d
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
+  - ISTE-5d
   - ISTE-6a
   - ISTE-6b
 ---

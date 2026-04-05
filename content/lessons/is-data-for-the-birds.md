@@ -1,6 +1,7 @@
 ---
 title: Is data for the Birds?
-description: Students will program a Micro:bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the data - eg time of day, time of year, weather conditions.
+description: Students will program a Micro:bit and as a species counter, and to log the data that is collected. Then they will analyze the data collected and work to identify factors that may affect the
+  data - eg time of day, time of year, weather conditions.
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Jeff Kitterman

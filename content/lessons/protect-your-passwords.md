@@ -1,6 +1,7 @@
 ---
 title: Protect Your Passwords
-description: This activity teaches students the importance of creating a safe and secure password. In addition, students will also get to learn how hackers or computers can hack passwords. Students will be able to create their own password using a set of guidelines. The passwords they create may be used for accessing their school computers or websites.
+description: This activity teaches students the importance of creating a safe and secure password. In addition, students will also get to learn how hackers or computers can hack passwords. Students will
+  be able to create their own password using a set of guidelines. The passwords they create may be used for accessing their school computers or websites.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Kryssi Soule
@@ -48,6 +49,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

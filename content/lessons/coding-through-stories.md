@@ -1,6 +1,7 @@
 ---
 title: Coding through Stories
-description: Reading is powerful, it can unlock a world of possibilities. Reading and having others read to us can increase our comprehension and memory. Through this activity we are going to tap into how well students can use their memory of stories to code unplugged using directions as code.
+description: Reading is powerful, it can unlock a world of possibilities. Reading and having others read to us can increase our comprehension and memory. Through this activity we are going to tap into how
+  well students can use their memory of stories to code unplugged using directions as code.
 date: '2022-08-09 00:00:00+00:00'
 draft: false
 author: Madilynne Nading

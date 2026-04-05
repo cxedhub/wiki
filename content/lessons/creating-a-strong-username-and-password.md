@@ -1,6 +1,7 @@
 ---
 title: Creating a Strong Username and Password
-description: This lesson will discuss the importance of using a unique username, and help create a strong password using a Caesar Cipher. This lesson will also explain what a Caesar Cipher is and how to decipher it.
+description: This lesson will discuss the importance of using a unique username, and help create a strong password using a Caesar Cipher. This lesson will also explain what a Caesar Cipher is and how to
+  decipher it.
 date: '2020-12-07 00:00:00+00:00'
 draft: false
 author: Kayla Horn
@@ -29,7 +30,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

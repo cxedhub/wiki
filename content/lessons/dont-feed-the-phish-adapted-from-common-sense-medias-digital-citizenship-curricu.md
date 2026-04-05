@@ -1,6 +1,7 @@
 ---
 title: Don't Feed the Phish (Adapted from Common Sense Media's Digital Citizenship Curriculum
-description: This lesson helps students identify phishing attacks over networks via email, texts, and online pop-ups and ads, etc. A slideshow presentation video was presented on Canvas LMS and a formative quiz was included.
+description: This lesson helps students identify phishing attacks over networks via email, texts, and online pop-ups and ads, etc. A slideshow presentation video was presented on Canvas LMS and a formative
+  quiz was included.
 date: '2020-11-29 00:00:00+00:00'
 draft: false
 author: Ron Chesmore
@@ -34,7 +35,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

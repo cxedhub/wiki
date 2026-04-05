@@ -1,6 +1,7 @@
 ---
 title: Shark Tank Activity (Problem Solving)
-description: This is an unplugged activity where students will design an application for a cell phone or personal device to solve a problem that exists in 'their world'. The created application should be unique in design and resolution. Simply put, this application should not be a duplication of one already on the market today.
+description: This is an unplugged activity where students will design an application for a cell phone or personal device to solve a problem that exists in 'their world'. The created application should be
+  unique in design and resolution. Simply put, this application should not be a duplication of one already on the market today.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Shirley Johns
@@ -54,6 +55,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

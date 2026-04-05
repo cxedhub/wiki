@@ -1,6 +1,10 @@
 ---
 title: PE Cryptic Decoding
-description: Students will be divided into groups/teams of 3-4. Once they are divided up, each group will be sent out to start at a different station in the gym (every station will have one chromebook and one microbit waiting.) The group's job will be to decode the message that plays across the microbit. It should start out as looking like gibberish, but the students should work through and troubleshoot to find out which way, and by how many characters the alphabet is being moved. Once they have figured out the details, they will decode the entire message, and then perform the task that is being asked of them (ex. Each group member does 50 jump ropes, or each group member must make a free throw… etc.). Once they have decoded the message and performed the task, they can move to a different location in the gym that will have a different microbit, different chromebook, different code to decipher, and a different task to complete. This will continue until all stations are completed.
+description: Students will be divided into groups/teams of 3-4. Once they are divided up, each group will be sent out to start at a different station in the gym (every station will have one chromebook and
+  one microbit waiting.) The group's job will be to decode the message that plays across the microbit. It should start out as looking like gibberish, but the students should work through and troubleshoot
+  to find out which way, and by how many characters the alphabet is being moved. Once they have figured out the details, they will decode the entire message, and then perform the task that is being asked
+  of them (ex. Each group member does 50 jump ropes, or each group member must make a free throw… etc.). Once they have decoded the message and performed the task, they can move to a different location
+  in the gym that will have a different microbit, different chromebook, different code to decipher, and a different task to complete. This will continue until all stations are completed.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Cameron Spade

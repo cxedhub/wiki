@@ -1,6 +1,8 @@
 ---
 title: 'Research in our World:  Innovation in Computing'
-description: Students will complete a research report on an industry that they are interested in.  They will research other projects that have been done in the same areas.  Students will find a big question that they would like to analyze. They will then create a poster describing the process that they might use to investigate this question.   Additionally the class could work together to choose a project to further the investigation with programming/questionnaires/interviews.  Students will collect and analyze results and report their findings.
+description: Students will complete a research report on an industry that they are interested in.  They will research other projects that have been done in the same areas.  Students will find a big question
+  that they would like to analyze. They will then create a poster describing the process that they might use to investigate this question.   Additionally the class could work together to choose a project
+  to further the investigation with programming/questionnaires/interviews.  Students will collect and analyze results and report their findings.
 date: '2022-04-07'
 draft: false
 author: Skye Mader
@@ -24,12 +26,17 @@ standard_types:
 - ISTE
 standards:
   CSTA:
+  - 2-AP-17
+  - 2-DA-07
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
+  - 2-NI-06
   ISTE:
+  - ISTE-1d
   - ISTE-7a
   - ISTE-7b
+  - ISTE-7c
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: I Am a Weather Watcher
-description: Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro:bit that has already been programmed by the teacher. At the end of the week, students will create a flipgird video with a group to explain their findings.
+description: Students will become weather watchers. They will journal the weather everyday and document the temperature using the micro:bit that has already been programmed by the teacher. At the end of
+  the week, students will create a flipgird video with a group to explain their findings.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Sarah McKenzie

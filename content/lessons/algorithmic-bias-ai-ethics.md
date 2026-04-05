@@ -1,6 +1,7 @@
 ---
 title: Algorithmic Bias & AI Ethics
-description: In this activity students will learn about algorithmic bias through real-world examples.  They will then learn the four main principals of ethical AI and apply those to the real-world examples, examining the ethical implications of each example.  Students will apply their knowledge as they discuss how bias and ethics in relation to AI can have impacts on our society.
+description: In this activity students will learn about algorithmic bias through real-world examples.  They will then learn the four main principals of ethical AI and apply those to the real-world examples,
+  examining the ethical implications of each example.  Students will apply their knowledge as they discuss how bias and ethics in relation to AI can have impacts on our society.
 date: '2023-07-24'
 draft: false
 author: Sarah Horen
@@ -28,20 +29,30 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
+  - 2-IC-23
+  - 2-NI-05
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-IC-24
   - 3A-IC-25
   - 3A-IC-26
+  - 3A-IC-29
+  - 3A-NI-06
   ISTE:
   - ISTE-1c
   - ISTE-1d
   - ISTE-2a
   - ISTE-2b
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -41,12 +41,20 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 supplements:
 - /uploads/microbits-happy-birthday/microbit_happy_birthday_code_2_-_Ryan_Olson.jpg
 - /uploads/microbits-happy-birthday/mircrobit_happy_birthday_code_1_-_Ryan_Olson.jpg
 standard_types:
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

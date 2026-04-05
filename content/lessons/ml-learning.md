@@ -30,6 +30,7 @@ supplements:
 - /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith.pdf
 - /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith1.pdf
 standard_types:
+- CCSS Math
 - CSTA
 - ISTE
 standards:
@@ -37,9 +38,11 @@ standards:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
+  - 3A-DA-09
   - 3A-IC-24
   - 3A-IC-25
   - 3A-IC-26
@@ -50,12 +53,16 @@ standards:
   - ISTE-3b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a
   - ISTE-6b
   - ISTE-7a
   - ISTE-7b
+  CCSS Math:
+  - HSS-ID
 ---
 # OVERVIEW
 ## Activity Overview:  

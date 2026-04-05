@@ -1,6 +1,8 @@
 ---
 title: Understanding Pseudocode
-description: In this lesson, students explore the methods of writing pseudocode to complex problems. Writing pseudocode is a great way to understand the design of algorithms and how the initial algorithm will be set up. The focus of this language is on human reading rather than machine reading so many students will find this as a great tool to use before actually developing an algorithm through a programming language.
+description: In this lesson, students explore the methods of writing pseudocode to complex problems. Writing pseudocode is a great way to understand the design of algorithms and how the initial algorithm
+  will be set up. The focus of this language is on human reading rather than machine reading so many students will find this as a great tool to use before actually developing an algorithm through a programming
+  language.
 date: '2021-12-10 00:00:00+00:00'
 draft: false
 author: Laramie McCullough

@@ -1,6 +1,8 @@
 ---
 title: Exploring VR Eye Tracking Accuracy
-description: This lesson uses discussions and hands-on activities to help students  better understand what eye tracking is, how data is collected from tracking systems, and how to understand the data.  This unit will also help students understand how eye tracking can be used in various fields and start to better understand the social implications of using these systems in all fields.  This lessons will allow students to simulate an eye tracking system by observing and recording each other’s eye movement while looking at different objects and images within the GazeSense program.
+description: This lesson uses discussions and hands-on activities to help students  better understand what eye tracking is, how data is collected from tracking systems, and how to understand the data.  This
+  unit will also help students understand how eye tracking can be used in various fields and start to better understand the social implications of using these systems in all fields.  This lessons will allow
+  students to simulate an eye tracking system by observing and recording each other’s eye movement while looking at different objects and images within the GazeSense program.
 date: '2023-07-20'
 draft: false
 author: Autumn Spiva
@@ -29,8 +31,10 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
+- NGSS
 standards:
   CSTA:
+  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
   - 2-CS-03
@@ -41,16 +45,23 @@ standards:
   - 2-IC-21
   - 2-IC-22
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
   - ISTE-3a
   - ISTE-3b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a
   - ISTE-6b
+  NGSS:
+  - MS-PS3-1
+  - MS-PS3-2
+  - MS-PS3-5
 ---
 # OVERVIEW
 ## Activity Overview:  

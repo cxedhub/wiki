@@ -1,6 +1,7 @@
 ---
 title: Coding with Santa
-description: Using Seesaw, students will complete the maze to get Santa Claus to the Christmas tree ensuring that he gets two cookies and a glass of milk along the way. Students must drag and drop coding arrows to the boxes to help Santa know what direction to go in. Students must use computational thinking to figure out how to get Santa on his way!
+description: Using Seesaw, students will complete the maze to get Santa Claus to the Christmas tree ensuring that he gets two cookies and a glass of milk along the way. Students must drag and drop coding
+  arrows to the boxes to help Santa know what direction to go in. Students must use computational thinking to figure out how to get Santa on his way!
 date: '2021-12-14 00:00:00+00:00'
 draft: false
 author: Madison Mueller

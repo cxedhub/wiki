@@ -1,6 +1,7 @@
 ---
 title: Integrity and Keep It Simple
-description: The purpose for this lesson is to help you understand the notions or aspects of integrity and the simplicity with which you need keep when it comes to Cybersecurity. You will learn the notions, find ways to incorporate them in your technology world. Also, you will try to practice them.
+description: The purpose for this lesson is to help you understand the notions or aspects of integrity and the simplicity with which you need keep when it comes to Cybersecurity. You will learn the notions,
+  find ways to incorporate them in your technology world. Also, you will try to practice them.
 date: '2023-07-14T15:32:23'
 draft: false
 author: Judes Francois
@@ -40,6 +41,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

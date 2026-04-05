@@ -1,6 +1,7 @@
 ---
 title: Variables
-description: This lesson introduces the use of variables to store data or the results of mathematical operations. Students will practice giving variables unique and meaningful names. We will also introduce the basic mathematical operations for adding, subtracting, multiplying, and dividing variables.
+description: This lesson introduces the use of variables to store data or the results of mathematical operations. Students will practice giving variables unique and meaningful names. We will also introduce
+  the basic mathematical operations for adding, subtracting, multiplying, and dividing variables.
 date: '2022-11-03 00:00:00+00:00'
 draft: false
 author: Autumn Spiva

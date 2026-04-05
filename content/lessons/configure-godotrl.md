@@ -1,6 +1,7 @@
 ---
 title: Configure godot_rl
-description: Student will install prerequisites such as pip, python-is-python3 etc. Will follow instructions I have given them and using the command line will install and configure both Godot and the godot_rl agents framework.
+description: Student will install prerequisites such as pip, python-is-python3 etc. Will follow instructions I have given them and using the command line will install and configure both Godot and the godot_rl
+  agents framework.
 date: '2023-07-26'
 draft: false
 author: Jesse Smith
@@ -27,14 +28,17 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- NGSS
 standards:
   CSTA:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
+  - 3A-DA-09
   - 3A-IC-24
   - 3A-IC-25
   - 3A-IC-26
@@ -45,12 +49,18 @@ standards:
   - ISTE-3b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a
   - ISTE-6b
   - ISTE-7a
   - ISTE-7b
+  NGSS:
+  - HS-ESS3-1
+  - HS-ESS3-3
+  - HS-ESS3-4
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,8 @@
 ---
 title: Real World Cyber Security in the Present
-description: Cybersecurity and personal information protection go hand in hand. This is the third of a three lesson unit offering 5th graders an opportunity to seek out present day cyber attacks and present their findings to the classmates. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Social Studies, and CS standards through the lens of real-world cyber security. This lesson will need one additional day for students to finalize PowerPoint presentations, and another day to present their work.
+description: Cybersecurity and personal information protection go hand in hand. This is the third of a three lesson unit offering 5th graders an opportunity to seek out present day cyber attacks and present
+  their findings to the classmates. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Social Studies, and CS standards through the lens of real-world cyber security.
+  This lesson will need one additional day for students to finalize PowerPoint presentations, and another day to present their work.
 date: '2022-07-23 00:00:00+00:00'
 draft: false
 author: Chad Lemley
@@ -39,6 +41,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

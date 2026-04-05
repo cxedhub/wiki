@@ -1,6 +1,7 @@
 ---
 title: Plains Indians Winter Count
-description: Students will tell important events from their life using a Winter Counts calendar. They will use the given symbols from their calendar to play Conway's Game of Life. They will see how their symbols change as the pixels change.
+description: Students will tell important events from their life using a Winter Counts calendar. They will use the given symbols from their calendar to play Conway's Game of Life. They will see how their
+  symbols change as the pixels change.
 date: '2022-08-14 00:00:00+00:00'
 draft: false
 author: Amber E Johnson
@@ -33,6 +34,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

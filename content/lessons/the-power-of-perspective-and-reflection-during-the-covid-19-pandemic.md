@@ -1,6 +1,8 @@
 ---
 title: The Power of Perspective and reflection during the COVID-19 pandemic
-description: Students will watch Cocoon, a short film by Andrew Hinton, which explores perspectives from elementary, middle, and high school students living in Portland, Oregon, during the global lockdown in the early months of the Covid-19 pandemic in 2020. Students will engage in learning activities that prompt them to examine their thoughts and feelings about the pandemic and the ways in which it has impacted their social and emotional lives as well as their learning.
+description: Students will watch Cocoon, a short film by Andrew Hinton, which explores perspectives from elementary, middle, and high school students living in Portland, Oregon, during the global lockdown
+  in the early months of the Covid-19 pandemic in 2020. Students will engage in learning activities that prompt them to examine their thoughts and feelings about the pandemic and the ways in which it has
+  impacted their social and emotional lives as well as their learning.
 date: '2022-12-05'
 draft: false
 author: Alicia Vonberg
@@ -20,6 +22,7 @@ standard_types:
 - CSTA
 standards:
   CSTA:
+  - 2-AP-17
   - 2-DA-07
   - 2-DA-08
   - 2-DA-09

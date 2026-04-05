@@ -1,6 +1,8 @@
 ---
 title: What is Python?
-description: "Python is a highly versatile programming language. It can be used in many application to teach real world skills in coding. This platform can build video games using PyGame library, write a quick script to automate a task, or create a web application. \n\nPython is a basic program to learn about variables, objects, classes, instances, and programming concepts such as if-else statements, loops, and functions. \nPython offers a balance between productivity, speed, and readability."
+description: "Python is a highly versatile programming language. It can be used in many application to teach real world skills in coding. This platform can build video games using PyGame library, write\
+  \ a quick script to automate a task, or create a web application. \n\nPython is a basic program to learn about variables, objects, classes, instances, and programming concepts such as if-else statements,\
+  \ loops, and functions. \nPython offers a balance between productivity, speed, and readability."
 date: '2023-07-21'
 draft: false
 author: Camille Conner
@@ -21,18 +23,21 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NGSS
 standards:
   CSTA:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
+  - ISTE-6c
+  - ISTE-6d
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: 'What is Python: Hands On'
-description: In this part 2 lesson, you will no get to see, modify, and create your own code! Think you can write the code to say your name, or your friends name, or even create a video game? The world is your oyster with Python!
+description: In this part 2 lesson, you will no get to see, modify, and create your own code! Think you can write the code to say your name, or your friends name, or even create a video game? The world
+  is your oyster with Python!
 date: '2023-07-21'
 draft: false
 author: Ethan Highsmith
@@ -32,12 +33,20 @@ standards:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
+  - 3A-DA-09
+  - 3A-IC-29
+  - 3A-NI-06
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a

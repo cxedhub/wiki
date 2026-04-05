@@ -1,6 +1,8 @@
 ---
 title: Real World Cyber Security Historical Event
-description: Cybersecurity and personal information protection go hand in hand. This is the second of a three lesson unit that offers 5th graders a historical look at one example of a real world cyber attack that took place at an Australian WasteWater Facility in 2001. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Soc Studies, Science, and CS standards through the lens of real-world cyber security.
+description: Cybersecurity and personal information protection go hand in hand. This is the second of a three lesson unit that offers 5th graders a historical look at one example of a real world cyber attack
+  that took place at an Australian WasteWater Facility in 2001. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Soc Studies, Science, and CS standards through the
+  lens of real-world cyber security.
 date: '2022-07-23 00:00:00+00:00'
 draft: false
 author: Chad Lemley
@@ -42,6 +44,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

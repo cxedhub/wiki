@@ -1,6 +1,7 @@
 ---
 title: Godot RL Agents Activity
-description: In this section, you will learn how to create a custom environment in the Godot Game Engine and then implement an AI controller that learns to play with Deep Reinforcement Learning. The example game we create today is simple, but shows off many of the features of the Godot Engine and the Godot RL Agents library. You can then dive into the examples for more complex environments and behaviors.
+description: In this section, you will learn how to create a custom environment in the Godot Game Engine and then implement an AI controller that learns to play with Deep Reinforcement Learning. The example
+  game we create today is simple, but shows off many of the features of the Godot Engine and the Godot RL Agents library. You can then dive into the examples for more complex environments and behaviors.
 date: '2023-07-21'
 draft: false
 author: Jesse Smith
@@ -35,19 +36,25 @@ supplements:
 - /uploads/godot-rl-agents-activity/lesson2godotrl_-_Jesse_Smith.pdf
 - /uploads/godot-rl-agents-activity/lesson2godotrl_-_Jesse_Smith1.pdf
 standard_types:
+- CCSS Math
 - CSTA
 - ISTE
+- NGSS
 standards:
   CSTA:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
   - 3A-IC-24
   - 3A-IC-25
   - 3A-IC-26
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
   ISTE:
   - ISTE-1c
   - ISTE-1d
@@ -57,12 +64,20 @@ standards:
   - ISTE-3b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a
   - ISTE-6b
   - ISTE-7a
   - ISTE-7b
+  CCSS Math:
+  - HSS-ID
+  NGSS:
+  - HS-ESS3-1
+  - HS-ESS3-3
+  - HS-ESS3-4
 ---
 # OVERVIEW
 ## Activity Overview:  

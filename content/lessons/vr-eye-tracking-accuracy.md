@@ -34,12 +34,8 @@ tags:
 supplements:
 - /uploads/vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_1_-_Christy_Rodgers.pdf
 standards:
-  Wyoming CS:
-  - 8.CS.D.01
-  - 8.CS.HS.01
-  - 8.DA.CVT.01
-  - 8.DA.IM.01
   CSTA:
+  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
   - 2-CS-03
@@ -56,16 +52,29 @@ standards:
   - ISTE-2b
   - ISTE-3a
   - ISTE-3b
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a
   - ISTE-6b
   - ISTE-7a
   - ISTE-7b
+  NGSS:
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
+  - MS-PS3-1
+  - MS-PS3-2
+  - MS-PS3-5
+  NCSS C3:
+  - D2.His.2.6-8
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
+- NCSS C3
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

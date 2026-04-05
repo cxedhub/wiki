@@ -1,6 +1,7 @@
 ---
 title: Traffic Light Guest Speaker
-description: Guest Speaker Taylor McCort, District 1, Traffic Engineer.  Speaker will discuss traffic light aspects and how they relate to traffic conditions. Students will use active listening and inquiry skills to complete their KWL chart.
+description: Guest Speaker Taylor McCort, District 1, Traffic Engineer.  Speaker will discuss traffic light aspects and how they relate to traffic conditions. Students will use active listening and inquiry
+  skills to complete their KWL chart.
 date: '2023-07-27'
 draft: false
 author: Sandra Joslin
@@ -24,19 +25,35 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
+- NGSS
 standards:
   CSTA:
   - 1B-AP-08
   - 1B-AP-09
   - 1B-AP-10
+  - 1B-AP-15
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   ISTE:
   - ISTE-1c
   - ISTE-1d
   - ISTE-2a
   - ISTE-2b
+  - ISTE-6c
+  - ISTE-6d
+  - ISTE-7a
+  - ISTE-7b
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 4-PS4-1
+  - 4-PS4-3
+  - MS-ETS1-1
+  - MS-ETS1-2
+  - MS-ETS1-3
 ---
 # OVERVIEW
 ## Activity Overview:  

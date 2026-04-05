@@ -69,7 +69,9 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- NCSS C3
 - NGSS
+- National Core Arts
 ---
 ## OVERVIEW
 

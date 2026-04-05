@@ -1,6 +1,7 @@
 ---
 title: Algorithm Neighborhoods
-description: These interdisciplinary lessons encompass standards across Computer Science, Language Arts, Social Studies, and Mathematics. Students learn about maps, coordinates, and directions, then create a map. They will then challenge friends to write algorithms to help Dash navigate the neighborhood.
+description: These interdisciplinary lessons encompass standards across Computer Science, Language Arts, Social Studies, and Mathematics. Students learn about maps, coordinates, and directions, then create
+  a map. They will then challenge friends to write algorithms to help Dash navigate the neighborhood.
 date: '2020-11-18 00:00:00+00:00'
 draft: false
 author: Krista Sweckard
@@ -54,6 +55,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

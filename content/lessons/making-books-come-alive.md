@@ -1,6 +1,8 @@
 ---
 title: Making Books Come Alive!
-description: Students will use an app of the teacher’s choosing (I prefer Voice Recorder with the red speech bubble) to record themselves reading a book aloud. Once students have successfully recorded their book with the app, they will share it- either in small reading groups- depending on reading ability, or whole group. Students may choose to hold the book up while playing their voice recording, or they may choose to create an overall picture to correlate with their book.
+description: Students will use an app of the teacher’s choosing (I prefer Voice Recorder with the red speech bubble) to record themselves reading a book aloud. Once students have successfully recorded their
+  book with the app, they will share it- either in small reading groups- depending on reading ability, or whole group. Students may choose to hold the book up while playing their voice recording, or they
+  may choose to create an overall picture to correlate with their book.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Shelby Randall

@@ -1,6 +1,7 @@
 ---
 title: 'Microbit Music: Debugging'
-description: This lesson will provide students with the opportunity to debug computer code. Students will be provided with the necessary code blocks, but will have to identify, duplicate, and rearrange them for the program to run properly and for the music to play correctly.
+description: This lesson will provide students with the opportunity to debug computer code. Students will be provided with the necessary code blocks, but will have to identify, duplicate, and rearrange
+  them for the program to run properly and for the music to play correctly.
 date: '2021-11-18 00:00:00+00:00'
 draft: false
 author: Colin Botts
@@ -36,11 +37,17 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 supplements:
 - /uploads/microbit-music-debugging/Microbit_Music_Debugging_-_Colin_Botts.docx
 standard_types:
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

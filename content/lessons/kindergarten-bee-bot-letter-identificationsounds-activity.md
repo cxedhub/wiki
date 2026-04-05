@@ -1,6 +1,8 @@
 ---
 title: Kindergarten Bee-bot Letter identification/sounds Activity
-description: In this lesson kindergarten students practice identifying and matching uppercase and lowercase letters along with given the corresponding primary sound for both consonants and vowels (short vowel sounds). Bee-bots and bowling pins are used to create an engaging activity in which students have to collaborate to program how they will get their Bee-bot to complete the task and knock down the correct bowling pin.
+description: In this lesson kindergarten students practice identifying and matching uppercase and lowercase letters along with given the corresponding primary sound for both consonants and vowels (short
+  vowel sounds). Bee-bots and bowling pins are used to create an engaging activity in which students have to collaborate to program how they will get their Bee-bot to complete the task and knock down the
+  correct bowling pin.
 date: '2021-07-03 00:00:00+00:00'
 draft: false
 author: Nicole Asay

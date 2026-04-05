@@ -37,11 +37,17 @@ standards:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
   ISTE:
+  - ISTE-1d
   - ISTE-3a
   - ISTE-3b
+  - ISTE-4a
+  - ISTE-4c
   - ISTE-5a
   - ISTE-5b
+  - ISTE-5c
 ---
 # OVERVIEW
 ## Activity Overview:  

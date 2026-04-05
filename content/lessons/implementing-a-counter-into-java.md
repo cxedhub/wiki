@@ -1,6 +1,8 @@
 ---
 title: Implementing a Counter into Java
-description: 'Activity Overview: This activity is for more advanced students in the Java Programming language. They will use their own IDE to create a program that will take a starting number and allow them to increment and decrement the number. They will start with ++ and then explore how to make other changes to their number. The big idea is to relate counters, incrementing and decrementing, to how this could be applied to loops.'
+description: 'Activity Overview: This activity is for more advanced students in the Java Programming language. They will use their own IDE to create a program that will take a starting number and allow
+  them to increment and decrement the number. They will start with ++ and then explore how to make other changes to their number. The big idea is to relate counters, incrementing and decrementing, to how
+  this could be applied to loops.'
 date: '2022-11-28 00:00:00+00:00'
 draft: false
 author: Selena Pope

@@ -1,6 +1,7 @@
 ---
 title: Wax Museum Technology Part 1
-description: In this lesson series, students will research ways that technology has impacted the world. They can choose to research people or specific systems. After their small projects are completed, students will have a chance to present their project in a 'museum' fashion. They will have display projects and a plaque to go in their museum and a small speaking part to tell about their project.
+description: In this lesson series, students will research ways that technology has impacted the world. They can choose to research people or specific systems. After their small projects are completed,
+  students will have a chance to present their project in a 'museum' fashion. They will have display projects and a plaque to go in their museum and a small speaking part to tell about their project.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -70,7 +71,9 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- NCSS C3
 - NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

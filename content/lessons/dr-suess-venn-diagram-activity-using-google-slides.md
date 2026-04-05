@@ -1,6 +1,7 @@
 ---
 title: Dr. Suess Venn Diagram Activity using Google Slides
-description: Create a Venn Diagram using Google Slides. The activity can be used for Dr. Seuss' birthday and incorporates moving Red Fish, Blue Fish, One Fish, Two Fish to visually show and create a Venn diagram. Students Copy and Paste fish to show their difference and relations in numbers and colors on a Venn diagram.
+description: Create a Venn Diagram using Google Slides. The activity can be used for Dr. Seuss' birthday and incorporates moving Red Fish, Blue Fish, One Fish, Two Fish to visually show and create a Venn
+  diagram. Students Copy and Paste fish to show their difference and relations in numbers and colors on a Venn diagram.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Charles Morton

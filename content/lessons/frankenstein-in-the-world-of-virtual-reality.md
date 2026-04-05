@@ -1,6 +1,8 @@
 ---
 title: Frankenstein in the world of virtual reality
-description: This lesson will introduce the students to Computer Science and its applications in the Language Arts Classroom. Students will be introduced to the field of computer science and virtual reality, then adapt their current reading material to this knowledge by taking virtual tours of the various settings of the novel. The students will tour Geneva and Ingolstadt to orient themselves to the two main settings and understand their place in the world.
+description: This lesson will introduce the students to Computer Science and its applications in the Language Arts Classroom. Students will be introduced to the field of computer science and virtual reality,
+  then adapt their current reading material to this knowledge by taking virtual tours of the various settings of the novel. The students will tour Geneva and Ingolstadt to orient themselves to the two main
+  settings and understand their place in the world.
 date: '2023-07-25'
 draft: false
 author: Yvonne Swader
@@ -17,11 +19,24 @@ materials: Chrome Books, Promethean Board
 tags:
 - WySTACK
 standard_types:
+- CCSS ELA
+- CSTA
 - ISTE
 standards:
   ISTE:
+  - ISTE-1d
   - ISTE-7a
   - ISTE-7b
+  - ISTE-7c
+  CSTA:
+  - 3A-AP-21
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  CCSS ELA:
+  - L.9-10
+  - RL.9-10
+  - SL.9-10
 ---
 # OVERVIEW
 ## Activity Overview:  

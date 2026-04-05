@@ -53,7 +53,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-- NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

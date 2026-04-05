@@ -1,6 +1,7 @@
 ---
 title: Draw a snowflake with code
-description: Draw a snowflake using code.org. My students were really challenged to follow the directions in the lesson, so I created an 'I do, we do, you do' type of lesson through the slide show. My students then had to follow along with my slides and I could see where they were still having trouble with understanding the vocabulary of coding.
+description: Draw a snowflake using code.org. My students were really challenged to follow the directions in the lesson, so I created an 'I do, we do, you do' type of lesson through the slide show. My students
+  then had to follow along with my slides and I could see where they were still having trouble with understanding the vocabulary of coding.
 date: '2023-03-28 00:00:00+00:00'
 draft: false
 author: Michelle Black
@@ -48,6 +49,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

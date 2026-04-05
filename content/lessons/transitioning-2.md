@@ -1,6 +1,7 @@
 ---
 title: Transitioning
-description: The students will work together to create an algorithm to solve the problem of how we transition. Steps will be created and agreed upon by the class as to how we will transition from one activity to another.
+description: The students will work together to create an algorithm to solve the problem of how we transition. Steps will be created and agreed upon by the class as to how we will transition from one activity
+  to another.
 date: '2022-12-02 00:00:00+00:00'
 draft: false
 author: Jody Durst
@@ -27,7 +28,6 @@ tags: []
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

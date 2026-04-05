@@ -1,6 +1,7 @@
 ---
 title: How Information is Transferred Over the Internet and Internet/Database Search Strategies
-description: Students will be introduced to the concept of data/information transfer across computer devices and the Internet, introduced to binary code as a means to understanding how computers communicate digitally, as well as getting a better understanding of how to use effective search strategies while doing research via browser search engines and databases.
+description: Students will be introduced to the concept of data/information transfer across computer devices and the Internet, introduced to binary code as a means to understanding how computers communicate
+  digitally, as well as getting a better understanding of how to use effective search strategies while doing research via browser search engines and databases.
 date: '2020-08-01 00:00:00+00:00'
 draft: false
 author: Ron Chesmore
@@ -46,7 +47,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

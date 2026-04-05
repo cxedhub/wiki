@@ -1,6 +1,7 @@
 ---
 title: Future Job Research
-description: Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready to be published web pages with the results. Indicate if you which to have them published on the Internet.
+description: Student is required to 'explore future occupations' as defined by Occupational Outlook Handbook at https://www.bls.gov/ooh/. Present the results in their ready to be published web pages with
+  the results. Indicate if you which to have them published on the Internet.
 date: '2023-04-01 00:00:00+00:00'
 draft: false
 author: Harry C Guess

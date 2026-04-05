@@ -1,6 +1,7 @@
 ---
 title: Coding a Story with Ozobots
-description: In this lesson, the students will create their own story or use one that's already made, and draw out that story on a poster board with a path to follow. The students will code the route for the Ozobot to take as the story is read. The Ozobot will follow the path and complete the tasks that the students programed it to do while the teacher reads the story.
+description: In this lesson, the students will create their own story or use one that's already made, and draw out that story on a poster board with a path to follow. The students will code the route for
+  the Ozobot to take as the story is read. The Ozobot will follow the path and complete the tasks that the students programed it to do while the teacher reads the story.
 date: '2020-07-09 00:00:00+00:00'
 draft: false
 author: Kayla Horn

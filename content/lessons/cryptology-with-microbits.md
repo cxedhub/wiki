@@ -1,6 +1,7 @@
 ---
 title: Cryptology with micro:bits
-description: This activity will introduce the Caesar Cipher to students on makecode.micro:bit.org.  Students will explore the Caesar Cipher using words.  Students will than elaborate to make connections between the Caesar Cipher and translations in functions.
+description: This activity will introduce the Caesar Cipher to students on makecode.micro:bit.org.  Students will explore the Caesar Cipher using words.  Students will than elaborate to make connections
+  between the Caesar Cipher and translations in functions.
 date: '2023-07-14T11:44:02'
 draft: false
 author: Elizabeth Busch

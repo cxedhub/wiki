@@ -36,6 +36,7 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
+  - ISTE-7a
   CCSS ELA:
   - SL.9-10
 materials: Website

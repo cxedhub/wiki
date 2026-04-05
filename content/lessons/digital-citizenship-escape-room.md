@@ -54,6 +54,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

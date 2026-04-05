@@ -1,6 +1,8 @@
 ---
 title: Litter Hunt
-description: In this lesson, pupils develop their understanding of the micro:bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player to see who can press the button the fastest.
+description: In this lesson, pupils develop their understanding of the micro:bit by using the buttons and sensors on the device to make different images display. Pupils are introduced to the concept of
+  a variable to store data, then create a program to alter the value of a variable using the buttons and sensors. Pupils go on to create a ‘push the button’ game, where they race against another player
+  to see who can press the button the fastest.
 date: '2023-04-14 00:00:00+00:00'
 draft: false
 author: Becki Butterfield

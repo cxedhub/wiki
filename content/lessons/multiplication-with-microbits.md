@@ -1,6 +1,7 @@
 ---
 title: Multiplication with MicroBits
-description: This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro:bit to answer multiplication questions. All students will need a piece of paper, a computer and a Micro:bit.
+description: This activity allows students to practice their multiplication fact fluency while also covering computer science standards. Students will program a Micro:bit to answer multiplication questions.
+  All students will need a piece of paper, a computer and a Micro:bit.
 date: '2023-03-10 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton

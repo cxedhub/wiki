@@ -1,6 +1,7 @@
 ---
 title: Micro bit Block Programming - 'Customizing Displays'
-description: This lesson focuses on the LED array and how to customize graphics plus LED intensity. Students will program in Block based language. Students will utilize small electronics, and learn how a computer is programmed.
+description: This lesson focuses on the LED array and how to customize graphics plus LED intensity. Students will program in Block based language. Students will utilize small electronics, and learn how
+  a computer is programmed.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Rosetter E. Dirden

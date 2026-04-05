@@ -1,6 +1,7 @@
 ---
 title: Bake Sale Lesson1
-description: This is the first day of a two-part lesson in entrepreneurship marketing research. In the overall project, Bake Sale, the class will become a company. In this piece of the unit, students will be learning about market research. They will create a survey and begin to collect the data, this is an unplugged lesson.
+description: This is the first day of a two-part lesson in entrepreneurship marketing research. In the overall project, Bake Sale, the class will become a company. In this piece of the unit, students will
+  be learning about market research. They will create a survey and begin to collect the data, this is an unplugged lesson.
 date: '2020-07-10 00:00:00+00:00'
 draft: false
 author: Nate Reinhardt

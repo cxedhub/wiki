@@ -1,6 +1,7 @@
 ---
 title: Intro to Coding a Microbit
-description: In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will stat with the first tutorial called Flashing Heart. They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
+description: In this lesson the students will be introduced to the website MakeCode with programing the microbit simulator. To start off, the students will stat with the first tutorial called Flashing Heart.
+  They can progress once each tutorial is completed. Those students who need extra support can work at their own pace.
 date: '2022-12-13 00:00:00+00:00'
 draft: false
 author: Terri Flock

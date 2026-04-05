@@ -1,6 +1,7 @@
 ---
 title: Battle your CuteBot
-description: Get ready to battle your CuteBot car! Develop code for your Microbit using loops, variables, and conditionals to outsmart the other Cutebots to be the last bot standing or be the first to take out the threat! Using your design thinking skills to think outside the box to build a battle shell for your cutebot to withstand all challengers in the Lancer Arena!
+description: Get ready to battle your CuteBot car! Develop code for your Microbit using loops, variables, and conditionals to outsmart the other Cutebots to be the last bot standing or be the first to take
+  out the threat! Using your design thinking skills to think outside the box to build a battle shell for your cutebot to withstand all challengers in the Lancer Arena!
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Stephanie Newhouse

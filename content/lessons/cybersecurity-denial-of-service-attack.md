@@ -37,7 +37,6 @@ tags:
 standard_types:
 - CSTA
 - ISTE
-- NGSS
 ---
 ## OVERVIEW
 

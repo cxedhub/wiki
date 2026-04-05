@@ -1,6 +1,7 @@
 ---
 title: MicroBit Multiplication
-description: In this lesson students will work on their multiplication math fact fluency and practice coding using a MicroBit. Students will solve ten random multiplication facts and then they will program a MicroBit to display those facts. This lesson integrates mathematics with computer science for 3rd-4th grade students.
+description: In this lesson students will work on their multiplication math fact fluency and practice coding using a MicroBit. Students will solve ten random multiplication facts and then they will program
+  a MicroBit to display those facts. This lesson integrates mathematics with computer science for 3rd-4th grade students.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton

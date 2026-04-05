@@ -1,6 +1,7 @@
 ---
 title: Frankenstein in the world of virtual reality (continued)
-description: This lesson will continue our look into the Computer Science field. Students will learn about the dangers of cyber activity and the potential for “monsters” in the realm of computer science. As an enrichment activity, the students will use an avatar to search the graveyards and build their own monster through the settings of the novel.
+description: This lesson will continue our look into the Computer Science field. Students will learn about the dangers of cyber activity and the potential for “monsters” in the realm of computer science.
+  As an enrichment activity, the students will use an avatar to search the graveyards and build their own monster through the settings of the novel.
 date: '2023-07-25'
 draft: false
 author: Yvonne Swader
@@ -23,11 +24,24 @@ supplements:
 - /uploads/frankenstein-in-the-world-of-virtual-reality-continued/CW_LP_09_02_22_-_Yvonne_Swader.pdf
 - /uploads/frankenstein-in-the-world-of-virtual-reality-continued/Swader_Samples_of_Performance_-_Yvonne_Swader.pdf
 standard_types:
+- CCSS ELA
+- CSTA
 - ISTE
 standards:
   ISTE:
+  - ISTE-1d
   - ISTE-7a
   - ISTE-7b
+  - ISTE-7c
+  CSTA:
+  - 3A-AP-21
+  - 3A-IC-29
+  - 3A-NI-04
+  - 3A-NI-05
+  - 3A-NI-06
+  CCSS ELA:
+  - RL.9-10
+  - SL.9-10
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Cybersecurity - Secure Passwords
-description: Online Authentication often revolves around passwords. We will discuss how to develop simple rules to create strong passwords. These rules are scalable and can be used for all websites to achieve desired password strength.
+description: Online Authentication often revolves around passwords. We will discuss how to develop simple rules to create strong passwords. These rules are scalable and can be used for all websites to achieve
+  desired password strength.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Justin Hansen

@@ -1,6 +1,7 @@
 ---
 title: Music is Life
-description: Students will use coding to develop animation and sound for a music simulator. students will demonstrate locating and uploading a sound file to the computer. Students will develop a program to display animation form the computer to simulate an instrument.
+description: Students will use coding to develop animation and sound for a music simulator. students will demonstrate locating and uploading a sound file to the computer. Students will develop a program
+  to display animation form the computer to simulate an instrument.
 date: '2022-08-15 00:00:00+00:00'
 draft: false
 author: Will Barnes
@@ -52,10 +53,19 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

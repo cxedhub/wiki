@@ -40,7 +40,7 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

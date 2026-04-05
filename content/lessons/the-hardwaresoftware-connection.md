@@ -1,6 +1,7 @@
 ---
 title: The Hardware/Software Connection
-description: Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro:bit to display different icons on the LEDs. They will use the finite and infinite loops to create a flashing pattern on the micro:bit and then create their own icon to be displayed.
+description: Students will learn about how hardware needs software in order for it to do something. Students will create a program for the micro:bit to display different icons on the LEDs. They will use
+  the finite and infinite loops to create a flashing pattern on the micro:bit and then create their own icon to be displayed.
 date: '2020-10-29 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl

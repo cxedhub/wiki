@@ -1,6 +1,7 @@
 ---
 title: Nursery Rhymes and Microbits Pt. 3
-description: This will be the end of this mini unit, students will present to their classmates the nursery rhyme that they have coded on the microbits. While students present their nursery rhyme, they will show the code working in real time. The microbits should caption the nursery rhyme.
+description: This will be the end of this mini unit, students will present to their classmates the nursery rhyme that they have coded on the microbits. While students present their nursery rhyme, they will
+  show the code working in real time. The microbits should caption the nursery rhyme.
 date: '2022-09-06 00:00:00+00:00'
 draft: false
 author: Maggie Unterseher

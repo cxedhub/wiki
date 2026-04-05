@@ -1,6 +1,7 @@
 ---
 title: Secure Your Future. Cyber Security Safety.
-description: 'Students will be provided a scenario. In this scenario, a student is applying to a college. They have created an application essay based upon the following prompt: Described a time where you have either been inspired by, or inspired someone else. How did this impact you?'
+description: 'Students will be provided a scenario. In this scenario, a student is applying to a college. They have created an application essay based upon the following prompt: Described a time where you
+  have either been inspired by, or inspired someone else. How did this impact you?'
 date: '2023-07-12T15:19:22'
 draft: false
 author: Brian Axon
@@ -41,7 +42,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 ## OVERVIEW
 

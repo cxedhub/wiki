@@ -1,6 +1,7 @@
 ---
 title: Visual Behavior Resource
-description: The first lesson plan will consist of some physical and behavioral activities that will show the meanings of the traffic lights and how they can be used in the classroom. A transportation unit over the side channel vocabulary and explanation of how they work with traffic lights.
+description: The first lesson plan will consist of some physical and behavioral activities that will show the meanings of the traffic lights and how they can be used in the classroom. A transportation unit
+  over the side channel vocabulary and explanation of how they work with traffic lights.
 date: '2023-07-22'
 draft: false
 author: Tonya Taylor
@@ -30,28 +31,44 @@ standards:
   CCSS ELA:
   - RL.2.4
   CSTA:
+  - 1A-AP-14
   - 1A-CS-01
   - 1A-CS-02
   - 1A-CS-03
   - 1A-DA-05
   - 1A-DA-06
   - 1A-DA-07
+  - 1A-NI-04
+  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
   - 1B-CS-03
   - 1B-DA-06
   - 1B-DA-07
+  - 1B-NI-04
+  - 1B-NI-05
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  - ISTE-6d
   - ISTE-7a
   - ISTE-7b
+  NGSS:
+  - 4-PS4-1
+  - 4-PS4-3
+  - K-PS3-1
+  - K-PS3-2
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

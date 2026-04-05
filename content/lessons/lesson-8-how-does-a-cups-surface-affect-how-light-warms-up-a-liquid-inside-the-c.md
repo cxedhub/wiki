@@ -1,6 +1,9 @@
 ---
 title: 'Lesson 8: How does a cup’s surface affect how light warms up a liquid inside the cup?'
-description: This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition. This is measured by a micro:bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions. We wonder about additional mechanisms by which the water inside the cups warms up.
+description: This is modified from OpenSciEd under the Creative Common 4.0 License. We carry out an investigation to test the interaction between light and the cup surface in warming up the cold water inside
+  the cups. We shine light on cups with walls of different materials and colors and measure the amount of incoming, reflected, and transmitted light, and we also place some cups in a completely dark condition.
+  This is measured by a micro:bit programmed to measure light. We figure out that the water in all the cups warms up, even cups in the dark condition, but it warms up more in the cups in the light conditions.
+  We wonder about additional mechanisms by which the water inside the cups warms up.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Abby Slavens

@@ -1,6 +1,7 @@
 ---
 title: TALK TO THE HAND – DEFENSE IN DEPTH
-description: Defense in depth is a strategy that leverages multiple security measures to protect an organization's assets. The thinking is that if one line of defense is compromised, additional layers exist as a backup to ensure that threats are stopped along the way.
+description: Defense in depth is a strategy that leverages multiple security measures to protect an organization's assets. The thinking is that if one line of defense is compromised, additional layers exist
+  as a backup to ensure that threats are stopped along the way.
 date: '2023-07-14T14:29:01'
 draft: false
 author: Lorraine Grice

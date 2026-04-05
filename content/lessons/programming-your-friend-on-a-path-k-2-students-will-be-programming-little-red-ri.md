@@ -1,6 +1,8 @@
 ---
-title: Programming your friend on a path K-2 students will be programming Little Red Riding Hood to Grandmas House  3-5th grade students will be programming their friend to deliver their latest I-phone or game from manufacturing to delivery
-description: Students will use arrows on a piece of graph paper to give directions to their classmates. They will guide their friends around the room without bumping into desks etc, from a certain point to an end point.
+title: Programming your friend on a path K-2 students will be programming Little Red Riding Hood to Grandmas House  3-5th grade students will be programming their friend to deliver their latest I-phone
+  or game from manufacturing to delivery
+description: Students will use arrows on a piece of graph paper to give directions to their classmates. They will guide their friends around the room without bumping into desks etc, from a certain point
+  to an end point.
 date: '2023-03-28 00:00:00+00:00'
 draft: false
 author: Michelle Black

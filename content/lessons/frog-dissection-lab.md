@@ -1,6 +1,7 @@
 ---
 title: Frog Dissection Lab
-description: In person learning taking place in a brick and mortar classroom. Students have the choice whether to dissect a frog using a real preserved specimen or through the use of a virtual frog dissection at the end of the lab. All students will be given an end of unit quiz reviewing all the information they should have learned throughout the lab.
+description: In person learning taking place in a brick and mortar classroom. Students have the choice whether to dissect a frog using a real preserved specimen or through the use of a virtual frog dissection
+  at the end of the lab. All students will be given an end of unit quiz reviewing all the information they should have learned throughout the lab.
 date: '2024-02-28'
 draft: false
 author: Alicia Lynn Vonberg
@@ -16,8 +17,14 @@ tags:
 - WySTACK
 standards:
   NGSS:
+  - MS-LS1-1
   - MS-LS1-2
+  - MS-LS1-3
+  - MS-PS4-1
+  - MS-PS4-2
+  - MS-PS4-3
   CSTA:
+  - 2-AP-17
   - 2-DA-07
   - 2-DA-08
   - 2-DA-09

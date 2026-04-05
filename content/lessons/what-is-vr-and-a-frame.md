@@ -1,6 +1,7 @@
 ---
 title: What is VR and A Frame?
-description: In this lesson, students will learn about virtual reality and how it is currently being used for entertainment as well as in various professions. Students will be introduced to HTML and how to use the A-Frame framework in an HTML page.
+description: In this lesson, students will learn about virtual reality and how it is currently being used for entertainment as well as in various professions. Students will be introduced to HTML and how
+  to use the A-Frame framework in an HTML page.
 date: '2023-07-21'
 draft: false
 author: Stephanie May
@@ -27,14 +28,23 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
+  - 2-IC-23
+  - 2-NI-05
+  - 2-NI-06
   ISTE:
+  - ISTE-1d
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
+  - ISTE-5c
   - ISTE-6a
   - ISTE-6b
 ---

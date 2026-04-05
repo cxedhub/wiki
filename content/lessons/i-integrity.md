@@ -44,6 +44,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NCSS C3
 ---
 ## OVERVIEW
 

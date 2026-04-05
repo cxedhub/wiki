@@ -1,6 +1,8 @@
 ---
 title: Game of Life Spelling
-description: This lesson is meant to introduce what coding is to elementary aged students and how to use block code. Students will learn that the micro:bit is a pocket-sized computer (hardware) that has many integrated components. Students will learn how to write a program (software) using block code that will control the lights of the LEDs on their micro:bit. They will create a flashing pattern on the micro:bit that includes a word or phrase, picture, and sound.
+description: This lesson is meant to introduce what coding is to elementary aged students and how to use block code. Students will learn that the micro:bit is a pocket-sized computer (hardware) that has
+  many integrated components. Students will learn how to write a program (software) using block code that will control the lights of the LEDs on their micro:bit. They will create a flashing pattern on the
+  micro:bit that includes a word or phrase, picture, and sound.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Rachel Leone Gibson

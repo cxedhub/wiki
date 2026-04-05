@@ -37,10 +37,8 @@ supplements:
 - /uploads/algorithms-with-origami/lesson_plan_2_-_Marisol_Armstrong.docx
 - /uploads/algorithms-with-origami/lesson_plan_1_-_Marisol_Armstrong.docx
 standard_types:
-- CCSS ELA
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

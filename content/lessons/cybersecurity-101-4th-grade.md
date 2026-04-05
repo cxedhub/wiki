@@ -1,6 +1,8 @@
 ---
 title: Cybersecurity 101 (4th Grade)
-description: The teacher will introduce the topic of cybersecurity by asking students about any personal experience they have had with the topic. The teacher will display the cybersecurity slideshow and tell the students that they are each going to have their own slide in this slideshow to complete. Their topic will be randomly chosen, it will be a subtopic of cybersecurity. When all of the slides are complete, a presentation of the slideshow will be shown to the entire class.
+description: The teacher will introduce the topic of cybersecurity by asking students about any personal experience they have had with the topic. The teacher will display the cybersecurity slideshow and
+  tell the students that they are each going to have their own slide in this slideshow to complete. Their topic will be randomly chosen, it will be a subtopic of cybersecurity. When all of the slides are
+  complete, a presentation of the slideshow will be shown to the entire class.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Stacy Lynn Martinez
@@ -29,14 +31,14 @@ standards:
   - ISTE-6d
   - ISTE-7a
   - ISTE-7b
-materials: 'Website, A slideshow will be used: https://tinyurl.com/2p9fe688 Also, a rubric will be used and can be found at: https://tinyurl.com/23bkv3sc  In addition, the teacher will use his/her computer and projection system. Students will use their own Chromebooks.'
+materials: 'Website, A slideshow will be used: https://tinyurl.com/2p9fe688 Also, a rubric will be used and can be found at: https://tinyurl.com/23bkv3sc  In addition, the teacher will use his/her computer
+  and projection system. Students will use their own Chromebooks.'
 tags:
 - Cybersecurity
 - Unplugged
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

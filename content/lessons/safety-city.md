@@ -27,8 +27,10 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- NGSS
 standards:
   CSTA:
+  - 1A-AP-14
   - 1A-CS-01
   - 1A-CS-02
   - 1A-CS-03
@@ -38,6 +40,8 @@ standards:
   - 1A-IC-16
   - 1A-IC-17
   - 1A-IC-18
+  - 1A-NI-04
+  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
   - 1B-CS-03
@@ -46,6 +50,8 @@ standards:
   - 1B-IC-18
   - 1B-IC-19
   - 1B-IC-20
+  - 1B-NI-04
+  - 1B-NI-05
   ISTE:
   - ISTE-1c
   - ISTE-1d
@@ -53,8 +59,20 @@ standards:
   - ISTE-2b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
+  - ISTE-6d
   - ISTE-7a
   - ISTE-7b
+  NGSS:
+  - 3-5-ETS1-1
+  - 3-5-ETS1-2
+  - 3-5-ETS1-3
+  - 4-PS4-1
+  - 4-PS4-3
+  - K-PS3-1
+  - K-PS3-2
 ---
 # OVERVIEW
 ## Activity Overview:  

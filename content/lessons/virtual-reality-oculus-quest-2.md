@@ -21,11 +21,17 @@ tags:
 supplements:
 - /uploads/virtual-reality-oculus-quest-2/Lesson_Plan__Virtual_Reality_Oculus_Quest_2_-_Jennifer_Puckett.docx
 standard_types:
+- CSTA
 - ISTE
 standards:
   ISTE:
   - ISTE-1c
   - ISTE-1d
+  - ISTE-7a
+  - ISTE-7b
+  CSTA:
+  - 1A-AP-14
+  - 1A-NI-04
 ---
 # OVERVIEW
 ## Activity Overview:  

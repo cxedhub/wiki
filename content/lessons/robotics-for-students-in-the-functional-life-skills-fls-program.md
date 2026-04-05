@@ -1,6 +1,8 @@
 ---
 title: Robotics for Students in the Functional Life Skills (FLS) Program
-description: As the library exists to offer an inclusive space for everyone, this lesson is geared toward giving students with complex needs in a Functional Life Skills (FLS) class the opportunity to explore coding and robotics. Students will read an ebook about robots and 3-D shapes. Then they will build models and discuss uses for robots. Then they use coding and robotic tools such as an Osmo coding apparatus on their iPad to code a virtual robot or a Sphero and its accompanying coding app. Students shall also have the opportunity to build robots from kits and present their projects.
+description: As the library exists to offer an inclusive space for everyone, this lesson is geared toward giving students with complex needs in a Functional Life Skills (FLS) class the opportunity to explore
+  coding and robotics. Students will read an ebook about robots and 3-D shapes. Then they will build models and discuss uses for robots. Then they use coding and robotic tools such as an Osmo coding apparatus
+  on their iPad to code a virtual robot or a Sphero and its accompanying coding app. Students shall also have the opportunity to build robots from kits and present their projects.
 date: '2022-09-14 00:00:00+00:00'
 draft: false
 author: Devin Hodgins

@@ -1,6 +1,7 @@
 ---
 title: My avatar and me
-description: This lesson will introduce students to the differences between an avatar, a virtual human, and artificial intelligence.  They will learn what each can do and discuss what jobs are better suited to each one.
+description: This lesson will introduce students to the differences between an avatar, a virtual human, and artificial intelligence.  They will learn what each can do and discuss what jobs are better suited
+  to each one.
 date: '2023-07-30'
 draft: false
 author: Jennifer LaVanchy
@@ -20,23 +21,24 @@ tags:
 - Robotics
 - WySTACK
 standards:
-  Wyoming CS:
-  - 5.IC.SLE.01
   CSTA:
+  - 1B-AP-15
   - 1B-IC-18
   - 1B-IC-19
   - 1B-IC-20
   ISTE:
   - ISTE-1c
   - ISTE-1d
+  - ISTE-4a
+  - ISTE-4c
   - ISTE-5a
   - ISTE-5b
+  - ISTE-6b
   - ISTE-7a
   - ISTE-7b
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

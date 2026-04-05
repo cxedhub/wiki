@@ -1,5 +1,6 @@
 ---
-title: 'The Knight''s Tour: Solve a puzzle to find a way for a knight to visit every square on a board exactly once. Once solved, lead students through the power of using abstraction to make the problem easier.'
+title: 'The Knight''s Tour: Solve a puzzle to find a way for a knight to visit every square on a board exactly once. Once solved, lead students through the power of using abstraction to make the problem
+  easier.'
 description: Solve a puzzle to find a way for a knight to visit every square on a board exactly once. Once solved, lead students through the power of using abstraction to make the problem easier.
 date: '2023-07-27'
 draft: false
@@ -22,28 +23,34 @@ tags:
 - Data Collection
 - WySTACK
 standards:
-  Wyoming CS:
-  - 8.AP.A.01
   CSTA:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   - 2-DA-07
   - 2-DA-08
   - 2-DA-09
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
   - ISTE-3a
   - ISTE-3b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-5d
+  - ISTE-6c
   - ISTE-7a
   - ISTE-7b
+  CCSS Math:
+  - 6.SP
 standard_types:
+- CCSS Math
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

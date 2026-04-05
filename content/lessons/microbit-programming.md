@@ -59,6 +59,7 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Modeling the Phases of the Moon
-description: In this lesson, students are introduced to computer science through the use of Micro:bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro:bits for the lesson.
+description: In this lesson, students are introduced to computer science through the use of Micro:bits to create a model of the lunar phases as seen on Earth. In order to complete this lesson, students
+  must already have an understanding of the phases of the moon. Students do not need previous experience working with Micro:bits for the lesson.
 date: '2022-01-30 00:00:00+00:00'
 draft: false
 author: Crystal Seeley

@@ -1,6 +1,7 @@
 ---
 title: How safe are they?
-description: Each group will be provided a different scenario regarding cyber security. After analyzing the scenario, they will need to explain the dangers presented, potential pitfalls, or things they would need to be concerned about as well as what ways they can implement more security measures.
+description: Each group will be provided a different scenario regarding cyber security. After analyzing the scenario, they will need to explain the dangers presented, potential pitfalls, or things they
+  would need to be concerned about as well as what ways they can implement more security measures.
 date: '2023-07-13T14:57:41'
 draft: false
 author: Brian Axon

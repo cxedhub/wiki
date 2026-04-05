@@ -1,6 +1,7 @@
 ---
 title: Storm is Coming
-description: Students are getting ready to make make observations about the weather for the next two weeks. To help with the observations, students will need to use different weather symbols to communicate what the weather is. Students will use a small computing device to follow simple algorithms to match a sky symbol. They will then write and test their own algorithms to predict the cloud cover for tomorrow.
+description: Students are getting ready to make make observations about the weather for the next two weeks. To help with the observations, students will need to use different weather symbols to communicate
+  what the weather is. Students will use a small computing device to follow simple algorithms to match a sky symbol. They will then write and test their own algorithms to predict the cloud cover for tomorrow.
 date: '2022-08-14 00:00:00+00:00'
 draft: false
 author: Julie L. Calkins

@@ -37,7 +37,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Online Mindfulness
-description: On the internet, students interact with websites, peers, and strangers throughout the day. With that said, students must be very careful about what they share and what information they give out. Information travels fast along the internet. Be mindful of what you say or post.
+description: On the internet, students interact with websites, peers, and strangers throughout the day. With that said, students must be very careful about what they share and what information they give
+  out. Information travels fast along the internet. Be mindful of what you say or post.
 date: '2022-08-12 00:00:00+00:00'
 draft: false
 author: Jonathan Broersma

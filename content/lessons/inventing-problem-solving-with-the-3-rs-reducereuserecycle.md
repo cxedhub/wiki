@@ -47,7 +47,8 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
-materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson document).'
+materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson
+  document).'
 tags:
 - Data Collection
 - Robotics
@@ -59,7 +60,6 @@ standard_types:
 - CSTA
 - ISTE
 - NGSS
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

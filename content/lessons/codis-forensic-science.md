@@ -1,6 +1,8 @@
 ---
 title: CODIS & Forensic Science
-description: Students will work together (in teams of 4) as forensic scientists to solve the crime of “Who broke into our school and stole all the tablets?” Students will compare DNA samples from three suspects to DNA taken from a hair left at the crime scene. From their comparisons they will draw conclusions to identify a suspect. Once the suspect is identified, they will present their findings and rationale to the class
+description: Students will work together (in teams of 4) as forensic scientists to solve the crime of “Who broke into our school and stole all the tablets?” Students will compare DNA samples from three
+  suspects to DNA taken from a hair left at the crime scene. From their comparisons they will draw conclusions to identify a suspect. Once the suspect is identified, they will present their findings and
+  rationale to the class
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Alicia Vonberg

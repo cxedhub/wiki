@@ -1,6 +1,7 @@
 ---
 title: COVID-19 Revised/Extended Lesson Plan
-description: The Covid-19 pandemic has impacted education, learning, and the social and emotional well-being of students due to school closures, distance learning, and isolation. Students will read a poem, watch a video, complete a graphic organizer, complete a personal opinion survey, and create an argument for or against use of vaccines.
+description: The Covid-19 pandemic has impacted education, learning, and the social and emotional well-being of students due to school closures, distance learning, and isolation. Students will read a poem,
+  watch a video, complete a graphic organizer, complete a personal opinion survey, and create an argument for or against use of vaccines.
 date: '2023-03-07'
 draft: false
 author: Alicia Vonberg
@@ -28,17 +29,24 @@ standards:
   NGSS:
   - MS-LS4-4
   CSTA:
+  - 2-AP-17
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
   ISTE:
   - ISTE-2a
   - ISTE-2b
+  - ISTE-6c
+  - ISTE-6d
   - ISTE-7a
   - ISTE-7b
+  - ISTE-7c
+  NCSS C3:
+  - D2.His.2.6-8
 standard_types:
 - CSTA
 - ISTE
+- NCSS C3
 - NGSS
 ---
 # OVERVIEW

@@ -1,6 +1,7 @@
 ---
 title: aMAZEing Margaret Hamilton
-description: In this lesson students will begin by reading about Margaret Hamilton in 'Margaret and the Moon' by Dean Robbins. After reading the book students will think about how computer science was used to land a man on the moon. Students will then use the engineering design process and work with a team to create a maze that will lead a computer 'bug' to the trash.
+description: In this lesson students will begin by reading about Margaret Hamilton in 'Margaret and the Moon' by Dean Robbins. After reading the book students will think about how computer science was used
+  to land a man on the moon. Students will then use the engineering design process and work with a team to create a maze that will lead a computer 'bug' to the trash.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Kalista Pendleton
@@ -79,6 +80,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NCSS C3
 - NGSS
 ---
 # OVERVIEW

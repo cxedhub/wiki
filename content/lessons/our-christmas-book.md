@@ -27,6 +27,7 @@ standards:
   - ISTE-4c
   - ISTE-6b
   - ISTE-7b
+  - ISTE-7c
   CCSS ELA:
   - SL.2
 materials: Book Creation App on I-Pad

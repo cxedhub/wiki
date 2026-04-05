@@ -1,6 +1,7 @@
 ---
 title: Zoo Data
-description: Students will collect data on what animals they would keep in a library. Students will choose their top 5 animals that they would have in their zoo. They will then take surveys of students in the classroom to see which animals are the most popular, or how many people chose the same animals as them.
+description: Students will collect data on what animals they would keep in a library. Students will choose their top 5 animals that they would have in their zoo. They will then take surveys of students
+  in the classroom to see which animals are the most popular, or how many people chose the same animals as them.
 date: '2021-11-29 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam

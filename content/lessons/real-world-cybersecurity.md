@@ -1,6 +1,7 @@
 ---
 title: Real World Cybersecurity
-description: Cybersecurity and personal information protection go hand in hand. This is the first of a three lesson unit that introduces 5th grade computer users of how we protect personal information from various forms of cyber attacks.. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Social Studies, and CS standards through the lens of real-world cyber security.
+description: Cybersecurity and personal information protection go hand in hand. This is the first of a three lesson unit that introduces 5th grade computer users of how we protect personal information from
+  various forms of cyber attacks.. The lesson is easily adaptable for 3rd grade and up through high school integrating ELA, Social Studies, and CS standards through the lens of real-world cyber security.
 date: '2022-07-23 00:00:00+00:00'
 draft: false
 author: Chad Lemley
@@ -38,6 +39,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

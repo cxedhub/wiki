@@ -43,7 +43,6 @@ supplements:
 - /uploads/using-microbits-to-measure-conductivity-of-metallic-ionic-and-covalent-bonds/Schwessinger_Wyslice_lesson_2_Physical_Science_-_SAM_SCHWESSINGER.docx
 standard_types:
 - CCSS ELA
-- CCSS Math
 - CSTA
 - ISTE
 - NGSS

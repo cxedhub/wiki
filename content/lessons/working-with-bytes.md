@@ -1,6 +1,8 @@
 ---
 title: Working with Bytes
-description: This assignment is part of a unit designed to help students understand the different types of data that are used in computing. It was used as an introductory assignment to aid in the understanding of bytes and specifically how bytes will be sent and received using microbits. When the unit is completed the students should have an in-depth  understanding of ASCII, ordinal values, hexadecimal and binary representations of data.
+description: This assignment is part of a unit designed to help students understand the different types of data that are used in computing. It was used as an introductory assignment to aid in the understanding
+  of bytes and specifically how bytes will be sent and received using microbits. When the unit is completed the students should have an in-depth  understanding of ASCII, ordinal values, hexadecimal and
+  binary representations of data.
 date: '2022-04-14'
 draft: false
 author: John Lupher
@@ -27,11 +29,16 @@ standards:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
   ISTE:
+  - ISTE-1d
   - ISTE-3a
   - ISTE-3b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a

@@ -1,6 +1,7 @@
 ---
 title: Think Like a Hacker
-description: Students will pretend they are in charge of cybersecurity for a app. Their job it to retain users and increase the security of the system. They will do this by working through the NOVA lab on Cybersecurity.
+description: Students will pretend they are in charge of cybersecurity for a app. Their job it to retain users and increase the security of the system. They will do this by working through the NOVA lab
+  on Cybersecurity.
 date: '2020-10-21 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl
@@ -63,7 +64,6 @@ standards:
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,8 @@
 ---
 title: Circuits, Circuits, Circuits
-description: Students will work together in groups of 2-3 to build, debug, and run a variety of circuits both in TinkerCad and IRL on an Arduino and breadboard.  Each assignment will be progressively harder and build on the knowledge of previous assignments.  Students will receive game points (not related to the assignment grade) for completing the tasks first. Each project is worth more points than the last and the object is to have the most points at the end to win a prize (in this case, lunch at my expense).  Each day, teacher will review circuit components and what we learned that works well.
+description: Students will work together in groups of 2-3 to build, debug, and run a variety of circuits both in TinkerCad and IRL on an Arduino and breadboard.  Each assignment will be progressively harder
+  and build on the knowledge of previous assignments.  Students will receive game points (not related to the assignment grade) for completing the tasks first. Each project is worth more points than the
+  last and the object is to have the most points at the end to win a prize (in this case, lunch at my expense).  Each day, teacher will review circuit components and what we learned that works well.
 date: '2023-05-15'
 draft: false
 author: Jennifer LaVanchy
@@ -30,12 +32,19 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
   - 2-CS-03
+  - 2-DA-07
+  - 2-NI-06
   ISTE:
+  - ISTE-1d
   - ISTE-3a
   - ISTE-3b
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a

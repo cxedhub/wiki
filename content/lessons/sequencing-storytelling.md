@@ -1,6 +1,7 @@
 ---
 title: Sequencing = Storytelling
-description: This lesson helps learners connect storytelling with simple coding through the study of the sequence of events. It begins with a read-aloud, progresses through unplugged activities in composing algorithms, and ends with story composition and creation using online interfaces. This lesson is designed to occur in the library setting for primary grades but may be adapted for the classroom setting.
+description: This lesson helps learners connect storytelling with simple coding through the study of the sequence of events. It begins with a read-aloud, progresses through unplugged activities in composing
+  algorithms, and ends with story composition and creation using online interfaces. This lesson is designed to occur in the library setting for primary grades but may be adapted for the classroom setting.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Devin Hodgins

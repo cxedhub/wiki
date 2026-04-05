@@ -1,6 +1,7 @@
 ---
 title: Microbit Basics
-description: This is an introductory lesson that I used with my 5th & 6th grade students. This lesson introduces students to basic programming on a microbit. Students will then use this basics course to create games using microbits.
+description: This is an introductory lesson that I used with my 5th & 6th grade students. This lesson introduces students to basic programming on a microbit. Students will then use this basics course to
+  create games using microbits.
 date: '2023-03-02 00:00:00+00:00'
 draft: false
 author: Sandra Joslin

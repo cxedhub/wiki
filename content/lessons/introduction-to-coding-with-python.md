@@ -1,6 +1,7 @@
 ---
 title: Introduction to Coding with Python
-description: I will present a powerpoint presentation on Python programming concepts. The presentation will be followed up by a class game of Kahoot where the questions are drawn from the presentation. Hopefully this is a fun way to reinforce the foundational principals of Python Programming before I have the students jump in with their own coding projects.
+description: I will present a powerpoint presentation on Python programming concepts. The presentation will be followed up by a class game of Kahoot where the questions are drawn from the presentation.
+  Hopefully this is a fun way to reinforce the foundational principals of Python Programming before I have the students jump in with their own coding projects.
 date: '2023-07-21'
 draft: false
 author: Josh McCoy
@@ -26,6 +27,7 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   ISTE:
   - ISTE-1c
   - ISTE-1d
@@ -33,6 +35,10 @@ standards:
   - ISTE-2b
   - ISTE-3a
   - ISTE-3b
+  - ISTE-5a
+  - ISTE-5c
+  - ISTE-6c
+  - ISTE-6d
   - ISTE-7a
   - ISTE-7b
 ---

@@ -1,6 +1,7 @@
 ---
 title: Importance and use of compasses
-description: This lesson will probably take one block day, or 85-minute class. It will be a hands-on activity filled class that involves looking at different compasses, using a few different ones, and building their own on a micro bit. The lesson will look at how revolutionary a technology it was when it was invented, and how it has evolved over the years and the role it plays today.
+description: This lesson will probably take one block day, or 85-minute class. It will be a hands-on activity filled class that involves looking at different compasses, using a few different ones, and building
+  their own on a micro bit. The lesson will look at how revolutionary a technology it was when it was invented, and how it has evolved over the years and the role it plays today.
 date: '2021-11-29 00:00:00+00:00'
 draft: false
 author: Michelle Petty
@@ -35,7 +36,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

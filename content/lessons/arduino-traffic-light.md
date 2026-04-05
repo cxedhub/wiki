@@ -27,12 +27,20 @@ standards:
   - 1B-AP-08
   - 1B-AP-09
   - 1B-AP-10
+  - 1B-AP-15
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
+  - 2-DA-07
+  - 2-NI-06
   ISTE:
+  - ISTE-1d
   - ISTE-3a
   - ISTE-3b
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a

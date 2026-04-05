@@ -25,6 +25,7 @@ tags:
 supplements:
 - /uploads/eye-tracking-lab/Title__Eye_TrackingLab__A_Lesson_for_Middle_School_Students_-_Christy_Rodgers.docx
 standard_types:
+- CCSS Math
 - CSTA
 - ISTE
 standards:
@@ -32,6 +33,7 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   - 2-DA-07
   - 2-DA-08
   - 2-DA-09
@@ -39,12 +41,19 @@ standards:
   - 2-IC-21
   - 2-IC-22
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
+  - ISTE-4d
+  - ISTE-5c
+  - ISTE-5d
   - ISTE-6a
   - ISTE-6b
+  CCSS Math:
+  - 6.SP
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Lesson Plan 2-First LEGO ® League “White Energy Journey”
-description: Students will work independently to design a ‘driving base’ using the SPIKE PRIME LEGO sets. Upon completion of the base students will develop the code to drive the base around the LEGO Super Powered map. Students will have to problem solve to find errors in code and re-program their driving bases to allow their model to follow the most accurate and direct path around the map.
+description: Students will work independently to design a ‘driving base’ using the SPIKE PRIME LEGO sets. Upon completion of the base students will develop the code to drive the base around the LEGO Super
+  Powered map. Students will have to problem solve to find errors in code and re-program their driving bases to allow their model to follow the most accurate and direct path around the map.
 date: '2022-10-25 00:00:00+00:00'
 draft: false
 author: Alicia Vonberg

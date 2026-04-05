@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {{ partial "seo-head.html" . }}
-  {{ partial "json-ld.html" . }}
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   {{ $style := resources.Get "css/main.css" }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,21 +27,6 @@
     .cxed-cite{padding:.75rem 1.5rem;text-align:center;font-size:.72rem;color:#888;line-height:1.5}
     .cxed-cite strong{color:#555}.cxed-cite a{color:#0f3460;text-decoration:none}.cxed-cite a:hover{text-decoration:underline}
     .cxed-cite .funding{font-size:.65rem;color:#aaa;margin-top:.2rem}
-    /* Share bar */
-    .share-bar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:1rem 0;padding:.6rem 0;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0}
-    .share-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#666;font-family:'JetBrains Mono',monospace}
-    .share-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:6px;color:#555;background:#f4f4f5;border:1px solid #e0e0e0;cursor:pointer;transition:all .15s;text-decoration:none}
-    .share-btn:hover{color:#fff;border-color:transparent}
-    .share-btn--linkedin:hover{background:#0A66C2}
-    .share-btn--twitter:hover{background:#1d1d1b}
-    .share-btn--bluesky:hover{background:#0085ff}
-    .share-btn--reddit:hover{background:#FF4500}
-    .share-btn--email:hover{background:#0f3460}
-    .share-btn--copy:hover{background:#0f3460;color:#fff}
-    .share-btn--copy .icon-check{display:none}
-    .share-btn--copy.copied .icon-link{display:none}
-    .share-btn--copy.copied .icon-check{display:block}
-    .share-btn--copy.copied{background:#27ae60;color:#fff;border-color:#27ae60}
   </style>
 </head>
 <body>

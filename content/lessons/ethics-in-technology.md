@@ -64,7 +64,7 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- NGSS
+- NCSS C3
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Nested Loops - Inner and Outer
-description: This lesson is for more advanced students wanting to code a Python program that uses nested loops. This is not block coding. They will use their own IDE to write the program. I have attached a photo of a sample program that they can write.
+description: This lesson is for more advanced students wanting to code a Python program that uses nested loops. This is not block coding. They will use their own IDE to write the program. I have attached
+  a photo of a sample program that they can write.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Selena Pope
@@ -34,7 +35,6 @@ supplements:
 standard_types:
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

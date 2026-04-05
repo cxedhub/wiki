@@ -1,6 +1,7 @@
 ---
 title: Discover Digital Citizenship
-description: Students will use a decoder to decode messages that lead to exploration of Digital Citizenship resources. They will then take what they learned to develop a Google Slide presentation with their group to share with the class and their parents.
+description: Students will use a decoder to decode messages that lead to exploration of Digital Citizenship resources. They will then take what they learned to develop a Google Slide presentation with their
+  group to share with the class and their parents.
 date: '2021-07-30 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -72,6 +73,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

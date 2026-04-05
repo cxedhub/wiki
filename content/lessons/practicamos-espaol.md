@@ -1,6 +1,7 @@
 ---
 title: Practicamos Español
-description: In this lesson students will review what Duolingo does for Spanish students, and design a similar project using Scratch or Google Forms.  They will determine if they want to include avatars and let users customize the avatars to practice.
+description: In this lesson students will review what Duolingo does for Spanish students, and design a similar project using Scratch or Google Forms.  They will determine if they want to include avatars
+  and let users customize the avatars to practice.
 date: '2023-07-30'
 draft: false
 author: Jennifer LaVanchy
@@ -32,6 +33,7 @@ standards:
   - 1B-AP-08
   - 1B-AP-09
   - 1B-AP-10
+  - 1B-AP-15
   - 1B-IC-18
   - 1B-IC-19
   - 1B-IC-20
@@ -42,6 +44,9 @@ standards:
   - ISTE-2b
   - ISTE-3a
   - ISTE-3b
+  - ISTE-4a
+  - ISTE-4c
+  - ISTE-4d
   - ISTE-5a
   - ISTE-5b
   - ISTE-6a

@@ -1,6 +1,7 @@
 ---
 title: Sensory Classroom
-description: Students, in small groups, collaborate to design one thing that would turn the classroom into a sensory classroom.  Students researched sensory disorders, sensory classrooms, and communicated with our SPED staff to assess the needs of our SPED students in order to create meaningful designs that could be used elsewhere in the building.
+description: Students, in small groups, collaborate to design one thing that would turn the classroom into a sensory classroom.  Students researched sensory disorders, sensory classrooms, and communicated
+  with our SPED staff to assess the needs of our SPED students in order to create meaningful designs that could be used elsewhere in the building.
 date: '2022-02-16'
 draft: false
 author: Samantha Joyce Smith
@@ -23,16 +24,41 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- NGSS
+- National Core Arts
 standards:
   CSTA:
+  - 3A-AP-21
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
+  - 3A-DA-09
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
+  - ISTE-6c
+  - ISTE-6d
   - ISTE-7a
   - ISTE-7b
+  - ISTE-7c
+  NGSS:
+  - HS-ETS1-1
+  - HS-ETS1-2
+  - HS-ETS1-3
+  - HS-PS4-1
+  - HS-PS4-3
+  - HS-PS4-5
+  National Core Arts:
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
+  - VA:Re7
+  - VA:Re8
+  - VA:Re9
 ---
 # OVERVIEW
 ## Activity Overview:  

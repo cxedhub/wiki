@@ -33,7 +33,6 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
-- Wyoming CS
 ---
 # OVERVIEW
 ## Activity Overview:  

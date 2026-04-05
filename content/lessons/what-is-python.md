@@ -23,9 +23,14 @@ standards:
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
+  - 3A-DA-09
   ISTE:
+  - ISTE-1d
   - ISTE-2a
   - ISTE-2b
+  - ISTE-6c
+  - ISTE-6d
 ---
 # OVERVIEW
 ## Activity Overview:  

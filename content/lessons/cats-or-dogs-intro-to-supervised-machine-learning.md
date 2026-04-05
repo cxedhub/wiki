@@ -1,6 +1,8 @@
 ---
 title: 'Cats or Dogs: Intro to Supervised Machine Learning'
-description: In this lesson, students will learn what supervised machine learning is and how it operates.  Students will then work with version one and two of Google's Teachable machine to create classification models.  They will analyze how biased data changes the output of the algorithm and look at ways in which to avoid algorithmic bias.  Students will begin to consider how bias in data is one example of an ethical issue in AI.
+description: In this lesson, students will learn what supervised machine learning is and how it operates.  Students will then work with version one and two of Google's Teachable machine to create classification
+  models.  They will analyze how biased data changes the output of the algorithm and look at ways in which to avoid algorithmic bias.  Students will begin to consider how bias in data is one example of
+  an ethical issue in AI.
 date: '2023-07-24'
 draft: false
 author: Sarah Horen
@@ -30,12 +32,14 @@ standards:
   - 2-AP-10
   - 2-AP-11
   - 2-AP-12
+  - 2-AP-17
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
+  - 3A-AP-21
   - 3A-IC-24
   - 3A-IC-25
   - 3A-IC-26
@@ -44,8 +48,11 @@ standards:
   - ISTE-1d
   - ISTE-4a
   - ISTE-4b
+  - ISTE-4c
   - ISTE-5a
   - ISTE-5b
+  - ISTE-5c
+  - ISTE-5d
 ---
 # OVERVIEW
 ## Activity Overview:  

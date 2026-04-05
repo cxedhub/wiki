@@ -1,6 +1,8 @@
 ---
 title: 'Sonic Pi: Midi Synthesizer'
-description: Most commercial music produced today involves the use of synthesized and sampled sounds. MIDI (musical instrument digital interface) is the standard language used for electronic musical instruments and computers to communicate with one another. Sonic Pi is capable of producing a wide variety of synthesized sounds which can be controlled via MIDI. The goal of this project is to provide students the opportunity to create electronic music using Sonic Pi and MIDI keyboards.
+description: Most commercial music produced today involves the use of synthesized and sampled sounds. MIDI (musical instrument digital interface) is the standard language used for electronic musical instruments
+  and computers to communicate with one another. Sonic Pi is capable of producing a wide variety of synthesized sounds which can be controlled via MIDI. The goal of this project is to provide students the
+  opportunity to create electronic music using Sonic Pi and MIDI keyboards.
 date: '2022-04-26 00:00:00+00:00'
 draft: false
 author: Colin Botts
@@ -41,11 +43,20 @@ standards:
   - MU:Pr4
   - MU:Pr5
   - MU:Pr6
+  - VA:Cn10
+  - VA:Cn11
+  - VA:Cr1
+  - VA:Cr2
+  - VA:Cr3
+  - VA:Pr4
+  - VA:Pr5
+  - VA:Pr6
 supplements:
 - /uploads/sonic-pi-midi-synthesizer/Sonic_Pi_Intro_-_Colin_Botts.pdf
 standard_types:
 - CSTA
 - ISTE
+- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,6 +1,7 @@
 ---
 title: Penguin Lab
-description: Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver to record the temperature inside the penguin home using one micro:bit, and then creating a graphical representation of the temperature change in their penguin home.
+description: Students will construct an penguin home to prevent the phase change of an Ice-Cube Penguin. Students will code 2 micro:bit devices to be a radio and receiver to record the temperature inside
+  the penguin home using one micro:bit, and then creating a graphical representation of the temperature change in their penguin home.
 date: '2022-07-13 00:00:00+00:00'
 draft: false
 author: Sara Percy

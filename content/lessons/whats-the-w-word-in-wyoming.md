@@ -42,7 +42,6 @@ standards:
   - 4-PS3-1
   - 4-PS3-2
 standard_types:
-- CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
