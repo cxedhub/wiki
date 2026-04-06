@@ -43,9 +43,10 @@ static/pds/craft-pd-series/
 ## Links embedded in all materials
 
 ### Zoom
-- W1: https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1
-- W2: https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1
-- W3: https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1
+- W1: https://ucf.zoom.us/j/96520248667
+- W2: https://ucf.zoom.us/j/96789217432
+- W3: https://ucf.zoom.us/j/97106116299
+- Passwords: see calendar invitations
 
 ### Qualtrics Surveys
 - W1 Pre: https://ucf.qualtrics.com/jfe/form/SV_bq1qU641tSt7O0S

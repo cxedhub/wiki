@@ -15,7 +15,7 @@ accent_color: "#C0392B"
 
 **Date:** April 18, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom)
 
-**Zoom:** [Join Workshop 2](https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1)
+**Zoom:** [Join Workshop 2](https://ucf.zoom.us/j/96789217432) *(Password is in your calendar invitation.)*
 
 **Focus:** Academic integrity, error analysis, critical thinking in STEM
 

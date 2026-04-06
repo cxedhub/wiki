@@ -15,7 +15,7 @@ accent_color: "#27AE60"
 
 **Date:** April 25, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom, with mailed hardware kits)
 
-**Zoom:** [Join Workshop 3](https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1)
+**Zoom:** [Join Workshop 3](https://ucf.zoom.us/j/97106116299) *(Password is in your calendar invitation.)*
 
 **Focus:** NGSS/CTE alignment, hardware sensors, real-world data processing
 
