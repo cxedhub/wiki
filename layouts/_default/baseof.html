@@ -27,7 +27,19 @@
     .cxed-cite{padding:.75rem 1.5rem;text-align:center;font-size:.72rem;color:#e2e8f0;line-height:1.5}
     .cxed-cite strong{color:#f8fafc}.cxed-cite a{color:#93c5fd;text-decoration:none}.cxed-cite a:hover{text-decoration:underline}
     .cxed-cite .funding{font-size:.65rem;color:#cbd5e1;margin-top:.4rem}
+    /* Dark mode overrides for inline styles */
+    [data-theme="dark"] .lesson-standards{background:#1e1e1e;border-color:#333}
+    [data-theme="dark"] .lesson-standards h3{color:#e8e6e1;border-bottom-color:#FFC904}
+    [data-theme="dark"] .standards-group{border-bottom-color:#333}
+    [data-theme="dark"] .standards-framework a{color:#FFC904}
+    [data-theme="dark"] .standard-code{background:#2a2040;color:#d8b4fe}
+    [data-theme="dark"] a.standard-code:hover{background:#6a1b9a;color:#fff}
+    [data-theme="dark"] .cxed-cite a{color:#FFC904}
   </style>
+  <script>
+    // Apply theme immediately to prevent flash
+    (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t!=='light'&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}})();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -40,6 +52,10 @@
           <a href="{{ .URL | relURL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
         {{ end }}
       </nav>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+      </button>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
