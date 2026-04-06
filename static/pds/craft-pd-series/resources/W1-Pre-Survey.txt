@@ -1,0 +1,145 @@
+[[AdvancedFormat]]
+
+[[Block:Research Consent (STUDY00007380)]]
+
+[[Question:DB]]
+[[ID:IRB_CONSENT_TEXT]]
+<div style="max-width:720px; margin:0 auto; font-family:Arial,sans-serif; line-height:1.6;">
+<h2 style="text-align:center; margin-bottom:4px;">EXPLANATION OF RESEARCH</h2>
+<p style="text-align:center; font-size:0.85em; color:#666; margin-bottom:16px;">University of Central Florida IRB &bull; IRB Number: STUDY00007380 &bull; IRB Approval Date: 7/1/2025<br>UCF HRP-254 Form v.1/31/2023</p>
+<p><strong>Title of Study:</strong> Western Regional Noyce Network &ndash; Remote Professional Development Impact on Computing Engagement</p>
+<p><strong>Principal Investigator:</strong> Dr. Mike Borowczak<br><strong>Other Investigator(s):</strong> Dr. Andrea C Borowczak</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:16px 0;">
+<p>You are being invited to take part in a research study. Whether you take part is up to you.</p>
+<p>The purpose of this research is to evaluate the efficacy and impact of remote professional development interventions on computing education engagement and implementation. This study specifically examines how virtual professional learning communities influence educators&rsquo; self-efficacy in computing instruction and their subsequent classroom adoption patterns.</p>
+<p>You have chosen to participate in remote professional development (PD) sessions focused on computing education pedagogy and implementation strategies. <strong>The PD activities are NOT happening for research purposes.</strong> These synchronous virtual sessions will be conducted via secure video conferencing platforms (Zoom or MS Teams) and will incorporate both direct instruction and collaborative learning components.</p>
+<p>During these sessions, you will:</p>
+<ol><li>Engage in structured professional development activities designed to enhance computing education competencies</li><li>Participate in collaborative discussions with fellow educators</li></ol>
+<p>If you agree to participate in this research study you will be asked to:</p>
+<ol start="3"><li>Complete brief pre- and post-session online surveys (using Qualtrics) addressing teaching self-efficacy and implementation strategies using a link provided to you via email before and after your attendance.</li></ol>
+<p>The research will be conducted entirely through virtual platforms, allowing participation from your preferred location with appropriate internet connectivity.</p>
+<p><strong>Your participation in this research study involves:</strong></p>
+<ul><li>Survey Completion: 10 minutes per survey with two surveys per PD; 20 minutes per PD</li></ul>
+<p>You will be video and audio recorded during the PD sessions. If you do not want to be video recorded, you will still be able to be in the study. Discuss this with the researcher or a research team member. If you are recorded, the digital recording will be kept in a password protected cloud service from the meeting provider. Recordings occur using the virtual meeting platform used for the meeting (e.g., Zoom or MS Teams). The recording will be erased or destroyed five-years after study closure.</p>
+<p>Since the session is virtual, your displayed meeting name along with your face and voice may be collected during the virtual meeting recording. Only the research team will have administrative access to the video/audio recording, and it will remain stored in the video-meeting provider&rsquo;s cloud-based interface for five years after study closure. The collected recordings will be analyzed by the members of the research team to assess, in aggregate and anonymized, participant engagement and discourse.</p>
+<p>Your information that is collected as part of this research will not be used or distributed for future research studies, even if all of your identifiers are removed.</p>
+<p>To be eligible for this study you must be 18 years of age or older and you should be or are planning to be a K-20 educator or K-20 administrator.</p>
+<hr style="border:none; border-top:1px solid #ccc; margin:16px 0;">
+<p style="font-size:0.9em;"><strong>Study contact for questions about the study or to report a problem:</strong> Dr. Mike Borowczak, Associate Professor, Department of Electrical and Computer Engineering at (407) 823-1342 or mike.borowczak@ucf.edu, or Dr. Andrea C Borowczak, Professor &amp; Director, School of Teacher Education at (407) 823-5971 or andrea.borowczak@ucf.edu.</p>
+<p style="font-size:0.9em;"><strong>IRB contact about your rights in this study or to report a complaint:</strong> Institutional Review Board (IRB), University of Central Florida, Office of Research, 12201 Research Parkway, Suite 501, Orlando, FL 32826-3246 or by telephone at (407) 823-2901, or email irb@ucf.edu.</p>
+</div>
+
+[[Question:MC:SingleAnswer]]
+[[ID:CONSENT]]
+<strong>Research Consent</strong><br><br>By selecting "I consent," you indicate that you have read the Explanation of Research above, you are 18 years of age or older, and you voluntarily agree to participate in this research study. Your survey responses may be used for research purposes as described above.<br><br>By selecting "I do not consent," you indicate that you do not wish your survey responses to be used for research purposes. <strong>You will still complete the survey as part of the professional development session</strong> &mdash; your responses simply will not be included in the research analysis.
+[[Choices]]
+I consent - I have read the above and agree to participate in the research study
+I do not consent - I will still complete the survey but my responses should not be used for research
+
+[[Block:About You]]
+
+[[Question:TE:SingleLine]]
+[[ID:PARTICIPANT_ID]]
+<strong>Participant ID</strong><br>Create your unique anonymous ID: first letter of birth month + last 2 digits of phone number + first letter of mother's first name.<br><em>Example: Born in March, phone ends in 47, mother's name Rosa = M47R</em>
+
+[[Question:MC:SingleAnswer]]
+[[ID:ROLE]]
+What is your current role?
+[[Choices]]
+In-service teacher (currently teaching K-12)
+Pre-service teacher (student teacher / intern)
+Pre-service teacher (not yet in a classroom)
+Other
+
+[[Question:MC:SingleAnswer]]
+[[ID:GRADE_BAND]]
+What grade band do you teach (or plan to teach)?
+[[Choices]]
+K-2
+3-5
+6-8
+9-12
+Multiple
+
+[[Question:MC:MultipleAnswer]]
+[[ID:SUBJECTS]]
+What subject(s) do you teach? (Select all that apply)
+[[Choices]]
+Science
+Math
+Computer Science / Technology
+Engineering
+Other STEM
+Non-STEM
+
+[[Question:MC:SingleAnswer]]
+[[ID:EXPERIENCE]]
+How many years of teaching experience do you have?
+[[Choices]]
+0 (pre-service)
+1-3 years
+4-7 years
+8-15 years
+16+ years
+
+[[Block:Workshop 1 - Knowledge and Confidence]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W1K1]]
+How would you rate your understanding of how Large Language Models (LLMs) work?
+[[Choices]]
+1 - No understanding
+2
+3 - Some
+4
+5 - Strong understanding
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W1K2]]
+How would you rate your ability to write an effective prompt for an LLM to generate STEM lesson content?
+[[Choices]]
+1 - Cannot do this
+2
+3 - Could attempt
+4
+5 - Confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W1K3]]
+How familiar are you with the differences between AI platforms (ChatGPT, Claude, Gemini)?
+[[Choices]]
+1 - Not at all
+2
+3 - Somewhat
+4
+5 - Very familiar
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W1C1]]
+How confident are you in using AI tools to support your STEM teaching?
+[[Choices]]
+1 - Not confident
+2
+3 - Somewhat
+4
+5 - Very confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W1C2]]
+How confident are you in identifying errors in AI-generated STEM content?
+[[Choices]]
+1 - Not confident
+2
+3 - Somewhat
+4
+5 - Very confident
+
+[[Question:MC:SingleAnswer]]
+[[ID:W1P1]]
+How often do you currently use AI tools for teaching tasks?
+[[Choices]]
+Never
+Rarely (tried once or twice)
+Sometimes (monthly)
+Often (weekly)
+Daily

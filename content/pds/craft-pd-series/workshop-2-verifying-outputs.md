@@ -3,21 +3,34 @@ title: "Workshop 2: Verifying STEM AI Outputs"
 description: "The Check the Machine protocol and error-hunting skills for AI-generated code and STEM content."
 date: 2026-04-18
 draft: false
-tags: ["AI", "verification", "CRAFT", "Check-the-Machine", "critical-thinking"]
+tags: ["AI", "verification", "CRAFT", "Check-the-Machine", "critical-thinking", "WySTACK"]
 subjects: ["Computer Science", "Science", "Mathematics"]
 grade_levels: ["K-2", "3-5", "6-8", "9-12"]
+cs_domains: ["Algorithms and Programming", "Impacts of Computing"]
+standard_types: ["NGSS", "ISTE", "CSTA"]
 workshop_number: 2
 series: "CRAFT PD Series"
 accent_color: "#C0392B"
 ---
 
-**Date:** April 18, 2026 · 8:30 AM – 12:00 PM PST · Virtual
+**Date:** April 18, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom)
+
+**Zoom:** [Join Workshop 2](https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1)
 
 **Focus:** Academic integrity, error analysis, critical thinking in STEM
 
 **Talk:Do Ratio:** 26 min facilitator / 164 min participant activities (1:6.3)
 
 Your students are using AI — but do they know when it's wrong? This session equips you with the "Check the Machine" protocol and hands-on error-hunting skills for both AI-generated code and STEM content.
+
+## Surveys
+
+- 📝 [Pre-Survey](https://ucf.qualtrics.com/jfe/form/SV_5c01mD7bR8nzB3M) — complete at the start of the session
+- 📊 [Post-Survey](https://ucf.qualtrics.com/jfe/form/SV_6KEIQN9w20YvCMm) — complete at the end of the session
+
+## Shared Workspace
+
+- 📋 [Group Workspace (Google Doc)](https://docs.google.com/document/d/1qabmRf2MdjUJ9G4v6SqNhZm7_6UcMVqZ/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true) — collaborative document for all breakout and group activities
 
 ## Learning Objectives
 
@@ -32,6 +45,13 @@ Your students are using AI — but do they know when it's wrong? This session eq
 - [**📋 Live Agenda**](/pds/craft-pd-series/workshop-2-agenda.html) — participant-facing timeline with activity links and print view
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w2.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-2-Slides.pptx) — import to Google Slides
+- [**🐛 AI Error Gallery**](/pds/craft-pd-series/resources/error-gallery.html) — annotated code snippets with deliberate bugs for the error hunt
+- [**🔍 Content Audit Checklist**](/pds/craft-pd-series/resources/content-audit-checklist.html) — structured checklist for evaluating AI-generated explanations
+- [**✅ CtM Template**](/pds/craft-pd-series/resources/ctm-template.html) — editable Check the Machine template for classroom use
+- [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — includes verification-focused prompts
+- [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
+- [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
+- [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W2-Digital-Toolkit.pdf) — all Workshop 2 resources in one downloadable file
 
 ## Key Activities
 
@@ -62,14 +82,11 @@ A reusable 4-step classroom verification framework from the CRAFT pedagogy:
 - Content Audit Checklist for evaluating AI-generated explanations
 - AI Error Gallery with annotated examples across STEM subjects
 - Prompt library designed to generate verify-able outputs
+- Digital Toolkit PDF with all resources
 
 ## Reframe Theme
 
 > "The problem isn't that students USE AI — it's that they don't VERIFY AI." — Banning teaches avoidance; verification teaches engineering thinking.
-
-## Focus Tags
-
-`Error Analysis` · `Check the Machine` · `Critical Thinking`
 
 ---
 

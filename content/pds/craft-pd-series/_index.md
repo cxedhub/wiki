@@ -3,9 +3,11 @@ title: "CRAFT PD Series — Unlocking AI & IoT for K-12 STEM"
 description: "A three-session professional development series using the CRAFT pedagogical cycle. Co-hosted by the UCF DRACO Lab and School of Teacher Education."
 date: 2026-04-01
 draft: false
-tags: ["AI", "IoT", "micro:bit", "prompt-engineering", "CRAFT"]
+tags: ["AI", "IoT", "micro:bit", "prompt-engineering", "CRAFT", "WySTACK"]
 subjects: ["Computer Science", "Science", "Engineering", "Mathematics"]
 grade_levels: ["K-2", "3-5", "6-8", "9-12"]
+cs_domains: ["Algorithms and Programming", "Computing Systems", "Impacts of Computing"]
+standard_types: ["NGSS", "ISTE", "CSTA"]
 ---
 
 ## About This Series
@@ -20,21 +22,33 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 4. **Fortify** — Verify with tools and AI; errors are features, not failures
 5. **Transfer** — Connect forward to the next concept or your own classroom
 
+📄 [CRAFT Cycle One-Pager (printable)](/pds/craft-pd-series/resources/craft-cycle-one-pager.html)
+
 **Facilitators:** Dr. Mike Borowczak & Dr. Andrea Borowczak + DRACO Lab graduate TAs
 
 **Format:** Virtual (Zoom) · 8:30 AM – 12:00 PM PST · Standalone sessions
 
-**Standards:** NGSS-aligned throughout
+**Standards:** NGSS-aligned throughout · [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html)
 
 ---
 
 ## Workshops
 
-| Date | Workshop |
-|------|----------|
-| April 11 | [Using AI for STEM: Lessons & More](/pds/craft-pd-series/workshop-1-ai-for-stem/) |
-| April 18 | [Verifying STEM AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) |
-| April 25 | [Programming Edge/IoT Systems with AI](/pds/craft-pd-series/workshop-3-edge-iot/) |
+| Date | Workshop | Zoom |
+|------|----------|------|
+| April 11 | [Using AI for STEM: Lessons & More](/pds/craft-pd-series/workshop-1-ai-for-stem/) | [Join Zoom](https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1) |
+| April 18 | [Verifying STEM AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) | [Join Zoom](https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1) |
+| April 25 | [Programming Edge/IoT Systems with AI](/pds/craft-pd-series/workshop-3-edge-iot/) | [Join Zoom](https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1) |
+
+---
+
+## Shared Resources (All Workshops)
+
+- 📄 [CRAFT Cycle One-Pager](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the five-phase framework
+- 📚 [Prompt Library](/pds/craft-pd-series/resources/prompt-library.html) — tested prompts for AI-assisted STEM teaching
+- ⚖️ [Platform Comparison: ChatGPT vs Claude vs Gemini](/pds/craft-pd-series/resources/platform-comparison.html) — strengths, weaknesses, and when to use which
+- 📊 [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html) — IoT/sensor activities mapped to NGSS Performance Expectations
+- 🔬 [Sensor Reference Guide](/pds/craft-pd-series/resources/sensor-reference-guide.html) — BBC micro:bit V2 onboard sensors, code, and calibration notes
 
 ---
 

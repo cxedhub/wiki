@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BBC micro:bit V2 Sensor Reference Guide — CRAFT PD Series</title>
+
+<style>
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--ink-light:#5A7FA0;--paper:#FAFBFE;--warm:#F7F5F0;--gold:#D4A843;--gold-bg:#FFF8E7;--red:#C0392B;--red-bg:#FDECEC;--green:#27AE60;--green-bg:#E8F8F0;--teal:#1ABC9C;--teal-bg:#E8FAF6;--purple:#8E6BBF;--purple-bg:#F3EDF9;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray400:#999;--gray600:#666;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:900px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.3rem;margin:28px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
+h3{font-size:0.95rem;font-weight:700;margin:16px 0 8px;color:var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:24px}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+.card{background:#fff;border:1px solid var(--gray200);border-radius:var(--radius);padding:16px;margin:10px 0}
+.card h4{font-size:0.9rem;font-weight:700;margin-bottom:6px}
+.tag{display:inline-block;font-size:0.7rem;font-weight:700;padding:2px 8px;border-radius:3px;color:#fff;margin-right:4px;margin-bottom:4px}
+.tag-gold{background:var(--gold)}.tag-red{background:var(--red)}.tag-green{background:var(--green)}.tag-teal{background:var(--teal)}.tag-purple{background:var(--purple)}
+table{width:100%;border-collapse:collapse;font-size:0.85rem;margin:12px 0}
+th{background:var(--ink);color:#fff;padding:8px 12px;text-align:left;font-size:0.8rem}
+td{padding:8px 12px;border-bottom:1px solid var(--gray200);vertical-align:top}
+tr:nth-child(even){background:var(--gray100)}
+code{font-family:'JetBrains Mono',monospace;font-size:0.82rem;background:var(--gray100);padding:2px 6px;border-radius:3px}
+pre{background:var(--ink);color:#e8e8e8;padding:16px;border-radius:var(--radius);overflow-x:auto;font-size:0.8rem;margin:8px 0}
+.note{background:var(--gold-bg);border:1px solid var(--gold);border-radius:6px;padding:14px;font-size:0.88rem;margin:12px 0}
+.tip{background:var(--teal-bg);border-left:4px solid var(--teal);padding:12px 16px;font-size:0.88rem;margin:12px 0;border-radius:0 6px 6px 0}
+.warn{background:var(--red-bg);border-left:4px solid var(--red);padding:12px 16px;font-size:0.88rem;margin:12px 0;border-radius:0 6px 6px 0}
+.footer{text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)}
+@media print{body{max-width:100%;padding:12px}.back{display:none}h1{font-size:1.4rem}h2{font-size:1.1rem}}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head><body>
+<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+<h1>BBC micro:bit V2 Sensor Reference Guide</h1>
+<p class="subtitle">All onboard sensors, how to access them in MakeCode and MicroPython, and calibration notes for classroom use.</p>
+
+<div class="tip">The micro:bit V2 has 7 onboard sensors — no external wiring needed. All are accessible through MakeCode blocks or MicroPython code.</div>
+
+<h2>Onboard Sensors</h2>
+
+<table>
+<tr><th>Sensor</th><th>What It Measures</th><th>Range</th><th>MakeCode Block</th><th>MicroPython</th></tr>
+<tr><td><strong>Temperature</strong></td><td>CPU die temperature (°C)</td><td>-5 to 50°C</td><td><code>input.temperature()</code></td><td><code>temperature()</code></td></tr>
+<tr><td><strong>Accelerometer</strong></td><td>Motion / tilt (x, y, z)</td><td>±2g default</td><td><code>input.acceleration(Dimension.X)</code></td><td><code>accelerometer.get_x()</code></td></tr>
+<tr><td><strong>Compass</strong></td><td>Magnetic heading (°)</td><td>0–359°</td><td><code>input.compassHeading()</code></td><td><code>compass.heading()</code></td></tr>
+<tr><td><strong>Light Level</strong></td><td>Ambient light via LED matrix</td><td>0–255</td><td><code>input.lightLevel()</code></td><td><code>display.read_light_level()</code></td></tr>
+<tr><td><strong>Microphone</strong> (V2)</td><td>Sound level (dB approx)</td><td>0–255</td><td><code>input.soundLevel()</code></td><td><code>microphone.sound_level()</code></td></tr>
+<tr><td><strong>Touch Logo</strong> (V2)</td><td>Capacitive touch</td><td>Boolean</td><td><code>input.logoIsPressed()</code></td><td><code>pin_logo.is_touched()</code></td></tr>
+<tr><td><strong>Buttons</strong></td><td>A, B, A+B press</td><td>Boolean</td><td><code>input.buttonIsPressed(Button.A)</code></td><td><code>button_a.is_pressed()</code></td></tr>
+</table>
+
+<h2>Calibration Notes</h2>
+
+<div class="card">
+<h4>⚠️ Temperature Sensor — Critical Calibration Issue</h4>
+<p>The temperature sensor reads the <strong>CPU die temperature</strong>, not ambient air temperature. It typically reads 3–8°C higher than the actual room temperature, and the offset varies by device and workload.</p>
+<p><strong>Classroom fix:</strong> Have students measure the offset by comparing the micro:bit reading to a known thermometer, then subtract the offset in code. This is a real engineering calibration exercise!</p>
+<pre>let offset = input.temperature() - KNOWN_ROOM_TEMP
+basic.forever(function () {
+    let calibrated = input.temperature() - offset
+    basic.showNumber(calibrated)
+})</pre>
+</div>
+
+<div class="card">
+<h4>Compass — Requires Calibration Dance</h4>
+<p>On first use, the micro:bit displays "TILT TO FILL SCREEN" — tilt the board to light up all LEDs. This calibrates the magnetometer. Nearby magnets, metal desks, and electronics can interfere.</p>
+</div>
+
+<div class="card">
+<h4>Light Sensor — Uses the LEDs</h4>
+<p>The light sensor works by briefly reversing the LED matrix to sense ambient light. This means the display flickers very briefly during readings. In a dark room, readings may be inaccurate if the LEDs are actively displaying something bright.</p>
+</div>
+
+<div class="card">
+<h4>Microphone — V2 Only</h4>
+<p>The built-in MEMS microphone is new in V2. It measures sound <em>level</em> (loudness), not frequency or pitch. Values are relative (0–255), not calibrated to actual decibels. Good for "loud vs. quiet" experiments, not precise acoustic measurement.</p>
+</div>
+
+<h2>Multi-Sensor Project Ideas</h2>
+
+<table>
+<tr><th>Project</th><th>Sensors Used</th><th>NGSS Connection</th><th>Grade Band</th></tr>
+<tr><td>Greenhouse Monitor</td><td>Temperature + Light</td><td>PS3.D: Energy in Chemical Processes</td><td>6–8</td></tr>
+<tr><td>Earthquake Detector</td><td>Accelerometer</td><td>ESS3.B: Natural Hazards</td><td>6–8</td></tr>
+<tr><td>Noise Pollution Map</td><td>Microphone + Buttons</td><td>ESS3.C: Human Impacts</td><td>3–5</td></tr>
+<tr><td>Compass Navigator</td><td>Compass + Accelerometer</td><td>PS2.A: Forces and Motion</td><td>6–8</td></tr>
+<tr><td>Light Intensity Experiment</td><td>Light Level</td><td>PS4.B: Electromagnetic Radiation</td><td>6–8</td></tr>
+<tr><td>Step Counter</td><td>Accelerometer</td><td>LS1.A: Structure and Function</td><td>3–5</td></tr>
+<tr><td>Comfort Index</td><td>Temperature + Light + Sound</td><td>ETS1.B: Developing Solutions</td><td>9–12</td></tr>
+</table>
+
+<h2>Quick Reference: MakeCode vs MicroPython</h2>
+
+<table>
+<tr><th>Feature</th><th>MakeCode</th><th>MicroPython</th></tr>
+<tr><td>Interface</td><td>Block-based (drag & drop) or JavaScript</td><td>Text-based Python</td></tr>
+<tr><td>Editor URL</td><td><a href="https://makecode.microbit.org">makecode.microbit.org</a></td><td><a href="https://python.microbit.org">python.microbit.org</a></td></tr>
+<tr><td>Best for</td><td>Beginners, visual learners, K–8</td><td>Text-ready students, 6–12, CS courses</td></tr>
+<tr><td>LLM Support</td><td>Ask LLM for "MakeCode JavaScript" — translates well to blocks</td><td>Ask LLM for "MicroPython for micro:bit" — specify V2 for mic/touch</td></tr>
+<tr><td>Deployment</td><td>Download .hex, drag to MICROBIT drive</td><td>Flash directly from editor, or download .py</td></tr>
+</table>
+
+<p class="footer">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education · Dr. Mike Borowczak & Dr. Andrea Borowczak</p>
+</body></html>

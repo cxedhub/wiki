@@ -1,0 +1,157 @@
+[[AdvancedFormat]]
+
+[[Block:WRNN Post-Survey]]
+
+[[Question:DB]]
+[[ID:WRNN_INTRO]]
+<h2>Western Regional Noyce Network (WRNN) Post-Survey</h2>
+<p>Thank you for participating in our Western Regional Noyce Network (WRNN) event &mdash; <strong>CRAFT PD Series: Unlocking AI &amp; IoT for K-12 STEM</strong>. Thank you for giving us feedback on your overall experience working with colleagues.</p>
+
+[[Question:TE:SingleLine]]
+[[ID:WRNN_EMAIL]]
+Email
+
+[[Question:TE:SingleLine]]
+[[ID:WRNN_NAME]]
+What is your name?
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_NOYCE]]
+Are you a Noyce Fellow or Noyce Scholar?
+[[Choices]]
+Yes
+No
+Not sure
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_ATTEND_W1]]
+Did you attend Workshop 1: Using AI for STEM (April 11)?
+[[Choices]]
+Yes
+No
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_ATTEND_W2]]
+Did you attend Workshop 2: Verifying STEM AI Outputs (April 18)?
+[[Choices]]
+Yes
+No
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_ATTEND_W3]]
+Did you attend Workshop 3: Integrated STEM - Programming Edge/IoT Systems (April 25)?
+[[Choices]]
+Yes
+No
+
+[[Question:TE:SingleLine]]
+[[ID:WRNN_CONTACTS]]
+Please share how many new contacts you made during the workshop and/or networking time.
+
+[[Question:TE:Essay]]
+[[ID:WRNN_KEEP_TOUCH]]
+How many of these contacts do you plan on keeping in touch? In what ways (e.g. text, email, social media, etc)?
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:WRNN_COMMITMENT]]
+To what extent does making new connections with other Noyce recipients and/or teachers reinforce your decision to stay committed to teaching?
+[[Choices]]
+Has no impact
+Very little impact
+Some impact
+A lot of impact
+
+[[Question:TE:Essay]]
+[[ID:WRNN_COMMIT_EXPLAIN]]
+Please explain your response to the above question.
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:WRNN_VALUE]]
+To what extent do you value meeting and/or interacting with Noyce scholars/fellows from other institutions?
+[[Choices]]
+No value
+Little value
+Some value
+Very valuable
+
+[[Question:TE:Essay]]
+[[ID:WRNN_VALUE_EXPLAIN]]
+Briefly tell us about the ways you value meeting and/or interacting with Noyce scholars/fellows from other institutions.
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_RECOMMEND]]
+Would you recommend this experience to your colleagues?
+[[Choices]]
+Yes definitely
+Yes maybe
+No
+
+[[Question:TE:Essay]]
+[[ID:WRNN_COMMENTS]]
+Please leave any additional comments about today's event.
+
+[[Block:Workshop 2 - Participant ID]]
+
+[[Question:TE:SingleLine]]
+[[ID:PARTICIPANT_ID]]
+<strong>Participant ID</strong><br>Enter the same ID you used on your pre-survey (first letter of birth month + last 2 digits of phone + first letter of mother's first name).
+
+[[Block:Workshop 2 - Knowledge Confidence and Reflection]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W2K1]]
+How would you rate your understanding of common ways AI models produce errors in STEM content?
+[[Choices]]
+1 - No understanding
+2
+3 - Some
+4
+5 - Strong
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W2K2]]
+How would you rate your ability to systematically verify AI-generated code for correctness?
+[[Choices]]
+1 - Cannot
+2
+3 - Could attempt
+4
+5 - Confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W2K3]]
+How familiar are you with structured verification frameworks (like Check the Machine) for AI outputs?
+[[Choices]]
+1 - Never heard of one
+2
+3 - Aware
+4
+5 - Use one
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W2C1]]
+How confident are you in teaching students to critically evaluate AI-generated content?
+[[Choices]]
+1 - Not confident
+2
+3 - Somewhat
+4
+5 - Very confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W2C2]]
+How confident are you in addressing academic integrity concerns around student AI use?
+[[Choices]]
+1 - Not confident
+2
+3 - Somewhat
+4
+5 - Very confident
+
+[[Question:TE:Essay]]
+[[ID:W2R1]]
+Describe one specific AI error you found today and how you verified it.
+
+[[Question:TE:Essay]]
+[[ID:W2R2]]
+How will you implement the Check the Machine protocol in your classroom?

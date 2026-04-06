@@ -1,95 +1,76 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Platform Comparison — CRAFT PD Series</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>Platform Comparison: ChatGPT vs Claude vs Gemini — CRAFT PD Series</title>
+
 <style>
-:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--ink-light:#5A7FA0;--paper:#FAFBFE;--teal:#1ABC9C;--green:#27AE60;--gold:#D4A843;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666}
+:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--ink-light:#5A7FA0;--paper:#FAFBFE;--warm:#F7F5F0;--gold:#D4A843;--gold-bg:#FFF8E7;--red:#C0392B;--red-bg:#FDECEC;--green:#27AE60;--green-bg:#E8F8F0;--teal:#1ABC9C;--teal-bg:#E8FAF6;--purple:#8E6BBF;--purple-bg:#F3EDF9;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray400:#999;--gray600:#666;--radius:10px}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;max-width:960px;margin:0 auto;padding:24px}
-h1{font-family:'DM Serif Display',serif;font-size:2rem;margin-bottom:8px}
-h2{font-family:'DM Serif Display',serif;font-size:1.3rem;margin:28px 0 12px}
-.subtitle{color:var(--gray600);font-size:0.95rem;margin-bottom:24px}
-table{width:100%;border-collapse:collapse;font-size:0.88rem;margin-bottom:24px}
-th{background:var(--ink);color:#fff;padding:10px 14px;text-align:left;font-weight:600;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em}
-td{padding:10px 14px;border-bottom:1px solid var(--gray200);vertical-align:top}
-tr:nth-child(even) td{background:var(--gray100)}
-.platform-header{font-weight:700;font-size:0.9rem}
-.strong{color:var(--green);font-weight:600}
-.weak{color:#C0392B;font-weight:600}
-.neutral{color:var(--gold);font-weight:600}
-.tip-box{background:#fff;border:1px solid var(--gray200);border-left:4px solid var(--teal);border-radius:6px;padding:16px;margin:16px 0;font-size:0.9rem}
-.tip-box strong{color:var(--teal)}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:900px;margin:0 auto;padding:24px}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.3rem;margin:28px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
+h3{font-size:0.95rem;font-weight:700;margin:16px 0 8px;color:var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:24px}
 .back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
-.badge{display:inline-block;font-size:0.7rem;padding:2px 8px;border-radius:3px;font-weight:600}
-.badge.free{background:#E8F8F0;color:var(--green)}
-.badge.paid{background:#FFF8E7;color:var(--gold)}
-@media print{body{max-width:100%;padding:12px}}
+.card{background:#fff;border:1px solid var(--gray200);border-radius:var(--radius);padding:16px;margin:10px 0}
+.card h4{font-size:0.9rem;font-weight:700;margin-bottom:6px}
+.tag{display:inline-block;font-size:0.7rem;font-weight:700;padding:2px 8px;border-radius:3px;color:#fff;margin-right:4px;margin-bottom:4px}
+.tag-gold{background:var(--gold)}.tag-red{background:var(--red)}.tag-green{background:var(--green)}.tag-teal{background:var(--teal)}.tag-purple{background:var(--purple)}
+table{width:100%;border-collapse:collapse;font-size:0.85rem;margin:12px 0}
+th{background:var(--ink);color:#fff;padding:8px 12px;text-align:left;font-size:0.8rem}
+td{padding:8px 12px;border-bottom:1px solid var(--gray200);vertical-align:top}
+tr:nth-child(even){background:var(--gray100)}
+code{font-family:'JetBrains Mono',monospace;font-size:0.82rem;background:var(--gray100);padding:2px 6px;border-radius:3px}
+pre{background:var(--ink);color:#e8e8e8;padding:16px;border-radius:var(--radius);overflow-x:auto;font-size:0.8rem;margin:8px 0}
+.note{background:var(--gold-bg);border:1px solid var(--gold);border-radius:6px;padding:14px;font-size:0.88rem;margin:12px 0}
+.tip{background:var(--teal-bg);border-left:4px solid var(--teal);padding:12px 16px;font-size:0.88rem;margin:12px 0;border-radius:0 6px 6px 0}
+.warn{background:var(--red-bg);border-left:4px solid var(--red);padding:12px 16px;font-size:0.88rem;margin:12px 0;border-radius:0 6px 6px 0}
+.footer{text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)}
+@media print{body{max-width:100%;padding:12px}.back{display:none}h1{font-size:1.4rem}h2{font-size:1.1rem}}
 </style>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head><body>
-
 <a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+<h1>Platform Comparison: ChatGPT vs Claude vs Gemini</h1>
+<p class="subtitle">Side-by-side comparison for STEM educators. Updated April 2026. Your mileage may vary — test all three!</p>
 
-<h1>Platform Comparison Cheat Sheet</h1>
-<p class="subtitle">ChatGPT vs Claude vs Gemini — strengths, weaknesses, and when to use each for STEM education. Updated April 2026.</p>
-
-<h2>At a Glance</h2>
 <table>
-<tr><th style="width:20%">Feature</th><th style="width:26%">ChatGPT (OpenAI)</th><th style="width:26%">Claude (Anthropic)</th><th style="width:26%">Gemini (Google)</th></tr>
-<tr><td class="platform-header">Free Tier</td><td><span class="badge free">Yes</span> GPT-4o mini</td><td><span class="badge free">Yes</span> Sonnet</td><td><span class="badge free">Yes</span> Gemini 2.0</td></tr>
-<tr><td class="platform-header">Best For</td><td>Code generation, creative writing, image generation</td><td>Long documents, careful analysis, nuanced instructions</td><td>Google Workspace integration, multimodal (images, video)</td></tr>
-<tr><td class="platform-header">STEM Strengths</td><td><span class="strong">Strong</span> at math step-by-step, code execution, data analysis</td><td><span class="strong">Strong</span> at explaining concepts clearly, following complex lesson templates</td><td><span class="strong">Strong</span> at pulling current info, integrating with Google Docs/Sheets</td></tr>
-<tr><td class="platform-header">STEM Weaknesses</td><td><span class="weak">Can be verbose</span>; sometimes adds unnecessary complexity</td><td><span class="weak">Overly cautious</span>; may hedge when you want a direct answer</td><td><span class="weak">Inconsistent</span> on multi-step reasoning; can lose context</td></tr>
-<tr><td class="platform-header">Hallucination Risk</td><td><span class="neutral">Moderate</span> — confident even when wrong</td><td><span class="neutral">Lower</span> — tends to flag uncertainty</td><td><span class="neutral">Moderate</span> — can invent sources</td></tr>
-<tr><td class="platform-header">Image Input</td><td>Yes (upload photos of student work, diagrams)</td><td>Yes (upload and analyze images)</td><td>Yes (strong image understanding)</td></tr>
-<tr><td class="platform-header">File Upload</td><td>PDFs, spreadsheets, code files</td><td>PDFs, docs, code files</td><td>PDFs, Docs, Sheets (native Google)</td></tr>
-<tr><td class="platform-header">URL</td><td>chat.openai.com</td><td>claude.ai</td><td>gemini.google.com</td></tr>
+<tr><th>Feature</th><th>ChatGPT (OpenAI)</th><th>Claude (Anthropic)</th><th>Gemini (Google)</th></tr>
+<tr><td><strong>Best For</strong></td><td>Code generation, creative writing, broad general knowledge</td><td>Long-form analysis, nuanced instruction, safety-aware outputs</td><td>Google ecosystem integration, multimodal (images), real-time info</td></tr>
+<tr><td><strong>STEM Strengths</strong></td><td>Strong at generating code examples, math problem sets, and step-by-step solutions</td><td>Excellent at explaining concepts clearly, catching its own errors, and structured lesson design</td><td>Good at pulling current data, integrating with Google Workspace, and image analysis</td></tr>
+<tr><td><strong>STEM Weaknesses</strong></td><td>Can be confidently wrong on calculations; sometimes over-explains</td><td>Can be overly cautious; occasionally refuses borderline requests</td><td>Math accuracy varies; lesson outputs can be generic</td></tr>
+<tr><td><strong>Lesson Planning</strong></td><td>⭐⭐⭐⭐ Good structure, sometimes verbose</td><td>⭐⭐⭐⭐⭐ Best at standards alignment and differentiation</td><td>⭐⭐⭐ Decent but less detailed</td></tr>
+<tr><td><strong>Code Generation</strong></td><td>⭐⭐⭐⭐⭐ Strongest code generation</td><td>⭐⭐⭐⭐ Strong, especially for explanation alongside code</td><td>⭐⭐⭐ Good for simple scripts</td></tr>
+<tr><td><strong>Math Accuracy</strong></td><td>⭐⭐⭐ Verify everything</td><td>⭐⭐⭐ Verify everything</td><td>⭐⭐⭐ Verify everything</td></tr>
+<tr><td><strong>Prompt Following</strong></td><td>⭐⭐⭐⭐ Good at complex multi-part prompts</td><td>⭐⭐⭐⭐⭐ Best at following detailed instructions precisely</td><td>⭐⭐⭐ Sometimes misses parts of complex prompts</td></tr>
+<tr><td><strong>Free Tier</strong></td><td>GPT-4o limited; GPT-3.5 unlimited</td><td>Claude Sonnet limited daily messages</td><td>Gemini Pro limited daily</td></tr>
+<tr><td><strong>Best Free Option</strong></td><td>chat.openai.com</td><td>claude.ai</td><td>gemini.google.com</td></tr>
+<tr><td><strong>School-Friendly?</strong></td><td>ChatGPT Edu available for institutions</td><td>No specific edu tier yet</td><td>Integrated with Google Workspace for Education</td></tr>
 </table>
 
 <h2>When to Use Which</h2>
+
 <table>
-<tr><th>Task</th><th>Best Platform</th><th>Why</th></tr>
-<tr><td>Generate a week of lesson plans from a template</td><td>Claude</td><td>Best at following structured templates with many constraints</td></tr>
-<tr><td>Write or debug Python/JavaScript code</td><td>ChatGPT</td><td>Built-in code execution; can run and test code</td></tr>
-<tr><td>Explain a concept at different reading levels</td><td>Claude</td><td>Careful about accuracy; good at adjusting register</td></tr>
-<tr><td>Create practice problems with answer keys</td><td>ChatGPT or Claude</td><td>Both strong; Claude more careful with math accuracy</td></tr>
-<tr><td>Analyze student data in a spreadsheet</td><td>ChatGPT or Gemini</td><td>ChatGPT has code execution; Gemini integrates with Sheets</td></tr>
-<tr><td>Generate images for lessons</td><td>ChatGPT</td><td>Built-in DALL-E image generation</td></tr>
-<tr><td>Summarize a research paper</td><td>Claude</td><td>Handles long documents well; careful about claims</td></tr>
-<tr><td>Create a Google Slides presentation</td><td>Gemini</td><td>Native Google Workspace integration</td></tr>
-<tr><td>Write parent communications</td><td>Any</td><td>All handle tone and audience well</td></tr>
-<tr><td>Generate MakeCode for micro:bit</td><td>Claude or ChatGPT</td><td>Both produce decent MakeCode; always test on hardware</td></tr>
+<tr><th>Task</th><th>Recommended Platform</th><th>Why</th></tr>
+<tr><td>Generating a differentiated lesson plan</td><td>Claude</td><td>Best at following complex formatting requirements and standards alignment</td></tr>
+<tr><td>Writing/debugging code for micro:bit</td><td>ChatGPT or Claude</td><td>Both strong at code; ChatGPT slightly faster, Claude better at explaining</td></tr>
+<tr><td>Creating a rubric from an NGSS standard</td><td>Claude</td><td>Most consistent at structured, detailed outputs</td></tr>
+<tr><td>Generating quiz questions quickly</td><td>ChatGPT</td><td>Fast, creative, good variety</td></tr>
+<tr><td>Analyzing student work samples</td><td>Claude</td><td>Most nuanced feedback; best at maintaining assessment criteria</td></tr>
+<tr><td>Pulling current data for a lesson</td><td>Gemini</td><td>Has access to current Google Search results</td></tr>
+<tr><td>Creating visual descriptions for slides</td><td>Gemini</td><td>Best multimodal capabilities</td></tr>
+<tr><td>Translating a lesson to Spanish</td><td>Any</td><td>All three are strong at translation</td></tr>
 </table>
 
-<h2>Common Pitfalls Across All Platforms</h2>
+<div class="warn"><strong>Critical reminder:</strong> ALL platforms hallucinate. Math accuracy is unreliable on ALL three. Always verify calculations, citations, and scientific facts before using with students. The platform comparison above reflects general tendencies, not guarantees.</div>
 
-<div class="tip-box">
-<strong>They all hallucinate standards.</strong> Every platform sometimes invents NGSS codes that don't exist or maps to the wrong grade band. Always verify standard numbers against the actual NGSS framework.
-</div>
+<h2>Quick Access Links</h2>
+<table>
+<tr><th>Platform</th><th>URL</th></tr>
+<tr><td>ChatGPT</td><td><a href="https://chat.openai.com" target="_blank">chat.openai.com</a></td></tr>
+<tr><td>Claude</td><td><a href="https://claude.ai" target="_blank">claude.ai</a></td></tr>
+<tr><td>Gemini</td><td><a href="https://gemini.google.com" target="_blank">gemini.google.com</a></td></tr>
+</table>
 
-<div class="tip-box">
-<strong>They all struggle with math precision.</strong> Simple arithmetic is usually fine, but multi-step calculations (especially unit conversions, significant figures, and statistics) frequently have errors. Treat all math output as a draft.
-</div>
-
-<div class="tip-box">
-<strong>They all sound confident when wrong.</strong> None will spontaneously say "I'm not sure about this." The burden of verification is always on you. This is why we teach Check the Machine.
-</div>
-
-<div class="tip-box">
-<strong>Same prompt, different output every time.</strong> LLMs are non-deterministic. Running the exact same prompt twice may give different results. This is a feature, not a bug — but it means you can't assume one good output means the next will be identical.
-</div>
-
-<h2>Quick Decision Flowchart</h2>
-
-<div style="background:#fff;border:1px solid var(--gray200);border-radius:8px;padding:20px;font-size:0.9rem;line-height:1.8">
-<strong>Do I need to generate or run code?</strong> → ChatGPT<br>
-<strong>Do I need to follow a complex template?</strong> → Claude<br>
-<strong>Do I need current web info?</strong> → Gemini or ChatGPT<br>
-<strong>Do I need Google Workspace integration?</strong> → Gemini<br>
-<strong>Do I need to analyze uploaded files?</strong> → Any (all support file upload)<br>
-<strong>Not sure?</strong> → Try all three with the same prompt and compare. That's the whole point of Workshop 1!
-</div>
-
-<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
-
+<p class="footer">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education · Dr. Mike Borowczak & Dr. Andrea Borowczak</p>
 </body></html>

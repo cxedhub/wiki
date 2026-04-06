@@ -3,21 +3,34 @@ title: "Workshop 1: Using AI for STEM — Lessons & More"
 description: "Turn LLMs into your STEM curriculum co-pilot through hands-on prompt engineering across ChatGPT, Claude, and Gemini."
 date: 2026-04-11
 draft: false
-tags: ["AI", "prompt-engineering", "CRAFT", "LLM"]
+tags: ["AI", "prompt-engineering", "CRAFT", "LLM", "WySTACK"]
 subjects: ["Computer Science", "Science", "Mathematics"]
 grade_levels: ["K-2", "3-5", "6-8", "9-12"]
+cs_domains: ["Algorithms and Programming", "Impacts of Computing"]
+standard_types: ["NGSS", "ISTE", "CSTA"]
 workshop_number: 1
 series: "CRAFT PD Series"
 accent_color: "#1ABC9C"
 ---
 
-**Date:** April 11, 2026 · 8:30 AM – 12:00 PM PST · Virtual
+**Date:** April 11, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom)
+
+**Zoom:** [Join Workshop 1](https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1)
 
 **Focus:** Curriculum alignment, differentiation, administrative time-saving
 
 **Talk:Do Ratio:** 28 min facilitator / 162 min participant activities (1:5.8)
 
 Stop asking "What is AI?" and start asking "How does this help my students learn?" This session turns LLMs into your STEM curriculum co-pilot through hands-on prompt engineering across multiple platforms.
+
+## Surveys
+
+- 📝 [Pre-Survey](https://ucf.qualtrics.com/jfe/form/SV_bq1qU641tSt7O0S) — complete at the start of the session
+- 📊 [Post-Survey](https://ucf.qualtrics.com/jfe/form/SV_eEswd3p2cnnrZVs) — complete at the end of the session
+
+## Shared Workspace
+
+- 📋 [Group Workspace (Google Doc)](https://docs.google.com/document/d/11sYpp3Ho0PUEOwjro4M5fkpMwp-9XPLo/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true) — collaborative document for all breakout and group activities
 
 ## Learning Objectives
 
@@ -32,6 +45,11 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 - [**📋 Live Agenda**](/pds/craft-pd-series/workshop-1-agenda.html) — participant-facing timeline with activity links and print view
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w1.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-1-Slides.pptx) — import to Google Slides
+- [**📄 Lesson Template**](/pds/craft-pd-series/resources/lesson-template.html) — NGSS-aligned template for AI-assisted lesson design
+- [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — tested prompts for STEM teaching across platforms
+- [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
+- [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
+- [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W1-Digital-Toolkit.pdf) — all Workshop 1 resources in one downloadable file
 
 ## Key Activities
 
@@ -51,14 +69,11 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 - Prompt library with tested prompts across STEM subjects
 - NGSS-aligned lesson template (customized during the session)
 - Platform comparison cheat sheet (ChatGPT vs Claude vs Gemini)
+- Digital Toolkit PDF with all resources
 
 ## Reframe Theme
 
 > "AI is a co-pilot, not an autopilot." — Just like a calculator doesn't replace mathematical thinking, an LLM doesn't replace pedagogical expertise.
-
-## Focus Tags
-
-`Prompt Engineering` · `Curriculum Alignment` · `Multi-Platform Comparison`
 
 ---
 

@@ -1,0 +1,167 @@
+[[AdvancedFormat]]
+
+[[Block:WRNN Post-Survey]]
+
+[[Question:DB]]
+[[ID:WRNN_INTRO]]
+<h2>Western Regional Noyce Network (WRNN) Post-Survey</h2>
+<p>Thank you for participating in our Western Regional Noyce Network (WRNN) event &mdash; <strong>CRAFT PD Series: Unlocking AI &amp; IoT for K-12 STEM</strong>. Thank you for giving us feedback on your overall experience working with colleagues.</p>
+
+[[Question:TE:SingleLine]]
+[[ID:WRNN_EMAIL]]
+Email
+
+[[Question:TE:SingleLine]]
+[[ID:WRNN_NAME]]
+What is your name?
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_NOYCE]]
+Are you a Noyce Fellow or Noyce Scholar?
+[[Choices]]
+Yes
+No
+Not sure
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_ATTEND_W1]]
+Did you attend Workshop 1: Using AI for STEM (April 11)?
+[[Choices]]
+Yes
+No
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_ATTEND_W2]]
+Did you attend Workshop 2: Verifying STEM AI Outputs (April 18)?
+[[Choices]]
+Yes
+No
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_ATTEND_W3]]
+Did you attend Workshop 3: Integrated STEM - Programming Edge/IoT Systems (April 25)?
+[[Choices]]
+Yes
+No
+
+[[Question:TE:SingleLine]]
+[[ID:WRNN_CONTACTS]]
+Please share how many new contacts you made during the workshop and/or networking time.
+
+[[Question:TE:Essay]]
+[[ID:WRNN_KEEP_TOUCH]]
+How many of these contacts do you plan on keeping in touch? In what ways (e.g. text, email, social media, etc)?
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:WRNN_COMMITMENT]]
+To what extent does making new connections with other Noyce recipients and/or teachers reinforce your decision to stay committed to teaching?
+[[Choices]]
+Has no impact
+Very little impact
+Some impact
+A lot of impact
+
+[[Question:TE:Essay]]
+[[ID:WRNN_COMMIT_EXPLAIN]]
+Please explain your response to the above question.
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:WRNN_VALUE]]
+To what extent do you value meeting and/or interacting with Noyce scholars/fellows from other institutions?
+[[Choices]]
+No value
+Little value
+Some value
+Very valuable
+
+[[Question:TE:Essay]]
+[[ID:WRNN_VALUE_EXPLAIN]]
+Briefly tell us about the ways you value meeting and/or interacting with Noyce scholars/fellows from other institutions.
+
+[[Question:MC:SingleAnswer]]
+[[ID:WRNN_RECOMMEND]]
+Would you recommend this experience to your colleagues?
+[[Choices]]
+Yes definitely
+Yes maybe
+No
+
+[[Question:TE:Essay]]
+[[ID:WRNN_COMMENTS]]
+Please leave any additional comments about today's event.
+
+[[Block:Workshop 3 - Participant ID]]
+
+[[Question:TE:SingleLine]]
+[[ID:PARTICIPANT_ID]]
+<strong>Participant ID</strong><br>Enter the same ID you used on your pre-survey (first letter of birth month + last 2 digits of phone + first letter of mother's first name).
+
+[[Block:Workshop 3 - Knowledge Confidence and Reflection]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W3K1]]
+How would you rate your understanding of Edge Computing and the Internet of Things (IoT)?
+[[Choices]]
+1 - No understanding
+2
+3 - Some
+4
+5 - Strong
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W3K2]]
+How would you rate your ability to program a physical computing device (micro:bit, Arduino, etc.)?
+[[Choices]]
+1 - Cannot
+2
+3 - Could attempt
+4
+5 - Confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W3K3]]
+How familiar are you with using sensors to collect real-world data for classroom activities?
+[[Choices]]
+1 - Not at all
+2
+3 - Somewhat
+4
+5 - Very familiar
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W3C1]]
+How confident are you in integrating physical computing into your STEM curriculum?
+[[Choices]]
+1 - Not confident
+2
+3 - Somewhat
+4
+5 - Very confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W3C2]]
+How confident are you in using an LLM to help you write code for a physical device?
+[[Choices]]
+1 - Not confident
+2
+3 - Somewhat
+4
+5 - Very confident
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:W3P2]]
+How likely are you to use physical computing (micro:bit/sensors) in your classroom within the next month?
+[[Choices]]
+1 - Very unlikely
+2
+3 - Neutral
+4
+5 - Very likely
+
+[[Question:TE:Essay]]
+[[ID:W3R1]]
+What was your most significant 'aha moment' during today's hands-on activities?
+
+[[Question:TE:Essay]]
+[[ID:W3R2]]
+Describe one IoT/sensor activity you plan to implement in your classroom.
