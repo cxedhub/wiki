@@ -36,9 +36,11 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 | Date | Workshop | Zoom |
 |------|----------|------|
-| April 11 | [Using AI for STEM: Lessons & More](/pds/craft-pd-series/workshop-1-ai-for-stem/) | [Join Zoom](https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1) |
-| April 18 | [Verifying STEM AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) | [Join Zoom](https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1) |
-| April 25 | [Programming Edge/IoT Systems with AI](/pds/craft-pd-series/workshop-3-edge-iot/) | [Join Zoom](https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1) |
+| April 11 | [Using AI for STEM: Lessons & More](/pds/craft-pd-series/workshop-1-ai-for-stem/) | [Join Zoom](https://ucf.zoom.us/j/96520248667) |
+| April 18 | [Verifying STEM AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) | [Join Zoom](https://ucf.zoom.us/j/96789217432) |
+| April 25 | [Programming Edge/IoT Systems with AI](/pds/craft-pd-series/workshop-3-edge-iot/) | [Join Zoom](https://ucf.zoom.us/j/97106116299) |
+
+> **Note:** Zoom passwords are not included in the links above. Please refer to your calendar invitation for the meeting password.
 
 ---
 

@@ -15,7 +15,7 @@ accent_color: "#1ABC9C"
 
 **Date:** April 11, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom)
 
-**Zoom:** [Join Workshop 1](https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1)
+**Zoom:** [Join Workshop 1](https://ucf.zoom.us/j/96520248667) *(Password is in your calendar invitation.)*
 
 **Focus:** Curriculum alignment, differentiation, administrative time-saving
 
