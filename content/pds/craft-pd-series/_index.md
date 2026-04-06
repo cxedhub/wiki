@@ -51,16 +51,30 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 - ⚖️ [Platform Comparison: ChatGPT vs Claude vs Gemini](/pds/craft-pd-series/resources/platform-comparison.html) — strengths, weaknesses, and when to use which
 - 📊 [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html) — IoT/sensor activities mapped to NGSS Performance Expectations
 - 🔬 [Sensor Reference Guide](/pds/craft-pd-series/resources/sensor-reference-guide.html) — BBC micro:bit V2 onboard sensors, code, and calibration notes
+- 🔬 [Full Sensor Guide + NGSS Crosswalk](/pds/craft-pd-series/resources/sensor-guide.html) — detailed sensor cards with code examples and NGSS mapping
 
 ---
 
 ## What Every Participant Receives
 
-- **Shared Google Drive folder** — Templates, prompt libraries, lesson starters (all editable)
+- **[Shared Google Drive folder](https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing)** — Templates, prompt libraries, lesson starters (all editable)
 - **Curated resource website** — Bookmarkable page with links, guides, and updates
 - **Digital toolkit PDF** — One downloadable document per session
 - **Customized lesson** — NGSS-aligned template personalized during the session
 - **Workshop 3 bonus:** BBC micro:bit V2 hardware kit (yours to keep!)
+
+---
+
+## Facilitator Resources
+
+These resources are for workshop facilitators and are not linked from participant-facing pages:
+
+- 📋 [Facilitator Agenda (DOCX)](/pds/craft-pd-series/CRAFT_PD_Series_Facilitator_Agenda.docx) — master facilitator agenda with all embedded links
+- 📧 [Welcome Email Template](/pds/craft-pd-series/resources/welcome-email-template.html) — registration and reminder email templates
+- 🔧 [Hardware Check Email](/pds/craft-pd-series/resources/hardware-check-email.html) — pre-Workshop 3 setup instructions for participants
+- 📂 [Drive Folder Structure](/pds/craft-pd-series/resources/drive-folder-structure.html) — Google Drive folder organization guide
+- 📊 [Survey Admin Page](/pds/craft-pd-series/resources/surveys.html) — Qualtrics survey links and import files
+- 📄 Workshop Shared Workspace Backups: [W1](/pds/craft-pd-series/Workshop-1-Shared-Group-Workspace.docx) · [W2](/pds/craft-pd-series/Workshop-2-Shared-Group-Workspace.docx) · [W3](/pds/craft-pd-series/Workshop-3-Shared-Group-Workspace.docx)
 
 ---
 

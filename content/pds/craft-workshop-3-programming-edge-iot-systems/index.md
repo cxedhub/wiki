@@ -2,7 +2,7 @@
 title: "Integrated STEM: Programming Edge/IoT Systems with AI"
 description: "Take computing out of the browser and into the physical world."
 date: '2026-04-25T08:30:00-07:00'
-draft: false
+draft: true
 workshop_number: 3
 series: "CRAFT PD Series"
 facilitators: "Dr. Mike Borowczak & Dr. Andrea Borowczak"

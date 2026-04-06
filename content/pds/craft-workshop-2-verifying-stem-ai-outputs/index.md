@@ -2,7 +2,7 @@
 title: "Verifying STEM AI Outputs: What You Really Need to Know"
 description: "Your students are using AI — but do they know when it's wrong?"
 date: '2026-04-18T08:30:00-07:00'
-draft: false
+draft: true
 workshop_number: 2
 series: "CRAFT PD Series"
 facilitators: "Dr. Mike Borowczak & Dr. Andrea Borowczak"

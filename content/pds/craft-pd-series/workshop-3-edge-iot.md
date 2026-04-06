@@ -10,7 +10,44 @@ cs_domains: ["Algorithms and Programming", "Computing Systems", "Data and Analys
 standard_types: ["NGSS", "ISTE", "CSTA"]
 workshop_number: 3
 series: "CRAFT PD Series"
+facilitators: "Dr. Mike Borowczak & Dr. Andrea Borowczak"
+audience: "Mixed in-service and pre-service STEM teachers (Noyce recipients)"
+delivery: "Virtual (Zoom)"
+time: "8:30 AM – 12:00 PM PST"
 accent_color: "#27AE60"
+accent_gradient: ["#27AE60", "#1ABC9C", "#8E6BBF"]
+focus_tags:
+  - "BBC micro:bit"
+  - "Physical Computing"
+  - "LLM-Assisted Coding"
+learning_objectives:
+  - "Explain Edge Computing and IoT and their workforce relevance"
+  - "Program micro:bit with 2+ sensors using MakeCode"
+  - "Use an LLM to write, debug, and extend micro:bit code"
+  - "Optionally convert MakeCode to MicroPython"
+  - "Align sensor activities to NGSS and CTE pathways"
+  - "Plan a CRAFT-structured IoT lesson for their classroom"
+key_activities:
+  - "Hardware connectivity check + troubleshooting"
+  - "Single-sensor program (temperature → LED display)"
+  - "Multi-sensor breakout challenge (2+ sensors, LLM-assisted coding)"
+  - "Level-up track split: Track A (MakeCode+) vs Track B (MicroPython)"
+  - "Sensor verification experiment (temperature sensor reads CPU heat, not ambient — real calibration problem)"
+  - "IoT lesson template customization"
+takeaways:
+  - "BBC micro:bit V2 kit (yours to keep)"
+  - "MakeCode project files"
+  - "MicroPython starters"
+  - "Sensor reference guide"
+  - "NGSS alignment crosswalk"
+  - "IoT lesson template"
+hardware: "BBC micro:bit V2 (mailed in advance, participants keep it)"
+programming_environments: "MakeCode (blocks/JavaScript) primary, MicroPython optional level-up"
+reframe_theme: "Coding is PHYSICAL, not just screens"
+talk_do_ratio: "25 min facilitator-led / 165 min participant activities (1:6.6)"
+talk_minutes: 25
+do_minutes: 165
+closing_quote: "You just programmed a physical computer using AI as your co-pilot and verified the results like an engineer. Your students can do this too."
 ---
 
 **Date:** April 25, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom, with mailed hardware kits)
@@ -62,6 +99,16 @@ Take computing out of the browser and into the physical world. This session uses
 - [**✅ CtM Template**](/pds/craft-pd-series/resources/ctm-template.html) — for sensor verification activities
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
 - [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W3-Digital-Toolkit.pdf) — all Workshop 3 resources in one downloadable file
+
+### MicroPython Starter Scripts
+
+Ready-to-flash equivalents of every MakeCode activity (for Track B participants):
+
+- [01 — Temperature Display](/pds/craft-pd-series/resources/micropython/01_temperature_display.py)
+- [02 — Temperature + Light](/pds/craft-pd-series/resources/micropython/02_temp_and_light.py)
+- [03 — Greenhouse Monitor](/pds/craft-pd-series/resources/micropython/03_greenhouse_monitor.py)
+- [04 — Motion + Compass](/pds/craft-pd-series/resources/micropython/04_motion_compass.py)
+- [05 — Comfort Index](/pds/craft-pd-series/resources/micropython/05_comfort_index.py)
 
 ## Programming Environments
 

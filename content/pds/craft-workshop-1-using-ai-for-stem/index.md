@@ -2,7 +2,7 @@
 title: "Using AI for STEM: Lessons & More"
 description: "Stop asking 'What is AI?' and start asking 'How does this help my students learn?'"
 date: '2026-04-11T08:30:00-07:00'
-draft: false
+draft: true
 workshop_number: 1
 series: "CRAFT PD Series"
 facilitators: "Dr. Mike Borowczak & Dr. Andrea Borowczak"

@@ -10,7 +10,38 @@ cs_domains: ["Algorithms and Programming", "Impacts of Computing"]
 standard_types: ["NGSS", "ISTE", "CSTA"]
 workshop_number: 2
 series: "CRAFT PD Series"
+facilitators: "Dr. Mike Borowczak & Dr. Andrea Borowczak"
+audience: "Mixed in-service and pre-service STEM teachers (Noyce recipients)"
+delivery: "Virtual (Zoom)"
+time: "8:30 AM – 12:00 PM PST"
 accent_color: "#C0392B"
+accent_gradient: ["#C0392B", "#1ABC9C", "#8E6BBF"]
+focus_tags:
+  - "Error Analysis"
+  - "Check the Machine"
+  - "Critical Thinking"
+learning_objectives:
+  - "Identify common LLM failure modes in code and content"
+  - "Apply the Check the Machine (CtM) 4-step protocol"
+  - "Conduct structured error hunts"
+  - "Design a CtM classroom activity for their subject/grade"
+  - "Distinguish productive AI use (learning) from unproductive (copying)"
+key_activities:
+  - "Code error hunt (breakout: find bugs in AI-generated code snippets)"
+  - "Content error hunt (audit AI-generated science/math explanations)"
+  - "Check the Machine protocol deep dive (Task → Before → After → Takeaway)"
+  - "CtM template customization for participant's classroom"
+  - "AI policy committee exercise (draft verification-based classroom norms)"
+takeaways:
+  - "CtM template (editable)"
+  - "Content Audit Checklist"
+  - "AI Error Gallery (annotated examples)"
+  - "Prompt library for verify-able outputs"
+reframe_theme: "The problem isn't that students USE AI — it's that they don't VERIFY AI"
+talk_do_ratio: "26 min facilitator-led / 164 min participant activities (1:6.3)"
+talk_minutes: 26
+do_minutes: 164
+closing_quote: "Your students don't need to be AI experts. They need to be AI skeptics. That's a skill you just learned to teach."
 ---
 
 **Date:** April 18, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom)
@@ -52,6 +83,14 @@ Your students are using AI — but do they know when it's wrong? This session eq
 - [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
 - [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W2-Digital-Toolkit.pdf) — all Workshop 2 resources in one downloadable file
+
+### Code Snippets for Error Hunt
+
+Downloadable Python scripts with deliberate bugs for the breakout error hunt activity:
+
+- [Snippet 1 — Projectile Motion](/pds/craft-pd-series/resources/code-snippets/snippet_1_projectile.py)
+- [Snippet 2 — Temperature Conversion](/pds/craft-pd-series/resources/code-snippets/snippet_2_temperature.py)
+- [Snippet 3 — pH Calculation](/pds/craft-pd-series/resources/code-snippets/snippet_3_ph.py)
 
 ## Key Activities
 

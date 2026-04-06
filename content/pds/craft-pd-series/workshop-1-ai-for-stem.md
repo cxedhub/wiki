@@ -10,7 +10,36 @@ cs_domains: ["Algorithms and Programming", "Impacts of Computing"]
 standard_types: ["NGSS", "ISTE", "CSTA"]
 workshop_number: 1
 series: "CRAFT PD Series"
+facilitators: "Dr. Mike Borowczak & Dr. Andrea Borowczak"
+audience: "Mixed in-service and pre-service STEM teachers (Noyce recipients)"
+delivery: "Virtual (Zoom)"
+time: "8:30 AM – 12:00 PM PST"
 accent_color: "#1ABC9C"
+accent_gradient: ["#D4A843", "#1ABC9C"]
+focus_tags:
+  - "Prompt Engineering"
+  - "Curriculum Alignment"
+  - "Multi-Platform"
+learning_objectives:
+  - "Articulate how LLMs function as curriculum design tools"
+  - "Apply prompt engineering to generate differentiated, NGSS-aligned lessons"
+  - "Compare outputs across ChatGPT, Claude, and Gemini"
+  - "Customize a lesson template using AI-assisted workflows"
+  - "Identify CRAFT cycle phases from lived experience"
+key_activities:
+  - "Cross-platform prompt engineering (same prompt → 3 LLMs → compare)"
+  - "NGSS-aligned lesson template customization"
+  - "AI output audit ('spot the difference')"
+  - "CRAFT lesson sketch design"
+takeaways:
+  - "Prompt library"
+  - "Lesson template (customized)"
+  - "Platform comparison cheat sheet"
+reframe_theme: "AI is a co-pilot, not an autopilot"
+talk_do_ratio: "28 min facilitator-led / 162 min participant activities (1:5.8)"
+talk_minutes: 28
+do_minutes: 162
+closing_quote: "You are now an AI-equipped STEM educator. Go break things and learn from them."
 ---
 
 **Date:** April 11, 2026 · 8:30 AM – 12:00 PM PST · Virtual (Zoom)
