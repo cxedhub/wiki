@@ -15,7 +15,7 @@
       <span class="pd-workshop-badge" style="background: {{ $accent }};">{{ $number }}</span>
       <span class="pd-card-date">{{ .Date.Format "January 2, 2006" }}</span>
     </div>
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <h3><a href="{{ .RelPermalink }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
     {{ with .Description }}<p class="card-desc">{{ . }}</p>{{ end }}
     <div class="pd-card-tags">
       {{ range .Params.focus_tags }}
