@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container facilitator-page">
+
+  <!-- Password gate overlay -->
+  <div class="facilitator-gate" id="facilitator-gate">
+    <div class="facilitator-gate__card">
+      <div class="craft-cycle-visual">
+        <span class="craft-letter" style="background: #D4A843;">C</span>
+        <span class="craft-letter" style="background: #C0392B;">R</span>
+        <span class="craft-letter" style="background: #27AE60;">A</span>
+        <span class="craft-letter" style="background: #1ABC9C;">F</span>
+        <span class="craft-letter" style="background: #8E6BBF;">T</span>
+      </div>
+      <p class="facilitator-gate__label">This area is for facilitators.<br>Please enter the access code.</p>
+      <form class="facilitator-gate__form" id="facilitator-gate-form">
+        <input type="password" id="facilitator-pass" class="facilitator-gate__input" placeholder="Access code" autocomplete="off" autofocus>
+        <button type="submit" class="facilitator-gate__btn">Enter</button>
+      </form>
+      <p class="facilitator-gate__error" id="facilitator-error">Incorrect code. Please try again.</p>
+    </div>
+  </div>
+
+  <!-- Facilitator content (hidden until authenticated) -->
+  <div class="facilitator-content" id="facilitator-content">
+    <header class="facilitator-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="facilitator-tagline">{{ . }}</p>{{ end }}
+    </header>
+    <div class="facilitator-body">
+      {{ .Content }}
+    </div>
+    <footer class="pd-detail-footer">
+      <a href="{{ "pds/" | relURL }}" class="back-link">&larr; Back to Professional Development</a>
+    </footer>
+  </div>
+
+</div>
+{{ end }}
