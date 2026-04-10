@@ -25,11 +25,18 @@ textarea{min-height:80px;resize:vertical}
 .craft-section.t{border-left-color:var(--purple)}
 .craft-section h3{font-size:0.9rem;margin-bottom:8px}
 .helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
-.btn{background:var(--teal);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 18px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;font-weight:600;cursor:pointer;margin:6px 6px 0 0;display:inline-flex;align-items:center;gap:6px}
 .btn:hover{opacity:0.85}
 .btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
+.btn.pr{background:var(--purple)}
 .back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
-@media print{.btn,.back{display:none}input,textarea,select{border:1px solid #ccc}}
+.export-box{border:1px solid var(--gray200);border-radius:10px;padding:20px;margin-top:24px;background:#fff}
+.export-box h2{margin-top:0}
+.export-group{margin-top:10px}
+.export-group-label{font-size:0.74rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:12px 0 4px}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:6px;font-size:0.88rem;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:all 0.25s;z-index:100;max-width:90%;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media print{.btn,.back,.export-box,#toast{display:none}input,textarea,select{border:1px solid #ccc}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
 </style>
 </head><body>
@@ -37,29 +44,32 @@ textarea{min-height:80px;resize:vertical}
 <a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
 
 <h1>NGSS-Aligned Lesson Template</h1>
-<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle.</p>
+<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle. When you're done, use the export tools at the bottom to copy, download, or submit your lesson.</p>
 
 <h2>Lesson Overview</h2>
 <div class="row">
-<div><label>Lesson Title</label><input type="text" placeholder="e.g., Investigating Projectile Motion with micro:bits"></div>
-<div><label>Your Name</label><input type="text" placeholder=""></div>
+<div><label>Lesson Title</label><input id="f-title" type="text" placeholder="e.g., Investigating Projectile Motion with micro:bits"></div>
+<div><label>Your Name</label><input id="f-author" type="text" placeholder=""></div>
 </div>
 <div class="row">
-<div><label>Grade Level</label><select><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
-<div><label>Subject Area</label><input type="text" placeholder="e.g., Physical Science, Biology, Math, CS"></div>
+<div><label>Grade Level</label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
+<div><label>Subject Area</label><input id="f-subject" type="text" placeholder="e.g., Physical Science, Biology, Math, CS"></div>
 </div>
 <div class="row">
-<div><label>NGSS Performance Expectation(s)</label><input type="text" placeholder="e.g., MS-PS2-2, HS-LS1-6"><div class="helper">Verify at nextgenscience.org — LLMs sometimes hallucinate codes</div></div>
-<div><label>Estimated Duration</label><input type="text" placeholder="e.g., 3 class periods (50 min each)"></div>
+<div><label>NGSS Performance Expectation(s)</label><input id="f-ngss" type="text" placeholder="e.g., MS-PS2-2, HS-LS1-6"><div class="helper">Verify at nextgenscience.org — LLMs sometimes hallucinate codes</div></div>
+<div><label>Estimated Duration</label><input id="f-duration" type="text" placeholder="e.g., 3 class periods (50 min each)"></div>
 </div>
 <label>Lesson Summary (2-3 sentences)</label>
-<textarea placeholder="Brief description of what students will do and learn..."></textarea>
+<textarea id="f-summary" placeholder="Brief description of what students will do and learn..."></textarea>
+<label>Tags / Keywords</label>
+<input id="f-tags" type="text" placeholder="e.g., micro:bit, motion, data-collection (comma separated)">
+<div class="helper">Used for filtering in the lesson repository. "CRAFT" is added automatically.</div>
 
 <h2>Standards Alignment</h2>
 <div class="row3">
-<div><label>Science & Engineering Practice</label><textarea rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
-<div><label>Crosscutting Concept</label><textarea rows="3" placeholder="e.g., Cause and Effect"></textarea></div>
-<div><label>Disciplinary Core Idea</label><textarea rows="3" placeholder="e.g., PS2.A: Forces and Motion"></textarea></div>
+<div><label>Science & Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
+<div><label>Crosscutting Concept</label><textarea id="f-ccc" rows="3" placeholder="e.g., Cause and Effect"></textarea></div>
+<div><label>Disciplinary Core Idea</label><textarea id="f-dci" rows="3" placeholder="e.g., PS2.A: Forces and Motion"></textarea></div>
 </div>
 
 <h2>CRAFT Cycle Structure</h2>
@@ -71,11 +81,11 @@ textarea{min-height:80px;resize:vertical}
 <div class="craft-section c">
 <h3>Why This Matters (5-10 min)</h3>
 <label>Real-World Connection</label>
-<textarea placeholder="How does this concept appear in students' lives, careers, or the world? What hook will you use to open the lesson?
+<textarea id="f-c-real" placeholder="How does this concept appear in students' lives, careers, or the world? What hook will you use to open the lesson?
 
 LLM prompt idea: 'Give me 3 real-world applications of [TOPIC] that would be relevant to [GRADE] students in [REGION]'"></textarea>
 <label>Career Connection</label>
-<input type="text" placeholder="What jobs use this concept? e.g., Biomedical engineer, Environmental scientist">
+<input id="f-c-career" type="text" placeholder="What jobs use this concept? e.g., Biomedical engineer, Environmental scientist">
 </div>
 
 <div class="phase-bar">
@@ -85,11 +95,11 @@ LLM prompt idea: 'Give me 3 real-world applications of [TOPIC] that would be rel
 <div class="craft-section r">
 <h3>Address the Misconception (5-10 min)</h3>
 <label>Common Misconception</label>
-<textarea rows="2" placeholder="What do students typically believe incorrectly about this topic?
+<textarea id="f-r-misc" rows="2" placeholder="What do students typically believe incorrectly about this topic?
 
 LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students have about [TOPIC]?'"></textarea>
 <label>Correct Understanding</label>
-<textarea rows="2" placeholder="What should they understand instead? How will you help them make the shift?"></textarea>
+<textarea id="f-r-correct" rows="2" placeholder="What should they understand instead? How will you help them make the shift?"></textarea>
 </div>
 
 <div class="phase-bar">
@@ -99,13 +109,13 @@ LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students hav
 <div class="craft-section a">
 <h3>I Do → We Do → You Do</h3>
 <label>I Do — Teacher Demonstrates (5-10 min)</label>
-<textarea placeholder="What will you model? Describe the demonstration or worked example."></textarea>
+<textarea id="f-a-ido" placeholder="What will you model? Describe the demonstration or worked example."></textarea>
 <label>We Do — Guided Practice (10-15 min)</label>
-<textarea placeholder="What will students do WITH you? Think-pair-share, group problem, collaborative lab setup?"></textarea>
+<textarea id="f-a-wedo" placeholder="What will students do WITH you? Think-pair-share, group problem, collaborative lab setup?"></textarea>
 <label>You Do — Independent/Group Practice (15-25 min)</label>
-<textarea placeholder="What will students do on their own or in groups? This is the core activity."></textarea>
+<textarea id="f-a-youdo" placeholder="What will students do on their own or in groups? This is the core activity."></textarea>
 <label>Materials Needed</label>
-<textarea rows="2" placeholder="List all materials. Be specific about quantities."></textarea>
+<textarea id="f-a-materials" rows="2" placeholder="List all materials. Be specific about quantities."></textarea>
 </div>
 
 <div class="phase-bar">
@@ -115,9 +125,9 @@ LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students hav
 <div class="craft-section f">
 <h3>Verify Understanding (5-10 min)</h3>
 <label>Formative Assessment</label>
-<textarea placeholder="How will you check understanding? Exit ticket, quick quiz, thumbs up/down, CER paragraph?"></textarea>
+<textarea id="f-f-formative" placeholder="How will you check understanding? Exit ticket, quick quiz, thumbs up/down, CER paragraph?"></textarea>
 <label>Check the Machine (if using AI in this lesson)</label>
-<textarea rows="3" placeholder="If students used AI in this lesson, describe the CtM exercise:
+<textarea id="f-f-ctm" rows="3" placeholder="If students used AI in this lesson, describe the CtM exercise:
 Task: What did they ask the AI?
 Before: What did they predict?
 After: What did the AI produce?
@@ -131,32 +141,296 @@ Takeaway: What did the comparison reveal?"></textarea>
 <div class="craft-section t">
 <h3>Connect Forward (3-5 min)</h3>
 <label>Connection to Next Lesson</label>
-<textarea rows="2" placeholder="How does this connect to what's coming next in your curriculum?"></textarea>
+<textarea id="f-t-next" rows="2" placeholder="How does this connect to what's coming next in your curriculum?"></textarea>
 <label>Extension / Homework</label>
-<textarea rows="2" placeholder="Optional extension for students who want to go further."></textarea>
+<textarea id="f-t-ext" rows="2" placeholder="Optional extension for students who want to go further."></textarea>
 </div>
 
 <h2>Assessment</h2>
 <label>Summative Assessment Description</label>
-<textarea placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
+<textarea id="f-summative" placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
 
 <h2>Notes & Reflections</h2>
-<textarea placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+<textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
 
-<div style="margin-top:24px">
-<button class="btn" onclick="window.print()">🖨 Print This Template</button>
-<button class="btn secondary" onclick="selectAll()">📋 Select All (to copy/paste)</button>
+<div class="export-box">
+<h2 style="border-bottom:2px solid var(--teal)">Export Your Lesson</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you click <em>Submit to Repository</em>.</p>
+
+<div class="export-group">
+<div class="export-group-label">Google Docs · Word · Pages</div>
+<button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
+<button class="btn secondary" onclick="downloadDoc()">⬇ Download .doc</button>
+<div class="helper">Rich-text paste keeps headings and formatting. The .doc file opens natively in Word and in Google Docs (File → Open).</div>
 </div>
+
+<div class="export-group">
+<div class="export-group-label">Markdown</div>
+<button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
+<button class="btn secondary" onclick="downloadMarkdown()">⬇ Download .md</button>
+<div class="helper">Includes Hugo front matter (title, description, grade level, NGSS PEs, tags) so it's ready to drop into the lesson plan repository.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Share with the CRAFT community</div>
+<button class="btn pr" onclick="submitPR()">🚀 Submit to Lesson Plan Repository</button>
+<div class="helper">Opens GitHub with your lesson pre-filled in a new file. You'll need a free GitHub account; GitHub will automatically fork the repo and walk you through creating a pull request for review.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Other</div>
+<button class="btn secondary" onclick="window.print()">🖨 Print</button>
+</div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
 
 <script>
-function selectAll(){
-  const range=document.createRange();
-  range.selectNodeContents(document.body);
-  const sel=window.getSelection();
-  sel.removeAllRanges();
-  sel.addRange(range);
+const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
+
+function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
+function splitList(s){return s?s.split(',').map(x=>x.trim()).filter(Boolean):[]}
+function slugify(s){return (s||'').toLowerCase().trim().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'')||'untitled-lesson'}
+function escQ(s){return (s||'').replace(/\\/g,'\\\\').replace(/"/g,'\\"')}
+function escH(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function nl2br(s){return escH(s).replace(/\n/g,'<br>')}
+
+function collect(){
+  return {
+    title:v('f-title')||'Untitled Lesson',
+    author:v('f-author'),
+    grade:v('f-grade'),
+    subject:v('f-subject'),
+    ngss:v('f-ngss'),
+    duration:v('f-duration'),
+    summary:v('f-summary'),
+    tags:v('f-tags'),
+    sep:v('f-sep'),
+    ccc:v('f-ccc'),
+    dci:v('f-dci'),
+    cReal:v('f-c-real'),
+    cCareer:v('f-c-career'),
+    rMisc:v('f-r-misc'),
+    rCorrect:v('f-r-correct'),
+    aIdo:v('f-a-ido'),
+    aWedo:v('f-a-wedo'),
+    aYoudo:v('f-a-youdo'),
+    aMaterials:v('f-a-materials'),
+    fFormative:v('f-f-formative'),
+    fCtm:v('f-f-ctm'),
+    tNext:v('f-t-next'),
+    tExt:v('f-t-ext'),
+    summative:v('f-summative'),
+    notes:v('f-notes')
+  }
+}
+
+function toMarkdown(d){
+  const date=new Date().toISOString().slice(0,10);
+  const tags=['CRAFT',...splitList(d.tags)];
+  const subjects=splitList(d.subject);
+  const ngss=splitList(d.ngss);
+  let fm='---\n';
+  fm+='title: "'+escQ(d.title)+'"\n';
+  if(d.summary)fm+='description: "'+escQ(d.summary.replace(/\s+/g,' '))+'"\n';
+  fm+="date: '"+date+"'\n";
+  fm+='draft: true\n';
+  if(d.author)fm+='author: "'+escQ(d.author)+'"\n';
+  if(subjects.length){fm+='subjects:\n';subjects.forEach(s=>fm+='- '+s+'\n')}
+  if(d.grade){fm+='grade_levels:\n- '+d.grade+'\n'}
+  if(ngss.length){
+    fm+='standard_types:\n- NGSS\n';
+    fm+='standards:\n  NGSS:\n';
+    ngss.forEach(n=>fm+='  - '+n+'\n');
+  }
+  if(d.aMaterials)fm+='materials: "'+escQ(d.aMaterials.replace(/\s*\n+\s*/g,'; '))+'"\n';
+  fm+='tags:\n';
+  tags.forEach(t=>fm+='- '+t+'\n');
+  fm+='---\n\n';
+
+  let b='# '+d.title+'\n\n## Overview\n\n';
+  if(d.summary)b+=d.summary+'\n\n';
+  const meta=[];
+  if(d.grade)meta.push('- **Grade Level:** '+d.grade);
+  if(d.subject)meta.push('- **Subject Area:** '+d.subject);
+  if(d.duration)meta.push('- **Estimated Duration:** '+d.duration);
+  if(d.author)meta.push('- **Author:** '+d.author);
+  if(meta.length)b+=meta.join('\n')+'\n\n';
+
+  if(d.ngss||d.sep||d.ccc||d.dci){
+    b+='## NGSS Alignment\n\n';
+    if(d.ngss)b+='- **Performance Expectation(s):** '+d.ngss+'\n';
+    if(d.sep)b+='- **Science & Engineering Practice:** '+d.sep+'\n';
+    if(d.ccc)b+='- **Crosscutting Concept:** '+d.ccc+'\n';
+    if(d.dci)b+='- **Disciplinary Core Idea:** '+d.dci+'\n';
+    b+='\n';
+  }
+
+  b+='## CRAFT Cycle\n\n### C — Contextualize (Why This Matters)\n\n';
+  if(d.cReal)b+=d.cReal+'\n\n';
+  if(d.cCareer)b+='**Career Connection:** '+d.cCareer+'\n\n';
+
+  b+='### R — Reframe (Address the Misconception)\n\n';
+  if(d.rMisc)b+='**Common Misconception:** '+d.rMisc+'\n\n';
+  if(d.rCorrect)b+='**Correct Understanding:** '+d.rCorrect+'\n\n';
+
+  b+='### A — Assemble (I Do → We Do → You Do)\n\n';
+  if(d.aIdo)b+='**I Do — Teacher Demonstrates:**  \n'+d.aIdo+'\n\n';
+  if(d.aWedo)b+='**We Do — Guided Practice:**  \n'+d.aWedo+'\n\n';
+  if(d.aYoudo)b+='**You Do — Independent/Group Practice:**  \n'+d.aYoudo+'\n\n';
+  if(d.aMaterials)b+='**Materials Needed:**  \n'+d.aMaterials+'\n\n';
+
+  b+='### F — Fortify (Verify Understanding)\n\n';
+  if(d.fFormative)b+='**Formative Assessment:** '+d.fFormative+'\n\n';
+  if(d.fCtm)b+='**Check the Machine (CtM):**  \n'+d.fCtm+'\n\n';
+
+  b+='### T — Transfer (Connect Forward)\n\n';
+  if(d.tNext)b+='**Connection to Next Lesson:** '+d.tNext+'\n\n';
+  if(d.tExt)b+='**Extension / Homework:** '+d.tExt+'\n\n';
+
+  if(d.summative)b+='## Assessment\n\n'+d.summative+'\n\n';
+  if(d.notes)b+='## Notes & Reflections\n\n'+d.notes+'\n\n';
+
+  b+='---\n*Generated from the [CRAFT PD Series Lesson Template](/pds/craft-pd-series/resources/lesson-template.html). UCF DRACO Lab & School of Teacher Education.*\n';
+  return fm+b;
+}
+
+function toHTML(d){
+  let h='<h1>'+escH(d.title)+'</h1>';
+  if(d.author)h+='<p><em>By '+escH(d.author)+'</em></p>';
+  h+='<h2>Overview</h2>';
+  if(d.summary)h+='<p>'+nl2br(d.summary)+'</p>';
+  const meta=[];
+  if(d.grade)meta.push('<li><strong>Grade Level:</strong> '+escH(d.grade)+'</li>');
+  if(d.subject)meta.push('<li><strong>Subject Area:</strong> '+escH(d.subject)+'</li>');
+  if(d.duration)meta.push('<li><strong>Estimated Duration:</strong> '+escH(d.duration)+'</li>');
+  if(meta.length)h+='<ul>'+meta.join('')+'</ul>';
+
+  if(d.ngss||d.sep||d.ccc||d.dci){
+    h+='<h2>NGSS Alignment</h2><ul>';
+    if(d.ngss)h+='<li><strong>Performance Expectation(s):</strong> '+escH(d.ngss)+'</li>';
+    if(d.sep)h+='<li><strong>Science &amp; Engineering Practice:</strong> '+escH(d.sep)+'</li>';
+    if(d.ccc)h+='<li><strong>Crosscutting Concept:</strong> '+escH(d.ccc)+'</li>';
+    if(d.dci)h+='<li><strong>Disciplinary Core Idea:</strong> '+escH(d.dci)+'</li>';
+    h+='</ul>';
+  }
+
+  h+='<h2>CRAFT Cycle</h2>';
+  h+='<h3>C — Contextualize (Why This Matters)</h3>';
+  if(d.cReal)h+='<p>'+nl2br(d.cReal)+'</p>';
+  if(d.cCareer)h+='<p><strong>Career Connection:</strong> '+escH(d.cCareer)+'</p>';
+
+  h+='<h3>R — Reframe (Address the Misconception)</h3>';
+  if(d.rMisc)h+='<p><strong>Common Misconception:</strong> '+nl2br(d.rMisc)+'</p>';
+  if(d.rCorrect)h+='<p><strong>Correct Understanding:</strong> '+nl2br(d.rCorrect)+'</p>';
+
+  h+='<h3>A — Assemble (I Do → We Do → You Do)</h3>';
+  if(d.aIdo)h+='<p><strong>I Do — Teacher Demonstrates:</strong><br>'+nl2br(d.aIdo)+'</p>';
+  if(d.aWedo)h+='<p><strong>We Do — Guided Practice:</strong><br>'+nl2br(d.aWedo)+'</p>';
+  if(d.aYoudo)h+='<p><strong>You Do — Independent/Group Practice:</strong><br>'+nl2br(d.aYoudo)+'</p>';
+  if(d.aMaterials)h+='<p><strong>Materials Needed:</strong><br>'+nl2br(d.aMaterials)+'</p>';
+
+  h+='<h3>F — Fortify (Verify Understanding)</h3>';
+  if(d.fFormative)h+='<p><strong>Formative Assessment:</strong> '+nl2br(d.fFormative)+'</p>';
+  if(d.fCtm)h+='<p><strong>Check the Machine (CtM):</strong><br>'+nl2br(d.fCtm)+'</p>';
+
+  h+='<h3>T — Transfer (Connect Forward)</h3>';
+  if(d.tNext)h+='<p><strong>Connection to Next Lesson:</strong> '+nl2br(d.tNext)+'</p>';
+  if(d.tExt)h+='<p><strong>Extension / Homework:</strong> '+nl2br(d.tExt)+'</p>';
+
+  if(d.summative)h+='<h2>Assessment</h2><p>'+nl2br(d.summative)+'</p>';
+  if(d.notes)h+='<h2>Notes &amp; Reflections</h2><p>'+nl2br(d.notes)+'</p>';
+  h+='<hr><p><em>Generated from the CRAFT PD Series Lesson Template · UCF DRACO Lab &amp; School of Teacher Education.</em></p>';
+  return h;
+}
+
+async function clipboardText(t){
+  try{
+    if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(t);return true}
+  }catch(e){}
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.focus();ta.select();
+    const ok=document.execCommand('copy');
+    ta.remove();return ok;
+  }catch(e){return false}
+}
+
+async function copyMarkdown(){
+  const md=toMarkdown(collect());
+  if(await clipboardText(md))flash('Markdown copied to clipboard');
+  else flash('Could not copy — please try the Download .md button');
+}
+
+async function copyRichText(){
+  const d=collect();
+  const html=toHTML(d);
+  const plain=toMarkdown(d);
+  try{
+    if(navigator.clipboard&&typeof ClipboardItem!=='undefined'){
+      const item=new ClipboardItem({
+        'text/html':new Blob([html],{type:'text/html'}),
+        'text/plain':new Blob([plain],{type:'text/plain'})
+      });
+      await navigator.clipboard.write([item]);
+      flash('Rich text copied — paste into Google Docs, Word, or Pages');
+      return;
+    }
+  }catch(e){}
+  if(await clipboardText(plain))flash('Copied as plain markdown (rich-text clipboard unavailable in this browser)');
+  else flash('Could not copy — please try the Download .doc button');
+}
+
+function downloadFile(name,content,type){
+  const blob=new Blob([content],{type});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=name;document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},200);
+}
+
+function downloadMarkdown(){
+  const d=collect();
+  downloadFile(slugify(d.title)+'.md',toMarkdown(d),'text/markdown;charset=utf-8');
+  flash('Downloaded '+slugify(d.title)+'.md');
+}
+
+function downloadDoc(){
+  const d=collect();
+  const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
+  downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
+  flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
+}
+
+async function submitPR(){
+  const d=collect();
+  if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
+  const md=toMarkdown(d);
+  const slug=slugify(d.title);
+  const encoded=encodeURIComponent(md);
+  const baseUrl='https://github.com/'+REPO_OWNER+'/'+REPO_NAME+'/new/'+REPO_BRANCH+'/'+LESSON_PATH+'?filename='+encodeURIComponent(slug+'.md');
+  if(encoded.length>7500){
+    const copyFirst=confirm('Your lesson is long and may exceed GitHub\'s URL pre-fill limit.\n\nClick OK to copy the Markdown to your clipboard, then paste it on GitHub after the new-file page opens.\n\nClick Cancel to try the pre-filled link anyway.');
+    if(copyFirst){
+      await clipboardText(md);
+      window.open(baseUrl,'_blank','noopener');
+      flash('Markdown copied — paste it into the GitHub editor');
+      return;
+    }
+  }
+  window.open(baseUrl+'&value='+encoded,'_blank','noopener');
+  flash('Opening GitHub — sign in and submit your pull request for review');
+}
+
+function flash(msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.classList.add('show');
+  clearTimeout(flash._t);
+  flash._t=setTimeout(()=>el.classList.remove('show'),2800);
 }
 </script>
 </body></html>
