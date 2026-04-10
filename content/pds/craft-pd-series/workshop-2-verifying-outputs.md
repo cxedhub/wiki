@@ -82,7 +82,6 @@ Your students are using AI — but do they know when it's wrong? This session eq
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — includes verification-focused prompts
 - [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
-- [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W2-Digital-Toolkit.pdf) — all Workshop 2 resources in one downloadable file
 
 ### Code Snippets for Error Hunt
 

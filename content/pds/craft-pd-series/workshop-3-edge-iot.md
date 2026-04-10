@@ -98,7 +98,6 @@ Take computing out of the browser and into the physical world. This session uses
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — includes physical computing prompts for micro:bit
 - [**✅ CtM Template**](/pds/craft-pd-series/resources/ctm-template.html) — for sensor verification activities
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
-- [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W3-Digital-Toolkit.pdf) — all Workshop 3 resources in one downloadable file
 
 ### MicroPython Starter Scripts
 

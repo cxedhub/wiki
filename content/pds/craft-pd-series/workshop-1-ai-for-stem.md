@@ -78,7 +78,6 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — tested prompts for STEM teaching across platforms
 - [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
-- [**📥 Digital Toolkit (PDF)**](/pds/craft-pd-series/W1-Digital-Toolkit.pdf) — all Workshop 1 resources in one downloadable file
 
 ## Key Activities
 
