@@ -36,6 +36,14 @@ textarea{min-height:80px;resize:vertical}
 .export-group-label{font-size:0.74rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:12px 0 4px}
 #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:6px;font-size:0.88rem;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:all 0.25s;z-index:100;max-width:90%;text-align:center}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.load-box{border:1px solid var(--gray200);border-radius:10px;padding:14px 18px;margin:0 0 22px;background:#fff}
+.load-box>summary{font-weight:600;font-size:0.92rem;cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px}
+.load-box>summary::-webkit-details-marker{display:none}
+.load-box>summary::before{content:"▸";display:inline-block;transition:transform 0.15s;color:var(--teal)}
+.load-box[open]>summary::before{transform:rotate(90deg)}
+.load-box .helper{margin:8px 0 10px}
+.load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
+.load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
 @media print{.btn,.back,.export-box,#toast{display:none}input,textarea,select{border:1px solid #ccc}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
 </style>
@@ -45,6 +53,15 @@ textarea{min-height:80px;resize:vertical}
 
 <h1>NGSS-Aligned Lesson Template</h1>
 <p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle. When you're done, use the export tools at the bottom to copy, download, or submit your lesson.</p>
+
+<details class="load-box">
+<summary>Load an existing lesson from Markdown</summary>
+<p class="helper">Paste Markdown from a previously exported lesson (or choose a <code>.md</code> file), then click <strong>Load</strong>. Fields below will be populated — review and edit as needed. Accepts files exported by this template; front matter is optional.</p>
+<input id="f-loadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)">
+<textarea id="f-loadtext" placeholder="---&#10;title: &quot;My Lesson&quot;&#10;---&#10;&#10;# My Lesson&#10;&#10;## Overview&#10;..."></textarea>
+<button class="btn" onclick="loadMarkdown()">📥 Load into Form</button>
+<button class="btn secondary" onclick="document.getElementById('f-loadtext').value='';document.getElementById('f-loadfile').value='';">Clear</button>
+</details>
 
 <h2>Lesson Overview</h2>
 <div class="row">
@@ -225,6 +242,219 @@ function collect(){
     summative:v('f-summative'),
     notes:v('f-notes')
   }
+}
+
+function setField(id,val){
+  if(val===undefined||val===null)return;
+  const s=(''+val).trim();
+  if(!s)return;
+  const el=document.getElementById(id);
+  if(!el)return;
+  if(el.tagName==='SELECT'){
+    const opts=[...el.options].map(o=>o.value);
+    if(opts.indexOf(s)>=0)el.value=s;
+    return;
+  }
+  el.value=s;
+}
+
+function fromMarkdown(md){
+  md=(md||'').replace(/\r\n/g,'\n');
+  const d={};
+  let body=md;
+
+  // Front matter (optional)
+  const fmMatch=md.match(/^---\n([\s\S]*?)\n---\n?/);
+  if(fmMatch){
+    const fm=fmMatch[1];
+    body=md.slice(fmMatch[0].length);
+    const scalar=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*(.*)$','m'));
+      if(!m)return '';
+      return m[1].trim().replace(/^['"]|['"]$/g,'').replace(/\\"/g,'"').replace(/\\\\/g,'\\');
+    };
+    d.title=scalar('title');
+    d.summary=scalar('description');
+    d.author=scalar('author');
+    d.materials=scalar('materials');
+    const listAfter=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
+      if(!m)return [];
+      return m[1].split('\n').map(l=>l.replace(/^\s*-\s+/,'').trim()).filter(Boolean);
+    };
+    const subjects=listAfter('subjects');
+    if(subjects.length)d.subject=subjects.join(', ');
+    const grades=listAfter('grade_levels');
+    if(grades.length)d.grade=grades[0];
+    const ngssBlock=fm.match(/NGSS:\s*\n((?:\s+-\s+.*\n?)+)/);
+    if(ngssBlock){
+      const items=ngssBlock[1].split('\n').map(l=>l.replace(/^\s*-\s+/,'').trim()).filter(Boolean);
+      if(items.length)d.ngss=items.join(', ');
+    }
+    const tags=listAfter('tags').filter(t=>t!=='CRAFT');
+    if(tags.length)d.tags=tags.join(', ');
+    if(d.materials)d.materials=d.materials.replace(/;\s*/g,'\n');
+  }
+
+  // Strip trailing attribution block
+  body=body.replace(/\n---\s*\n\*Generated from[\s\S]*$/,'').trim();
+
+  // Title from # heading (only if not in front matter)
+  const titleMatch=body.match(/^#\s+(.+?)\s*$/m);
+  if(titleMatch&&!d.title)d.title=titleMatch[1].trim();
+
+  // Parse top-level ## sections
+  const sections={};
+  const re=/^##\s+(.+?)\s*$/gm;
+  const hits=[];
+  let mm;
+  while((mm=re.exec(body))!==null)hits.push({name:mm[1].trim(),start:mm.index+mm[0].length,idx:mm.index});
+  for(let i=0;i<hits.length;i++){
+    const end=i+1<hits.length?hits[i+1].idx:body.length;
+    sections[hits[i].name]=body.slice(hits[i].start,end).trim();
+  }
+
+  const lineVal=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const lm=text.match(new RegExp('^-\\s*\\*\\*'+esc+':\\*\\*\\s*(.+)$','m'));
+    return lm?lm[1].trim():'';
+  };
+  const labeledBlock=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const pat=new RegExp('\\*\\*'+esc+':\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\n\\*\\*[^*\\n]+:\\*\\*|$)');
+    const lm=text.match(pat);
+    return lm?lm[1].trim():'';
+  };
+
+  // Overview: free-text summary + optional meta bullet list
+  if(sections['Overview']){
+    const overview=sections['Overview'];
+    const bulletIdx=overview.search(/(^|\n)-\s*\*\*/);
+    let summary=overview,list='';
+    if(bulletIdx>=0){
+      summary=overview.slice(0,bulletIdx).trim();
+      list=overview.slice(bulletIdx);
+    }
+    if(summary&&!d.summary)d.summary=summary;
+    if(list){
+      d.grade=lineVal(list,'Grade Level')||d.grade;
+      d.subject=lineVal(list,'Subject Area')||d.subject;
+      d.duration=lineVal(list,'Estimated Duration')||d.duration;
+      d.author=lineVal(list,'Author')||d.author;
+    }
+  }
+
+  // NGSS Alignment
+  if(sections['NGSS Alignment']){
+    const na=sections['NGSS Alignment'];
+    d.ngss=lineVal(na,'Performance Expectation(s)')||d.ngss;
+    d.sep=lineVal(na,'Science & Engineering Practice')||d.sep;
+    d.ccc=lineVal(na,'Crosscutting Concept')||d.ccc;
+    d.dci=lineVal(na,'Disciplinary Core Idea')||d.dci;
+  }
+
+  // CRAFT Cycle with ### sub-sections
+  if(sections['CRAFT Cycle']){
+    const cc=sections['CRAFT Cycle'];
+    const subRe=/^###\s+(.+?)\s*$/gm;
+    const subHits=[];
+    let sm;
+    while((sm=subRe.exec(cc))!==null)subHits.push({name:sm[1].trim(),start:sm.index+sm[0].length,idx:sm.index});
+    const subs={};
+    for(let i=0;i<subHits.length;i++){
+      const end=i+1<subHits.length?subHits[i+1].idx:cc.length;
+      subs[subHits[i].name]=cc.slice(subHits[i].start,end).trim();
+    }
+    const findLetter=(letter)=>{
+      for(const k of Object.keys(subs)){
+        if(k.charAt(0).toUpperCase()===letter)return subs[k];
+      }
+      return '';
+    };
+
+    const cText=findLetter('C');
+    if(cText){
+      const parts=cText.split(/\n\s*\*\*Career Connection:\*\*\s*/);
+      d.cReal=parts[0].trim();
+      if(parts.length>1)d.cCareer=parts[1].trim();
+    }
+    const rText=findLetter('R');
+    if(rText){
+      d.rMisc=labeledBlock(rText,'Common Misconception');
+      d.rCorrect=labeledBlock(rText,'Correct Understanding');
+    }
+    const aText=findLetter('A');
+    if(aText){
+      d.aIdo=labeledBlock(aText,'I Do — Teacher Demonstrates');
+      d.aWedo=labeledBlock(aText,'We Do — Guided Practice');
+      d.aYoudo=labeledBlock(aText,'You Do — Independent/Group Practice');
+      const mats=labeledBlock(aText,'Materials Needed');
+      if(mats)d.aMaterials=mats;
+    }
+    const fText=findLetter('F');
+    if(fText){
+      d.fFormative=labeledBlock(fText,'Formative Assessment');
+      d.fCtm=labeledBlock(fText,'Check the Machine (CtM)');
+    }
+    const tText=findLetter('T');
+    if(tText){
+      d.tNext=labeledBlock(tText,'Connection to Next Lesson');
+      d.tExt=labeledBlock(tText,'Extension / Homework');
+    }
+  }
+
+  if(sections['Assessment'])d.summative=sections['Assessment'];
+  if(sections['Notes & Reflections'])d.notes=sections['Notes & Reflections'];
+
+  // Prefer body-derived materials over front-matter single-line form
+  if(!d.aMaterials&&d.materials)d.aMaterials=d.materials;
+
+  return d;
+}
+
+function loadMarkdown(){
+  const raw=v('f-loadtext');
+  if(!raw){flash('Paste markdown or choose a .md file first');return}
+  let d;
+  try{d=fromMarkdown(raw)}
+  catch(e){flash('Could not parse markdown: '+e.message);return}
+  setField('f-title',d.title);
+  setField('f-author',d.author);
+  setField('f-grade',d.grade);
+  setField('f-subject',d.subject);
+  setField('f-ngss',d.ngss);
+  setField('f-duration',d.duration);
+  setField('f-summary',d.summary);
+  setField('f-tags',d.tags);
+  setField('f-sep',d.sep);
+  setField('f-ccc',d.ccc);
+  setField('f-dci',d.dci);
+  setField('f-c-real',d.cReal);
+  setField('f-c-career',d.cCareer);
+  setField('f-r-misc',d.rMisc);
+  setField('f-r-correct',d.rCorrect);
+  setField('f-a-ido',d.aIdo);
+  setField('f-a-wedo',d.aWedo);
+  setField('f-a-youdo',d.aYoudo);
+  setField('f-a-materials',d.aMaterials);
+  setField('f-f-formative',d.fFormative);
+  setField('f-f-ctm',d.fCtm);
+  setField('f-t-next',d.tNext);
+  setField('f-t-ext',d.tExt);
+  setField('f-summative',d.summative);
+  setField('f-notes',d.notes);
+  flash('Lesson loaded — review and edit as needed');
+}
+
+function loadFile(e){
+  const file=e.target.files&&e.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    document.getElementById('f-loadtext').value=ev.target.result;
+    loadMarkdown();
+  };
+  reader.readAsText(file);
 }
 
 function toMarkdown(d){
