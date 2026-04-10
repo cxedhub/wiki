@@ -17,13 +17,13 @@ focus_tags:
   - "Multi-Platform"
 learning_objectives:
   - "Articulate how LLMs function as curriculum design tools"
-  - "Apply prompt engineering to generate differentiated, NGSS-aligned lessons"
+  - "Apply prompt engineering to generate differentiated, standards-aligned STEM lessons"
   - "Compare outputs across ChatGPT, Claude, and Gemini"
   - "Customize a lesson template using AI-assisted workflows"
   - "Identify CRAFT cycle phases from lived experience"
 key_activities:
   - "Cross-platform prompt engineering (same prompt → 3 LLMs → compare)"
-  - "NGSS-aligned lesson template customization"
+  - "Multi-framework STEM lesson template customization"
   - "AI output audit ('spot the difference')"
   - "CRAFT lesson sketch design"
 takeaways:

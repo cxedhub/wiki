@@ -28,7 +28,7 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 **Format:** Virtual (Zoom) · 8:30 AM – 12:00 PM PST · Standalone sessions
 
-**Standards:** NGSS-aligned throughout · [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html)
+**Standards:** Multi-framework STEM alignment — pick from CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, or National Core Arts using the searchable picker in the [STEM Lesson Template](/pds/craft-pd-series/resources/lesson-template.html) · [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html) (for science-focused lessons)
 
 ---
 

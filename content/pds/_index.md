@@ -63,4 +63,4 @@ BBC micro:bit + LLM-assisted coding — take computing out of the browser and in
 - **Shared Google Drive folder** — Templates, prompt libraries, lesson starters (all editable)
 - **Curated resource website** — Bookmarkable page with links, guides, and updates
 - **Digital toolkit PDF** — One downloadable document per session
-- **Customized lesson** — NGSS-aligned template personalized during the session
+- **Customized lesson** — STEM template (aligned to CSTA, NGSS, CCSS Math/ELA, ISTE, and other frameworks of your choice) personalized during the session

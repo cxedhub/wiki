@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NGSS Lesson Template — CRAFT PD Series</title>
+<title>STEM Lesson Template — CRAFT PD Series</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
@@ -44,15 +44,52 @@ textarea{min-height:80px;resize:vertical}
 .load-box .helper{margin:8px 0 10px}
 .load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
 .load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
-@media print{.btn,.back,.export-box,#toast{display:none}input,textarea,select{border:1px solid #ccc}}
-@media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
+
+/* Multi-framework standards picker */
+.std-intro{font-size:0.85rem;color:var(--gray600);margin:4px 0 14px;line-height:1.5}
+.std-block{border:1px solid var(--gray200);border-radius:8px;padding:12px 14px;margin:10px 0;background:#fff}
+.std-block-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.std-block-title{font-weight:600;font-size:0.88rem;color:var(--ink)}
+.std-block-sub{font-size:0.74rem;color:var(--gray600);font-weight:400}
+.std-search-wrap{position:relative}
+.std-search{width:100%;padding:9px 10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;background:#fff}
+.std-search:focus{outline:none;border-color:var(--teal)}
+.std-dropdown{display:none;position:absolute;top:calc(100% + 2px);left:0;right:0;max-height:260px;overflow-y:auto;background:#fff;border:1px solid var(--gray200);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.1);z-index:50}
+.std-dropdown.open{display:block}
+.std-dropdown-item{padding:8px 12px;cursor:pointer;font-size:0.82rem;border-bottom:1px solid var(--gray100);line-height:1.35}
+.std-dropdown-item:last-child{border-bottom:none}
+.std-dropdown-item:hover,.std-dropdown-item.active{background:#f0fbf8}
+.std-dropdown-item.selected{opacity:0.55;cursor:default;background:var(--gray100)}
+.std-dropdown-item .code{font-family:'JetBrains Mono',monospace;font-weight:600;color:var(--ink);font-size:0.78rem}
+.std-dropdown-item .desc{color:var(--gray600);display:block;margin-top:2px}
+.std-dropdown-empty{padding:10px 12px;color:var(--gray600);font-size:0.8rem;font-style:italic}
+.std-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;min-height:4px}
+.std-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 8px 4px 10px;background:#eef9f6;border:1px solid #b7e6db;border-radius:14px;font-size:0.78rem;color:var(--ink);max-width:100%}
+.std-chip .chip-code{font-family:'JetBrains Mono',monospace;font-weight:600}
+.std-chip .chip-desc{color:var(--gray600);max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.std-chip button{background:none;border:none;color:var(--gray600);cursor:pointer;padding:0 2px;font-size:1rem;line-height:1;border-radius:50%}
+.std-chip button:hover{color:var(--red)}
+.std-custom-row{display:flex;gap:6px;margin-top:6px}
+.std-custom-row input{flex:1;padding:7px 10px;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem;font-family:inherit}
+.std-custom-row button{padding:7px 12px;background:#fff;border:1px solid var(--gray200);border-radius:6px;cursor:pointer;font-size:0.8rem;color:var(--ink)}
+.std-custom-row button:hover{border-color:var(--teal);color:var(--teal)}
+
+details.ngss-specific{border:1px solid var(--gray200);border-radius:8px;padding:10px 14px;margin:10px 0;background:#fafcff}
+details.ngss-specific>summary{cursor:pointer;font-weight:600;font-size:0.88rem;list-style:none}
+details.ngss-specific>summary::-webkit-details-marker{display:none}
+details.ngss-specific>summary::before{content:"▸";display:inline-block;margin-right:6px;transition:transform 0.15s;color:var(--teal)}
+details.ngss-specific[open]>summary::before{transform:rotate(90deg)}
+details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight:400}
+
+@media print{.btn,.back,.export-box,#toast,.std-dropdown{display:none}input,textarea,select{border:1px solid #ccc}}
+@media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
 </style>
 </head><body>
 
 <a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
 
-<h1>NGSS-Aligned Lesson Template</h1>
-<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle. When you're done, use the export tools at the bottom to copy, download, or submit your lesson.</p>
+<h1>STEM Lesson Template</h1>
+<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle and supports any STEM discipline — science, mathematics, computer science, engineering, technology, or cross-disciplinary work. Align to one or many standards frameworks below. When you're done, use the export tools at the bottom to copy, download, or submit your lesson.</p>
 
 <details class="load-box">
 <summary>Load an existing lesson from Markdown</summary>
@@ -70,11 +107,32 @@ textarea{min-height:80px;resize:vertical}
 </div>
 <div class="row">
 <div><label>Grade Level</label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
-<div><label>Subject Area</label><input id="f-subject" type="text" placeholder="e.g., Physical Science, Biology, Math, CS"></div>
+<div><label>Subject Area</label><input id="f-subject" type="text" list="subject-suggestions" placeholder="e.g., Mathematics, Physical Science, Computer Science, Engineering">
+<datalist id="subject-suggestions">
+<option value="Mathematics">
+<option value="Computer Science">
+<option value="Physical Science">
+<option value="Life Science">
+<option value="Earth & Space Science">
+<option value="Engineering">
+<option value="Technology">
+<option value="Data Science">
+<option value="Environmental Science">
+<option value="Biology">
+<option value="Chemistry">
+<option value="Physics">
+<option value="Algebra">
+<option value="Geometry">
+<option value="Statistics">
+<option value="Robotics">
+<option value="Cybersecurity">
+<option value="Interdisciplinary STEM">
+</datalist>
+</div>
 </div>
 <div class="row">
-<div><label>NGSS Performance Expectation(s)</label><input id="f-ngss" type="text" placeholder="e.g., MS-PS2-2, HS-LS1-6"><div class="helper">Verify at nextgenscience.org — LLMs sometimes hallucinate codes</div></div>
 <div><label>Estimated Duration</label><input id="f-duration" type="text" placeholder="e.g., 3 class periods (50 min each)"></div>
+<div><label>STEM Discipline(s)</label><input id="f-discipline" type="text" placeholder="e.g., Math + CS, Engineering Design, Biology"><div class="helper">Noyce Scholars can come from any STEM field — flag yours here.</div></div>
 </div>
 <label>Lesson Summary (2-3 sentences)</label>
 <textarea id="f-summary" placeholder="Brief description of what students will do and learn..."></textarea>
@@ -83,11 +141,18 @@ textarea{min-height:80px;resize:vertical}
 <div class="helper">Used for filtering in the lesson repository. "CRAFT" is added automatically.</div>
 
 <h2>Standards Alignment</h2>
-<div class="row3">
-<div><label>Science & Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
+<p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. If your framework isn't listed, use the <em>Custom / Other</em> row at the bottom.</p>
+
+<div id="std-pickers"></div>
+
+<details class="ngss-specific">
+<summary>NGSS three-dimensional detail <span class="helper">(optional — only if you're aligning to NGSS)</span></summary>
+<div class="row3" style="margin-top:10px">
+<div><label>Science &amp; Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
 <div><label>Crosscutting Concept</label><textarea id="f-ccc" rows="3" placeholder="e.g., Cause and Effect"></textarea></div>
 <div><label>Disciplinary Core Idea</label><textarea id="f-dci" rows="3" placeholder="e.g., PS2.A: Forces and Motion"></textarea></div>
 </div>
+</details>
 
 <h2>CRAFT Cycle Structure</h2>
 
@@ -210,8 +275,210 @@ Takeaway: What did the comparison reveal?"></textarea>
 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
 
+<script src="/js/standards-db.js"></script>
 <script>
 const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
+
+/* ===== Multi-framework standards picker ===== */
+const FW_ORDER=['CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'];
+const FW_LABEL={
+  'CSTA':['Computer Science (CSTA K-12)','Computer Science Teachers Association'],
+  'CCSS Math':['Math (Common Core)','Common Core State Standards — Mathematics'],
+  'CCSS ELA':['English Language Arts (Common Core)','Common Core — ELA/Literacy'],
+  'NGSS':['Science (NGSS)','Next Generation Science Standards — Performance Expectations'],
+  'ISTE':['Technology (ISTE)','ISTE Standards for Students'],
+  'NCSS C3':['Social Studies (NCSS C3)','College, Career, and Civic Life C3 Framework'],
+  'National Core Arts':['Arts (National Core Arts)','National Core Arts Standards']
+};
+const SELECTED={};FW_ORDER.forEach(fw=>SELECTED[fw]=[]);
+const CUSTOM_FW_KEY='Other';SELECTED[CUSTOM_FW_KEY]=[];
+const CUSTOM_DESC={};  // code -> description for Other-framework entries
+let activeDropdownFw=null,activeDropdownIdx=-1;
+
+function stdDb(){return (window.STANDARDS_DB)||{}}
+function codeDesc(fw,code){
+  if(fw===CUSTOM_FW_KEY)return CUSTOM_DESC[code]||'';
+  const db=stdDb();return db[fw]&&db[fw][code]?db[fw][code]:'';
+}
+function escHtml(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+function renderPickers(){
+  const host=document.getElementById('std-pickers');
+  if(!host)return;
+  let h='';
+  FW_ORDER.forEach(fw=>{
+    const [short,long]=FW_LABEL[fw];
+    h+='<div class="std-block" data-fw="'+fw+'">';
+    h+='<div class="std-block-head"><span class="std-block-title">'+escHtml(short)+'</span><span class="std-block-sub">'+escHtml(long)+'</span></div>';
+    h+='<div class="std-search-wrap">';
+    h+='<input type="text" class="std-search" placeholder="Search '+escHtml(fw)+' standards by keyword or code…" data-fw="'+escHtml(fw)+'" autocomplete="off">';
+    h+='<div class="std-dropdown" data-fw="'+escHtml(fw)+'"></div>';
+    h+='</div>';
+    h+='<div class="std-chips" data-fw="'+escHtml(fw)+'"></div>';
+    h+='</div>';
+  });
+  // Custom/Other framework block
+  h+='<div class="std-block" data-fw="'+CUSTOM_FW_KEY+'">';
+  h+='<div class="std-block-head"><span class="std-block-title">Custom / Other Framework</span><span class="std-block-sub">State standards, district frameworks, or any code not in the built-in database</span></div>';
+  h+='<div class="std-custom-row">';
+  h+='<input type="text" id="f-custom-fw" placeholder="Framework name (e.g., Wyoming CS, TEKS Math)" style="flex:0 0 200px">';
+  h+='<input type="text" id="f-custom-code" placeholder="Code (e.g., K-2.AP.A.01)">';
+  h+='<input type="text" id="f-custom-desc" placeholder="Short description (optional)">';
+  h+='<button type="button" onclick="addCustomStd()">+ Add</button>';
+  h+='</div>';
+  h+='<div class="std-chips" data-fw="'+CUSTOM_FW_KEY+'"></div>';
+  h+='</div>';
+  host.innerHTML=h;
+  // Wire up events
+  host.querySelectorAll('.std-search').forEach(inp=>{
+    inp.addEventListener('input',onSearchInput);
+    inp.addEventListener('focus',onSearchInput);
+    inp.addEventListener('keydown',onSearchKey);
+    inp.addEventListener('blur',()=>setTimeout(hideDropdowns,180));
+  });
+}
+
+function onSearchInput(e){
+  const inp=e.target;const fw=inp.dataset.fw;const q=inp.value.trim().toLowerCase();
+  const dd=inp.parentNode.querySelector('.std-dropdown');
+  const db=stdDb();const entries=db[fw]||{};
+  const sel=new Set(SELECTED[fw]||[]);
+  const items=[];
+  Object.keys(entries).forEach(code=>{
+    const desc=entries[code];
+    const already=sel.has(code);
+    if(!q||code.toLowerCase().includes(q)||desc.toLowerCase().includes(q)){
+      items.push({code,desc,already});
+    }
+  });
+  // Sort: prioritize code-starts-with, then description-match, then alphabetical
+  items.sort((a,b)=>{
+    if(q){
+      const ac=a.code.toLowerCase().startsWith(q)?0:1;
+      const bc=b.code.toLowerCase().startsWith(q)?0:1;
+      if(ac!==bc)return ac-bc;
+    }
+    return a.code.localeCompare(b.code);
+  });
+  const top=items.slice(0,50);
+  if(top.length===0){
+    dd.innerHTML='<div class="std-dropdown-empty">No matches in '+escHtml(fw)+'. Try a different keyword, or add it under Custom / Other below.</div>';
+  }else{
+    dd.innerHTML=top.map((it,i)=>'<div class="std-dropdown-item'+(it.already?' selected':'')+'" data-code="'+escHtml(it.code)+'" data-fw="'+escHtml(fw)+'"><span class="code">'+escHtml(it.code)+'</span><span class="desc">'+escHtml(it.desc)+'</span></div>').join('');
+    dd.querySelectorAll('.std-dropdown-item').forEach(el=>{
+      el.addEventListener('mousedown',ev=>{
+        ev.preventDefault();
+        if(el.classList.contains('selected'))return;
+        addStd(el.dataset.fw,el.dataset.code);
+        inp.value='';inp.focus();
+        onSearchInput({target:inp});
+      });
+    });
+  }
+  dd.classList.add('open');activeDropdownFw=fw;activeDropdownIdx=-1;
+}
+
+function onSearchKey(e){
+  const inp=e.target;const dd=inp.parentNode.querySelector('.std-dropdown');
+  const items=[...dd.querySelectorAll('.std-dropdown-item:not(.selected)')];
+  if(e.key==='ArrowDown'){e.preventDefault();activeDropdownIdx=Math.min(activeDropdownIdx+1,items.length-1);highlightActive(items)}
+  else if(e.key==='ArrowUp'){e.preventDefault();activeDropdownIdx=Math.max(activeDropdownIdx-1,0);highlightActive(items)}
+  else if(e.key==='Enter'){
+    if(activeDropdownIdx>=0&&items[activeDropdownIdx]){
+      e.preventDefault();
+      const el=items[activeDropdownIdx];
+      addStd(el.dataset.fw,el.dataset.code);
+      inp.value='';onSearchInput({target:inp});
+    }
+  }else if(e.key==='Escape'){hideDropdowns()}
+}
+function highlightActive(items){items.forEach((el,i)=>el.classList.toggle('active',i===activeDropdownIdx));if(items[activeDropdownIdx])items[activeDropdownIdx].scrollIntoView({block:'nearest'})}
+function hideDropdowns(){document.querySelectorAll('.std-dropdown.open').forEach(d=>d.classList.remove('open'));activeDropdownFw=null;activeDropdownIdx=-1}
+
+function addStd(fw,code){
+  if(!SELECTED[fw])SELECTED[fw]=[];
+  if(SELECTED[fw].indexOf(code)<0)SELECTED[fw].push(code);
+  renderChips(fw);
+}
+function removeStd(fw,code){
+  SELECTED[fw]=(SELECTED[fw]||[]).filter(c=>c!==code);
+  if(fw===CUSTOM_FW_KEY)delete CUSTOM_DESC[code];
+  renderChips(fw);
+}
+function renderChips(fw){
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(fw)+'"]');
+  if(!box)return;
+  const list=SELECTED[fw]||[];
+  box.innerHTML=list.map(code=>{
+    const d=codeDesc(fw,code);
+    return '<span class="std-chip"><span class="chip-code">'+escHtml(code)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+fw.replace(/'/g,"\\'")+'\',\''+code.replace(/'/g,"\\'")+'\')">×</button></span>';
+  }).join('');
+}
+function addCustomStd(){
+  const fw=(document.getElementById('f-custom-fw').value||'').trim();
+  const code=(document.getElementById('f-custom-code').value||'').trim();
+  const desc=(document.getElementById('f-custom-desc').value||'').trim();
+  if(!fw||!code){flash('Enter both a framework name and a code');return}
+  // Custom entries are stored under the user-provided framework name so they
+  // export cleanly into the standards dict — just like built-in frameworks.
+  if(!SELECTED[fw])SELECTED[fw]=[];
+  if(SELECTED[fw].indexOf(code)<0)SELECTED[fw].push(code);
+  if(desc)CUSTOM_DESC[code]=desc;
+  document.getElementById('f-custom-code').value='';
+  document.getElementById('f-custom-desc').value='';
+  // Render into the custom chip box
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+  if(box){
+    const chips=[];
+    Object.keys(SELECTED).forEach(k=>{
+      if(FW_ORDER.indexOf(k)>=0||k===CUSTOM_FW_KEY)return;
+      (SELECTED[k]||[]).forEach(c=>{
+        const d=CUSTOM_DESC[c]||'';
+        chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+      });
+    });
+    box.innerHTML=chips.join('');
+  }
+}
+
+function getAllSelectedStandards(){
+  // Return dict of fw -> [codes] for everything that has entries
+  const out={};
+  Object.keys(SELECTED).forEach(fw=>{
+    if(fw===CUSTOM_FW_KEY)return;
+    if((SELECTED[fw]||[]).length)out[fw]=[...SELECTED[fw]];
+  });
+  return out;
+}
+function setSelectedStandards(dict){
+  // Reset all
+  Object.keys(SELECTED).forEach(k=>SELECTED[k]=[]);
+  Object.keys(CUSTOM_DESC).forEach(k=>delete CUSTOM_DESC[k]);
+  if(!dict||typeof dict!=='object')return;
+  Object.keys(dict).forEach(fw=>{
+    const codes=Array.isArray(dict[fw])?dict[fw]:[];
+    SELECTED[fw]=codes.slice();
+  });
+  // Re-render all chip boxes for known frameworks
+  FW_ORDER.forEach(fw=>renderChips(fw));
+  // Re-render custom block for any frameworks beyond FW_ORDER
+  const extras=Object.keys(SELECTED).filter(k=>FW_ORDER.indexOf(k)<0&&k!==CUSTOM_FW_KEY);
+  if(extras.length){
+    const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+    if(box){
+      const chips=[];
+      extras.forEach(k=>{
+        (SELECTED[k]||[]).forEach(c=>{
+          chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span><button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+        });
+      });
+      box.innerHTML=chips.join('');
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded',renderPickers);
+
 
 function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
 function splitList(s){return s?s.split(',').map(x=>x.trim()).filter(Boolean):[]}
@@ -226,10 +493,11 @@ function collect(){
     author:v('f-author'),
     grade:v('f-grade'),
     subject:v('f-subject'),
-    ngss:v('f-ngss'),
+    discipline:v('f-discipline'),
     duration:v('f-duration'),
     summary:v('f-summary'),
     tags:v('f-tags'),
+    standards:getAllSelectedStandards(),
     sep:v('f-sep'),
     ccc:v('f-ccc'),
     dci:v('f-dci'),
@@ -283,6 +551,7 @@ function fromMarkdown(md){
     d.summary=scalar('description');
     d.author=scalar('author');
     d.materials=scalar('materials');
+    d.discipline=scalar('stem_discipline');
     const listAfter=(key)=>{
       const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
       if(!m)return [];
@@ -292,10 +561,35 @@ function fromMarkdown(md){
     if(subjects.length)d.subject=subjects.join(', ');
     const grades=listAfter('grade_levels');
     if(grades.length)d.grade=grades[0];
-    const ngssBlock=fm.match(/NGSS:\s*\n((?:\s+-\s+.*\n?)+)/);
-    if(ngssBlock){
-      const items=ngssBlock[1].split('\n').map(l=>l.replace(/^\s*-\s+/,'').trim()).filter(Boolean);
-      if(items.length)d.ngss=items.join(', ');
+    // Parse structured standards: dict of framework -> list
+    //   standards:
+    //     CSTA:
+    //     - 1A-AP-10
+    //     NGSS:
+    //     - MS-PS2-2
+    // Walk lines manually so we stop cleanly at the next top-level key.
+    const fmLines=fm.split('\n');
+    let stdIdx=-1;
+    for(let i=0;i<fmLines.length;i++){
+      if(/^standards:\s*$/.test(fmLines[i])){stdIdx=i;break}
+    }
+    if(stdIdx>=0){
+      const stdDict={};
+      let curFw=null;
+      for(let i=stdIdx+1;i<fmLines.length;i++){
+        const line=fmLines[i];
+        if(/^\S/.test(line))break; // next top-level key
+        const fwMatch=line.match(/^\s{2}([^:\n]+?):\s*$/);
+        const itemMatch=line.match(/^\s{2,}-\s+(.+)$/);
+        if(fwMatch){
+          curFw=fwMatch[1].trim().replace(/^["']|["']$/g,'');
+          if(!stdDict[curFw])stdDict[curFw]=[];
+        }else if(itemMatch&&curFw){
+          const code=itemMatch[1].trim().replace(/^["']|["']$/g,'');
+          if(code)stdDict[curFw].push(code);
+        }
+      }
+      if(Object.keys(stdDict).length)d.standards=stdDict;
     }
     const tags=listAfter('tags').filter(t=>t!=='CRAFT');
     if(tags.length)d.tags=tags.join(', ');
@@ -347,13 +641,54 @@ function fromMarkdown(md){
       d.subject=lineVal(list,'Subject Area')||d.subject;
       d.duration=lineVal(list,'Estimated Duration')||d.duration;
       d.author=lineVal(list,'Author')||d.author;
+      d.discipline=lineVal(list,'STEM Discipline')||lineVal(list,'Discipline')||d.discipline;
     }
   }
 
-  // NGSS Alignment
+  // Standards Alignment — parse multi-framework bullet list
+  // Accepts either this new structured form:
+  //   ## Standards Alignment
+  //   - **CSTA:** 1A-AP-10, 1A-AP-14
+  //   - **NGSS:** MS-PS2-2
+  // or the legacy NGSS Alignment section with three-dimensional sub-fields.
+  const stdSection=sections['Standards Alignment']||sections['Standards']||'';
+  if(stdSection){
+    const dict=d.standards||{};
+    const re=/^-\s*\*\*([^:*]+):\*\*\s*(.+)$/gm;
+    let mLine;
+    while((mLine=re.exec(stdSection))!==null){
+      const fw=mLine[1].trim();
+      // Ignore NGSS three-dimensional fields we already pull into sep/ccc/dci
+      if(/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)){d.sep=mLine[2].trim();continue}
+      if(/^Crosscutting\s*Concept$/i.test(fw)){d.ccc=mLine[2].trim();continue}
+      if(/^Disciplinary\s*Core\s*Idea$/i.test(fw)){d.dci=mLine[2].trim();continue}
+      if(/^Performance\s*Expectation/i.test(fw)){
+        const codes=mLine[2].split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+        if(codes.length){dict['NGSS']=(dict['NGSS']||[]).concat(codes.filter(c=>(dict['NGSS']||[]).indexOf(c)<0))}
+        continue;
+      }
+      const codes=mLine[2].split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      if(codes.length){
+        const existing=dict[fw]||[];
+        codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
+        dict[fw]=existing;
+      }
+    }
+    if(Object.keys(dict).length)d.standards=dict;
+  }
+  // Legacy NGSS Alignment section
   if(sections['NGSS Alignment']){
     const na=sections['NGSS Alignment'];
-    d.ngss=lineVal(na,'Performance Expectation(s)')||d.ngss;
+    const ngssLine=lineVal(na,'Performance Expectation(s)');
+    if(ngssLine){
+      const codes=ngssLine.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      if(codes.length){
+        d.standards=d.standards||{};
+        const existing=d.standards['NGSS']||[];
+        codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
+        d.standards['NGSS']=existing;
+      }
+    }
     d.sep=lineVal(na,'Science & Engineering Practice')||d.sep;
     d.ccc=lineVal(na,'Crosscutting Concept')||d.ccc;
     d.dci=lineVal(na,'Disciplinary Core Idea')||d.dci;
@@ -428,10 +763,11 @@ function loadMarkdown(){
   setField('f-author',d.author);
   setField('f-grade',d.grade);
   setField('f-subject',d.subject);
-  setField('f-ngss',d.ngss);
+  setField('f-discipline',d.discipline);
   setField('f-duration',d.duration);
   setField('f-summary',d.summary);
   setField('f-tags',d.tags);
+  setSelectedStandards(d.standards||{});
   setField('f-sep',d.sep);
   setField('f-ccc',d.ccc);
   setField('f-dci',d.dci);
@@ -467,7 +803,8 @@ function toMarkdown(d){
   const date=new Date().toISOString().slice(0,10);
   const tags=['CRAFT',...splitList(d.tags)];
   const subjects=splitList(d.subject);
-  const ngss=splitList(d.ngss);
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
   let fm='---\n';
   fm+='title: "'+escQ(d.title)+'"\n';
   if(d.summary)fm+='description: "'+escQ(d.summary.replace(/\s+/g,' '))+'"\n';
@@ -476,10 +813,15 @@ function toMarkdown(d){
   if(d.author)fm+='author: "'+escQ(d.author)+'"\n';
   if(subjects.length){fm+='subjects:\n';subjects.forEach(s=>fm+='- '+s+'\n')}
   if(d.grade){fm+='grade_levels:\n- '+d.grade+'\n'}
-  if(ngss.length){
-    fm+='standard_types:\n- NGSS\n';
-    fm+='standards:\n  NGSS:\n';
-    ngss.forEach(n=>fm+='  - '+n+'\n');
+  if(d.discipline)fm+='stem_discipline: "'+escQ(d.discipline)+'"\n';
+  if(fwList.length){
+    fm+='standard_types:\n';
+    fwList.forEach(fw=>fm+='- "'+escQ(fw)+'"\n');
+    fm+='standards:\n';
+    fwList.forEach(fw=>{
+      fm+='  '+fw+':\n';
+      (standards[fw]||[]).forEach(c=>fm+='  - '+c+'\n');
+    });
   }
   if(d.aMaterials)fm+='materials: "'+escQ(d.aMaterials.replace(/\s*\n+\s*/g,'; '))+'"\n';
   fm+='tags:\n';
@@ -491,13 +833,17 @@ function toMarkdown(d){
   const meta=[];
   if(d.grade)meta.push('- **Grade Level:** '+d.grade);
   if(d.subject)meta.push('- **Subject Area:** '+d.subject);
+  if(d.discipline)meta.push('- **STEM Discipline:** '+d.discipline);
   if(d.duration)meta.push('- **Estimated Duration:** '+d.duration);
   if(d.author)meta.push('- **Author:** '+d.author);
   if(meta.length)b+=meta.join('\n')+'\n\n';
 
-  if(d.ngss||d.sep||d.ccc||d.dci){
-    b+='## NGSS Alignment\n\n';
-    if(d.ngss)b+='- **Performance Expectation(s):** '+d.ngss+'\n';
+  if(fwList.length||d.sep||d.ccc||d.dci){
+    b+='## Standards Alignment\n\n';
+    fwList.forEach(fw=>{
+      const codes=standards[fw]||[];
+      if(codes.length)b+='- **'+fw+':** '+codes.join(', ')+'\n';
+    });
     if(d.sep)b+='- **Science & Engineering Practice:** '+d.sep+'\n';
     if(d.ccc)b+='- **Crosscutting Concept:** '+d.ccc+'\n';
     if(d.dci)b+='- **Disciplinary Core Idea:** '+d.dci+'\n';
@@ -534,6 +880,8 @@ function toMarkdown(d){
 }
 
 function toHTML(d){
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
   let h='<h1>'+escH(d.title)+'</h1>';
   if(d.author)h+='<p><em>By '+escH(d.author)+'</em></p>';
   h+='<h2>Overview</h2>';
@@ -541,12 +889,16 @@ function toHTML(d){
   const meta=[];
   if(d.grade)meta.push('<li><strong>Grade Level:</strong> '+escH(d.grade)+'</li>');
   if(d.subject)meta.push('<li><strong>Subject Area:</strong> '+escH(d.subject)+'</li>');
+  if(d.discipline)meta.push('<li><strong>STEM Discipline:</strong> '+escH(d.discipline)+'</li>');
   if(d.duration)meta.push('<li><strong>Estimated Duration:</strong> '+escH(d.duration)+'</li>');
   if(meta.length)h+='<ul>'+meta.join('')+'</ul>';
 
-  if(d.ngss||d.sep||d.ccc||d.dci){
-    h+='<h2>NGSS Alignment</h2><ul>';
-    if(d.ngss)h+='<li><strong>Performance Expectation(s):</strong> '+escH(d.ngss)+'</li>';
+  if(fwList.length||d.sep||d.ccc||d.dci){
+    h+='<h2>Standards Alignment</h2><ul>';
+    fwList.forEach(fw=>{
+      const codes=standards[fw]||[];
+      if(codes.length)h+='<li><strong>'+escH(fw)+':</strong> '+escH(codes.join(', '))+'</li>';
+    });
     if(d.sep)h+='<li><strong>Science &amp; Engineering Practice:</strong> '+escH(d.sep)+'</li>';
     if(d.ccc)h+='<li><strong>Crosscutting Concept:</strong> '+escH(d.ccc)+'</li>';
     if(d.dci)h+='<li><strong>Disciplinary Core Idea:</strong> '+escH(d.dci)+'</li>';
@@ -603,24 +955,30 @@ async function copyMarkdown(){
 
 function buildLLMPrompt(d){
   const draft=toMarkdown(d);
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
   let p='';
-  p+='You are an expert K-12 science teacher and instructional designer helping complete and iterate on an NGSS-aligned lesson plan that follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer).\n\n';
+  p+='You are an expert K-12 STEM teacher and instructional designer helping complete and iterate on a lesson plan that follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). The teacher may be working in any STEM discipline — mathematics, science, computer science, engineering, technology, or a cross-disciplinary mix — so calibrate vocabulary, pedagogy, and examples to the subject area they indicate.\n\n';
   p+='## Your Task\n\n';
   p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
   p+='1. **Filling in missing or thin sections** with thoughtful, grade-appropriate content that fits the topic, subject area, and audience. Empty or sparse fields are the biggest opportunity to add value.\n';
   p+='2. **Strengthening existing content** by expanding bullet-point ideas into full, classroom-ready descriptions. Preserve the teacher\'s voice and intent where content is already present — improve, don\'t replace.\n';
-  p+='3. **Verifying NGSS alignment** — make sure the Performance Expectation(s), Science & Engineering Practice, Crosscutting Concept, and Disciplinary Core Idea match each other and the lesson activities. If you are unsure whether an NGSS code is real, flag it in the Notes & Reflections section rather than fabricating one. (Codes can be verified at nextgenscience.org.)\n';
+  p+='3. **Verifying standards alignment** — the teacher may have selected standards from one or more frameworks (CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts, or a custom framework). Make sure every listed standard is a real, verifiable code in the declared framework and that the activities authentically address each one. If you are unsure whether a code is real, flag it in the Notes & Reflections section rather than fabricating one. Never invent new codes.\n';
+  if(fwList.length){
+    p+='   The teacher has already aligned to these framework(s): '+fwList.join(', ')+'. Preserve this alignment and deepen the treatment of each listed standard in the activity design.\n';
+  }
   p+='4. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
   p+='5. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do) · F: 5-10 min · T: 3-5 min.\n';
   p+='6. **Including a "Check the Machine" exercise** in the Fortify phase if students will use AI during the lesson (task, before-prediction, after-AI-output, takeaway).\n\n';
   p+='## Output Format — CRITICAL\n\n';
   p+='Return ONLY the complete revised lesson plan as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing lesson from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
   p+='Follow these rules exactly:\n\n';
-  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `standard_types`, `standards` (with an `NGSS:` list), `materials`, and `tags`. Always keep `CRAFT` in the `tags` list.\n';
+  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `stem_discipline`, `standard_types`, `standards`, `materials`, and `tags`. Always keep `CRAFT` in the `tags` list.\n';
+  p+='- The `standards` key must be a YAML dict mapping framework name to a list of codes, e.g. `standards:\\n  CSTA:\\n  - 1A-AP-10\\n  NGSS:\\n  - MS-PS2-2`. Include every framework the teacher uses. `standard_types` is the list of framework names in the same order.\n';
   p+='- Use `# Lesson Title` as the single H1.\n';
-  p+='- Use these H2 headings in order: `## Overview`, `## NGSS Alignment`, `## CRAFT Cycle`, `## Assessment`, `## Notes & Reflections`.\n';
-  p+='- Under `## Overview`, first write a 2-3 sentence summary paragraph, then a bullet list containing `- **Grade Level:** ...`, `- **Subject Area:** ...`, `- **Estimated Duration:** ...`, and `- **Author:** ...`.\n';
-  p+='- Under `## NGSS Alignment`, use a bullet list with `- **Performance Expectation(s):** ...`, `- **Science & Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
+  p+='- Use these H2 headings in order: `## Overview`, `## Standards Alignment`, `## CRAFT Cycle`, `## Assessment`, `## Notes & Reflections`.\n';
+  p+='- Under `## Overview`, first write a 2-3 sentence summary paragraph, then a bullet list containing `- **Grade Level:** ...`, `- **Subject Area:** ...`, `- **STEM Discipline:** ...`, `- **Estimated Duration:** ...`, and `- **Author:** ...`.\n';
+  p+='- Under `## Standards Alignment`, use a bullet list with one bullet per framework: `- **<Framework name>:** <comma-separated codes>`. Only include NGSS three-dimensional sub-fields if NGSS is one of the frameworks. When NGSS is used, add (after the framework bullets) `- **Science & Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
   p+='- Under `## CRAFT Cycle`, use exactly these H3 headings (em-dashes, not hyphens):\n';
   p+='    - `### C — Contextualize (Why This Matters)`\n';
   p+='    - `### R — Reframe (Address the Misconception)`\n';

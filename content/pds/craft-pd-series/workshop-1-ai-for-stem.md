@@ -22,13 +22,13 @@ focus_tags:
   - "Multi-Platform"
 learning_objectives:
   - "Articulate how LLMs function as curriculum design tools"
-  - "Apply prompt engineering to generate differentiated, NGSS-aligned lessons"
+  - "Apply prompt engineering to generate differentiated, standards-aligned STEM lessons"
   - "Compare outputs across ChatGPT, Claude, and Gemini"
   - "Customize a lesson template using AI-assisted workflows"
   - "Identify CRAFT cycle phases from lived experience"
 key_activities:
   - "Cross-platform prompt engineering (same prompt → 3 LLMs → compare)"
-  - "NGSS-aligned lesson template customization"
+  - "Multi-framework STEM lesson template customization"
   - "AI output audit ('spot the difference')"
   - "CRAFT lesson sketch design"
 takeaways:
@@ -64,7 +64,7 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 ## Learning Objectives
 
 - Articulate how LLMs function as curriculum design tools (not magic, not replacement)
-- Apply prompt engineering strategies to generate differentiated, NGSS-aligned lessons
+- Apply prompt engineering strategies to generate differentiated, standards-aligned STEM lessons (any discipline — math, science, CS, engineering, technology)
 - Compare outputs across ChatGPT, Claude, and Gemini for the same prompt
 - Customize a provided lesson template using AI-assisted workflows
 - Identify the CRAFT cycle phases and describe how the session modeled them
@@ -74,7 +74,7 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 - [**📋 Live Agenda**](/pds/craft-pd-series/workshop-1-agenda.html) — participant-facing timeline with activity links and print view
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w1.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-1-Slides.pptx) — import to Google Slides
-- [**📄 Lesson Template**](/pds/craft-pd-series/resources/lesson-template.html) — NGSS-aligned template for AI-assisted lesson design
+- [**📄 STEM Lesson Template**](/pds/craft-pd-series/resources/lesson-template.html) — multi-framework template (CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, Arts) for AI-assisted lesson design — keyword search, no need to memorize codes
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — tested prompts for STEM teaching across platforms
 - [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
@@ -95,7 +95,7 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 ## Participant Takeaways
 
 - Prompt library with tested prompts across STEM subjects
-- NGSS-aligned lesson template (customized during the session)
+- Customized STEM lesson template aligned to the frameworks of your choice (CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, or others)
 - Platform comparison cheat sheet (ChatGPT vs Claude vs Gemini)
 - Digital Toolkit PDF with all resources
 
