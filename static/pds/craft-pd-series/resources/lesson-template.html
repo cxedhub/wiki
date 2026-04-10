@@ -189,6 +189,12 @@ Takeaway: What did the comparison reveal?"></textarea>
 </div>
 
 <div class="export-group">
+<div class="export-group-label">Iterate with an LLM</div>
+<button class="btn" onclick="copyLLMPrompt()">🤖 Copy AI Prompt</button>
+<div class="helper">Builds a prompt from whatever you've entered so far and tells an LLM (ChatGPT, Claude, Gemini, etc.) to fill in the gaps and return Markdown in this template's format. Paste the LLM's reply into <em>Load an existing lesson from Markdown</em> at the top of the page to pull the revised draft back in.</div>
+</div>
+
+<div class="export-group">
 <div class="export-group-label">Share with the CRAFT community</div>
 <button class="btn pr" onclick="submitPR()">🚀 Submit to Lesson Plan Repository</button>
 <div class="helper">Opens GitHub with your lesson pre-filled in a new file. You'll need a free GitHub account; GitHub will automatically fork the repo and walk you through creating a pull request for review.</div>
@@ -593,6 +599,49 @@ async function copyMarkdown(){
   const md=toMarkdown(collect());
   if(await clipboardText(md))flash('Markdown copied to clipboard');
   else flash('Could not copy — please try the Download .md button');
+}
+
+function buildLLMPrompt(d){
+  const draft=toMarkdown(d);
+  let p='';
+  p+='You are an expert K-12 science teacher and instructional designer helping complete and iterate on an NGSS-aligned lesson plan that follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer).\n\n';
+  p+='## Your Task\n\n';
+  p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
+  p+='1. **Filling in missing or thin sections** with thoughtful, grade-appropriate content that fits the topic, subject area, and audience. Empty or sparse fields are the biggest opportunity to add value.\n';
+  p+='2. **Strengthening existing content** by expanding bullet-point ideas into full, classroom-ready descriptions. Preserve the teacher\'s voice and intent where content is already present — improve, don\'t replace.\n';
+  p+='3. **Verifying NGSS alignment** — make sure the Performance Expectation(s), Science & Engineering Practice, Crosscutting Concept, and Disciplinary Core Idea match each other and the lesson activities. If you are unsure whether an NGSS code is real, flag it in the Notes & Reflections section rather than fabricating one. (Codes can be verified at nextgenscience.org.)\n';
+  p+='4. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
+  p+='5. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do) · F: 5-10 min · T: 3-5 min.\n';
+  p+='6. **Including a "Check the Machine" exercise** in the Fortify phase if students will use AI during the lesson (task, before-prediction, after-AI-output, takeaway).\n\n';
+  p+='## Output Format — CRITICAL\n\n';
+  p+='Return ONLY the complete revised lesson plan as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing lesson from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
+  p+='Follow these rules exactly:\n\n';
+  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `standard_types`, `standards` (with an `NGSS:` list), `materials`, and `tags`. Always keep `CRAFT` in the `tags` list.\n';
+  p+='- Use `# Lesson Title` as the single H1.\n';
+  p+='- Use these H2 headings in order: `## Overview`, `## NGSS Alignment`, `## CRAFT Cycle`, `## Assessment`, `## Notes & Reflections`.\n';
+  p+='- Under `## Overview`, first write a 2-3 sentence summary paragraph, then a bullet list containing `- **Grade Level:** ...`, `- **Subject Area:** ...`, `- **Estimated Duration:** ...`, and `- **Author:** ...`.\n';
+  p+='- Under `## NGSS Alignment`, use a bullet list with `- **Performance Expectation(s):** ...`, `- **Science & Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
+  p+='- Under `## CRAFT Cycle`, use exactly these H3 headings (em-dashes, not hyphens):\n';
+  p+='    - `### C — Contextualize (Why This Matters)`\n';
+  p+='    - `### R — Reframe (Address the Misconception)`\n';
+  p+='    - `### A — Assemble (I Do → We Do → You Do)`\n';
+  p+='    - `### F — Fortify (Verify Understanding)`\n';
+  p+='    - `### T — Transfer (Connect Forward)`\n';
+  p+='- Keep these bolded sub-labels verbatim (the loader uses them as parse anchors): `**Career Connection:**`, `**Common Misconception:**`, `**Correct Understanding:**`, `**I Do — Teacher Demonstrates:**`, `**We Do — Guided Practice:**`, `**You Do — Independent/Group Practice:**`, `**Materials Needed:**`, `**Formative Assessment:**`, `**Check the Machine (CtM):**`, `**Connection to Next Lesson:**`, `**Extension / Homework:**`.\n';
+  p+='- Separate each labeled block with a blank line so the parser can find boundaries.\n';
+  p+='- Do NOT wrap the whole document in a code fence. Do NOT add commentary, preamble, or summary before or after the Markdown. Your reply should be the Markdown document and nothing else.\n\n';
+  p+='## Current Lesson Plan Draft\n\n';
+  p+='Fields the teacher left blank are simply absent from the draft below — fill those in. Fields with content are the teacher\'s starting point — refine and extend them.\n\n';
+  p+='<draft>\n';
+  p+=draft;
+  p+='\n</draft>\n';
+  return p;
+}
+
+async function copyLLMPrompt(){
+  const prompt=buildLLMPrompt(collect());
+  if(await clipboardText(prompt))flash('AI prompt copied — paste into ChatGPT, Claude, Gemini, or your LLM of choice');
+  else flash('Could not copy — your browser blocked clipboard access');
 }
 
 async function copyRichText(){
