@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Poll Questions — CRAFT PD Series: Unlocking AI &amp; IoT for K-12 STEM</title>
+<meta name="description" content="Facilitator guide: in-session Zoom poll questions mapped to CRAFT cycle phases for all three workshops.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+    --w1: #2563eb;
+    --w2: #dc2626;
+    --w3: #059669;
+    --phase-c: #7c3aed;
+    --phase-r: #dc2626;
+    --phase-a: #059669;
+    --phase-f: #d97706;
+    --phase-t: #0891b2;
+    --reveal-bg: #fef2f2;
+    --reveal-border: #fecaca;
+    --reveal-text: #991b1b;
+    --font: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    --mono: 'IBM Plex Mono', 'Consolas', monospace;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+  }
+
+  /* ── Header ── */
+  .page-header {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border);
+  }
+  .page-header .series-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .page-header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: var(--text);
+  }
+  .page-header .subtitle {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 6px;
+  }
+  .page-header .hosted-by {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 8px;
+  }
+
+  /* ── Tab nav ── */
+  .tab-nav {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    flex: 1 1 140px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 2px solid var(--border);
+    background: var(--surface);
+    color: var(--text-secondary);
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    line-height: 1.3;
+  }
+  .tab-btn:hover { border-color: var(--text-muted); }
+  .tab-btn.active { color: #fff; }
+  .tab-btn[data-ws="1"].active { background: var(--w1); border-color: var(--w1); }
+  .tab-btn[data-ws="2"].active { background: var(--w2); border-color: var(--w2); }
+  .tab-btn[data-ws="3"].active { background: var(--w3); border-color: var(--w3); }
+
+  /* ── Workshop header ── */
+  .ws-header {
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #fff;
+  }
+  .ws-header[data-ws="1"] { background: var(--w1); }
+  .ws-header[data-ws="2"] { background: var(--w2); }
+  .ws-header[data-ws="3"] { background: var(--w3); }
+
+  .ws-header .ws-date {
+    font-size: 11px;
+    opacity: 0.8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .ws-header .ws-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+  .ws-header .ws-meta {
+    font-size: 12px;
+    opacity: 0.85;
+    margin-top: 4px;
+  }
+  .copy-all-btn {
+    background: rgba(255,255,255,0.18);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    padding: 9px 16px;
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+  }
+  .copy-all-btn:hover { background: rgba(255,255,255,0.28); }
+
+  /* ── Poll card ── */
+  .poll-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface);
+    margin-bottom: 14px;
+  }
+  .poll-phase-bar {
+    background: #f8fafc;
+    border-bottom: 1px solid var(--border);
+    padding: 9px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .poll-phase-bar .left { display: flex; align-items: center; gap: 8px; }
+  .phase-badge {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+  .phase-badge[data-phase="Contextualize"] { background: var(--phase-c); }
+  .phase-badge[data-phase="Reframe"]       { background: var(--phase-r); }
+  .phase-badge[data-phase="Assemble"]      { background: var(--phase-a); }
+  .phase-badge[data-phase="Fortify"]       { background: var(--phase-f); }
+  .phase-badge[data-phase="Transfer"]      { background: var(--phase-t); }
+
+  .poll-count {
+    font-size: 12px;
+    color: var(--text-secondary);
+  }
+  .poll-timing {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: var(--mono);
+  }
+
+  .poll-body { padding: 16px 18px; }
+
+  .poll-question {
+    font-size: 15px;
+    font-weight: 650;
+    margin-bottom: 12px;
+    line-height: 1.45;
+    color: #0f172a;
+  }
+
+  .poll-options { display: flex; flex-direction: column; gap: 5px; }
+
+  .poll-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 7px 11px;
+    border-radius: 8px;
+    background: #f8fafc;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .option-letter {
+    font-weight: 700;
+    color: var(--text-muted);
+    min-width: 18px;
+    flex-shrink: 0;
+    font-size: 12px;
+  }
+
+  /* ── Purpose + copy ── */
+  .poll-footer {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .poll-purpose {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-style: italic;
+    flex: 1;
+    min-width: 160px;
+    line-height: 1.5;
+  }
+  .copy-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-family: var(--font);
+    font-size: 11px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-weight: 600;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: all 0.15s;
+  }
+  .copy-btn:hover { border-color: var(--text-muted); }
+  .copy-btn.copied { color: var(--phase-a); border-color: var(--phase-a); }
+
+  /* ── Reveal block ── */
+  .reveal-block {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: var(--reveal-bg);
+    border: 1px solid var(--reveal-border);
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--reveal-text);
+  }
+  .reveal-block .reveal-label {
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── Deployment notes ── */
+  .deploy-notes {
+    margin-top: 28px;
+    padding: 16px 18px;
+    background: #f1f5f9;
+    border-radius: 10px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .deploy-notes strong { color: var(--text); }
+
+  /* ── Print ── */
+  @media print {
+    body { background: #fff; }
+    .container { max-width: 100%; padding: 12px; }
+    .tab-nav { display: none !important; }
+    .copy-all-btn, .copy-btn { display: none !important; }
+    .ws-panel { display: block !important; }
+    .ws-header { break-inside: avoid; }
+    .poll-card { break-inside: avoid; border: 1px solid #ccc; }
+    .ws-panel + .ws-panel { margin-top: 24px; }
+    .deploy-notes { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header -->
+  <div class="page-header">
+    <div class="series-label">CRAFT PD Series — Facilitator Resource</div>
+    <h1>Live Poll Questions</h1>
+    <div class="subtitle">In-session Zoom polls · Mapped to CRAFT cycle phases · Copy-ready</div>
+    <div class="hosted-by">UCF DRACO Lab / UCF School of Teacher Education · Western Regional Noyce Network</div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tab-nav">
+    <button class="tab-btn active" data-ws="1" onclick="showWS(1)">W1 · Apr 11<br><small>AI for STEM</small></button>
+    <button class="tab-btn" data-ws="2" onclick="showWS(2)">W2 · Apr 18<br><small>Verifying AI Outputs</small></button>
+    <button class="tab-btn" data-ws="3" onclick="showWS(3)">W3 · Apr 25<br><small>Edge/IoT with AI</small></button>
+  </div>
+
+  <!-- Workshop panels (built by JS) -->
+  <div id="panels"></div>
+
+  <!-- Deployment notes -->
+  <div class="deploy-notes">
+    <strong>Deployment notes:</strong>
+    <span id="total-count"></span> total polls across 3 workshops.
+    Each poll is single-select. For Zoom: create as "Polls" in your meeting settings before each session.
+    The facilitator notes (💡) and reveal scripts (🎯) are for you — participants won't see those.
+    Each workshop is standalone — no poll assumes attendance at prior sessions.
+  </div>
+</div>
+
+<script>
+const PHASE_ICONS = {
+  Contextualize: "🌍",
+  Reframe: "🔄",
+  Assemble: "🔧",
+  Fortify: "🛡️",
+  Transfer: "🚀"
+};
+
+const WORKSHOPS = [
+  {
+    id: 1,
+    date: "April 11",
+    title: "Using AI for STEM: Lessons and More",
+    polls: [
+      {
+        phase: "Contextualize",
+        timing: "~8:35 AM — Opening Icebreaker",
+        question: "Which best describes your current relationship with AI tools?",
+        options: [
+          "What's an LLM?",
+          "I've poked around but nothing stuck",
+          "I use AI sometimes for personal stuff",
+          "I already use AI in my teaching",
+          "I could teach THIS workshop 😎"
+        ],
+        purpose: "Gauge baseline + break the ice with humor"
+      },
+      {
+        phase: "Contextualize",
+        timing: "~8:42 AM — After AI-in-STEM careers discussion",
+        question: "What takes up the MOST of your planning time each week?",
+        options: [
+          "Writing/finding lesson materials",
+          "Differentiating for varied skill levels",
+          "Aligning to standards (NGSS, CSTA, etc.)",
+          "Creating assessments & rubrics",
+          "Administrative busywork (not teaching!)"
+        ],
+        purpose: "Identify pain points to connect to prompt engineering solutions"
+      },
+      {
+        phase: "Reframe",
+        timing: "~8:55 AM — Reframe opener",
+        question: "What do you believe is MOST true about AI in teaching?",
+        options: [
+          "The key skill is learning to write better prompts",
+          "AI is basically a faster search engine for lesson ideas",
+          "If I know my subject well, I'll catch any AI mistakes",
+          "AI saves time on the boring stuff so I can focus on teaching",
+          "The main risk is students using AI to cheat"
+        ],
+        purpose: "Every option sounds reasonable — and every one contains a wrong mental model. Show results, then challenge whichever the room clusters on.",
+        reveal: "Let's look at what the room picked. Every one of these sounds true — and every one is subtly wrong. [Adapt to majority pick] If you picked 'better prompts' — the real skill gap isn't input, it's evaluating output. 'Faster search engine' — a search engine returns things that exist; an LLM generates things that sound like they should exist. 'I'll catch mistakes' — your expertise actually makes you more likely to skim past plausible errors. 'Saves time' — it shifts time from creation to verification, and most people skip the verification. 'Students cheating' — the bigger risk no one talks about is teachers trusting AI output without checking it. The reframe for today: AI is a co-pilot, but co-pilots don't just help fly the plane — they require a pilot who knows when to override."
+      },
+      {
+        phase: "Assemble",
+        timing: "~9:55 AM — After cross-platform prompt lab",
+        question: "Which platform gave you the best results for YOUR subject area?",
+        options: [
+          "ChatGPT",
+          "Claude",
+          "Gemini",
+          "They were roughly equal",
+          "None of them nailed it"
+        ],
+        purpose: "Quick temperature check on platform comparison activity"
+      },
+      {
+        phase: "Fortify",
+        timing: "~10:35 AM — After output audit activity",
+        question: "In your output audit, what was the most common issue you found?",
+        options: [
+          "Factual errors / hallucinations",
+          "Wrong grade level or vocabulary",
+          "Didn't match the standard I asked for",
+          "Generic / not subject-specific enough",
+          "Actually — it was pretty good!"
+        ],
+        purpose: "Validate the 'trust but verify' message with their own data"
+      },
+      {
+        phase: "Transfer",
+        timing: "~11:40 AM — Closing reflection",
+        question: "After today, what will you try FIRST in your classroom?",
+        options: [
+          "Generate a lesson plan with engineered prompts",
+          "Create differentiated practice problems",
+          "Use AI to draft assessments/rubrics",
+          "Have students compare AI outputs critically",
+          "I need more time before I try anything"
+        ],
+        purpose: "Transfer intent — also useful pre/post comparison data point"
+      }
+    ]
+  },
+  {
+    id: 2,
+    date: "April 18",
+    title: "Verifying STEM AI Outputs",
+    polls: [
+      {
+        phase: "Contextualize",
+        timing: "~8:35 AM — Opening Icebreaker",
+        question: "When you see AI-generated content (a lesson plan, an email, a news article) — what's your first instinct?",
+        options: [
+          "Trust it — if it sounds right, it probably is",
+          "Skim for obvious errors, then move on",
+          "Assume it's wrong until I verify",
+          "Depends entirely on the topic",
+          "I honestly can't tell what's AI-generated anymore"
+        ],
+        purpose: "Baseline trust posture — sets up the theme of verification. The spread of responses becomes a reference point for the Reframe."
+      },
+      {
+        phase: "Contextualize",
+        timing: "~8:42 AM — Hallucination hook",
+        question: "Quick: What is 9.11 minus 9.9?",
+        options: [
+          "-0.79",
+          "0.21",
+          "-0.89",
+          "-0.79… wait, let me think again"
+        ],
+        purpose: "Mirror a famous LLM failure — participants feel the same trap"
+      },
+      {
+        phase: "Reframe",
+        timing: "~9:00 AM — Academic integrity framing",
+        question: "Be honest: when you read an AI-generated explanation in YOUR subject area and it uses correct vocabulary, references the right concepts, and matches what you'd expect — how long do you spend evaluating it before deciding it's accurate?",
+        options: [
+          "A few seconds — I can tell quickly",
+          "Under 30 seconds — quick scan for red flags",
+          "30 seconds to a minute — I read it through",
+          "1–2 minutes — I read carefully and cross-check",
+          "2+ minutes — I verify against external sources"
+        ],
+        purpose: "Most experts will pick 'a few seconds' or 'under 30 seconds' — and feel good about it. Then immediately show them an AI output with a plausible embedded error and give them 20 seconds to find it. Most won't.",
+        reveal: "Here's the trap: the more expert you are in a subject, the faster you evaluate — and the more you trust your gut. Your fluency means you pattern-match faster, mentally autocorrect subtle errors, and fill in gaps the AI left. 'I'll know if it's wrong' feels true, but it's exactly the overconfidence that lets plausible errors through. That's why Check the Machine works — it forces the verification steps your expertise lets you skip."
+      },
+      {
+        phase: "Assemble",
+        timing: "~9:55 AM — After code error hunt breakout",
+        question: "In the Code Error Hunt, how did your group find the bugs?",
+        options: [
+          "Read line-by-line and spotted the logic error",
+          "Ran the code mentally (dry run / trace)",
+          "Asked a DIFFERENT AI to check the first AI's work",
+          "Used a calculator or reference to verify outputs",
+          "Honestly, we struggled to find them"
+        ],
+        purpose: "Metacognition — make verification strategies visible"
+      },
+      {
+        phase: "Fortify",
+        timing: "~10:50 AM — After Check the Machine deep dive",
+        question: "Which step of Check the Machine (CtM) do you think students will resist most?",
+        options: [
+          "Task — defining what they're actually asking",
+          "Before — predicting the answer BEFORE using AI",
+          "After — verifying AI output against their prediction",
+          "Takeaway — reflecting on what they learned",
+          "They'll resist the whole thing 😅"
+        ],
+        purpose: "Anticipate implementation friction → prep realistic strategies"
+      },
+      {
+        phase: "Transfer",
+        timing: "~11:40 AM — Closing reflection",
+        question: "Which CtM application are you most likely to use in your classroom?",
+        options: [
+          "AI-assisted math problem verification",
+          "Code debugging with the CtM protocol",
+          "Science fact-checking / claim verification",
+          "Writing feedback & revision cycles",
+          "I'm adapting it for something else entirely"
+        ],
+        purpose: "Transfer specificity — they leave with a concrete plan"
+      }
+    ]
+  },
+  {
+    id: 3,
+    date: "April 25",
+    title: "Integrated STEM: Programming Edge/IoT Systems with AI",
+    polls: [
+      {
+        phase: "Contextualize",
+        timing: "~8:35 AM — Hardware check-in",
+        question: "How's your micro:bit kit looking?",
+        options: [
+          "Unboxed, plugged in, ready to go!",
+          "I have it but haven't opened it yet",
+          "Having trouble getting it connected",
+          "My kit hasn't arrived 😬",
+          "What's a micro:bit?"
+        ],
+        purpose: "Triage hardware issues immediately — critical for virtual delivery"
+      },
+      {
+        phase: "Contextualize",
+        timing: "~8:45 AM — IoT framing",
+        question: "How many 'smart' / internet-connected devices are in your home right now?",
+        options: [
+          "0–2 (just phone & laptop)",
+          "3–5 (thermostat, speaker, etc.)",
+          "6–10 (I'm getting into it)",
+          "11+ (my house basically runs itself)",
+          "I actively avoid connected devices"
+        ],
+        purpose: "Contextualize IoT as already-here, not futuristic"
+      },
+      {
+        phase: "Reframe",
+        timing: "~9:00 AM — Reframe opener",
+        question: "To run a meaningful IoT data-collection project in your classroom, which of these does your school NEED to provide?",
+        options: [
+          "Reliable WiFi for every student device",
+          "A cloud service (AWS, Google Cloud, etc.)",
+          "A computer to initially program the device",
+          "All of the above",
+          "I'm honestly not sure"
+        ],
+        purpose: "Most will pick 'WiFi' or 'All of the above.' The answer is just a computer to flash the program — and only once. The micro:bit processes data on-device (edge computing), stores locally, and never needs WiFi.",
+        reveal: "The answer is: a computer to program the device — and only for the initial setup. After that, the micro:bit collects, processes, and displays data entirely on-device. No WiFi, no cloud, no login credentials. This is edge computing, and it's the part of IoT that actually works in classrooms. If 'my school doesn't have reliable WiFi' was on your barrier list — that barrier just disappeared."
+      },
+      {
+        phase: "Assemble",
+        timing: "~9:50 AM — After single-sensor activity",
+        question: "You just got your micro:bit reading sensor data. How do you feel?",
+        options: [
+          "🎉 That was awesome!",
+          "😊 Cool — I see the potential",
+          "🤔 I followed along but I'm shaky",
+          "😰 I'm lost and need help",
+          "🤖 Already thinking about what's next"
+        ],
+        purpose: "Real-time confidence check before ramping to multi-sensor"
+      },
+      {
+        phase: "Assemble",
+        timing: "~10:25 AM — After LLM-assisted coding activity",
+        question: "When you asked the AI to help write micro:bit code, what happened?",
+        options: [
+          "It worked perfectly on the first try",
+          "Needed small edits but mostly right",
+          "It wrote the wrong language / platform",
+          "The code looked good but didn't work on hardware",
+          "I couldn't get a useful prompt together"
+        ],
+        purpose: "Surface the gap between AI-generated code and hardware reality — even 'correct' code may not work on a physical device."
+      },
+      {
+        phase: "Fortify",
+        timing: "~10:55 AM — Calibration problem",
+        question: "The micro:bit's temperature sensor reads CPU temp, not room temp. What's the engineering fix?",
+        options: [
+          "Subtract a fixed offset",
+          "Use an external sensor instead",
+          "Calibrate against a known thermometer",
+          "Run code that minimizes CPU usage first",
+          "All of the above could work"
+        ],
+        purpose: "Real engineering problem — no single right answer, great discussion"
+      },
+      {
+        phase: "Transfer",
+        timing: "~11:40 AM — Closing reflection",
+        question: "After today, what's the FIRST thing you'll try with your micro:bit back in your classroom?",
+        options: [
+          "A temperature/environment monitoring project",
+          "A motion/accelerometer-based activity",
+          "Have students use AI to write micro:bit code, then verify it",
+          "A multi-sensor data collection lab",
+          "I need to explore more before I commit"
+        ],
+        purpose: "Transfer intent — concrete next step tied to today's session."
+      }
+    ]
+  }
+];
+
+// ── Render ──
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function buildPanels() {
+  const root = document.getElementById('panels');
+  let totalPolls = 0;
+
+  WORKSHOPS.forEach(ws => {
+    totalPolls += ws.polls.length;
+    const phases = [...new Set(ws.polls.map(p => p.phase))];
+
+    const panel = document.createElement('div');
+    panel.className = 'ws-panel';
+    panel.id = 'ws-' + ws.id;
+    panel.style.display = ws.id === 1 ? 'block' : 'none';
+
+    // Header
+    panel.innerHTML = `
+      <div class="ws-header" data-ws="${ws.id}">
+        <div>
+          <div class="ws-date">Workshop ${ws.id} · ${esc(ws.date)}</div>
+          <div class="ws-title">${esc(ws.title)}</div>
+          <div class="ws-meta">${ws.polls.length} polls across ${phases.length} CRAFT phases</div>
+        </div>
+        <button class="copy-all-btn" onclick="copyAll(${ws.id})">📋 Copy all polls</button>
+      </div>
+    `;
+
+    // Poll cards
+    ws.polls.forEach((poll, idx) => {
+      const letters = poll.options.map((o, i) => String.fromCharCode(65 + i));
+      const cardId = `poll-${ws.id}-${idx}`;
+
+      let revealHTML = '';
+      if (poll.reveal) {
+        revealHTML = `
+          <div class="reveal-block">
+            <div class="reveal-label">🎯 Facilitator reveal (say AFTER showing poll results)</div>
+            ${esc(poll.reveal)}
+          </div>
+        `;
+      }
+
+      const card = document.createElement('div');
+      card.className = 'poll-card';
+      card.innerHTML = `
+        <div class="poll-phase-bar">
+          <div class="left">
+            <span class="phase-badge" data-phase="${esc(poll.phase)}">${PHASE_ICONS[poll.phase] || ''} ${esc(poll.phase)}</span>
+            <span class="poll-count">Poll ${idx + 1} of ${ws.polls.length}</span>
+          </div>
+          <span class="poll-timing">${esc(poll.timing)}</span>
+        </div>
+        <div class="poll-body">
+          <div class="poll-question">${esc(poll.question)}</div>
+          <div class="poll-options">
+            ${poll.options.map((o, i) => `
+              <div class="poll-option">
+                <span class="option-letter">${letters[i]}.</span>
+                <span>${esc(o)}</span>
+              </div>
+            `).join('')}
+          </div>
+          <div class="poll-footer">
+            <div class="poll-purpose">💡 ${esc(poll.purpose)}</div>
+            <button class="copy-btn" id="${cardId}" onclick="copyPoll(${ws.id}, ${idx}, '${cardId}')">Copy</button>
+          </div>
+          ${revealHTML}
+        </div>
+      `;
+      panel.appendChild(card);
+    });
+
+    root.appendChild(panel);
+  });
+
+  document.getElementById('total-count').textContent = totalPolls;
+}
+
+// ── Tab switching ──
+function showWS(id) {
+  document.querySelectorAll('.ws-panel').forEach(p => p.style.display = 'none');
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('ws-' + id).style.display = 'block';
+  document.querySelector(`.tab-btn[data-ws="${id}"]`).classList.add('active');
+}
+
+// ── Copy single poll ──
+function copyPoll(wsId, idx, btnId) {
+  const ws = WORKSHOPS.find(w => w.id === wsId);
+  const p = ws.polls[idx];
+  const text = p.question + '\n' + p.options.map((o, i) =>
+    '  ' + String.fromCharCode(65 + i) + '. ' + o
+  ).join('\n');
+
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById(btnId);
+    btn.textContent = '✓ Copied';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+  });
+}
+
+// ── Copy all polls for a workshop ──
+function copyAll(wsId) {
+  const ws = WORKSHOPS.find(w => w.id === wsId);
+  const text = ws.title + ' — ' + ws.date + '\n' +
+    '='.repeat(44) + '\n\n' +
+    ws.polls.map((p, i) =>
+      'Poll ' + (i+1) + ' — ' + p.phase + ' (' + p.timing + ')\n' +
+      p.question + '\n' +
+      p.options.map((o, j) => '  ' + String.fromCharCode(65+j) + '. ' + o).join('\n') +
+      '\n[Purpose: ' + p.purpose + ']' +
+      (p.reveal ? '\n[Reveal: ' + p.reveal + ']' : '')
+    ).join('\n\n---\n\n');
+
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector(`#ws-${wsId} .copy-all-btn`);
+    btn.textContent = '✓ Copied all!';
+    setTimeout(() => { btn.textContent = '📋 Copy all polls'; }, 2000);
+  });
+}
+
+// ── Init ──
+buildPanels();
+</script>
+
+</body>
+</html>
