@@ -6,6 +6,7 @@ type: facilitator
 
 ## Facilitator Agenda
 
+- [CRAFT PD Series Facilitator Agenda (web)](../pds/craft-pd-series/facilitator-agenda.html)
 - [CRAFT PD Series Facilitator Agenda (.docx)](../pds/craft-pd-series/CRAFT_PD_Series_Facilitator_Agenda.docx)
 
 ## Workshop Slides, Workspaces, and Polls

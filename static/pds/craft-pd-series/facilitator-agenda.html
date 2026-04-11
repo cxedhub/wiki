@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facilitator Master Agenda — CRAFT PD Series</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B2A4A; --ink-med: #2C4A6E; --ink-light: #5A7FA0;
+    --paper: #FAFBFE; --warm: #F7F5F0;
+    --gold: #D4A843; --gold-bg: #FFF8E7;
+    --red: #C0392B; --red-bg: #FDECEC;
+    --green: #27AE60; --green-bg: #E8F8F0;
+    --teal: #1ABC9C; --teal-bg: #E8FAF6;
+    --purple: #8E6BBF; --purple-bg: #F3EDF9;
+    --blue-bg: #E8F0FE;
+    --gray-100: #F5F5F5; --gray-200: #E8E8E8; --gray-400: #999; --gray-600: #666;
+    --do-color: #27AE60; --listen-color: #2E86AB; --break-color: #999;
+    --radius: 10px; --radius-sm: 6px;
+    --shadow-sm: 0 1px 3px rgba(27,42,74,0.06);
+    --shadow-md: 0 4px 16px rgba(27,42,74,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; font-size: 16px; -webkit-font-smoothing: antialiased; }
+
+  /* ── HEADER ── */
+  .page-header {
+    background: var(--ink); color: #fff; padding: 32px 24px 28px;
+    position: relative; overflow: hidden;
+  }
+  .page-header::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--gold), var(--red), var(--green), var(--teal), var(--purple));
+  }
+  .header-inner { max-width: 860px; margin: 0 auto; }
+  .header-inner .ws-num {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+    text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.6; margin-bottom: 6px;
+  }
+  .header-inner h1 { font-family: 'DM Serif Display', serif; font-size: 1.9rem; line-height: 1.2; margin-bottom: 6px; }
+  .header-inner .subtitle { font-family: 'DM Sans', sans-serif; font-size: 1rem; font-weight: 500; opacity: 0.85; margin-bottom: 10px; }
+  .header-inner .meta { font-size: 0.88rem; opacity: 0.7; line-height: 1.7; }
+  .header-inner .meta strong { font-weight: 600; opacity: 0.9; }
+  .print-btn {
+    position: absolute; top: 24px; right: 24px;
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25);
+    color: #fff; font-family: 'DM Sans', sans-serif; font-size: 0.78rem; font-weight: 500;
+    padding: 6px 14px; border-radius: 6px; cursor: pointer; transition: all 0.2s;
+  }
+  .print-btn:hover { background: rgba(255,255,255,0.25); }
+
+  /* ── BACK NAV ── */
+  .back-nav { max-width: 860px; margin: 0 auto; padding: 12px 24px 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .back-nav a { font-size: 0.78rem; font-weight: 500; color: var(--ink-light); text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: all 0.2s; }
+  .back-nav a:hover { background: var(--blue-bg); color: var(--ink); }
+
+  /* ── CONTENT WRAPPERS ── */
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+  .section { max-width: 860px; margin: 0 auto; padding: 24px; }
+  .section h2 {
+    font-family: 'DM Serif Display', serif; font-size: 1.4rem;
+    color: var(--ink); margin-bottom: 14px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--gray-200);
+  }
+  .section h3 {
+    font-family: 'DM Sans', sans-serif; font-size: 1rem; font-weight: 600;
+    color: var(--ink-med); margin: 18px 0 8px;
+    text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .section p { color: var(--ink-med); margin-bottom: 10px; }
+  .section ul { margin: 8px 0 12px 22px; color: var(--ink-med); }
+  .section ul li { margin-bottom: 4px; }
+  .section ul li a { color: var(--teal); text-decoration: none; word-break: break-word; }
+  .section ul li a:hover { text-decoration: underline; }
+
+  /* ── QUICK REFERENCE TABLE ── */
+  .ref-table {
+    width: 100%; border-collapse: collapse; font-size: 0.85rem;
+    background: #fff; border: 1px solid var(--gray-200);
+    border-radius: var(--radius-sm); overflow: hidden;
+    box-shadow: var(--shadow-sm); margin-top: 8px;
+  }
+  .ref-table th, .ref-table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--gray-200); }
+  .ref-table th {
+    background: var(--ink); color: #fff; font-weight: 600;
+    font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .ref-table tr:last-child td { border-bottom: none; }
+  .ref-table td:first-child { font-weight: 600; color: var(--ink); white-space: nowrap; }
+  .ref-table a { color: var(--teal); text-decoration: none; font-weight: 500; }
+  .ref-table a:hover { text-decoration: underline; }
+  .ref-table-wrap { overflow-x: auto; margin: 8px 0 16px; }
+
+  /* ── CRAFT PHASE CARDS ── */
+  .craft-phases { display: grid; gap: 10px; margin-top: 10px; }
+  .craft-phase-card {
+    display: flex; align-items: flex-start; gap: 14px;
+    background: #fff; border: 1px solid var(--gray-200); border-left-width: 4px;
+    border-radius: var(--radius-sm); padding: 12px 16px;
+  }
+  .craft-phase-card .letter {
+    font-family: 'DM Serif Display', serif; font-size: 1.6rem; font-weight: 700;
+    min-width: 34px; text-align: center; line-height: 1;
+  }
+  .craft-phase-card .body { flex: 1; font-size: 0.9rem; color: var(--ink-med); }
+  .craft-phase-card .body strong { color: var(--ink); font-weight: 600; }
+  .craft-phase-card.c { border-left-color: var(--gold); } .craft-phase-card.c .letter { color: var(--gold); }
+  .craft-phase-card.r { border-left-color: var(--red); } .craft-phase-card.r .letter { color: var(--red); }
+  .craft-phase-card.a { border-left-color: var(--green); } .craft-phase-card.a .letter { color: var(--green); }
+  .craft-phase-card.f { border-left-color: var(--teal); } .craft-phase-card.f .letter { color: var(--teal); }
+  .craft-phase-card.t { border-left-color: var(--purple); } .craft-phase-card.t .letter { color: var(--purple); }
+
+  /* ── WORKSHOP SECTION ── */
+  .workshop-section { max-width: 860px; margin: 0 auto; padding: 32px 24px 16px; }
+  .workshop-section h2 {
+    font-family: 'DM Serif Display', serif; font-size: 1.55rem;
+    color: var(--ink); margin-bottom: 8px;
+  }
+  .workshop-section .ws-meta { font-size: 0.88rem; color: var(--ink-med); line-height: 1.75; margin-bottom: 8px; }
+  .workshop-section .ws-meta strong { color: var(--ink); }
+  .workshop-section .ws-meta a { color: var(--teal); text-decoration: none; word-break: break-word; }
+  .workshop-section .ws-meta a:hover { text-decoration: underline; }
+  .workshop-section .ws-quote {
+    font-family: 'DM Serif Display', serif; font-style: italic;
+    color: var(--ink); font-size: 1rem;
+    padding: 10px 16px; border-left: 3px solid var(--teal);
+    background: var(--teal-bg); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    margin: 10px 0 16px;
+  }
+
+  /* ── QUICK LINKS ── */
+  .quick-links {
+    max-width: 860px; margin: 0 auto; padding: 8px 24px 16px;
+    display: flex; flex-wrap: wrap; gap: 8px;
+  }
+  .quick-links a {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #fff; border: 1px solid var(--gray-200); border-radius: 8px;
+    padding: 8px 14px; font-size: 0.82rem; font-weight: 500;
+    color: var(--ink-med); text-decoration: none;
+    transition: all 0.2s; box-shadow: var(--shadow-sm);
+  }
+  .quick-links a:hover { border-color: var(--teal); color: var(--teal); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+  .quick-links .ql-icon { font-size: 1rem; }
+
+  /* ── MATERIALS LIST ── */
+  .materials { max-width: 860px; margin: 0 auto; padding: 0 24px 12px; }
+  .materials h3 {
+    font-family: 'DM Sans', sans-serif; font-size: 0.78rem; font-weight: 600;
+    color: var(--ink-light); text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 6px;
+  }
+  .materials ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.82rem; }
+  .materials ul li { color: var(--ink-med); }
+  .materials ul li a { color: var(--teal); text-decoration: none; }
+  .materials ul li a:hover { text-decoration: underline; }
+
+  /* ── RATIO BAR ── */
+  .ratio-bar {
+    max-width: 860px; margin: 0 auto; padding: 0 24px 18px;
+  }
+  .ratio-visual {
+    display: flex; height: 10px; border-radius: 5px; overflow: hidden;
+    background: var(--gray-200); margin-bottom: 6px;
+  }
+  .ratio-visual .listen-seg { background: var(--listen-color); }
+  .ratio-visual .do-seg { background: var(--do-color); }
+  .ratio-visual .break-seg { background: var(--gray-400); }
+  .ratio-label { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.75rem; color: var(--gray-600); }
+  .ratio-label span { display: flex; align-items: center; gap: 4px; }
+  .ratio-label .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+  /* ── TIMELINE ── */
+  .timeline { max-width: 860px; margin: 0 auto; padding: 0 24px 20px; }
+
+  .time-block {
+    display: grid; grid-template-columns: 72px 1fr; gap: 0;
+    position: relative; margin-bottom: 2px;
+  }
+  .time-block::before {
+    content: ''; position: absolute; left: 71px; top: 0; bottom: 0;
+    width: 3px; background: var(--gray-200); z-index: 0;
+  }
+  .time-block:last-child::before { display: none; }
+
+  .tb-time {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; font-weight: 500;
+    color: var(--ink-light); padding-top: 14px; text-align: right; padding-right: 16px;
+    position: relative; z-index: 1;
+  }
+  .tb-content {
+    background: #fff; border: 1px solid var(--gray-200);
+    border-radius: var(--radius-sm); padding: 14px 18px;
+    margin-bottom: 6px; margin-left: 12px;
+    position: relative; z-index: 1;
+    transition: transform 0.15s;
+  }
+  .tb-content:hover { transform: translateX(2px); }
+
+  .tb-top { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+  .tb-badge {
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    padding: 2px 8px; border-radius: 3px; color: #fff;
+  }
+  .tb-badge.do { background: var(--do-color); }
+  .tb-badge.listen { background: var(--listen-color); }
+  .tb-badge.break { background: var(--gray-400); }
+  .tb-badge.admin { background: var(--ink-light); }
+
+  .tb-phase {
+    font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 2px 7px; border-radius: 3px; border: 1px solid;
+  }
+  .tb-phase.c { color: var(--gold); border-color: var(--gold); background: var(--gold-bg); }
+  .tb-phase.r { color: var(--red); border-color: var(--red); background: var(--red-bg); }
+  .tb-phase.a { color: var(--green); border-color: var(--green); background: var(--green-bg); }
+  .tb-phase.f { color: var(--teal); border-color: var(--teal); background: var(--teal-bg); }
+  .tb-phase.t { color: var(--purple); border-color: var(--purple); background: var(--purple-bg); }
+
+  .tb-dur {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+    color: var(--gray-400); margin-left: auto;
+  }
+  .tb-title { font-weight: 600; font-size: 0.95rem; }
+  .tb-desc { font-size: 0.85rem; color: var(--ink-med); margin-top: 4px; line-height: 1.55; }
+  .tb-desc strong { color: var(--ink); }
+  .tb-desc em { font-style: italic; color: var(--ink); }
+
+  /* row shading */
+  .tb-content.shade-do { border-left: 3px solid var(--do-color); }
+  .tb-content.shade-listen { border-left: 3px solid var(--listen-color); }
+  .tb-content.shade-break { border-left: 3px solid var(--gray-400); background: var(--gray-100); }
+  .tb-content.shade-admin { border-left: 3px solid var(--ink-light); background: var(--blue-bg); }
+
+  /* ── SECTION DIVIDER ── */
+  .section-divider {
+    max-width: 860px; margin: 20px auto 0;
+    text-align: center; padding: 16px 24px 0;
+    font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--ink-light);
+    border-top: 1px dashed var(--gray-200);
+  }
+
+  /* ── CHECKLIST ── */
+  .checklist-group { margin-top: 14px; }
+  .checklist-group h3 {
+    font-family: 'DM Sans', sans-serif; font-size: 0.92rem; font-weight: 600;
+    color: var(--ink); margin-bottom: 6px;
+    text-transform: none; letter-spacing: 0;
+  }
+  .checklist-group ul { margin: 4px 0 12px 22px; }
+
+  /* ── FOOTER ── */
+  .page-footer {
+    max-width: 860px; margin: 0 auto; padding: 16px 24px 40px;
+    text-align: center; font-size: 0.82rem; color: var(--gray-600);
+  }
+  .page-footer a { color: var(--teal); text-decoration: none; }
+
+  /* ── PRINT ── */
+  @media print {
+    body { font-size: 11pt; background: #fff; }
+    .page-header { background: #fff !important; color: var(--ink) !important; padding: 16px 0; }
+    .page-header::after { display: none; }
+    .print-btn, .back-nav { display: none !important; }
+    .tb-content { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+    .time-block::before { background: #ccc; }
+    .tb-content:hover { transform: none; }
+    .timeline { padding: 0 0 12px; }
+    .workshop-section { page-break-before: auto; padding-top: 16px; }
+    .workshop-section:first-of-type { page-break-before: auto; }
+    .page-footer { padding-top: 20px; }
+    .ref-table { font-size: 10pt; }
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 600px) {
+    .time-block { grid-template-columns: 1fr; }
+    .tb-time { text-align: left; padding: 8px 0 0 16px; }
+    .time-block::before { left: 6px; }
+    .tb-content { margin-left: 16px; }
+    .quick-links { flex-direction: column; }
+    .print-btn { position: static; margin-top: 12px; }
+    .header-inner h1 { font-size: 1.45rem; }
+    .ref-table { font-size: 0.78rem; }
+    .ref-table th, .ref-table td { padding: 8px 8px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <button class="print-btn" onclick="window.print()">🖨 Print View</button>
+  <div class="header-inner">
+    <div class="ws-num">Facilitator Master Agenda</div>
+    <h1>CRAFT PD Series: Unlocking AI &amp; IoT for K-12 STEM</h1>
+    <div class="subtitle">Three-workshop master run-of-show for facilitators</div>
+    <div class="meta">
+      <strong>Hosted by:</strong> UCF DRACO Lab (Dept. of ECE) &amp; School of Teacher Education (CCIE)<br>
+      <strong>Facilitators:</strong> Dr. Mike Borowczak &amp; Dr. Andrea Borowczak<br>
+      <strong>Series:</strong> Western Regional Noyce Network (WRNN)<br>
+      <strong>Participants:</strong> ~20-25 Noyce recipients per session<br>
+      <strong>Platform:</strong> Zoom (virtual, synchronous) — see links below
+    </div>
+  </div>
+</div>
+
+<div class="back-nav">
+  <a href="/pds/craft-pd-series/">← Series Home</a>
+  <a href="/facilitator/">← Facilitator Resources</a>
+  <a href="workshop-1-agenda.html">W1 Agenda</a>
+  <a href="workshop-2-agenda.html">W2 Agenda</a>
+  <a href="workshop-3-agenda.html">W3 Agenda</a>
+  <a href="#appendix">Appendix ↓</a>
+  <a href="#checklist">Checklist ↓</a>
+</div>
+
+<section class="section">
+  <h2>Links — Quick Reference</h2>
+  <p>Copy-paste these into Zoom chat at the appropriate times:</p>
+  <div class="ref-table-wrap">
+  <table class="ref-table">
+    <thead>
+      <tr>
+        <th>Workshop</th>
+        <th>Zoom</th>
+        <th>Pre-Survey</th>
+        <th>Shared Doc</th>
+        <th>Post-Survey</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>W1: Apr 11</td>
+        <td><a href="https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1" target="_blank">Join Zoom</a></td>
+        <td><a href="https://ucf.qualtrics.com/jfe/form/SV_bq1qU641tSt7O0S" target="_blank">Pre-Survey</a></td>
+        <td><a href="https://docs.google.com/document/d/11sYpp3Ho0PUEOwjro4M5fkpMwp-9XPLo/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank">Shared Doc</a></td>
+        <td><a href="https://ucf.qualtrics.com/jfe/form/SV_eEswd3p2cnnrZVs" target="_blank">Post-Survey</a></td>
+      </tr>
+      <tr>
+        <td>W2: Apr 18</td>
+        <td><a href="https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1" target="_blank">Join Zoom</a></td>
+        <td><a href="https://ucf.qualtrics.com/jfe/form/SV_5c01mD7bR8nzB3M" target="_blank">Pre-Survey</a></td>
+        <td><a href="https://docs.google.com/document/d/1qabmRf2MdjUJ9G4v6SqNhZm7_6UcMVqZ/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank">Shared Doc</a></td>
+        <td><a href="https://ucf.qualtrics.com/jfe/form/SV_6KEIQN9w20YvCMm" target="_blank">Post-Survey</a></td>
+      </tr>
+      <tr>
+        <td>W3: Apr 25</td>
+        <td><a href="https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1" target="_blank">Join Zoom</a></td>
+        <td><a href="https://ucf.qualtrics.com/jfe/form/SV_8G2kZYDDaRslsDY" target="_blank">Pre-Survey</a></td>
+        <td><a href="https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank">Shared Doc</a></td>
+        <td><a href="https://ucf.qualtrics.com/jfe/form/SV_5cnzJo6KUcwqa34" target="_blank">Post-Survey</a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2>CRAFT Cycle Phases (All Workshops)</h2>
+  <div class="craft-phases">
+    <div class="craft-phase-card c">
+      <div class="letter">C</div>
+      <div class="body"><strong>Contextualize:</strong> Where are participants starting? Activate prior knowledge.</div>
+    </div>
+    <div class="craft-phase-card r">
+      <div class="letter">R</div>
+      <div class="body"><strong>Reframe:</strong> Shift perspective. Address fears. Build buy-in.</div>
+    </div>
+    <div class="craft-phase-card a">
+      <div class="letter">A</div>
+      <div class="body"><strong>Assemble:</strong> Hands-on building. I Do → We Do → You Do scaffolding.</div>
+    </div>
+    <div class="craft-phase-card f">
+      <div class="letter">F</div>
+      <div class="body"><strong>Fortify:</strong> Verify, test, check. Apply Check the Machine (CtM) protocol.</div>
+    </div>
+    <div class="craft-phase-card t">
+      <div class="letter">T</div>
+      <div class="body"><strong>Transfer:</strong> Design something for YOUR classroom. Make it real.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ WORKSHOP 1 ═══════════════════════════════ -->
+<div class="section-divider">Workshop 1 of 3</div>
+<section class="workshop-section">
+  <h2>Workshop 1: Using AI for STEM</h2>
+  <div class="ws-meta">
+    <strong>Date:</strong> April 11, 2026  |  8:30 AM – 12:00 PM PST<br>
+    <strong>Zoom:</strong> <a href="https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1" target="_blank">https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1</a><br>
+    <strong>Focus:</strong> Curriculum alignment, differentiation, administrative time-saving<br>
+    <strong>Talk:Do Ratio:</strong> 28 min facilitator / 162 min participant (1:5.8)
+  </div>
+  <div class="ws-quote">"Stop asking what is AI and start asking how does this help my students learn."</div>
+</section>
+
+<div class="quick-links">
+  <a href="https://ucf.qualtrics.com/jfe/form/SV_bq1qU641tSt7O0S" target="_blank"><span class="ql-icon">📝</span> Pre-Survey (share at 8:30)</a>
+  <a href="https://docs.google.com/document/d/11sYpp3Ho0PUEOwjro4M5fkpMwp-9XPLo/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank"><span class="ql-icon">📋</span> Shared Group Workspace (share at 8:30)</a>
+  <a href="https://ucf.qualtrics.com/jfe/form/SV_eEswd3p2cnnrZVs" target="_blank"><span class="ql-icon">📊</span> Post-Survey (share at 11:40)</a>
+</div>
+
+<div class="materials">
+  <h3>Session Materials (share as needed)</h3>
+  <ul>
+    <li>Participant Live Agenda: <a href="/pds/craft-pd-series/workshop-1-agenda.html" target="_blank">/pds/craft-pd-series/workshop-1-agenda.html</a></li>
+    <li>Web Slides: <a href="/pds/craft-pd-series/slides-w1.html" target="_blank">/pds/craft-pd-series/slides-w1.html</a></li>
+    <li>Download PPTX: <a href="/pds/craft-pd-series/Workshop-1-Slides.pptx" target="_blank">/pds/craft-pd-series/Workshop-1-Slides.pptx</a></li>
+    <li>Lesson Template: <a href="/pds/craft-pd-series/resources/lesson-template.html" target="_blank">/pds/craft-pd-series/resources/lesson-template.html</a></li>
+    <li>Workshop Page: <a href="/pds/craft-pd-series/workshop-1-ai-for-stem/" target="_blank">/pds/craft-pd-series/workshop-1-ai-for-stem/</a></li>
+  </ul>
+</div>
+
+<div class="ratio-bar">
+  <div class="ratio-visual">
+    <div class="listen-seg" style="flex:28"></div>
+    <div class="break-seg" style="flex:20"></div>
+    <div class="do-seg" style="flex:162"></div>
+  </div>
+  <div class="ratio-label">
+    <span><span class="dot" style="background:var(--listen-color)"></span> Facilitator-led (28 min)</span>
+    <span><span class="dot" style="background:var(--do-color)"></span> Participant activities (162 min)</span>
+    <span><span class="dot" style="background:var(--gray-400)"></span> Breaks (20 min)</span>
+  </div>
+</div>
+
+<div class="timeline">
+
+  <div class="time-block">
+    <div class="tb-time">8:30</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Welcome + Icebreaker + Pre-Survey</div>
+      <div class="tb-desc">Welcome participants, quick introductions. <strong>Icebreaker:</strong> One word that describes your relationship with AI (type in chat). <strong>Pre-Survey:</strong> Open Pre-Survey. <strong>Shared Doc:</strong> Open Group Workspace. <strong>Facilitator:</strong> Share screen with survey QR code.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:40</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase c">Contextualize</span>
+        <span class="tb-dur">15 min</span>
+      </div>
+      <div class="tb-title">What Is AI, Really?</div>
+      <div class="tb-desc">Brief demo: same prompt on ChatGPT, Claude, Gemini side by side. Frame: AI is a tool, not magic. Show the range of outputs. Participants follow along on their own devices.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:55</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase r">Reframe</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">AI as Co-Pilot, Not Autopilot</div>
+      <div class="tb-desc"><strong>Poll:</strong> What's your biggest fear about AI in teaching? <strong>Breakout rooms</strong> (4-5 per group, 10 min): Discuss fears, then reframe as opportunities. <strong>Report-out:</strong> Each group shares their reframe (2 min each). Participants type takeaways in Shared Group Workspace.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:15</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #1</div>
+      <div class="tb-desc">Stretch, refill, check micro:bit shipping status jokes.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:25</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Cross-Platform Prompt Engineering</div>
+      <div class="tb-desc"><strong>I Do (5 min):</strong> Demo prompt engineering — show a bad prompt vs. good prompt. <strong>We Do (10 min):</strong> Groups test SAME prompt on 3 platforms, fill comparison table in Shared Doc. <strong>You Do (10 min):</strong> Each person writes their own prompt and tests it.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:50</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Prompt Iteration Lab</div>
+      <div class="tb-desc">Take a weak output, iterate on the prompt, document before/after. Groups work in their color-coded section of the Shared Doc. Facilitator circulates through breakout rooms.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:15</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble</span>
+        <span class="tb-dur">30 min</span>
+      </div>
+      <div class="tb-title">NGSS-Aligned Lesson Builder</div>
+      <div class="tb-desc">Use preferred LLM to generate a lesson aligned to a specific NGSS standard. Customize for their grade band and subject. Add best prompts to the Collective Prompt Library table. Walk around, help with prompt specificity.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:45</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #2</div>
+      <div class="tb-desc">Stretch. Remind participants to add to Collective Prompt Library.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:55</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase f">Fortify</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">Spot the Difference</div>
+      <div class="tb-desc">Present two lessons (one AI, one human). Groups analyze in Shared Doc. Gallery walk: groups review each other's analyses. This plants the seed for Workshop 2's verification focus.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:15</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase t">Transfer</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Lesson Idea Board + CRAFT Debrief</div>
+      <div class="tb-desc">Everyone adds to the Shared Lesson Idea Board. Brief CRAFT debrief: reveal the C→R→A→F→T structure they just experienced. <em>"You are now an AI-equipped STEM educator. Go break things and learn from them."</em></div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:40</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">Resources + Post-Survey + Close</div>
+      <div class="tb-desc">Share Google Drive folder link. Walk through Digital Toolkit. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Remind:</strong> Workshop 2 in one week — we'll learn to verify AI outputs.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════ WORKSHOP 2 ═══════════════════════════════ -->
+<div class="section-divider">Workshop 2 of 3</div>
+<section class="workshop-section">
+  <h2>Workshop 2: Verifying STEM AI Outputs</h2>
+  <div class="ws-meta">
+    <strong>Date:</strong> April 18, 2026  |  8:30 AM – 12:00 PM PST<br>
+    <strong>Zoom:</strong> <a href="https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1" target="_blank">https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1</a><br>
+    <strong>Focus:</strong> Academic integrity, error analysis, critical thinking in STEM<br>
+    <strong>Talk:Do Ratio:</strong> 26 min facilitator / 164 min participant (1:6.3)
+  </div>
+  <div class="ws-quote">"Your students are using AI — but do they know when it's wrong?"</div>
+</section>
+
+<div class="quick-links">
+  <a href="https://ucf.qualtrics.com/jfe/form/SV_5c01mD7bR8nzB3M" target="_blank"><span class="ql-icon">📝</span> Pre-Survey (share at 8:30)</a>
+  <a href="https://docs.google.com/document/d/1qabmRf2MdjUJ9G4v6SqNhZm7_6UcMVqZ/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank"><span class="ql-icon">📋</span> Shared Group Workspace (share at 8:30)</a>
+  <a href="https://ucf.qualtrics.com/jfe/form/SV_6KEIQN9w20YvCMm" target="_blank"><span class="ql-icon">📊</span> Post-Survey (share at 11:40)</a>
+</div>
+
+<div class="materials">
+  <h3>Session Materials (share as needed)</h3>
+  <ul>
+    <li>Participant Live Agenda: <a href="/pds/craft-pd-series/workshop-2-agenda.html" target="_blank">/pds/craft-pd-series/workshop-2-agenda.html</a></li>
+    <li>Web Slides: <a href="/pds/craft-pd-series/slides-w2.html" target="_blank">/pds/craft-pd-series/slides-w2.html</a></li>
+    <li>Download PPTX: <a href="/pds/craft-pd-series/Workshop-2-Slides.pptx" target="_blank">/pds/craft-pd-series/Workshop-2-Slides.pptx</a></li>
+    <li>AI Error Gallery (Code Snippets): <a href="/pds/craft-pd-series/resources/error-gallery.html" target="_blank">/pds/craft-pd-series/resources/error-gallery.html</a></li>
+    <li>Content Audit Checklist: <a href="/pds/craft-pd-series/resources/content-audit-checklist.html" target="_blank">/pds/craft-pd-series/resources/content-audit-checklist.html</a></li>
+    <li>CtM Template: <a href="/pds/craft-pd-series/resources/ctm-template.html" target="_blank">/pds/craft-pd-series/resources/ctm-template.html</a></li>
+    <li>Workshop Page: <a href="/pds/craft-pd-series/workshop-2-verifying-outputs/" target="_blank">/pds/craft-pd-series/workshop-2-verifying-outputs/</a></li>
+  </ul>
+</div>
+
+<div class="ratio-bar">
+  <div class="ratio-visual">
+    <div class="listen-seg" style="flex:26"></div>
+    <div class="break-seg" style="flex:20"></div>
+    <div class="do-seg" style="flex:164"></div>
+  </div>
+  <div class="ratio-label">
+    <span><span class="dot" style="background:var(--listen-color)"></span> Facilitator-led (26 min)</span>
+    <span><span class="dot" style="background:var(--do-color)"></span> Participant activities (164 min)</span>
+    <span><span class="dot" style="background:var(--gray-400)"></span> Breaks (20 min)</span>
+  </div>
+</div>
+
+<div class="timeline">
+
+  <div class="time-block">
+    <div class="tb-time">8:30</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Welcome + Pre-Survey</div>
+      <div class="tb-desc">Welcome back! Quick check-in: What did you try since Workshop 1? <strong>Pre-Survey:</strong> Open Pre-Survey. <strong>Shared Doc:</strong> Open Group Workspace.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:40</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase c">Contextualize</span>
+        <span class="tb-dur">15 min</span>
+      </div>
+      <div class="tb-title">When AI Gets It Wrong</div>
+      <div class="tb-desc">Live demo: Ask an LLM a STEM question it gets subtly wrong. Show real examples of AI hallucinations in code and science content. Dramatic reveal — participants don't know the errors until told.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:55</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase r">Reframe</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">The Problem Isn't AI Use — It's Unverified AI Use</div>
+      <div class="tb-desc"><strong>Poll:</strong> How confident are you at catching AI errors? (chat vote). <strong>Breakout discussion:</strong> When have students submitted unverified AI work? Groups capture insights in Shared Group Workspace.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:15</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #1</div>
+      <div class="tb-desc">Stretch. Tease the error hunt coming up.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:25</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble Part A</span>
+        <span class="tb-dur">30 min</span>
+      </div>
+      <div class="tb-title">Code Error Hunt</div>
+      <div class="tb-desc"><strong>I Do (5 min):</strong> Walk through one buggy code snippet, model the debugging process. <strong>You Do (25 min):</strong> Breakout groups receive AI-generated code snippets with deliberate bugs. Groups compete: most verified bugs wins! Post findings in Shared Doc. Code snippets include: projectile calc (deg/rad), list sorting, unit conversion.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:55</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble Part B</span>
+        <span class="tb-dur">30 min</span>
+      </div>
+      <div class="tb-title">Content Error Hunt</div>
+      <div class="tb-desc">Same format, now with AI-generated science/math explanations. Groups find factual errors and rate subtlety (Obvious / Tricky / Sneaky). Everyone adds discoveries to the Collective AI Error Gallery.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:25</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #2</div>
+      <div class="tb-desc">Stretch. Groups check their error counts.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:35</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase f">Fortify</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Check the Machine (CtM) Protocol Deep Dive</div>
+      <div class="tb-desc">Introduce CtM: <strong>Task → Before → After → Takeaway</strong>. Each group applies CtM to a new AI output, posts full walkthrough in Shared Doc. Then: design a CtM activity for their own classroom (subject + grade). <strong>CtM is the key artifact from this workshop.</strong></div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:00</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase t">Transfer</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">AI Policy Committee</div>
+      <div class="tb-desc">Groups draft verification-based classroom norms for AI use. Each group presents their top 2 norms. Compile best into shared template. <em>"Your students don't need to be AI experts. They need to be AI skeptics."</em></div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:20</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">Debrief + Resources + Post-Survey + Close</div>
+      <div class="tb-desc">Debrief wall in Shared Doc. Share CtM template and Error Gallery links. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Remind:</strong> Workshop 3 next week — micro:bits arrive! Check email for hardware prep.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════ WORKSHOP 3 ═══════════════════════════════ -->
+<div class="section-divider">Workshop 3 of 3</div>
+<section class="workshop-section">
+  <h2>Workshop 3: Programming Edge/IoT Systems with AI</h2>
+  <div class="ws-meta">
+    <strong>Date:</strong> April 25, 2026  |  8:30 AM – 12:00 PM PST<br>
+    <strong>Zoom:</strong> <a href="https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1" target="_blank">https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1</a><br>
+    <strong>Focus:</strong> NGSS/CTE alignment, hardware sensors, real-world data processing<br>
+    <strong>Talk:Do Ratio:</strong> 25 min facilitator / 165 min participant (1:6.6)
+  </div>
+  <div class="ws-quote">"Take computing out of the browser and into the physical world."</div>
+</section>
+
+<div class="quick-links">
+  <a href="https://ucf.qualtrics.com/jfe/form/SV_8G2kZYDDaRslsDY" target="_blank"><span class="ql-icon">📝</span> Pre-Survey (share at 8:30)</a>
+  <a href="https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank"><span class="ql-icon">📋</span> Shared Group Workspace (share at 8:30)</a>
+  <a href="https://ucf.qualtrics.com/jfe/form/SV_5cnzJo6KUcwqa34" target="_blank"><span class="ql-icon">📊</span> Post-Survey (share at 11:40)</a>
+</div>
+
+<div class="materials">
+  <h3>Session Materials (share as needed)</h3>
+  <ul>
+    <li>Participant Live Agenda: <a href="/pds/craft-pd-series/workshop-3-agenda.html" target="_blank">/pds/craft-pd-series/workshop-3-agenda.html</a></li>
+    <li>Web Slides: <a href="/pds/craft-pd-series/slides-w3.html" target="_blank">/pds/craft-pd-series/slides-w3.html</a></li>
+    <li>Download PPTX: <a href="/pds/craft-pd-series/Workshop-3-Slides.pptx" target="_blank">/pds/craft-pd-series/Workshop-3-Slides.pptx</a></li>
+    <li>IoT Lesson Template: <a href="/pds/craft-pd-series/resources/iot-lesson-template.html" target="_blank">/pds/craft-pd-series/resources/iot-lesson-template.html</a></li>
+    <li>MakeCode Editor: <a href="https://makecode.microbit.org" target="_blank">https://makecode.microbit.org</a></li>
+    <li>MicroPython Editor: <a href="https://python.microbit.org" target="_blank">https://python.microbit.org</a></li>
+    <li>Workshop Page: <a href="/pds/craft-pd-series/workshop-3-edge-iot/" target="_blank">/pds/craft-pd-series/workshop-3-edge-iot/</a></li>
+  </ul>
+</div>
+
+<div class="ratio-bar">
+  <div class="ratio-visual">
+    <div class="listen-seg" style="flex:25"></div>
+    <div class="break-seg" style="flex:20"></div>
+    <div class="do-seg" style="flex:165"></div>
+  </div>
+  <div class="ratio-label">
+    <span><span class="dot" style="background:var(--listen-color)"></span> Facilitator-led (25 min)</span>
+    <span><span class="dot" style="background:var(--do-color)"></span> Participant activities (165 min)</span>
+    <span><span class="dot" style="background:var(--gray-400)"></span> Breaks (20 min)</span>
+  </div>
+</div>
+
+<div class="timeline">
+
+  <div class="time-block">
+    <div class="tb-time">8:30</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Welcome + Hardware Check + Pre-Survey</div>
+      <div class="tb-desc">Welcome! Quick connectivity check — everyone plug in micro:bit. Troubleshoot any USB/driver issues. <strong>Pre-Survey:</strong> Open Pre-Survey. <strong>Shared Doc:</strong> Open Group Workspace.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:40</div>
+    <div class="tb-content shade-listen">
+      <div class="tb-top">
+        <span class="tb-badge listen">Listen</span>
+        <span class="tb-phase c">Contextualize</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">What Is Physical Computing?</div>
+      <div class="tb-desc">Brief overview: Edge Computing vs. Cloud. Why sensors matter. Show a 60-second micro:bit demo — temperature on LED. <strong>Keep it short — participants want to build.</strong></div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">8:50</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase r">Reframe</span>
+        <span class="tb-dur">15 min</span>
+      </div>
+      <div class="tb-title">Coding Is Physical, Not Just Screens</div>
+      <div class="tb-desc"><strong>Poll:</strong> How many of you think "I'm not a programmer"? <strong>Breakout:</strong> Barriers to physical computing in your classroom. How to overcome them? Groups post in Shared Group Workspace.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:05</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #1</div>
+      <div class="tb-desc">Stretch. Make sure all micro:bits are showing in MakeCode.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:15</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble Part A</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Single Sensor Program</div>
+      <div class="tb-desc"><strong>I Do (5 min):</strong> Live-code temperature → LED display in MakeCode. <strong>You Do (20 min):</strong> Everyone replicates it. Log readings in Collective Data Log. <strong>Engineering moment:</strong> CPU temp ≠ ambient temp. Why? This builds the class dataset for Fortify phase.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">9:40</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase a">Assemble Part B</span>
+        <span class="tb-dur">40 min</span>
+      </div>
+      <div class="tb-title">Multi-Sensor Breakout Challenge</div>
+      <div class="tb-desc">Groups pick 2+ sensors, use an LLM to help write the code. Document: sensors chosen, LLM prompt used, what worked/didn't. Post code and findings in Shared Doc's LLM-Assisted Code Gallery. <strong>Level-up available:</strong> Track A (MakeCode+) or Track B (MicroPython).</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:20</div>
+    <div class="tb-content shade-break">
+      <div class="tb-top">
+        <span class="tb-badge break">Break</span>
+        <span class="tb-dur">10 min</span>
+      </div>
+      <div class="tb-title">Break #2</div>
+      <div class="tb-desc">Stretch. Facilitator checks group progress.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:30</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase f">Fortify</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">Sensor Verification via CtM</div>
+      <div class="tb-desc">Apply Check the Machine to sensor readings. Compare micro:bit data against known references. Groups post verification results in Shared Doc. Connects back to Workshop 2's CtM protocol.</div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">10:55</div>
+    <div class="tb-content shade-do">
+      <div class="tb-top">
+        <span class="tb-badge do">Do</span>
+        <span class="tb-phase t">Transfer</span>
+        <span class="tb-dur">25 min</span>
+      </div>
+      <div class="tb-title">IoT Lesson Design</div>
+      <div class="tb-desc">Everyone designs a lesson using the micro:bit for their classroom. Add to the Shared IoT Lesson Idea Board. Pairs share and give feedback. <em>"You just programmed a physical computer using AI as your co-pilot and verified the results like an engineer. Your students can do this too."</em></div>
+    </div>
+  </div>
+
+  <div class="time-block">
+    <div class="tb-time">11:20</div>
+    <div class="tb-content shade-admin">
+      <div class="tb-top">
+        <span class="tb-badge admin">Admin</span>
+        <span class="tb-dur">20 min</span>
+      </div>
+      <div class="tb-title">Debrief + Resources + Post-Survey + Close</div>
+      <div class="tb-desc"><strong>The micro:bit is YOURS.</strong> Take it to your classroom. Debrief wall in Shared Doc. Share Google Drive folder. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Closing:</strong> series recap, what's next, stay connected.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════ APPENDIX ═══════════════════════════════ -->
+<div class="section-divider" id="appendix">Appendix: Master Resource List</div>
+<section class="section">
+  <h2>Appendix: Master Resource List</h2>
+  <p>Complete inventory of all links, files, and resources across the series.</p>
+
+  <h3>Session Links (share in Zoom chat)</h3>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Workshop 1: AI for STEM (Apr 11)</h3>
+  <ul>
+    <li>Zoom: <a href="https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1" target="_blank">https://ucf.zoom.us/j/96520248667?pwd=gqfMJJAKQ5fEOWTXrabpeIiTYuom0u.1</a></li>
+    <li>Pre-Survey: <a href="https://ucf.qualtrics.com/jfe/form/SV_bq1qU641tSt7O0S" target="_blank">https://ucf.qualtrics.com/jfe/form/SV_bq1qU641tSt7O0S</a></li>
+    <li>Shared Group Doc: <a href="https://docs.google.com/document/d/11sYpp3Ho0PUEOwjro4M5fkpMwp-9XPLo/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank">Google Doc</a></li>
+    <li>Post-Survey: <a href="https://ucf.qualtrics.com/jfe/form/SV_eEswd3p2cnnrZVs" target="_blank">https://ucf.qualtrics.com/jfe/form/SV_eEswd3p2cnnrZVs</a></li>
+  </ul>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Workshop 2: Verifying AI (Apr 18)</h3>
+  <ul>
+    <li>Zoom: <a href="https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1" target="_blank">https://ucf.zoom.us/j/96789217432?pwd=pzJPBMpRqaTlq3Hi5qe8NAexHXYTUd.1</a></li>
+    <li>Pre-Survey: <a href="https://ucf.qualtrics.com/jfe/form/SV_5c01mD7bR8nzB3M" target="_blank">https://ucf.qualtrics.com/jfe/form/SV_5c01mD7bR8nzB3M</a></li>
+    <li>Shared Group Doc: <a href="https://docs.google.com/document/d/1qabmRf2MdjUJ9G4v6SqNhZm7_6UcMVqZ/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank">Google Doc</a></li>
+    <li>Post-Survey: <a href="https://ucf.qualtrics.com/jfe/form/SV_6KEIQN9w20YvCMm" target="_blank">https://ucf.qualtrics.com/jfe/form/SV_6KEIQN9w20YvCMm</a></li>
+  </ul>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Workshop 3: Edge/IoT (Apr 25)</h3>
+  <ul>
+    <li>Zoom: <a href="https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1" target="_blank">https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1</a></li>
+    <li>Pre-Survey: <a href="https://ucf.qualtrics.com/jfe/form/SV_8G2kZYDDaRslsDY" target="_blank">https://ucf.qualtrics.com/jfe/form/SV_8G2kZYDDaRslsDY</a></li>
+    <li>Shared Group Doc: <a href="https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&amp;ouid=107503058538624505453&amp;rtpof=true&amp;sd=true" target="_blank">Google Doc</a></li>
+    <li>Post-Survey: <a href="https://ucf.qualtrics.com/jfe/form/SV_5cnzJo6KUcwqa34" target="_blank">https://ucf.qualtrics.com/jfe/form/SV_5cnzJo6KUcwqa34</a></li>
+  </ul>
+
+  <h3>Website Resources (cxedhub.com)</h3>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Series and Workshop Pages</h3>
+  <ul>
+    <li>Series Overview: <a href="https://www.cxedhub.com/pds/craft-pd-series/" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/</a></li>
+    <li>Workshop 1 Page: <a href="https://www.cxedhub.com/pds/craft-pd-series/workshop-1-ai-for-stem/" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/workshop-1-ai-for-stem/</a></li>
+    <li>Workshop 2 Page: <a href="https://www.cxedhub.com/pds/craft-pd-series/workshop-2-verifying-outputs/" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/workshop-2-verifying-outputs/</a></li>
+    <li>Workshop 3 Page: <a href="https://www.cxedhub.com/pds/craft-pd-series/workshop-3-edge-iot/" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/workshop-3-edge-iot/</a></li>
+  </ul>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Participant Live Agendas</h3>
+  <ul>
+    <li>W1: <a href="https://www.cxedhub.com/pds/craft-pd-series/workshop-1-agenda.html" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/workshop-1-agenda.html</a></li>
+    <li>W2: <a href="https://www.cxedhub.com/pds/craft-pd-series/workshop-2-agenda.html" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/workshop-2-agenda.html</a></li>
+    <li>W3: <a href="https://www.cxedhub.com/pds/craft-pd-series/workshop-3-agenda.html" target="_blank">https://www.cxedhub.com/pds/craft-pd-series/workshop-3-agenda.html</a></li>
+  </ul>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Slides</h3>
+  <ul>
+    <li>W1 Web / PPTX: <a href="/pds/craft-pd-series/slides-w1.html" target="_blank">Web</a>  |  <a href="/pds/craft-pd-series/Workshop-1-Slides.pptx" target="_blank">PPTX</a></li>
+    <li>W2 Web / PPTX: <a href="/pds/craft-pd-series/slides-w2.html" target="_blank">Web</a>  |  <a href="/pds/craft-pd-series/Workshop-2-Slides.pptx" target="_blank">PPTX</a></li>
+    <li>W3 Web / PPTX: <a href="/pds/craft-pd-series/slides-w3.html" target="_blank">Web</a>  |  <a href="/pds/craft-pd-series/Workshop-3-Slides.pptx" target="_blank">PPTX</a></li>
+  </ul>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Activity Resources</h3>
+  <ul>
+    <li>Lesson Template (W1): <a href="/pds/craft-pd-series/resources/lesson-template.html" target="_blank">Open</a></li>
+    <li>AI Error Gallery (W2): <a href="/pds/craft-pd-series/resources/error-gallery.html" target="_blank">Open</a></li>
+    <li>Content Audit Checklist (W2): <a href="/pds/craft-pd-series/resources/content-audit-checklist.html" target="_blank">Open</a></li>
+    <li>CtM Template (W2): <a href="/pds/craft-pd-series/resources/ctm-template.html" target="_blank">Open</a></li>
+    <li>IoT Lesson Template (W3): <a href="/pds/craft-pd-series/resources/iot-lesson-template.html" target="_blank">Open</a></li>
+  </ul>
+
+  <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Admin and Setup</h3>
+  <ul>
+    <li>Survey Instruments Reference: Open</li>
+    <li>Drive Folder Structure Guide: Open</li>
+    <li>Hardware Check Email (W3): Open</li>
+    <li>MakeCode Editor: <a href="https://makecode.microbit.org" target="_blank">makecode.microbit.org</a></li>
+    <li>MicroPython Editor: <a href="https://python.microbit.org" target="_blank">python.microbit.org</a></li>
+  </ul>
+</section>
+
+<!-- ═══════════════════════════════ CHECKLIST ═══════════════════════════════ -->
+<div class="section-divider" id="checklist">⚠️ Pre-Launch Checklist</div>
+<section class="section">
+  <h2>⚠️ Pre-Launch Checklist</h2>
+  <p>Verify before Workshop 1 (April 11):</p>
+
+  <div class="checklist-group">
+    <h3>✅ DONE</h3>
+    <ul>
+      <li>Qualtrics surveys created and imported (6 total: 3 pre with IRB consent, 3 post with WRNN block)</li>
+      <li>Shared Group Workspace docs uploaded to Google Drive and set to 'Anyone with the link can edit'</li>
+      <li>Zoom rooms created (3 separate meetings)</li>
+      <li>Facilitator Master Agenda compiled with all links (this document)</li>
+    </ul>
+  </div>
+
+  <div class="checklist-group">
+    <h3>❓ VERIFY DEPLOYMENT (cxedhub.com)</h3>
+    <ul>
+      <li>Live agenda HTML files (workshop-1/2/3-agenda.html) — update survey placeholders to actual Qualtrics URLs</li>
+      <li>Web slides HTML (slides-w1/w2/w3.html) — confirm deployed to static/pds/craft-pd-series/</li>
+      <li>PPTX slide decks (Workshop-1/2/3-Slides.pptx) — confirm deployed</li>
+      <li>Resource pages (lesson-template, ctm-template, error-gallery, etc.) — confirm deployed to resources/</li>
+      <li>Hugo front matter — add cs_domains, standard_types to workshop .md files for site taxonomy</li>
+    </ul>
+  </div>
+
+  <div class="checklist-group">
+    <h3>❌ NOT YET CREATED</h3>
+    <ul>
+      <li>Prompt Library page — standalone HTML resource (referenced as W1 takeaway)</li>
+      <li>Platform Comparison Cheat Sheet — ChatGPT vs Claude vs Gemini (listed as W1 takeaway)</li>
+      <li>Sensor Reference Guide — micro:bit V2 onboard sensors (listed as W3 takeaway)</li>
+      <li>NGSS Alignment Crosswalk — IoT activities mapped to PEs (listed as W3 takeaway)</li>
+      <li>Digital Toolkit PDFs — per-session downloadable bundles (compile from HTML resource pages)</li>
+      <li>CRAFT Cycle 1-Pager — printable overview (referenced in Drive folder structure)</li>
+      <li>Registration/welcome email — with Zoom links, pre-survey, and logistics</li>
+    </ul>
+  </div>
+</section>
+
+<div class="page-footer">
+  <p>CRAFT PD Series · <a href="https://thedracolab.com">UCF DRACO Lab</a> &amp; <a href="https://ccie.ucf.edu/ste/">UCF School of Teacher Education</a> · Dr. Mike Borowczak &amp; Dr. Andrea Borowczak</p>
+</div>
+
+</body>
+</html>
