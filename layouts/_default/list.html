@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="container">
   <h1>{{ .Title }}</h1>
+  {{ partial "last-updated.html" . }}
   {{ .Content }}
 
   {{ if eq .Section "lessons" }}
@@ -14,5 +15,6 @@
   </div>
 
   {{ template "_internal/pagination.html" . }}
+  <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
 </div>
 {{ end }}

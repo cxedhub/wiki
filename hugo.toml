@@ -1,4 +1,5 @@
 buildFuture = true
+enableGitInfo = true
 baseURL = "https://cxedhub.github.io/wiki/"
 languageCode = "en-us"
 title = "CX Ed Hub"

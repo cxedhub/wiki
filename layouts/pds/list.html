@@ -3,6 +3,7 @@
 
   <header class="pd-series-header">
     <h1>{{ .Title }}</h1>
+    {{ partial "last-updated.html" . }}
     <div class="craft-cycle-visual">
       <span class="craft-letter" style="background: #D4A843;">C</span>
       <span class="craft-letter" style="background: #C0392B;">R</span>
@@ -23,6 +24,8 @@
       {{ partial "pd-card.html" . }}
     {{ end }}
   </div>
+
+  <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
 
   <div class="pd-cross-takeaways">
     <h2>What Every Participant Receives</h2>

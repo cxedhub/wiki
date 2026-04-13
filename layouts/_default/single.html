@@ -3,6 +3,7 @@
   <header class="lesson-header">
     <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="lesson-description">{{ . }}</p>{{ end }}
+    {{ partial "last-updated.html" . }}
   </header>
 
   {{ if .Params.subjects }}
@@ -76,6 +77,7 @@
   </div>
 
   <footer class="lesson-footer">
+    <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
     <a href="{{ .Section | relURL }}" class="back-link">&larr; Back to {{ .Section | title }}</a>
   </footer>
 </article>

@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="container">
   <h1>Lesson Plans</h1>
+  {{ partial "last-updated.html" . }}
   <p>Browse {{ len .Pages }} computing-infused lesson plans created by K-12 educators.</p>
 
   {{ partial "lesson-filters.html" . }}
@@ -10,5 +11,6 @@
       {{ partial "lesson-card.html" . }}
     {{ end }}
   </div>
+  <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
 </div>
 {{ end }}
