@@ -613,6 +613,13 @@ function fromMarkdown(md){
     const end=i+1<hits.length?hits[i+1].idx:body.length;
     sections[hits[i].name]=body.slice(hits[i].start,end).trim();
   }
+  // Case-insensitive section lookup (handles ## STANDARDS, ## standards, etc.)
+  const findSection=(name)=>{
+    if(sections[name])return sections[name];
+    const lc=name.toLowerCase();
+    for(const k of Object.keys(sections)){if(k.toLowerCase()===lc)return sections[k]}
+    return '';
+  };
 
   const lineVal=(text,label)=>{
     const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -627,8 +634,8 @@ function fromMarkdown(md){
   };
 
   // Overview: free-text summary + optional meta bullet list
-  if(sections['Overview']){
-    const overview=sections['Overview'];
+  if(findSection('Overview')){
+    const overview=findSection('Overview');
     const bulletIdx=overview.search(/(^|\n)-\s*\*\*/);
     let summary=overview,list='';
     if(bulletIdx>=0){
@@ -645,40 +652,71 @@ function fromMarkdown(md){
     }
   }
 
-  // Standards Alignment — parse multi-framework bullet list
-  // Accepts either this new structured form:
-  //   ## Standards Alignment
-  //   - **CSTA:** 1A-AP-10, 1A-AP-14
-  //   - **NGSS:** MS-PS2-2
-  // or the legacy NGSS Alignment section with three-dimensional sub-fields.
-  const stdSection=sections['Standards Alignment']||sections['Standards']||'';
+  // Standards Alignment — parse multi-framework standards from multiple formats.
+  // Accepts:
+  //   1. Bullet+bold:  - **CSTA:** 1A-AP-10, 1A-AP-14
+  //   2. Bold only:    **CSTA:** 1A-AP-10, 1A-AP-14
+  //   3. Table rows:   | CSTA (Computer Science) | 1A-AP-10 |
+  //   4. Plain text:   CSTA: 1A-AP-10, 1A-AP-14
+  const stdSection=findSection('Standards Alignment')||findSection('Standards')||'';
   if(stdSection){
     const dict=d.standards||{};
-    const re=/^-\s*\*\*([^:*]+):\*\*\s*(.+)$/gm;
-    let mLine;
-    while((mLine=re.exec(stdSection))!==null){
-      const fw=mLine[1].trim();
-      // Ignore NGSS three-dimensional fields we already pull into sep/ccc/dci
-      if(/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)){d.sep=mLine[2].trim();continue}
-      if(/^Crosscutting\s*Concept$/i.test(fw)){d.ccc=mLine[2].trim();continue}
-      if(/^Disciplinary\s*Core\s*Idea$/i.test(fw)){d.dci=mLine[2].trim();continue}
-      if(/^Performance\s*Expectation/i.test(fw)){
-        const codes=mLine[2].split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+    const isNgss3d=(fw)=>/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)||/^Crosscutting\s*Concept$/i.test(fw)||/^Disciplinary\s*Core\s*Idea$/i.test(fw);
+    const isPE=(fw)=>/^Performance\s*Expectation/i.test(fw);
+    const ingestLine=(fw,val)=>{
+      fw=fw.trim();val=val.trim();
+      if(!fw||!val)return;
+      if(/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)){d.sep=val;return}
+      if(/^Crosscutting\s*Concept$/i.test(fw)){d.ccc=val;return}
+      if(/^Disciplinary\s*Core\s*Idea$/i.test(fw)){d.dci=val;return}
+      if(isPE(fw)){
+        const codes=val.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
         if(codes.length){dict['NGSS']=(dict['NGSS']||[]).concat(codes.filter(c=>(dict['NGSS']||[]).indexOf(c)<0))}
-        continue;
+        return;
       }
-      const codes=mLine[2].split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      const codes=val.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
       if(codes.length){
         const existing=dict[fw]||[];
         codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
         dict[fw]=existing;
       }
+    };
+    let matched=false;
+    // Format 1: bullet + bold  - **FW:** codes
+    const reBB=/^-\s*\*\*([^:*]+):\*\*\s*(.+)$/gm;
+    let mLine;
+    while((mLine=reBB.exec(stdSection))!==null){matched=true;ingestLine(mLine[1],mLine[2])}
+    // Format 2: bold only  **FW:** codes  (no leading bullet)
+    if(!matched){
+      const reBold=/^\*\*([^:*]+):\*\*\s*(.+)$/gm;
+      while((mLine=reBold.exec(stdSection))!==null){matched=true;ingestLine(mLine[1],mLine[2])}
+    }
+    // Format 3: markdown table  | Framework | Code(s) |
+    if(!matched){
+      const reTable=/^\|\s*([^|\-][^|]*?)\s*\|\s*([^|\-][^|]*?)\s*\|/gm;
+      while((mLine=reTable.exec(stdSection))!==null){
+        const fw=mLine[1].trim();const val=mLine[2].trim();
+        // Skip header rows and separator rows
+        if(!fw||!val||/^[-\s]+$/.test(fw)||/^[-\s]+$/.test(val))continue;
+        if(/framework/i.test(fw)&&/code/i.test(val))continue;
+        matched=true;ingestLine(fw,val);
+      }
+    }
+    // Format 4: plain text  FW: codes  (must start with a letter, cap before colon)
+    if(!matched){
+      const rePlain=/^([A-Za-z][^:\n]{0,60}):\s+(.+)$/gm;
+      while((mLine=rePlain.exec(stdSection))!==null){
+        const fw=mLine[1].trim();
+        // Skip lines that look like prose rather than framework labels
+        if(/\s{3,}/.test(fw))continue;
+        ingestLine(fw,mLine[2]);
+      }
     }
     if(Object.keys(dict).length)d.standards=dict;
   }
   // Legacy NGSS Alignment section
-  if(sections['NGSS Alignment']){
-    const na=sections['NGSS Alignment'];
+  if(findSection('NGSS Alignment')){
+    const na=findSection('NGSS Alignment');
     const ngssLine=lineVal(na,'Performance Expectation(s)');
     if(ngssLine){
       const codes=ngssLine.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
@@ -695,8 +733,8 @@ function fromMarkdown(md){
   }
 
   // CRAFT Cycle with ### sub-sections
-  if(sections['CRAFT Cycle']){
-    const cc=sections['CRAFT Cycle'];
+  if(findSection('CRAFT Cycle')){
+    const cc=findSection('CRAFT Cycle');
     const subRe=/^###\s+(.+?)\s*$/gm;
     const subHits=[];
     let sm;
@@ -744,8 +782,8 @@ function fromMarkdown(md){
     }
   }
 
-  if(sections['Assessment'])d.summative=sections['Assessment'];
-  if(sections['Notes & Reflections'])d.notes=sections['Notes & Reflections'];
+  if(findSection('Assessment'))d.summative=findSection('Assessment');
+  if(findSection('Notes & Reflections'))d.notes=findSection('Notes & Reflections');
 
   // Prefer body-derived materials over front-matter single-line form
   if(!d.aMaterials&&d.materials)d.aMaterials=d.materials;
@@ -958,7 +996,9 @@ function buildLLMPrompt(d){
   const standards=d.standards||{};
   const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
   let p='';
-  p+='You are an expert K-12 STEM teacher and instructional designer helping complete and iterate on a lesson plan that follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). The teacher may be working in any STEM discipline — mathematics, science, computer science, engineering, technology, or a cross-disciplinary mix — so calibrate vocabulary, pedagogy, and examples to the subject area they indicate.\n\n';
+  const gradeLabel=d.grade||'K-12';
+  const bandDesc={'K-2':'early-elementary (ages 5-8)','3-5':'upper-elementary (ages 8-11)','6-8':'middle-school (ages 11-14)','9-12':'high-school (ages 14-18)'}[gradeLabel]||gradeLabel;
+  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education, helping complete and iterate on a lesson plan that follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). The teacher may be working in any STEM discipline — mathematics, science, computer science, engineering, technology, or a cross-disciplinary mix — so calibrate vocabulary, pedagogy, and examples to the subject area and age band they indicate.\n\n';
   p+='## Your Task\n\n';
   p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
   p+='1. **Filling in missing or thin sections** with thoughtful, grade-appropriate content that fits the topic, subject area, and audience. Empty or sparse fields are the biggest opportunity to add value.\n';
@@ -967,9 +1007,10 @@ function buildLLMPrompt(d){
   if(fwList.length){
     p+='   The teacher has already aligned to these framework(s): '+fwList.join(', ')+'. Preserve this alignment and deepen the treatment of each listed standard in the activity design.\n';
   }
-  p+='4. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
-  p+='5. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do) · F: 5-10 min · T: 3-5 min.\n';
-  p+='6. **Including a "Check the Machine" exercise** in the Fortify phase if students will use AI during the lesson (task, before-prediction, after-AI-output, takeaway).\n\n';
+  p+='4. **Citing and cross-referencing source materials** — when the lesson references specific concepts, facts, techniques, or data, include brief citations or references back to authoritative source materials (e.g., textbook chapters, framework documents, published research, official curriculum guides). Use inline parenthetical citations like "(see NGSS Lead States, 2013)" or "(adapted from CS Unplugged, Activity 4)". In the Notes & Reflections section, list any key references so the teacher can verify claims and dig deeper. Do NOT fabricate citations — only cite sources you are confident are real.\n';
+  p+='5. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
+  p+='6. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do) · F: 5-10 min · T: 3-5 min.\n';
+  p+='7. **Including a "Check the Machine" exercise** in the Fortify phase if students will use AI during the lesson (task, before-prediction, after-AI-output, takeaway).\n\n';
   p+='## Output Format — CRITICAL\n\n';
   p+='Return ONLY the complete revised lesson plan as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing lesson from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
   p+='Follow these rules exactly:\n\n';
