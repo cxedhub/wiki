@@ -484,6 +484,25 @@ h2 { font-size: 1.5rem; margin: 2rem 0 1rem; }
 .chip-more { background: #f1f5f9; color: var(--color-text-muted); }
 [data-theme="dark"] .chip-more { background: #2a2a2a; }
 
+/* === Last Updated === */
+.last-updated {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  padding: 0.35rem 0;
+}
+.last-updated-label { font-style: italic; }
+.last-updated-history {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-text-muted);
+  transition: color 0.2s;
+}
+.last-updated-history:hover { color: var(--color-primary); text-decoration: none; }
+.last-updated-bottom { margin-top: 1.5rem; padding-top: 0.75rem; border-top: 1px solid var(--color-border); }
+
 /* === Footer === */
 .site-footer {
   margin-top: auto;

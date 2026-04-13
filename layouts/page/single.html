@@ -2,8 +2,10 @@
 <div class="container">
   <article class="page-content">
     <h1>{{ .Title }}</h1>
+    {{ partial "last-updated.html" . }}
     {{ partial "share-buttons.html" . }}
     {{ .Content }}
+    <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
   </article>
 </div>
 {{ end }}

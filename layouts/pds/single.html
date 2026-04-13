@@ -38,6 +38,7 @@
       {{ end }}
     </div>
     {{ partial "share-buttons.html" . }}
+    {{ partial "last-updated.html" . }}
   </header>
 
   {{ with .Params.learning_objectives }}
@@ -100,6 +101,7 @@
   {{ end }}
 
   <footer class="pd-detail-footer">
+    <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
     <a href="{{ "pds/" | relURL }}" class="back-link" target="_blank" rel="noopener">&larr; Back to Professional Development</a>
   </footer>
 </article>
