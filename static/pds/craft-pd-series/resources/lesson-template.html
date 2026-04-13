@@ -1078,7 +1078,8 @@ function downloadMarkdown(){
 
 function downloadDoc(){
   const d=collect();
-  const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
+  const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'<script src="../../../js/last-updated-static.js"></script>
+</body></html>';
   downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
   flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
 }
@@ -1111,4 +1112,5 @@ function flash(msg){
   flash._t=setTimeout(()=>el.classList.remove('show'),2800);
 }
 </script>
+<script src="../../../js/last-updated-static.js"></script>
 </body></html>
