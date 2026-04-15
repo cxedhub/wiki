@@ -44,9 +44,9 @@ takeaways:
 hardware: "BBC micro:bit V2 (mailed in advance, participants keep it)"
 programming_environments: "MakeCode (blocks/JavaScript) primary, MicroPython optional level-up"
 reframe_theme: "Coding is PHYSICAL, not just screens"
-talk_do_ratio: "25 min facilitator-led / 165 min participant activities (1:6.6)"
-talk_minutes: 25
-do_minutes: 165
+talk_do_ratio: "~30 min facilitator-led / ~150 min participant activities (1:5.0)"
+talk_minutes: 30
+do_minutes: 150
 closing_quote: "You just programmed a physical computer using AI as your co-pilot and verified the results like an engineer. Your students can do this too."
 ---
 
@@ -56,7 +56,7 @@ closing_quote: "You just programmed a physical computer using AI as your co-pilo
 
 **Focus:** NGSS/CTE alignment, hardware sensors, real-world data processing
 
-**Talk:Do Ratio:** 25 min facilitator / 165 min participant activities (1:6.6)
+**Talk:Do Ratio:** ~30 min facilitator / ~150 min participant activities (1:5.0)
 
 **Hardware:** BBC micro:bit V2 — mailed in advance, yours to keep!
 
@@ -118,14 +118,15 @@ Ready-to-flash equivalents of every MakeCode activity (for Track B participants)
 
 | CRAFT Phase | Activity | Duration | Type |
 |-------------|----------|----------|------|
-| — | Hardware Check: Is Your micro:bit Alive? | 10 min | You Do |
-| Contextualize | Brainstorm: IoT in Your Subject | 8 min | You Do |
-| Reframe | Breakout: Barriers to Hardware Teaching | 9 min | You Do |
-| Assemble | Guided: Build Your First Sensor Program | 15 min | You Do |
+| — | Hardware Check + Icebreaker + Pre-Survey | 15 min | You Do |
+| Contextualize | CRAFT Orientation + IoT Brainstorm | 15 min | You Do |
+| Reframe | Poll + "Coding Is Physical" | 15 min | Listen |
+| Reframe | Breakout: Barriers to Hardware Teaching | 15 min | You Do |
+| Assemble | I Do + Guided: First Sensor Program | 30 min | You Do |
 | Assemble | Breakout: Multi-Sensor Challenge | 30 min | You Do |
-| Assemble | Level Up: Track A (MakeCode+) or Track B (MicroPython) | 25 min | You Do |
+| Assemble | Level Up: Track A (MakeCode+) or Track B (MicroPython) | 30 min | You Do |
 | Fortify | Experiment: Verify Your Sensor Data | 15 min | You Do |
-| Transfer | Build: Your IoT Lesson for Monday | 18 min | You Do |
+| Transfer | Build: IoT Lesson + Pair-Share + Post-Survey | 15 min | You Do |
 
 ## Level-Up Tracks
 
