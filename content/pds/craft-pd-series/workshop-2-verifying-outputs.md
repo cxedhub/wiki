@@ -38,9 +38,9 @@ takeaways:
   - "AI Error Gallery (annotated examples)"
   - "Prompt library for verify-able outputs"
 reframe_theme: "The problem isn't that students USE AI — it's that they don't VERIFY AI"
-talk_do_ratio: "26 min facilitator-led / 164 min participant activities (1:6.3)"
-talk_minutes: 26
-do_minutes: 164
+talk_do_ratio: "~25 min facilitator-led / ~155 min participant activities (1:6.2)"
+talk_minutes: 25
+do_minutes: 155
 closing_quote: "Your students don't need to be AI experts. They need to be AI skeptics. That's a skill you just learned to teach."
 ---
 
@@ -50,7 +50,7 @@ closing_quote: "Your students don't need to be AI experts. They need to be AI sk
 
 **Focus:** Academic integrity, error analysis, critical thinking in STEM
 
-**Talk:Do Ratio:** 26 min facilitator / 164 min participant activities (1:6.3)
+**Talk:Do Ratio:** ~25 min facilitator / ~155 min participant activities (1:6.2)
 
 Your students are using AI — but do they know when it's wrong? This session equips you with the "Check the Machine" protocol and hands-on error-hunting skills for both AI-generated code and STEM content.
 
@@ -95,15 +95,14 @@ Downloadable Python scripts with deliberate bugs for the breakout error hunt act
 
 | CRAFT Phase | Activity | Duration | Type |
 |-------------|----------|----------|------|
-| Contextualize | Self-Assessment: AI in Your Classroom | 8 min | You Do |
-| Reframe | Breakout: Rewriting the AI Policy | 14 min | You Do |
-| Assemble | Breakout: Code Error Hunt (3 snippets) | 22 min | You Do |
+| Contextualize | CRAFT Orientation + Self-Assessment | 15 min | You Do |
+| Reframe | Poll + "The Real Problem" | 15 min | Listen |
+| Reframe | Breakout: Rewriting the AI Policy | 15 min | You Do |
+| Assemble | I Do + Breakout: Code Error Hunt (3 snippets) | 30 min | You Do |
 | Assemble | Solo: Break Your Own AI | 15 min | You Do |
-| Assemble | Breakout: Content Error Hunt (audit checklist) | 20 min | You Do |
-| Fortify | Follow Along: Live CtM Cycle | 10 min | You Do |
-| Fortify | Partner Practice: Run Your Own CtM | 15 min | You Do |
-| Fortify | Build: Customize CtM for Your Classroom | 12 min | You Do |
-| Transfer | Pair-Share: Your Verification Commitment | 10 min | You Do |
+| Assemble | I Do + Breakout: Content Error Hunt (audit checklist) | 30 min | You Do |
+| Fortify | CtM: Live Cycle + Partner Practice + Build Your Own | 30 min | You Do |
+| Transfer | Debrief + Pair-Share Commitment + Post-Survey | 15 min | You Do |
 
 ## The Check the Machine (CtM) Protocol
 
