@@ -93,6 +93,7 @@ Take computing out of the browser and into the physical world. This session uses
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w3.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-3-Slides.pptx) — import to Google Slides
 - [**📄 IoT Lesson Template**](/pds/craft-pd-series/resources/iot-lesson-template.html) — template for designing sensor-based STEM lessons
+- [**🧰 Sensor-to-Standards Lesson Generator**](/pds/craft-pd-series/resources/sensor-builder.html) — fillable CRAFT-structured IoT lesson builder with sensor selection, multi-framework standards search (NGSS, CSTA, CCSS, ISTE, NCSS C3), auto-generated MakeCode + MicroPython scaffolds, and AI prompt round-trip
 - [**🔬 Sensor Reference Guide**](/pds/craft-pd-series/resources/sensor-reference-guide.html) — all micro:bit V2 onboard sensors with code and calibration notes
 - [**📊 NGSS Alignment Crosswalk**](/pds/craft-pd-series/resources/ngss-crosswalk.html) — IoT activities mapped to NGSS Performance Expectations
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — includes physical computing prompts for micro:bit

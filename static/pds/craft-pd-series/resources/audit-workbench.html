@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Output Audit Workbench — CRAFT PD Series</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --font-heading: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'Fira Code', 'Consolas', monospace;
+  --c-bg: #fafaf8;
+  --c-surface: #ffffff;
+  --c-text: #2d2d2d;
+  --c-muted: #6b7280;
+  --c-border: #e0ddd8;
+  --c-link: #2563eb;
+  /* CRAFT phase colors */
+  --craft-c: #0d9488;  /* Contextualize — teal */
+  --craft-r: #dc2626;  /* Reframe — red */
+  --craft-a: #2563eb;  /* Assemble — blue */
+  --craft-f: #16a34a;  /* Fortify — green */
+  --craft-t: #7c3aed;  /* Transfer — purple */
+  /* CtM step colors */
+  --ctm-task: #0369a1;
+  --ctm-before: #b45309;
+  --ctm-after: #7c3aed;
+  --ctm-takeaway: #0f766e;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--c-text);
+  background: var(--c-bg);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  color: var(--c-link);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.back-link:hover { text-decoration: underline; }
+
+header {
+  text-align: center;
+  padding: 2rem 1.5rem 1.5rem;
+  border-bottom: 1px solid var(--c-border);
+}
+header h1 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+header .subtitle {
+  color: var(--c-muted);
+  font-size: 1.05rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+/* Load section */
+.load-section {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin: 2rem 0;
+}
+.load-section summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--c-text);
+}
+.load-section .load-body { margin-top: 1rem; }
+.load-section textarea {
+  width: 100%;
+  min-height: 100px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  padding: 0.75rem;
+  resize: vertical;
+}
+.load-section .btn-row { margin-top: 0.75rem; display: flex; gap: 0.5rem; }
+
+/* Section styling */
+.form-section {
+  margin-top: 2.5rem;
+}
+.form-section h2 {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+.form-section .section-desc {
+  color: var(--c-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+/* CtM step cards */
+.ctm-step {
+  background: var(--c-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border-left: 5px solid var(--c-border);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.ctm-step.step-task   { border-left-color: var(--ctm-task); }
+.ctm-step.step-before { border-left-color: var(--ctm-before); }
+.ctm-step.step-after  { border-left-color: var(--ctm-after); }
+.ctm-step.step-takeaway { border-left-color: var(--ctm-takeaway); }
+
+.ctm-step .step-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.step-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+.step-task .step-number   { background: var(--ctm-task); }
+.step-before .step-number { background: var(--ctm-before); }
+.step-after .step-number  { background: var(--ctm-after); }
+.step-takeaway .step-number { background: var(--ctm-takeaway); }
+
+.step-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.step-subtitle {
+  color: var(--c-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Form controls */
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+label:first-child { margin-top: 0; }
+label .hint {
+  font-weight: 400;
+  color: var(--c-muted);
+  font-size: 0.85rem;
+}
+
+input[type="text"], select, textarea {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  padding: 0.6rem 0.75rem;
+  background: var(--c-surface);
+  color: var(--c-text);
+  transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--c-link);
+  box-shadow: 0 0 0 3px rgba(37,99,235,.12);
+}
+textarea { resize: vertical; min-height: 80px; }
+textarea.tall { min-height: 150px; }
+
+/* Audit sub-panels */
+.audit-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+.audit-panel {
+  background: #f8f8f6;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+.audit-panel h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.audit-panel .panel-desc {
+  font-size: 0.85rem;
+  color: var(--c-muted);
+  margin-bottom: 0.75rem;
+}
+
+/* Claims inventory table */
+.claims-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.claims-table th {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--c-muted);
+  padding: 0.4rem 0.5rem;
+  border-bottom: 2px solid var(--c-border);
+}
+.claims-table td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid var(--c-border);
+  vertical-align: top;
+}
+.claims-table input[type="text"] {
+  border: none;
+  background: transparent;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+}
+.claims-table input:focus {
+  box-shadow: none;
+  border-bottom: 1px solid var(--c-link);
+}
+.claims-table select {
+  border: none;
+  background: transparent;
+  padding: 0.2rem;
+  font-size: 0.85rem;
+  width: auto;
+}
+.claims-table .remove-btn {
+  background: none;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0 0.25rem;
+}
+.add-claim-btn {
+  margin-top: 0.5rem;
+  background: none;
+  border: 1px dashed var(--c-border);
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--c-muted);
+  transition: all 0.2s;
+}
+.add-claim-btn:hover {
+  border-color: var(--c-link);
+  color: var(--c-link);
+}
+
+/* Verdict */
+.verdict-options {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.verdict-option {
+  flex: 1;
+  min-width: 140px;
+}
+.verdict-option input { display: none; }
+.verdict-option label {
+  display: block;
+  text-align: center;
+  padding: 0.75rem;
+  border: 2px solid var(--c-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 0;
+  transition: all 0.2s;
+}
+.verdict-option input:checked + label.v-keep {
+  border-color: #16a34a;
+  background: #f0fdf4;
+  color: #16a34a;
+}
+.verdict-option input:checked + label.v-fix {
+  border-color: #b45309;
+  background: #fffbeb;
+  color: #b45309;
+}
+.verdict-option input:checked + label.v-cut {
+  border-color: #dc2626;
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+/* Callout boxes */
+.callout {
+  background: #f0f9ff;
+  border-left: 4px solid var(--c-link);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  font-size: 0.92rem;
+}
+.callout.callout-warn {
+  background: #fffbeb;
+  border-left-color: #b45309;
+}
+.callout strong { display: block; margin-bottom: 0.25rem; }
+
+/* Export section */
+.export-section {
+  margin-top: 3rem;
+  border-top: 2px solid var(--c-border);
+  padding-top: 2rem;
+}
+.export-section h2 {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.export-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 600px) {
+  .export-grid { grid-template-columns: 1fr; }
+}
+.export-card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+.export-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.export-card p {
+  font-size: 0.85rem;
+  color: var(--c-muted);
+  margin-bottom: 0.75rem;
+}
+.export-card .btn-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--c-border);
+  background: var(--c-surface);
+  color: var(--c-text);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn:hover { border-color: var(--c-link); color: var(--c-link); }
+.btn.btn-primary {
+  background: var(--c-link);
+  color: #fff;
+  border-color: var(--c-link);
+}
+.btn.btn-primary:hover { background: #1d4ed8; }
+
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: #1e293b;
+  color: #fff;
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  pointer-events: none;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  font-size: 0.85rem;
+  color: var(--c-muted);
+  border-top: 1px solid var(--c-border);
+}
+
+/* Print styles */
+@media print {
+  body { background: #fff; font-size: 11pt; }
+  .back-link, .load-section, .export-section, .add-claim-btn, .remove-btn, .btn, .toast { display: none !important; }
+  .ctm-step { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+  input, textarea, select { border: none !important; box-shadow: none !important; padding: 0.2rem 0 !important; }
+  textarea { min-height: auto !important; height: auto !important; }
+}
+</style>
+</head>
+<body>
+
+<a href="https://www.cxedhub.com/pds/craft-pd-series/" class="back-link">← Back to CRAFT PD Series</a>
+
+<header>
+  <h1>AI Output Audit Workbench</h1>
+  <p class="subtitle">Paste any AI output. Walk through the Check the Machine protocol. Export a classroom-ready audit artifact — or let a <em>second</em> AI audit the first.</p>
+</header>
+
+<div class="container">
+
+  <!-- Load from Markdown -->
+  <details class="load-section">
+    <summary>Load an existing audit from Markdown</summary>
+    <div class="load-body">
+      <p style="font-size:0.9rem;color:var(--c-muted);margin-bottom:0.75rem;">Paste Markdown from a previously exported audit (or from an LLM response). Fields below will be populated.</p>
+      <textarea id="loadMd" placeholder="Paste Markdown here..."></textarea>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="loadFromMarkdown()">📥 Load into Form</button>
+        <button class="btn" onclick="document.getElementById('loadMd').value='';clearForm();">Clear</button>
+      </div>
+    </div>
+  </details>
+
+  <!-- CONTEXT -->
+  <div class="form-section">
+    <h2>Context</h2>
+    <p class="section-desc">Set up the audit — what are you checking and at what level?</p>
+
+    <label for="auditorName">Your Name</label>
+    <input type="text" id="auditorName" placeholder="e.g., Ms. Rodriguez">
+
+    <label for="gradeSubject">Grade Level & Subject</label>
+    <input type="text" id="gradeSubject" placeholder="e.g., 8th Grade Physical Science">
+
+    <label for="aiTool">AI Tool Used</label>
+    <select id="aiTool">
+      <option value="">Select...</option>
+      <option>ChatGPT</option>
+      <option>Claude</option>
+      <option>Gemini</option>
+      <option>Copilot</option>
+      <option>Other</option>
+    </select>
+
+    <label for="expertiseLevel">Your Subject Expertise Level <span class="hint">(honest self-assessment)</span></label>
+    <select id="expertiseLevel">
+      <option value="">Select...</option>
+      <option value="1">1 — I teach this but it's not my strongest area</option>
+      <option value="2">2 — Comfortable with grade-level content</option>
+      <option value="3">3 — Strong content knowledge</option>
+      <option value="4">4 — Could teach AP / advanced level</option>
+      <option value="5">5 — Graduate-level expertise in this topic</option>
+    </select>
+  </div>
+
+  <!-- STEP 1: TASK -->
+  <div class="form-section">
+    <h2>CtM Protocol</h2>
+  </div>
+
+  <div class="ctm-step step-task">
+    <div class="step-header">
+      <div class="step-number">1</div>
+      <div class="step-title">TASK — What did you ask the AI to do?</div>
+    </div>
+    <p class="step-subtitle">Copy your exact prompt. Specificity matters for auditing — a vague prompt explains a vague output.</p>
+    <label for="originalPrompt">Your Prompt <span class="hint">(paste the exact text you sent)</span></label>
+    <textarea id="originalPrompt" class="tall" placeholder="e.g., Create a 7th-grade lesson on density aligned to MS-PS1-2 with a hands-on lab using household materials..."></textarea>
+
+    <label for="intendedUse">Intended Use <span class="hint">(how will this output be used?)</span></label>
+    <select id="intendedUse">
+      <option value="">Select...</option>
+      <option>Direct use with students (lesson, handout, assessment)</option>
+      <option>Teacher reference / background knowledge</option>
+      <option>Starting point — will heavily edit before use</option>
+      <option>Student activity — students will audit this output</option>
+    </select>
+  </div>
+
+  <!-- STEP 2: BEFORE -->
+  <div class="ctm-step step-before">
+    <div class="step-header">
+      <div class="step-number">2</div>
+      <div class="step-title">BEFORE — Your Expectations</div>
+    </div>
+    <p class="step-subtitle">Write these <strong>before</strong> reading the AI output. This is the most important step — it activates your own knowledge and prevents you from anchoring to what the AI says.</p>
+
+    <div class="callout callout-warn">
+      <strong>Why this matters:</strong>
+      A common misconception is that subject-matter expertise is sufficient to catch AI errors. But expertise creates blind spots — you're more likely to accept a confident-sounding claim in your own field because it "sounds right." The protocol is the upgrade.
+    </div>
+
+    <label for="priorKnowledge">2–3 things you already know to be true about this topic</label>
+    <textarea id="priorKnowledge" placeholder="e.g., 1) Density = mass/volume  2) Objects float if less dense than the fluid  3) MS-PS1-2 requires students to analyze and interpret data on the properties of substances..."></textarea>
+
+    <label for="expectedOutput">What do you <em>expect</em> the AI to produce?</label>
+    <textarea id="expectedOutput" placeholder="e.g., A lesson with a hook, a lab using water and household objects, a data table, and a connection to the standard. I'd expect the standard to be cited correctly..."></textarea>
+
+    <label for="expectedErrors">Where do you <em>predict</em> the AI might get it wrong?</label>
+    <textarea id="expectedErrors" placeholder="e.g., Might confuse density with weight, might cite a fake NGSS code, might suggest unsafe lab materials for this age group..."></textarea>
+  </div>
+
+  <!-- STEP 3: AFTER -->
+  <div class="ctm-step step-after">
+    <div class="step-header">
+      <div class="step-number">3</div>
+      <div class="step-title">AFTER — Examine the AI Output</div>
+    </div>
+    <p class="step-subtitle">Paste the AI's full response, then systematically audit it using the three panels below.</p>
+
+    <label for="aiOutput">AI Output <span class="hint">(paste the full response)</span></label>
+    <textarea id="aiOutput" class="tall" style="min-height:200px;" placeholder="Paste the AI-generated content here..."></textarea>
+
+    <div class="audit-panels">
+
+      <!-- Panel A: Claims Inventory -->
+      <div class="audit-panel">
+        <h4>🔍 Panel A: Claims Inventory</h4>
+        <p class="panel-desc">Extract every factual claim, number, citation, or standard code. Rate each one.</p>
+        <table class="claims-table">
+          <thead>
+            <tr>
+              <th style="width:45%">Claim / Citation</th>
+              <th style="width:25%">Rating</th>
+              <th style="width:25%">Source / Note</th>
+              <th style="width:5%"></th>
+            </tr>
+          </thead>
+          <tbody id="claimsBody">
+            <tr>
+              <td><input type="text" placeholder="e.g., NGSS MS-PS1-2"></td>
+              <td><select><option value="">—</option><option>✅ Verified</option><option>⚠️ Unverified</option><option>❌ Suspect</option></select></td>
+              <td><input type="text" placeholder="e.g., Checked nextgenscience.org"></td>
+              <td><button class="remove-btn" onclick="this.closest('tr').remove()">×</button></td>
+            </tr>
+            <tr>
+              <td><input type="text" placeholder="e.g., 'Archimedes discovered density in 250 BC'"></td>
+              <td><select><option value="">—</option><option>✅ Verified</option><option>⚠️ Unverified</option><option>❌ Suspect</option></select></td>
+              <td><input type="text" placeholder=""></td>
+              <td><button class="remove-btn" onclick="this.closest('tr').remove()">×</button></td>
+            </tr>
+            <tr>
+              <td><input type="text" placeholder="e.g., density of water = 1.0 g/cm³"></td>
+              <td><select><option value="">—</option><option>✅ Verified</option><option>⚠️ Unverified</option><option>❌ Suspect</option></select></td>
+              <td><input type="text" placeholder=""></td>
+              <td><button class="remove-btn" onclick="this.closest('tr').remove()">×</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="add-claim-btn" onclick="addClaimRow()">+ Add Claim</button>
+      </div>
+
+      <!-- Panel B: Reasoning Trace -->
+      <div class="audit-panel">
+        <h4>🧠 Panel B: Reasoning Trace</h4>
+        <p class="panel-desc">Where does the AI's logic break? Look for: confident-sounding wrong statements, oversimplifications that distort meaning, and "sounds right but I can't verify" moments.</p>
+        <label for="logicBreaks">Logic breaks, gaps, or distortions</label>
+        <textarea id="logicBreaks" placeholder="e.g., The lesson claims students can measure density by 'feeling the weight' of objects — this conflates density with weight and would reinforce the exact misconception the lesson claims to address..."></textarea>
+      </div>
+
+      <!-- Panel C: Standards Fit -->
+      <div class="audit-panel">
+        <h4>📐 Panel C: Standards Fit</h4>
+        <p class="panel-desc">Does the content actually address the standard it claims to align to? Or is it "standards-adjacent"?</p>
+        <label for="citedStandard">Standard code(s) the AI cited</label>
+        <input type="text" id="citedStandard" placeholder="e.g., MS-PS1-2">
+        <label for="standardsVerdict">Does the activity actually meet this standard?</label>
+        <select id="standardsVerdict">
+          <option value="">Select...</option>
+          <option>Yes — activity directly addresses the PE</option>
+          <option>Partially — addresses the DCI but not the full PE</option>
+          <option>No — standard is cited but not meaningfully addressed</option>
+          <option>Wrong standard — a different PE would be more accurate</option>
+          <option>Fake standard — this code does not exist</option>
+        </select>
+        <label for="standardsNotes">Notes</label>
+        <textarea id="standardsNotes" placeholder="e.g., MS-PS1-2 requires 'analyze and interpret data' — the lesson has students collect data but never analyze it. Needs a data interpretation step."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 4: TAKEAWAY -->
+  <div class="ctm-step step-takeaway">
+    <div class="step-header">
+      <div class="step-number">4</div>
+      <div class="step-title">TAKEAWAY — Verdict & Classroom Protocol</div>
+    </div>
+    <p class="step-subtitle">Two takeaways: (1) your verdict on this output, and (2) the student-facing protocol you'll use in class.</p>
+
+    <label>Overall Verdict</label>
+    <div class="verdict-options">
+      <div class="verdict-option">
+        <input type="radio" name="verdict" id="vKeep" value="keep">
+        <label for="vKeep" class="v-keep">✅ Keep<br><small>Usable as-is</small></label>
+      </div>
+      <div class="verdict-option">
+        <input type="radio" name="verdict" id="vFix" value="fix">
+        <label for="vFix" class="v-fix">⚠️ Fix<br><small>Usable with edits</small></label>
+      </div>
+      <div class="verdict-option">
+        <input type="radio" name="verdict" id="vCut" value="cut">
+        <label for="vCut" class="v-cut">❌ Cut<br><small>Too many errors</small></label>
+      </div>
+    </div>
+
+    <label for="errorSummary">Errors Found <span class="hint">(list each one)</span></label>
+    <textarea id="errorSummary" placeholder="1. NGSS code was real but activity doesn't address the full PE&#10;2. Conflates density with weight in the hook&#10;3. Missing safety note for glass containers with younger students"></textarea>
+
+    <label for="editsNeeded">Edits Needed Before Classroom Use</label>
+    <textarea id="editsNeeded" placeholder="1. Add data interpretation step to meet MS-PS1-2&#10;2. Rewrite hook to distinguish density from weight&#10;3. Substitute plastic graduated cylinders for glass"></textarea>
+
+    <label for="studentProtocol">Student-Facing CtM Exercise <span class="hint">(the audit task you'd give students)</span></label>
+    <textarea id="studentProtocol" class="tall" placeholder="e.g., I'll have students paste the AI's density explanation into the CtM worksheet. Their 'Before' step: write the density formula and predict what the AI will say. Their 'After' step: find at least 2 claims they can verify with their textbook. Takeaway: one thing the AI got right and one thing it got wrong."></textarea>
+
+    <label for="selfReflection">Self-Reflection <span class="hint">(what did the comparison reveal about YOUR understanding?)</span></label>
+    <textarea id="selfReflection" placeholder="e.g., I almost missed the weight/density conflation because it 'sounded right' in context. The protocol caught it because I wrote my expectation first. My expertise level (3/5) means I need to verify more carefully in chemistry topics."></textarea>
+  </div>
+
+  <!-- EXPORT -->
+  <div class="export-section">
+    <h2>Export Your Audit</h2>
+    <p style="color:var(--c-muted);font-size:0.95rem;">Your data stays in the browser — nothing leaves your computer unless you click an export button.</p>
+
+    <div class="export-grid">
+      <div class="export-card">
+        <h3>Google Docs · Word · Pages</h3>
+        <p>Rich-text paste keeps headings and formatting. The .doc file opens in Word and Google Docs.</p>
+        <div class="btn-row">
+          <button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
+          <button class="btn" onclick="downloadDoc()">⬇ Download .doc</button>
+        </div>
+      </div>
+
+      <div class="export-card">
+        <h3>Markdown</h3>
+        <p>Includes YAML front matter for repository integration.</p>
+        <div class="btn-row">
+          <button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
+          <button class="btn" onclick="downloadMd()">⬇ Download .md</button>
+        </div>
+      </div>
+
+      <div class="export-card">
+        <h3>Iterate with an LLM</h3>
+        <p>Builds a prompt from your audit so a <em>second</em> AI can audit the first — or generate a fix.</p>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="copyAiPrompt()">🤖 Copy Audit Prompt</button>
+        </div>
+      </div>
+
+      <div class="export-card">
+        <h3>Student Worksheet</h3>
+        <p>Exports just the student-facing CtM exercise with blank fields.</p>
+        <div class="btn-row">
+          <button class="btn" onclick="copyStudentWorksheet()">📋 Copy Worksheet</button>
+        </div>
+      </div>
+
+      <div class="export-card">
+        <h3>Print</h3>
+        <p>Print-friendly version of your completed audit.</p>
+        <div class="btn-row">
+          <button class="btn" onclick="window.print()">🖨 Print</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  CRAFT PD Series · UCF DRACO Lab & School of Teacher Education · Dr. Mike Borowczak & Dr. Andrea Borowczak
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Toast ──
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+// ── Claims table ──
+function addClaimRow() {
+  const tbody = document.getElementById('claimsBody');
+  const tr = document.createElement('tr');
+  tr.innerHTML = `
+    <td><input type="text" placeholder="Claim or citation"></td>
+    <td><select><option value="">—</option><option>✅ Verified</option><option>⚠️ Unverified</option><option>❌ Suspect</option></select></td>
+    <td><input type="text" placeholder="Source / note"></td>
+    <td><button class="remove-btn" onclick="this.closest('tr').remove()">×</button></td>
+  `;
+  tbody.appendChild(tr);
+  tr.querySelector('input').focus();
+}
+
+// ── Data collection ──
+function gatherData() {
+  const d = {};
+  d.auditorName = document.getElementById('auditorName').value.trim();
+  d.gradeSubject = document.getElementById('gradeSubject').value.trim();
+  d.aiTool = document.getElementById('aiTool').value;
+  d.expertiseLevel = document.getElementById('expertiseLevel').value;
+  d.originalPrompt = document.getElementById('originalPrompt').value.trim();
+  d.intendedUse = document.getElementById('intendedUse').value;
+  d.priorKnowledge = document.getElementById('priorKnowledge').value.trim();
+  d.expectedOutput = document.getElementById('expectedOutput').value.trim();
+  d.expectedErrors = document.getElementById('expectedErrors').value.trim();
+  d.aiOutput = document.getElementById('aiOutput').value.trim();
+
+  // Claims
+  d.claims = [];
+  document.querySelectorAll('#claimsBody tr').forEach(tr => {
+    const inputs = tr.querySelectorAll('input');
+    const sel = tr.querySelector('select');
+    if (inputs[0] && inputs[0].value.trim()) {
+      d.claims.push({
+        claim: inputs[0].value.trim(),
+        rating: sel ? sel.value : '',
+        source: inputs[1] ? inputs[1].value.trim() : ''
+      });
+    }
+  });
+
+  d.logicBreaks = document.getElementById('logicBreaks').value.trim();
+  d.citedStandard = document.getElementById('citedStandard').value.trim();
+  d.standardsVerdict = document.getElementById('standardsVerdict').value;
+  d.standardsNotes = document.getElementById('standardsNotes').value.trim();
+  d.verdict = document.querySelector('input[name="verdict"]:checked')?.value || '';
+  d.errorSummary = document.getElementById('errorSummary').value.trim();
+  d.editsNeeded = document.getElementById('editsNeeded').value.trim();
+  d.studentProtocol = document.getElementById('studentProtocol').value.trim();
+  d.selfReflection = document.getElementById('selfReflection').value.trim();
+  return d;
+}
+
+// ── Markdown export ──
+function toMarkdown() {
+  const d = gatherData();
+  const verdictMap = { keep: '✅ Keep — usable as-is', fix: '⚠️ Fix — usable with edits', cut: '❌ Cut — too many errors' };
+  let md = `---
+title: "AI Output Audit"
+auditor: "${d.auditorName}"
+grade_subject: "${d.gradeSubject}"
+ai_tool: "${d.aiTool}"
+verdict: "${d.verdict}"
+date: "${new Date().toISOString().slice(0,10)}"
+tags: ["CRAFT", "CtM", "audit", "AI verification"]
+---
+
+# AI Output Audit
+
+**Auditor:** ${d.auditorName || '—'}
+**Grade / Subject:** ${d.gradeSubject || '—'}
+**AI Tool:** ${d.aiTool || '—'}
+**Expertise Level:** ${d.expertiseLevel || '—'}/5
+**Intended Use:** ${d.intendedUse || '—'}
+
+---
+
+## Step 1: TASK — What I Asked the AI
+
+${d.originalPrompt || '*(not entered)*'}
+
+## Step 2: BEFORE — My Expectations
+
+### Prior Knowledge
+${d.priorKnowledge || '*(not entered)*'}
+
+### Expected Output
+${d.expectedOutput || '*(not entered)*'}
+
+### Predicted Errors
+${d.expectedErrors || '*(not entered)*'}
+
+## Step 3: AFTER — The AI Output
+
+\`\`\`
+${d.aiOutput || '*(not entered)*'}
+\`\`\`
+
+### Claims Inventory
+
+| Claim / Citation | Rating | Source / Note |
+|---|---|---|
+${d.claims.map(c => `| ${c.claim} | ${c.rating} | ${c.source} |`).join('\n') || '| *(none entered)* | | |'}
+
+### Reasoning Trace
+${d.logicBreaks || '*(not entered)*'}
+
+### Standards Fit
+- **Cited Standard:** ${d.citedStandard || '—'}
+- **Verdict:** ${d.standardsVerdict || '—'}
+- **Notes:** ${d.standardsNotes || '—'}
+
+## Step 4: TAKEAWAY
+
+**Overall Verdict:** ${verdictMap[d.verdict] || '—'}
+
+### Errors Found
+${d.errorSummary || '*(none)*'}
+
+### Edits Needed
+${d.editsNeeded || '*(none)*'}
+
+### Student-Facing CtM Exercise
+${d.studentProtocol || '*(not entered)*'}
+
+### Self-Reflection
+${d.selfReflection || '*(not entered)*'}
+`;
+  return md;
+}
+
+function copyMarkdown() {
+  navigator.clipboard.writeText(toMarkdown()).then(() => showToast('Markdown copied!'));
+}
+
+function downloadMd() {
+  const d = gatherData();
+  const name = (d.auditorName || 'audit').replace(/\s+/g, '-').toLowerCase();
+  const blob = new Blob([toMarkdown()], { type: 'text/markdown' });
+  downloadBlob(blob, `ctm-audit-${name}.md`);
+  showToast('Downloaded .md');
+}
+
+// ── Rich text / .doc export ──
+function toHtmlDoc() {
+  const d = gatherData();
+  const verdictMap = { keep: '✅ Keep — usable as-is', fix: '⚠️ Fix — usable with edits', cut: '❌ Cut — too many errors' };
+  let claimsRows = d.claims.map(c =>
+    `<tr><td>${esc(c.claim)}</td><td>${esc(c.rating)}</td><td>${esc(c.source)}</td></tr>`
+  ).join('');
+
+  return `<html><head><meta charset="utf-8"><style>
+body{font-family:Calibri,sans-serif;font-size:11pt;line-height:1.5;color:#222;max-width:700px;margin:0 auto;padding:1rem}
+h1{font-size:18pt;border-bottom:2px solid #333;padding-bottom:4pt}
+h2{font-size:14pt;color:#0369a1;margin-top:18pt}
+h3{font-size:12pt;margin-top:12pt}
+table{border-collapse:collapse;width:100%;margin:8pt 0}
+th,td{border:1px solid #ccc;padding:4pt 8pt;text-align:left;font-size:10pt}
+th{background:#f0f0f0}
+.verdict{font-size:14pt;font-weight:bold;margin:12pt 0}
+.callout{background:#fffbeb;border-left:4px solid #b45309;padding:8pt 12pt;margin:10pt 0;font-size:10pt}
+pre{background:#f5f5f5;padding:8pt;font-family:Consolas,monospace;font-size:9pt;white-space:pre-wrap;border:1px solid #ddd}
+</style></head><body>
+<h1>AI Output Audit — Check the Machine</h1>
+<p><strong>Auditor:</strong> ${esc(d.auditorName)} · <strong>Grade/Subject:</strong> ${esc(d.gradeSubject)} · <strong>AI Tool:</strong> ${esc(d.aiTool)} · <strong>Expertise:</strong> ${esc(d.expertiseLevel)}/5<br>
+<strong>Intended Use:</strong> ${esc(d.intendedUse)} · <strong>Date:</strong> ${new Date().toLocaleDateString()}</p>
+
+<h2>Step 1: TASK</h2>
+<pre>${esc(d.originalPrompt)}</pre>
+
+<h2>Step 2: BEFORE — My Expectations</h2>
+<h3>Prior Knowledge</h3><p>${nl2br(esc(d.priorKnowledge))}</p>
+<h3>Expected Output</h3><p>${nl2br(esc(d.expectedOutput))}</p>
+<h3>Predicted Errors</h3><p>${nl2br(esc(d.expectedErrors))}</p>
+
+<h2>Step 3: AFTER — AI Output</h2>
+<pre>${esc(d.aiOutput)}</pre>
+
+<h3>Claims Inventory</h3>
+<table><tr><th>Claim / Citation</th><th>Rating</th><th>Source / Note</th></tr>${claimsRows || '<tr><td colspan="3"><em>None entered</em></td></tr>'}</table>
+
+<h3>Reasoning Trace</h3><p>${nl2br(esc(d.logicBreaks))}</p>
+
+<h3>Standards Fit</h3>
+<p><strong>Cited:</strong> ${esc(d.citedStandard)} · <strong>Verdict:</strong> ${esc(d.standardsVerdict)}</p>
+<p>${nl2br(esc(d.standardsNotes))}</p>
+
+<h2>Step 4: TAKEAWAY</h2>
+<p class="verdict">${esc(verdictMap[d.verdict] || '—')}</p>
+<h3>Errors Found</h3><p>${nl2br(esc(d.errorSummary))}</p>
+<h3>Edits Needed</h3><p>${nl2br(esc(d.editsNeeded))}</p>
+<h3>Student-Facing CtM Exercise</h3><p>${nl2br(esc(d.studentProtocol))}</p>
+<h3>Self-Reflection</h3><p>${nl2br(esc(d.selfReflection))}</p>
+
+<hr><p style="font-size:9pt;color:#888">Generated by the AI Output Audit Workbench · CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+</body></html>`;
+}
+
+function copyRichText() {
+  const html = toHtmlDoc();
+  const blob = new Blob([html], { type: 'text/html' });
+  navigator.clipboard.write([new ClipboardItem({ 'text/html': blob })]).then(() => showToast('Rich text copied!'));
+}
+
+function downloadDoc() {
+  const d = gatherData();
+  const name = (d.auditorName || 'audit').replace(/\s+/g, '-').toLowerCase();
+  const blob = new Blob([toHtmlDoc()], { type: 'application/msword' });
+  downloadBlob(blob, `ctm-audit-${name}.doc`);
+  showToast('Downloaded .doc');
+}
+
+// ── AI Prompt export ──
+function copyAiPrompt() {
+  const d = gatherData();
+  let claimsList = d.claims.filter(c => c.claim).map(c => `- "${c.claim}" [${c.rating || 'unrated'}]`).join('\n');
+
+  const prompt = `You are a STEM education content auditor. I used an AI (${d.aiTool || 'an LLM'}) to generate educational content and I have begun auditing it using the "Check the Machine" (CtM) protocol. I need you to complete and deepen my audit.
+
+## My Original Prompt to the AI
+${d.originalPrompt || '[not provided]'}
+
+## The AI's Output
+${d.aiOutput || '[not provided]'}
+
+## My Audit So Far
+
+**Grade/Subject:** ${d.gradeSubject || '[not provided]'}
+**My expertise level:** ${d.expertiseLevel || '?'}/5
+
+**My prior knowledge (written BEFORE reading the output):**
+${d.priorKnowledge || '[not provided]'}
+
+**My predicted errors:**
+${d.expectedErrors || '[not provided]'}
+
+**Claims I've flagged:**
+${claimsList || '[none yet]'}
+
+**Reasoning breaks I found:**
+${d.logicBreaks || '[not yet analyzed]'}
+
+**Standards fit:**
+- Cited standard: ${d.citedStandard || '[none]'}
+- My assessment: ${d.standardsVerdict || '[not yet assessed]'}
+- Notes: ${d.standardsNotes || '[none]'}
+
+## What I Need You to Do
+
+1. **Verify every factual claim** in the AI output. For each one, state whether it is correct, incorrect, or unverifiable, with a brief explanation.
+2. **Check all standard codes** (NGSS, CCSS, CSTA, etc.) — confirm they exist and that the content actually addresses them.
+3. **Identify any errors I missed** — especially subtle ones where the AI sounds confident but is wrong.
+4. **Rate the overall output** as: ✅ Keep (usable as-is), ⚠️ Fix (usable with specific edits), or ❌ Cut (too many errors to salvage).
+5. **List specific edits** needed to make this classroom-ready for ${d.gradeSubject || 'the target audience'}.
+6. **Design a student-facing CtM exercise** using this content — write the exact Task, Before, After, and Takeaway prompts a student would complete.
+
+Format your response as Markdown using the same CtM structure (Task → Before → After → Takeaway) so I can paste it back into the Audit Workbench.`;
+
+  navigator.clipboard.writeText(prompt).then(() => showToast('AI audit prompt copied — paste into any LLM!'));
+}
+
+// ── Student worksheet export ──
+function copyStudentWorksheet() {
+  const d = gatherData();
+  const ws = `# Check the Machine 🤖 → 🔍
+
+**Name:** ___________________  **Date:** ___________  **Class:** ${d.gradeSubject || '___________'}
+
+---
+
+## Step 1: TASK — What did you ask the AI to do?
+
+
+
+
+## Step 2: BEFORE — What do you predict the answer will be?
+Write your prediction BEFORE looking at the AI's output.
+
+
+
+
+## Step 3: AFTER — What did the AI actually produce?
+Compare to your prediction. Flag anything surprising.
+
+
+
+
+## Step 4: TAKEAWAY — What did you learn?
+
+**About the AI tool:**
+
+
+**About your own understanding:**
+
+
+## Verification Check (circle one)
+
+✅ AI output is accurate — I verified it
+⚠️ AI output has errors — I found and corrected them
+❌ AI output is unreliable — I need to redo this myself
+
+---
+*Check the Machine (CtM) Protocol · CRAFT PD Series*`;
+
+  navigator.clipboard.writeText(ws).then(() => showToast('Student worksheet copied!'));
+}
+
+// ── Load from Markdown ──
+function loadFromMarkdown() {
+  const md = document.getElementById('loadMd').value;
+  if (!md.trim()) return;
+
+  // Simple extraction by section headers
+  const extract = (header, nextHeader) => {
+    const re = new RegExp(`## ${header}[\\s\\S]*?\\n([\\s\\S]*?)(?=\\n## ${nextHeader || '$'})`, 'i');
+    const m = md.match(re);
+    return m ? m[1].trim() : '';
+  };
+  const extractSub = (header) => {
+    const re = new RegExp(`### ${header}\\n([\\s\\S]*?)(?=\\n###|\\n##|$)`, 'i');
+    const m = md.match(re);
+    return m ? m[1].trim() : '';
+  };
+
+  // Front matter
+  const fm = md.match(/---\n([\s\S]*?)\n---/);
+  if (fm) {
+    const fmText = fm[1];
+    const fmVal = (key) => { const m = fmText.match(new RegExp(`${key}:\\s*"?([^"\\n]*)"?`)); return m ? m[1] : ''; };
+    document.getElementById('auditorName').value = fmVal('auditor');
+    document.getElementById('gradeSubject').value = fmVal('grade_subject');
+    if (fmVal('ai_tool')) document.getElementById('aiTool').value = fmVal('ai_tool');
+    if (fmVal('verdict')) {
+      const vr = document.querySelector(`input[name="verdict"][value="${fmVal('verdict')}"]`);
+      if (vr) vr.checked = true;
+    }
+  }
+
+  // Extract sections
+  const taskSection = extract('Step 1: TASK', 'Step 2');
+  if (taskSection) document.getElementById('originalPrompt').value = taskSection.replace(/^```\n?|```$/g, '').trim();
+
+  document.getElementById('priorKnowledge').value = extractSub('Prior Knowledge');
+  document.getElementById('expectedOutput').value = extractSub('Expected Output');
+  document.getElementById('expectedErrors').value = extractSub('Predicted Errors');
+
+  const afterSection = extract('Step 3: AFTER', 'Claims Inventory');
+  const codeBlock = afterSection.match(/```\n([\s\S]*?)\n```/);
+  if (codeBlock) document.getElementById('aiOutput').value = codeBlock[1];
+
+  document.getElementById('logicBreaks').value = extractSub('Reasoning Trace');
+  document.getElementById('errorSummary').value = extractSub('Errors Found');
+  document.getElementById('editsNeeded').value = extractSub('Edits Needed');
+  document.getElementById('studentProtocol').value = extractSub('Student-Facing CtM Exercise');
+  document.getElementById('selfReflection').value = extractSub('Self-Reflection');
+
+  showToast('Loaded from Markdown!');
+}
+
+function clearForm() {
+  document.querySelectorAll('input[type="text"], textarea, select').forEach(el => {
+    if (el.tagName === 'SELECT') el.selectedIndex = 0;
+    else el.value = '';
+  });
+  document.querySelectorAll('input[type="radio"]').forEach(el => el.checked = false);
+  showToast('Form cleared');
+}
+
+// ── Utilities ──
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function nl2br(s) { return (s||'').replace(/\n/g, '<br>'); }
+function downloadBlob(blob, filename) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+
+</body>
+</html>

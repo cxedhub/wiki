@@ -79,6 +79,7 @@ Your students are using AI — but do they know when it's wrong? This session eq
 - [**🐛 AI Error Gallery**](/pds/craft-pd-series/resources/error-gallery.html) — annotated code snippets with deliberate bugs for the error hunt
 - [**🔍 Content Audit Checklist**](/pds/craft-pd-series/resources/content-audit-checklist.html) — structured checklist for evaluating AI-generated explanations
 - [**✅ CtM Template**](/pds/craft-pd-series/resources/ctm-template.html) — editable Check the Machine template for classroom use
+- [**🔬 AI Output Audit Workbench**](/pds/craft-pd-series/resources/audit-workbench.html) — fillable CtM-structured audit tool with AI-audits-AI round-trip and multi-format export
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — includes verification-focused prompts
 - [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework

@@ -1,47 +1,227 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STEM Prompt Library — CRAFT PD Series</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#1B2A4A;--ink-med:#2C4A6E;--ink-light:#5A7FA0;--paper:#FAFBFE;--warm:#F7F5F0;--gold:#D4A843;--gold-bg:#FFF8E7;--red:#C0392B;--red-bg:#FDECEC;--green:#27AE60;--green-bg:#E8F8F0;--teal:#1ABC9C;--teal-bg:#E8FAF6;--purple:#8E6BBF;--purple-bg:#F3EDF9;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray400:#999;--gray600:#666;--radius:10px}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:900px;margin:0 auto;padding:24px}
-h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
-h2{font-family:'DM Serif Display',serif;font-size:1.3rem;margin:28px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
-h3{font-size:0.95rem;font-weight:700;margin:16px 0 8px;color:var(--teal)}
-.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:24px}
-.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
-.card{background:#fff;border:1px solid var(--gray200);border-radius:var(--radius);padding:16px;margin:10px 0}
-.card h4{font-size:0.9rem;font-weight:700;margin-bottom:6px}
-.tag{display:inline-block;font-size:0.7rem;font-weight:700;padding:2px 8px;border-radius:3px;color:#fff;margin-right:4px;margin-bottom:4px}
-.tag-gold{background:var(--gold)}.tag-red{background:var(--red)}.tag-green{background:var(--green)}.tag-teal{background:var(--teal)}.tag-purple{background:var(--purple)}
-table{width:100%;border-collapse:collapse;font-size:0.85rem;margin:12px 0}
-th{background:var(--ink);color:#fff;padding:8px 12px;text-align:left;font-size:0.8rem}
-td{padding:8px 12px;border-bottom:1px solid var(--gray200);vertical-align:top}
-tr:nth-child(even){background:var(--gray100)}
-code{font-family:'JetBrains Mono',monospace;font-size:0.82rem;background:var(--gray100);padding:2px 6px;border-radius:3px}
-pre{background:var(--ink);color:#e8e8e8;padding:16px;border-radius:var(--radius);overflow-x:auto;font-size:0.8rem;margin:8px 0}
-.note{background:var(--gold-bg);border:1px solid var(--gold);border-radius:6px;padding:14px;font-size:0.88rem;margin:12px 0}
-.tip{background:var(--teal-bg);border-left:4px solid var(--teal);padding:12px 16px;font-size:0.88rem;margin:12px 0;border-radius:0 6px 6px 0}
-.warn{background:var(--red-bg);border-left:4px solid var(--red);padding:12px 16px;font-size:0.88rem;margin:12px 0;border-radius:0 6px 6px 0}
-.footer{text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)}
-@media print{body{max-width:100%;padding:12px}.back{display:none}h1{font-size:1.4rem}h2{font-size:1.1rem}}
+:root {
+  --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --font-heading: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'Fira Code', 'Consolas', monospace;
+  --c-bg: #fafaf8;
+  --c-surface: #ffffff;
+  --c-text: #2d2d2d;
+  --c-muted: #6b7280;
+  --c-border: #e0ddd8;
+  --c-link: #2563eb;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,.08);
+  --w1: #0d9488;
+  --w2: #7c3aed;
+  --w3: #b45309;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-body); color: var(--c-text); background: var(--c-bg); line-height: 1.6; font-size: 16px; }
+
+.back-link { display: inline-block; padding: 1rem 1.5rem; color: var(--c-link); text-decoration: none; font-size: 0.9rem; }
+.back-link:hover { text-decoration: underline; }
+
+header { text-align: center; padding: 2rem 1.5rem 1.5rem; border-bottom: 1px solid var(--c-border); }
+header h1 { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+header .subtitle { color: var(--c-muted); font-size: 1.05rem; max-width: 680px; margin: 0 auto; }
+
+.container { max-width: 800px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+
+.pro-tip {
+  background: #eff6ff;
+  border-left: 4px solid var(--c-link);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.92rem;
+}
+
+/* Filter nav */
+.filter-nav {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  background: var(--c-bg);
+  padding: 0.75rem 0;
+  z-index: 10;
+  border-bottom: 1px solid var(--c-border);
+}
+.filter-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  border: 1px solid var(--c-border);
+  background: var(--c-surface);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.filter-btn:hover { border-color: var(--c-link); color: var(--c-link); }
+.filter-btn.active { background: var(--c-link); color: #fff; border-color: var(--c-link); }
+
+/* Section headers */
+.section-header {
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--c-border);
+}
+.section-header h2 { font-family: var(--font-heading); font-size: 1.4rem; }
+
+/* Prompt cards */
+.prompt-card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-top: 1.25rem;
+  overflow: hidden;
+}
+.prompt-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background: #fafaf8;
+  border-bottom: 1px solid var(--c-border);
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.prompt-card-header h4 {
+  font-size: 1rem;
+  margin: 0;
+  flex: 1;
+  min-width: 200px;
+}
+.prompt-tags {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+.tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
+.tag-w1 { background: var(--w1); }
+.tag-w2 { background: var(--w2); }
+.tag-w3 { background: var(--w3); }
+.tag-all { background: var(--c-muted); }
+.tag-platform {
+  background: transparent;
+  color: var(--c-muted);
+  border: 1px solid var(--c-border);
+}
+.tag-new {
+  background: #dc2626;
+  animation: pulse 2s ease-in-out 3;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+
+.prompt-card-body { padding: 1.25rem; }
+.prompt-card pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 1rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+  position: relative;
+}
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #cbd5e1;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: all 0.2s;
+}
+.copy-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
+
+.reminder {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin-top: 2.5rem;
+  font-size: 0.92rem;
+}
+
+.toast {
+  position: fixed; bottom: 1.5rem; left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: #1e293b; color: #fff; padding: 0.6rem 1.25rem;
+  border-radius: 6px; font-size: 0.9rem; z-index: 1000;
+  transition: transform 0.3s ease; pointer-events: none;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.85rem; color: var(--c-muted); border-top: 1px solid var(--c-border); }
+
+@media print {
+  .filter-nav, .copy-btn, .toast { display: none !important; }
+  .prompt-card { break-inside: avoid; box-shadow: none; }
+}
 </style>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-</head><body>
-<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
-<h1>STEM Prompt Library</h1>
-<p class="subtitle">Tested prompts for AI-assisted STEM teaching. Copy, customize, and iterate. Works across ChatGPT, Claude, and Gemini.</p>
+</head>
+<body>
 
-<div class="tip">Pro tip: The best prompts include your <strong>grade level</strong>, <strong>specific standard</strong>, <strong>time constraint</strong>, and <strong>student context</strong>. Generic prompts get generic results.</div>
+<a href="https://www.cxedhub.com/pds/craft-pd-series/" class="back-link">← Back to CRAFT PD Series</a>
 
-<h2>Lesson Planning</h2>
+<header>
+  <h1>STEM Prompt Library</h1>
+  <p class="subtitle">Tested prompts for AI-assisted STEM teaching. Copy, customize, and iterate. Works across ChatGPT, Claude, and Gemini.</p>
+</header>
 
-<div class="card">
-<h4>Generate a Standards-Aligned Lesson</h4>
-<span class="tag tag-gold">W1</span><span class="tag tag-teal">All Platforms</span>
-<pre>I teach [GRADE] [SUBJECT]. Create a [DURATION]-minute lesson aligned to [SPECIFIC NGSS STANDARD].
+<div class="container">
+
+  <div class="pro-tip">
+    <strong>Pro tip:</strong> The best prompts include your <strong>grade level</strong>, <strong>specific standard</strong>, <strong>time constraint</strong>, and <strong>student context</strong>. Generic prompts get generic results.
+  </div>
+
+  <!-- Filter nav -->
+  <div class="filter-nav">
+    <button class="filter-btn active" data-filter="all" onclick="filterPrompts('all',this)">All</button>
+    <button class="filter-btn" data-filter="w1" onclick="filterPrompts('w1',this)">W1 · AI for STEM</button>
+    <button class="filter-btn" data-filter="w2" onclick="filterPrompts('w2',this)">W2 · Verification</button>
+    <button class="filter-btn" data-filter="w3" onclick="filterPrompts('w3',this)">W3 · IoT / micro:bit</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LESSON PLANNING (W1) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="section-header"><h2>Lesson Planning</h2></div>
+
+  <div class="prompt-card" data-workshops="w1">
+    <div class="prompt-card-header">
+      <h4>Generate a Standards-Aligned Lesson</h4>
+      <div class="prompt-tags"><span class="tag tag-w1">W1</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I teach [GRADE] [SUBJECT]. Create a [DURATION]-minute lesson aligned to [SPECIFIC NGSS STANDARD].
 
 Include:
 - A real-world hook that connects to students' lives
@@ -49,41 +229,50 @@ Include:
 - One formative assessment check
 - Materials list (assume a typical classroom budget)
 
-Format the lesson as: Objective > Hook > Activities > Assessment > Extension</pre>
-</div>
+Format the lesson as: Objective > Hook > Activities > Assessment > Extension<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<div class="card">
-<h4>Differentiate an Existing Lesson</h4>
-<span class="tag tag-gold">W1</span><span class="tag tag-teal">All Platforms</span>
-<pre>Here is my existing lesson: [PASTE LESSON]
+  <div class="prompt-card" data-workshops="w1">
+    <div class="prompt-card-header">
+      <h4>Differentiate an Existing Lesson</h4>
+      <div class="prompt-tags"><span class="tag tag-w1">W1</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Here is my existing lesson: [PASTE LESSON]
 
 Differentiate this for three levels:
 1. Approaching: Students who need scaffolding with [SPECIFIC SKILL]
 2. On-level: Students meeting grade-level expectations
 3. Extending: Students ready for deeper challenge
 
-Keep the same core learning objective but adjust complexity, vocabulary, and support structures.</pre>
-</div>
+Keep the same core learning objective but adjust complexity, vocabulary, and support structures.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<div class="card">
-<h4>Generate a Week of Inquiry Problems</h4>
-<span class="tag tag-gold">W1</span><span class="tag tag-teal">Best on Claude</span>
-<pre>Create 5 inquiry-based [SUBJECT] problems for [GRADE] students, one per day.
+  <div class="prompt-card" data-workshops="w1">
+    <div class="prompt-card-header">
+      <h4>Generate a Week of Inquiry Problems</h4>
+      <div class="prompt-tags"><span class="tag tag-w1">W1</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Create 5 inquiry-based [SUBJECT] problems for [GRADE] students, one per day.
 
 Requirements:
 - Each problem should take 15-20 minutes
 - Progress from concrete to abstract across the week
 - Include at least one problem that connects to [CAREER/REAL-WORLD CONTEXT]
 - Aligned to [NGSS STANDARD]
-- Include teacher notes for common misconceptions</pre>
-</div>
+- Include teacher notes for common misconceptions<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<h2>Assessment & Rubrics</h2>
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ASSESSMENT & RUBRICS (W1) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="section-header"><h2>Assessment & Rubrics</h2></div>
 
-<div class="card">
-<h4>Create a Rubric from a Standard</h4>
-<span class="tag tag-gold">W1</span><span class="tag tag-teal">All Platforms</span>
-<pre>Create a 4-level rubric (Beginning, Developing, Proficient, Advanced) for this standard:
+  <div class="prompt-card" data-workshops="w1">
+    <div class="prompt-card-header">
+      <h4>Create a Rubric from a Standard</h4>
+      <div class="prompt-tags"><span class="tag tag-w1">W1</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Create a 4-level rubric (Beginning, Developing, Proficient, Advanced) for this standard:
 [PASTE NGSS PE]
 
 For each level, describe:
@@ -91,54 +280,214 @@ For each level, describe:
 - Observable evidence (what you would see/hear)
 - Example student work or response
 
-Format as a table.</pre>
-</div>
+Format as a table.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<h2>Verification & Error Checking</h2>
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- VERIFICATION & ERROR CHECKING (W2 — EXPANDED) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="section-header"><h2>Verification & Error Checking</h2></div>
 
-<div class="card">
-<h4>Generate a Verify-able Output</h4>
-<span class="tag tag-red">W2</span><span class="tag tag-teal">All Platforms</span>
-<pre>Generate a [SUBJECT] explanation of [TOPIC] for [GRADE] students.
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Generate a Verify-able Output</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Generate a [SUBJECT] explanation of [TOPIC] for [GRADE] students.
 
 IMPORTANT: Intentionally include 2-3 subtle errors that a student should be able to catch using:
 - Their textbook
 - A calculator
 - Prior knowledge from [PREVIOUS UNIT]
 
-I will use this as a "Check the Machine" classroom activity. Do NOT tell me where the errors are.</pre>
-</div>
+I will use this as a "Check the Machine" classroom activity. Do NOT tell me where the errors are.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<div class="card">
-<h4>Debug AI-Generated Code</h4>
-<span class="tag tag-red">W2</span><span class="tag tag-green">W3</span>
-<pre>I asked an AI to write this code: [PASTE CODE]
+  <div class="prompt-card" data-workshops="w2 w3">
+    <div class="prompt-card-header">
+      <h4>Debug AI-Generated Code</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-w3">W3</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I asked an AI to write this code: [PASTE CODE]
 
 The code is supposed to: [DESCRIBE INTENDED BEHAVIOR]
 
 But instead it: [DESCRIBE ACTUAL BEHAVIOR]
 
-Walk me through the debugging process step by step. Explain what each line does, identify the error(s), and show the corrected version with comments explaining the fix.</pre>
-</div>
+Walk me through the debugging process step by step. Explain what each line does, identify the error(s), and show the corrected version with comments explaining the fix.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<h2>Physical Computing & IoT</h2>
+  <!-- NEW W2 PROMPTS -->
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>AI-Audits-AI: Second-Pass Verification</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I used an AI to generate the following educational content for [GRADE] [SUBJECT]:
 
-<div class="card">
-<h4>Generate micro:bit Code from Description</h4>
-<span class="tag tag-green">W3</span><span class="tag tag-teal">Best on Claude</span>
-<pre>Write MakeCode JavaScript for BBC micro:bit V2 that:
+[PASTE AI-GENERATED CONTENT]
+
+You are a fact-checker. For this content:
+1. Extract every factual claim, number, formula, and standard code
+2. Rate each as: ✅ Verified, ⚠️ Unverified, or ❌ Incorrect
+3. For any item rated ⚠️ or ❌, explain the issue and provide the correct information with a source
+4. Flag any claims that "sound authoritative" but cannot be independently verified
+5. Check that every NGSS/CCSS/CSTA code cited actually exists and that the content matches what the standard requires
+
+End with an overall verdict: Keep as-is / Fix with specific edits / Reject and regenerate.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Generate a Hallucination-Prone Problem</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I want to teach my [GRADE] students about AI hallucination. Generate a [SUBJECT] problem that is likely to cause AI models to produce plausible-sounding but incorrect answers.
+
+Requirements:
+- The topic should be something students have recently studied: [RECENT UNIT/TOPIC]
+- The problem should involve at least one calculation or specific factual claim
+- It should be checkable by a student using their textbook and a calculator
+- DO tell me the correct answer so I can prepare, but format it at the very bottom under a "TEACHER KEY" heading
+
+I will have students ask this same problem to an AI and then verify the output using the Check the Machine protocol.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Build a Claims Inventory</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Here is an AI-generated explanation of [TOPIC] for [GRADE] students:
+
+[PASTE AI OUTPUT]
+
+Extract every single factual claim in this text and list them in a numbered table with columns:
+| # | Claim | Type (fact/number/citation/standard) | Verifiable? (Yes/No) | How to verify |
+
+Do NOT evaluate whether the claims are correct — I want my students to do that part. Just give me the inventory so I can turn it into a verification worksheet.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Create a "Spot the Error" Gallery</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Create 4 short AI-style explanations of [TOPIC] for [GRADE] students. Each should be 3-5 sentences long and written in the confident, fluent style typical of AI-generated content.
+
+- Explanation A: Completely correct
+- Explanation B: Contains a subtle calculation error
+- Explanation C: Contains a factual error disguised in correct-sounding language
+- Explanation D: Cites a standard that doesn't exist or doesn't match the content
+
+Label them A, B, C, D but do NOT reveal which has which error. Include an answer key at the bottom under "TEACHER KEY" with the specific error in each.
+
+I'll use these as a group activity where students rank them from most to least trustworthy and defend their reasoning.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Audit a Math Solution Step-by-Step</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>An AI generated this solution to a math problem for my [GRADE] class:
+
+Problem: [PASTE PROBLEM]
+AI's Solution: [PASTE SOLUTION]
+
+Audit this solution by:
+1. Rewriting the solution from scratch WITHOUT looking at the AI's work
+2. Comparing your solution to the AI's step-by-step
+3. Flagging every step where the AI's reasoning diverges from yours
+4. Rating the overall solution: Correct / Partially correct / Incorrect
+5. If incorrect, show exactly where the error entered and how it propagated
+
+Format this as a side-by-side comparison I can use as a classroom example.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Design a CtM Classroom Activity</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I want to run a "Check the Machine" (CtM) verification activity in my [GRADE] [SUBJECT] class on [TOPIC].
+
+The CtM protocol has 4 steps:
+1. TASK — What you asked the AI to do
+2. BEFORE — Your expectation/prediction BEFORE seeing the output
+3. AFTER — What the AI produced vs. your prediction
+4. TAKEAWAY — What the comparison reveals about the tool AND your own understanding
+
+Design a 20-minute classroom activity using this protocol:
+- Write the specific prompt students will give to an AI
+- Write a model "Before" response showing what a student should predict
+- Identify 2-3 specific things students should look for in the "After" comparison
+- Write a model "Takeaway" response
+- Include a simplified version for students who need scaffolding
+- Include an extension for students who finish early<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Generate Verification-Focused Discussion Questions</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I'm teaching [GRADE] students about critically evaluating AI outputs in [SUBJECT].
+
+Generate 6 Socratic discussion questions that:
+- Progress from surface-level to deep critical thinking
+- Challenge the assumption that "if the AI sounds confident, it's probably right"
+- Include at least one question about the limits of their own expertise in catching errors
+- Include at least one question about what makes AI errors DIFFERENT from human errors
+- Are specific to [TOPIC] (not generic "AI ethics" questions)
+
+For each question, include a brief facilitator note on what you're hoping students will discover.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w2">
+    <div class="prompt-card-header">
+      <h4>Write a Verification-Based AI Policy</h4>
+      <div class="prompt-tags"><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Help me draft a classroom AI use policy for my [GRADE] [SUBJECT] class.
+
+The policy should be verification-based (not ban-based). It should:
+- Clearly state that AI tools are allowed when used with verification
+- Require students to use the Check the Machine (CtM) protocol for any AI-assisted work
+- Define what "verification" looks like for different types of assignments (homework, labs, essays, code)
+- Distinguish between productive AI use (learning) and unproductive AI use (copying)
+- Include 3 specific examples of acceptable use and 3 of unacceptable use
+- Be written in student-friendly language
+- Fit on one page
+
+Tone: Clear, firm, but not punitive. Frame AI as a tool that requires skill to use well.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- PHYSICAL COMPUTING & IoT (W3 — EXPANDED) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="section-header"><h2>Physical Computing & IoT</h2></div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Generate micro:bit Code from Description</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Write MakeCode JavaScript for BBC micro:bit V2 that:
 [DESCRIBE WHAT THE PROGRAM SHOULD DO]
 
 Sensors to use: [LIST SENSORS]
 Output: [LED display / sound / radio / serial]
 
-Include comments explaining each block. Also provide the equivalent MakeCode blocks description so I can rebuild it visually.</pre>
-</div>
+Include comments explaining each block. Also provide the equivalent MakeCode blocks description so I can rebuild it visually.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<div class="card">
-<h4>Create a Sensor Data Collection Plan</h4>
-<span class="tag tag-green">W3</span><span class="tag tag-teal">All Platforms</span>
-<pre>I want my [GRADE] [SUBJECT] students to use BBC micro:bit sensors to investigate:
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Create a Sensor Data Collection Plan</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I want my [GRADE] [SUBJECT] students to use BBC micro:bit sensors to investigate:
 [SCIENCE QUESTION]
 
 Design a data collection plan that includes:
@@ -147,33 +496,267 @@ Design a data collection plan that includes:
 - How many trials/samples needed
 - A data table template
 - Potential sources of error and how to control them
-- How to connect findings to [NGSS STANDARD]</pre>
-</div>
+- How to connect findings to [NGSS STANDARD]<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<h2>Administrative Time-Savers</h2>
+  <!-- NEW W3 PROMPTS -->
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Translate MakeCode Blocks to MicroPython</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I have a BBC micro:bit V2 program written in MakeCode JavaScript:
 
-<div class="card">
-<h4>Parent Communication</h4>
-<span class="tag tag-gold">W1</span><span class="tag tag-teal">All Platforms</span>
-<pre>Draft a parent newsletter paragraph explaining that our class is starting a unit on [TOPIC].
+[PASTE MAKECODE JS]
+
+Translate this to MicroPython for the micro:bit V2 Python editor (python.microbit.org).
+
+Requirements:
+- Use only micro:bit MicroPython libraries (from microbit import *)
+- Preserve the exact same behavior and timing
+- Add comments explaining any differences between the MakeCode and MicroPython versions
+- Flag any MakeCode features that don't have a direct MicroPython equivalent
+- Include import statements at the top
+
+After the code, write 3 things students should CHECK to verify the translation is correct before flashing to the device.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Design a Sensor Calibration Experiment</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>The BBC micro:bit V2 [SENSOR NAME] sensor has a known calibration issue:
+[DESCRIBE THE ISSUE — e.g., "temperature sensor reads CPU die temp, typically 3-8°C above ambient"]
+
+Design a calibration experiment for [GRADE] students that:
+- Uses a reference measurement tool they'd have in a classroom (e.g., thermometer, ruler, phone compass)
+- Has them collect at least 10 paired readings (micro:bit vs reference)
+- Teaches them to calculate and apply a correction offset in code
+- Connects to [NGSS STANDARD]
+- Takes no more than 20 minutes
+
+Include the MakeCode JavaScript code for both the uncalibrated and calibrated versions.
+
+Frame this as an engineering design activity, not just a "fix the sensor" exercise — calibration IS real engineering.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Build a Multi-Sensor Project</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Write a BBC micro:bit V2 program that combines these sensors: [LIST 2-3 SENSORS]
+
+The program should:
+- Read all sensors at a regular interval
+- Combine the readings into a meaningful output (e.g., a "comfort index", an "earthquake alert", a "weather station")
+- Display results on the 5×5 LED matrix in a way students can interpret
+- Include at least one conditional (if/else) based on sensor thresholds
+- Log data to serial output for later analysis
+
+Provide BOTH MakeCode JavaScript and MicroPython versions.
+
+For each version, add comments that explain:
+- What each sensor reading means physically
+- Why you chose those threshold values
+- What could go wrong (sensor limitations, edge cases)
+
+End with 3 extension challenges students could try on their own.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Debug micro:bit Code with CtM</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-w2">W2</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I asked an AI to write micro:bit code, but it doesn't work correctly on the physical device.
+
+Code: [PASTE CODE]
+Expected behavior: [WHAT IT SHOULD DO]
+Actual behavior: [WHAT ACTUALLY HAPPENS ON THE DEVICE]
+Programming environment: [MakeCode / MicroPython]
+
+Debug this using the Check the Machine framework:
+1. TASK: Restate what the code should do in plain language
+2. BEFORE: List what each sensor/output SHOULD produce given the code logic
+3. AFTER: Identify the mismatch between expected and actual behavior
+4. FIX: Show the corrected code with comments on every line you changed
+5. TAKEAWAY: Explain what category of error this was (syntax, logic, hardware limitation, AI hallucination) and how to catch it next time
+
+IMPORTANT: The micro:bit temperature sensor reads CPU die temperature (3-8°C above ambient). The compass requires calibration on first use. The light sensor uses the LED matrix and may flicker. Flag if any of these known issues might be the cause.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Create a Sensor-to-Standards Crosswalk</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I teach [GRADE] [SUBJECT] and have a BBC micro:bit V2 with these onboard sensors:
+temperature, accelerometer, compass, light level, microphone, touch logo, buttons.
+
+For my grade level and subject, create a crosswalk table:
+| Sensor | Science Phenomenon | Driving Question | NGSS PE | Activity Sketch (2-3 sentences) |
+
+Requirements:
+- Only include NGSS PEs that genuinely match the activity (verify the codes are real)
+- Driving questions should be testable with the micro:bit sensors
+- Activity sketches should be realistic for a [DURATION]-minute class period
+- Include at least one activity that uses 2+ sensors together
+- Flag any activities that need calibration and explain why<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Design an IoT Lesson with CRAFT Structure</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Design a complete IoT lesson for [GRADE] [SUBJECT] using the BBC micro:bit V2.
+
+Topic: [TOPIC / PHENOMENON]
+Sensor(s): [LIST SENSORS]
+Standard: [NGSS PE or CSTA STANDARD]
+Duration: [MINUTES]
+
+Structure it using the CRAFT cycle:
+- **Contextualize** (5 min): Real-world connection and career link
+- **Reframe** (5 min): A misconception about [TOPIC] or about how sensors work
+- **Assemble** (25-30 min): I Do → We Do → You Do with actual micro:bit code
+- **Fortify** (10 min): Data verification + Check the Machine exercise for any AI-generated code
+- **Transfer** (5 min): Connection to next lesson + extension prompt
+
+Include working MakeCode JavaScript code for the core activity.
+Include a student-facing CtM prompt for verifying the code.
+End with 3 extension prompts students can paste into an LLM to keep building.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Generate LED Matrix Visualization Code</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Write BBC micro:bit V2 MakeCode JavaScript that visualizes [SENSOR] data on the 5×5 LED matrix.
+
+Instead of just showing a number, create a visual representation:
+- Use LED brightness levels (0-255) to show magnitude
+- OR use a bar graph pattern (fill columns based on value)
+- OR use an animation that changes with the reading
+
+The visualization should:
+- Update every [N] seconds
+- Be readable from arm's length (a student holding the micro:bit)
+- Have a clear "high" and "low" state that students can distinguish
+
+Include comments explaining the math that maps sensor values to LED patterns.
+Also include the MicroPython equivalent.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <div class="prompt-card" data-workshops="w3">
+    <div class="prompt-card-header">
+      <h4>Explain Edge Computing vs. Cloud to Students</h4>
+      <div class="prompt-tags"><span class="tag tag-w3">W3</span><span class="tag tag-new">NEW</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Explain the difference between edge computing and cloud computing for [GRADE] students.
+
+Requirements:
+- Use the BBC micro:bit as the concrete example of an edge device
+- Compare it to a familiar cloud service (e.g., asking Siri or Google a question)
+- Include an analogy appropriate for this age group
+- Address the misconception that "IoT" always requires internet connectivity (the micro:bit processes data locally — that's the "edge" part)
+- Keep it under 200 words
+- End with a thought question students can discuss in pairs
+
+I'll use this as a 3-minute warm-up before our micro:bit coding session.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ADMINISTRATIVE TIME-SAVERS (W1) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="section-header"><h2>Administrative Time-Savers</h2></div>
+
+  <div class="prompt-card" data-workshops="w1">
+    <div class="prompt-card-header">
+      <h4>Parent Communication</h4>
+      <div class="prompt-tags"><span class="tag tag-w1">W1</span><span class="tag tag-platform">All Platforms</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>Draft a parent newsletter paragraph explaining that our class is starting a unit on [TOPIC].
 
 Tone: Warm, professional, excited
 Length: 150 words max
-Include: What students will learn, one way parents can support at home, and a sentence about how we're using AI tools responsibly in class.</pre>
-</div>
+Include: What students will learn, one way parents can support at home, and a sentence about how we're using AI tools responsibly in class.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
 
-<div class="card">
-<h4>IEP/504 Accommodation Suggestions</h4>
-<span class="tag tag-gold">W1</span><span class="tag tag-teal">Best on Claude</span>
-<pre>I have a [SUBJECT] lesson on [TOPIC] for [GRADE].
+  <div class="prompt-card" data-workshops="w1">
+    <div class="prompt-card-header">
+      <h4>IEP/504 Accommodation Suggestions</h4>
+      <div class="prompt-tags"><span class="tag tag-w1">W1</span><span class="tag tag-platform">Best on Claude</span></div>
+    </div>
+    <div class="prompt-card-body"><pre>I have a [SUBJECT] lesson on [TOPIC] for [GRADE].
 
 A student has the following accommodation: [DESCRIBE ACCOMMODATION]
 
-Suggest 3 specific ways to modify the lesson activities while maintaining rigor and access to the same core learning objective. Be practical — suggest modifications I can implement with the materials I already have.</pre>
+Suggest 3 specific ways to modify the lesson activities while maintaining rigor and access to the same core learning objective. Be practical — suggest modifications I can implement with the materials I already have.<button class="copy-btn" onclick="copyPrompt(this)">Copy</button></pre></div>
+  </div>
+
+  <!-- REMINDER -->
+  <div class="reminder">
+    <strong>Remember:</strong> Always verify AI-generated content before using it with students. Use the <a href="https://www.cxedhub.com/pds/craft-pd-series/resources/ctm-template.html">Check the Machine (CtM) protocol</a>: Task → Before → After → Takeaway. For a structured walkthrough, try the <a href="https://www.cxedhub.com/pds/craft-pd-series/resources/audit-workbench.html">AI Output Audit Workbench</a>.
+  </div>
+
 </div>
 
-<div class="note"><strong>Remember:</strong> Always verify AI-generated content before using it with students. Use the Check the Machine (CtM) protocol: Task → Before → After → Takeaway.</div>
+<footer>
+  CRAFT PD Series · UCF DRACO Lab & School of Teacher Education · Dr. Mike Borowczak & Dr. Andrea Borowczak
+</footer>
 
-<p class="footer">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education · Dr. Mike Borowczak & Dr. Andrea Borowczak</p>
-<script src="../../../js/last-updated-static.js"></script>
-</body></html>
+<div class="toast" id="toast"></div>
+
+<script>
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+function copyPrompt(btn) {
+  const pre = btn.closest('pre');
+  const text = pre.textContent.replace('Copy', '').trim();
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy', 1500);
+    showToast('Prompt copied!');
+  });
+}
+
+function filterPrompts(filter, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  document.querySelectorAll('.prompt-card').forEach(card => {
+    if (filter === 'all') {
+      card.style.display = '';
+    } else {
+      const workshops = card.getAttribute('data-workshops') || '';
+      card.style.display = workshops.includes(filter) ? '' : 'none';
+    }
+  });
+
+  // Also show/hide section headers that have no visible cards
+  document.querySelectorAll('.section-header').forEach(header => {
+    let next = header.nextElementSibling;
+    let hasVisible = false;
+    while (next && !next.classList.contains('section-header') && !next.classList.contains('reminder')) {
+      if (next.classList.contains('prompt-card') && next.style.display !== 'none') {
+        hasVisible = true;
+        break;
+      }
+      next = next.nextElementSibling;
+    }
+    header.style.display = hasVisible ? '' : 'none';
+  });
+}
+</script>
+
+</body>
+</html>
