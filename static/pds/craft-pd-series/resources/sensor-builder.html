@@ -1147,7 +1147,117 @@ ${d.assessment || '[please design an assessment with 3-4 components]'}
 4. Include calibration notes for any sensors that need it (especially temperature — it reads CPU die temp, not ambient).
 5. Include a "Check the Machine" (CtM) student exercise for verifying any AI-generated code.
 
-**Format your entire response as Markdown** using the same section structure above, with YAML front matter (title, author, grade_band, subject, sensors, standards, tags), so I can paste it back into the Sensor-to-Standards Lesson Generator.`;
+---
+
+## Response Format — READ CAREFULLY
+
+Your reply MUST have TWO parts, in this order:
+
+### PART A — Human-Readable Lesson Design (narrative)
+
+Write a conversational walkthrough of the lesson for the teacher. Explain your design decisions, call out sensor-specific gotchas (especially calibration), note where you tightened or broadened the grade-level fit, and highlight anything the teacher should double-check before running it. This is the part the teacher actually reads and revises.
+
+### PART B — Ingestion-Ready Markdown (machine-readable)
+
+After Part A, output a single fenced code block with language tag \`markdown\` containing the full lesson in the EXACT schema below so my Sensor-to-Standards Lesson Generator can parse it with its "Load from Markdown" feature. Use the exact section header wording. Do not omit sections — use \`*(not applicable)*\` for anything genuinely empty. Keep the MakeCode and MicroPython code inside \`\\\`\\\`\\\`javascript\` and \`\\\`\\\`\\\`python\` fenced blocks respectively.
+
+\`\`\`markdown
+---
+title: "${d.lessonTitle || '<lesson title>'}"
+author: "${d.teacherName || ''}"
+grade_band: "${d.gradeBand || ''}"
+subject: "${d.subjectArea || ''}"
+sensors: [${d.sensors.map(s => `"${s}"`).join(', ') || '"<sensor>"'}]
+standards: [${[...d.standards, ...d.customStandards].map(s => `"${s}"`).join(', ') || '"<standard code>"'}]
+date: "${new Date().toISOString().slice(0,10)}"
+tags: ["CRAFT", "IoT", "micro:bit", "sensors", "physical computing"]
+---
+
+# <Lesson Title>
+
+**Author:** <name>
+**Grade Band:** <band> · **Subject:** <subject> · **Duration:** <minutes>
+**Driving Question:** <one sentence>
+
+## Hardware Setup
+
+- **Sensors:** <comma-separated list>
+- **Additional Materials:** <list>
+- **Programming Environment:** <MakeCode | MicroPython | both>
+- **LLM-Assisted Coding:** <Yes | No>
+
+## Standards Alignment
+
+- <standard 1>
+- <standard 2>
+
+## Contextualize — Why Does This Matter?
+
+### Real-World IoT Connection
+<one or two paragraphs>
+
+### Career Connection
+<one paragraph>
+
+## Reframe — What Do Students Get Wrong?
+
+### Misconception
+<the wrong mental model students typically hold>
+
+### Correct Understanding
+<the corrected model, in student-friendly language>
+
+## Assemble — I Do → We Do → You Do
+
+### I Do (5–10 min)
+<facilitator demonstration script>
+
+### We Do (10–15 min)
+<guided practice>
+
+### You Do (15–30 min)
+<independent activity>
+
+### Data Collection Plan
+<what students collect, how they record it, how long>
+
+### Code Scaffold — MakeCode JavaScript
+\\\`\\\`\\\`javascript
+// working MakeCode JavaScript for the listed sensors
+\\\`\\\`\\\`
+
+### Code Scaffold — MicroPython
+\\\`\\\`\\\`python
+# working MicroPython for the listed sensors
+\\\`\\\`\\\`
+
+## Fortify — Verify the Data + Check the Machine
+
+### Data Verification
+<calibration / sanity-check exercise specific to the chosen sensors>
+
+### Student CtM Exercise
+- **Task:** <what students ask the AI>
+- **Before:** <their prior belief>
+- **After:** <what they compare against>
+- **Takeaway:** <metacognitive reflection prompt>
+
+## Transfer — What's Next?
+
+### Next Lesson
+<how this connects forward>
+
+### Extension
+<optional deeper challenge>
+
+### Student Extension Prompts
+<3 LLM prompts students can paste to extend on their own>
+
+## Assessment
+<3–4 component assessment with criteria>
+\`\`\`
+
+Critical: the triple-backtick fences around the javascript, python, and markdown blocks must be LITERAL in your actual output — the escaping in this prompt is only so I can describe the format. The outermost fenced block (language \`markdown\`) must wrap everything from the YAML front matter through the Assessment section.`;
 
   navigator.clipboard.writeText(prompt).then(() => showToast('AI prompt copied — paste into any LLM!'));
 }

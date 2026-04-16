@@ -981,7 +981,88 @@ ${d.logicBreaks || '[not yet analyzed]'}
 5. **List specific edits** needed to make this classroom-ready for ${d.gradeSubject || 'the target audience'}.
 6. **Design a student-facing CtM exercise** using this content — write the exact Task, Before, After, and Takeaway prompts a student would complete.
 
-Format your response as Markdown using the same CtM structure (Task → Before → After → Takeaway) so I can paste it back into the Audit Workbench.`;
+---
+
+## Response Format — READ CAREFULLY
+
+Your reply MUST have TWO parts, in this order:
+
+### PART A — Human-Readable Audit (narrative)
+
+Write a prose audit for a teacher to read. Use headings, bullets, and short paragraphs. Walk me through your claim verification, the errors I missed, your standards-code check, your overall verdict with reasoning, and your recommended edits. This is the part I'll actually read and discuss.
+
+### PART B — Ingestion-Ready Markdown (machine-readable)
+
+After Part A, output a single fenced code block with language tag \`markdown\` containing the audit in the EXACT schema below so my Audit Workbench tool can parse it automatically with its "Load from Markdown" feature. Do not paraphrase section headers. Do not omit sections — use \`*(none)*\` for anything genuinely empty. Preserve the code fences around the AI output.
+
+\`\`\`markdown
+---
+title: "AI Output Audit"
+auditor: "${d.auditorName || ''}"
+grade_subject: "${d.gradeSubject || ''}"
+ai_tool: "${d.aiTool || ''}"
+verdict: "keep | fix | cut"
+date: "${new Date().toISOString().slice(0,10)}"
+tags: ["CRAFT", "CtM", "audit", "AI verification"]
+---
+
+# AI Output Audit
+
+## Step 1: TASK — What I Asked the AI
+
+<original prompt text here, verbatim>
+
+## Step 2: BEFORE — My Expectations
+
+### Prior Knowledge
+<what the teacher knew before reading the output>
+
+### Expected Output
+<what the teacher expected the AI to produce>
+
+### Predicted Errors
+<errors the teacher anticipated>
+
+## Step 3: AFTER — The AI Output
+
+\\\`\\\`\\\`
+<AI output verbatim, inside this fenced code block>
+\\\`\\\`\\\`
+
+### Claims Inventory
+
+| Claim / Citation | Rating | Source / Note |
+|---|---|---|
+| <claim 1> | correct | <your verification> |
+| <claim 2> | incorrect | <your verification> |
+
+### Reasoning Trace
+<your reasoning-break analysis in prose>
+
+### Standards Fit
+- **Cited Standard:** <code>
+- **Verdict:** <fits | partial | does-not-fit>
+- **Notes:** <explanation>
+
+## Step 4: TAKEAWAY
+
+### Errors Found
+<bulleted list of all errors you identified>
+
+### Edits Needed
+<bulleted list of specific, actionable edits>
+
+### Student-Facing CtM Exercise
+**Task:** <what students would ask the AI>
+**Before:** <prompt that elicits their prior belief>
+**After:** <prompt that guides their comparison>
+**Takeaway:** <prompt that elicits their metacognitive reflection>
+
+### Self-Reflection
+<what this audit revealed about the teacher's own understanding>
+\`\`\`
+
+Critical: the fences inside the AFTER section must be literal \`\`\` backticks — not escaped — in your actual output. The escaping in this prompt is only so I can describe the format to you.`;
 
   navigator.clipboard.writeText(prompt).then(() => showToast('AI audit prompt copied — paste into any LLM!'));
 }
