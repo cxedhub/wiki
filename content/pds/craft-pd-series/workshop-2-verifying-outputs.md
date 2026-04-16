@@ -61,7 +61,8 @@ Your students are using AI — but do they know when it's wrong? This session eq
 
 ## Shared Workspace
 
-- 📋 [Group Workspace (Google Doc)](https://docs.google.com/document/d/1qabmRf2MdjUJ9G4v6SqNhZm7_6UcMVqZ/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true) — collaborative document for all breakout and group activities
+- 📋 [Group Workspace (Google Doc)](https://docs.google.com/document/d/1J3NOX0FSU1uqiCNphZHX1IIGM7oFa3Pd/edit?usp=sharing&ouid=107503058538624505453&rtpof=true&sd=true) — collaborative document for all breakout and group activities
+- 🗓 [Live Agenda (Google Doc)](https://docs.google.com/document/d/1HNAUpx-D3OZEaHAfd6hNqrhe-qxWsplo/edit?usp=sharing&ouid=107503058538624505453&rtpof=true&sd=true) — facilitator-maintained timing board, updated in real time during the session
 
 ## Learning Objectives
 

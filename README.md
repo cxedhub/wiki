@@ -58,8 +58,11 @@ static/pds/craft-pd-series/
 
 ### Shared Group Workspaces (Google Docs)
 - W1: https://docs.google.com/document/d/11sYpp3Ho0PUEOwjro4M5fkpMwp-9XPLo/edit
-- W2: https://docs.google.com/document/d/1qabmRf2MdjUJ9G4v6SqNhZm7_6UcMVqZ/edit
+- W2: https://docs.google.com/document/d/1J3NOX0FSU1uqiCNphZHX1IIGM7oFa3Pd/edit
 - W3: https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit
+
+### Live Agenda (facilitator timing board, visible to all)
+- W2: https://docs.google.com/document/d/1HNAUpx-D3OZEaHAfd6hNqrhe-qxWsplo/edit
 
 ## Deployment steps
 
