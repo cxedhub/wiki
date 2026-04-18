@@ -84,5 +84,35 @@
   </footer>
 
   <script src="{{ "js/main.js" | relURL }}"></script>
+  {{ with site.Params.goatcounter }}
+  <script>
+    // Track downloads and outbound links as GoatCounter events.
+    (function () {
+      var DOWNLOAD_EXT = /\.(pdf|pptx?|docx?|xlsx?|zip|csv|ipynb|epub|key|pages|numbers)(\?.*)?$/i;
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href]');
+        if (!a || !window.goatcounter || !window.goatcounter.count) return;
+        var href = a.getAttribute('href');
+        if (!href || href.charAt(0) === '#') return;
+
+        var url;
+        try { url = new URL(a.href, window.location.href); } catch (_) { return; }
+
+        var isDownload = DOWNLOAD_EXT.test(url.pathname) || a.hasAttribute('download');
+        var isOutbound = url.host && url.host !== window.location.host;
+        if (!isDownload && !isOutbound) return;
+
+        var kind = isDownload ? 'download' : 'outbound';
+        var label = (isDownload ? url.pathname.split('/').pop() : url.host + url.pathname) || url.href;
+        window.goatcounter.count({
+          path: kind + ': ' + label,
+          title: a.textContent.trim().slice(0, 200) || label,
+          event: true
+        });
+      }, true);
+    })();
+  </script>
+  <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {{ end }}
 </body>
 </html>
