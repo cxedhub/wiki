@@ -1,6 +1,11 @@
 """micro:bit MicroPython: Motion + Compass
 Shows compass direction only when the device is shaken.
 Combines accelerometer gesture detection with compass heading.
+
+How to credit:
+  Borowczak, A.C. & Borowczak, M. (2026). CxEd Hub: Cross-Disciplinary
+  Computing-Integrated K-12 Lesson Plans. https://cxedhub.github.io/wiki/
+  Licensed under CC BY-SA 4.0.
 """
 from microbit import *
 
