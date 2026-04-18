@@ -18,17 +18,17 @@ Help students use generative AI as a partner for STEM learning — with guardrai
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/lesson-template.html">STEM Lesson Template</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/lesson-template.html">STEM Lesson Template</a></h3>
     <p class="card-desc">Fillable template that maps a STEM lesson onto the CRAFT cycle. Start here when designing a new AI-integrated lesson.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/prompt-library.html">Prompt Library</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/prompt-library.html">Prompt Library</a></h3>
     <p class="card-desc">Curated, classroom-tested prompts for Socratic tutoring, misconception surfacing, rubric drafting, and student work critique.</p>
     <div class="card-meta"><span class="chip chip-subject">Prompts</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/platform-comparison.html">AI Platform Comparison</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/platform-comparison.html">AI Platform Comparison</a></h3>
     <p class="card-desc">Side-by-side comparison of ChatGPT, Claude, Gemini, and Copilot for K-12 use — data policies, age gates, strengths, and tradeoffs.</p>
     <div class="card-meta"><span class="chip chip-subject">Reference</span><span class="chip chip-grade">Educator</span></div>
   </div>
@@ -40,37 +40,37 @@ Teach students to audit AI responses for factual, procedural, and pedagogical er
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/ctm-template.html">Claim → Trace → Method (CtM) Template</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/ctm-template.html">Claim → Trace → Method (CtM) Template</a></h3>
     <p class="card-desc">A three-column student worksheet for verifying any AI answer: what does it claim, what evidence backs it, what method can you use to check it.</p>
     <div class="card-meta"><span class="chip chip-subject">Worksheet</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/error-gallery.html">AI Error Gallery</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/error-gallery.html">AI Error Gallery</a></h3>
     <p class="card-desc">Annotated examples of AI mistakes — hallucinated citations, wrong formulas, plausible-but-wrong code. Ready-to-use discussion artifacts.</p>
     <div class="card-meta"><span class="chip chip-subject">Examples</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/content-audit-checklist.html">Content Audit Checklist</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/content-audit-checklist.html">Content Audit Checklist</a></h3>
     <p class="card-desc">Teacher-facing checklist for screening AI-generated curriculum materials before putting them in front of students.</p>
     <div class="card-meta"><span class="chip chip-subject">Checklist</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/audit-workbench.html">Audit Workbench</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/audit-workbench.html">Audit Workbench</a></h3>
     <p class="card-desc">Interactive in-browser tool: paste AI output, step through the audit protocol, export an annotated verification trail.</p>
     <div class="card-meta"><span class="chip chip-subject">Interactive</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/code-snippets/snippet_1_projectile.py">Error Hunt: Projectile Motion (Python)</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/code-snippets/snippet_1_projectile.py">Error Hunt: Projectile Motion (Python)</a></h3>
     <p class="card-desc">AI-generated physics code with embedded bugs. Students debug and explain what went wrong.</p>
     <div class="card-meta"><span class="chip chip-subject">Physics</span><span class="chip chip-grade">9-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/code-snippets/snippet_2_temperature.py">Error Hunt: Temperature Conversion (Python)</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/code-snippets/snippet_2_temperature.py">Error Hunt: Temperature Conversion (Python)</a></h3>
     <p class="card-desc">Subtle unit-conversion errors in AI-generated code. A gentler on-ramp for middle-school coders.</p>
     <div class="card-meta"><span class="chip chip-subject">Math/Science</span><span class="chip chip-grade">6-8</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/code-snippets/snippet_3_ph.py">Error Hunt: pH Calculation (Python)</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/code-snippets/snippet_3_ph.py">Error Hunt: pH Calculation (Python)</a></h3>
     <p class="card-desc">Chemistry code with both logic and domain-knowledge mistakes. Great crossover for chem + CS.</p>
     <div class="card-meta"><span class="chip chip-subject">Chemistry</span><span class="chip chip-grade">9-12</span></div>
   </div>
@@ -82,47 +82,47 @@ Move students from AI on a screen to AI on a sensor — build, measure, and reas
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/sensor-reference-guide.html">Sensor Reference Guide</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/sensor-reference-guide.html">Sensor Reference Guide</a></h3>
     <p class="card-desc">One-pager on every sensor in the micro:bit v2 — units, ranges, and sample use cases for each.</p>
     <div class="card-meta"><span class="chip chip-subject">Reference</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/sensor-builder.html">Sensor-to-Standards Builder</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/sensor-builder.html">Sensor-to-Standards Builder</a></h3>
     <p class="card-desc">Pick a sensor, get aligned NGSS performance expectations and lesson seeds. Fast way to justify a hardware activity on your pacing guide.</p>
     <div class="card-meta"><span class="chip chip-subject">Interactive</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
     <p class="card-desc">CRAFT-aligned template for any edge/IoT lesson — from one-period demos to multi-week student design projects.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/ngss-crosswalk.html">NGSS ↔ IoT Crosswalk</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/ngss-crosswalk.html">NGSS ↔ IoT Crosswalk</a></h3>
     <p class="card-desc">Mapping of common micro:bit + sensor activities to specific NGSS performance expectations by grade band.</p>
     <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/micropython/01_temperature_display.py">Starter 1: Temperature Display</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/01_temperature_display.py">Starter 1: Temperature Display</a></h3>
     <p class="card-desc">MicroPython starter — read the onboard thermometer, show it on the LED matrix. Day-one activity.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/micropython/02_temp_and_light.py">Starter 2: Temperature + Light</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/02_temp_and_light.py">Starter 2: Temperature + Light</a></h3>
     <p class="card-desc">Dual-sensor reading with button-driven mode switching. Introduces event-driven programming.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/micropython/03_greenhouse_monitor.py">Starter 3: Greenhouse Monitor</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/03_greenhouse_monitor.py">Starter 3: Greenhouse Monitor</a></h3>
     <p class="card-desc">Threshold-based alerts from multiple environmental sensors. Pairs well with plant-science units.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/micropython/04_motion_compass.py">Starter 4: Motion Compass</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/04_motion_compass.py">Starter 4: Motion Compass</a></h3>
     <p class="card-desc">Accelerometer + magnetometer mini-project — a rich platform for physics, earth science, and engineering design.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/micropython/05_comfort_index.py">Starter 5: Comfort Index</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/05_comfort_index.py">Starter 5: Comfort Index</a></h3>
     <p class="card-desc">Capstone starter that combines multiple sensors into a computed comfort metric. Model for student-driven synthesis projects.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
@@ -134,64 +134,49 @@ Background reading and overview materials — use these when introducing the CRA
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/resources/craft-cycle-one-pager.html">CRAFT Cycle One-Pager</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/craft-cycle-one-pager.html">CRAFT Cycle One-Pager</a></h3>
     <p class="card-desc">The whole framework on a single page. Contextualize, Reframe, Assemble, Fortify, Transfer — with classroom examples for each phase.</p>
     <div class="card-meta"><span class="chip chip-subject">Overview</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/workshop-1-ai-for-stem/">Workshop 1: AI for STEM</a></h3>
+    <h3><a href="/pds/craft-pd-series/workshop-1-ai-for-stem/">Workshop 1: AI for STEM</a></h3>
     <p class="card-desc">Full overview of Workshop 1 — foundations for using generative AI in STEM classrooms.</p>
     <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/workshop-2-verifying-outputs/">Workshop 2: Verifying AI Outputs</a></h3>
+    <h3><a href="/pds/craft-pd-series/workshop-2-verifying-outputs/">Workshop 2: Verifying AI Outputs</a></h3>
     <p class="card-desc">Full overview of Workshop 2 — auditing AI-generated content for the classroom.</p>
     <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/workshop-3-edge-iot/">Workshop 3: Edge AI &amp; IoT</a></h3>
+    <h3><a href="/pds/craft-pd-series/workshop-3-edge-iot/">Workshop 3: Edge AI &amp; IoT</a></h3>
     <p class="card-desc">Full overview of Workshop 3 — physical computing and IoT with micro:bit and MicroPython.</p>
     <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">Educator</span></div>
   </div>
 </div>
 
-### Downloadable Toolkits & Slide Decks
+### Slide Decks & Facilitator Agenda
 
-Grab-and-go bundles for running your own session or sharing with a department.
+Grab-and-go materials for running your own session or sharing with a department.
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/W1-Digital-Toolkit.pdf">W1 Digital Toolkit (PDF)</a></h3>
-    <p class="card-desc">Printable packet of all Workshop 1 handouts, templates, and reference sheets.</p>
-    <div class="card-meta"><span class="chip chip-subject">PDF</span></div>
-  </div>
-  <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/W2-Digital-Toolkit.pdf">W2 Digital Toolkit (PDF)</a></h3>
-    <p class="card-desc">Printable packet of all Workshop 2 verification artifacts and checklists.</p>
-    <div class="card-meta"><span class="chip chip-subject">PDF</span></div>
-  </div>
-  <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/W3-Digital-Toolkit.pdf">W3 Digital Toolkit (PDF)</a></h3>
-    <p class="card-desc">Printable packet of all Workshop 3 micro:bit and IoT materials.</p>
-    <div class="card-meta"><span class="chip chip-subject">PDF</span></div>
-  </div>
-  <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/slides-w1.html">Workshop 1 Slides (web)</a></h3>
-    <p class="card-desc">Web-based slide deck for Workshop 1. <a href="/wiki/pds/craft-pd-series/Workshop-1-Slides.pptx">Download PPTX</a>.</p>
+    <h3><a href="/pds/craft-pd-series/slides-w1.html">Workshop 1 Slides (web)</a></h3>
+    <p class="card-desc">Web-based slide deck for Workshop 1. <a href="/pds/craft-pd-series/Workshop-1-Slides.pptx">Download PPTX</a>.</p>
     <div class="card-meta"><span class="chip chip-subject">Slides</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/slides-w2.html">Workshop 2 Slides (web)</a></h3>
-    <p class="card-desc">Web-based slide deck for Workshop 2. <a href="/wiki/pds/craft-pd-series/Workshop-2-Slides.pptx">Download PPTX</a>.</p>
+    <h3><a href="/pds/craft-pd-series/slides-w2.html">Workshop 2 Slides (web)</a></h3>
+    <p class="card-desc">Web-based slide deck for Workshop 2. <a href="/pds/craft-pd-series/Workshop-2-Slides.pptx">Download PPTX</a>.</p>
     <div class="card-meta"><span class="chip chip-subject">Slides</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/slides-w3.html">Workshop 3 Slides (web)</a></h3>
-    <p class="card-desc">Web-based slide deck for Workshop 3. <a href="/wiki/pds/craft-pd-series/Workshop-3-Slides.pptx">Download PPTX</a>.</p>
+    <h3><a href="/pds/craft-pd-series/slides-w3.html">Workshop 3 Slides (web)</a></h3>
+    <p class="card-desc">Web-based slide deck for Workshop 3. <a href="/pds/craft-pd-series/Workshop-3-Slides.pptx">Download PPTX</a>.</p>
     <div class="card-meta"><span class="chip chip-subject">Slides</span></div>
   </div>
   <div class="card">
-    <h3><a href="/wiki/pds/craft-pd-series/CRAFT_PD_Series_Facilitator_Agenda.docx">Facilitator Agenda (DOCX)</a></h3>
+    <h3><a href="/pds/craft-pd-series/CRAFT_PD_Series_Facilitator_Agenda.docx">Facilitator Agenda (DOCX)</a></h3>
     <p class="card-desc">Full three-workshop agenda for anyone wanting to run the CRAFT PD Series themselves.</p>
     <div class="card-meta"><span class="chip chip-subject">Agenda</span><span class="chip chip-grade">Facilitator</span></div>
   </div>
@@ -256,5 +241,5 @@ Vetted external resources for classroom use and at-home learning. Seven [NSF-sup
 
 ## Community & Additional Materials
 
-- **Discord** — You should have received a link to connect at one of our PDs. If you didn't, [reach out](/wiki/contact/) and we'll get you connected.
+- **Discord** — You should have received a link to connect at one of our PDs. If you didn't, [reach out](/contact/) and we'll get you connected.
 - **[CX Ed Hub Google Drive](https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing)** — Additional content, raw data, and archival materials.
