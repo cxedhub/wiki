@@ -192,19 +192,53 @@ Self-paced video PD, free on YouTube. Use these for department meetings, indepen
 
 Annual workshops blending CS, engineering, and the arts for elementary and middle-school educators.
 
-- **TACoS IX (2023)**
-  - Computer Science / Engineering: [Tutorial site](https://uwyo-ssc.gitlab.io/public/tacos/cs-website/) · [YouTube playlist](https://www.youtube.com/playlist?list=PLnF6tFc-G5i1aiFOUyYl99rSmZka1Fp5A) (28 videos, ~1–4 min each)
-  - Engineering Design with Computing: [YouTube playlist](https://www.youtube.com/playlist?list=PLnF6tFc-G5i00NdfNPdBaEnM6QPI3jg1i) (27 videos, ~1–4 min each)
-- [TACoS VIII (2022)](https://www.youtube.com/playlist?list=PLnF6tFc-G5i2TcyL7a2bI5V2PV4M9dIA8)
-- [TACoS VII (2021)](https://www.youtube.com/playlist?list=PLnF6tFc-G5i2TIJqvDC6K9il9h9KzpBlR)
-- [TACoS VI (2020)](https://www.youtube.com/playlist?list=PL4R2kry1ttMJ_r3SQGigKAYhMic4o_X7n) (5 videos, ~10–20 min each)
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://uwyo-ssc.gitlab.io/public/tacos/cs-website/">TACoS IX (2023)</a></h3>
+    <p class="card-desc">Latest edition: tutorial site plus two YouTube playlists — <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i1aiFOUyYl99rSmZka1Fp5A">CS / Engineering</a> (28 videos) and <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i00NdfNPdBaEnM6QPI3jg1i">Engineering Design with Computing</a> (27 videos). 1–4 min each.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i2TcyL7a2bI5V2PV4M9dIA8">TACoS VIII (2022)</a></h3>
+    <p class="card-desc">2022 workshop recordings on YouTube — full playlist of CS, engineering, and arts integration sessions.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i2TIJqvDC6K9il9h9KzpBlR">TACoS VII (2021)</a></h3>
+    <p class="card-desc">2021 workshop recordings on YouTube — full playlist of CS, engineering, and arts integration sessions.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMJ_r3SQGigKAYhMic4o_X7n">TACoS VI (2020)</a></h3>
+    <p class="card-desc">First virtual edition — 5 longer-form recordings, ~10–20 min each.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+</div>
 
 ### Technical Sessions
 
-- [Unplugged](https://www.youtube.com/playlist?list=PL4R2kry1ttMLUHUGxeW2nKTAW8UNzRsCz) — no computer needed; great for introducing CS concepts without devices.
-- [Thinking Like a Computer Scientist: Solve a Maze](https://youtube.com/playlist?list=PL4R2kry1ttMKgCy7gbAiX88vgJeDyxdxn) — no programming required; focuses on computational thinking.
-- Intro to CS with micro:bits — [2021](https://youtube.com/playlist?list=PL4R2kry1ttMKkJVw2Xf1nN_s4Apuunt2J) · [2020](https://www.youtube.com/playlist?list=PL4R2kry1ttMIqAWGAw8Hlpnk7b415PqHi)
-- [Advanced JavaScript](https://youtube.com/playlist?list=PL4R2kry1ttMJ3m3oC2WVa5JwnpFV5YQ7Q)
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMLUHUGxeW2nKTAW8UNzRsCz">Unplugged</a></h3>
+    <p class="card-desc">No computer needed — great for introducing CS concepts without devices.</p>
+    <div class="card-meta"><span class="chip chip-subject">Videos</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://youtube.com/playlist?list=PL4R2kry1ttMKgCy7gbAiX88vgJeDyxdxn">Thinking Like a Computer Scientist: Solve a Maze</a></h3>
+    <p class="card-desc">No programming required — focuses on computational thinking through a hands-on maze problem.</p>
+    <div class="card-meta"><span class="chip chip-subject">Videos</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://youtube.com/playlist?list=PL4R2kry1ttMKkJVw2Xf1nN_s4Apuunt2J">Intro to CS with micro:bits</a></h3>
+    <p class="card-desc">Hands-on introduction to physical computing. <a href="https://youtube.com/playlist?list=PL4R2kry1ttMKkJVw2Xf1nN_s4Apuunt2J">2021 cohort</a> · <a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMIqAWGAw8Hlpnk7b415PqHi">2020 cohort</a>.</p>
+    <div class="card-meta"><span class="chip chip-subject">micro:bit</span><span class="chip chip-grade">6-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://youtube.com/playlist?list=PL4R2kry1ttMJ3m3oC2WVa5JwnpFV5YQ7Q">Advanced JavaScript</a></h3>
+    <p class="card-desc">Deeper-dive sessions for teachers ready to move beyond intro programming with their students.</p>
+    <div class="card-meta"><span class="chip chip-subject">JavaScript</span><span class="chip chip-grade">9-12</span></div>
+  </div>
+</div>
 
 ---
 
@@ -212,34 +246,81 @@ Annual workshops blending CS, engineering, and the arts for elementary and middl
 
 Short explainer videos to help you align instruction to state and national CS standards.
 
-- [What Is CS? YouTube Series](https://www.youtube.com/playlist?list=PL4R2kry1ttMKCjDxW_oxdqfY2H9mfYFPE) — short explainers on core CS concepts.
-- [Cross-Disciplinary Matrix with Lessons Mapped](https://docs.google.com/spreadsheets/d/1_xPk-p6iyPMEUKILO6ifRRUOdi88iq8k1yfqtFiXgIY/edit#gid=221763366) *(draft, in-progress)*
-
-### Wyoming CS Standards Explained (3–5 min each)
-
-- [K–2](https://www.youtube.com/watch?v=2BpRcRx5nR8&list=PLld22jyV1BHdt2x79nfxLxKpb_r3K03kY) (7 videos)
-- [3–5](https://www.youtube.com/watch?v=brWEr4R218M&list=PLld22jyV1BHcOmCZNrCexXlR0T1r0xe4B) (10 videos)
-- [5–8](https://www.youtube.com/watch?v=RSR7csk1hYo&list=PLld22jyV1BHe6t-NmHPpbIbN5EyFNg5jZ) (8 videos)
-- [HS Level 1](https://www.youtube.com/watch?v=Jq8nfPYftrw&list=PLld22jyV1BHd6DUit1RQgWp_Oxk3G0fcA) (9 videos)
-- [HS Level 2](https://www.youtube.com/watch?v=7KauD6zglok&list=PLld22jyV1BHeYMmq9ee6qWaq3P9P7Bxwm) (7 videos)
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMKCjDxW_oxdqfY2H9mfYFPE">What Is CS? YouTube Series</a></h3>
+    <p class="card-desc">Short explainers on core CS concepts — drop into a lesson or share with families.</p>
+    <div class="card-meta"><span class="chip chip-subject">Videos</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://docs.google.com/spreadsheets/d/1_xPk-p6iyPMEUKILO6ifRRUOdi88iq8k1yfqtFiXgIY/edit#gid=221763366">Cross-Disciplinary Matrix</a></h3>
+    <p class="card-desc">Lessons mapped across subjects and standards. Draft, in-progress — feedback welcome.</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">Educator</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/watch?v=2BpRcRx5nR8&list=PLld22jyV1BHdt2x79nfxLxKpb_r3K03kY">Wyoming CS Standards Explained</a></h3>
+    <p class="card-desc">3–5 min explainers per standard, by grade band: <a href="https://www.youtube.com/watch?v=2BpRcRx5nR8&list=PLld22jyV1BHdt2x79nfxLxKpb_r3K03kY">K–2</a> (7) · <a href="https://www.youtube.com/watch?v=brWEr4R218M&list=PLld22jyV1BHcOmCZNrCexXlR0T1r0xe4B">3–5</a> (10) · <a href="https://www.youtube.com/watch?v=RSR7csk1hYo&list=PLld22jyV1BHe6t-NmHPpbIbN5EyFNg5jZ">5–8</a> (8) · <a href="https://www.youtube.com/watch?v=Jq8nfPYftrw&list=PLld22jyV1BHd6DUit1RQgWp_Oxk3G0fcA">HS L1</a> (9) · <a href="https://www.youtube.com/watch?v=7KauD6zglok&list=PLld22jyV1BHeYMmq9ee6qWaq3P9P7Bxwm">HS L2</a> (7).</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+</div>
 
 ---
 
 ## External STEM Resources
 
-Vetted external resources for classroom use and at-home learning. Seven [NSF-supported STEM resources](https://www.nsf.gov/science-matters/seven-nsf-supported-stem-resources-are-perfect-home-learning) ideal for student engagement both in and outside the classroom:
+Vetted external resources for classroom use and at-home learning — seven [NSF-supported STEM resources](https://www.nsf.gov/science-matters/seven-nsf-supported-stem-resources-are-perfect-home-learning) for student engagement in and outside the classroom.
 
-- **[Scratch](https://scratch.mit.edu/)** — Program interactive stories, games, and animations while learning coding fundamentals through a visual interface.
-- **[Peep and the Big Wide World](http://www.peepandthebigwideworld.com/)** — One of the first STEM-focused shows for preschool-aged children, with parent and teacher resources for hands-on exploration.
-- **[Cyberchase](https://pbskids.org/cyberchase)** — A 3D-builder math app and dozens of downloadable math and computing activities.
-- **[SciGirls](https://scigirlsconnect.org/)** — Interactive games and resources designed to encourage girls in STEM fields.
-- **[Design Squad](https://pbskids.org/designsquad)** — Videos and activities to engage students aged 10–13 in hands-on engineering challenges.
-- **[NOVA](https://www.pbs.org/wgbh/nova/)** — A wide range of science topics through video, from ancient animals to polar research.
-- **[Foldscope](https://www.foldscope.com/)** — Affordable paper microscopes developed by an NSF-funded researcher for hands-on scientific observation.
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://scratch.mit.edu/">Scratch</a></h3>
+    <p class="card-desc">Program interactive stories, games, and animations while learning coding fundamentals through a visual interface.</p>
+    <div class="card-meta"><span class="chip chip-subject">Coding</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="http://www.peepandthebigwideworld.com/">Peep and the Big Wide World</a></h3>
+    <p class="card-desc">One of the first STEM-focused shows for preschool-aged children, with parent and teacher resources for hands-on exploration.</p>
+    <div class="card-meta"><span class="chip chip-subject">Science</span><span class="chip chip-grade">PreK-2</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://pbskids.org/cyberchase">Cyberchase</a></h3>
+    <p class="card-desc">A 3D-builder math app and dozens of downloadable math and computing activities.</p>
+    <div class="card-meta"><span class="chip chip-subject">Math</span><span class="chip chip-grade">3-5</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://scigirlsconnect.org/">SciGirls</a></h3>
+    <p class="card-desc">Interactive games and resources designed to encourage girls in STEM fields.</p>
+    <div class="card-meta"><span class="chip chip-subject">STEM</span><span class="chip chip-grade">3-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://pbskids.org/designsquad">Design Squad</a></h3>
+    <p class="card-desc">Videos and activities to engage students aged 10–13 in hands-on engineering challenges.</p>
+    <div class="card-meta"><span class="chip chip-subject">Engineering</span><span class="chip chip-grade">5-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.pbs.org/wgbh/nova/">NOVA</a></h3>
+    <p class="card-desc">A wide range of science topics through video, from ancient animals to polar research.</p>
+    <div class="card-meta"><span class="chip chip-subject">Science</span><span class="chip chip-grade">6-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.foldscope.com/">Foldscope</a></h3>
+    <p class="card-desc">Affordable paper microscopes developed by an NSF-funded researcher for hands-on scientific observation.</p>
+    <div class="card-meta"><span class="chip chip-subject">Biology</span><span class="chip chip-grade">3-12</span></div>
+  </div>
+</div>
 
 ---
 
 ## Community & Additional Materials
 
-- **Discord** — You should have received a link to connect at one of our PDs. If you didn't, [reach out](/contact/) and we'll get you connected.
-- **[CX Ed Hub Google Drive](https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing)** — Additional content, raw data, and archival materials.
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="/contact/">Discord Community</a></h3>
+    <p class="card-desc">You should have received a link to connect at one of our PDs. If you didn't, reach out and we'll get you connected.</p>
+    <div class="card-meta"><span class="chip chip-subject">Community</span><span class="chip chip-grade">Educator</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing">CX Ed Hub Google Drive</a></h3>
+    <p class="card-desc">Additional content, raw data, and archival materials from past workshops and projects.</p>
+    <div class="card-meta"><span class="chip chip-subject">Archive</span><span class="chip chip-grade">Educator</span></div>
+  </div>
+</div>
