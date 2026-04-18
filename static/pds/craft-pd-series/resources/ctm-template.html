@@ -173,7 +173,7 @@ input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);borde
 
 <div class="downloads">
 <h3>🤖 Generate AI Prompt to Iterate</h3>
-<p style="font-size:0.88rem;margin-bottom:10px">Copy a ready-to-use prompt that asks your AI agent to adapt the CtM protocol for your grade/subject and return it as a Word document. The prompt retains the cxedhub.com citation and asks the AI to note which agent iterated on the result.</p>
+<p style="font-size:0.88rem;margin-bottom:10px">Copy a ready-to-use prompt that asks your AI agent to adapt the CtM protocol for your grade/subject and return it as a Word document. The prompt <strong>enforces two things</strong>: (1) the entire generated document — step descriptions, examples, tasks, rubric, worksheet — is tailored to the age band and content area (step names stay; everything else adapts); and (2) the LLM running the prompt must self-identify and write its own model name into the citation block, so the "which LLM was used" line reflects the model that actually generated the output.</p>
 <div class="agent-pick">
 <label for="aiAgent" style="margin:0;flex:0 0 auto">AI agent you'll use:</label>
 <input type="text" id="aiAgent" placeholder="e.g., ChatGPT-5, Claude Sonnet 4.7, Gemini 2.5">
@@ -318,7 +318,7 @@ function downloadFull(){
 
 // ── AI Prompt generator ──
 function buildAiPrompt(){
-  const agent=(document.getElementById('aiAgent').value||'[your AI agent — e.g., ChatGPT-5, Claude Sonnet 4.7, Gemini 2.5]').trim();
+  const agent=(document.getElementById('aiAgent').value||'[teacher-entered label — you MUST override with your own true model identity]').trim();
   const grade=(document.getElementById('gradeSubject').value||'[grade/subject]').trim();
   return `You are an instructional-design collaborator helping a teacher iterate on the "Check the Machine" (CtM) classroom protocol for verifying AI outputs. The base protocol was created by Andrea Borowczak and Mike Borowczak and is published at cxedhub.com as part of the CRAFT PD Series.
 
@@ -340,26 +340,40 @@ Guiding principles:
 
 Adapt this protocol for: **${grade}**.
 
-Specifically:
-1. Rewrite the 4 steps in grade-appropriate language.
-2. Produce ONE fully worked example from my subject area that shows a realistic AI error a student should catch.
-3. Produce THREE ready-to-run CtM tasks a teacher could assign tomorrow — each with a prompt the student would paste to an AI, a plausible prediction, and the kind of error to watch for.
-4. Suggest a short formative-assessment rubric (3–5 criteria) for grading a completed CtM worksheet.
-5. Keep the guiding principles unchanged and quote them verbatim.
+## ENFORCED: the entire document must be tailored to this age band AND content area
+
+The four step NAMES (TASK, BEFORE, AFTER, TAKEAWAY) stay exactly as written above — they are the invariant of the protocol. EVERYTHING ELSE in the document you generate — step descriptions, reading level, vocabulary, sentence length, analogies, worked example, sample tasks, worksheet prompts, rubric criteria, and teacher notes — MUST be rewritten so it is developmentally appropriate for **${grade}** and grounded in examples drawn from that content area. A document that reuses the generic adult/teacher-facing wording from the base protocol above is NOT acceptable; regenerate before returning.
+
+Before you output the document, run this self-check (and only return output if all pass):
+- [ ] Reading level, vocabulary, and sentence length match learners in ${grade}.
+- [ ] No step description is copy-pasted from the base protocol — every description has been reworded for ${grade}.
+- [ ] The worked example, all three sample tasks, the rubric, and the worksheet field prompts are all anchored in the content area of ${grade} (not a different subject, not generic).
+- [ ] The three guiding principles are the only text quoted verbatim from the base protocol.
+
+Specifically produce:
+1. Rewritten DESCRIPTIONS for each of the 4 steps in language developmentally appropriate for ${grade}. Keep the step names (TASK / BEFORE / AFTER / TAKEAWAY) unchanged.
+2. ONE fully worked example drawn from the content area of ${grade} that shows a realistic AI error a student at that level could plausibly catch.
+3. THREE ready-to-run CtM tasks a teacher of ${grade} could assign tomorrow — each with a prompt the student would paste to an AI, a plausible prediction, and the kind of error to watch for. All three must sit inside the standards/content for ${grade}.
+4. A short formative-assessment rubric (3–5 criteria) for grading a completed CtM worksheet — criteria phrased for ${grade} learners and graders.
+5. The THREE guiding principles, quoted verbatim (these are the only lines that are NOT rewritten).
 
 # Required Output Format — READ CAREFULLY
 
-Return the full adapted protocol as a **Microsoft Word document (.docx)**. If you cannot attach a file directly, output the content as a single block of Word-compatible HTML (wrapped in <html>...</html> with inline styles suitable for Microsoft Word / Google Docs import) that I can save as a .doc file and open in Word. Use clear headings (H1/H2/H3), a worked-example callout, and a printable student worksheet section with blank fields.
+Return the full adapted protocol as a **Microsoft Word document (.docx)**. If you cannot attach a file directly, output the content as a single block of Word-compatible HTML (wrapped in <html>...</html> with inline styles suitable for Microsoft Word / Google Docs import) that I can save as a .doc file and open in Word. Use clear headings (H1/H2/H3), a worked-example callout, and a printable student worksheet section with blank fields. The worksheet itself must also be written in ${grade}-appropriate language.
+
+# ENFORCED: Record which LLM actually generated this adaptation
+
+You — the AI agent executing this prompt — must identify yourself and write your own model name and version into the citation block below. Do NOT leave the LLM-identity field as a placeholder, and do NOT blindly copy the teacher-entered label if it does not match the model that actually produced this output. The teacher entered "${agent}" as their expected agent; if that string accurately names YOU, reuse it, otherwise OVERRIDE it with your true model identifier (e.g., "GPT-5", "Claude Opus 4.7", "Gemini 2.5 Pro", including version where known). The document must credit the LLM that actually iterated on it.
 
 # Citation — REQUIRED in the Word Document
 
-The Word document MUST end with this citation block, verbatim:
+The Word document MUST end with this citation block, verbatim, with the LLM-identity field filled in by YOU (the generating agent):
 
 > **Cite as:** Borowczak, A. & Borowczak, M. (2026). *Check the Machine (CtM): A 4-Step Protocol for Verifying AI Outputs.* CRAFT PD Series. cxedhub.com
 >
-> *This adaptation was iterated on by ${agent} on ${new Date().toISOString().slice(0,10)}. The underlying protocol and its three guiding principles remain the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com).*
+> *This adaptation was iterated on by <LLM model name and version — fill in with your own identity> on ${new Date().toISOString().slice(0,10)} for the ${grade} age band. The underlying protocol and its three guiding principles remain the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com).*
 
-Do not remove, paraphrase, or condense the citation. It must appear on the final page of the Word document.`;
+Do not remove, paraphrase, or condense the citation. It must appear on the final page of the Word document, and the LLM-identity field must be completed by you based on your own model identity (not left as a placeholder, not left as the teacher's label unless that label accurately names you).`;
 }
 
 function copyAiPrompt(){
