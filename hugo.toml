@@ -16,7 +16,7 @@ summaryLength = 40
   googleDriveURL = "https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing"
   # GoatCounter site code (the "xxx" in xxx.goatcounter.com). Leave empty to disable.
   # Sign up at https://www.goatcounter.com/signup, then set e.g. goatcounter = "cxedhub"
-  goatcounter = ""
+  goatcounter = "drmikeb"
 
 [taxonomies]
   tag = "tags"
