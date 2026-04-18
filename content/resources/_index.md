@@ -18,7 +18,7 @@ Help students use generative AI as a partner for STEM learning — with guardrai
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/lesson-template.html">STEM and Other Lesson/Unit Template</a></h3>
+    <h3><a href="/pds/craft-pd-series/resources/lesson-template.html">Lesson/Unit Template</a></h3>
     <p class="card-desc">Fillable template that maps a STEM lesson onto the CRAFT cycle. Start here when designing a new AI-integrated lesson.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
