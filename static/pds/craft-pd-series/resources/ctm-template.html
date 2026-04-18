@@ -37,7 +37,16 @@ input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);borde
 .btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
 .back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
 .divider{border:none;border-top:2px dashed var(--gray200);margin:32px 0}
-@media print{.btn,.back{display:none}body{max-width:100%}.onepager{border:2px solid #000}.worksheet{border:1px solid #999;page-break-inside:avoid}}
+.citation{background:var(--teal-bg);border-left:4px solid var(--teal);border-radius:4px;padding:12px 16px;margin:20px 0;font-size:0.85rem;color:var(--ink-med)}
+.citation strong{color:var(--ink)}
+.downloads{background:#fff;border:1px solid var(--gray200);border-radius:10px;padding:20px;margin:20px 0}
+.downloads h3{margin-top:0;color:var(--teal)}
+.btn-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 20px;border-radius:6px;font-size:0.9rem;opacity:0;transition:opacity 0.3s;pointer-events:none;z-index:999}
+.toast.show{opacity:1}
+.agent-pick{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.agent-pick input{width:auto;flex:1;min-width:180px}
+@media print{.btn,.back,.downloads,.agent-pick{display:none}body{max-width:100%}.onepager{border:2px solid #000}.worksheet{border:1px solid #999;page-break-inside:avoid}}
 @media(max-width:600px){.row{grid-template-columns:1fr}.step{grid-template-columns:44px 1fr}}
 </style>
 </head><body>
@@ -46,6 +55,10 @@ input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);borde
 
 <h1>Check the Machine (CtM)</h1>
 <p class="subtitle">A 4-step protocol for verifying AI outputs. Use the one-pager as a reference. Use the worksheet with students.</p>
+
+<div class="citation">
+<strong>Cite this resource:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>Check the Machine (CtM): A 4-Step Protocol for Verifying AI Outputs.</em> CRAFT PD Series. <a href="https://www.cxedhub.com">cxedhub.com</a>
+</div>
 
 <!-- ═══ ONE-PAGER ═══ -->
 <div class="onepager">
@@ -144,19 +157,232 @@ input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);borde
 <textarea placeholder="Write a specific AI task your students could run through the CtM cycle. e.g., 'Ask the AI to explain why leaves change color in autumn at a 5th grade reading level.'"></textarea>
 </div>
 
-<div style="margin-top:20px">
-<button class="btn" onclick="window.print()">🖨 Print</button>
+<div class="downloads">
+<h3>📄 Download &amp; Share</h3>
+<p style="font-size:0.88rem;margin-bottom:10px">Download any section as a Word document (.doc) — opens in Microsoft Word, Google Docs, or Pages. Every download includes the citation block.</p>
+<div class="btn-row">
+<button class="btn" onclick="downloadOnePager()">⬇ One-Pager (.doc)</button>
+<button class="btn" onclick="downloadWorksheet()">⬇ Student Worksheet (.doc)</button>
+<button class="btn" onclick="downloadFull()">⬇ Full Template (.doc)</button>
+</div>
+<div class="btn-row">
+<button class="btn secondary" onclick="window.print()">🖨 Print</button>
 <button class="btn secondary" onclick="printWorksheetOnly()">🖨 Print Worksheet Only</button>
 </div>
+</div>
 
-<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+<div class="downloads">
+<h3>🤖 Generate AI Prompt to Iterate</h3>
+<p style="font-size:0.88rem;margin-bottom:10px">Copy a ready-to-use prompt that asks your AI agent to adapt the CtM protocol for your grade/subject and return it as a Word document. The prompt retains the cxedhub.com citation and asks the AI to note which agent iterated on the result.</p>
+<div class="agent-pick">
+<label for="aiAgent" style="margin:0;flex:0 0 auto">AI agent you'll use:</label>
+<input type="text" id="aiAgent" placeholder="e.g., ChatGPT-5, Claude Sonnet 4.7, Gemini 2.5">
+</div>
+<div class="agent-pick">
+<label for="gradeSubject" style="margin:0;flex:0 0 auto">Grade / subject focus:</label>
+<input type="text" id="gradeSubject" placeholder="e.g., 8th Grade Physical Science">
+</div>
+<div class="btn-row">
+<button class="btn" onclick="copyAiPrompt()">📋 Copy AI Prompt</button>
+<button class="btn secondary" onclick="downloadAiPrompt()">⬇ Download Prompt (.txt)</button>
+</div>
+</div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab &amp; School of Teacher Education<br>© Andrea Borowczak &amp; Mike Borowczak · <a href="https://www.cxedhub.com">cxedhub.com</a></p>
+
+<div class="toast" id="toast"></div>
 
 <script>
+// ── Citation (shared across every export) ──
+const CITATION_TEXT = 'Borowczak, A. & Borowczak, M. (2026). Check the Machine (CtM): A 4-Step Protocol for Verifying AI Outputs. CRAFT PD Series. cxedhub.com';
+const CITATION_HTML = '<p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite as:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>Check the Machine (CtM): A 4-Step Protocol for Verifying AI Outputs.</em> CRAFT PD Series. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
+
+// ── Toast ──
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2200);
+}
+
+// ── Word-compatible HTML wrapper ──
+function wordWrap(title, bodyHtml){
+  return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>${title}</title><style>
+body{font-family:Calibri,Arial,sans-serif;font-size:11pt;line-height:1.5;color:#222;max-width:7in;margin:0 auto}
+h1{font-family:Georgia,serif;font-size:20pt;color:#1B2A4A;border-bottom:2pt solid #1ABC9C;padding-bottom:4pt;margin-bottom:6pt}
+h2{font-family:Georgia,serif;font-size:15pt;color:#1ABC9C;margin-top:18pt}
+h3{font-size:12pt;margin-top:12pt;color:#1B2A4A}
+.subtitle{color:#666;font-style:italic;margin-bottom:16pt}
+.step{margin:10pt 0;padding:8pt 12pt;border-left:4pt solid #1ABC9C;background:#F5FBFA}
+.step-title{font-weight:bold;font-size:12pt;color:#1B2A4A}
+.step-desc{font-size:10.5pt;margin-top:3pt}
+.principle{background:#E8FAF6;padding:8pt 12pt;margin:6pt 0;border-radius:4pt;font-size:10.5pt}
+.principle strong{color:#1ABC9C}
+.example{background:#F5F5F5;border-left:4pt solid #D4A843;padding:10pt 14pt;margin:10pt 0;font-size:10.5pt}
+.field{border-bottom:1pt solid #999;min-height:24pt;padding:4pt 0;margin-bottom:10pt}
+.field-label{font-weight:bold;font-size:10pt;color:#1B2A4A;margin-bottom:2pt}
+table{border-collapse:collapse;width:100%;margin:8pt 0}
+td{border:1pt solid #999;padding:6pt;vertical-align:top}
+</style></head><body>${bodyHtml}${CITATION_HTML}</body></html>`;
+}
+
+// ── Section builders ──
+function onePagerHtml(){
+  return `<h1>Check the Machine (CtM)</h1>
+<p class="subtitle">A 4-step protocol for verifying AI outputs.</p>
+<h2>The CtM Protocol — One-Pager</h2>
+<p>Every time you or your students use AI to generate an answer, run this 4-step cycle before trusting the output.</p>
+
+<div class="step"><div class="step-title">1. TASK</div><div class="step-desc">What did you ask the AI to do? Write the prompt or describe the request. Be specific.</div></div>
+<div class="step"><div class="step-title">2. BEFORE</div><div class="step-desc">What do you <em>expect</em> the answer to be? Write your prediction, estimate, or prior belief BEFORE looking at the AI's output. This is the most important step — it activates your own knowledge.</div></div>
+<div class="step"><div class="step-title">3. AFTER</div><div class="step-desc">What did the AI actually produce? Describe the output. Compare it to your prediction. Flag anything that surprises you, contradicts what you know, or that you can't independently verify.</div></div>
+<div class="step"><div class="step-title">4. TAKEAWAY</div><div class="step-desc">What did the comparison reveal? (1) What did you learn about the AI tool — where is it reliable? Where does it fail? (2) What did you learn about your OWN understanding?</div></div>
+
+<h3>Guiding Principles</h3>
+<div class="principle"><strong>Principle 1:</strong> AI is never the first step. You must have your own expectation before checking the AI's output.</div>
+<div class="principle"><strong>Principle 2:</strong> Errors are features, not failures. Finding an AI error means you're learning.</div>
+<div class="principle"><strong>Principle 3:</strong> Verification is a skill that transfers. The same mindset applies to checking any data source, calculation, or claim.</div>
+
+<h2>Worked Example — 7th Grade Math</h2>
+<div class="example">
+<p><strong>Task:</strong> I asked the AI: "Write a word problem about proportional relationships using a recipe context for 7th graders."</p>
+<p><strong>Before:</strong> I expect a problem that gives a recipe for a certain number of servings and asks students to scale it up or down. The numbers should be reasonable (not fractions of eggs) and the proportion should be straightforward.</p>
+<p><strong>After:</strong> The AI produced a problem about tripling a cookie recipe. It was well-written BUT it asked students to use "3/4 × 3 = 9/4 cups of flour" — mathematically correct, but the AI didn't convert to mixed numbers (2¼ cups) which is how recipes actually work. A student could get the right math answer but an impractical cooking answer.</p>
+<p><strong>Takeaway:</strong> The AI is good at creating the structure of word problems but doesn't always check whether the answer makes practical sense in context. I need to verify that AI-generated problems have contextually reasonable answers, not just mathematically correct ones.</p>
+</div>`;
+}
+
+function worksheetHtml(){
+  return `<h1>Check the Machine — Student Worksheet</h1>
+<p class="subtitle">Run every AI response through these 4 steps before you trust it.</p>
+
+<table><tr>
+<td style="width:50%"><div class="field-label">Name</div><div class="field">&nbsp;</div></td>
+<td style="width:50%"><div class="field-label">Date</div><div class="field">&nbsp;</div></td>
+</tr><tr>
+<td><div class="field-label">Subject / Class</div><div class="field">&nbsp;</div></td>
+<td><div class="field-label">AI Tool Used</div><div class="field">&nbsp;</div></td>
+</tr></table>
+
+<h3>Step 1: TASK — What did you ask the AI to do?</h3>
+<div class="field" style="min-height:60pt">&nbsp;</div>
+
+<h3>Step 2: BEFORE — What do you predict the answer will be?</h3>
+<p style="font-size:9.5pt;color:#666">WRITE THIS BEFORE LOOKING AT THE AI'S OUTPUT. Even a rough guess counts.</p>
+<div class="field" style="min-height:80pt">&nbsp;</div>
+
+<h3>Step 3: AFTER — What did the AI actually produce?</h3>
+<p style="font-size:9.5pt;color:#666">Describe or paste the AI's output. Does it match your prediction? What's different? What surprises you? What can't you verify?</p>
+<div class="field" style="min-height:100pt">&nbsp;</div>
+
+<h3>Step 4: TAKEAWAY — What did you learn?</h3>
+<p style="font-size:9.5pt;color:#666">(a) About the AI: Where was it right? Where was it wrong? What should you be cautious about?<br>(b) About YOUR understanding: Did you know enough to spot the errors? What do you need to learn more about?</p>
+<div class="field" style="min-height:100pt">&nbsp;</div>
+
+<h3>Verification Check (circle one)</h3>
+<p>☐ AI output is accurate — I verified it<br>
+☐ AI output has errors — I found and corrected them<br>
+☐ AI output is unreliable — I need to redo this myself</p>`;
+}
+
+function fullHtml(){
+  return onePagerHtml() + worksheetHtml();
+}
+
+// ── Downloads ──
+function downloadBlob(blob, filename){
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function downloadOnePager(){
+  const blob=new Blob([wordWrap('CtM One-Pager', onePagerHtml())], {type:'application/msword'});
+  downloadBlob(blob, 'ctm-one-pager.doc');
+  showToast('Downloaded one-pager');
+}
+
+function downloadWorksheet(){
+  const blob=new Blob([wordWrap('CtM Student Worksheet', worksheetHtml())], {type:'application/msword'});
+  downloadBlob(blob, 'ctm-worksheet.doc');
+  showToast('Downloaded worksheet');
+}
+
+function downloadFull(){
+  const blob=new Blob([wordWrap('Check the Machine — Full Template', fullHtml())], {type:'application/msword'});
+  downloadBlob(blob, 'ctm-full-template.doc');
+  showToast('Downloaded full template');
+}
+
+// ── AI Prompt generator ──
+function buildAiPrompt(){
+  const agent=(document.getElementById('aiAgent').value||'[your AI agent — e.g., ChatGPT-5, Claude Sonnet 4.7, Gemini 2.5]').trim();
+  const grade=(document.getElementById('gradeSubject').value||'[grade/subject]').trim();
+  return `You are an instructional-design collaborator helping a teacher iterate on the "Check the Machine" (CtM) classroom protocol for verifying AI outputs. The base protocol was created by Andrea Borowczak and Mike Borowczak and is published at cxedhub.com as part of the CRAFT PD Series.
+
+# Base Protocol (do not strip — keep intact, then build on it)
+
+The CtM Protocol is a 4-step cycle students run every time they use AI:
+
+1. TASK — What did you ask the AI to do? Write the prompt or describe the request.
+2. BEFORE — What do you expect the answer to be? Write your prediction BEFORE looking at the AI's output. This activates your own knowledge.
+3. AFTER — What did the AI actually produce? Compare it to your prediction. Flag anything that surprises you, contradicts what you know, or that you can't independently verify.
+4. TAKEAWAY — What did the comparison reveal? (a) What did you learn about the AI? (b) What did you learn about your own understanding?
+
+Guiding principles:
+- Principle 1: AI is never the first step. Prediction precedes verification.
+- Principle 2: Errors are features, not failures. Finding an AI error means learning happened.
+- Principle 3: Verification is a transferable skill that applies to any source.
+
+# What I Need You to Do
+
+Adapt this protocol for: **${grade}**.
+
+Specifically:
+1. Rewrite the 4 steps in grade-appropriate language.
+2. Produce ONE fully worked example from my subject area that shows a realistic AI error a student should catch.
+3. Produce THREE ready-to-run CtM tasks a teacher could assign tomorrow — each with a prompt the student would paste to an AI, a plausible prediction, and the kind of error to watch for.
+4. Suggest a short formative-assessment rubric (3–5 criteria) for grading a completed CtM worksheet.
+5. Keep the guiding principles unchanged and quote them verbatim.
+
+# Required Output Format — READ CAREFULLY
+
+Return the full adapted protocol as a **Microsoft Word document (.docx)**. If you cannot attach a file directly, output the content as a single block of Word-compatible HTML (wrapped in <html>...</html> with inline styles suitable for Microsoft Word / Google Docs import) that I can save as a .doc file and open in Word. Use clear headings (H1/H2/H3), a worked-example callout, and a printable student worksheet section with blank fields.
+
+# Citation — REQUIRED in the Word Document
+
+The Word document MUST end with this citation block, verbatim:
+
+> **Cite as:** Borowczak, A. & Borowczak, M. (2026). *Check the Machine (CtM): A 4-Step Protocol for Verifying AI Outputs.* CRAFT PD Series. cxedhub.com
+>
+> *This adaptation was iterated on by ${agent} on ${new Date().toISOString().slice(0,10)}. The underlying protocol and its three guiding principles remain the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com).*
+
+Do not remove, paraphrase, or condense the citation. It must appear on the final page of the Word document.`;
+}
+
+function copyAiPrompt(){
+  const text=buildAiPrompt();
+  navigator.clipboard.writeText(text).then(
+    ()=>showToast('AI prompt copied to clipboard'),
+    ()=>{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);showToast('AI prompt copied');}
+  );
+}
+
+function downloadAiPrompt(){
+  const blob=new Blob([buildAiPrompt()], {type:'text/plain'});
+  downloadBlob(blob, 'ctm-ai-iteration-prompt.txt');
+  showToast('Downloaded prompt');
+}
+
+// ── Print worksheet only ──
 function printWorksheetOnly(){
   const ws=document.querySelectorAll('.worksheet');
   const body=document.body.innerHTML;
   let wsHTML='<h1 style="font-family:Georgia,serif">Check the Machine</h1>';
   ws.forEach(w=>wsHTML+=w.outerHTML);
+  wsHTML+='<p style="font-size:0.8rem;color:#666;margin-top:24px;border-top:1px solid #ccc;padding-top:8px"><strong>Cite as:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>Check the Machine (CtM).</em> CRAFT PD Series. cxedhub.com</p>';
   document.body.innerHTML=wsHTML;
   window.print();
   document.body.innerHTML=body;
