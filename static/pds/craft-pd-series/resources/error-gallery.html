@@ -53,9 +53,9 @@ pre{background:#1E1E1E;color:#D4D4D4;border-radius:6px;padding:16px;overflow-x:a
 
 <div class="nav">
 <a href="#code">Code Errors (3)</a>
-<a href="#content">Content Errors (4)</a>
+<a href="#content">Content Errors (9)</a>
 <a href="#standards">Standards Errors (2)</a>
-<a href="#math">Math Errors (2)</a>
+<a href="#math">Math Errors (7)</a>
 </div>
 
 <!-- ═══ CODE ERRORS ═══ -->
@@ -261,6 +261,81 @@ print(classify_ph(<span class="err-highlight">15</span>))    <span class="commen
 </div>
 </div>
 
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">What Causes Earth's Seasons</span>
+<span class="error-subject">Earth Science · Grade 6</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"Earth experiences seasons because of its elliptical orbit around the Sun. <strong>When Earth is closer to the Sun, we have summer, and when it is farther away, we have winter.</strong> That's why the Northern Hemisphere is warmer in July and colder in January — Earth's distance to the Sun changes throughout the year."</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>This is the most common seasons misconception — and it's completely wrong.</strong> Seasons are caused by Earth's <em>axial tilt</em> (23.5°), not its distance from the Sun. In fact, Earth is <em>closest</em> to the Sun in early January (perihelion), when the Northern Hemisphere is in winter. If distance caused seasons, both hemispheres would have the same season simultaneously — they don't. The Harvard "A Private Universe" study famously showed even Ivy League graduates held this misconception. An AI reinforcing it is a textbook example of why teacher review matters.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">Newton's Third Law Applied to Motion</span>
+<span class="error-subject">Physics · Grade 9</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"Newton's Third Law says that for every action there is an equal and opposite reaction. So when a horse pulls a cart, the cart pulls back on the horse with equal force. <strong>Because these forces are equal and opposite, they cancel out</strong> — which is why it takes extra effort from the horse to overcome this cancellation and get the cart moving."</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Action-reaction pairs never "cancel out."</strong> They act on <em>different objects</em> — the horse pushes the cart, the cart pushes the horse. Forces only cancel when they act on the same object. The cart accelerates because the net force on <em>the cart</em> (horse's pull minus friction) is nonzero. This "forces cancel" misconception is so persistent it has its own name in physics education research (the "horse-cart paradox"). AI-generated explanations frequently fall into exactly this trap.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">Mitochondria and Cell Types</span>
+<span class="error-subject">Biology · Grade 7</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"Mitochondria are the powerhouse of the cell. They produce energy for the cell by breaking down glucose. <strong>Mitochondria are found in animal cells, while plant cells use chloroplasts instead to make their energy.</strong> This is one of the key differences between plant and animal cells."</div>
+<div class="section-label error">Errors found (2)</div>
+<div class="ai-error"><strong>Error 1: "plant cells use chloroplasts instead"</strong> — Plant cells have <em>both</em> mitochondria and chloroplasts. Chloroplasts make glucose (via photosynthesis); mitochondria break it down to release usable ATP. Without mitochondria, plants couldn't access the energy they've stored.<br><br><strong>Error 2: "produce energy"</strong> — Mitochondria don't <em>produce</em> energy; they <em>transfer</em> chemical energy from glucose to ATP. Energy is conserved, not created. This is a small but foundational distinction for later thermodynamics units.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">Speed of Light</span>
+<span class="error-subject">Physics · Grade 11</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"The speed of light is a universal constant: <strong>light always travels at exactly 299,792,458 m/s, no matter what medium it passes through.</strong> This is one of the foundational postulates of Einstein's special relativity. That's why c shows up in equations like E=mc²."</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Light only travels at c in a vacuum.</strong> In glass, light slows to about 2×10⁸ m/s (index of refraction ≈ 1.5); in water it's about 2.25×10⁸ m/s; in diamond, only ~1.24×10⁸ m/s. This slowing is exactly why refraction happens — lenses, prisms, and even the bending of a straw in a glass of water depend on it. The precise statement is that the speed of light <em>in a vacuum</em> is invariant. An AI answer that drops "in a vacuum" turns a correct physics fact into a wrong one.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-content">Content</span>
+<span class="error-title">DNA Base Pairing</span>
+<span class="error-subject">Biology · Grade 10</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated explanation</div>
+<div class="ai-output">"DNA is made of four bases: adenine (A), thymine (T), guanine (G), and cytosine (C). These bases pair up across the double helix: <strong>A pairs with G, and T pairs with C.</strong> Hydrogen bonds hold the pairs together — two bonds between A-G and three bonds between T-C. This is called complementary base pairing."</div>
+<div class="section-label error">Errors found (2)</div>
+<div class="ai-error"><strong>Error 1: The pairings are swapped.</strong> A pairs with T (not G), and G pairs with C (not T). This is the single most fundamental fact in molecular biology — and the AI got it backward while sounding completely authoritative.<br><br><strong>Error 2: The hydrogen bond counts are assigned to the wrong pairs.</strong> A–T has 2 hydrogen bonds; G–C has 3 hydrogen bonds. This is why GC-rich DNA has a higher melting temperature. If a student memorizes the AI's version, every downstream concept — replication, transcription, PCR temperatures — breaks.</div>
+</div>
+</div>
+
 <!-- ═══ STANDARDS ERRORS ═══ -->
 <h2 id="standards">Standards Errors</h2>
 
@@ -324,6 +399,81 @@ print(classify_ph(<span class="err-highlight">15</span>))    <span class="commen
 <div class="ai-output">"A basketball player scores: 12, 15, 18, 22, 15, 20, 15 points in seven games. Find the mean, median, and mode.<br><br>Mean: (12+15+18+22+15+20+15)/7 = 117/7 = <strong>16.7</strong><br>Median: Arrange in order: 12, 15, 15, 15, 18, 20, 22. Middle value = <strong>15</strong> ✓<br>Mode: <strong>15</strong> (appears 3 times) ✓"</div>
 <div class="section-label error">Error</div>
 <div class="ai-error"><strong>Wrong mean.</strong> 12+15+18+22+15+20+15 = 117. Then 117/7 = 16.714..., which rounds to <strong>16.7</strong>. Wait — that's actually correct! But the AI showed 16.7 without specifying rounding, which could confuse students about precision. More importantly: the sum is actually correct here, but in many AI-generated stats problems the arithmetic is wrong. <strong>Always re-sum yourself.</strong> The teaching point: even when the AI gets it right, you need to verify. Trust but verify.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Order of Operations</span>
+<span class="error-subject">Math · Grade 6</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated solution</div>
+<div class="ai-output">"Evaluate: 8 ÷ 2(2 + 2)<br><br>Step 1: Solve the parentheses first: (2 + 2) = 4<br>Step 2: The expression becomes 8 ÷ 2(4), and since 2(4) means multiplication, solve it next: 2 × 4 = 8<br>Step 3: Now we have 8 ÷ 8 = <strong>1</strong>"</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Wrong answer — and wrong reasoning.</strong> Under standard PEMDAS/BODMAS, multiplication and division have <em>equal precedence</em> and are evaluated left-to-right. So 8 ÷ 2(4) = 8 ÷ 2 × 4 = 4 × 4 = <strong>16</strong>, not 1. The AI treated implicit multiplication as higher precedence — a convention used in some physics texts but not in K-12 math standards. Worse, it stated its reasoning so confidently that students would trust it. The deeper lesson: this expression is genuinely ambiguous in real mathematical writing, which is why professionals use explicit parentheses. AI picked one convention and didn't flag the ambiguity.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Unit Conversion: Area vs. Length</span>
+<span class="error-subject">Math · Grade 7</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated solution</div>
+<div class="ai-output">"A rectangular garden is 3 meters by 4 meters. Convert its area to square centimeters.<br><br>Area = 3 m × 4 m = 12 m²<br>Since 1 m = 100 cm, we convert:<br>12 m² × 100 = <strong>1,200 cm²</strong>"</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Wrong conversion factor for area.</strong> 1 m² = (100 cm)² = 10,000 cm², not 100 cm². The correct answer is <strong>120,000 cm²</strong>. The AI treated a squared unit like a linear one — a classic mistake students make constantly. What makes this dangerous is the answer (1,200) looks like a reasonable-ish number, so it passes a surface "does this look right?" check. The real gut check: a 3 m × 4 m garden is enormous; 1,200 cm² is smaller than a dinner plate. Teachers should coach students to sanity-check with extreme cases.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Percent Change Reversal</span>
+<span class="error-subject">Math · Grade 8</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated solution</div>
+<div class="ai-output">"A shirt's price increased by 20%, then later decreased by 20%. What is the net change?<br><br>Since the increase and decrease are both 20%, <strong>they cancel out — the final price equals the original price</strong>, so the net change is 0%."</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Percentages don't work this way.</strong> If the original price is $100: after a 20% increase it becomes $120; after a 20% decrease of $120, it becomes $96. The net change is a <strong>4% decrease</strong>, not zero. The two percentages apply to <em>different base values</em>, so they don't cancel. This is the single most common percent-change misconception and shows up every year in state-test items. AI models frequently generate this exact wrong reasoning because it pattern-matches to "what feels symmetric."</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Probability of Dependent Events</span>
+<span class="error-subject">Math · Grade 7</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated solution</div>
+<div class="ai-output">"A bag has 3 red marbles and 2 blue marbles. You draw two marbles <em>without replacement</em>. What is the probability that both are red?<br><br>P(red) = 3/5<br>P(both red) = 3/5 × 3/5 = <strong>9/25</strong>"</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Treated a dependent event as independent.</strong> After drawing one red marble without replacement, only 2 red marbles remain out of 4 total. So:<br>P(both red) = (3/5) × (2/4) = 6/20 = <strong>3/10</strong><br>The multiplication rule P(A) × P(B) only works when events are independent. "Without replacement" changes the sample space for the second draw. AI models regularly collapse this distinction — especially on word problems where the key phrase is just two words long.</div>
+</div>
+</div>
+
+<div class="error-card">
+<div class="error-header" onclick="this.nextElementSibling.classList.toggle('open');this.querySelector('.toggle').textContent=this.nextElementSibling.classList.contains('open')?'Hide':'Reveal'">
+<span class="error-badge badge-math">Math</span>
+<span class="error-title">Negative Exponents</span>
+<span class="error-subject">Math · Grade 8</span>
+<span class="toggle">Reveal</span>
+</div>
+<div class="error-body">
+<div class="section-label output">AI-generated solution</div>
+<div class="ai-output">"Simplify: 2⁻³<br><br>A negative exponent means you multiply and then make the answer negative. So 2⁻³ = −(2 × 2 × 2) = <strong>−8</strong>."</div>
+<div class="section-label error">Error found</div>
+<div class="ai-error"><strong>Negative exponents don't make numbers negative.</strong> A negative exponent means <em>reciprocal</em>: 2⁻³ = 1/2³ = <strong>1/8</strong>. The result is positive — in fact, a positive base raised to <em>any</em> integer exponent (positive or negative) is always positive. The AI confused the sign of the exponent with the sign of the result, producing a number (−8) that's wrong in both magnitude and sign. This error pattern — "minus sign floats to wherever it feels natural" — shows up constantly in AI-generated algebra solutions.</div>
 </div>
 </div>
 
