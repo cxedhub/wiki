@@ -1,9 +1,27 @@
 {{ define "main" }}
+<div class="matrix-app-bar">
+  <a href="{{ "matrix/" | relURL }}" class="matrix-about-link">&larr; About the Matrix</a>
+  <span class="matrix-app-title">Cross-Disciplinary Standards Matrix</span>
+  <a href="{{ "matrix/" | relURL }}" class="matrix-about-link matrix-about-link--help" title="How to use this matrix">Help &amp; Usage</a>
+</div>
 <div style="max-width:100%;padding:0;margin:0;">
-  <iframe 
-    src="{{ "matrix/app.html" | relURL }}" 
-    style="width:100%;height:calc(100vh - 60px);border:none;display:block;"
+  <iframe
+    src="{{ "matrix/app.html" | relURL }}"
+    style="width:100%;height:calc(100vh - 110px);border:none;display:block;"
     title="Cross-Disciplinary Standards Matrix">
   </iframe>
 </div>
+<style>
+  .matrix-app-bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+    padding:.5rem 1rem;background:var(--color-surface);border-bottom:1px solid var(--color-border);
+    font-size:.85rem}
+  .matrix-app-bar .matrix-app-title{font-weight:600;color:var(--color-text);
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .matrix-app-bar .matrix-about-link{color:var(--color-primary);text-decoration:none;font-weight:600;
+    white-space:nowrap}
+  .matrix-app-bar .matrix-about-link:hover{text-decoration:underline}
+  @media (max-width:600px){
+    .matrix-app-bar .matrix-app-title{display:none}
+  }
+</style>
 {{ end }}
