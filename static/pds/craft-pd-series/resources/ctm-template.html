@@ -173,7 +173,7 @@ input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);borde
 
 <div class="downloads">
 <h3>🤖 Generate AI Prompt to Iterate</h3>
-<p style="font-size:0.88rem;margin-bottom:10px">Copy a ready-to-use prompt that asks your AI agent to adapt the CtM protocol for your grade/subject and return it as a Word document. The prompt <strong>enforces two things</strong>: (1) the entire generated document — step descriptions, examples, tasks, rubric, worksheet — is tailored to the age band and content area (step names stay; everything else adapts); and (2) the LLM running the prompt must self-identify and write its own model name into the citation block, so the "which LLM was used" line reflects the model that actually generated the output.</p>
+<p style="font-size:0.88rem;margin-bottom:10px">Copy a ready-to-use prompt that asks your AI agent to adapt the CtM protocol for your grade/subject. The prompt prefers a Word document (.docx) but includes graceful fallbacks — Word-compatible HTML, then editable Markdown — so <strong>free-tier LLMs that can't generate Word files still return the full adapted protocol in a format you can paste into Word or Google Docs</strong>. It <strong>enforces two things</strong>: (1) the entire generated document — step descriptions, examples, tasks, rubric, worksheet — is tailored to the age band and content area (step names stay; everything else adapts); and (2) the LLM running the prompt must self-identify and write its own model name into the citation block, so the "which LLM was used" line reflects the model that actually generated the output.</p>
 <div class="agent-pick">
 <label for="aiAgent" style="margin:0;flex:0 0 auto">AI agent you'll use:</label>
 <input type="text" id="aiAgent" placeholder="e.g., ChatGPT-5, Claude Sonnet 4.7, Gemini 2.5">
@@ -378,21 +378,27 @@ Specifically produce:
 
 # Required Output Format — READ CAREFULLY
 
-Return the full adapted protocol as a **Microsoft Word document (.docx)**. If you cannot attach a file directly, output the content as a single block of Word-compatible HTML (wrapped in <html>...</html> with inline styles suitable for Microsoft Word / Google Docs import) that I can save as a .doc file and open in Word. Use clear headings (H1/H2/H3), a worked-example callout, and a printable student worksheet section with blank fields. The worksheet itself must also be written in ${grade}-appropriate language.
+Return the full adapted protocol using the first option below that you can actually produce. Do NOT stop with an apology or refuse to deliver the content — always fall through to the next option rather than returning nothing.
+
+1. **Preferred — Microsoft Word document (.docx).** If you can attach a real .docx file, do so.
+2. **Fallback A — Word-compatible HTML.** If you cannot attach a file, output a single block of Word-compatible HTML (wrapped in <html>...</html> with inline styles suitable for Microsoft Word / Google Docs import) that I can save as a .doc file and open in Word.
+3. **Fallback B — Editable Markdown.** If you cannot reliably produce Word-compatible HTML either (for example, you are a free-tier model that can only return plain text), output the full protocol as clean Markdown instead. Use `#`, `##`, `###` for the heading hierarchy, a blockquote (`>`) for the worked-example callout, and a clearly labeled `## Student Worksheet` section with blank fields rendered as fill-in lines (e.g., `**TASK:** ______________________________________________`). Do not abbreviate the content to fit plain text — Markdown is a fully acceptable delivery format that the teacher can paste into Word, Google Docs, or Pages and style later. Begin this fallback with a one-line note: `> Delivered as Markdown because this model cannot produce .docx directly — paste into Word or Google Docs to format.`
+
+Whichever format you use, include clear headings (H1/H2/H3 or their Markdown equivalents), a worked-example callout, and a printable student worksheet section with blank fields. The worksheet itself must also be written in ${grade}-appropriate language. Pick exactly ONE of the three formats above for your entire response — do not mix formats.
 
 # ENFORCED: Record which LLM actually generated this adaptation
 
 You — the AI agent executing this prompt — must identify yourself and write your own model name and version into the citation block below. Do NOT leave the LLM-identity field as a placeholder, and do NOT blindly copy the teacher-entered label if it does not match the model that actually produced this output. The teacher entered "${agent}" as their expected agent; if that string accurately names YOU, reuse it, otherwise OVERRIDE it with your true model identifier (e.g., "GPT-5", "Claude Opus 4.7", "Gemini 2.5 Pro", including version where known). The document must credit the LLM that actually iterated on it.
 
-# Citation — REQUIRED in the Word Document
+# Citation — REQUIRED at the End of the Output
 
-The Word document MUST end with this citation block, verbatim, with the LLM-identity field filled in by YOU (the generating agent):
+Whichever output format you chose (.docx, Word-compatible HTML, or Markdown), the final section of your response MUST be this citation block, verbatim, with the LLM-identity field filled in by YOU (the generating agent):
 
 > **Cite as:** Borowczak, A. & Borowczak, M. (2026). *Check the Machine (CtM): A 4-Step Protocol for Verifying AI Outputs.* CRAFT PD Series. cxedhub.com
 >
 > *This adaptation was iterated on by <LLM model name and version — fill in with your own identity> on ${new Date().toISOString().slice(0,10)} for the ${grade} age band. The underlying protocol and its three guiding principles remain the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com).*
 
-Do not remove, paraphrase, or condense the citation. It must appear on the final page of the Word document, and the LLM-identity field must be completed by you based on your own model identity (not left as a placeholder, not left as the teacher's label unless that label accurately names you).`;
+Do not remove, paraphrase, or condense the citation. It must appear as the last content in the document (final page of Word, final section of HTML, or last `##` section of Markdown), and the LLM-identity field must be completed by you based on your own model identity (not left as a placeholder, not left as the teacher's label unless that label accurately names you).`;
 }
 
 function copyAiPrompt(){
