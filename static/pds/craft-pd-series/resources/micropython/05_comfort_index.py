@@ -1,6 +1,11 @@
 """micro:bit MicroPython: Classroom Comfort Index (V2 only)
 Scores 0-9 based on temperature, light, and sound.
 Requires micro:bit V2 for microphone access.
+
+How to credit:
+  Borowczak, A.C. & Borowczak, M. (2026). CxEd Hub: Cross-Disciplinary
+  Computing-Integrated K-12 Lesson Plans. https://cxedhub.github.io/wiki/
+  Licensed under CC BY-SA 4.0.
 """
 from microbit import *
 

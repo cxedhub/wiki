@@ -1,6 +1,11 @@
 """Snippet 3: pH Classification
 BUGS: (1) No input validation for invalid pH values
       (2) Using == 7 for "neutral" is scientifically misleading
+
+How to credit:
+  Borowczak, A.C. & Borowczak, M. (2026). CxEd Hub: Cross-Disciplinary
+  Computing-Integrated K-12 Lesson Plans. https://cxedhub.github.io/wiki/
+  Licensed under CC BY-SA 4.0.
 """
 def classify_ph(ph):
     """Classify pH as acidic, neutral, or basic."""

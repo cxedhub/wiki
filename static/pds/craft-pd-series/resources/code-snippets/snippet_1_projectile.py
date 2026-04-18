@@ -1,5 +1,10 @@
 """Snippet 1: Projectile Range Calculator
 BUG: Missing degree-to-radian conversion in math.sin()
+
+How to credit:
+  Borowczak, A.C. & Borowczak, M. (2026). CxEd Hub: Cross-Disciplinary
+  Computing-Integrated K-12 Lesson Plans. https://cxedhub.github.io/wiki/
+  Licensed under CC BY-SA 4.0.
 """
 import math
 

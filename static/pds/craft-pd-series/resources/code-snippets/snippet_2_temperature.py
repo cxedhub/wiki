@@ -1,5 +1,10 @@
 """Snippet 2: Average Temperature Calculator
 BUG: No handling of None/missing values in data
+
+How to credit:
+  Borowczak, A.C. & Borowczak, M. (2026). CxEd Hub: Cross-Disciplinary
+  Computing-Integrated K-12 Lesson Plans. https://cxedhub.github.io/wiki/
+  Licensed under CC BY-SA 4.0.
 """
 def temp_stats(temperatures):
     """Return average, min, and max temperature."""
