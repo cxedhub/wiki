@@ -279,6 +279,11 @@ Takeaway: What did the comparison reveal?"></textarea>
 <script>
 const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
 
+/* ===== Citation (embedded in every export + every AI prompt) ===== */
+const CITATION_TEXT='Borowczak, A. & Borowczak, M. (2026). CRAFT PD Series Lesson Template. cxedhub.com';
+const CITATION_MD='\n\n## Citation\n\n**Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n';
+const CITATION_HTML='<hr><p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite this lesson template:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>CRAFT PD Series Lesson Template.</em> UCF DRACO Lab &amp; School of Teacher Education. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
+
 /* ===== Multi-framework standards picker ===== */
 const FW_ORDER=['CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'];
 const FW_LABEL={
@@ -913,7 +918,7 @@ function toMarkdown(d){
   if(d.summative)b+='## Assessment\n\n'+d.summative+'\n\n';
   if(d.notes)b+='## Notes & Reflections\n\n'+d.notes+'\n\n';
 
-  b+='---\n*Generated from the [CRAFT PD Series Lesson Template](/pds/craft-pd-series/resources/lesson-template.html). UCF DRACO Lab & School of Teacher Education.*\n';
+  b+=CITATION_MD;
   return fm+b;
 }
 
@@ -968,7 +973,7 @@ function toHTML(d){
 
   if(d.summative)h+='<h2>Assessment</h2><p>'+nl2br(d.summative)+'</p>';
   if(d.notes)h+='<h2>Notes &amp; Reflections</h2><p>'+nl2br(d.notes)+'</p>';
-  h+='<hr><p><em>Generated from the CRAFT PD Series Lesson Template · UCF DRACO Lab &amp; School of Teacher Education.</em></p>';
+  h+=CITATION_HTML;
   return h;
 }
 
@@ -1029,6 +1034,10 @@ function buildLLMPrompt(d){
   p+='- Keep these bolded sub-labels verbatim (the loader uses them as parse anchors): `**Career Connection:**`, `**Common Misconception:**`, `**Correct Understanding:**`, `**I Do — Teacher Demonstrates:**`, `**We Do — Guided Practice:**`, `**You Do — Independent/Group Practice:**`, `**Materials Needed:**`, `**Formative Assessment:**`, `**Check the Machine (CtM):**`, `**Connection to Next Lesson:**`, `**Extension / Homework:**`.\n';
   p+='- Separate each labeled block with a blank line so the parser can find boundaries.\n';
   p+='- Do NOT wrap the whole document in a code fence. Do NOT add commentary, preamble, or summary before or after the Markdown. Your reply should be the Markdown document and nothing else.\n\n';
+  p+='## Citation — REQUIRED at the End of the Markdown\n\n';
+  p+='After `## Notes & Reflections`, append a final H2 section titled exactly `## Citation` containing this block, verbatim:\n\n';
+  p+='> **Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n\n';
+  p+='Do not remove, paraphrase, condense, or relocate this citation. The underlying CRAFT lesson template is the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com); every iteration must retain attribution to the source.\n\n';
   p+='## Current Lesson Plan Draft\n\n';
   p+='Fields the teacher left blank are simply absent from the draft below — fill those in. Fields with content are the teacher\'s starting point — refine and extend them.\n\n';
   p+='<draft>\n';
