@@ -1,172 +1,212 @@
 {{ define "main" }}
-<section class="hero">
-  <div class="container">
-    <h1>Welcome, Educators!</h1>
-    <p>Discover <strong>{{ len (where site.RegularPages "Section" "lessons") }}+</strong> computing-infused lesson plans made by K-12 educators, for K-12 educators.</p>
-    <div class="hero-actions">
-      <a href="#explore" class="btn btn-primary">Explore Lessons</a>
-      <a href="{{ "pds/" | relURL }}" class="btn btn-secondary">Professional Development</a>
-      <a href="{{ "resources/" | relURL }}" class="btn btn-secondary">View Resources</a>
-    </div>
-  </div>
-</section>
-
-<div class="container">{{ partial "last-updated.html" . }}</div>
-
-<section class="container home-intro">
-  <div class="intro-text">
-    <p>We're Drs. Andrea and Mike Borowczak, and for the past 15 years we've been designing meaningful experiences and professional learning opportunities for educators like you&mdash;across K&ndash;12 and higher education. Our work, funded by the National Science Foundation, Wyoming Department of Education, and several industry sponsors, lives at the intersection of <strong>Computing + X</strong>, where <strong>X</strong> represents your core teaching area.</p>
-    <p>Instead of adding "one more thing," we focus on <strong>integration, differentiation, and extension</strong>&mdash;empowering you to embed computing concepts into your existing curriculum in ways that are sustainable, flexible, and impactful.</p>
-  </div>
-</section>
-
-{{/* ── Build taxonomy data ── */}}
 {{ $lessons := where site.RegularPages "Section" "lessons" }}
 {{ $totalLessons := len $lessons }}
+{{ $totalSubjects := len site.Taxonomies.subjects }}
+{{ $totalGrades := len site.Taxonomies.grade_levels }}
+{{ $totalDomains := len site.Taxonomies.cs_domains }}
+{{ $totalStandards := len site.Taxonomies.standard_types }}
+{{ $totalAuthors := len ($lessons.GroupByParam "author") }}
+{{ $recent := first 6 ($lessons.ByLastmod.Reverse) }}
+{{ $pdPages := where site.RegularPages "Section" "pds" }}
 
-<section class="container home-explore" id="explore">
-  <h2>Explore Lesson Plans</h2>
-  <p class="section-subtitle">Use the filters below to find lessons. Select multiple options across categories to narrow results.</p>
+{{/* ── Bold Hero ── */}}
+<section class="landing-hero">
+  <div class="landing-hero-bg" aria-hidden="true">
+    <span class="hero-blob hero-blob--a"></span>
+    <span class="hero-blob hero-blob--b"></span>
+    <span class="hero-blob hero-blob--c"></span>
+  </div>
+  <div class="container landing-hero-inner">
+    <p class="landing-eyebrow">Computing&nbsp;+&nbsp;X Educator Hub</p>
+    <h1 class="landing-title">
+      Classroom-ready computing,<br>
+      <span class="landing-title-accent">woven into every subject you teach.</span>
+    </h1>
+    <p class="landing-lede">
+      A growing library of <strong>{{ $totalLessons }}+</strong> free, peer-made K&ndash;12 lessons &mdash;
+      aligned to CSTA, NGSS, CCSS, ISTE, and C3 &mdash; built <em>with</em> educators, not handed down to them.
+    </p>
+    <div class="landing-cta-row">
+      <a href="{{ "lessons/" | relURL }}" class="btn btn-primary btn-lg">Explore Lesson Library &rarr;</a>
+      <a href="{{ "pds/" | relURL }}" class="btn btn-ghost btn-lg">Professional Development</a>
+    </div>
+    <p class="landing-trust">
+      Developed at UCF &middot; Funded by NSF, WY DOE &amp; industry partners &middot; Licensed CC BY&#8209;SA 4.0
+    </p>
+  </div>
+</section>
 
-  <div class="explore-layout">
-    {{/* ── Sidebar Filters ── */}}
-    <aside class="filter-sidebar" id="filter-sidebar">
-      <div class="filter-header">
-        <h3>Filters</h3>
-        <button id="clear-all-filters" class="btn-clear">Clear All</button>
+{{/* ── By the Numbers ── */}}
+<section class="landing-stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">{{ $totalLessons }}+</div>
+        <div class="stat-label">Lesson Plans</div>
       </div>
-
-      <div class="filter-search-wrap">
-        <input type="text" id="home-search" placeholder="Search by keyword..." class="filter-search" aria-label="Search lessons">
+      <div class="stat-card">
+        <div class="stat-number">{{ $totalSubjects }}</div>
+        <div class="stat-label">Subjects</div>
       </div>
-
-      {{/* Grade Levels */}}
-      <div class="filter-group" data-filter="grade">
-        <h4 class="filter-group-title">Grade Level</h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.grade_levels.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="grade">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $totalGrades }}</div>
+        <div class="stat-label">Grade Bands</div>
       </div>
-
-      {{/* Subjects */}}
-      <div class="filter-group" data-filter="subject">
-        <h4 class="filter-group-title">Subject <span class="filter-group-count">{{ len site.Taxonomies.subjects }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.subjects.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="subject">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $totalDomains }}</div>
+        <div class="stat-label">CS Domains</div>
       </div>
-
-      {{/* CS Domains */}}
-      <div class="filter-group" data-filter="domain">
-        <h4 class="filter-group-title">CS Domain</h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.cs_domains.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="domain">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $totalStandards }}</div>
+        <div class="stat-label">Standards Frameworks</div>
       </div>
-
-      {{/* Standards */}}
-      {{ if site.Taxonomies.standard_types }}
-      <div class="filter-group" data-filter="standard">
-        <h4 class="filter-group-title">Standards <span class="filter-group-count">{{ len site.Taxonomies.standard_types }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.standard_types.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="standard">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-
-      {{/* Tags */}}
-      <div class="filter-group" data-filter="tag">
-        <h4 class="filter-group-title">Tags <span class="filter-group-count">{{ len site.Taxonomies.tags }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.tags.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="tag">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-
-      <button id="mobile-apply-filters" class="btn btn-primary btn-apply-mobile">Apply Filters</button>
-    </aside>
-
-    {{/* ── Main Content: Results ── */}}
-    <div class="explore-results">
-      <div class="results-toolbar">
-        <div class="results-count" id="results-count">
-          Showing <strong>{{ $totalLessons }}</strong> of {{ $totalLessons }} lessons
-        </div>
-        <div class="results-actions">
-          <button id="mobile-filter-toggle" class="btn btn-secondary btn-sm filter-toggle-btn">Filters</button>
-          <select id="sort-select" aria-label="Sort lessons" class="sort-select">
-            <option value="title">Sort: A&ndash;Z</option>
-            <option value="title-desc">Sort: Z&ndash;A</option>
-            <option value="date">Sort: Newest</option>
-          </select>
-        </div>
-      </div>
-
-      {{/* Active filter chips */}}
-      <div class="active-filters" id="active-filters"></div>
-
-      <div class="card-grid" id="lesson-list">
-        {{ range $lessons.ByTitle }}
-          <div class="card"
-            data-title="{{ .Title }}"
-            data-date="{{ .Date.Format "2006-01-02" }}"
-            data-subjects="{{ with .Params.subjects }}{{ delimit . "|" }}{{ end }}"
-            data-grades="{{ with .Params.grade_levels }}{{ delimit . "|" }}{{ end }}"
-            data-domains="{{ with .Params.cs_domains }}{{ delimit . "|" }}{{ end }}"
-            data-tags="{{ with .Params.tags }}{{ delimit . "|" }}{{ end }}"
-            data-standards="{{ with .Params.standard_types }}{{ delimit . "|" }}{{ end }}">
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
-            <div class="card-meta">
-              {{ with .Params.author }}<span class="chip chip-author">{{ . }}</span>{{ end }}
-              {{ range .Params.grade_levels }}<span class="chip chip-grade">{{ . }}</span>{{ end }}
-              {{ range first 3 .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
-              {{ with .Params.subjects }}{{ if gt (len .) 3 }}<span class="chip chip-more">+{{ sub (len .) 3 }}</span>{{ end }}{{ end }}
-            </div>
-            {{ with .Params.tags }}
-            <div class="card-tags">
-              {{ range . }}<span class="chip chip-tag">{{ . }}</span>{{ end }}
-            </div>
-            {{ end }}
-          </div>
-        {{ end }}
-      </div>
-
-      <div class="no-results" id="no-results" style="display:none;">
-        <p><strong>No lessons match your filters.</strong></p>
-        <p>Try removing some filters or <button id="no-results-clear" class="btn-link">clear all filters</button>.</p>
+      <div class="stat-card">
+        <div class="stat-number">{{ $totalAuthors }}</div>
+        <div class="stat-label">Contributing Educators</div>
       </div>
     </div>
   </div>
-  <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
 </section>
+
+{{/* ── Content Pillars ── */}}
+<section class="landing-pillars">
+  <div class="container">
+    <h2 class="section-heading">Where would you like to start?</h2>
+    <p class="section-sub">Four doorways into the hub &mdash; pick what matches your moment.</p>
+
+    <div class="pillar-grid">
+      <a href="{{ "lessons/" | relURL }}" class="pillar pillar--lessons">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h8a4 4 0 0 1 4 4v12"/><path d="M22 4h-8a4 4 0 0 0-4 4v12"/><path d="M2 4v14a2 2 0 0 0 2 2h6"/><path d="M22 4v14a2 2 0 0 1-2 2h-6"/></svg>
+        </div>
+        <h3>Lesson Library</h3>
+        <p>Search, filter, and grab ready-to-teach lessons aligned to your standards.</p>
+        <span class="pillar-cta">{{ $totalLessons }}+ lessons &rarr;</span>
+      </a>
+
+      <a href="{{ "pds/" | relURL }}" class="pillar pillar--pd">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5a2 2 0 0 0 1 1.7c1.4.8 3.2 1.3 5 1.3s3.6-.5 5-1.3A2 2 0 0 0 18 17v-5"/></svg>
+        </div>
+        <h3>Professional Development</h3>
+        <p>CRAFT workshops on AI, IoT, and verifying machine output &mdash; virtual &amp; hands-on.</p>
+        <span class="pillar-cta">{{ len $pdPages }} workshops &rarr;</span>
+      </a>
+
+      <a href="{{ "matrix/" | relURL }}" class="pillar pillar--matrix">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </div>
+        <h3>Standards Matrix</h3>
+        <p>Interactive crosswalk across CSTA, NGSS, CCSS, ISTE, and C3 &mdash; find what covers what.</p>
+        <span class="pillar-cta">Browse matrix &rarr;</span>
+      </a>
+
+      <a href="{{ "resources/" | relURL }}" class="pillar pillar--resources">
+        <div class="pillar-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z"/></svg>
+        </div>
+        <h3>Resources</h3>
+        <p>Guides, slide decks, and past-workshop videos &mdash; shared via our Google Drive.</p>
+        <span class="pillar-cta">Open resources &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{{/* ── Philosophy / About ── */}}
+<section class="landing-philosophy">
+  <div class="container philosophy-grid">
+    <div class="philosophy-text">
+      <p class="landing-eyebrow">Our approach</p>
+      <h2>Integration &raquo; addition.</h2>
+      <p>
+        We&rsquo;re Drs. Andrea and Mike Borowczak. For the past 15 years we&rsquo;ve been designing
+        meaningful experiences for educators across K&ndash;12 and higher ed &mdash; work funded by
+        the <strong>National Science Foundation</strong>, the <strong>Wyoming Department of Education</strong>,
+        and several industry sponsors.
+      </p>
+      <p>
+        We know educators are already balancing full plates. So instead of piling on &ldquo;one more thing,&rdquo;
+        every lesson here is built for <strong>integration, differentiation, and extension</strong> &mdash;
+        computing woven into the subjects you already teach.
+      </p>
+      <p class="philosophy-signoff">&mdash; Andrea &amp; Mike Borowczak, University of Central Florida</p>
+    </div>
+    <div class="philosophy-formula" aria-hidden="true">
+      <div class="formula">
+        <span class="formula-term formula-term--computing">Computing</span>
+        <span class="formula-op">+</span>
+        <span class="formula-term formula-term--x">X</span>
+      </div>
+      <ul class="formula-examples">
+        <li><span class="formula-x">X</span> = Language Arts</li>
+        <li><span class="formula-x">X</span> = Mathematics</li>
+        <li><span class="formula-x">X</span> = Science</li>
+        <li><span class="formula-x">X</span> = Social Studies</li>
+        <li><span class="formula-x">X</span> = &hellip; and beyond</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{{/* ── Browse by Grade Level ── */}}
+{{ with site.Taxonomies.grade_levels }}
+<section class="landing-quickbrowse">
+  <div class="container">
+    <h2 class="section-heading">Jump in by grade band</h2>
+    <p class="section-sub">Most educators start here. Pick a band and go.</p>
+    <div class="grade-grid">
+      {{ range .ByCount }}
+        <a href="{{ .Page.RelPermalink }}" class="grade-card">
+          <span class="grade-name">{{ .Page.Title }}</span>
+          <span class="grade-count">{{ .Count }} lessons</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── Recent Lessons ── */}}
+{{ if $recent }}
+<section class="landing-recent">
+  <div class="container">
+    <div class="section-head-row">
+      <div>
+        <h2 class="section-heading">Recently updated</h2>
+        <p class="section-sub">Fresh lessons and revisions from contributing educators.</p>
+      </div>
+      <a href="{{ "lessons/" | relURL }}" class="see-all-link">See all {{ $totalLessons }} &rarr;</a>
+    </div>
+    <div class="card-grid">
+      {{ range $recent }}
+        <div class="card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
+          <div class="card-meta">
+            {{ with .Params.author }}<span class="chip chip-author">{{ . }}</span>{{ end }}
+            {{ range .Params.grade_levels }}<span class="chip chip-grade">{{ . }}</span>{{ end }}
+            {{ range first 2 .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── Final CTA ── */}}
+<section class="landing-cta">
+  <div class="container landing-cta-inner">
+    <h2>Want something built for <em>your</em> district?</h2>
+    <p>We co-design custom professional development and curriculum integrations for schools, districts, and teacher-prep programs. Tell us what you&rsquo;re working on.</p>
+    <div class="landing-cta-row">
+      <a href="{{ "contact/" | relURL }}" class="btn btn-primary btn-lg">Get in touch</a>
+      <a href="{{ "lessons/" | relURL }}" class="btn btn-ghost btn-lg">Keep browsing lessons</a>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div></div>
 {{ end }}

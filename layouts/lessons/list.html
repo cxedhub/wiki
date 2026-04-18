@@ -1,16 +1,157 @@
 {{ define "main" }}
-<div class="container">
-  <h1>Lesson Plans</h1>
-  {{ partial "last-updated.html" . }}
-  <p>Browse {{ len .Pages }} computing-infused lesson plans created by K-12 educators.</p>
+{{ $lessons := .Pages }}
+{{ $totalLessons := len $lessons }}
 
-  {{ partial "lesson-filters.html" . }}
+<section class="page-hero">
+  <div class="container">
+    <p class="page-hero-eyebrow">Lesson Library</p>
+    <h1>Browse {{ $totalLessons }} Computing-Integrated Lessons</h1>
+    <p class="page-hero-sub">Filter by grade level, subject, CS domain, or standard to find lessons that fit your classroom.</p>
+  </div>
+</section>
 
-  <div class="card-grid" id="lesson-list">
-    {{ range .Pages.ByTitle }}
-      {{ partial "lesson-card.html" . }}
-    {{ end }}
+<div class="container">{{ partial "last-updated.html" . }}</div>
+
+<section class="container home-explore" id="explore">
+  <div class="explore-layout">
+    {{/* ── Sidebar Filters ── */}}
+    <aside class="filter-sidebar" id="filter-sidebar">
+      <div class="filter-header">
+        <h3>Filters</h3>
+        <button id="clear-all-filters" class="btn-clear">Clear All</button>
+      </div>
+
+      <div class="filter-search-wrap">
+        <input type="text" id="home-search" placeholder="Search by keyword..." class="filter-search" aria-label="Search lessons">
+      </div>
+
+      {{/* Grade Levels */}}
+      <div class="filter-group" data-filter="grade">
+        <h4 class="filter-group-title">Grade Level</h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.grade_levels.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="grade">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      {{/* Subjects */}}
+      <div class="filter-group" data-filter="subject">
+        <h4 class="filter-group-title">Subject <span class="filter-group-count">{{ len site.Taxonomies.subjects }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.subjects.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="subject">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      {{/* CS Domains */}}
+      <div class="filter-group" data-filter="domain">
+        <h4 class="filter-group-title">CS Domain</h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.cs_domains.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="domain">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      {{/* Standards */}}
+      {{ if site.Taxonomies.standard_types }}
+      <div class="filter-group" data-filter="standard">
+        <h4 class="filter-group-title">Standards <span class="filter-group-count">{{ len site.Taxonomies.standard_types }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.standard_types.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="standard">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* Tags */}}
+      <div class="filter-group" data-filter="tag">
+        <h4 class="filter-group-title">Tags <span class="filter-group-count">{{ len site.Taxonomies.tags }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.tags.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="tag">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+
+      <button id="mobile-apply-filters" class="btn btn-primary btn-apply-mobile">Apply Filters</button>
+    </aside>
+
+    {{/* ── Main Content: Results ── */}}
+    <div class="explore-results">
+      <div class="results-toolbar">
+        <div class="results-count" id="results-count">
+          Showing <strong>{{ $totalLessons }}</strong> of {{ $totalLessons }} lessons
+        </div>
+        <div class="results-actions">
+          <button id="mobile-filter-toggle" class="btn btn-secondary btn-sm filter-toggle-btn">Filters</button>
+          <select id="sort-select" aria-label="Sort lessons" class="sort-select">
+            <option value="title">Sort: A&ndash;Z</option>
+            <option value="title-desc">Sort: Z&ndash;A</option>
+            <option value="date">Sort: Newest</option>
+          </select>
+        </div>
+      </div>
+
+      {{/* Active filter chips */}}
+      <div class="active-filters" id="active-filters"></div>
+
+      <div class="card-grid" id="lesson-list">
+        {{ range $lessons.ByTitle }}
+          <div class="card"
+            data-title="{{ .Title }}"
+            data-date="{{ .Date.Format "2006-01-02" }}"
+            data-subjects="{{ with .Params.subjects }}{{ delimit . "|" }}{{ end }}"
+            data-grades="{{ with .Params.grade_levels }}{{ delimit . "|" }}{{ end }}"
+            data-domains="{{ with .Params.cs_domains }}{{ delimit . "|" }}{{ end }}"
+            data-tags="{{ with .Params.tags }}{{ delimit . "|" }}{{ end }}"
+            data-standards="{{ with .Params.standard_types }}{{ delimit . "|" }}{{ end }}">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
+            <div class="card-meta">
+              {{ with .Params.author }}<span class="chip chip-author">{{ . }}</span>{{ end }}
+              {{ range .Params.grade_levels }}<span class="chip chip-grade">{{ . }}</span>{{ end }}
+              {{ range first 3 .Params.subjects }}<span class="chip chip-subject">{{ . }}</span>{{ end }}
+              {{ with .Params.subjects }}{{ if gt (len .) 3 }}<span class="chip chip-more">+{{ sub (len .) 3 }}</span>{{ end }}{{ end }}
+            </div>
+            {{ with .Params.tags }}
+            <div class="card-tags">
+              {{ range . }}<span class="chip chip-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+
+      <div class="no-results" id="no-results" style="display:none;">
+        <p><strong>No lessons match your filters.</strong></p>
+        <p>Try removing some filters or <button id="no-results-clear" class="btn-link">clear all filters</button>.</p>
+      </div>
+    </div>
   </div>
   <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
-</div>
+</section>
 {{ end }}
