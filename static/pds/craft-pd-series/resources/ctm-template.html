@@ -213,9 +213,27 @@ h1{font-family:Georgia,serif;font-size:20pt;color:#1B2A4A;border-bottom:2pt soli
 h2{font-family:Georgia,serif;font-size:15pt;color:#1ABC9C;margin-top:18pt}
 h3{font-size:12pt;margin-top:12pt;color:#1B2A4A}
 .subtitle{color:#666;font-style:italic;margin-bottom:16pt}
-.step{margin:10pt 0;padding:8pt 12pt;border-left:4pt solid #1ABC9C;background:#F5FBFA}
+.step{margin:10pt 0;padding:8pt 12pt;border-left:5pt solid #1ABC9C;background:#F5FBFA}
+.step-s1{border-left:5pt solid #D4A843;background:#FDF8EC}
+.step-s2{border-left:5pt solid #C0392B;background:#FDECE9}
+.step-s3{border-left:5pt solid #27AE60;background:#E9F8EF}
+.step-s4{border-left:5pt solid #8E6BBF;background:#F2EDF8}
+.step-num{display:inline-block;width:22pt;text-align:center;color:#fff;font-weight:bold;font-size:12pt;padding:2pt 0;margin-right:8pt;border-radius:4pt}
+.num-s1{background:#D4A843}
+.num-s2{background:#C0392B}
+.num-s3{background:#27AE60}
+.num-s4{background:#8E6BBF}
 .step-title{font-weight:bold;font-size:12pt;color:#1B2A4A}
+.title-s1{color:#A07F20}
+.title-s2{color:#922A20}
+.title-s3{color:#1E8449}
+.title-s4{color:#6A4D9A}
 .step-desc{font-size:10.5pt;margin-top:3pt}
+.ws-head{font-size:12pt;margin-top:14pt;padding:5pt 10pt;color:#fff;border-radius:3pt}
+.ws-s1{background:#D4A843}
+.ws-s2{background:#C0392B}
+.ws-s3{background:#27AE60}
+.ws-s4{background:#8E6BBF}
 .principle{background:#E8FAF6;padding:8pt 12pt;margin:6pt 0;border-radius:4pt;font-size:10.5pt}
 .principle strong{color:#1ABC9C}
 .example{background:#F5F5F5;border-left:4pt solid #D4A843;padding:10pt 14pt;margin:10pt 0;font-size:10.5pt}
@@ -233,23 +251,15 @@ function onePagerHtml(){
 <h2>The CtM Protocol — One-Pager</h2>
 <p>Every time you or your students use AI to generate an answer, run this 4-step cycle before trusting the output.</p>
 
-<div class="step"><div class="step-title">1. TASK</div><div class="step-desc">What did you ask the AI to do? Write the prompt or describe the request. Be specific.</div></div>
-<div class="step"><div class="step-title">2. BEFORE</div><div class="step-desc">What do you <em>expect</em> the answer to be? Write your prediction, estimate, or prior belief BEFORE looking at the AI's output. This is the most important step — it activates your own knowledge.</div></div>
-<div class="step"><div class="step-title">3. AFTER</div><div class="step-desc">What did the AI actually produce? Describe the output. Compare it to your prediction. Flag anything that surprises you, contradicts what you know, or that you can't independently verify.</div></div>
-<div class="step"><div class="step-title">4. TAKEAWAY</div><div class="step-desc">What did the comparison reveal? (1) What did you learn about the AI tool — where is it reliable? Where does it fail? (2) What did you learn about your OWN understanding?</div></div>
+<div class="step step-s1"><div><span class="step-num num-s1">1</span><span class="step-title title-s1">TASK</span></div><div class="step-desc">What did you ask the AI to do? Write the prompt or describe the request. Be specific.</div></div>
+<div class="step step-s2"><div><span class="step-num num-s2">2</span><span class="step-title title-s2">BEFORE</span></div><div class="step-desc">What do you <em>expect</em> the answer to be? Write your prediction, estimate, or prior belief BEFORE looking at the AI's output. This is the most important step — it activates your own knowledge.</div></div>
+<div class="step step-s3"><div><span class="step-num num-s3">3</span><span class="step-title title-s3">AFTER</span></div><div class="step-desc">What did the AI actually produce? Describe the output. Compare it to your prediction. Flag anything that surprises you, contradicts what you know, or that you can't independently verify.</div></div>
+<div class="step step-s4"><div><span class="step-num num-s4">4</span><span class="step-title title-s4">TAKEAWAY</span></div><div class="step-desc">What did the comparison reveal? (1) What did you learn about the AI tool — where is it reliable? Where does it fail? (2) What did you learn about your OWN understanding?</div></div>
 
 <h3>Guiding Principles</h3>
 <div class="principle"><strong>Principle 1:</strong> AI is never the first step. You must have your own expectation before checking the AI's output.</div>
 <div class="principle"><strong>Principle 2:</strong> Errors are features, not failures. Finding an AI error means you're learning.</div>
-<div class="principle"><strong>Principle 3:</strong> Verification is a skill that transfers. The same mindset applies to checking any data source, calculation, or claim.</div>
-
-<h2>Worked Example — 7th Grade Math</h2>
-<div class="example">
-<p><strong>Task:</strong> I asked the AI: "Write a word problem about proportional relationships using a recipe context for 7th graders."</p>
-<p><strong>Before:</strong> I expect a problem that gives a recipe for a certain number of servings and asks students to scale it up or down. The numbers should be reasonable (not fractions of eggs) and the proportion should be straightforward.</p>
-<p><strong>After:</strong> The AI produced a problem about tripling a cookie recipe. It was well-written BUT it asked students to use "3/4 × 3 = 9/4 cups of flour" — mathematically correct, but the AI didn't convert to mixed numbers (2¼ cups) which is how recipes actually work. A student could get the right math answer but an impractical cooking answer.</p>
-<p><strong>Takeaway:</strong> The AI is good at creating the structure of word problems but doesn't always check whether the answer makes practical sense in context. I need to verify that AI-generated problems have contextually reasonable answers, not just mathematically correct ones.</p>
-</div>`;
+<div class="principle"><strong>Principle 3:</strong> Verification is a skill that transfers. The same mindset applies to checking any data source, calculation, or claim.</div>`;
 }
 
 function worksheetHtml(){
@@ -264,18 +274,18 @@ function worksheetHtml(){
 <td><div class="field-label">AI Tool Used</div><div class="field">&nbsp;</div></td>
 </tr></table>
 
-<h3>Step 1: TASK — What did you ask the AI to do?</h3>
+<div class="ws-head ws-s1">Step 1: TASK — What did you ask the AI to do?</div>
 <div class="field" style="min-height:60pt">&nbsp;</div>
 
-<h3>Step 2: BEFORE — What do you predict the answer will be?</h3>
+<div class="ws-head ws-s2">Step 2: BEFORE — What do you predict the answer will be?</div>
 <p style="font-size:9.5pt;color:#666">WRITE THIS BEFORE LOOKING AT THE AI'S OUTPUT. Even a rough guess counts.</p>
 <div class="field" style="min-height:80pt">&nbsp;</div>
 
-<h3>Step 3: AFTER — What did the AI actually produce?</h3>
+<div class="ws-head ws-s3">Step 3: AFTER — What did the AI actually produce?</div>
 <p style="font-size:9.5pt;color:#666">Describe or paste the AI's output. Does it match your prediction? What's different? What surprises you? What can't you verify?</p>
 <div class="field" style="min-height:100pt">&nbsp;</div>
 
-<h3>Step 4: TAKEAWAY — What did you learn?</h3>
+<div class="ws-head ws-s4">Step 4: TAKEAWAY — What did you learn?</div>
 <p style="font-size:9.5pt;color:#666">(a) About the AI: Where was it right? Where was it wrong? What should you be cautious about?<br>(b) About YOUR understanding: Did you know enough to spot the errors? What do you need to learn more about?</p>
 <div class="field" style="min-height:100pt">&nbsp;</div>
 
