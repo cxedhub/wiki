@@ -1,0 +1,85 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>Cross-Disciplinary Standards Matrix</h1>
+    <p>Find computing-integrated K&ndash;12 lessons by the standards you already teach. Browse <strong>417 lessons</strong> mapped across seven national standards frameworks.</p>
+    <div class="hero-actions">
+      <a href="{{ "matrix/app/" | relURL }}" class="btn btn-primary">Launch the Matrix &rarr;</a>
+      <a href="#how-to-use" class="btn btn-secondary">How to Use It</a>
+    </div>
+  </div>
+</section>
+
+<div class="container">{{ partial "last-updated.html" . }}</div>
+
+<section class="container page-content">
+  <article>
+    <h2>What is it?</h2>
+    <p>The Cross-Disciplinary Standards Matrix is an interactive view of every lesson in the CxEd Hub library, plotted against the standards each lesson addresses. It replaces our earlier draft Google Sheet with a richer, faster, fully searchable web tool.</p>
+    <p>It is built for teachers, instructional coaches, and curriculum leads who need to:</p>
+    <ul>
+      <li>Find lessons that hit a specific standard or cluster of standards.</li>
+      <li>See where computing concepts naturally line up with math, ELA, science, social studies, and the arts.</li>
+      <li>Audit coverage across grade bands when planning a scope and sequence.</li>
+      <li>Justify integrated activities to administrators with a standards-aligned trail.</li>
+    </ul>
+
+    <h2>Standards covered</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>CSTA K&ndash;12</h3>
+        <p class="card-desc">Computer Science Teachers Association standards across all five concepts and grade bands.</p>
+      </div>
+      <div class="card">
+        <h3>CCSS-Math</h3>
+        <p class="card-desc">Common Core State Standards for Mathematics &mdash; content and practice standards.</p>
+      </div>
+      <div class="card">
+        <h3>CCSS-ELA</h3>
+        <p class="card-desc">Common Core State Standards for English Language Arts and Literacy.</p>
+      </div>
+      <div class="card">
+        <h3>NGSS</h3>
+        <p class="card-desc">Next Generation Science Standards &mdash; performance expectations across grade bands.</p>
+      </div>
+      <div class="card">
+        <h3>ISTE</h3>
+        <p class="card-desc">International Society for Technology in Education student standards.</p>
+      </div>
+      <div class="card">
+        <h3>C3 Social Studies</h3>
+        <p class="card-desc">College, Career, and Civic Life framework for social studies state standards.</p>
+      </div>
+      <div class="card">
+        <h3>National Core Arts</h3>
+        <p class="card-desc">National Core Arts Standards across creating, performing, responding, and connecting.</p>
+      </div>
+    </div>
+
+    <h2 id="how-to-use">How to use the matrix</h2>
+    <ol>
+      <li><strong>Pick a view (tab).</strong> Switch between standards frameworks at the top &mdash; each tab plots lessons against a different framework.</li>
+      <li><strong>Filter.</strong> Use the dropdowns to narrow by grade band, subject, or framework section.</li>
+      <li><strong>Read the heatmap.</strong> Darker cells indicate stronger alignment or more lessons covering that intersection. The legend below the controls explains the color scale.</li>
+      <li><strong>Hover for details.</strong> Hovering a standard code reveals the full description; hovering a cell previews the lessons mapped there.</li>
+      <li><strong>Click to drill in.</strong> Clicking a cell opens a side panel with every lesson that hits that standard &mdash; titles link directly to the full lesson plans on this site.</li>
+    </ol>
+
+    <h2>A few tips</h2>
+    <ul>
+      <li>Start broad &mdash; pick a grade band first, then layer on subject filters. The matrix is dense by design.</li>
+      <li>The framework tabs are independent. A lesson can show up in multiple frameworks because it satisfies multiple standards.</li>
+      <li>If you came here looking for a specific lesson rather than a specific standard, the <a href="{{ "lessons/" | relURL }}">Lesson Plans</a> page has a faster filtered search.</li>
+      <li>Cells are clickable &mdash; if a cell looks empty but is highlighted, hover it; the count may be small.</li>
+    </ul>
+
+    <h2>Feedback</h2>
+    <p>Mappings are reviewed by the CxEd Hub team but new lessons are added regularly and alignment is an ongoing process. If you spot a missing or incorrect alignment, please <a href="{{ "contact/" | relURL }}">get in touch</a>.</p>
+
+    <div class="hero-actions" style="margin-top:2rem;justify-content:flex-start">
+      <a href="{{ "matrix/app/" | relURL }}" class="btn btn-primary">Launch the Matrix &rarr;</a>
+    </div>
+  </article>
+  <div class="last-updated-bottom">{{ partial "last-updated.html" . }}</div>
+</section>
+{{ end }}
