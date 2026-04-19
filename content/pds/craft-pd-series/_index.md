@@ -28,7 +28,7 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 **Format:** Virtual (Zoom) · 8:30 AM – 12:00 PM PST · Standalone sessions
 
-**Standards:** Multi-framework STEM alignment — pick from CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, or National Core Arts using the searchable picker in the [STEM Lesson Template](/pds/craft-pd-series/resources/lesson-template.html) · [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html) (for science-focused lessons)
+**Standards:** Multi-framework STEM alignment — pick from CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, or National Core Arts using the searchable picker in the [STEM Lesson Template](/pds/craft-pd-series/resources/lesson-template.html) · Teaching in Florida? Use the [Florida-tuned Lesson Template](/pds/craft-pd-series/resources/lesson-template-florida.html) (B.E.S.T. ELA/Math, NGSSS Science & Social Studies, Florida K-12 CS) · [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html) (for science-focused lessons)
 
 ---
 
@@ -47,6 +47,8 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 ## Shared Resources (All Workshops)
 
 - 📄 [CRAFT Cycle One-Pager](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the five-phase framework
+- 📝 [STEM Lesson Template](/pds/craft-pd-series/resources/lesson-template.html) — multi-framework CRAFT lesson builder (CSTA, NGSS, CCSS, ISTE, NCSS C3, National Core Arts)
+- 🌴 [Florida Lesson Template](/pds/craft-pd-series/resources/lesson-template-florida.html) — Florida-tuned variant leading with B.E.S.T. ELA/Math, NGSSS Science & Social Studies, and Florida K-12 CS
 - 📚 [Prompt Library](/pds/craft-pd-series/resources/prompt-library.html) — tested prompts for AI-assisted STEM teaching
 - ⚖️ [Platform Comparison: ChatGPT vs Claude vs Gemini](/pds/craft-pd-series/resources/platform-comparison.html) — strengths, weaknesses, and when to use which
 - 📊 [NGSS Alignment Crosswalk](/pds/craft-pd-series/resources/ngss-crosswalk.html) — IoT/sensor activities mapped to NGSS Performance Expectations
