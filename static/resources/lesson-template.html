@@ -431,14 +431,21 @@ Takeaway: What did the comparison reveal?"></textarea>
   <span class="step-header-num" aria-hidden="true">4</span>
   <span class="step-header-label">Step 4</span>
   <span class="step-header-title">Submit to the Lesson Repository</span>
-  <span class="step-header-opt">Advanced · Optional</span>
+  <span class="step-header-opt">Optional</span>
 </div>
 
 <div class="export-box">
 <h2>Share with the CRAFT Community</h2>
-<p style="font-size:0.85rem;color:var(--gray600)">Contribute your lesson so other educators can discover and build on it.</p>
+<p style="font-size:0.85rem;color:var(--gray600)">Contribute your lesson so other educators can discover and build on it. Pick whichever path is easier for you.</p>
 
 <div class="export-group">
+<div class="export-group-label">Email submission · Easiest (no account needed)</div>
+<button class="btn" onclick="submitEmail()">✉️ Email Your Lesson to the Editors</button>
+<div class="helper">Downloads your lesson as a Markdown file and opens a pre-filled email to the editors. Just attach the downloaded <code>.md</code> file and hit send — we'll review and add it to the repository for you.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">GitHub pull request · Advanced</div>
 <button class="btn pr" onclick="submitPR()">🚀 Submit to Lesson Plan Repository</button>
 <div class="helper">Opens GitHub with your lesson pre-filled in a new file. You'll need a free GitHub account; GitHub will automatically fork the repo and walk you through creating a pull request for review.</div>
 </div>
@@ -452,6 +459,7 @@ Takeaway: What did the comparison reveal?"></textarea>
 <script src="/js/standards-db.js"></script>
 <script>
 const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
+const SUBMIT_EMAIL='mike@freyjalabs.com';
 
 /* ===== Citation (embedded in every export + every AI prompt) ===== */
 const CITATION_TEXT='Borowczak, A. & Borowczak, M. (2026). CRAFT PD Series Lesson Template. cxedhub.com';
@@ -1401,6 +1409,42 @@ async function submitPR(){
   }
   window.open(baseUrl+'&value='+encoded,'_blank','noopener');
   flash('Opening GitHub — sign in and submit your pull request for review');
+}
+
+async function submitEmail(){
+  const d=collect();
+  if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
+  const md=toMarkdown(d);
+  const slug=slugify(d.title);
+  const filename=slug+'.md';
+  downloadFile(filename,md,'text/markdown;charset=utf-8');
+  const author=(d.author||'').trim();
+  const grade=(d.grade||'').trim();
+  const subj='Lesson Plan Submission: '+d.title;
+  const bodyLines=[
+    'Hello CRAFT editors,',
+    '',
+    'I would like to submit the following lesson plan for the CRAFT community repository:',
+    '',
+    'Title: '+d.title,
+    author?('Author: '+author):null,
+    grade?('Grade Level: '+grade):null,
+    '',
+    'The lesson plan has been downloaded to my computer as "'+filename+'".',
+    'Please find it attached to this email.',
+    '',
+    '(If the file did not download automatically, please check your browser\'s Downloads folder or use the "Download .md" button in Step 3.)',
+    '',
+    'Thank you,',
+    author||'[Your name]'
+  ].filter(Boolean);
+  const body=bodyLines.join('\n');
+  const mailto='mailto:'+encodeURIComponent(SUBMIT_EMAIL)
+    +'?subject='+encodeURIComponent(subj)
+    +'&body='+encodeURIComponent(body);
+  // Small delay so the download dialog/flash shows before the mail client opens.
+  setTimeout(()=>{window.location.href=mailto},250);
+  flash('Downloaded '+filename+' — attach it to the email that just opened and send');
 }
 
 function flash(msg){
