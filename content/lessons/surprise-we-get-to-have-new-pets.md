@@ -29,18 +29,6 @@ standards:
   - 1A-CS-02
   - 1A-CS-03
   - 1A-IC-16
-  - 1A-IC-17
-  - 1A-IC-18
-  - 1B-AP-08
-  - 1B-AP-09
-  - 1B-AP-10
-  - 1B-AP-15
-  - 1B-CS-01
-  - 1B-CS-02
-  - 1B-CS-03
-  - 1B-IC-18
-  - 1B-IC-19
-  - 1B-IC-20
   ISTE:
   - ISTE-1d
   - ISTE-6c
@@ -53,7 +41,6 @@ standards:
   - 3-5-ETS1-3
   - K-2-ETS1-1
   - K-2-ETS1-2
-  - K-2-ETS1-3
   NCSS C3:
   - D2.His.2.3-5
   - D2.His.2.K-2

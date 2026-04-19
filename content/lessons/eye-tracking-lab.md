@@ -38,20 +38,13 @@ standards:
   - 2-DA-08
   - 2-DA-09
   - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
   ISTE:
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-4a
-  - ISTE-4b
   - ISTE-4c
-  - ISTE-4d
-  - ISTE-5c
-  - ISTE-5d
-  - ISTE-6a
   - ISTE-6b
+  - ISTE-4a
+  - ISTE-5c
+  - ISTE-4d
   CCSS Math:
   - 6.SP
 ---

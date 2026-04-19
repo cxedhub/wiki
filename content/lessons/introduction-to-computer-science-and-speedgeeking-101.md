@@ -1,7 +1,6 @@
 ---
 title: Introduction to Computer Science and SpeedGeeking 101
-description: 'Part 1: Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science
-  apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.'
+description: 'Part 1: Gauge student understanding of computer science and introduce basic CS vocabulary. Part 2: Teach students about SpeedGeeking, a collaborative and energetic sharing of computer science apps and tools. Students create computational artifacts and participate in a SpeedGeeking workshop.'
 date: '2023-04-03 00:00:00+00:00'
 draft: false
 author: Whitney Wilking
@@ -34,11 +33,6 @@ standards:
   - 2-DA-08
   - 2-DA-09
   - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
-  - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a

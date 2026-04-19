@@ -1,7 +1,6 @@
 ---
 title: 'Communicating Through History: MicroBit Morse Code'
-description: 'Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode
-  messages sent in Morse Code via radio output. (Note: Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)'
+description: 'Students will read articles and then construct a timeline of the progression of communication technology in the developing United States. Then, they will use MicroBits to encode and decode messages sent in Morse Code via radio output. (Note: Morse Code Activity can be done Unplugged, without the Micro:Bits if necessary.)'
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -30,8 +29,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 1B-IC-18
-  - 1B-IC-19
-  - 1B-IC-20
   ISTE:
   - ISTE-1d
   - ISTE-4c

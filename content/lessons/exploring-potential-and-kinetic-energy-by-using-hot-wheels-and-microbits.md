@@ -1,7 +1,6 @@
 ---
 title: Exploring Potential and Kinetic Energy by Using Hot Wheels and Micro:bits
-description: Students will be exploring potential and kinetic energy (how mass and velocity changes KE, when does an object have the most/least potential). They will have cars of different masses, with
-  microbits attached, and a ramp to complete their trials. Afterwards, students will upload data, make graphs of the data, and interpret how different variables affected potential and kinetic energy.
+description: Students will be exploring potential and kinetic energy (how mass and velocity changes KE, when does an object have the most/least potential). They will have cars of different masses, with microbits attached, and a ramp to complete their trials. Afterwards, students will upload data, make graphs of the data, and interpret how different variables affected potential and kinetic energy.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Noel Davis
@@ -28,18 +27,6 @@ standards:
   - 2-DA-08
   - 2-DA-09
   - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
-  - 3A-AP-13
-  - 3A-AP-14
-  - 3A-AP-15
-  - 3A-AP-21
-  - 3A-DA-09
-  - 3A-DA-10
-  - 3A-DA-11
-  - 3A-NI-04
-  - 3A-NI-05
-  - 3A-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-5a

@@ -1,7 +1,6 @@
 ---
 title: Digital and Analog Activity Project
-description: This is a project for students to experience the differences between analog and digital waves. Students will be comparing and contrasting the particulars of these waves, as well as coding a
-  radio game to use digital waves.
+description: This is a project for students to experience the differences between analog and digital waves. Students will be comparing and contrasting the particulars of these waves, as well as coding a radio game to use digital waves.
 date: '2022-12-13 00:00:00+00:00'
 draft: false
 author: Sara Percy
@@ -22,11 +21,10 @@ standards:
   - 2-AP-11
   - 2-AP-12
   - 2-AP-17
-  - 2-DA-07
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
-  - 2-NI-06
+  - 2-DA-07
   ISTE:
   - ISTE-1d
   - ISTE-5a

@@ -26,12 +26,6 @@ standards:
   - 1B-DA-07
   - 2-AP-10
   - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-DA-07
-  - 2-DA-08
-  - 2-DA-09
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a

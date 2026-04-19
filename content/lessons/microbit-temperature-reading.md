@@ -28,9 +28,6 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-DA-07
-  - 2-DA-08
-  - 2-DA-09
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a
@@ -47,7 +44,6 @@ standards:
   - MS-ESS2-6
   - MS-PS1-4
   - MS-PS1-6
-  - MS-PS3-3
 materials: Website, Micro:bit, makecode.microbit.org
 tags:
 - Data Collection

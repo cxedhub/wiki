@@ -45,7 +45,6 @@ standards:
   - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
-  - 4-ESS2-1
 materials: Website, Micro:bit
 tags:
 - micro:bit

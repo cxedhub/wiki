@@ -41,8 +41,6 @@ standards:
   - MS-ETS1-3
   - MS-ETS1-4
   - MS-PS4-1
-  - MS-PS4-2
-  - MS-PS4-3
 standard_types:
 - CSTA
 - ISTE

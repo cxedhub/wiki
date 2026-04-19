@@ -31,12 +31,6 @@ standards:
   - 1A-CS-02
   - 1A-CS-03
   - 1B-AP-08
-  - 1B-AP-09
-  - 1B-AP-10
-  - 1B-AP-15
-  - 1B-CS-01
-  - 1B-CS-02
-  - 1B-CS-03
   ISTE:
   - ISTE-1d
   - ISTE-4c

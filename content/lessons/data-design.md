@@ -27,9 +27,6 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-  - VA:Re7
-  - VA:Re8
-  - VA:Re9
 materials: None, Website
 tags:
 - Data Collection

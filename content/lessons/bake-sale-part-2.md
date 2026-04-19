@@ -28,7 +28,7 @@ standards:
   - ISTE-7b
   - ISTE-7c
 supplements:
-- /uploads/bake-sale-lesson-2/Bake_Sale_Lesson_2_-_Nate_Reinhardt.docx
+- /uploads/bake-sale-part-2/Bake_Sale_Lesson_2_-_Nate_Reinhardt.docx
 standard_types:
 - CSTA
 - ISTE

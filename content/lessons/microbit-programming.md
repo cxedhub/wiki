@@ -51,9 +51,6 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-  - VA:Pr4
-  - VA:Pr5
-  - VA:Pr6
 standard_types:
 - CCSS ELA
 - CSTA

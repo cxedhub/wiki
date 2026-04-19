@@ -1,8 +1,6 @@
 ---
 title: 'AI and Ethics: A Mini-Unit for High School Lesson Set One'
-description: This is the first set of three lessons in a six-lesson mini unit on the basics of how artificial intelligence/machine learning works and the ethics involved with artificial intelligence.  In
-  this lesson set, students will learn about artificial intelligence, supervised machine learning, build their own teachable machine, and look at how datasets influence results.  Students will also begin
-  to consider ethical implications of artificial intelligence, especially in relation to datasets.
+description: This is the first set of three lessons in a six-lesson mini unit on the basics of how artificial intelligence/machine learning works and the ethics involved with artificial intelligence.  In this lesson set, students will learn about artificial intelligence, supervised machine learning, build their own teachable machine, and look at how datasets influence results.  Students will also begin to consider ethical implications of artificial intelligence, especially in relation to datasets.
 date: '2024-04-12'
 draft: false
 author: Sarah Horen
@@ -46,17 +44,12 @@ standards:
   - 3A-IC-25
   - 3A-IC-26
   - 3A-IC-29
-  - 3A-NI-06
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-4a
-  - ISTE-4c
   - ISTE-5a
-  - ISTE-5b
+  - ISTE-4c
   - ISTE-6b
+  - ISTE-4a
   - ISTE-6c
 ---
 # OVERVIEW

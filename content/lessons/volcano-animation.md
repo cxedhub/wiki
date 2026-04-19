@@ -50,7 +50,6 @@ standards:
   - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
-  - 4-ESS2-1
   NCSS C3:
   - D2.Geo.1.3-5
   - D2.Geo.2.3-5

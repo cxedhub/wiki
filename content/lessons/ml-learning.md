@@ -42,25 +42,14 @@ standards:
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
-  - 3A-DA-09
   - 3A-IC-24
-  - 3A-IC-25
-  - 3A-IC-26
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4b
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
-  - ISTE-7a
   - ISTE-7b
+  - ISTE-4a
   CCSS Math:
   - HSS-ID
 ---

@@ -1,7 +1,6 @@
 ---
 title: Wax Museum Technology Part 1
-description: In this lesson series, students will research ways that technology has impacted the world. They can choose to research people or specific systems. After their small projects are completed,
-  students will have a chance to present their project in a 'museum' fashion. They will have display projects and a plaque to go in their museum and a small speaking part to tell about their project.
+description: In this lesson series, students will research ways that technology has impacted the world. They can choose to research people or specific systems. After their small projects are completed, students will have a chance to present their project in a 'museum' fashion. They will have display projects and a plaque to go in their museum and a small speaking part to tell about their project.
 date: '2021-07-02 00:00:00+00:00'
 draft: false
 author: Taylor Wailes-Putnam
@@ -49,17 +48,6 @@ standards:
   - MU:Cr1
   - MU:Cr2
   - MU:Cr3
-  - MU:Pr4
-  - MU:Pr5
-  - MU:Pr6
-  - VA:Cn10
-  - VA:Cn11
-  - VA:Cr1
-  - VA:Cr2
-  - VA:Cr3
-  - VA:Pr4
-  - VA:Pr5
-  - VA:Pr6
 materials: Website, Books, ReadWorks Articles
 tags:
 - Unplugged

@@ -31,7 +31,6 @@ standards:
   - 1B-IC-19
   - 1B-IC-20
   - 1B-NI-04
-  - 1B-NI-05
   ISTE:
   - ISTE-1d
   - ISTE-4a

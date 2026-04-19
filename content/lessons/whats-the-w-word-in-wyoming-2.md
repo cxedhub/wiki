@@ -30,9 +30,6 @@ standards:
   - 3-5-ETS1-3
   - 3-ESS2-1
   - 3-ESS2-2
-  - 3-ESS3-1
-  - 4-PS3-1
-  - 4-PS3-2
 supplements:
 - /uploads/whats-the-w-word-in-wyoming-2/WySLICE_Lesson_Plan-Predict_Wind_Speed_and_Weather_Build_an_Anemometer_-_Katherine_Cline.pptx
 - /uploads/whats-the-w-word-in-wyoming-2/WySLICE_Lesson_Plan-Predict_Wind_Speed_and_Weather_Build_an_Anemometer_-_Katherine_Cline1.pptx

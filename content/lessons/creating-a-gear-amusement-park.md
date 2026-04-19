@@ -31,8 +31,6 @@ standards:
   - 1A-CS-02
   - 1A-CS-03
   - 1A-DA-05
-  - 1A-DA-06
-  - 1A-DA-07
   ISTE:
   - ISTE-1d
   - ISTE-4c

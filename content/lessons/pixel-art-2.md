@@ -1,7 +1,6 @@
 ---
 title: Pixel Art
-description: In this unplugged activity students will learn different ways to write out programs/codes to create large scale pixel art pieces. Students will learn three different ways to program/code through
-  out class practiced activities. End project will include a large scale art piece created out of a binary code that students individually created and another student has to decode.
+description: In this unplugged activity students will learn different ways to write out programs/codes to create large scale pixel art pieces. Students will learn three different ways to program/code through out class practiced activities. End project will include a large scale art piece created out of a binary code that students individually created and another student has to decode.
 date: '2021-07-29 00:00:00+00:00'
 draft: false
 author: Mackenzie Wiginton
@@ -23,8 +22,6 @@ tags:
 - Unplugged
 standards:
   CSTA:
-  - 1B-AP-10
-  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
   - 1B-CS-03
@@ -32,6 +29,7 @@ standards:
   - 1B-DA-07
   - 1B-NI-04
   - 1B-NI-05
+  - 1B-AP-10
   ISTE:
   - ISTE-1d
   - ISTE-5c
@@ -44,10 +42,6 @@ standards:
   - VA:Cr3
   - VA:Pr4
   - VA:Pr5
-  - VA:Pr6
-  - VA:Re7
-  - VA:Re8
-  - VA:Re9
 supplements:
 - /uploads/pixel-art-2/Pixel_Art_-_Mackenzie_Wiginton.docx
 - /uploads/pixel-art-2/Pixel_Art_-_Mackenzie_Wiginton1.docx

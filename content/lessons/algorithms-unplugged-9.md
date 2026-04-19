@@ -1,7 +1,6 @@
 ---
 title: Algorithms Unplugged
-description: This lesson/activity is an introduction of algorithms. Students will be in small groups and assign someone as a 'bot' and will guide them by giving specific instructions/algorithms to move
-  to a specific location for no more than 10 'blocks'/directions. Students can rotate 'bots' and find different ways to create an algorithm.
+description: This lesson/activity is an introduction of algorithms. Students will be in small groups and assign someone as a 'bot' and will guide them by giving specific instructions/algorithms to move to a specific location for no more than 10 'blocks'/directions. Students can rotate 'bots' and find different ways to create an algorithm.
 date: '2023-03-15 00:00:00+00:00'
 draft: false
 author: Burns William
@@ -29,12 +28,6 @@ standards:
   - 1A-CS-02
   - 1A-CS-03
   - 1B-AP-08
-  - 1B-AP-09
-  - 1B-AP-10
-  - 1B-AP-15
-  - 1B-CS-01
-  - 1B-CS-02
-  - 1B-CS-03
   ISTE:
   - ISTE-1d
   - ISTE-5a

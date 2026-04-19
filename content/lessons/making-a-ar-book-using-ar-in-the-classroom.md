@@ -1,7 +1,6 @@
 ---
 title: Making a AR book- Using AR in the classroom
-description: The Halo AR app shows various ways to show the human CAPTCHA tool for a virtual environment. This type of technology is easier, more entertaining, and students are more at ease in the classroom
-  setting to learn. AR technology works with intervention and make a more gamified version, to help children and adults enjoy learning!
+description: The Halo AR app shows various ways to show the human CAPTCHA tool for a virtual environment. This type of technology is easier, more entertaining, and students are more at ease in the classroom setting to learn. AR technology works with intervention and make a more gamified version, to help children and adults enjoy learning!
 date: '2023-04-04'
 draft: false
 author: Tonya Rose Taylor
@@ -25,14 +24,12 @@ standards:
   - RL.7.4
   - SL.7
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
+  - ISTE-7b
   - ISTE-6c
   - ISTE-6d
   - ISTE-7a
-  - ISTE-7b
+  - ISTE-2a
   CSTA:
   - 2-AP-17
   - 2-NI-04

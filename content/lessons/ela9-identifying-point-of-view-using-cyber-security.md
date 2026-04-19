@@ -24,7 +24,6 @@ standards:
   - 3A-IC-25
   - 3A-IC-26
   - 3A-IC-29
-  - 3A-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-6c

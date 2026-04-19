@@ -35,7 +35,7 @@ materials: Website, Micro:bit
 tags:
 - micro:bit
 supplements:
-- /uploads/nursery-rhymes-and-microbits/_Nursery_Rhymes_and_Microbits__-_Maggie_Unterseher.docx
+- /uploads/nursery-rhymes-and-microbits-part-1/_Nursery_Rhymes_and_Microbits__-_Maggie_Unterseher.docx
 standard_types:
 - CCSS ELA
 - CSTA

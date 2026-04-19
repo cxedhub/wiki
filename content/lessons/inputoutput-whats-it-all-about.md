@@ -28,12 +28,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-CS-01
-  - 2-CS-02
-  - 2-CS-03
   ISTE:
   - ISTE-1d
   - ISTE-4a
@@ -46,8 +40,6 @@ standards:
   - 3-5-ETS1-3
   - MS-ETS1-1
   - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
 materials: Website, Micro:bit
 tags:
 - Web Design

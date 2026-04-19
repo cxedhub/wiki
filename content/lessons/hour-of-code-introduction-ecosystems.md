@@ -33,14 +33,6 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-DA-07
-  - 2-DA-08
-  - 2-DA-09
-  - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
-  - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
   ISTE:
   - ISTE-5a
   - ISTE-5c

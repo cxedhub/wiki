@@ -1,7 +1,6 @@
 ---
 title: Sunlight Sensor
-description: Turn your micro:bit into a light sensor! Using the light level sensor feature of the micro:bit, students will program the micro:bit to display different images based on the level of light in
-  the room.
+description: Turn your micro:bit into a light sensor! Using the light level sensor feature of the micro:bit, students will program the micro:bit to display different images based on the level of light in the room.
 date: '2022-07-14 00:00:00+00:00'
 draft: false
 author: Anita Tope
@@ -31,10 +30,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 1B-DA-06
-  - 1B-DA-07
-  - 1B-IC-18
-  - 1B-IC-19
-  - 1B-IC-20
   ISTE:
   - ISTE-1d
   - ISTE-7b
@@ -45,8 +40,6 @@ standards:
   - 4-PS3-4
   - 4-PS4-1
   - 4-PS4-3
-  - 5-ESS1-1
-  - 5-ESS1-2
 supplements:
 - /uploads/sunlight-sensor/Micro_bit_Sunlight_Sensor_-_Anita_Tope.docx
 - /uploads/sunlight-sensor/send-a-smile-makecode_-_Anita_Tope.hex

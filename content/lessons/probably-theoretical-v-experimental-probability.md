@@ -1,7 +1,6 @@
 ---
 title: Probably... Theoretical v Experimental Probability
-description: Students will use pre-made coding in order to record experimental probability data and compare it to what they have learned about theoretical probability. As students complete their investigations,
-  they will use the same base-code to make their own probability code.
+description: Students will use pre-made coding in order to record experimental probability data and compare it to what they have learned about theoretical probability. As students complete their investigations, they will use the same base-code to make their own probability code.
 date: '2022-08-15 00:00:00+00:00'
 draft: false
 author: Kendrea herring
@@ -26,12 +25,6 @@ standards:
   - 1B-DA-07
   - 2-AP-10
   - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-DA-07
-  - 2-DA-08
-  - 2-DA-09
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a

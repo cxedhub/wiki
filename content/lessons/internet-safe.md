@@ -21,7 +21,6 @@ tags:
 - Cybersecurity
 standards:
   CSTA:
-  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
   - 1B-CS-03

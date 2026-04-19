@@ -35,7 +35,6 @@ supplements:
 - /uploads/vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_1_-_Christy_Rodgers.pdf
 standards:
   CSTA:
-  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
   - 2-CS-03
@@ -44,30 +43,19 @@ standards:
   - 2-DA-09
   - 2-IC-20
   - 2-IC-21
-  - 2-IC-22
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
-  - ISTE-7a
   - ISTE-7b
+  - ISTE-4a
   NGSS:
   - MS-ETS1-1
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-PS3-1
   - MS-PS3-2
-  - MS-PS3-5
   NCSS C3:
   - D2.His.2.6-8
 standard_types:

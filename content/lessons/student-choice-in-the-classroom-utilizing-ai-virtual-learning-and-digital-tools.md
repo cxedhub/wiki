@@ -1,7 +1,6 @@
 ---
 title: Student Choice in the Classroom Utilizing AI, Virtual Learning and Digital Tools
-description: in person, learning taking place in a brick and mortar classroom. Students have the choice whether to dissect a frog using a real preserved specimen or through the use of a virtual frog dissection
-  at the end of the lab. All students will be given an end of unit quiz reviewing all the information they should have learned throughout the lab.
+description: in person, learning taking place in a brick and mortar classroom. Students have the choice whether to dissect a frog using a real preserved specimen or through the use of a virtual frog dissection at the end of the lab. All students will be given an end of unit quiz reviewing all the information they should have learned throughout the lab.
 date: '2023-07-24'
 draft: false
 author: Alicia Vonberg
@@ -33,7 +32,6 @@ standard_types:
 - NGSS
 standards:
   CSTA:
-  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
   - 2-CS-03
@@ -42,17 +40,6 @@ standards:
   - 2-IC-22
   - 2-NI-04
   - 2-NI-05
-  - 2-NI-06
-  - 3A-AP-21
-  - 3A-CS-01
-  - 3A-CS-02
-  - 3A-CS-03
-  - 3A-IC-24
-  - 3A-IC-25
-  - 3A-IC-26
-  - 3A-NI-04
-  - 3A-NI-05
-  - 3A-NI-06
   ISTE:
   - ISTE-1c
   - ISTE-1d
@@ -65,9 +52,6 @@ standards:
   - HS-ESS3-4
   - MS-ESS3-3
   - MS-ESS3-4
-  - MS-ESS3-5
-  - MS-PS4-1
-  - MS-PS4-2
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -1,7 +1,6 @@
 ---
 title: There Was An Old Lady....in Sequence and Loops
-description: This lesson uses the familiar nursery rhyme and song 'There Was An Old Lady Who Swallowed a Fly' to introduce primary students to the concepts of sequencing and looping in algorithms. It can
-  also be used with older students as an example that leads them to writing their own unique code that includes loops.
+description: This lesson uses the familiar nursery rhyme and song 'There Was An Old Lady Who Swallowed a Fly' to introduce primary students to the concepts of sequencing and looping in algorithms. It can also be used with older students as an example that leads them to writing their own unique code that includes loops.
 date: '2020-11-30 00:00:00+00:00'
 draft: false
 author: Michelle Ottoes
@@ -30,17 +29,6 @@ standards:
   - 1B-AP-09
   - 1B-AP-10
   - 1B-AP-15
-  - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-DA-07
-  - 2-NI-06
-  - 3A-AP-13
-  - 3A-AP-14
-  - 3A-AP-15
-  - 3A-AP-21
-  - 3A-DA-09
   ISTE:
   - ISTE-1d
   - ISTE-5c

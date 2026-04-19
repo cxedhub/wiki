@@ -38,16 +38,11 @@ standards:
   - 3A-DA-09
   ISTE:
   - ISTE-1d
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4b
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
+  - ISTE-4a
+  - ISTE-4d
 ---
 # OVERVIEW
 ## Activity Overview:  

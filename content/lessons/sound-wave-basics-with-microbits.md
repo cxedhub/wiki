@@ -1,7 +1,6 @@
 ---
 title: Sound Wave Basics with micro:bits
-description: This lesson uses MakeCode and micro:bit to analyze sound waves. Students will learn how frequency and volume affect the shape and sound of the wave.  Students will then design their own sound
-  waves using code.
+description: This lesson uses MakeCode and micro:bit to analyze sound waves. Students will learn how frequency and volume affect the shape and sound of the wave.  Students will then design their own sound waves using code.
 date: '2023-07-14T15:54:15'
 draft: false
 author: Jana Simmerly
@@ -34,7 +33,6 @@ standards:
   - MS-ETS1-3
   - MS-PS4-1
   - MS-PS4-2
-  - MS-PS4-3
 materials: Website, micro:bit
 tags:
 - Cybersecurity

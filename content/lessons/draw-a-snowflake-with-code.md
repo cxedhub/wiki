@@ -1,7 +1,6 @@
 ---
 title: Draw a snowflake with code
-description: Draw a snowflake using code.org. My students were really challenged to follow the directions in the lesson, so I created an 'I do, we do, you do' type of lesson through the slide show. My students
-  then had to follow along with my slides and I could see where they were still having trouble with understanding the vocabulary of coding.
+description: Draw a snowflake using code.org. My students were really challenged to follow the directions in the lesson, so I created an 'I do, we do, you do' type of lesson through the slide show. My students then had to follow along with my slides and I could see where they were still having trouble with understanding the vocabulary of coding.
 date: '2023-03-28 00:00:00+00:00'
 draft: false
 author: Michelle Black
@@ -40,9 +39,6 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-  - VA:Pr4
-  - VA:Pr5
-  - VA:Pr6
 supplements:
 - /uploads/draw-a-snowflake-with-code/Creating_Nested_Loops_-_Michelle_Black.pptx
 standard_types:

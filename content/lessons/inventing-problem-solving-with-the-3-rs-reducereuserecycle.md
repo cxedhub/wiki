@@ -31,8 +31,6 @@ standards:
   - 1A-CS-02
   - 1A-CS-03
   - 1A-DA-05
-  - 1A-DA-06
-  - 1A-DA-07
   ISTE:
   - ISTE-1d
   - ISTE-4c
@@ -47,8 +45,7 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
-materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson
-  document).'
+materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson document).'
 tags:
 - Data Collection
 - Robotics

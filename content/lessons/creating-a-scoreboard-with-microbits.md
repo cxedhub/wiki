@@ -23,7 +23,6 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-DA-07
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-5a

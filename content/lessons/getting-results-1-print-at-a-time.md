@@ -1,7 +1,6 @@
 ---
 title: Getting Results 1 print at a time
-description: Students will use Tinkercad to make a basic key chain with their own name on it. They will export the STL file to get sliced for the 3D printer. They will document the estimated print time
-  and the time to complete the print. Data will be gathered to chart a trend line. Students will have a key chain and data to analyze.
+description: Students will use Tinkercad to make a basic key chain with their own name on it. They will export the STL file to get sliced for the 3D printer. They will document the estimated print time and the time to complete the print. Data will be gathered to chart a trend line. Students will have a key chain and data to analyze.
 date: '2022-04-26'
 draft: false
 author: Bryce Cushman
@@ -38,35 +37,19 @@ standards:
   - 2-DA-08
   - 2-DA-09
   - 3A-AP-13
-  - 3A-AP-14
-  - 3A-AP-15
-  - 3A-AP-21
-  - 3A-DA-09
-  - 3A-DA-10
-  - 3A-DA-11
   ISTE:
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4b
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
-  - ISTE-7a
   - ISTE-7b
+  - ISTE-4a
   NGSS:
   - HS-ETS1-1
   - HS-ETS1-2
   - HS-ETS1-3
   - MS-ETS1-1
   - MS-ETS1-2
-  - MS-ETS1-3
 standard_types:
 - CSTA
 - ISTE

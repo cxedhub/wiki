@@ -32,11 +32,6 @@ standards:
   - 3A-CS-02
   - 3A-CS-03
   - 3A-IC-24
-  - 3A-IC-25
-  - 3A-IC-26
-  - 3A-NI-04
-  - 3A-NI-05
-  - 3A-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a

@@ -1,7 +1,6 @@
 ---
 title: Python Activity 1 - Variables and Input
-description: This lesson guides the students through creating variables, obtaining data from users and changing data types. An activity worksheet is provided. Questions on the worksheet check for understanding
-  as the students work through the problems. The students culminate the activity with a simple calculator project at the end.
+description: This lesson guides the students through creating variables, obtaining data from users and changing data types. An activity worksheet is provided. Questions on the worksheet check for understanding as the students work through the problems. The students culminate the activity with a simple calculator project at the end.
 date: '2023-07-27'
 draft: false
 author: Josh McCoy
@@ -40,24 +39,13 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-DA-07
-  - 2-NI-06
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4b
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
-  - ISTE-7a
   - ISTE-7b
+  - ISTE-4a
 ---
 # OVERVIEW
 ## Activity Overview:  

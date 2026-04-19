@@ -1,7 +1,6 @@
 ---
 title: Traffic Light Arduino
-description: Students will design a traffic light simulator using an Arduino to imitate traffic light timings.  Students will program their lights using Arduino code, introducing variables for the light
-  timings.
+description: Students will design a traffic light simulator using an Arduino to imitate traffic light timings.  Students will program their lights using Arduino code, introducing variables for the light timings.
 date: '2024-04-01'
 draft: false
 author: Sandra Joslin
@@ -32,28 +31,17 @@ standards:
   - 2-AP-11
   - 2-AP-12
   - 2-AP-17
-  - 2-DA-07
   - 2-IC-20
   - 2-IC-21
   - 2-IC-22
-  - 2-NI-06
+  - 2-DA-07
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4b
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
-  - ISTE-7a
   - ISTE-7b
+  - ISTE-4a
   NGSS:
   - MS-ETS1-1
   - MS-ETS1-2

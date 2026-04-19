@@ -259,7 +259,7 @@ Short explainer videos to help you align instruction to state and national CS st
   </div>
   <div class="card">
     <h3><a href="/matrix/">Cross-Disciplinary Standards Matrix</a></h3>
-    <p class="card-desc">Interactive map of 417 lessons across CSTA, CCSS-Math, CCSS-ELA, NGSS, ISTE, C3, and National Core Arts standards. Includes a quick-start guide.</p>
+    <p class="card-desc">Interactive map of 379 lessons across CSTA, CCSS-Math, CCSS-ELA, NGSS, ISTE, C3, and National Core Arts standards. Includes a quick-start guide.</p>
     <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">

@@ -1,7 +1,6 @@
 ---
 title: Arduino Traffic Lights
-description: Lesson consists of introducing students to the concepts of finite state machines (FSM), side-channel attacks. After that, a discussion of Arduino Microcontrollers and demonstrations of their
-  capability, as well as controlling model traffic signals will take place. Then, the lesson becomes more encompassing of the function of traffic signals and their importance.
+description: Lesson consists of introducing students to the concepts of finite state machines (FSM), side-channel attacks. After that, a discussion of Arduino Microcontrollers and demonstrations of their capability, as well as controlling model traffic signals will take place. Then, the lesson becomes more encompassing of the function of traffic signals and their importance.
 date: '2023-07-27'
 draft: false
 author: Doc Shaw
@@ -32,18 +31,12 @@ standards:
   - 2-CS-02
   - 2-CS-03
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
+  - ISTE-7b
   - ISTE-4a
-  - ISTE-4b
   - ISTE-5c
-  - ISTE-5d
   - ISTE-6c
   - ISTE-6d
-  - ISTE-7a
-  - ISTE-7b
   CCSS Math:
   - 8.F
 standard_types:

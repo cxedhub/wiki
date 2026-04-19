@@ -1,7 +1,6 @@
 ---
 title: Build Your Own Snowman
-description: Student learners will build a snowman using a Google Slides template. They will click and drag snowman parts and accessories to create a unique snowman. Once the snowman is built, they will
-  write a story about their snowman and it's unique personality.
+description: Student learners will build a snowman using a Google Slides template. They will click and drag snowman parts and accessories to create a unique snowman. Once the snowman is built, they will write a story about their snowman and it's unique personality.
 date: '2022-07-17 00:00:00+00:00'
 draft: false
 author: Charles Morton
@@ -18,20 +17,14 @@ cs_principles:
 - Creating Computational Artifacts
 standards:
   CSTA:
-  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
   - 1B-CS-03
   - 1B-IC-18
   - 1B-IC-19
   - 1B-IC-20
-  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
-  - 2-CS-03
-  - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
   ISTE:
   - ISTE-4a
   - ISTE-4c

@@ -1,8 +1,6 @@
 ---
 title: Intro to HTML
-description: This lesson introduces many new concepts and tools to students. They are introduced to HTML, the Web Lab tool, and how to navigate lesson resources on Code.org in general. While the understanding
-  of HTML as a way to communicate the structure of a web page is a critical learning objective, this lesson has students do minimal programming since there are many other new ideas and tools to grasp. In
-  the next lesson students will have more time to spend programming in HTML.
+description: This lesson introduces many new concepts and tools to students. They are introduced to HTML, the Web Lab tool, and how to navigate lesson resources on Code.org in general. While the understanding of HTML as a way to communicate the structure of a web page is a critical learning objective, this lesson has students do minimal programming since there are many other new ideas and tools to grasp. In the next lesson students will have more time to spend programming in HTML.
 date: '2023-07-23'
 draft: false
 author: Camille Conner
@@ -36,20 +34,14 @@ standards:
   - 3A-CS-01
   - 3A-CS-02
   - 3A-CS-03
-  - 3A-DA-09
   - 3A-NI-04
-  - 3A-NI-05
-  - 3A-NI-06
   ISTE:
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
   - ISTE-5a
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
+  - ISTE-3a
 ---
 # OVERVIEW
 ## Activity Overview:  
