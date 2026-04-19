@@ -9,20 +9,20 @@ See [`MATRIX_PROCESS.md`](MATRIX_PROCESS.md) for how to add a new lesson.
 
 | Metric | Value |
 | --- | --- |
-| Lessons in matrix | **379** |
-| Standard alignments | **5,072** |
+| Lessons in matrix | **378** |
+| Standard alignments | **5,055** |
 | National frameworks | **7** |
-| Unique standard codes used | **267** |
+| Unique standard codes used | **266** |
 | Standard codes described in `data/standards.json` | **358** |
 
 ## Framework coverage
 
 | Framework | Lessons aligned | Alignments | Codes used | Codes described |
 | --- | ---: | ---: | ---: | ---: |
-| CSTA | 379 | 2,356 | 62 | 75 |
-| ISTE | 377 | 1,711 | 18 | 24 |
+| CSTA | 378 | 2,348 | 62 | 75 |
+| ISTE | 376 | 1,706 | 18 | 24 |
 | NGSS | 111 | 454 | 87 | 124 |
-| CCSS ELA | 97 | 180 | 23 | 24 |
+| CCSS ELA | 96 | 176 | 22 | 24 |
 | CCSS Math | 81 | 130 | 26 | 30 |
 | NCSS C3 | 37 | 90 | 35 | 59 |
 | National Core Arts | 34 | 151 | 16 | 22 |
@@ -73,3 +73,4 @@ regeneration. It edits these files and nothing else:
 | 2026-04 | Fixed stale "417 lessons" prose in `layouts/matrix/list.html`, "350+" in `content/_index.md`, "300 computing-infused" in `home.html`. Matrix `const L=` was already correct at 379. |
 | 2026-04 | Introduced `scripts/rebuild_matrix.py` so counts and lookups stay in sync automatically. |
 | 2026-04 | (Earlier, commit `5639e15`) Deduped 32 lessons, renamed 5 to `-part-N`, capped per-framework codes, fixed stale 350/411/417 counts, regenerated `const L`. |
+| 2026-04 | Removed `build-your-own-snowman` lesson; regenerated matrix (379 → 378 lessons, 5,072 → 5,055 alignments). |
