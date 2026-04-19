@@ -18,12 +18,12 @@ Help students use generative AI as a partner for STEM learning — with guardrai
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/lesson-template.html">Lesson/Unit Template</a></h3>
+    <h3><a href="/resources/lesson-template.html">Lesson/Unit Template</a></h3>
     <p class="card-desc">Fillable template that maps a STEM lesson onto the CRAFT cycle. Start here when designing a new AI-integrated lesson.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/lesson-template-florida.html">Lesson/Unit Template (Florida)</a></h3>
+    <h3><a href="/resources/lesson-template-florida.html">Lesson/Unit Template (Florida)</a></h3>
     <p class="card-desc">Florida-tuned variant of the CRAFT lesson template. Standards picker leads with B.E.S.T. ELA/Math, NGSSS Science & Social Studies, and Florida K-12 CS, with national frameworks available alongside for state-to-national crosswalks.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
@@ -97,7 +97,7 @@ Move students from AI on a screen to AI on a sensor — build, measure, and reas
     <div class="card-meta"><span class="chip chip-subject">Interactive</span><span class="chip chip-grade">Educator</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
+    <h3><a href="/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
     <p class="card-desc">CRAFT-aligned template for any edge/IoT lesson — from one-period demos to multi-week student design projects.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
