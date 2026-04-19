@@ -13,7 +13,7 @@ tags: []
 # Noyce Scholars and other STEM educators can pull from ANY framework(s) —
 # computer science, math, science, technology, social studies, arts, etc.
 # Use the multi-framework picker in the lesson template
-# (/pds/craft-pd-series/resources/lesson-template.html) if you don't have
+# (/resources/lesson-template.html) if you don't have
 # identifiers memorized: it lets you search by keyword.
 standard_types: []
 standards: {}

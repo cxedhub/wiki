@@ -102,7 +102,7 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 <a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
 
 <h1>STEM and Other Lesson/Unit Plan Generator</h1>
-<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle and supports any subject area — computer science, math, science, engineering, technology, social studies, arts, ELA, or cross-disciplinary work. Align to one or many standards frameworks below. When you're done, use the export tools at the bottom to copy, download, or submit your lesson. Teaching in Florida? <a href="/pds/craft-pd-series/resources/lesson-template-florida.html">Use the Florida-tuned CRAFT lesson template →</a> (leads with B.E.S.T. ELA/Math, NGSSS Science &amp; Social Studies, and Florida K-12 CS).</p>
+<p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle and supports any subject area — computer science, math, science, engineering, technology, social studies, arts, ELA, or cross-disciplinary work. Align to one or many standards frameworks below. When you're done, use the export tools at the bottom to copy, download, or submit your lesson. Teaching in Florida? <a href="/resources/lesson-template-florida.html">Use the Florida-tuned CRAFT lesson template →</a> (leads with B.E.S.T. ELA/Math, NGSSS Science &amp; Social Studies, and Florida K-12 CS).</p>
 
 <details class="load-box">
 <summary>Load an existing lesson from Markdown</summary>
@@ -249,25 +249,9 @@ Takeaway: What did the comparison reveal?"></textarea>
 <textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
 
 <div class="export-box">
-<h2 style="border-bottom:2px solid var(--teal)">Export Your Lesson</h2>
-<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you click <em>Submit to Repository</em>.</p>
+<h2 style="border-bottom:2px solid var(--teal)">Iterate with an LLM</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Hand your draft to an LLM for feedback, then paste the revised Markdown back in to refresh every field below.</p>
 
-<div class="export-group">
-<div class="export-group-label">Google Docs · Word · Pages</div>
-<button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
-<button class="btn secondary" onclick="downloadDoc()">⬇ Download .doc</button>
-<div class="helper">Rich-text paste keeps headings and formatting. The .doc file opens natively in Word and in Google Docs (File → Open).</div>
-</div>
-
-<div class="export-group">
-<div class="export-group-label">Markdown</div>
-<button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
-<button class="btn secondary" onclick="downloadMarkdown()">⬇ Download .md</button>
-<div class="helper">Includes Hugo front matter (title, description, grade level, NGSS PEs, tags) so it's ready to drop into the lesson plan repository.</div>
-</div>
-
-<div class="export-group">
-<div class="export-group-label">Iterate with an LLM</div>
 <ol class="llm-flow" aria-label="Three-step LLM iteration flow">
   <li class="llm-step">
     <div class="llm-step-badge" aria-hidden="true">1</div>
@@ -291,6 +275,24 @@ Takeaway: What did the comparison reveal?"></textarea>
   </li>
 </ol>
 <div class="llm-flow-footnote">Provider list is for convenience — we do not endorse any specific AI platform.</div>
+</div>
+
+<div class="export-box">
+<h2 style="border-bottom:2px solid var(--teal)">Export Your Lesson</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you click <em>Submit to Repository</em>.</p>
+
+<div class="export-group">
+<div class="export-group-label">Google Docs · Word · Pages</div>
+<button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
+<button class="btn secondary" onclick="downloadDoc()">⬇ Download .doc</button>
+<div class="helper">Rich-text paste keeps headings and formatting. The .doc file opens natively in Word and in Google Docs (File → Open).</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Markdown</div>
+<button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
+<button class="btn secondary" onclick="downloadMarkdown()">⬇ Download .md</button>
+<div class="helper">Includes Hugo front matter (title, description, grade level, NGSS PEs, tags) so it's ready to drop into the lesson plan repository.</div>
 </div>
 
 <div class="export-group">
@@ -1163,7 +1165,7 @@ function returnToLoader(){
   flash('Loader opened — paste the LLM reply and click Load into Form');
 }
 </script>
-<script src="../../../js/chat-providers.js"></script>
+<script src="/js/chat-providers.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const anchor = document.getElementById('cpb-ai-prompt-anchor');
@@ -1172,6 +1174,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 </script>
-<script src="../../../js/credit-bar.js"></script>
-<script src="../../../js/last-updated-static.js"></script>
+<script src="/js/credit-bar.js"></script>
+<script src="/js/last-updated-static.js"></script>
 </body></html>

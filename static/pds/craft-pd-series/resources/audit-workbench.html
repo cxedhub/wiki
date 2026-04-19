@@ -657,6 +657,24 @@ footer {
     <textarea id="selfReflection" placeholder="e.g., I almost missed the weight/density conflation because it 'sounded right' in context. The protocol caught it because I wrote my expectation first. My expertise level (3/5) means I need to verify more carefully in chemistry topics."></textarea>
   </div>
 
+  <!-- ITERATE WITH AN LLM -->
+  <div class="export-section">
+    <h2>Iterate with an LLM</h2>
+    <p style="color:var(--c-muted);font-size:0.95rem;">Have a second AI audit the first — or generate a fix.</p>
+
+    <div class="export-grid">
+      <div class="export-card">
+        <h3>Copy the audit prompt</h3>
+        <p>We build a detailed prompt from every field above, plus this workbench's citation.</p>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="copyAiPrompt()">(1) 🤖 Copy Audit Prompt</button>
+        </div>
+        <div id="cpb-ai-prompt-anchor"></div>
+        <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">Paste the LLM's fenced <code>```markdown</code> block back into "Load an existing audit from Markdown" above.</p>
+      </div>
+    </div>
+  </div>
+
   <!-- EXPORT -->
   <div class="export-section">
     <h2>Export Your Audit</h2>
@@ -679,16 +697,6 @@ footer {
           <button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
           <button class="btn" onclick="downloadMd()">⬇ Download .md</button>
         </div>
-      </div>
-
-      <div class="export-card">
-        <h3>Iterate with an LLM</h3>
-        <p>Have a second AI audit the first — or generate a fix.</p>
-        <div class="btn-row">
-          <button class="btn btn-primary" onclick="copyAiPrompt()">(1) 🤖 Copy Audit Prompt</button>
-        </div>
-        <div id="cpb-ai-prompt-anchor"></div>
-        <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">Paste the LLM's fenced <code>```markdown</code> block back into "Load an existing audit from Markdown" above.</p>
       </div>
 
       <div class="export-card">

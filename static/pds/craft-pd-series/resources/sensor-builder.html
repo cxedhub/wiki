@@ -536,6 +536,24 @@ footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.85rem; color: va
     <textarea id="assessment" class="tall" placeholder="e.g., Students submit: (1) working micro:bit program, (2) data table with 20+ readings, (3) completed CtM worksheet showing code verification, (4) 2-sentence reflection on what they'd change."></textarea>
   </div>
 
+  <!-- ITERATE WITH AN LLM -->
+  <div class="export-section">
+    <h2>Iterate with an LLM</h2>
+    <p style="color:var(--c-muted);font-size:0.95rem;">Have an LLM fill gaps and return Markdown you can load back in.</p>
+
+    <div class="export-grid">
+      <div class="export-card">
+        <h3>Copy the AI prompt</h3>
+        <p>We build a detailed prompt from every field above, plus this generator's citation.</p>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="copyAiPrompt()">(1) 🤖 Copy AI Prompt</button>
+        </div>
+        <div id="cpb-ai-prompt-anchor"></div>
+        <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">Paste the LLM's fenced <code>```markdown</code> block back into "Load an existing lesson from Markdown" above.</p>
+      </div>
+    </div>
+  </div>
+
   <!-- EXPORT -->
   <div class="export-section">
     <h2>Export Your Lesson</h2>
@@ -557,15 +575,6 @@ footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.85rem; color: va
           <button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
           <button class="btn" onclick="downloadMdFile()">⬇ Download .md</button>
         </div>
-      </div>
-      <div class="export-card">
-        <h3>Iterate with an LLM</h3>
-        <p>Have an LLM fill gaps and return Markdown you can load back in.</p>
-        <div class="btn-row">
-          <button class="btn btn-primary" onclick="copyAiPrompt()">(1) 🤖 Copy AI Prompt</button>
-        </div>
-        <div id="cpb-ai-prompt-anchor"></div>
-        <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">Paste the LLM's fenced <code>```markdown</code> block back into "Load an existing lesson from Markdown" above.</p>
       </div>
       <div class="export-card">
         <h3>Print</h3>

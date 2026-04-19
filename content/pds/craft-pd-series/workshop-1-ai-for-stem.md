@@ -75,7 +75,7 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 - [**📝 Live Agenda (Google Doc)**](https://docs.google.com/document/d/15c5VIEnaDM7NP8fU7pfKloeMp7f1L4rd/edit) — live, editable companion to the agenda for real-time updates during the session
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w1.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-1-Slides.pptx) — import to Google Slides
-- [**📄 STEM Lesson Template**](/pds/craft-pd-series/resources/lesson-template.html) — multi-framework template (CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, Arts) for AI-assisted lesson design — keyword search, no need to memorize codes
+- [**📄 STEM Lesson Template**](/resources/lesson-template.html) — multi-framework template (CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, Arts) for AI-assisted lesson design — keyword search, no need to memorize codes
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — tested prompts for STEM teaching across platforms
 - [**⚖️ Platform Comparison**](/pds/craft-pd-series/resources/platform-comparison.html) — ChatGPT vs Claude vs Gemini cheat sheet
 - [**📄 CRAFT Cycle One-Pager**](/pds/craft-pd-series/resources/craft-cycle-one-pager.html) — printable overview of the CRAFT framework
