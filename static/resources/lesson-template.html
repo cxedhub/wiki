@@ -97,7 +97,53 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 .llm-flow-footnote{font-size:0.74rem;color:var(--gray600);font-style:italic;margin:8px 2px 0;line-height:1.4}
 @media(max-width:720px){.llm-flow{flex-direction:column;align-items:stretch}.llm-flow-arrow{transform:rotate(90deg);align-self:center;font-size:1.3rem;padding:2px 0}}
 
-@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow{display:none}input,textarea,select{border:1px solid #ccc}}
+/* Top actions (subtle upload) */
+.top-actions{display:flex;align-items:center;gap:8px;margin:4px 0 18px;flex-wrap:wrap}
+.top-upload-btn{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;background:transparent;color:var(--gray600);border:1px dashed var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.78rem;font-weight:500;cursor:pointer}
+.top-upload-btn:hover{border-color:var(--teal);color:var(--teal);background:#f6fcfa}
+
+/* Workflow overview panel (4-step guide) */
+.workflow-panel{border:1px solid var(--gray200);border-radius:12px;padding:16px 18px;margin:0 0 26px;background:linear-gradient(135deg,#ffffff 0%,#f7f9fc 100%)}
+.workflow-panel-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600);margin:0 0 12px}
+.workflow-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.workflow-step{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:8px;border:1px solid var(--gray200);background:#fff;border-top:4px solid var(--teal)}
+.workflow-step[data-step="2"]{border-top-color:var(--gold)}
+.workflow-step[data-step="3"]{border-top-color:var(--green)}
+.workflow-step[data-step="4"]{border-top-color:var(--purple)}
+.workflow-step-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.workflow-step-num{width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8rem;flex:0 0 auto}
+.workflow-step[data-step="2"] .workflow-step-num{background:var(--gold)}
+.workflow-step[data-step="3"] .workflow-step-num{background:var(--green)}
+.workflow-step[data-step="4"] .workflow-step-num{background:var(--purple)}
+.workflow-step-title{font-weight:600;font-size:0.86rem;color:var(--ink)}
+.workflow-step-opt{margin-left:auto;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:2px 6px;background:var(--gray100);border-radius:10px}
+.workflow-step-body{font-size:0.76rem;color:var(--gray600);line-height:1.45}
+@media(max-width:720px){.workflow-steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.workflow-steps{grid-template-columns:1fr}}
+
+/* Step section labels */
+.step-header{display:flex;align-items:center;gap:10px;margin:36px 0 14px;padding:10px 14px;border-radius:8px;background:#ebf9f6;border-left:5px solid var(--teal);flex-wrap:wrap}
+.step-header.first{margin-top:10px}
+.step-header[data-step="2"]{border-left-color:var(--gold);background:#fbf6e8}
+.step-header[data-step="3"]{border-left-color:var(--green);background:#e9f7ef}
+.step-header[data-step="4"]{border-left-color:var(--purple);background:#f1ecf7}
+.step-header-num{width:28px;height:28px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;flex:0 0 auto}
+.step-header[data-step="2"] .step-header-num{background:var(--gold)}
+.step-header[data-step="3"] .step-header-num{background:var(--green)}
+.step-header[data-step="4"] .step-header-num{background:var(--purple)}
+.step-header-label{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600)}
+.step-header-title{font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--ink);line-height:1.2}
+.step-header-opt{margin-left:auto;font-size:0.66rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:3px 8px;background:#fff;border:1px solid var(--gray200);border-radius:10px}
+.step-section{border:1px solid transparent;border-radius:10px;padding:2px 0 6px}
+.step-section[data-step="1"]{border-top:3px solid var(--teal);padding-top:6px}
+.step-section[data-step="2"]{border-top:3px solid var(--gold);padding-top:6px}
+.step-section[data-step="3"]{border-top:3px solid var(--green);padding-top:6px}
+.step-section[data-step="4"]{border-top:3px solid var(--purple);padding-top:6px}
+.step-section[data-step="2"] .export-box h2{border-bottom-color:var(--gold)}
+.step-section[data-step="3"] .export-box h2{border-bottom-color:var(--green)}
+.step-section[data-step="4"] .export-box h2{border-bottom-color:var(--purple)}
+
+@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header{display:none}input,textarea,select{border:1px solid #ccc}}
 @media(max-width:640px){#std-pickers{grid-template-columns:1fr}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
 </style>
@@ -108,14 +154,52 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 <h1>STEM and Other Lesson/Unit Plan Generator</h1>
 <p class="subtitle">Fill in each section to build a complete lesson plan. Use an LLM to help generate content for any field — then verify and customize. This template follows the CRAFT cycle and supports any subject area — computer science, math, science, engineering, technology, social studies, arts, ELA, or cross-disciplinary work. Align to one or many standards frameworks below. When you're done, use the export tools at the bottom to copy, download, or submit your lesson. Teaching in Florida? <a href="/resources/lesson-template-florida.html">Use the Florida-tuned CRAFT lesson template →</a> (leads with B.E.S.T. ELA/Math, NGSSS Science &amp; Social Studies, and Florida K-12 CS).</p>
 
-<details class="load-box">
-<summary>Load an existing lesson from Markdown</summary>
-<p class="helper">Paste Markdown from a previously exported lesson (or choose a <code>.md</code> file), then click <strong>Load</strong>. Fields below will be populated — review and edit as needed. Accepts files exported by this template; front matter is optional.</p>
-<input id="f-loadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)">
-<textarea id="f-loadtext" placeholder="---&#10;title: &quot;My Lesson&quot;&#10;---&#10;&#10;# My Lesson&#10;&#10;## Overview&#10;..."></textarea>
-<button class="btn" onclick="loadMarkdown()">📥 Load into Form</button>
-<button class="btn secondary" onclick="document.getElementById('f-loadtext').value='';document.getElementById('f-loadfile').value='';">Clear</button>
-</details>
+<div class="top-actions">
+  <button class="top-upload-btn" type="button" onclick="topUploadMarkdown()" title="Load a previously saved .md lesson file">📥 Load saved lesson (.md)</button>
+  <input id="f-toploadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)" hidden>
+</div>
+
+<div class="workflow-panel" aria-label="How to use this template">
+  <div class="workflow-panel-title">How this template works</div>
+  <ol class="workflow-steps">
+    <li class="workflow-step" data-step="1">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">1</span>
+        <span class="workflow-step-title">Fill out the lesson</span>
+      </div>
+      <div class="workflow-step-body">Add context for your lesson — the more detail you provide, the more specific and custom your lesson plan will be.</div>
+    </li>
+    <li class="workflow-step" data-step="2">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">2</span>
+        <span class="workflow-step-title">Iterate with AI</span>
+        <span class="workflow-step-opt">Optional</span>
+      </div>
+      <div class="workflow-step-body">Use an LLM to complete, expand, or refine your lesson — then load the revised Markdown back in.</div>
+    </li>
+    <li class="workflow-step" data-step="3">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">3</span>
+        <span class="workflow-step-title">Download</span>
+      </div>
+      <div class="workflow-step-body">Export your finished lesson in multiple formats — Word, Google Docs, Markdown, or print.</div>
+    </li>
+    <li class="workflow-step" data-step="4">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">4</span>
+        <span class="workflow-step-title">Submit</span>
+        <span class="workflow-step-opt">Advanced</span>
+      </div>
+      <div class="workflow-step-body">Share your plan with the CRAFT community by submitting it to the lesson plan repository on GitHub.</div>
+    </li>
+  </ol>
+</div>
+
+<div class="step-header first" data-step="1">
+  <span class="step-header-num" aria-hidden="true">1</span>
+  <span class="step-header-label">Step 1</span>
+  <span class="step-header-title">Fill Out Your Lesson</span>
+</div>
 
 <h2>Lesson Overview</h2>
 <div class="row">
@@ -252,9 +336,17 @@ Takeaway: What did the comparison reveal?"></textarea>
 <h2>Notes & Reflections</h2>
 <textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
 
+<div class="step-section" data-step="2">
+<div class="step-header" data-step="2">
+  <span class="step-header-num" aria-hidden="true">2</span>
+  <span class="step-header-label">Step 2</span>
+  <span class="step-header-title">Iterate with AI</span>
+  <span class="step-header-opt">Optional</span>
+</div>
+
 <div class="export-box">
-<h2 style="border-bottom:2px solid var(--teal)">Iterate with an LLM</h2>
-<p style="font-size:0.85rem;color:var(--gray600)">Hand your draft to an LLM for feedback, then paste the revised Markdown back in to refresh every field below.</p>
+<h2>Iterate with an LLM</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Hand your draft to an LLM for feedback, then paste the revised Markdown back in to refresh every field above.</p>
 
 <ol class="llm-flow" aria-label="Three-step LLM iteration flow">
   <li class="llm-step">
@@ -274,16 +366,33 @@ Takeaway: What did the comparison reveal?"></textarea>
   <li class="llm-step">
     <div class="llm-step-badge" aria-hidden="true">3</div>
     <div class="llm-step-title">Paste the reply back</div>
-    <div class="llm-step-body">Jump to the loader at the top and paste the revised Markdown to refresh every field below.</div>
-    <div class="llm-step-action"><button class="btn" type="button" onclick="returnToLoader()">⬆ Back to Loader</button></div>
+    <div class="llm-step-body">Open the loader below and paste the revised Markdown to refresh every field above.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="returnToLoader()">⬇ Open Loader</button></div>
   </li>
 </ol>
 <div class="llm-flow-footnote">Provider list is for convenience — we do not endorse any specific AI platform.</div>
+
+<details class="load-box" style="margin:18px 0 0">
+<summary>Load an existing lesson from Markdown</summary>
+<p class="helper">Paste Markdown from a previously exported lesson (or choose a <code>.md</code> file), then click <strong>Load</strong>. Fields above will be populated — review and edit as needed. Accepts files exported by this template; front matter is optional.</p>
+<input id="f-loadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)">
+<textarea id="f-loadtext" placeholder="---&#10;title: &quot;My Lesson&quot;&#10;---&#10;&#10;# My Lesson&#10;&#10;## Overview&#10;..."></textarea>
+<button class="btn" onclick="loadMarkdown()">📥 Load into Form</button>
+<button class="btn secondary" onclick="document.getElementById('f-loadtext').value='';document.getElementById('f-loadfile').value='';">Clear</button>
+</details>
+</div>
+</div>
+
+<div class="step-section" data-step="3">
+<div class="step-header" data-step="3">
+  <span class="step-header-num" aria-hidden="true">3</span>
+  <span class="step-header-label">Step 3</span>
+  <span class="step-header-title">Download Your Lesson</span>
 </div>
 
 <div class="export-box">
-<h2 style="border-bottom:2px solid var(--teal)">Export Your Lesson</h2>
-<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you click <em>Submit to Repository</em>.</p>
+<h2>Export Your Lesson</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you choose to submit it in Step 4.</p>
 
 <div class="export-group">
 <div class="export-group-label">Google Docs · Word · Pages</div>
@@ -300,14 +409,28 @@ Takeaway: What did the comparison reveal?"></textarea>
 </div>
 
 <div class="export-group">
-<div class="export-group-label">Share with the CRAFT community</div>
+<div class="export-group-label">Other</div>
+<button class="btn secondary" onclick="window.print()">🖨 Print</button>
+</div>
+</div>
+</div>
+
+<div class="step-section" data-step="4">
+<div class="step-header" data-step="4">
+  <span class="step-header-num" aria-hidden="true">4</span>
+  <span class="step-header-label">Step 4</span>
+  <span class="step-header-title">Submit to the Lesson Repository</span>
+  <span class="step-header-opt">Advanced · Optional</span>
+</div>
+
+<div class="export-box">
+<h2>Share with the CRAFT Community</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Contribute your lesson so other educators can discover and build on it.</p>
+
+<div class="export-group">
 <button class="btn pr" onclick="submitPR()">🚀 Submit to Lesson Plan Repository</button>
 <div class="helper">Opens GitHub with your lesson pre-filled in a new file. You'll need a free GitHub account; GitHub will automatically fork the repo and walk you through creating a pull request for review.</div>
 </div>
-
-<div class="export-group">
-<div class="export-group-label">Other</div>
-<button class="btn secondary" onclick="window.print()">🖨 Print</button>
 </div>
 </div>
 
@@ -1162,11 +1285,15 @@ function flash(msg){
 
 function returnToLoader(){
   const box=document.querySelector('details.load-box');
-  if(box)box.open=true;
-  window.scrollTo({top:0,behavior:'smooth'});
+  if(box){box.open=true;box.scrollIntoView({behavior:'smooth',block:'start'})}
   const ta=document.getElementById('f-loadtext');
   if(ta)setTimeout(()=>{try{ta.focus({preventScroll:true})}catch(e){ta.focus()}},600);
   flash('Loader opened — paste the LLM reply and click Load into Form');
+}
+
+function topUploadMarkdown(){
+  const input=document.getElementById('f-toploadfile');
+  if(input){input.value='';input.click()}
 }
 </script>
 <script src="/js/chat-providers.js"></script>
