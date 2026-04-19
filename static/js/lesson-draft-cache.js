@@ -237,9 +237,11 @@
       h += '<span class="draft-cache-item-time">' + escHtml(fmtTime(d.updatedAt)) + '</span>';
       h += '</div>';
       h += '<div class="draft-cache-item-actions">';
-      if (!isCurrent) {
-        h += '<button type="button" class="btn secondary" onclick="lessonDraftCache.loadDraft(\'' + d.id + '\')">Load</button>';
-      }
+      // Always show Load — even for the "editing" draft — so users can
+      // reload what's actually persisted (useful as a sanity check, or to
+      // recover if the form state and stored draft have diverged).
+      const loadLabel = isCurrent ? 'Reload' : 'Load';
+      h += '<button type="button" class="btn secondary" onclick="lessonDraftCache.loadDraft(\'' + d.id + '\')">' + loadLabel + '</button>';
       h += '<button type="button" class="btn secondary draft-cache-del" onclick="lessonDraftCache.deleteDraft(\'' + d.id + '\')" aria-label="Delete draft" title="Delete draft">✕</button>';
       h += '</div>';
       h += '</li>';
