@@ -51,7 +51,9 @@ We believe professional development should be:
 - **Supportive of long-term instructional change**
 
 **Interested in custom PD for your team? Let's talk!**
-Contact us to start a conversation: mike@freyjalabs.com
+Fill out the form below and we'll be in touch.
+
+{{< contact-form >}}
 
 ---
 

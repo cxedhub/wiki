@@ -1,0 +1,10 @@
+{{- $url := site.Params.contactFormURL -}}
+{{- if $url -}}
+<div class="contact-form-embed">
+  <iframe src="{{ $url }}" width="100%" height="720" frameborder="0" marginheight="0" marginwidth="0" title="Contact form" loading="lazy">Loading contact form…</iframe>
+</div>
+{{- else -}}
+<div class="contact-form-placeholder">
+  <p><strong>Contact form not yet configured.</strong> Set <code>contactFormURL</code> in <code>hugo.toml</code> to your Google Form embed URL (the <code>…/viewform?embedded=true</code> link from Google Forms → Send → <code>&lt;/&gt;</code> embed).</p>
+</div>
+{{- end -}}

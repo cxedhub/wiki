@@ -12,8 +12,10 @@ summaryLength = 40
 [params]
   description = "Computing + X Educator Hub — Lesson plans and resources for K-12 educators integrating computing into their classrooms."
   author = "Drs. Andrea & Mike Borowczak"
-  contactEmail = "mike@freyjalabs.com"
   googleDriveURL = "https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing"
+  # Paste the Google Forms embed URL here (Send → </> → copy the src URL, e.g. https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true).
+  # Leave blank to show a "not yet configured" placeholder.
+  contactFormURL = ""
   # GoatCounter site code (the "xxx" in xxx.goatcounter.com). Leave empty to disable.
   # Sign up at https://www.goatcounter.com/signup, then set e.g. goatcounter = "cxedhub"
   goatcounter = "drmikeb"
