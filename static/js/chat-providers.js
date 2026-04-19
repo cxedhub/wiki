@@ -33,10 +33,14 @@
     '.cpb-row--dark .cpb-label{color:#94a3b8}',
     '.cpb-row--dark .cpb-btn{background:rgba(255,255,255,0.08);color:#e2e8f0;border-color:rgba(255,255,255,0.22)}',
     '.cpb-row--dark .cpb-btn:hover{color:#fff}',
+    '.cpb-disclaimer{font-size:0.7rem;color:#94a3b8;font-style:italic;margin:0.2rem 0 0.6rem;line-height:1.3}',
+    '.cpb-row--dark + .cpb-disclaimer{color:#64748b}',
     '#cpb-fallback-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:0.7rem 1.1rem;border-radius:8px;font-size:0.9rem;z-index:9999;box-shadow:0 4px 14px rgba(0,0,0,0.3);max-width:90vw;opacity:0;transition:opacity 0.25s}',
     '#cpb-fallback-toast.cpb-show{opacity:1}',
-    '@media print{.cpb-row{display:none!important}}'
+    '@media print{.cpb-row,.cpb-disclaimer{display:none!important}}'
   ].join('\n');
+
+  var DISCLAIMER_TEXT = 'Listed for convenience — we do not endorse any specific AI platform.';
 
   function injectStyle() {
     if (document.getElementById('cpb-style')) return;
@@ -109,7 +113,7 @@
     if (opts.label !== false) {
       var lbl = document.createElement('span');
       lbl.className = 'cpb-label';
-      lbl.textContent = opts.label || 'Open in:';
+      lbl.textContent = opts.label || '(2) Launch in:';
       row.appendChild(lbl);
     }
     PROVIDERS.forEach(function (p) {
@@ -127,6 +131,12 @@
       row.appendChild(b);
     });
     container.appendChild(row);
+    if (opts.disclaimer !== false) {
+      var note = document.createElement('div');
+      note.className = 'cpb-disclaimer';
+      note.textContent = opts.disclaimer || DISCLAIMER_TEXT;
+      container.appendChild(note);
+    }
     return row;
   }
 

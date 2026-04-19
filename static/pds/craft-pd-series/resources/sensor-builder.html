@@ -560,12 +560,12 @@ footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.85rem; color: va
       </div>
       <div class="export-card">
         <h3>Iterate with an LLM</h3>
-        <p>Builds a prompt from whatever you've entered so far. Paste into any LLM to fill gaps and return Markdown.</p>
+        <p>Have an LLM fill gaps and return Markdown you can load back in.</p>
         <div class="btn-row">
-          <button class="btn btn-primary" onclick="copyAiPrompt()">🤖 Copy AI Prompt</button>
+          <button class="btn btn-primary" onclick="copyAiPrompt()">(1) 🤖 Copy AI Prompt</button>
         </div>
         <div id="cpb-ai-prompt-anchor"></div>
-        <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">The LLM will reply in two parts: a readable lesson walkthrough (Part A) and a fenced <code>```markdown</code> block (Part B). Copy the <em>contents of the fenced block</em> into the "Load an existing lesson from Markdown" box above to ingest it back into this form.</p>
+        <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">Paste the LLM's fenced <code>```markdown</code> block back into "Load an existing lesson from Markdown" above.</p>
       </div>
       <div class="export-card">
         <h3>Print</h3>
