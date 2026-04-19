@@ -213,7 +213,10 @@
     const current = getCurrentId();
 
     if (!list.length) { panel.style.display = 'none'; panel.innerHTML = ''; return; }
-    panel.style.display = '';
+    // Explicit 'block' — the CSS rule has display:none so the panel stays
+    // hidden until it has something to show; an empty string would fall
+    // back to that CSS default and leave the panel invisible.
+    panel.style.display = 'block';
 
     let h = '';
     h += '<div class="draft-cache-head">';
