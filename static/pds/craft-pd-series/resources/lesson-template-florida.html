@@ -256,6 +256,7 @@ Takeaway: What did the comparison reveal?"></textarea>
 <div class="export-group">
 <div class="export-group-label">Iterate with an LLM</div>
 <button class="btn" onclick="copyLLMPrompt()">🤖 Copy AI Prompt</button>
+<div id="cpb-ai-prompt-anchor"></div>
 <div class="helper">Builds a prompt from whatever you've entered so far and tells an LLM (ChatGPT, Claude, Gemini, etc.) to fill in the gaps and return Markdown in this template's format. Paste the LLM's reply into <em>Load an existing lesson from Markdown</em> at the top of the page to pull the revised draft back in.</div>
 </div>
 
@@ -1133,6 +1134,15 @@ function flash(msg){
   clearTimeout(flash._t);
   flash._t=setTimeout(()=>el.classList.remove('show'),2800);
 }
+</script>
+<script src="../../../js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildLLMPrompt(collect()));
+  }
+});
 </script>
 <script src="../../../js/credit-bar.js"></script>
 <script src="../../../js/last-updated-static.js"></script>

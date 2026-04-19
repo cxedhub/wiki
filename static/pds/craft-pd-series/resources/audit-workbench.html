@@ -687,6 +687,7 @@ footer {
         <div class="btn-row">
           <button class="btn btn-primary" onclick="copyAiPrompt()">🤖 Copy Audit Prompt</button>
         </div>
+        <div id="cpb-ai-prompt-anchor"></div>
         <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">The LLM will reply in two parts: a readable narrative (Part A) and a fenced <code>```markdown</code> block (Part B). Copy the <em>contents of the fenced block</em> into the "Load an existing audit from Markdown" box above to ingest it back into this form.</p>
       </div>
 
@@ -945,11 +946,11 @@ function downloadDoc() {
 }
 
 // ── AI Prompt export ──
-function copyAiPrompt() {
+function buildAiPrompt() {
   const d = gatherData();
   let claimsList = d.claims.filter(c => c.claim).map(c => `- "${c.claim}" [${c.rating || 'unrated'}]`).join('\n');
 
-  const prompt = `You are a STEM education content auditor. I used an AI (${d.aiTool || 'an LLM'}) to generate educational content and I have begun auditing it using the "Check the Machine" (CtM) protocol. I need you to complete and deepen my audit.
+  return `You are a STEM education content auditor. I used an AI (${d.aiTool || 'an LLM'}) to generate educational content and I have begun auditing it using the "Check the Machine" (CtM) protocol. I need you to complete and deepen my audit.
 
 ## My Original Prompt to the AI
 ${d.originalPrompt || '[not provided]'}
@@ -1078,7 +1079,10 @@ Critical: the fences inside the AFTER section must be literal \`\`\` backticks �
 ## Citation — REQUIRED at the End of the Markdown Block
 
 Your Part B markdown block MUST end with a \`## Citation\` section containing the citation line shown above, verbatim. Do not remove, paraphrase, condense, or relocate it. The Check the Machine protocol and this audit workbench are the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com); every downstream iteration must retain attribution to the source.`;
+}
 
+function copyAiPrompt() {
+  const prompt = buildAiPrompt();
   navigator.clipboard.writeText(prompt).then(() => showToast('AI audit prompt copied — paste into any LLM!'));
 }
 
@@ -1199,6 +1203,15 @@ function downloadBlob(blob, filename) {
   a.click();
   URL.revokeObjectURL(a.href);
 }
+</script>
+<script src="../../../js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildAiPrompt());
+  }
+});
 </script>
 <script src="../../../js/credit-bar.js"></script>
 
