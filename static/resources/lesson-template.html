@@ -47,6 +47,9 @@ textarea{min-height:80px;resize:vertical}
 
 /* Multi-framework standards picker */
 .std-intro{font-size:0.85rem;color:var(--gray600);margin:4px 0 14px;line-height:1.5}
+#std-pickers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
+#std-pickers .std-block{margin:0}
+#std-pickers .std-block[data-fw="Other"]{grid-column:1/-1}
 .std-block{border:1px solid var(--gray200);border-radius:8px;padding:12px 14px;margin:10px 0;background:#fff}
 .std-block-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
 .std-block-title{font-weight:600;font-size:0.88rem;color:var(--ink)}
@@ -95,6 +98,7 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 @media(max-width:720px){.llm-flow{flex-direction:column;align-items:stretch}.llm-flow-arrow{transform:rotate(90deg);align-self:center;font-size:1.3rem;padding:2px 0}}
 
 @media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow{display:none}input,textarea,select{border:1px solid #ccc}}
+@media(max-width:640px){#std-pickers{grid-template-columns:1fr}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
 </style>
 </head><body>
