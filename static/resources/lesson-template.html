@@ -76,6 +76,12 @@ textarea{min-height:80px;resize:vertical}
 .std-custom-row input{flex:1;padding:7px 10px;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem;font-family:inherit}
 .std-custom-row button{padding:7px 12px;background:#fff;border:1px solid var(--gray200);border-radius:6px;cursor:pointer;font-size:0.8rem;color:var(--ink)}
 .std-custom-row button:hover{border-color:var(--teal);color:var(--teal)}
+.std-grade-filter{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:6px 0 10px;padding:8px 12px;background:#f7faff;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem}
+.std-grade-note{color:var(--gray600);flex:1;min-width:220px;margin:0}
+.std-grade-note strong{color:var(--ink)}
+label.std-grade-override{display:flex;align-items:center;gap:6px;margin:0;font-weight:500;font-size:0.82rem;color:var(--ink);cursor:pointer}
+label.std-grade-override input{width:auto;margin:0}
+.std-dropdown-item.grade-off{opacity:0.55}
 
 details.ngss-specific{border:1px solid var(--gray200);border-radius:8px;padding:10px 14px;margin:10px 0;background:#fafcff}
 details.ngss-specific>summary{cursor:pointer;font-weight:600;font-size:0.88rem;list-style:none}
@@ -159,6 +165,11 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 
 <h2>Standards Alignment</h2>
 <p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. <strong>If the national standards below don't apply to your context, use the <em>Custom / Other</em> row at the bottom to type in your own state standards.</strong></p>
+
+<div class="std-grade-filter">
+<p class="std-grade-note">Filtered to standards for <strong id="std-grade-label">6-8</strong>. Frameworks without grade info (ISTE, National Core Arts) always show every entry.</p>
+<label class="std-grade-override"><input type="checkbox" id="f-std-show-all"> Show standards for all grade levels</label>
+</div>
 
 <div id="std-pickers"></div>
 
@@ -347,6 +358,111 @@ function codeDesc(fw,code){
 }
 function escHtml(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 
+/* ===== Grade-band inference for standard codes =====
+ * Returns array of grade bands (subset of ['K-2','3-5','6-8','9-12'])
+ * that a given (framework, code) targets, or null when the framework/code
+ * isn't grade-banded (e.g., ISTE, Math Practice, Arts). Null means "always show". */
+function gradeBandsForCode(fw,code){
+  if(!code)return null;
+  const band=(g)=>g<=2?'K-2':g<=5?'3-5':g<=8?'6-8':'9-12';
+  if(fw==='ISTE'||fw==='National Core Arts')return null;
+  if(fw==='CSTA'){
+    if(/^1A[-.]/.test(code))return ['K-2'];
+    if(/^1B[-.]/.test(code))return ['3-5'];
+    if(/^2[-.]/.test(code))return ['6-8'];
+    if(/^3[AB][-.]/.test(code))return ['9-12'];
+    return null;
+  }
+  if(fw==='NGSS'){
+    if(/^K-2-/.test(code))return ['K-2'];
+    if(/^3-5-/.test(code))return ['3-5'];
+    if(/^MS-/.test(code))return ['6-8'];
+    if(/^HS-/.test(code))return ['9-12'];
+    if(/^K-/.test(code))return ['K-2'];
+    const m=code.match(/^(\d)-/);
+    if(m)return [band(+m[1])];
+    return null;
+  }
+  if(fw==='CCSS Math'){
+    if(/^MP\./.test(code))return null;
+    if(/^(HS|G-|F-|N-|S-|A-)/.test(code))return ['9-12'];
+    const m=code.match(/^(K|\d+)\./);
+    if(m){
+      if(m[1]==='K')return ['K-2'];
+      const g=+m[1];
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='CCSS ELA'){
+    const m=code.match(/\.(K|\d+)(?:-(\d+))?(?:\.|$)/);
+    if(m){
+      const start=m[1]==='K'?0:+m[1];
+      const end=m[2]?+m[2]:start;
+      const bands={};
+      for(let g=start;g<=end;g++)bands[band(g)]=1;
+      return Object.keys(bands);
+    }
+    return null;
+  }
+  if(fw==='NCSS C3'){
+    const m=code.match(/\.(K-2|3-5|6-8|9-12)$/);
+    return m?[m[1]]:null;
+  }
+  if(fw==='FL B.E.S.T. ELA'||fw==='FL B.E.S.T. Math'){
+    const m=code.match(/^(?:ELA|MA)\.([K0-9]+)\./);
+    if(m){
+      if(m[1]==='K')return ['K-2'];
+      if(m[1]==='912')return ['9-12'];
+      const g=+m[1];
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='FL NGSSS Science'||fw==='FL NGSSS Social Studies'){
+    const m=code.match(/^(?:SC|SS)\.([K0-9]+)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K'||t==='K2')return ['K-2'];
+      if(t==='35')return ['3-5'];
+      if(t==='68')return ['6-8'];
+      if(t==='912')return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='FL K-12 Computer Science'){
+    const m=code.match(/^[A-Z]+\.(K2|35|68|912)\./);
+    if(m){
+      return [{'K2':'K-2','35':'3-5','68':'6-8','912':'9-12'}[m[1]]];
+    }
+    return null;
+  }
+  return null;
+}
+function getGradeFilter(){
+  const showAll=document.getElementById('f-std-show-all');
+  if(showAll&&showAll.checked)return null;
+  const sel=document.getElementById('f-grade');
+  return sel?sel.value:null;
+}
+function codeMatchesGrade(fw,code,grade){
+  if(!grade)return true;
+  const bands=gradeBandsForCode(fw,code);
+  if(bands===null)return true;
+  return bands.indexOf(grade)>=0;
+}
+function refreshStdDropdowns(){
+  const label=document.getElementById('std-grade-label');
+  const sel=document.getElementById('f-grade');
+  if(label&&sel)label.textContent=sel.value||'—';
+  document.querySelectorAll('.std-dropdown.open').forEach(dd=>{
+    const inp=dd.parentNode.querySelector('.std-search');
+    if(inp)onSearchInput({target:inp});
+  });
+}
+
 function renderPickers(){
   const host=document.getElementById('std-pickers');
   if(!host)return;
@@ -388,11 +504,13 @@ function onSearchInput(e){
   const dd=inp.parentNode.querySelector('.std-dropdown');
   const db=stdDb();const entries=db[fw]||{};
   const sel=new Set(SELECTED[fw]||[]);
+  const gradeFilter=getGradeFilter();
   const items=[];
   Object.keys(entries).forEach(code=>{
     const desc=entries[code];
     const already=sel.has(code);
     if(!q||code.toLowerCase().includes(q)||desc.toLowerCase().includes(q)){
+      if(!codeMatchesGrade(fw,code,gradeFilter))return;
       items.push({code,desc,already});
     }
   });
@@ -407,7 +525,8 @@ function onSearchInput(e){
   });
   const top=items.slice(0,50);
   if(top.length===0){
-    dd.innerHTML='<div class="std-dropdown-empty">No matches in '+escHtml(fw)+'. Try a different keyword, or add it under Custom / Other below.</div>';
+    const gradeHint=gradeFilter?' for '+escHtml(gradeFilter)+' — try toggling <em>Show standards for all grade levels</em> above':'';
+    dd.innerHTML='<div class="std-dropdown-empty">No matches in '+escHtml(fw)+gradeHint+'. Try a different keyword, or add it under Custom / Other below.</div>';
   }else{
     dd.innerHTML=top.map((it,i)=>'<div class="std-dropdown-item'+(it.already?' selected':'')+'" data-code="'+escHtml(it.code)+'" data-fw="'+escHtml(fw)+'"><span class="code">'+escHtml(it.code)+'</span><span class="desc">'+escHtml(it.desc)+'</span></div>').join('');
     dd.querySelectorAll('.std-dropdown-item').forEach(el=>{
@@ -522,7 +641,15 @@ function setSelectedStandards(dict){
   }
 }
 
-document.addEventListener('DOMContentLoaded',renderPickers);
+document.addEventListener('DOMContentLoaded',()=>{
+  renderPickers();
+  const grade=document.getElementById('f-grade');
+  if(grade)grade.addEventListener('change',refreshStdDropdowns);
+  const showAll=document.getElementById('f-std-show-all');
+  if(showAll)showAll.addEventListener('change',refreshStdDropdowns);
+  const label=document.getElementById('std-grade-label');
+  if(label&&grade)label.textContent=grade.value||'—';
+});
 
 
 function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
@@ -868,6 +995,7 @@ function loadMarkdown(){
   setField('f-t-ext',d.tExt);
   setField('f-summative',d.summative);
   setField('f-notes',d.notes);
+  refreshStdDropdowns();
   flash('Lesson loaded — review and edit as needed');
 }
 
