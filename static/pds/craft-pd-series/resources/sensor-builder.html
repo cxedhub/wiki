@@ -564,6 +564,7 @@ footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.85rem; color: va
         <div class="btn-row">
           <button class="btn btn-primary" onclick="copyAiPrompt()">🤖 Copy AI Prompt</button>
         </div>
+        <div id="cpb-ai-prompt-anchor"></div>
         <p style="font-size:0.85rem;color:var(--c-muted);margin-top:0.6rem;">The LLM will reply in two parts: a readable lesson walkthrough (Part A) and a fenced <code>```markdown</code> block (Part B). Copy the <em>contents of the fenced block</em> into the "Load an existing lesson from Markdown" box above to ingest it back into this form.</p>
       </div>
       <div class="export-card">
@@ -1098,9 +1099,9 @@ function downloadDoc() {
 }
 
 // ── AI Prompt ──
-function copyAiPrompt() {
+function buildAiPrompt() {
   const d = gatherData();
-  const prompt = `You are a STEM education expert specializing in physical computing and IoT. I am building a lesson for ${d.gradeBand || 'K-12'} ${d.subjectArea || 'STEM'} students using the BBC micro:bit V2 and the CRAFT pedagogical cycle (Contextualize → Reframe → Assemble → Fortify → Transfer).
+  return `You are a STEM education expert specializing in physical computing and IoT. I am building a lesson for ${d.gradeBand || 'K-12'} ${d.subjectArea || 'STEM'} students using the BBC micro:bit V2 and the CRAFT pedagogical cycle (Contextualize → Reframe → Assemble → Fortify → Transfer).
 
 ## What I have so far
 
@@ -1272,7 +1273,10 @@ Critical: the triple-backtick fences around the javascript, python, and markdown
 ## Citation — REQUIRED at the End of the Markdown Block
 
 Your Part B markdown block MUST end with a \`## Citation\` section containing the citation line shown above, verbatim. Do not remove, paraphrase, condense, or relocate it. The CRAFT cycle and this Sensor-to-Standards lesson generator are the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com); every downstream iteration must retain attribution to the source.`;
+}
 
+function copyAiPrompt() {
+  const prompt = buildAiPrompt();
   navigator.clipboard.writeText(prompt).then(() => showToast('AI prompt copied — paste into any LLM!'));
 }
 
@@ -1343,6 +1347,15 @@ function downloadBlob(blob, filename) {
   a.click();
   URL.revokeObjectURL(a.href);
 }
+</script>
+<script src="../../../js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildAiPrompt());
+  }
+});
 </script>
 <script src="../../../js/credit-bar.js"></script>
 

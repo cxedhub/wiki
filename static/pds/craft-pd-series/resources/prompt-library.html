@@ -719,15 +719,31 @@ function showToast(msg) {
   setTimeout(() => t.classList.remove('show'), 2200);
 }
 
+function promptTextFromPre(pre) {
+  return pre.textContent.replace(/Copy$/, '').trim();
+}
+
 function copyPrompt(btn) {
   const pre = btn.closest('pre');
-  const text = pre.textContent.replace('Copy', '').trim();
+  const text = promptTextFromPre(pre);
   navigator.clipboard.writeText(text).then(() => {
     btn.textContent = 'Copied!';
     setTimeout(() => btn.textContent = 'Copy', 1500);
     showToast('Prompt copied!');
   });
 }
+
+function attachChatProviderRows() {
+  if (!window.ChatProviders) return;
+  document.querySelectorAll('.prompt-card-body').forEach(body => {
+    if (body.dataset.cpbWired) return;
+    body.dataset.cpbWired = '1';
+    const pre = body.querySelector('pre');
+    if (!pre) return;
+    window.ChatProviders.render(body, () => promptTextFromPre(pre));
+  });
+}
+document.addEventListener('DOMContentLoaded', attachChatProviderRows);
 
 function filterPrompts(filter, btn) {
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -757,6 +773,7 @@ function filterPrompts(filter, btn) {
   });
 }
 </script>
+<script src="../../../js/chat-providers.js"></script>
 <script src="../../../js/credit-bar.js"></script>
 
 </body>

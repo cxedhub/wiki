@@ -186,6 +186,7 @@ input[type="text"]{width:100%;padding:10px;border:1px solid var(--gray200);borde
 <button class="btn" onclick="copyAiPrompt()">📋 Copy AI Prompt</button>
 <button class="btn secondary" onclick="downloadAiPrompt()">⬇ Download Prompt (.txt)</button>
 </div>
+<div id="cpb-ai-prompt-anchor"></div>
 </div>
 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab &amp; School of Teacher Education<br>© Andrea Borowczak &amp; Mike Borowczak · <a href="https://www.cxedhub.com">cxedhub.com</a></p>
@@ -426,6 +427,15 @@ function printWorksheetOnly(){
   window.print();
   document.body.innerHTML=body;
 }
+</script>
+<script src="../../../js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildAiPrompt());
+  }
+});
 </script>
 <script src="../../../js/credit-bar.js"></script>
 <script src="../../../js/last-updated-static.js"></script>
