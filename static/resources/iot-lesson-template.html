@@ -6,7 +6,19 @@
 <style>
 :root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;margin:0}
+.page-wrap{max-width:850px;margin:0 auto;padding:24px}
+.site-header{background:#fff;border-bottom:1px solid var(--gray200);position:sticky;top:0;z-index:100}
+.site-header .container{max-width:1200px;margin:0 auto;padding:8px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;min-height:64px}
+.site-logo{font-size:1.4rem;color:var(--ink);letter-spacing:-0.5px;text-decoration:none}
+.site-logo strong{color:var(--teal)}
+.site-logo:hover{text-decoration:none}
+.site-nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.site-nav a{color:var(--gray600);font-weight:500;font-size:0.95rem;padding:0.25rem 0;border-bottom:2px solid transparent;text-decoration:none;transition:color 0.2s,border-color 0.2s}
+.site-nav a:hover,.site-nav a.active{color:var(--teal);border-bottom-color:var(--teal);text-decoration:none}
+@media(max-width:720px){.site-nav{gap:0.9rem;font-size:0.88rem}}
+.optional-note{background:#f7faff;border:1px solid var(--gray200);border-left:4px solid var(--green);border-radius:6px;padding:10px 14px;margin:10px 0 18px;font-size:0.85rem;color:var(--ink)}
+.optional-note strong{color:var(--green)}
 h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
 h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--green)}
 .subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
@@ -29,15 +41,31 @@ textarea{min-height:80px;resize:vertical}
 .helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
 .btn{background:var(--green);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
 .back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
-@media print{.btn,.back{display:none}}
+@media print{.btn,.back,.site-header{display:none}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
 </style>
 </head><body>
 
-<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo"><strong>CX</strong> Ed Hub</a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/lessons/">Lesson Plans</a>
+      <a href="/pds/">Professional Development</a>
+      <a href="/resources/" class="active">Resources</a>
+      <a href="/matrix/">Standards Matrix</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-wrap">
 
 <h1>IoT Lesson Template</h1>
 <p class="subtitle">Design a lesson that uses the BBC micro:bit and IoT concepts. This template follows the CRAFT cycle and includes a student-facing Check the Machine (CtM) prompt.</p>
+
+<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Grade Level</strong>. Fill in as much or as little as you like.</p>
 
 <h2>Lesson Overview</h2>
 <div class="row">
@@ -139,6 +167,7 @@ Example: 'Smart greenhouses use temperature and light sensors to automatically a
 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
 
+</div>
 <script src="/js/credit-bar.js"></script>
 <script src="/js/last-updated-static.js"></script>
 </body></html>
