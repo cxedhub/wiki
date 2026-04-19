@@ -6,7 +6,19 @@
 <style>
 :root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;max-width:850px;margin:0 auto;padding:24px}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;margin:0}
+.page-wrap{max-width:850px;margin:0 auto;padding:24px}
+.site-header{background:#fff;border-bottom:1px solid var(--gray200);position:sticky;top:0;z-index:100}
+.site-header .container{max-width:1200px;margin:0 auto;padding:8px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;min-height:64px}
+.site-logo{font-size:1.4rem;color:var(--ink);letter-spacing:-0.5px;text-decoration:none}
+.site-logo strong{color:var(--teal)}
+.site-logo:hover{text-decoration:none}
+.site-nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.site-nav a{color:var(--gray600);font-weight:500;font-size:0.95rem;padding:0.25rem 0;border-bottom:2px solid transparent;text-decoration:none;transition:color 0.2s,border-color 0.2s}
+.site-nav a:hover,.site-nav a.active{color:var(--teal);border-bottom-color:var(--teal);text-decoration:none}
+@media(max-width:720px){.site-nav{gap:0.9rem;font-size:0.88rem}}
+.optional-note{background:#f7faff;border:1px solid var(--gray200);border-left:4px solid var(--teal);border-radius:6px;padding:10px 14px;margin:10px 0 18px;font-size:0.85rem;color:var(--ink)}
+.optional-note strong{color:var(--teal)}
 h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
 h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
 .subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
@@ -149,13 +161,27 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 .step-section[data-step="3"] .export-box h2{border-bottom-color:var(--green)}
 .step-section[data-step="4"] .export-box h2{border-bottom-color:var(--purple)}
 
-@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header{display:none}input,textarea,select{border:1px solid #ccc}}
+@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header,.site-header{display:none}input,textarea,select{border:1px solid #ccc}}
 @media(max-width:640px){#std-pickers{grid-template-columns:1fr}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
 </style>
 </head><body>
 
-<a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo"><strong>CX</strong> Ed Hub</a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/lessons/">Lesson Plans</a>
+      <a href="/pds/">Professional Development</a>
+      <a href="/resources/" class="active">Resources</a>
+      <a href="/matrix/">Standards Matrix</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-wrap">
 
 <h1>Florida STEM &amp; Cross-Disciplinary Lesson/Unit Plan Generator</h1>
 <p class="subtitle">A Florida-tuned version of the CRAFT lesson template. The standards picker leads with Florida frameworks — <strong>B.E.S.T. ELA</strong>, <strong>B.E.S.T. Math</strong>, <strong>NGSSS Science</strong>, <strong>NGSSS Social Studies</strong>, and <strong>Florida K-12 Computer Science</strong> — with national frameworks (CSTA, NGSS, ISTE, CCSS, C3, National Core Arts) available alongside them so you can show a state-to-national crosswalk on the same plan. Codes and descriptions are sourced from <a href="https://www.cpalms.org/" target="_blank" rel="noopener">CPALMS</a>. Fill in each section, use an LLM to help draft content, then verify and customize. When you're done, use the export tools at the bottom to copy, download, or submit your lesson. Looking for the national (non-state-specific) version? <a href="/resources/lesson-template.html">Use the general CRAFT lesson template →</a></p>
@@ -206,6 +232,8 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
   <span class="step-header-label">Step 1</span>
   <span class="step-header-title">Fill Out Your Lesson</span>
 </div>
+
+<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Grade Level</strong>. Fill in as much or as little as you like — you can always come back and iterate with an LLM (Step 2) or load a saved draft.</p>
 
 <h2>Lesson Overview</h2>
 <div class="row">
@@ -1490,6 +1518,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 </script>
+</div>
 <script src="/js/credit-bar.js"></script>
 <script src="/js/last-updated-static.js"></script>
 </body></html>
