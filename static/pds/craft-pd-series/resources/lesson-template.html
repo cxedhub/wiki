@@ -81,7 +81,20 @@ details.ngss-specific>summary::before{content:"▸";display:inline-block;margin-
 details.ngss-specific[open]>summary::before{transform:rotate(90deg)}
 details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight:400}
 
-@media print{.btn,.back,.export-box,#toast,.std-dropdown{display:none}input,textarea,select{border:1px solid #ccc}}
+/* LLM iterate 3-step flow */
+.llm-flow{list-style:none;margin:12px 0 0;padding:0;display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}
+.llm-step{flex:1 1 210px;min-width:190px;border:1px solid var(--gray200);border-radius:10px;padding:14px;background:linear-gradient(180deg,#ffffff 0%,#fafcfb 100%);display:flex;flex-direction:column;gap:6px;position:relative}
+.llm-step-badge{width:30px;height:30px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;flex:0 0 auto;box-shadow:0 2px 4px rgba(26,188,156,0.28)}
+.llm-step-title{font-weight:600;font-size:0.9rem;color:var(--ink);margin-top:2px}
+.llm-step-body{font-size:0.78rem;color:var(--gray600);line-height:1.45}
+.llm-step-action{margin-top:auto;padding-top:4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.llm-step-action .btn{margin:0}
+.llm-step-action .cpb-row{margin:0}
+.llm-flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:1.6rem;font-weight:700;flex:0 0 auto;padding:0 2px;user-select:none}
+.llm-flow-footnote{font-size:0.74rem;color:var(--gray600);font-style:italic;margin:8px 2px 0;line-height:1.4}
+@media(max-width:720px){.llm-flow{flex-direction:column;align-items:stretch}.llm-flow-arrow{transform:rotate(90deg);align-self:center;font-size:1.3rem;padding:2px 0}}
+
+@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow{display:none}input,textarea,select{border:1px solid #ccc}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
 </style>
 </head><body>
@@ -255,9 +268,29 @@ Takeaway: What did the comparison reveal?"></textarea>
 
 <div class="export-group">
 <div class="export-group-label">Iterate with an LLM</div>
-<button class="btn" onclick="copyLLMPrompt()">(1) 🤖 Copy AI Prompt</button>
-<div id="cpb-ai-prompt-anchor"></div>
-<div class="helper">Paste the LLM's reply back into <em>Load an existing lesson from Markdown</em> above to pull the revised draft in.</div>
+<ol class="llm-flow" aria-label="Three-step LLM iteration flow">
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">1</div>
+    <div class="llm-step-title">Copy the AI prompt</div>
+    <div class="llm-step-body">We build a detailed prompt from every field above, plus this template's citation.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="copyLLMPrompt()">🤖 Copy AI Prompt</button></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">2</div>
+    <div class="llm-step-title">Open an LLM and paste</div>
+    <div class="llm-step-body">Pick your provider — we'll re-copy the prompt and open it in a new tab so you can paste right in.</div>
+    <div class="llm-step-action" id="cpb-ai-prompt-anchor"></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">3</div>
+    <div class="llm-step-title">Paste the reply back</div>
+    <div class="llm-step-body">Jump to the loader at the top and paste the revised Markdown to refresh every field below.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="returnToLoader()">⬆ Back to Loader</button></div>
+  </li>
+</ol>
+<div class="llm-flow-footnote">Provider list is for convenience — we do not endorse any specific AI platform.</div>
 </div>
 
 <div class="export-group">
@@ -1120,13 +1153,22 @@ function flash(msg){
   clearTimeout(flash._t);
   flash._t=setTimeout(()=>el.classList.remove('show'),2800);
 }
+
+function returnToLoader(){
+  const box=document.querySelector('details.load-box');
+  if(box)box.open=true;
+  window.scrollTo({top:0,behavior:'smooth'});
+  const ta=document.getElementById('f-loadtext');
+  if(ta)setTimeout(()=>{try{ta.focus({preventScroll:true})}catch(e){ta.focus()}},600);
+  flash('Loader opened — paste the LLM reply and click Load into Form');
+}
 </script>
 <script src="../../../js/chat-providers.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const anchor = document.getElementById('cpb-ai-prompt-anchor');
   if (anchor && window.ChatProviders) {
-    window.ChatProviders.render(anchor, () => buildLLMPrompt(collect()));
+    window.ChatProviders.render(anchor, () => buildLLMPrompt(collect()), { label: false, disclaimer: false });
   }
 });
 </script>
