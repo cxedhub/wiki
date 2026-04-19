@@ -23,6 +23,11 @@ Help students use generative AI as a partner for STEM learning — with guardrai
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
+    <h3><a href="/pds/craft-pd-series/resources/lesson-template-florida.html">Lesson/Unit Template (Florida)</a></h3>
+    <p class="card-desc">Florida-tuned variant of the CRAFT lesson template. Standards picker leads with B.E.S.T. ELA/Math, NGSSS Science & Social Studies, and Florida K-12 CS, with national frameworks available alongside for state-to-national crosswalks.</p>
+    <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
     <h3><a href="/pds/craft-pd-series/resources/prompt-library.html">Prompt Library</a></h3>
     <p class="card-desc">Curated, classroom-tested prompts for Socratic tutoring, misconception surfacing, rubric drafting, and student work critique.</p>
     <div class="card-meta"><span class="chip chip-subject">Prompts</span><span class="chip chip-grade">K-12</span></div>
