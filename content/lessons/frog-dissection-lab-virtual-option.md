@@ -1,7 +1,6 @@
 ---
 title: Frog Dissection Lab-Virtual Option
-description: Virtual or hybrid learning, taking place through a remote conferencing system and with students working at their own pace in their home, office, or classroom. Students are fully virtual and
-  therefore do not have the choice to dissect the preserved frog specimen.
+description: Virtual or hybrid learning, taking place through a remote conferencing system and with students working at their own pace in their home, office, or classroom. Students are fully virtual and therefore do not have the choice to dissect the preserved frog specimen.
 date: '2024-02-29'
 draft: false
 author: Alicia Lynn Vonberg
@@ -26,7 +25,6 @@ standards:
   - MS-LS1-3
   - MS-PS4-1
   - MS-PS4-2
-  - MS-PS4-3
   CSTA:
   - 2-AP-17
   - 2-DA-07
@@ -36,13 +34,12 @@ standards:
   - 2-NI-05
   - 2-NI-06
   ISTE:
-  - ISTE-2a
-  - ISTE-2b
+  - ISTE-7b
   - ISTE-6c
   - ISTE-6d
   - ISTE-7a
-  - ISTE-7b
   - ISTE-7c
+  - ISTE-2a
 standard_types:
 - CSTA
 - ISTE

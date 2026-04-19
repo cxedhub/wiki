@@ -1,8 +1,6 @@
 ---
 title: Get to Know Me
-description: 'Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram
-  looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family
-  * edited the original which was created by Travis Pearson, Central High School English Teacher'
+description: 'Students will participate in a community building activity that will integrate Computer Science through the use of the software/Key Note and hardware/iPad. The students will populate an Instagram looking graphic organizer* with a photo of a peer that matches the given criteria such as: Find someone who: walked to school today, is wearing same colored shirt as you, and is the oldest in the family * edited the original which was created by Travis Pearson, Central High School English Teacher'
 date: '2022-09-02 00:00:00+00:00'
 draft: false
 author: Melanie Mullikin
@@ -20,17 +18,14 @@ cs_principles:
 - Collaborating Around Computing
 standards:
   CSTA:
-  - 1A-AP-14
   - 1A-IC-16
   - 1A-IC-17
   - 1A-IC-18
   - 1A-NI-04
-  - 1B-AP-15
   - 1B-IC-18
   - 1B-IC-19
   - 1B-IC-20
   - 1B-NI-04
-  - 1B-NI-05
   ISTE:
   - ISTE-1d
   - ISTE-7a

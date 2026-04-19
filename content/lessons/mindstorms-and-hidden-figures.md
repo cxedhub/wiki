@@ -33,12 +33,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-CS-01
-  - 2-CS-02
-  - 2-CS-03
   ISTE:
   - ISTE-1d
   - ISTE-4a

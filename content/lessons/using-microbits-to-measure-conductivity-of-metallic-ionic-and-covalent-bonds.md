@@ -38,7 +38,6 @@ standards:
   - HS-PS1-7
   - HS-PS4-1
   - HS-PS4-3
-  - HS-PS4-5
 supplements:
 - /uploads/using-microbits-to-measure-conductivity-of-metallic-ionic-and-covalent-bonds/Schwessinger_Wyslice_lesson_2_Physical_Science_-_SAM_SCHWESSINGER.docx
 standard_types:

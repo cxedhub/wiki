@@ -1,8 +1,6 @@
 ---
 title: 3D printing tracking and behind the scences
-description: The learner will be given a demonstration on how to design a 3D model such as a keychain in the free autoCAD software tinkercad.  The student will customize and layout a keychain to go from
-  the design phase to the print phase.  Once the model is completed the learner will export the STL to a 3D printing slicing software.  This step is where we discuss the programing and G-code that is being
-  written to take an STL and convert it into something that prints based on the parameters that were set.
+description: The learner will be given a demonstration on how to design a 3D model such as a keychain in the free autoCAD software tinkercad.  The student will customize and layout a keychain to go from the design phase to the print phase.  Once the model is completed the learner will export the STL to a 3D printing slicing software.  This step is where we discuss the programing and G-code that is being written to take an STL and convert it into something that prints based on the parameters that were set.
 date: '2022-04-26'
 draft: false
 author: Aric Hanusa
@@ -40,13 +38,11 @@ standards:
   - 3A-IC-26
   ISTE:
   - ISTE-1d
-  - ISTE-4a
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
+  - ISTE-4a
+  - ISTE-4d
   CCSS Math:
   - HSS-ID
   NGSS:

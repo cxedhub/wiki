@@ -28,9 +28,6 @@ standards:
   - 2-DA-08
   - 2-DA-09
   - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a

@@ -26,8 +26,6 @@ standards:
   - 3A-DA-10
   - 3A-DA-11
   - 3A-NI-04
-  - 3A-NI-05
-  - 3A-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-7a

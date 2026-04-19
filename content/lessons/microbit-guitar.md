@@ -1,7 +1,6 @@
 ---
 title: MicroBit Guitar
-description: Students will use a combination of block coding (Scratch) and physical computing (MicroBit) to create a cardboard instrument changing thermal energy to sound energy. Can be modified for 4th
-  or 8th grade standards.
+description: Students will use a combination of block coding (Scratch) and physical computing (MicroBit) to create a cardboard instrument changing thermal energy to sound energy. Can be modified for 4th or 8th grade standards.
 date: '2021-07-28 00:00:00+00:00'
 draft: false
 author: Victoria L Davis
@@ -31,14 +30,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-CS-01
-  - 2-CS-02
-  - 2-CS-03
-  - 2-DA-07
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a
@@ -51,9 +42,6 @@ standards:
   - 3-5-ETS1-3
   - 4-PS3-1
   - 4-PS3-2
-  - 4-PS3-4
-  - 4-PS4-1
-  - 4-PS4-3
 standard_types:
 - CSTA
 - ISTE

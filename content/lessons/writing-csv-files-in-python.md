@@ -1,7 +1,6 @@
 ---
 title: Writing CSV files in Python
-description: Students will design a flight path for a programmable drone and collect the data from the drone such as altitude, motor temperature, air pressure, and flight time.  The students will record
-  the data to a file on their computer using python .
+description: Students will design a flight path for a programmable drone and collect the data from the drone such as altitude, motor temperature, air pressure, and flight time.  The students will record the data to a file on their computer using python .
 date: '2023-04-03'
 draft: false
 author: John Lupher
@@ -36,15 +35,11 @@ standards:
   - 3A-AP-21
   ISTE:
   - ISTE-1d
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
+  - ISTE-4a
+  - ISTE-4d
 standard_types:
 - CSTA
 - ISTE

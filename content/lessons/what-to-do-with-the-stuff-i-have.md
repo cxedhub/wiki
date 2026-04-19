@@ -29,8 +29,6 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-5c
@@ -43,9 +41,6 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-  - VA:Pr4
-  - VA:Pr5
-  - VA:Pr6
 standard_types:
 - CSTA
 - ISTE

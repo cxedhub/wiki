@@ -31,21 +31,6 @@ standards:
   - 1A-CS-02
   - 1A-CS-03
   - 1A-IC-16
-  - 1A-IC-17
-  - 1A-IC-18
-  - 1A-NI-04
-  - 1B-AP-08
-  - 1B-AP-09
-  - 1B-AP-10
-  - 1B-AP-15
-  - 1B-CS-01
-  - 1B-CS-02
-  - 1B-CS-03
-  - 1B-IC-18
-  - 1B-IC-19
-  - 1B-IC-20
-  - 1B-NI-04
-  - 1B-NI-05
   ISTE:
   - ISTE-1d
   - ISTE-4a
@@ -58,8 +43,6 @@ standards:
   - D2.His.14.3-5
   - D2.His.2.3-5
   - D2.His.2.K-2
-  - D2.His.3.3-5
-  - D2.His.9.K-2
 materials: Micro:bit
 tags:
 - micro:bit

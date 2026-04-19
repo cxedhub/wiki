@@ -1,9 +1,6 @@
 ---
 title: Shaw Plans for Classroom Implementation
-description: This lesson consists of introducing students to the concepts of finite state machines (FSM), side-channel attacks, and simple power analysis (SPA). From there, a discussion of Arduino Microcontrollers
-  and demonstrations of their capability, as well as controlling model traffic signals will take place. After that, the lesson becomes more encompassing of the function of traffic signals and their importance.
-  After spending time programming and operating the Arduino boards, the class will walk to a nearby intersection that utilizes traffic lights. A discussion will ensue around what might happen if the traffic
-  signal stops working or remains red or green too long in one direction. Students will collect data on the length of time the traffic lights remain red, yellow, and green.
+description: This lesson consists of introducing students to the concepts of finite state machines (FSM), side-channel attacks, and simple power analysis (SPA). From there, a discussion of Arduino Microcontrollers and demonstrations of their capability, as well as controlling model traffic signals will take place. After that, the lesson becomes more encompassing of the function of traffic signals and their importance. After spending time programming and operating the Arduino boards, the class will walk to a nearby intersection that utilizes traffic lights. A discussion will ensue around what might happen if the traffic signal stops working or remains red or green too long in one direction. Students will collect data on the length of time the traffic lights remain red, yellow, and green.
 date: '2023-07-21'
 draft: false
 author: Shari Shaw
@@ -39,16 +36,12 @@ standards:
   - 2-DA-08
   - 2-DA-09
   - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
   ISTE:
   - ISTE-1d
-  - ISTE-3a
-  - ISTE-3b
   - ISTE-5a
+  - ISTE-7b
   - ISTE-5c
   - ISTE-7a
-  - ISTE-7b
   - ISTE-7c
   CCSS Math:
   - 6.SP

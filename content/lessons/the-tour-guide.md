@@ -1,8 +1,6 @@
 ---
 title: The Tour Guide
-description: "•\tStudents will assume the role of tour guide and need to come up with a tour that gets a tourist from their hotel to all the city shifts and back to their hotel at the end of the day.\n\n\
-  The activity is designed to be an example of creating an algorithm that is a simple sequence of instructions to do in order. It shows that if there is a written solution to a problem in the form of an\
-  \ algorithm, then future tours can be done just by following the steps. Writing down the algorithm allows students to then follow them step-by-step to ensure functionality."
+description: "•\tStudents will assume the role of tour guide and need to come up with a tour that gets a tourist from their hotel to all the city shifts and back to their hotel at the end of the day.\n\nThe activity is designed to be an example of creating an algorithm that is a simple sequence of instructions to do in order. It shows that if there is a written solution to a problem in the form of an algorithm, then future tours can be done just by following the steps. Writing down the algorithm allows students to then follow them step-by-step to ensure functionality."
 date: '2024-03-27'
 draft: false
 author: Shari Shaw
@@ -36,18 +34,12 @@ standards:
   - 2-AP-12
   - 2-AP-17
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4b
   - ISTE-5a
+  - ISTE-4a
   - ISTE-5c
-  - ISTE-5d
   - ISTE-6c
+  - ISTE-3a
   CCSS Math:
   - 6.SP
   - 7.G

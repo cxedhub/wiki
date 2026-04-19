@@ -1,7 +1,6 @@
 ---
 title: Encrypted Messages to Mars
-description: '"The NASA Deep Space Network (DSN) is an international network of antennas that provide the communication links between the scientists and engineers on Earth to the missions in space and on
-  Mars."  Student will learn  about the mars missions, and learn how to make a encrypted messages" Students will'
+description: '"The NASA Deep Space Network (DSN) is an international network of antennas that provide the communication links between the scientists and engineers on Earth to the missions in space and on Mars."  Student will learn  about the mars missions, and learn how to make a encrypted messages" Students will'
 date: '2023-07-14T14:50:40'
 draft: false
 author: Jesica Jones-Saka
@@ -26,9 +25,6 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-DA-07
-  - 2-IC-23
-  - 2-NI-05
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-6c
@@ -41,7 +37,6 @@ standards:
   - MS-ESS1-3
   - MS-ESS1-4
   - MS-ESS2-1
-  - MS-ESS2-2
 materials: Website, micro:bit, https://mars.nasa.gov/msl/home/    https://www.kennedyspacecenter.com
 tags:
 - Cybersecurity

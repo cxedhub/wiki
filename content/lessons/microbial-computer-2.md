@@ -35,14 +35,12 @@ standards:
   - MS-ESS3-5
   - MS-LS2-1
   - MS-LS2-2
-  - MS-LS2-4
   National Core Arts:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
   - VA:Pr4
   - VA:Pr5
-  - VA:Pr6
 materials: Website, Micro:bit, Arduino, https://playgameoflife.com/
 tags:
 - Game-Based

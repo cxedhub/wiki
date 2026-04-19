@@ -17,7 +17,6 @@ cs_principles:
 - Communicating About Computing
 standards:
   CSTA:
-  - 3A-AP-21
   - 3A-DA-09
   - 3A-DA-10
   - 3A-DA-11
@@ -25,7 +24,7 @@ standards:
   - 3A-IC-25
   - 3A-IC-26
   - 3A-IC-29
-  - 3A-NI-06
+  - 3A-AP-21
   ISTE:
   - ISTE-1d
   - ISTE-5a

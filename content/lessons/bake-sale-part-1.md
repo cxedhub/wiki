@@ -33,7 +33,7 @@ tags:
 - Data Collection
 - Unplugged
 supplements:
-- /uploads/bake-sale-lesson1/Bake_Sale_Lesson_1_-_Nate_Reinhardt.docx
+- /uploads/bake-sale-part-1/Bake_Sale_Lesson_1_-_Nate_Reinhardt.docx
 standard_types:
 - CSTA
 - ISTE

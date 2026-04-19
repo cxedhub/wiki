@@ -1,7 +1,6 @@
 ---
 title: Exploration with Tetrix
-description: 'Tetrix: In this lesson students will sort/ organize the school''s Tetrix sets to ensure each set is complete. After which, students will attempt to create a robot that performs functions specific
-  to those that their group agreed upon. This is an exploratory lesson for students who have never used Tetrix kits before.'
+description: 'Tetrix: In this lesson students will sort/ organize the school''s Tetrix sets to ensure each set is complete. After which, students will attempt to create a robot that performs functions specific to those that their group agreed upon. This is an exploratory lesson for students who have never used Tetrix kits before.'
 date: '2023-04-26 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -34,12 +33,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-CS-01
-  - 2-CS-02
-  - 2-CS-03
   ISTE:
   - ISTE-1d
   - ISTE-5a
@@ -55,17 +48,12 @@ standards:
   - 3-5-ETS1-3
   - MS-ETS1-1
   - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
   National Core Arts:
   - VA:Cn10
   - VA:Cn11
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-  - VA:Pr4
-  - VA:Pr5
-  - VA:Pr6
 standard_types:
 - CCSS ELA
 - CSTA

@@ -1,8 +1,6 @@
 ---
 title: 'AI and Ethics: A Mini-Unit for High School Lesson Set Two'
-description: "This is the second set of three lessons in a six-lesson mini unit on the basics of how artificial intelligence/machine learning works and the ethics involved with artificial intelligence.\
-  \ In this lesson set, students will learn about socio-technical systems, algorithms, and ethics as they redesign the recommender algorithm to make it less \nbiased and more ethical. Students will then\
-  \ look at how they use AI in their own lives and devise a plan to use it ethically."
+description: "This is the second set of three lessons in a six-lesson mini unit on the basics of how artificial intelligence/machine learning works and the ethics involved with artificial intelligence. In this lesson set, students will learn about socio-technical systems, algorithms, and ethics as they redesign the recommender algorithm to make it less \nbiased and more ethical. Students will then look at how they use AI in their own lives and devise a plan to use it ethically."
 date: '2024-04-12'
 draft: false
 author: Sarah Horen
@@ -33,16 +31,12 @@ standards:
   - 3A-IC-25
   - 3A-IC-26
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
   - ISTE-4a
-  - ISTE-4b
   - ISTE-5c
-  - ISTE-5d
   - ISTE-6c
   - ISTE-6d
+  - ISTE-2a
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -27,14 +27,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-CS-01
-  - 2-CS-02
-  - 2-CS-03
-  - 2-DA-07
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a
@@ -47,9 +39,6 @@ standards:
   - 3-5-ETS1-3
   - 4-PS3-1
   - 4-PS3-2
-  - 4-PS3-4
-  - 4-PS4-1
-  - 4-PS4-3
 materials: Website, Micro:bit
 tags:
 - Scratch

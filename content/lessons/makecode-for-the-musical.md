@@ -1,9 +1,6 @@
 ---
 title: Make.code for the Musical
-description: Students were gearing up for a second semester project in design for the spring musical.  This was a collaborative effort across many school departments including my Year 2 FabLab students.
-  Students researched the history of the musical (Chicago) including major cultural things happening during the 1920s era. Students then went through the design thinking process to develop design ideas.  During
-  this time, students were also learning about Micro:bits, neopixels, and a wide variety of other electronic options for lighting.  A requirement of all projects is that they needed to include light(s)
-  in some capacity.
+description: Students were gearing up for a second semester project in design for the spring musical.  This was a collaborative effort across many school departments including my Year 2 FabLab students. Students researched the history of the musical (Chicago) including major cultural things happening during the 1920s era. Students then went through the design thinking process to develop design ideas.  During this time, students were also learning about Micro:bits, neopixels, and a wide variety of other electronic options for lighting.  A requirement of all projects is that they needed to include light(s) in some capacity.
 date: '2022-04-27'
 draft: false
 author: Samantha J Smith
@@ -47,16 +44,12 @@ standards:
   - HS-ETS1-3
   - HS-PS4-1
   - HS-PS4-3
-  - HS-PS4-5
   National Core Arts:
   - VA:Cn10
   - VA:Cn11
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-  - VA:Pr4
-  - VA:Pr5
-  - VA:Pr6
 ---
 # OVERVIEW
 ## Activity Overview:  

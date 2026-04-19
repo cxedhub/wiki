@@ -36,9 +36,6 @@ standards:
   - 3-5-ETS1-3
   - 3-ESS2-1
   - 3-ESS2-2
-  - 3-ESS3-1
-  - 4-PS3-1
-  - 4-PS3-2
 supplements:
 - /uploads/weather-factors-and-hazards-part-two/weather_factors_and_hazards_logbook_-_Tara_Taliaferro.docx
 standard_types:

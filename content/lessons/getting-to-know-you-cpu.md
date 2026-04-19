@@ -1,7 +1,6 @@
 ---
 title: Getting to Know You, CPU
-description: Students will be introduced to Micro:Bit technology and have the opportunity to program the Micro:Bit to share some personal information about themselves. This activity is intended to be a
-  beginning of the year, get to know you activity, and introduction to Micro:Bit programming.
+description: Students will be introduced to Micro:Bit technology and have the opportunity to program the Micro:Bit to share some personal information about themselves. This activity is intended to be a beginning of the year, get to know you activity, and introduction to Micro:Bit programming.
 date: '2022-07-15 00:00:00+00:00'
 draft: false
 author: Becky Junge
@@ -29,8 +28,6 @@ standards:
   - 1B-CS-02
   - 1B-CS-03
   - 1B-IC-18
-  - 1B-IC-19
-  - 1B-IC-20
   ISTE:
   - ISTE-1d
   - ISTE-5a

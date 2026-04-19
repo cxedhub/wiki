@@ -1,7 +1,6 @@
 ---
 title: Artificial Intelligence?
-description: Students will be introduced to AI, AR, and VR concepts using the Tynker platform. They will then create (with assistance) a program that uses each concept. First project-facial recognition
-  and AR. Second project-hand recognition and painting program. Third project-body recognition and dancing program.
+description: Students will be introduced to AI, AR, and VR concepts using the Tynker platform. They will then create (with assistance) a program that uses each concept. First project-facial recognition and AR. Second project-hand recognition and painting program. Third project-body recognition and dancing program.
 date: '2024-04-12'
 draft: false
 author: Jennifer LaVanchy
@@ -32,15 +31,11 @@ standards:
   - 1B-AP-15
   ISTE:
   - ISTE-1d
-  - ISTE-4a
-  - ISTE-4b
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-5c
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
+  - ISTE-4a
+  - ISTE-5c
 ---
 # OVERVIEW
 ## Activity Overview:  

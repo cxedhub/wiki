@@ -1,7 +1,6 @@
 ---
 title: Discover Digital Citizenship
-description: Students will use a decoder to decode messages that lead to exploration of Digital Citizenship resources. They will then take what they learned to develop a Google Slide presentation with their
-  group to share with the class and their parents.
+description: Students will use a decoder to decode messages that lead to exploration of Digital Citizenship resources. They will then take what they learned to develop a Google Slide presentation with their group to share with the class and their parents.
 date: '2021-07-30 00:00:00+00:00'
 draft: false
 author: Melissa Harris
@@ -33,19 +32,6 @@ standards:
   - 1B-IC-19
   - 1B-IC-20
   - 1B-NI-04
-  - 1B-NI-05
-  - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-DA-07
-  - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
-  - 2-IC-23
-  - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-4a

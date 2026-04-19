@@ -20,19 +20,14 @@ cs_principles:
 - Communicating About Computing
 standards:
   CSTA:
-  - 1A-AP-14
   - 1A-CS-01
   - 1A-CS-02
   - 1A-CS-03
   - 1A-DA-05
   - 1A-DA-06
   - 1A-DA-07
-  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
-  - 1B-CS-03
-  - 1B-DA-06
-  - 1B-DA-07
   ISTE:
   - ISTE-1d
   - ISTE-6c

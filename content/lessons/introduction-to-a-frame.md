@@ -1,7 +1,6 @@
 ---
 title: Introduction to A-Frame
-description: This lesson would be targeted as a challenge to students that have completed HTML lessons and the ability to work independently.  This is just an introductory lesson.  A-frame gives students
-  the ability to use HTML in a different way.
+description: This lesson would be targeted as a challenge to students that have completed HTML lessons and the ability to work independently.  This is just an introductory lesson.  A-frame gives students the ability to use HTML in a different way.
 date: '2022-04-08'
 draft: false
 author: Skye Mader
@@ -30,13 +29,10 @@ standards:
   - 2-AP-11
   - 2-AP-12
   - 2-AP-17
-  - 2-DA-07
-  - 2-NI-06
   - 3A-AP-13
   - 3A-AP-14
   - 3A-AP-15
   - 3A-AP-21
-  - 3A-DA-09
   ISTE:
   - ISTE-1d
   - ISTE-4a

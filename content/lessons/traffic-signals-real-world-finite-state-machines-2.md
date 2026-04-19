@@ -1,8 +1,6 @@
 ---
 title: 'Traffic Signals: Real World Finite State Machines'
-description: Students will login and play the gridlock buster game. This is a traffic light simulation that requires students to be in charge of changing the light at an intersections before the drivers
-  become too impatient. This will be followed by a discussion of traffic signals, how engineers program them and what they take into consideration, and how they use technology and computer science when
-  setting them up.
+description: Students will login and play the gridlock buster game. This is a traffic light simulation that requires students to be in charge of changing the light at an intersections before the drivers become too impatient. This will be followed by a discussion of traffic signals, how engineers program them and what they take into consideration, and how they use technology and computer science when setting them up.
 date: '2024-04-06'
 draft: false
 author: Shari Shaw
@@ -34,7 +32,6 @@ standards:
   - MP.1
   - MP.3
   - MP.4
-  - MP.7
   CSTA:
   - 2-AP-10
   - 2-AP-11
@@ -44,26 +41,13 @@ standards:
   - 2-CS-02
   - 2-CS-03
   - 2-DA-07
-  - 2-DA-08
-  - 2-DA-09
-  - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
-  - 2-IC-23
-  - 2-NI-05
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
   - ISTE-5a
+  - ISTE-7b
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
-  - ISTE-7a
-  - ISTE-7b
   CCSS ELA:
   - SL.7
   NGSS:

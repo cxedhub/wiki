@@ -1,8 +1,6 @@
 ---
 title: Exploring VR Eye Movement Tracking Accuracy
-description: Students use their understanding of eye movement tracking learned in the prior lesson to test the accuracy of an eye movement tracking program and create a visual representation of the data
-  to present their findings.  Students will analyze how many times gaze points in an image were looked at and use that data provided by the program to create a spreadsheet that includes visual representation
-  of the data (charts/graphs) to display their findings.  Students will also need to have a strong understanding of spreadsheets and data tables to complete this lesson.
+description: Students use their understanding of eye movement tracking learned in the prior lesson to test the accuracy of an eye movement tracking program and create a visual representation of the data to present their findings.  Students will analyze how many times gaze points in an image were looked at and use that data provided by the program to create a spreadsheet that includes visual representation of the data (charts/graphs) to display their findings.  Students will also need to have a strong understanding of spreadsheets and data tables to complete this lesson.
 date: '2024-04-01'
 draft: false
 author: Autumn Spiva
@@ -29,7 +27,6 @@ tags:
 - WySTACK
 standards:
   CSTA:
-  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
   - 2-CS-03
@@ -38,33 +35,19 @@ standards:
   - 2-DA-09
   - 2-IC-20
   - 2-IC-21
-  - 2-IC-22
-  - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
   ISTE:
-  - ISTE-1c
   - ISTE-1d
-  - ISTE-2a
-  - ISTE-2b
-  - ISTE-3a
-  - ISTE-3b
-  - ISTE-4a
-  - ISTE-4c
-  - ISTE-4d
   - ISTE-5a
-  - ISTE-5b
-  - ISTE-6a
+  - ISTE-4c
   - ISTE-6b
-  - ISTE-7a
   - ISTE-7b
+  - ISTE-4a
   NGSS:
   - MS-ETS1-1
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-PS3-1
   - MS-PS3-2
-  - MS-PS3-5
 standard_types:
 - CSTA
 - ISTE

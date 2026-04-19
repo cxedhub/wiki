@@ -1,7 +1,6 @@
 ---
 title: Think Like a Hacker
-description: Students will pretend they are in charge of cybersecurity for a app. Their job it to retain users and increase the security of the system. They will do this by working through the NOVA lab
-  on Cybersecurity.
+description: Students will pretend they are in charge of cybersecurity for a app. Their job it to retain users and increase the security of the system. They will do this by working through the NOVA lab on Cybersecurity.
 date: '2020-10-21 00:00:00+00:00'
 draft: false
 author: Adrienne Unertl
@@ -32,29 +31,6 @@ standards:
   - 1B-IC-19
   - 1B-IC-20
   - 1B-NI-04
-  - 1B-NI-05
-  - 2-AP-10
-  - 2-AP-11
-  - 2-AP-12
-  - 2-AP-17
-  - 2-IC-20
-  - 2-IC-21
-  - 2-IC-22
-  - 2-IC-23
-  - 2-NI-04
-  - 2-NI-05
-  - 2-NI-06
-  - 3A-AP-13
-  - 3A-AP-14
-  - 3A-AP-15
-  - 3A-AP-21
-  - 3A-IC-24
-  - 3A-IC-25
-  - 3A-IC-26
-  - 3A-IC-29
-  - 3A-NI-04
-  - 3A-NI-05
-  - 3A-NI-06
   ISTE:
   - ISTE-1d
   - ISTE-5a

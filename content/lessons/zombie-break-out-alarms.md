@@ -22,18 +22,14 @@ materials: Cublet
 tags: []
 standards:
   CSTA:
-  - 1A-AP-14
   - 1A-CS-01
   - 1A-CS-02
   - 1A-CS-03
-  - 1B-AP-15
   - 1B-CS-01
   - 1B-CS-02
   - 1B-CS-03
-  - 2-AP-17
   - 2-CS-01
   - 2-CS-02
-  - 2-CS-03
   ISTE:
   - ISTE-1d
   - ISTE-4c
@@ -46,7 +42,6 @@ standards:
   - SL.7
   - W.2
   - W.5
-  - W.7
 supplements:
 - /uploads/zombie-break-out-alarms/download_-_Taylor_Wailes-Putnam.jpeg
 standard_types:
