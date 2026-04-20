@@ -100,7 +100,6 @@ Take computing out of the browser — conceptually — while still teaching it i
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w3.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-3-Slides.pptx) — import to Google Slides
 - [**📄 IoT Lesson Template**](/resources/iot-lesson-template.html) — template for designing two-node sensor/aggregator STEM lessons
-- [**🧰 Sensor-to-Standards Lesson Generator**](/pds/craft-pd-series/resources/sensor-builder.html) — fillable CRAFT-structured IoT lesson builder
 - [**🔬 Sensor Reference Guide**](/pds/craft-pd-series/resources/sensor-reference-guide.html) — all micro:bit V2 onboard sensors with code and calibration notes
 - [**📊 NGSS Alignment Crosswalk**](/pds/craft-pd-series/resources/ngss-crosswalk.html) — IoT activities mapped to NGSS Performance Expectations
 - [**📚 Prompt Library**](/pds/craft-pd-series/resources/prompt-library.html) — includes physical computing + radio communication prompts
