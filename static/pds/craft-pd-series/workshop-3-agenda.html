@@ -122,8 +122,8 @@
 <div class="back-nav"><a href="/pds/craft-pd-series/">← Series Home</a><a href="workshop-1-agenda.html">Workshop 1</a><a href="workshop-2-agenda.html">Workshop 2</a><a href="slides-w3.html">View Slides →</a></div>
 <div class="quick-links">
   <a href="https://ucf.qualtrics.com/jfe/form/SV_8G2kZYDDaRslsDY" target="_blank"><span class="ql-icon">📝</span> Pre-Survey</a>
-  <a href="https://makecode.microbit.org" target="_blank"><span class="ql-icon">🧩</span> MakeCode Editor</a>
-  <a href="https://python.microbit.org" target="_blank"><span class="ql-icon">🐍</span> micro:bit Python</a>
+  <a href="https://makecode.microbit.org" target="_blank"><span class="ql-icon">🧩</span> MakeCode Simulator</a>
+  <a href="https://python.microbit.org" target="_blank"><span class="ql-icon">🐍</span> MicroPython Simulator</a>
   <a href="https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true" target="_blank"><span class="ql-icon">📂</span> Shared Google Doc</a>
   <a href="https://chat.openai.com" target="_blank"><span class="ql-icon">🤖</span> Any LLM</a>
   <a href="/resources/iot-lesson-template.html" target="_blank"><span class="ql-icon">📄</span> IoT Lesson Template</a>
@@ -132,8 +132,8 @@
 
 <div class="hw-alert">
   <div class="hw-alert-box">
-    <span class="hw-icon">📦</span>
-    <div><strong>Hardware check:</strong> You should have your BBC micro:bit V2, USB cable, and a working connection. Open <a href="https://makecode.microbit.org" target="_blank">makecode.microbit.org</a> and confirm you can flash a program. Having trouble? Join the <strong>Help Room</strong> breakout during setup or Break #1.</div>
+    <span class="hw-icon">🌐</span>
+    <div><strong>No hardware needed today.</strong> Everything runs in the <a href="https://makecode.microbit.org" target="_blank">MakeCode online simulator</a> — which automatically shows <strong>two simulated micro:bits</strong> the moment you use a radio block, so we can build a full IoT system in a browser tab. <strong>Your BBC micro:bit V2 kit ships AFTER the session</strong> once you complete both surveys and submit a draft IoT lesson — the same .hex files you build today will flash straight to the real device.</div>
   </div>
 </div>
 
@@ -157,9 +157,9 @@
     <div class="tb-time">8:30</div>
     <div class="tb-content shade-admin">
       <div class="tb-top"><span class="tb-badge admin">Opening</span><span class="tb-dur">15 min</span></div>
-      <div class="tb-title">Hardware Check + Icebreaker + Pre-Survey</div>
-      <div class="tb-desc"><strong>Hold your micro:bit up to the camera!</strong> Open MakeCode and flash the default "Hello" program to your micro:bit. If it works, you're golden. If not, join the Help Room breakout. Then complete the pre-survey while the last hardware connections come online.</div>
-      <a class="tb-link" href="https://makecode.microbit.org" target="_blank">→ Open MakeCode</a>
+      <div class="tb-title">Simulator Check + Icebreaker + Pre-Survey</div>
+      <div class="tb-desc"><strong>Open <a href="https://makecode.microbit.org" target="_blank">makecode.microbit.org</a> in a browser tab.</strong> Click "New Project" and drop a <code>show string "hi"</code> block into <code>on start</code>. Watch the simulator on the left scroll "hi" — that's your micro:bit, in your browser, no cables required. Drop one <code>radio.send number</code> block in and watch a <strong>second simulator appear</strong>. That's the IoT we're building today. Then complete the pre-survey.</div>
+      <a class="tb-link" href="https://makecode.microbit.org" target="_blank">→ Open MakeCode Simulator</a>
       <a class="tb-link" href="https://ucf.qualtrics.com/jfe/form/SV_8G2kZYDDaRslsDY" target="_blank">→ Open Pre-Survey</a>
     </div>
   </div>
@@ -169,8 +169,8 @@
     <div class="tb-time">8:45</div>
     <div class="tb-content shade-do">
       <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase c">Contextualize</span><span class="tb-dur">15 min</span></div>
-      <div class="tb-title">CRAFT Orientation + IoT in Your Subject</div>
-      <div class="tb-desc">Quick CRAFT intro (C→R→A→F→T) and where IoT lives — smart farms, wearables, traffic systems. Every phone in your pocket is an IoT device. Then in the shared doc: <strong>Name one real-world sensor scenario that connects to a topic you teach.</strong> (Temperature in a greenhouse = biology. Accelerometer on a roller coaster = physics. Light sensor for accessibility = CS.) Star your favorite from someone else.</div>
+      <div class="tb-title">CRAFT Orientation + IoT as a Two-Device Conversation</div>
+      <div class="tb-desc">Quick CRAFT intro (C→R→A→F→T). Every IoT system — smart farms, weather stations, wearables, traffic sensors — is a <strong>conversation between two roles</strong>: <em>sensor nodes</em> that read the world and broadcast, and <em>aggregator nodes</em> that listen, aggregate, and decide/display. In the shared doc: <strong>Name a real-world two-node scenario from a topic you teach.</strong> (Soil-moisture sensors in a garden → irrigation controller. Pedometers on students → class activity dashboard. Pressure plates on a bridge model → load display.) Star your favorite from someone else.</div>
       <a class="tb-link" href="https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true" target="_blank">→ Open Shared Doc</a>
     </div>
   </div>
@@ -180,8 +180,8 @@
     <div class="tb-time">9:00</div>
     <div class="tb-content shade-listen">
       <div class="tb-top"><span class="tb-badge listen">Listen</span><span class="tb-phase r">Reframe</span><span class="tb-dur">15 min</span></div>
-      <div class="tb-title">Poll + Coding Is Physical, Not Just Screens</div>
-      <div class="tb-desc">Poll: when you hear "coding" — (a) dark screen with green text, (b) kid in a robotics club, (c) something I don't do, (d) physical things happening. Then the reframe: <strong>computing is PHYSICAL.</strong> Sensors collect real data. Actuators change the real world. LLMs help write the code — the skill is knowing what to ask for and how to verify.</div>
+      <div class="tb-title">Poll + Physical Computing Lives in the Browser Too</div>
+      <div class="tb-desc">Poll: "To teach IoT I need…" (a) a class set of micro:bits, (b) a 1:1 cart, (c) a maker lab, (d) any laptop with a browser. Then the reframe: the <strong>MakeCode simulator is a fully-functional micro:bit</strong> — every sensor, every button, every radio message. Drop in a radio block → it spawns a <strong>second simulator</strong>. You just built a two-device IoT network in a browser tab. The same .hex flashes to real hardware when your kit arrives. <strong>LLMs write the code; the skill is knowing what to ask for and how to verify.</strong></div>
     </div>
   </div>
 
@@ -190,8 +190,8 @@
     <div class="tb-time">9:15</div>
     <div class="tb-content shade-do">
       <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase r">Reframe</span><span class="tb-dur">15 min</span></div>
-      <div class="tb-title">Breakout: What Stops You from Teaching with Hardware?</div>
-      <div class="tb-desc">In small groups: <strong>What's the #1 barrier to using physical computing in your classroom?</strong> (Cost? Time? Your own comfort? Curriculum fit?) Brainstorm one way the micro:bit + LLM combo addresses that barrier. Share out to whole group.</div>
+      <div class="tb-title">Breakout: Teaching Hardware Without Hardware</div>
+      <div class="tb-desc">In small groups: <strong>What's the #1 barrier to IoT/physical computing in your building?</strong> (Budget? Shipping lead time? Devices breaking? Students absent on "hardware day"? Your own comfort?) Brainstorm one way a <strong>simulator-first</strong> approach addresses that barrier — and what you'd lose vs. hardware-first. Post the trade-off in the shared doc. Share out.</div>
     </div>
   </div>
 
@@ -201,28 +201,28 @@
     <div class="tb-content shade-break">
       <div class="tb-top"><span class="tb-badge break">Break</span><span class="tb-dur">15 min</span></div>
       <div class="tb-title">Break #1</div>
-      <div class="tb-desc">Last chance for hardware troubleshooting — TAs in the Help Room breakout. Everyone else: stretch and make sure MakeCode is open and ready.</div>
+      <div class="tb-desc">Stretch. Confirm the MakeCode simulator is loaded and you can see at least one simulated micro:bit. Questions? Drop them in the chat — TAs will respond.</div>
     </div>
   </div>
 
-  <!-- 9:45 ASSEMBLE: I DO + GUIDED -->
+  <!-- 9:45 ASSEMBLE: I DO + GUIDED (SENSOR NODE) -->
   <div class="time-block">
     <div class="tb-time">9:45</div>
     <div class="tb-content shade-do">
       <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase a">Assemble</span><span class="tb-dur">30 min</span></div>
-      <div class="tb-title">I Do + Guided: First Sensor Program</div>
-      <div class="tb-desc"><strong>Watch:</strong> we read the temperature sensor in MakeCode and display it on the LED matrix, then ask an LLM for its version and compare. <strong>Then replicate it yourself:</strong> temperature sensor → LED display. Got it? <strong>Add the light sensor too.</strong> Paste "How do I read the light level on a micro:bit in MakeCode?" into an LLM and see what it says. Flash it to your micro:bit and test.</div>
-      <a class="tb-link" href="https://makecode.microbit.org" target="_blank">→ Open MakeCode</a>
+      <div class="tb-title">I Do + Guided: Build a Sensor Node (Role A)</div>
+      <div class="tb-desc"><strong>Watch:</strong> we build a Sensor Node in MakeCode — <code>on start</code> → <code>radio set group 7</code>; <code>forever</code> → <code>radio send number input.temperature()</code> then <code>pause 2000 ms</code>. The left simulator sends; the right simulator blinks each time a message goes out. Ask an LLM: <em>"Write MakeCode blocks for a micro:bit that reads the temperature sensor and broadcasts it on radio group 7 every 2 seconds."</em> Compare. <strong>Your turn:</strong> build your own Sensor Node. Pick <strong>your sensor</strong> (temperature, light, acceleration, sound, compass). Confirm both simulators react. Save the .hex — this flashes straight to your kit when it arrives.</div>
+      <a class="tb-link" href="https://makecode.microbit.org" target="_blank">→ Open MakeCode Simulator</a>
     </div>
   </div>
 
-  <!-- 10:15 ASSEMBLE: MULTI-SENSOR -->
+  <!-- 10:15 ASSEMBLE: PAIRED AGGREGATOR -->
   <div class="time-block">
     <div class="tb-time">10:15</div>
     <div class="tb-content shade-do">
       <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase a">Assemble</span><span class="tb-dur">30 min</span></div>
-      <div class="tb-title">Breakout: Multi-Sensor Challenge</div>
-      <div class="tb-desc">In your group, build a program that combines <strong>2+ sensors</strong> and <strong>triggers an action</strong>. Ideas: LED alert when temperature is high AND light is low. Shake detector + compass for direction. Sound level + temperature for "classroom comfort index." <strong>Use an LLM to help write or debug your code.</strong> Document in the shared doc: what you asked the LLM, what it got right, what you fixed. Everyone programs their own micro:bit.</div>
+      <div class="tb-title">Paired Breakout: Aggregator Node (Role B) — Make the Two Halves Talk</div>
+      <div class="tb-desc"><strong>Partner up.</strong> One partner stays on their Sensor Node. The other builds the <strong>Aggregator Node</strong>: <code>on start</code> → <code>radio set group 7</code>; <code>on radio received (receivedNumber)</code> → update a running average / min / max / count, then <code>show number</code> on the LED matrix. <strong>Use an LLM</strong> for the aggregation logic: <em>"On a micro:bit, keep a running average of the last 10 numbers received on radio and show it on the LED display."</em> Then <strong>swap roles</strong> so everyone builds both halves. Document in the shared doc: what you asked the LLM, what it got right, what you fixed. <strong>Everyone saves TWO .hex files</strong> — one sender, one receiver.</div>
     </div>
   </div>
 
@@ -232,7 +232,7 @@
     <div class="tb-content shade-break">
       <div class="tb-top"><span class="tb-badge break">Break</span><span class="tb-dur">15 min</span></div>
       <div class="tb-title">Break #2 — Show &amp; Tell</div>
-      <div class="tb-desc">Post a photo or screenshot of your micro:bit doing something cool in the chat. Brag a little.</div>
+      <div class="tb-desc">Screenshot your paired simulators doing something interesting (sender on left, aggregator on right) and drop it in the chat. Brag a little.</div>
     </div>
   </div>
 
@@ -244,11 +244,11 @@
       <div class="tb-title">Level Up: Choose Your Track</div>
       <div class="tb-desc">
         <div class="track-split">
-          <div class="track-box track-a"><strong>Track A: MakeCode+</strong>Extend your project: add data visualization on the LED matrix, radio communication between two micro:bits, or more complex sensor logic. Push MakeCode to its limits.</div>
-          <div class="track-box track-b"><strong>Track B: MicroPython</strong>Convert your MakeCode project to Python using the micro:bit Python editor. Ask an LLM: "Convert this MakeCode to MicroPython for micro:bit." Then verify it actually works on your device.</div>
+          <div class="track-box track-a"><strong>Track A: Multi-Sensor Mesh</strong>Add a <em>second</em> Sensor Node (MakeCode spawns a third simulator). Each sender includes an ID (<code>radio.sendValue("id", 1)</code> vs <code>"id", 2</code>). Update the Aggregator to track per-sender averages and flag senders that drop offline.</div>
+          <div class="track-box track-b"><strong>Track B: MicroPython Port</strong>Port the Sensor Node and Aggregator Node to MicroPython at <a href="https://python.microbit.org" target="_blank">python.microbit.org</a>. Ask an LLM: <em>"Port this MakeCode radio.sendNumber loop to MicroPython for micro:bit."</em> Run both in the MicroPython simulator and verify the messages still flow.</div>
         </div>
       </div>
-      <a class="tb-link" href="https://python.microbit.org" target="_blank">→ Open micro:bit Python Editor (Track B)</a>
+      <a class="tb-link" href="https://python.microbit.org" target="_blank">→ Open MicroPython Simulator (Track B)</a>
     </div>
   </div>
 
@@ -257,8 +257,8 @@
     <div class="tb-time">11:30</div>
     <div class="tb-content shade-do">
       <div class="tb-top"><span class="tb-badge do">You Do</span><span class="tb-phase f">Fortify</span><span class="tb-dur">15 min</span></div>
-      <div class="tb-title">Experiment: Verify YOUR Sensor Data</div>
-      <div class="tb-desc"><strong>Quick demo — then your turn:</strong> (1) Cover the light sensor — does the value go to 0? (2) Put your thumb on the CPU — watch the temp rise. (3) Compare the temp reading to any thermometer you have. <strong>Apply the Check the Machine protocol:</strong> Task → Before (what I expected) → After (what I got) → Takeaway. The micro:bit temp sensor reads CPU heat, not ambient air — a real engineering calibration problem. Verification isn't just for AI — it's for ALL data.</div>
+      <div class="tb-title">Experiment: Verify Your Simulated Data (and Preview the Hardware Surprise)</div>
+      <div class="tb-desc"><strong>Try it:</strong> (1) Drag the simulator's temperature slider to extremes — does your Aggregator's average respond? (2) Change the Sensor's radio group — confirm the Aggregator falls silent. (3) Break the sender by removing <code>radio set group</code> — watch the failure mode. <strong>Apply Check the Machine:</strong> Task → Before (what I expected) → After (what I got) → Takeaway. <strong>Preview for when your kit arrives:</strong> the simulator's temperature is idealized; a real micro:bit's temperature sensor reads the <em>CPU die</em>, which runs 3–8°C hotter than ambient air. That's a real calibration problem — a perfect Fortify hook for your students on day one with hardware.</div>
     </div>
   </div>
 
@@ -267,8 +267,8 @@
     <div class="tb-time">11:45</div>
     <div class="tb-content shade-admin">
       <div class="tb-top"><span class="tb-badge admin">Transfer + Close</span><span class="tb-phase t">Transfer</span><span class="tb-dur">15 min</span></div>
-      <div class="tb-title">Build Your IoT Lesson + Pair-Share + Post-Survey</div>
-      <div class="tb-desc">Quick CRAFT debrief — how all three workshops connect: AI co-pilot (#1) + verification (#2) + physical computing (#3) = your integrated STEM toolkit. Then open the NGSS-aligned IoT lesson template and <strong>customize it for YOUR classroom:</strong> pick your sensors, define the data collection task, write the student-facing Check the Machine prompt, note the NGSS standard. Pair-share: <strong>"What's the first IoT lesson you're going to try?"</strong> Then complete the post-survey. <em>You just programmed a physical computer using AI as your co-pilot and verified the results like an engineer. Your students can do this too.</em></div>
+      <div class="tb-title">Build Your Two-Node IoT Lesson + Pair-Share + Post-Survey + Kit Unlock</div>
+      <div class="tb-desc">Quick CRAFT debrief — how the three workshops connect: AI co-pilot (#1) + verification (#2) + physical-computing-in-a-browser (#3) = your integrated STEM toolkit. Open the IoT lesson template and <strong>draft a two-node lesson for YOUR classroom:</strong> what does the Sensor Node sense? What does the Aggregator Node do with the stream? Which students hold which role? NGSS standard? Student-facing Check the Machine prompt? Pair-share: <em>"What's the first two-node lesson you'll run?"</em> Then <strong>complete the post-survey</strong> and drop your draft lesson in the shared doc. <strong>Both surveys done + lesson submitted = your BBC micro:bit V2 kit ships this week.</strong> <em>You just built a two-node IoT system in a browser, with AI as your co-pilot, and verified it like an engineer. Your students can do this too — even in schools with zero hardware budget.</em></div>
       <a class="tb-link" href="/resources/iot-lesson-template.html" target="_blank">→ IoT Lesson Template</a>
       <a class="tb-link" href="https://ucf.qualtrics.com/jfe/form/SV_5cnzJo6KUcwqa34" target="_blank">→ Open Post-Survey</a>
     </div>

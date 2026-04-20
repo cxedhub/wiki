@@ -484,7 +484,7 @@
         <span class="tb-dur">10 min</span>
       </div>
       <div class="tb-title">Break #1</div>
-      <div class="tb-desc">Stretch, refill, check micro:bit shipping status jokes.</div>
+      <div class="tb-desc">Stretch, refill, remind everyone that W3 is simulator-only — kits ship afterwards, not before.</div>
     </div>
   </div>
 
@@ -751,7 +751,7 @@
         <span class="tb-dur">20 min</span>
       </div>
       <div class="tb-title">Debrief + Resources + Post-Survey + Close</div>
-      <div class="tb-desc">Debrief wall in Shared Doc. Share CtM template and Error Gallery links. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Remind:</strong> Workshop 3 next week — micro:bits arrive! Check email for hardware prep.</div>
+      <div class="tb-desc">Debrief wall in Shared Doc. Share CtM template and Error Gallery links. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Remind:</strong> Workshop 3 next week is <em>simulator-only</em> — no hardware needed to join. Kits ship AFTER W3 to participants who complete it.</div>
     </div>
   </div>
 
@@ -764,10 +764,11 @@
   <div class="ws-meta">
     <strong>Date:</strong> April 25, 2026  |  8:30 AM – 12:00 PM PST<br>
     <strong>Zoom:</strong> <a href="https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1" target="_blank">https://ucf.zoom.us/j/97106116299?pwd=UojbRbbHx76prSljjq4rh4EdQvf5GK.1</a><br>
-    <strong>Focus:</strong> NGSS/CTE alignment, hardware sensors, real-world data processing<br>
+    <strong>Focus:</strong> Two-node IoT pattern (Sensor Node ↔ Aggregator Node) built entirely in the MakeCode online simulator. NGSS/CTE alignment, radio networking, LLM-assisted coding.<br>
+    <strong>Hardware:</strong> NONE during the session — all activities run in makecode.microbit.org. BBC micro:bit V2 kits ship AFTER the session to participants who complete both surveys + submit a draft IoT lesson.<br>
     <strong>Talk:Do Ratio:</strong> 25 min facilitator / 165 min participant (1:6.6)
   </div>
-  <div class="ws-quote">"Take computing out of the browser and into the physical world."</div>
+  <div class="ws-quote">"IoT is a conversation between devices — and you can have that conversation in a browser tab."</div>
 </section>
 
 <div class="quick-links">
@@ -812,8 +813,8 @@
         <span class="tb-badge admin">Admin</span>
         <span class="tb-dur">10 min</span>
       </div>
-      <div class="tb-title">Welcome + Hardware Check + Pre-Survey</div>
-      <div class="tb-desc">Welcome! Quick connectivity check — everyone plug in micro:bit. Troubleshoot any USB/driver issues. <strong>Pre-Survey:</strong> Open Pre-Survey. <strong>Shared Doc:</strong> Open Group Workspace.</div>
+      <div class="tb-title">Welcome + Simulator Check + Pre-Survey</div>
+      <div class="tb-desc">Welcome! Ask everyone to open <strong>makecode.microbit.org</strong> in a browser and drop a <code>show string "hi"</code> in <code>on start</code> — confirm the simulator renders and scrolls. Demo that adding one <code>radio.sendNumber</code> block spawns a second simulator. <strong>No hardware is required today</strong> — remind participants the kit ships after they complete both surveys + a draft lesson. <strong>Pre-Survey:</strong> Open Pre-Survey. <strong>Shared Doc:</strong> Open Group Workspace.</div>
     </div>
   </div>
 
@@ -825,8 +826,8 @@
         <span class="tb-phase c">Contextualize</span>
         <span class="tb-dur">10 min</span>
       </div>
-      <div class="tb-title">What Is Physical Computing?</div>
-      <div class="tb-desc">Brief overview: Edge Computing vs. Cloud. Why sensors matter. Show a 60-second micro:bit demo — temperature on LED. <strong>Keep it short — participants want to build.</strong></div>
+      <div class="tb-title">What Is Edge/IoT? The Two-Role Pattern</div>
+      <div class="tb-desc">Brief overview: Edge vs. Cloud. Frame IoT as a <strong>conversation between two roles</strong>: sensor nodes (read + broadcast) and aggregator nodes (listen + aggregate + decide). 60-second sim demo — one simulator sends a radio number, the second simulator receives it and shows the value. <strong>Keep it short — participants want to build.</strong></div>
     </div>
   </div>
 
@@ -838,8 +839,8 @@
         <span class="tb-phase r">Reframe</span>
         <span class="tb-dur">15 min</span>
       </div>
-      <div class="tb-title">Coding Is Physical, Not Just Screens</div>
-      <div class="tb-desc"><strong>Poll:</strong> How many of you think "I'm not a programmer"? <strong>Breakout:</strong> Barriers to physical computing in your classroom. How to overcome them? Groups post in Shared Group Workspace.</div>
+      <div class="tb-title">Physical Computing Lives in the Browser Too</div>
+      <div class="tb-desc"><strong>Poll:</strong> "To teach IoT I need…" (class set / 1:1 cart / maker lab / any browser). <strong>Breakout:</strong> #1 barrier to IoT in your building and what a simulator-first approach solves vs. loses. Groups post the trade-off in the Shared Workspace.</div>
     </div>
   </div>
 
@@ -851,7 +852,7 @@
         <span class="tb-dur">10 min</span>
       </div>
       <div class="tb-title">Break #1</div>
-      <div class="tb-desc">Stretch. Make sure all micro:bits are showing in MakeCode.</div>
+      <div class="tb-desc">Stretch. Confirm everyone's MakeCode simulator is running and the LLM is open in a second tab.</div>
     </div>
   </div>
 
@@ -863,8 +864,8 @@
         <span class="tb-phase a">Assemble Part A</span>
         <span class="tb-dur">25 min</span>
       </div>
-      <div class="tb-title">Single Sensor Program</div>
-      <div class="tb-desc"><strong>I Do (5 min):</strong> Live-code temperature → LED display in MakeCode. <strong>You Do (20 min):</strong> Everyone replicates it. Log readings in Collective Data Log. <strong>Engineering moment:</strong> CPU temp ≠ ambient temp. Why? This builds the class dataset for Fortify phase.</div>
+      <div class="tb-title">Build a Sensor Node (Role A)</div>
+      <div class="tb-desc"><strong>I Do (5 min):</strong> Live-code Role A in MakeCode — <code>radio.setGroup(7)</code>, <code>forever: radio.sendNumber(input.temperature())</code> + 2s pause. Point out the second simulator that appears. <strong>You Do (20 min):</strong> Everyone builds their own Sensor Node, picking a sensor (temp / light / accel / sound / compass). LLM-assist the code. Save the .hex — it flashes when the kit arrives. <strong>Engineering moment:</strong> idealized simulator temp vs. real CPU-die bias (preview for Fortify).</div>
     </div>
   </div>
 
@@ -876,8 +877,8 @@
         <span class="tb-phase a">Assemble Part B</span>
         <span class="tb-dur">40 min</span>
       </div>
-      <div class="tb-title">Multi-Sensor Breakout Challenge</div>
-      <div class="tb-desc">Groups pick 2+ sensors, use an LLM to help write the code. Document: sensors chosen, LLM prompt used, what worked/didn't. Post code and findings in Shared Doc's LLM-Assisted Code Gallery. <strong>Level-up available:</strong> Track A (MakeCode+) or Track B (MicroPython).</div>
+      <div class="tb-title">Paired: Aggregator Node (Role B) — Make the Halves Talk</div>
+      <div class="tb-desc">Pair participants. One partner stays on their Sensor Node; the other builds the <strong>Aggregator</strong> — <code>on radio.receivedNumber</code> → running average / min / max / threshold alert → <code>show number</code>. Both must use the same radio group. LLM-assist the aggregation logic. <strong>Swap roles</strong> so everyone builds both halves. Everyone saves TWO .hex files. Post code + LLM prompts + fixes in the Shared Doc's Code Gallery.</div>
     </div>
   </div>
 
@@ -901,8 +902,8 @@
         <span class="tb-phase f">Fortify</span>
         <span class="tb-dur">25 min</span>
       </div>
-      <div class="tb-title">Sensor Verification via CtM</div>
-      <div class="tb-desc">Apply Check the Machine to sensor readings. Compare micro:bit data against known references. Groups post verification results in Shared Doc. Connects back to Workshop 2's CtM protocol.</div>
+      <div class="tb-title">Sensor + Aggregator Verification via CtM</div>
+      <div class="tb-desc">Apply Check the Machine to the simulated pipeline: drag sensor sliders to extremes and confirm the running average responds; break the radio group and watch the Aggregator fall silent; remove <code>radio.setGroup</code> and observe the failure mode. Groups post Task / Before / After / Takeaway in the Shared Doc. Preview the hardware surprise (CPU-die temp) for the day the kit arrives.</div>
     </div>
   </div>
 
@@ -914,8 +915,8 @@
         <span class="tb-phase t">Transfer</span>
         <span class="tb-dur">25 min</span>
       </div>
-      <div class="tb-title">IoT Lesson Design</div>
-      <div class="tb-desc">Everyone designs a lesson using the micro:bit for their classroom. Add to the Shared IoT Lesson Idea Board. Pairs share and give feedback. <em>"You just programmed a physical computer using AI as your co-pilot and verified the results like an engineer. Your students can do this too."</em></div>
+      <div class="tb-title">Two-Node IoT Lesson Design</div>
+      <div class="tb-desc">Everyone drafts a two-node lesson: what does the Sensor Node sense? What does the Aggregator Node decide/display? Which students hold which role? NGSS standard + student CtM prompt. Add to the Shared IoT Lesson Idea Board. Pairs share and give feedback. <em>"You just built a two-node IoT system in a browser, with AI as your co-pilot, and verified it like an engineer. Your students can do this too — even in schools with zero hardware budget."</em></div>
     </div>
   </div>
 
@@ -926,8 +927,8 @@
         <span class="tb-badge admin">Admin</span>
         <span class="tb-dur">20 min</span>
       </div>
-      <div class="tb-title">Debrief + Resources + Post-Survey + Close</div>
-      <div class="tb-desc"><strong>The micro:bit is YOURS.</strong> Take it to your classroom. Debrief wall in Shared Doc. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Closing:</strong> series recap, what's next, stay connected.</div>
+      <div class="tb-title">Debrief + Resources + Post-Survey + Kit Unlock + Close</div>
+      <div class="tb-desc"><strong>Kit unlock:</strong> confirm both surveys are complete and that a draft two-node lesson is posted in the Shared Doc — kits ship this week. Debrief wall in Shared Doc. <strong>Post-Survey:</strong> Open Post-Survey. <strong>Closing:</strong> series recap, what's next, stay connected.</div>
     </div>
   </div>
 
@@ -1003,7 +1004,7 @@
   <h3 style="font-size: 0.85rem; color: var(--ink); margin-top: 14px;">Admin and Setup</h3>
   <ul>
     <li>Survey Instruments Reference: Open</li>
-    <li>Hardware Check Email (W3): Open</li>
+    <li>Kit Shipping Email (W3, post-session): <a href="/pds/craft-pd-series/resources/hardware-check-email.html" target="_blank">Open</a></li>
     <li>MakeCode Editor: <a href="https://makecode.microbit.org" target="_blank">makecode.microbit.org</a></li>
     <li>MicroPython Editor: <a href="https://python.microbit.org" target="_blank">python.microbit.org</a></li>
   </ul>

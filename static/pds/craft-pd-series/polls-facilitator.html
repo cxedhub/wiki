@@ -527,16 +527,16 @@ const WORKSHOPS = [
     polls: [
       {
         phase: "Contextualize",
-        timing: "~8:35 AM — Hardware check-in",
-        question: "How's your micro:bit kit looking?",
+        timing: "~8:35 AM — Simulator check-in",
+        question: "Is the MakeCode simulator running in your browser?",
         options: [
-          "Unboxed, plugged in, ready to go!",
-          "I have it but haven't opened it yet",
-          "Having trouble getting it connected",
-          "My kit hasn't arrived 😬",
-          "What's a micro:bit?"
+          "Yes — simulator loaded and responsive",
+          "Yes — and I already added a radio block and got a second simulator",
+          "Page loaded but the simulator is frozen",
+          "My school network is blocking makecode.microbit.org",
+          "What's a simulator?"
         ],
-        purpose: "Triage hardware issues immediately — critical for virtual delivery"
+        purpose: "Triage simulator issues immediately — no hardware dependency, but browser/network matters"
       },
       {
         phase: "Contextualize",
@@ -567,34 +567,34 @@ const WORKSHOPS = [
       },
       {
         phase: "Assemble",
-        timing: "~9:50 AM — After single-sensor activity",
-        question: "You just got your micro:bit reading sensor data. How do you feel?",
+        timing: "~10:10 AM — After Sensor Node (Role A) activity",
+        question: "Your Sensor Node is broadcasting. How do you feel?",
         options: [
-          "🎉 That was awesome!",
-          "😊 Cool — I see the potential",
-          "🤔 I followed along but I'm shaky",
-          "😰 I'm lost and need help",
-          "🤖 Already thinking about what's next"
+          "🎉 Both simulators are talking — that was awesome!",
+          "😊 Sender works, ready to build the Aggregator",
+          "🤔 I got it running but I'm still shaky on radio.setGroup",
+          "😰 The second simulator never appeared — I need help",
+          "🤖 Already thinking about multi-sensor mesh"
         ],
-        purpose: "Real-time confidence check before ramping to multi-sensor"
+        purpose: "Real-time confidence check before the paired Aggregator breakout"
       },
       {
         phase: "Assemble",
-        timing: "~10:25 AM — After LLM-assisted coding activity",
-        question: "When you asked the AI to help write micro:bit code, what happened?",
+        timing: "~10:40 AM — After paired Sender × Aggregator activity",
+        question: "When you asked the AI to help with the radio code, what happened?",
         options: [
           "It worked perfectly on the first try",
           "Needed small edits but mostly right",
-          "It wrote the wrong language / platform",
-          "The code looked good but didn't work on hardware",
+          "It wrote for the wrong platform (Arduino, raw Python)",
+          "The code looked correct but the two simulators didn't talk",
           "I couldn't get a useful prompt together"
         ],
-        purpose: "Surface the gap between AI-generated code and hardware reality — even 'correct' code may not work on a physical device."
+        purpose: "Surface the gap between AI-generated code and working systems — even 'correct' code may not wire the two halves together."
       },
       {
         phase: "Fortify",
-        timing: "~10:55 AM — Calibration problem",
-        question: "The micro:bit's temperature sensor reads CPU temp, not room temp. What's the engineering fix?",
+        timing: "~11:35 AM — Calibration preview (for when the kit arrives)",
+        question: "A real micro:bit's temperature sensor reads CPU heat, not room temp. What's the engineering fix?",
         options: [
           "Subtract a fixed offset",
           "Use an external sensor instead",
@@ -602,20 +602,20 @@ const WORKSHOPS = [
           "Run code that minimizes CPU usage first",
           "All of the above could work"
         ],
-        purpose: "Real engineering problem — no single right answer, great discussion"
+        purpose: "Real engineering problem — no single right answer, great discussion. Frames what students will discover on day one with real hardware."
       },
       {
         phase: "Transfer",
-        timing: "~11:40 AM — Closing reflection",
-        question: "After today, what's the FIRST thing you'll try with your micro:bit back in your classroom?",
+        timing: "~11:50 AM — Closing reflection",
+        question: "After today, what's the FIRST two-node lesson you'll try in your classroom?",
         options: [
-          "A temperature/environment monitoring project",
-          "A motion/accelerometer-based activity",
-          "Have students use AI to write micro:bit code, then verify it",
-          "A multi-sensor data collection lab",
+          "Environmental monitoring (temp/light senders → aggregator dashboard)",
+          "Motion or step-count senders → class-wide aggregator",
+          "Students write the Sender code with AI; verify with a partner's Aggregator",
+          "Multi-sensor mesh for a lab investigation",
           "I need to explore more before I commit"
         ],
-        purpose: "Transfer intent — concrete next step tied to today's session."
+        purpose: "Transfer intent — concrete next step tied to today's two-node framing."
       }
     ]
   }
