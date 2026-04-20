@@ -52,9 +52,9 @@ Your students are using AI — but do they know when it's wrong? Learn the Check
 ---
 
 ### Workshop 3: Programming Edge/IoT Systems with AI
-**April 25, 2026** · `BBC micro:bit` · `Physical Computing` · `LLM-Assisted Coding`
+**April 25, 2026** · `BBC micro:bit (simulator)` · `Two-Node IoT` · `Radio Networking` · `LLM-Assisted Coding`
 
-BBC micro:bit + LLM-assisted coding — take computing out of the browser and into the physical world. Hardware kit included and yours to keep! Talk:Do ratio of 1:6.6.
+BBC micro:bit in the MakeCode online simulator + LLM-assisted coding — build a two-node IoT system (sensor node ↔ aggregator node) with no hardware required during the session. A BBC micro:bit V2 kit ships after the session to participants who complete it (both surveys + a draft lesson) — yours to keep. Talk:Do ratio of 1:6.6.
 
 [Workshop Details →](/pds/craft-pd-series/workshop-3-edge-iot/)
 

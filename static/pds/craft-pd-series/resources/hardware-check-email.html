@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hardware Check Email — Workshop 3</title>
+<title>Post-Workshop Kit Shipping Email — Workshop 3</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -22,11 +22,14 @@ h1{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:16px}
 </head><body>
 
 <a class="back" href="/pds/craft-pd-series/">← Back to CRAFT PD Series</a>
-<h1>Hardware Check Email Template</h1>
-<p style="color:#666;font-size:0.9rem;margin-bottom:16px">Send this 3 days before Workshop 3. Copy the email body below and customize the bracketed fields.</p>
+<h1>Kit Shipping Email Templates (Workshop 3)</h1>
+<p style="color:#666;font-size:0.9rem;margin-bottom:16px">Workshop 3 runs entirely in the MakeCode online simulator — no hardware is required during the session. BBC micro:bit V2 kits are mailed <strong>after</strong> the session to participants who complete both surveys and submit a draft two-node IoT lesson. Two templates below: (1) pre-session reminder (simulator only), (2) post-session kit shipping confirmation.</p>
+
+<h2 style="font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 8px;color:#1ABC9C">1. Pre-Session Email (send 3 days before Workshop 3)</h2>
+<p style="color:#666;font-size:0.88rem;margin-bottom:8px">Reassures participants that no hardware is needed and walks them through a 2-minute simulator check.</p>
 
 <div class="email-box">
-<div class="field"><div class="field-label">Subject</div><div class="field-value">🔧 Workshop 3 Prep: Please Test Your micro:bit by [DATE - 1 day before]</div></div>
+<div class="field"><div class="field-label">Subject</div><div class="field-value">🌐 Workshop 3 Prep: 2-Minute Simulator Check (No Hardware Needed)</div></div>
 <div class="field"><div class="field-label">To</div><div class="field-value">[Workshop 3 registered participants]</div></div>
 <div class="field"><div class="field-label">From</div><div class="field-value">[Your name / DRACO Lab]</div></div>
 
@@ -34,37 +37,41 @@ h1{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:16px}
 
 <p>Hi [First Name],</p>
 
-<p style="margin-top:12px">We're excited for <strong>Workshop 3: Programming Edge/IoT Systems with AI</strong> on <strong>[Date]</strong>! You should have received your BBC micro:bit V2 kit by mail. Before the session, please take 10 minutes to make sure everything works.</p>
+<p style="margin-top:12px">We're excited for <strong>Workshop 3: Programming Edge/IoT Systems with AI</strong> on <strong>[Date]</strong>!</p>
 
-<h3 style="margin-top:20px;color:#1ABC9C">Setup Steps (10 min)</h3>
+<p style="margin-top:12px"><strong>Good news: you do not need any hardware to attend.</strong> Everything runs in the MakeCode online simulator — and the moment you drop a radio block into your program, MakeCode spawns a second simulated micro:bit so you can build a two-node IoT system right in a browser tab.</p>
 
-<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Unbox your kit.</strong> You should have: 1 BBC micro:bit V2 board, 1 micro-USB cable, and 1 battery pack (2×AAA). If anything is missing, reply to this email immediately.</div></div>
+<p style="margin-top:12px"><strong>The BBC micro:bit V2 kit ships AFTER the workshop</strong> to participants who complete both surveys and submit a draft two-node IoT lesson. More on that in the session.</p>
 
-<div class="step"><div class="step-num">2</div><div class="step-text"><strong>Connect the micro:bit</strong> to your computer using the USB cable. It should appear as a USB drive called "MICROBIT" in your file explorer/Finder.</div></div>
+<h3 style="margin-top:20px;color:#1ABC9C">2-Minute Simulator Check</h3>
 
-<div class="step"><div class="step-num">3</div><div class="step-text"><strong>Open MakeCode</strong> in your browser: <a href="https://makecode.microbit.org" style="color:#1ABC9C">makecode.microbit.org</a></div></div>
+<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Open <a href="https://makecode.microbit.org" style="color:#1ABC9C">makecode.microbit.org</a></strong> in Chrome or Edge (the simulator works in any modern browser, but we recommend these two).</div></div>
 
-<div class="step"><div class="step-num">4</div><div class="step-text"><strong>Create a test program:</strong> Click "New Project." Drag a <code>show string "Hi"</code> block into the <code>on start</code> block. Click the purple "Download" button. Save the .hex file to the MICROBIT drive.</div></div>
+<div class="step"><div class="step-num">2</div><div class="step-text"><strong>Click "New Project"</strong> and give it any name. You should see a blocks editor on the right and a <strong>simulated micro:bit</strong> on the left.</div></div>
 
-<div class="step"><div class="step-num">5</div><div class="step-text"><strong>Verify:</strong> Your micro:bit should scroll "Hi" across the LED display. If it does — you're ready! 🎉</div></div>
+<div class="step"><div class="step-num">3</div><div class="step-text"><strong>Drag a <code>show string "hi"</code> block</strong> into the <code>on start</code> block. The simulator should immediately scroll "hi" across the LED matrix.</div></div>
+
+<div class="step"><div class="step-num">4</div><div class="step-text"><strong>Now drag a <code>radio send number 0</code> block</strong> into <code>on start</code> too (Radio category). Watch: a <strong>second simulated micro:bit</strong> appears. That's the IoT system we'll build together.</div></div>
+
+<div class="step"><div class="step-num">5</div><div class="step-text"><strong>Verify sound works</strong> (for Workshop activities): the simulator speaker icon should not be muted.</div></div>
 
 <div class="alert">
-<strong>⚠️ Trouble?</strong> Common fixes:
+<strong>⚠️ Trouble?</strong>
 <ul style="margin-top:6px;padding-left:20px;font-size:0.85rem">
-<li><strong>MICROBIT drive doesn't appear:</strong> Try a different USB cable (some are charge-only, not data). Try a different USB port.</li>
-<li><strong>Download button doesn't work:</strong> Use Chrome or Edge (not Safari — it has pairing issues).</li>
-<li><strong>micro:bit shows "?" or error:</strong> Unplug, hold the reset button (on the back), plug back in while holding reset, then release.</li>
-<li><strong>Still stuck?</strong> Reply to this email and we'll help you troubleshoot before the session. We'll also have a Help Room breakout at the start of the workshop.</li>
+<li><strong>Simulator doesn't render or is frozen:</strong> Try Chrome or Edge. Disable aggressive ad-blockers for <code>makecode.microbit.org</code>.</li>
+<li><strong>School network blocks the editor:</strong> The MakeCode editor uses <code>makecode.com</code> and <code>microbit.org</code>. Ask IT to allow these. A personal laptop on home wifi is a reliable backup.</li>
+<li><strong>Only one simulator shows up when you add a radio block:</strong> Click the little "+" or the group icon in the simulator corner, or zoom out — MakeCode lays them out horizontally. Refresh the page if needed.</li>
+<li><strong>Still stuck?</strong> Reply to this email and we'll help you troubleshoot before the session.</li>
 </ul>
 </div>
 
 <h3 style="margin-top:20px;color:#1ABC9C">Before the Workshop</h3>
 <p>Please have these ready:</p>
 <ul style="padding-left:20px;font-size:0.9rem;margin-top:6px">
-<li>✅ micro:bit connected and tested</li>
 <li>✅ <a href="https://makecode.microbit.org" style="color:#1ABC9C">makecode.microbit.org</a> open in one browser tab</li>
 <li>✅ An LLM of your choice (ChatGPT, Claude, or Gemini) open in another tab</li>
 <li>✅ Zoom link ready (sent separately)</li>
+<li>🎁 <strong>Post-session reward:</strong> complete both surveys + submit a draft IoT lesson and we ship you a BBC micro:bit V2 kit — yours to keep</li>
 </ul>
 
 <p style="margin-top:16px">See you on [Date] at 8:30 AM PST!</p>
@@ -73,13 +80,67 @@ h1{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:16px}
 <span style="font-size:0.85rem;color:#666">UCF DRACO Lab & School of Teacher Education<br>CRAFT PD Series</span></p>
 </div>
 
-<button class="btn" onclick="copyEmail()">📋 Copy Email Body</button>
+<button class="btn" onclick="copyEmail(0)">📋 Copy Pre-Session Email</button>
+
+<h2 style="font-family:'DM Serif Display',serif;font-size:1.2rem;margin:32px 0 8px;color:#1ABC9C">2. Post-Session Kit Shipping Email (send within 48 hours after Workshop 3)</h2>
+<p style="color:#666;font-size:0.88rem;margin-bottom:8px">Send only to participants who completed both surveys AND submitted a draft two-node IoT lesson in the shared doc.</p>
+
+<div class="email-box">
+<div class="field"><div class="field-label">Subject</div><div class="field-value">📦 Your BBC micro:bit V2 Kit Is on Its Way</div></div>
+<div class="field"><div class="field-label">To</div><div class="field-value">[Completers of Workshop 3]</div></div>
+<div class="field"><div class="field-label">From</div><div class="field-value">[Your name / DRACO Lab]</div></div>
+
+<hr class="divider">
+
+<p>Hi [First Name],</p>
+
+<p style="margin-top:12px">Thank you for completing Workshop 3 — your pre- and post-surveys are in, and we have your draft two-node IoT lesson. As promised, your <strong>BBC micro:bit V2 kit is being shipped this week</strong> to the address you provided during registration.</p>
+
+<p style="margin-top:12px"><strong>What's in the box:</strong></p>
+<ul style="padding-left:20px;font-size:0.9rem;margin-top:6px">
+<li>1 × BBC micro:bit V2 board</li>
+<li>1 × micro-USB cable</li>
+<li>1 × battery pack (2×AAA)</li>
+</ul>
+
+<h3 style="margin-top:20px;color:#1ABC9C">When It Arrives — 10-Minute "First Flash"</h3>
+
+<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Connect the micro:bit</strong> via USB. It should appear as a USB drive called "MICROBIT."</div></div>
+
+<div class="step"><div class="step-num">2</div><div class="step-text"><strong>Reopen your saved Sensor Node project</strong> in <a href="https://makecode.microbit.org" style="color:#1ABC9C">makecode.microbit.org</a> (it's in "My Projects") and click the purple <strong>Download</strong> button. Drag the <code>.hex</code> to the MICROBIT drive.</div></div>
+
+<div class="step"><div class="step-num">3</div><div class="step-text"><strong>Verify the Fortify preview:</strong> watch the temperature values — they'll read 3–8°C higher than your room thermometer, because the sensor is on the CPU die. That's the real-hardware calibration problem we previewed in session. Great day-one lesson for your students.</div></div>
+
+<div class="step"><div class="step-num">4</div><div class="step-text"><strong>Flash a partner's Aggregator Node</strong> to a second device (yours or a colleague's) on the same radio group, and watch the real devices do exactly what the simulators did.</div></div>
+
+<div class="alert">
+<strong>Trouble?</strong> Common fixes:
+<ul style="margin-top:6px;padding-left:20px;font-size:0.85rem">
+<li><strong>MICROBIT drive doesn't appear:</strong> Try a different USB cable (some are charge-only, not data). Try a different USB port.</li>
+<li><strong>Download button doesn't work:</strong> Use Chrome or Edge (not Safari — it has pairing issues).</li>
+<li><strong>micro:bit shows "?" or error:</strong> Unplug, hold the reset button (on the back), plug back in while holding reset, then release.</li>
+<li><strong>Still stuck?</strong> Reply to this email — we'll get you flashing.</li>
+</ul>
+</div>
+
+<h3 style="margin-top:20px;color:#1ABC9C">Next Steps</h3>
+<ul style="padding-left:20px;font-size:0.9rem;margin-top:6px">
+<li>Run your draft two-node IoT lesson with students. Send us a photo — we love showcase stories.</li>
+<li>Join the CRAFT PD alumni channel [link] to share lesson iterations with other Workshop 3 completers.</li>
+<li>Questions? Reach out anytime.</li>
+</ul>
+
+<p style="margin-top:16px">— Dr. Mike Borowczak & Dr. Andrea Borowczak<br>
+<span style="font-size:0.85rem;color:#666">UCF DRACO Lab & School of Teacher Education<br>CRAFT PD Series</span></p>
+</div>
+
+<button class="btn" onclick="copyEmail(1)">📋 Copy Post-Session Email</button>
 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:#666">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
 
 <script>
-function copyEmail(){
-  const box=document.querySelector('.email-box');
+function copyEmail(idx){
+  const box=document.querySelectorAll('.email-box')[idx];
   const range=document.createRange();
   range.selectNodeContents(box);
   const sel=window.getSelection();
@@ -88,7 +149,7 @@ function copyEmail(){
   document.execCommand('copy');
   sel.removeAllRanges();
   event.target.textContent='✅ Copied!';
-  setTimeout(()=>event.target.textContent='📋 Copy Email Body',2000);
+  setTimeout(()=>event.target.textContent=idx===0?'📋 Copy Pre-Session Email':'📋 Copy Post-Session Email',2000);
 }
 </script>
 <script src="../../../js/credit-bar.js"></script>

@@ -107,23 +107,23 @@ Move students from AI on a screen to AI on a sensor — build, measure, and reas
     <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/micropython/01_temperature_display.py">Starter 1: Temperature Display</a></h3>
-    <p class="card-desc">MicroPython starter — read the onboard thermometer, show it on the LED matrix. Day-one activity.</p>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/01_sensor_node_temp.py">Starter 1: Sensor Node (Temperature Sender)</a></h3>
+    <p class="card-desc">MicroPython Role-A starter — read the onboard thermometer and broadcast it on a shared radio group. Pair with Starter 2 for a two-node IoT system in the simulator.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/micropython/02_temp_and_light.py">Starter 2: Temperature + Light</a></h3>
-    <p class="card-desc">Dual-sensor reading with button-driven mode switching. Introduces event-driven programming.</p>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/02_aggregator_running_avg.py">Starter 2: Aggregator Node (Running Average Receiver)</a></h3>
+    <p class="card-desc">MicroPython Role-B starter — receive radio numbers, maintain a running average over the last 10 readings, display on the LED matrix. The partner device to Starter 1.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/micropython/03_greenhouse_monitor.py">Starter 3: Greenhouse Monitor</a></h3>
-    <p class="card-desc">Threshold-based alerts from multiple environmental sensors. Pairs well with plant-science units.</p>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/03_sensor_node_multi.py">Starter 3: Sensor Node (Multi-Sensor Sender)</a></h3>
+    <p class="card-desc">Level-up Role A — broadcasts a sender ID plus temperature and light as a single payload. Flash to two devices with different IDs to build a mesh.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/micropython/04_motion_compass.py">Starter 4: Motion Compass</a></h3>
-    <p class="card-desc">Accelerometer + magnetometer mini-project — a rich platform for physics, earth science, and engineering design.</p>
+    <h3><a href="/pds/craft-pd-series/resources/micropython/04_aggregator_threshold.py">Starter 4: Aggregator Node (Threshold Alert)</a></h3>
+    <p class="card-desc">Level-up Role B — tracks the latest reading per sender and shows a greenhouse-style alert when any sender crosses a temperature/light threshold.</p>
     <div class="card-meta"><span class="chip chip-subject">MicroPython</span><span class="chip chip-grade">6-12</span></div>
   </div>
   <div class="card">
