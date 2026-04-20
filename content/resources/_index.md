@@ -97,11 +97,6 @@ Move students from AI on a screen to AI on a sensor — build, measure, and reas
     <div class="card-meta"><span class="chip chip-subject">Reference</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
-    <h3><a href="/pds/craft-pd-series/resources/sensor-builder.html">Sensor-to-Standards Builder</a></h3>
-    <p class="card-desc">Pick a sensor, get aligned NGSS performance expectations and lesson seeds. Fast way to justify a hardware activity on your pacing guide.</p>
-    <div class="card-meta"><span class="chip chip-subject">Interactive</span><span class="chip chip-grade">Educator</span></div>
-  </div>
-  <div class="card">
     <h3><a href="/pds/craft-pd-series/resources/ngss-crosswalk.html">NGSS ↔ IoT Crosswalk</a></h3>
     <p class="card-desc">Mapping of common micro:bit + sensor activities to specific NGSS performance expectations by grade band.</p>
     <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">K-12</span></div>
