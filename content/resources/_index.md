@@ -28,6 +28,11 @@ Help students use generative AI as a partner for STEM learning — with guardrai
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
+    <h3><a href="/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
+    <p class="card-desc">CRAFT-aligned template for any edge/IoT lesson — from one-period demos to multi-week student design projects. Adds micro:bit sensor pickers, programming-environment choice, data-collection plan, and a student-facing Check-the-Machine prompt.</p>
+    <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
     <h3><a href="/pds/craft-pd-series/resources/prompt-library.html">Prompt Library</a></h3>
     <p class="card-desc">Curated, classroom-tested prompts for Socratic tutoring, misconception surfacing, rubric drafting, and student work critique.</p>
     <div class="card-meta"><span class="chip chip-subject">Prompts</span><span class="chip chip-grade">K-12</span></div>
@@ -95,11 +100,6 @@ Move students from AI on a screen to AI on a sensor — build, measure, and reas
     <h3><a href="/pds/craft-pd-series/resources/sensor-builder.html">Sensor-to-Standards Builder</a></h3>
     <p class="card-desc">Pick a sensor, get aligned NGSS performance expectations and lesson seeds. Fast way to justify a hardware activity on your pacing guide.</p>
     <div class="card-meta"><span class="chip chip-subject">Interactive</span><span class="chip chip-grade">Educator</span></div>
-  </div>
-  <div class="card">
-    <h3><a href="/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
-    <p class="card-desc">CRAFT-aligned template for any edge/IoT lesson — from one-period demos to multi-week student design projects.</p>
-    <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
     <h3><a href="/pds/craft-pd-series/resources/ngss-crosswalk.html">NGSS ↔ IoT Crosswalk</a></h3>
