@@ -155,7 +155,7 @@ Background reading and overview materials — use these when introducing the CRA
   </div>
 </div>
 
-### Slide Decks & Facilitator Agenda
+### Slide Decks
 
 Grab-and-go materials for running your own session or sharing with a department.
 
@@ -174,11 +174,6 @@ Grab-and-go materials for running your own session or sharing with a department.
     <h3><a href="/pds/craft-pd-series/slides-w3.html">Workshop 3 Slides (web)</a></h3>
     <p class="card-desc">Web-based slide deck for Workshop 3. <a href="/pds/craft-pd-series/Workshop-3-Slides.pptx">Download PPTX</a>.</p>
     <div class="card-meta"><span class="chip chip-subject">Slides</span></div>
-  </div>
-  <div class="card">
-    <h3><a href="/pds/craft-pd-series/CRAFT_PD_Series_Facilitator_Agenda.docx">Facilitator Agenda (DOCX)</a></h3>
-    <p class="card-desc">Full three-workshop agenda for anyone wanting to run the CRAFT PD Series themselves.</p>
-    <div class="card-meta"><span class="chip chip-subject">Agenda</span><span class="chip chip-grade">Facilitator</span></div>
   </div>
 </div>
 
