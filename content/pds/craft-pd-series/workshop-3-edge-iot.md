@@ -149,7 +149,7 @@ When you drag a radio block into MakeCode, the simulator **automatically shows t
 
 ## Level-Up Tracks
 
-**Track A — Multi-Sensor Mesh:** Add a second sensor node (MakeCode will spawn a third simulator). Two senders broadcast on the same group with different IDs; the aggregator tracks per-sender averages and flags which node is out of range.
+**Track A — Multi-Sensor Mesh:** Add a second sensor node by opening your Sensor project in a second browser tab (MakeCode pairs two simulators per tab, but tabs on the same origin share the radio channel). Two senders broadcast on the same group with different IDs; the aggregator tracks per-sender averages and flags which node is out of range.
 
 **Track B — MicroPython Port:** Port your Sensor Node and Aggregator Node to MicroPython using [python.microbit.org](https://python.microbit.org). Ask an LLM to translate your blocks. Run both scripts in the MicroPython simulator and confirm the message still goes through.
 
