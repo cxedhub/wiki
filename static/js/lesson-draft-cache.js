@@ -22,7 +22,7 @@
   const MAX_DRAFTS = 10;
   const SAVE_DEBOUNCE_MS = 800;
 
-  const FIELD_IDS = [
+  const BASE_FIELD_IDS = [
     ['title', 'f-title'], ['author', 'f-author'], ['grade', 'f-grade'],
     ['subject', 'f-subject'], ['discipline', 'f-discipline'],
     ['duration', 'f-duration'], ['summary', 'f-summary'], ['tags', 'f-tags'],
@@ -35,6 +35,13 @@
     ['tNext', 'f-t-next'], ['tExt', 'f-t-ext'],
     ['summative', 'f-summative'], ['notes', 'f-notes']
   ];
+  // Host pages (like the IoT template) can declare template-specific fields
+  // via window.LESSON_DRAFT_EXTRA_FIELDS = [[dataKey, elementId], ...] so
+  // their custom inputs are autosaved and restored alongside the shared set.
+  const FIELD_IDS = BASE_FIELD_IDS.concat(
+    Array.isArray(window.LESSON_DRAFT_EXTRA_FIELDS)
+      ? window.LESSON_DRAFT_EXTRA_FIELDS : []
+  );
 
   // Inputs that belong to the loader / uploader UI, not the lesson itself.
   const IGNORE_INPUT_IDS = new Set([

@@ -17,32 +17,164 @@ body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);l
 .site-nav a{color:var(--gray600);font-weight:500;font-size:0.95rem;padding:0.25rem 0;border-bottom:2px solid transparent;text-decoration:none;transition:color 0.2s,border-color 0.2s}
 .site-nav a:hover,.site-nav a.active{color:var(--teal);border-bottom-color:var(--teal);text-decoration:none}
 @media(max-width:720px){.site-nav{gap:0.9rem;font-size:0.88rem}}
-.optional-note{background:#f7faff;border:1px solid var(--gray200);border-left:4px solid var(--green);border-radius:6px;padding:10px 14px;margin:10px 0 18px;font-size:0.85rem;color:var(--ink)}
-.optional-note strong{color:var(--green)}
+.optional-note{background:#f7faff;border:1px solid var(--gray200);border-left:4px solid var(--teal);border-radius:6px;padding:10px 14px;margin:10px 0 18px;font-size:0.85rem;color:var(--ink)}
+.optional-note strong{color:var(--teal)}
 h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
-h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--green)}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
 .subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
-label{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px}
+label{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px;color:var(--ink)}
 input[type="text"],textarea,select{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;background:#fff}
 textarea{min-height:80px;resize:vertical}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
-.sensor-select{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
-.sensor-select label{display:flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--gray200);border-radius:6px;font-weight:500;font-size:0.85rem;cursor:pointer;margin:0}
-.sensor-select input:checked+span{color:var(--green);font-weight:700}
-.craft-section{border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:12px 0;border-left:4px solid var(--green)}
+.phase-bar{display:flex;gap:4px;margin:20px 0 8px}
+.phase-tag{padding:4px 10px;border-radius:4px;font-size:0.72rem;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:0.06em}
+.craft-section{border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:12px 0;border-left:4px solid var(--teal)}
 .craft-section.c{border-left-color:var(--gold)}
 .craft-section.r{border-left-color:var(--red)}
 .craft-section.a{border-left-color:var(--green)}
 .craft-section.f{border-left-color:var(--teal)}
 .craft-section.t{border-left-color:var(--purple)}
-.ctm-box{background:var(--teal);background:#E8FAF6;border:1px solid var(--teal);border-radius:8px;padding:16px;margin:12px 0}
-.ctm-box h3{color:var(--teal);margin-bottom:10px}
+.craft-section h3{font-size:0.9rem;margin-bottom:8px}
 .helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
-.btn{background:var(--green);color:#fff;border:none;padding:10px 24px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;margin:8px 8px 0 0}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 18px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;font-weight:600;cursor:pointer;margin:6px 6px 0 0;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{opacity:0.85}
+.btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
+.btn.pr{background:var(--purple)}
 .back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
-@media print{.btn,.back,.site-header{display:none}}
-@media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
+.export-box{border:1px solid var(--gray200);border-radius:10px;padding:20px;margin-top:24px;background:#fff}
+.export-box h2{margin-top:0}
+.export-group{margin-top:10px}
+.export-group-label{font-size:0.74rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:12px 0 4px}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:6px;font-size:0.88rem;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:all 0.25s;z-index:100;max-width:90%;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.load-box{border:1px solid var(--gray200);border-radius:10px;padding:14px 18px;margin:0 0 22px;background:#fff}
+.load-box>summary{font-weight:600;font-size:0.92rem;cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px}
+.load-box>summary::-webkit-details-marker{display:none}
+.load-box>summary::before{content:"▸";display:inline-block;transition:transform 0.15s;color:var(--teal)}
+.load-box[open]>summary::before{transform:rotate(90deg)}
+.load-box .helper{margin:8px 0 10px}
+.load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
+.load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
+
+/* Multi-framework standards picker */
+.std-intro{font-size:0.85rem;color:var(--gray600);margin:4px 0 14px;line-height:1.5}
+#std-pickers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
+#std-pickers .std-block{margin:0}
+#std-pickers .std-block[data-fw="Other"]{grid-column:1/-1}
+.std-block{border:1px solid var(--gray200);border-radius:8px;padding:12px 14px;margin:10px 0;background:#fff}
+.std-block-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.std-block-title{font-weight:600;font-size:0.88rem;color:var(--ink)}
+.std-block-sub{font-size:0.74rem;color:var(--gray600);font-weight:400}
+.std-search-wrap{position:relative}
+.std-search{width:100%;padding:9px 10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;background:#fff}
+.std-search:focus{outline:none;border-color:var(--teal)}
+.std-dropdown{display:none;position:absolute;top:calc(100% + 2px);left:0;right:0;max-height:260px;overflow-y:auto;background:#fff;border:1px solid var(--gray200);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.1);z-index:50}
+.std-dropdown.open{display:block}
+.std-dropdown-item{padding:8px 12px;cursor:pointer;font-size:0.82rem;border-bottom:1px solid var(--gray100);line-height:1.35}
+.std-dropdown-item:last-child{border-bottom:none}
+.std-dropdown-item:hover,.std-dropdown-item.active{background:#f0fbf8}
+.std-dropdown-item.selected{opacity:0.55;cursor:default;background:var(--gray100)}
+.std-dropdown-item .code{font-family:'JetBrains Mono',monospace;font-weight:600;color:var(--ink);font-size:0.78rem}
+.std-dropdown-item .desc{color:var(--gray600);display:block;margin-top:2px}
+.std-dropdown-empty{padding:10px 12px;color:var(--gray600);font-size:0.8rem;font-style:italic}
+.std-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;min-height:4px}
+.std-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 8px 4px 10px;background:#eef9f6;border:1px solid #b7e6db;border-radius:14px;font-size:0.78rem;color:var(--ink);max-width:100%}
+.std-chip .chip-code{font-family:'JetBrains Mono',monospace;font-weight:600}
+.std-chip .chip-desc{color:var(--gray600);max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.std-chip button{background:none;border:none;color:var(--gray600);cursor:pointer;padding:0 2px;font-size:1rem;line-height:1;border-radius:50%}
+.std-chip button:hover{color:var(--red)}
+.std-custom-row{display:flex;gap:6px;margin-top:6px}
+.std-custom-row input{flex:1;padding:7px 10px;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem;font-family:inherit}
+.std-custom-row button{padding:7px 12px;background:#fff;border:1px solid var(--gray200);border-radius:6px;cursor:pointer;font-size:0.8rem;color:var(--ink)}
+.std-custom-row button:hover{border-color:var(--teal);color:var(--teal)}
+.std-grade-filter{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:6px 0 10px;padding:8px 12px;background:#f7faff;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem}
+.std-grade-note{color:var(--gray600);flex:1;min-width:220px;margin:0}
+.std-grade-note strong{color:var(--ink)}
+label.std-grade-override{display:flex;align-items:center;gap:6px;margin:0;font-weight:500;font-size:0.82rem;color:var(--ink);cursor:pointer}
+label.std-grade-override input{width:auto;margin:0}
+.std-dropdown-item.grade-off{opacity:0.55}
+
+details.ngss-specific{border:1px solid var(--gray200);border-radius:8px;padding:10px 14px;margin:10px 0;background:#fafcff}
+details.ngss-specific>summary{cursor:pointer;font-weight:600;font-size:0.88rem;list-style:none}
+details.ngss-specific>summary::-webkit-details-marker{display:none}
+details.ngss-specific>summary::before{content:"▸";display:inline-block;margin-right:6px;transition:transform 0.15s;color:var(--teal)}
+details.ngss-specific[open]>summary::before{transform:rotate(90deg)}
+details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight:400}
+
+/* LLM iterate 3-step flow */
+.llm-flow{list-style:none;margin:12px 0 0;padding:0;display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}
+.llm-step{flex:1 1 210px;min-width:190px;border:1px solid var(--gray200);border-radius:10px;padding:14px;background:linear-gradient(180deg,#ffffff 0%,#fafcfb 100%);display:flex;flex-direction:column;gap:6px;position:relative}
+.llm-step-badge{width:30px;height:30px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;flex:0 0 auto;box-shadow:0 2px 4px rgba(26,188,156,0.28)}
+.llm-step-title{font-weight:600;font-size:0.9rem;color:var(--ink);margin-top:2px}
+.llm-step-body{font-size:0.78rem;color:var(--gray600);line-height:1.45}
+.llm-step-action{margin-top:auto;padding-top:4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.llm-step-action .btn{margin:0}
+.llm-step-action .cpb-row{margin:0}
+.llm-flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:1.6rem;font-weight:700;flex:0 0 auto;padding:0 2px;user-select:none}
+.llm-flow-footnote{font-size:0.74rem;color:var(--gray600);font-style:italic;margin:8px 2px 0;line-height:1.4}
+@media(max-width:720px){.llm-flow{flex-direction:column;align-items:stretch}.llm-flow-arrow{transform:rotate(90deg);align-self:center;font-size:1.3rem;padding:2px 0}}
+
+/* Top actions (subtle upload) */
+.top-actions{display:flex;align-items:center;gap:8px;margin:4px 0 18px;flex-wrap:wrap}
+.top-upload-btn{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;background:transparent;color:var(--gray600);border:1px dashed var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.78rem;font-weight:500;cursor:pointer}
+.top-upload-btn:hover{border-color:var(--teal);color:var(--teal);background:#f6fcfa}
+
+/* Workflow overview panel (4-step guide) */
+.workflow-panel{border:1px solid var(--gray200);border-radius:12px;padding:16px 18px;margin:0 0 26px;background:linear-gradient(135deg,#ffffff 0%,#f7f9fc 100%)}
+.workflow-panel-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600);margin:0 0 12px}
+.workflow-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.workflow-step{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:8px;border:1px solid var(--gray200);background:#fff;border-top:4px solid var(--teal)}
+.workflow-step[data-step="2"]{border-top-color:var(--gold)}
+.workflow-step[data-step="3"]{border-top-color:var(--green)}
+.workflow-step[data-step="4"]{border-top-color:var(--purple)}
+.workflow-step-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.workflow-step-num{width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8rem;flex:0 0 auto}
+.workflow-step[data-step="2"] .workflow-step-num{background:var(--gold)}
+.workflow-step[data-step="3"] .workflow-step-num{background:var(--green)}
+.workflow-step[data-step="4"] .workflow-step-num{background:var(--purple)}
+.workflow-step-title{font-weight:600;font-size:0.86rem;color:var(--ink)}
+.workflow-step-opt{margin-left:auto;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:2px 6px;background:var(--gray100);border-radius:10px}
+.workflow-step-body{font-size:0.76rem;color:var(--gray600);line-height:1.45}
+@media(max-width:720px){.workflow-steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.workflow-steps{grid-template-columns:1fr}}
+
+/* Step section labels */
+.step-header{display:flex;align-items:center;gap:10px;margin:36px 0 14px;padding:10px 14px;border-radius:8px;background:#ebf9f6;border-left:5px solid var(--teal);flex-wrap:wrap}
+.step-header.first{margin-top:10px}
+.step-header[data-step="2"]{border-left-color:var(--gold);background:#fbf6e8}
+.step-header[data-step="3"]{border-left-color:var(--green);background:#e9f7ef}
+.step-header[data-step="4"]{border-left-color:var(--purple);background:#f1ecf7}
+.step-header-num{width:28px;height:28px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;flex:0 0 auto}
+.step-header[data-step="2"] .step-header-num{background:var(--gold)}
+.step-header[data-step="3"] .step-header-num{background:var(--green)}
+.step-header[data-step="4"] .step-header-num{background:var(--purple)}
+.step-header-label{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600)}
+.step-header-title{font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--ink);line-height:1.2}
+.step-header-opt{margin-left:auto;font-size:0.66rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:3px 8px;background:#fff;border:1px solid var(--gray200);border-radius:10px}
+.step-section{border:1px solid transparent;border-radius:10px;padding:2px 0 6px}
+.step-section[data-step="1"]{border-top:3px solid var(--teal);padding-top:6px}
+.step-section[data-step="2"]{border-top:3px solid var(--gold);padding-top:6px}
+.step-section[data-step="3"]{border-top:3px solid var(--green);padding-top:6px}
+.step-section[data-step="4"]{border-top:3px solid var(--purple);padding-top:6px}
+.step-section[data-step="2"] .export-box h2{border-bottom-color:var(--gold)}
+.step-section[data-step="3"] .export-box h2{border-bottom-color:var(--green)}
+.step-section[data-step="4"] .export-box h2{border-bottom-color:var(--purple)}
+
+/* IoT-specific hardware setup */
+.sensor-select{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.sensor-select label{display:flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--gray200);border-radius:6px;font-weight:500;font-size:0.85rem;cursor:pointer;margin:0}
+.sensor-select input{width:auto;margin:0}
+.sensor-select input:checked+span{color:var(--teal);font-weight:700}
+.inline-check{display:flex;align-items:center;gap:8px;margin:8px 0;font-weight:500;font-size:0.88rem;cursor:pointer}
+.inline-check input{width:auto;margin:0}
+.ctm-box{background:#E8FAF6;border:1px solid var(--teal);border-radius:8px;padding:14px 16px;margin:10px 0}
+.ctm-box .ctm-title{color:var(--teal);font-weight:700;font-size:0.9rem;margin-bottom:6px}
+.ctm-box .helper{margin:0 0 8px}
+
+@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header,.site-header{display:none}input,textarea,select{border:1px solid #ccc}}
+@media(max-width:640px){#std-pickers{grid-template-columns:1fr}}
+@media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
 </style>
 </head><body>
 
@@ -62,112 +194,1472 @@ textarea{min-height:80px;resize:vertical}
 
 <div class="page-wrap">
 
-<h1>IoT Lesson Template</h1>
-<p class="subtitle">Design a lesson that uses the BBC micro:bit and IoT concepts. This template follows the CRAFT cycle and includes a student-facing Check the Machine (CtM) prompt.</p>
+<h1>IoT Lesson/Unit Plan Generator</h1>
+<p class="subtitle">Design a CRAFT-aligned lesson that uses the BBC micro:bit and Internet-of-Things concepts (sensors, data logging, and — where relevant — a two-node sensor-to-aggregator pattern). This template follows the full CRAFT cycle, includes a structured <strong>Check the Machine (CtM)</strong> prompt, and can align to any combination of national or state standards. See the <a href="/pds/craft-pd-series/resources/sensor-guide.html">Sensor Guide</a> for a micro:bit-to-standards crosswalk. Looking for a non-IoT lesson template? <a href="/resources/lesson-template.html">Use the general CRAFT lesson template →</a> or the <a href="/resources/lesson-template-florida.html">Florida-tuned version →</a>.</p>
 
-<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Grade Level</strong>. Fill in as much or as little as you like.</p>
+<script>
+window.LESSON_DRAFT_NAMESPACE = 'iot';
+window.LESSON_DRAFT_EXTRA_FIELDS = [
+  ['iotSensors','f-iot-sensors'],
+  ['iotProgEnv','f-iot-prog-env'],
+  ['iotLlmCode','f-iot-llm-code'],
+  ['iotDataPlan','f-iot-dataplan'],
+  ['iotDataVerify','f-iot-dataverify']
+];
+</script>
+
+<div class="top-actions">
+  <button class="top-upload-btn" type="button" onclick="topUploadMarkdown()" title="Load a previously saved .md lesson file">📥 Load saved lesson (.md)</button>
+  <input id="f-toploadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)" hidden>
+</div>
+
+<div id="draft-cache-panel" aria-label="Saved drafts on this device"></div>
+
+<div class="workflow-panel" aria-label="How to use this template">
+  <div class="workflow-panel-title">How this template works</div>
+  <ol class="workflow-steps">
+    <li class="workflow-step" data-step="1">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">1</span>
+        <span class="workflow-step-title">Fill out the lesson</span>
+      </div>
+      <div class="workflow-step-body">Add context for your lesson — the more detail you provide, the more specific and custom your lesson plan will be.</div>
+    </li>
+    <li class="workflow-step" data-step="2">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">2</span>
+        <span class="workflow-step-title">Iterate with AI</span>
+        <span class="workflow-step-opt">Optional</span>
+      </div>
+      <div class="workflow-step-body">Use an LLM to complete, expand, or refine your lesson — then load the revised Markdown back in.</div>
+    </li>
+    <li class="workflow-step" data-step="3">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">3</span>
+        <span class="workflow-step-title">Download</span>
+      </div>
+      <div class="workflow-step-body">Export your finished lesson in multiple formats — Word, Google Docs, Markdown, or print.</div>
+    </li>
+    <li class="workflow-step" data-step="4">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">4</span>
+        <span class="workflow-step-title">Submit</span>
+        <span class="workflow-step-opt">Advanced</span>
+      </div>
+      <div class="workflow-step-body">Share your plan with the CRAFT community by submitting it to the lesson plan repository on GitHub.</div>
+    </li>
+  </ol>
+</div>
+
+<div class="step-header first" data-step="1">
+  <span class="step-header-num" aria-hidden="true">1</span>
+  <span class="step-header-label">Step 1</span>
+  <span class="step-header-title">Fill Out Your Lesson</span>
+</div>
+
+<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Grade Level</strong>. Fill in as much or as little as you like — you can always come back and iterate with an LLM (Step 2) or load a saved draft.</p>
 
 <h2>Lesson Overview</h2>
 <div class="row">
-<div><label>Lesson Title</label><input type="text" placeholder="e.g., Is Our Classroom Too Loud?"></div>
-<div><label>Your Name</label><input type="text"></div>
+<div><label>Lesson Title</label><input id="f-title" type="text" placeholder="e.g., Investigating Projectile Motion with micro:bits"></div>
+<div><label>Your Name</label><input id="f-author" type="text" placeholder=""></div>
 </div>
 <div class="row">
-<div><label>Grade Level</label><select><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
-<div><label>Subject Area</label><input type="text" placeholder="e.g., Physical Science, Biology, Math"></div>
+<div><label>Grade Level</label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
+<div><label>Subject Area</label><input id="f-subject" type="text" list="subject-suggestions" placeholder="e.g., Mathematics, Physical Science, Computer Science, Engineering">
+<datalist id="subject-suggestions">
+<option value="Mathematics">
+<option value="Computer Science">
+<option value="Physical Science">
+<option value="Life Science">
+<option value="Earth & Space Science">
+<option value="Engineering">
+<option value="Technology">
+<option value="Data Science">
+<option value="Environmental Science">
+<option value="Biology">
+<option value="Chemistry">
+<option value="Physics">
+<option value="Algebra">
+<option value="Geometry">
+<option value="Statistics">
+<option value="Robotics">
+<option value="Cybersecurity">
+<option value="Interdisciplinary STEM">
+</datalist>
+</div>
 </div>
 <div class="row">
-<div><label>NGSS Performance Expectation(s)</label><input type="text" placeholder="e.g., MS-PS4-1"><div class="helper">See the <a href="/pds/craft-pd-series/resources/sensor-guide.html" style="color:var(--teal)">Sensor Guide</a> crosswalk for ideas</div></div>
-<div><label>Duration</label><input type="text" placeholder="e.g., 2 class periods (50 min each)"></div>
+<div><label>Estimated Duration</label><input id="f-duration" type="text" placeholder="e.g., 3 class periods (50 min each)"></div>
+<div><label>STEM Discipline(s)</label><input id="f-discipline" type="text" placeholder="e.g., Math + CS, Engineering Design, Biology"><div class="helper">Noyce Scholars can come from any STEM field — flag yours here.</div></div>
 </div>
+<label>Lesson Summary (2-3 sentences)</label>
+<textarea id="f-summary" placeholder="Brief description of what students will do and learn..."></textarea>
+<label>Tags / Keywords</label>
+<input id="f-tags" type="text" placeholder="e.g., micro:bit, motion, data-collection (comma separated)">
+<div class="helper">Used for filtering in the lesson repository. "CRAFT" and "IoT" are added automatically.</div>
 
-<h2>Hardware Setup</h2>
+<h2>Hardware &amp; Programming Setup</h2>
 <label>Which micro:bit sensors will students use? (check all that apply)</label>
-<div class="sensor-select">
-<label><input type="checkbox"><span>🌡️ Temperature</span></label>
-<label><input type="checkbox"><span>💡 Light</span></label>
-<label><input type="checkbox"><span>📐 Accelerometer</span></label>
-<label><input type="checkbox"><span>🧭 Compass</span></label>
-<label><input type="checkbox"><span>🎤 Microphone (V2)</span></label>
-<label><input type="checkbox"><span>👆 Touch Logo (V2)</span></label>
-<label><input type="checkbox"><span>🔘 Buttons A/B</span></label>
+<input type="hidden" id="f-iot-sensors">
+<div class="sensor-select" id="iot-sensor-grid">
+  <label><input type="checkbox" data-sensor="Temperature"><span>🌡️ Temperature</span></label>
+  <label><input type="checkbox" data-sensor="Light"><span>💡 Light</span></label>
+  <label><input type="checkbox" data-sensor="Accelerometer"><span>📐 Accelerometer</span></label>
+  <label><input type="checkbox" data-sensor="Compass"><span>🧭 Compass</span></label>
+  <label><input type="checkbox" data-sensor="Microphone (V2)"><span>🎤 Microphone (V2)</span></label>
+  <label><input type="checkbox" data-sensor="Touch Logo (V2)"><span>👆 Touch Logo (V2)</span></label>
+  <label><input type="checkbox" data-sensor="Buttons A/B"><span>🔘 Buttons A/B</span></label>
+  <label><input type="checkbox" data-sensor="Radio / Bluetooth"><span>📡 Radio / Bluetooth</span></label>
 </div>
-<label>Additional Materials Needed</label>
-<textarea rows="2" placeholder="e.g., USB cables, thermometer for calibration, graph paper, stopwatch"></textarea>
-<label>Programming Environment</label>
-<div class="row">
-<div><select><option>MakeCode (blocks)</option><option>MakeCode (JavaScript)</option><option>MicroPython</option><option>Start with MakeCode, option for MicroPython</option></select></div>
-<div><label style="margin:0"><input type="checkbox" style="width:auto;margin-right:6px">Students will use an LLM to help write/debug code</label></div>
+<div class="helper">Two-node IoT pattern? Check any sensors used on the <em>sensor</em> node; note the <em>aggregator</em> role under Data Collection Plan below.</div>
+<div class="row" style="margin-top:14px">
+<div><label>Programming Environment</label><select id="f-iot-prog-env">
+  <option value="">(Select one)</option>
+  <option>MakeCode (blocks)</option>
+  <option>MakeCode (JavaScript)</option>
+  <option>MicroPython</option>
+  <option>Start with MakeCode, option for MicroPython</option>
+  <option>Simulator only (no hardware)</option>
+</select></div>
+<div><label>AI Coding Support</label>
+<label class="inline-check" style="margin-top:10px"><input type="checkbox" id="f-iot-llm-code"><span>Students will use an LLM to help write or debug code</span></label>
+<div class="helper" style="margin-top:0">If checked, plan a CtM exercise in the Fortify section below.</div>
+</div>
 </div>
 
-<h2>CRAFT Lesson Structure</h2>
+<h2>Standards Alignment</h2>
+<p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. <strong>If the national standards below don't apply to your context, use the <em>Custom / Other</em> row at the bottom to type in your own state standards.</strong></p>
 
+<div class="std-grade-filter">
+<p class="std-grade-note">Filtered to standards for <strong id="std-grade-label">6-8</strong>. Frameworks without grade info (ISTE, National Core Arts) always show every entry.</p>
+<label class="std-grade-override"><input type="checkbox" id="f-std-show-all"> Show standards for all grade levels</label>
+</div>
+
+<div id="std-pickers"></div>
+
+<details class="ngss-specific">
+<summary>NGSS three-dimensional detail <span class="helper">(optional — only if you're aligning to NGSS)</span></summary>
+<div class="row3" style="margin-top:10px">
+<div><label>Science &amp; Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
+<div><label>Crosscutting Concept</label><textarea id="f-ccc" rows="3" placeholder="e.g., Cause and Effect"></textarea></div>
+<div><label>Disciplinary Core Idea</label><textarea id="f-dci" rows="3" placeholder="e.g., PS2.A: Forces and Motion"></textarea></div>
+</div>
+</details>
+
+<h2>CRAFT Cycle Structure</h2>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--gold)">C</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Contextualize</span>
+</div>
 <div class="craft-section c">
-<h3 style="color:var(--gold)">Contextualize: Why Does This Matter?</h3>
-<label>Real-World IoT Connection</label>
-<textarea placeholder="Where do sensors like this exist in the real world? (smart buildings, wearables, agriculture, environmental monitoring)
+<h3>Why This Matters (5-10 min)</h3>
+<label>Real-World IoT Connection &amp; Driving Question</label>
+<textarea id="f-c-real" placeholder="Where do sensors like this exist in the real world? (smart buildings, wearables, agriculture, weather stations, environmental monitoring) End with the driving question students will investigate.
 
-Example: 'Smart greenhouses use temperature and light sensors to automatically adjust conditions for optimal plant growth — the same sensors on your micro:bit.'"></textarea>
-<label>Driving Question</label>
-<input type="text" placeholder="e.g., 'How loud is our classroom, and does it affect our focus?'">
+Example: 'Smart greenhouses use temperature and light sensors to adjust conditions for optimal plant growth — the same sensor you'll use on your micro:bit. Driving question: How loud is our classroom, and does it affect our focus?'"></textarea>
+<label>Career Connection</label>
+<input id="f-c-career" type="text" placeholder="Jobs that build or use IoT systems — e.g., Environmental scientist, Smart-building technician, Agricultural engineer">
 </div>
 
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--red)">R</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Reframe</span>
+</div>
 <div class="craft-section r">
-<h3 style="color:var(--red)">Reframe: What Do Students Get Wrong?</h3>
-<label>Misconception to Address</label>
-<textarea rows="3" placeholder="e.g., 'Students think coding only happens on screens — they don't realize that physical devices in their daily life (phones, cars, smart speakers) all run code that reads sensor data.'"></textarea>
+<h3>Address the Misconception (5-10 min)</h3>
+<label>Common Misconception</label>
+<textarea id="f-r-misc" rows="2" placeholder="What do students typically get wrong about sensors, IoT, or the underlying concept? e.g., 'Students think coding only happens on screens — they don't realize phones, cars, and smart speakers all run code that reads sensor data.'"></textarea>
+<label>Correct Understanding</label>
+<textarea id="f-r-correct" rows="2" placeholder="What should they understand instead? e.g., 'A sensor turns a physical property (heat, sound, motion) into a number a program can work with — and that same pattern is everywhere in the IoT around them.'"></textarea>
 </div>
 
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--green)">A</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Assemble</span>
+</div>
 <div class="craft-section a">
-<h3 style="color:var(--green)">Assemble: I Do → We Do → You Do</h3>
+<h3>I Do → We Do → You Do</h3>
 <label>I Do — Teacher Demonstrates (5-10 min)</label>
-<textarea placeholder="What will you demo? e.g., 'Show how to read the sound level sensor and display it on the LED matrix. Walk through the MakeCode blocks.'"></textarea>
+<textarea id="f-a-ido" placeholder="What will you model? e.g., 'Show how to read the sound-level sensor and display it on the LED matrix. Walk through the MakeCode blocks.'"></textarea>
 <label>We Do — Guided Practice (10-15 min)</label>
-<textarea placeholder="e.g., 'Together, we modify the code to show a happy face when noise is below 80 and a sad face when above. Students follow along on their own micro:bits.'"></textarea>
-<label>You Do — Student Investigation (15-30 min)</label>
-<textarea placeholder="e.g., 'Students design and run their own investigation: measure noise levels during quiet work time, group discussion, and transitions. Record data in a table. Create a bar chart.'"></textarea>
+<textarea id="f-a-wedo" placeholder="What will students do WITH you? e.g., 'Together, modify the code to show a happy face when the reading is below threshold and a sad face when above.'"></textarea>
+<label>You Do — Independent/Group Practice (15-25 min)</label>
+<textarea id="f-a-youdo" placeholder="What will students do on their own or in groups? e.g., 'Design and run an investigation: measure noise during quiet work, discussion, and transitions. Record and graph the data.'"></textarea>
 <label>Data Collection Plan</label>
-<textarea rows="3" placeholder="How will students collect, record, and organize their sensor data? What format (table, spreadsheet, graph)?"></textarea>
+<textarea id="f-iot-dataplan" rows="3" placeholder="How will students collect, record, and organize sensor readings? Which node logs? Table, spreadsheet, MakeCode data-logger, or radio to an aggregator node? What intervals/duration?"></textarea>
+<label>Materials Needed</label>
+<textarea id="f-a-materials" rows="2" placeholder="e.g., 1 micro:bit per pair, USB cables, battery packs, a reference thermometer for calibration, graph paper."></textarea>
 </div>
 
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--teal)">F</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Fortify</span>
+</div>
 <div class="craft-section f">
-<h3 style="color:var(--teal)">Fortify: Verify the Data + Check the Machine</h3>
+<h3>Verify the Data &amp; Check the Machine (5-10 min)</h3>
 <label>Data Verification Activity</label>
-<textarea placeholder="How will students verify their sensor readings are accurate? e.g., 'Compare micro:bit temperature to a real thermometer. Discuss: why might they differ?'"></textarea>
-
+<textarea id="f-iot-dataverify" rows="3" placeholder="How will students verify their sensor readings are trustworthy? e.g., 'Compare micro:bit temperature to a lab thermometer at three points. Discuss why the readings differ — sensor placement, resolution, drift.'"></textarea>
+<label>Formative Assessment</label>
+<textarea id="f-f-formative" placeholder="How will you check understanding? Exit ticket, quick quiz, CER paragraph, sensor-reading interpretation?"></textarea>
 <div class="ctm-box">
-<h3>Student-Facing CtM Prompt</h3>
-<p style="font-size:0.85rem;margin-bottom:10px">Write the CtM exercise students will complete. This should be specific to your lesson.</p>
-<label>Task (what students ask the AI)</label>
-<textarea rows="2" placeholder="e.g., 'Ask an AI: What is a healthy classroom noise level in decibels, and how does noise affect student concentration?'"></textarea>
-<label>Before (what students predict)</label>
-<textarea rows="2" placeholder="e.g., 'Before looking at the AI's answer, write down: What do you THINK a healthy noise level is? How do you think noise affects focus?'"></textarea>
-<label>After (compare to AI output)</label>
-<textarea rows="2" placeholder="e.g., 'Read the AI's answer. Does it match your data from the micro:bit? Does it cite specific numbers? Can you verify those numbers?'"></textarea>
-<label>Takeaway (reflection)</label>
-<textarea rows="2" placeholder="e.g., 'What did you learn about the AI's claims? Did your actual data support or contradict the AI? What would you trust more — the AI's general answer or your specific measurements?'"></textarea>
+<div class="ctm-title">Check the Machine (CtM) — Student-facing prompt</div>
+<p class="helper">Write the CtM exercise your students will complete. Frame it around the AI's claim vs. their own sensor data.</p>
+<label>Check the Machine (describe the full exercise)</label>
+<textarea id="f-f-ctm" rows="6" placeholder="Task: What will students ask the AI? (e.g., 'What is a healthy classroom noise level in decibels, and how does noise affect focus?')
+
+Before: What do students predict BEFORE looking at the AI's answer or their own data?
+
+After: What does the AI produce, and how does it compare to students' actual sensor readings? Does the AI cite specific numbers? Are those verifiable?
+
+Takeaway: What did the comparison reveal? Would students trust the AI's general claim or their own specific measurement more — and why?"></textarea>
 </div>
 </div>
 
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--purple)">T</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Transfer</span>
+</div>
 <div class="craft-section t">
-<h3 style="color:var(--purple)">Transfer: What's Next?</h3>
+<h3>Connect Forward (3-5 min)</h3>
 <label>Connection to Next Lesson</label>
-<textarea rows="2" placeholder="How does this connect to your next unit or topic?"></textarea>
-<label>Extension Activity</label>
-<textarea rows="2" placeholder="For students who finish early or want to go deeper. e.g., 'Program the micro:bit to log data to a file using the data logging extension. Graph 24 hours of data.'"></textarea>
+<textarea id="f-t-next" rows="2" placeholder="How does this connect to your next unit or topic? (e.g., 'Next, students compare the classroom data to a second-location sensor node over radio — a two-node IoT pattern.')"></textarea>
+<label>Extension / Homework</label>
+<textarea id="f-t-ext" rows="2" placeholder="Optional extension. e.g., 'Use MakeCode's data-logging extension to record 24 hours of readings, then graph them in a spreadsheet.'"></textarea>
 </div>
 
 <h2>Assessment</h2>
-<label>How will you assess this lesson?</label>
-<textarea placeholder="e.g., 'CER paragraph: Make a claim about classroom noise levels, supported by micro:bit data (evidence), with scientific reasoning about how noise affects concentration.'"></textarea>
+<label>Summative Assessment Description</label>
+<textarea id="f-summative" placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
 
-<div style="margin-top:24px">
-<button class="btn" onclick="window.print()">🖨 Print Template</button>
+<h2>Notes & Reflections</h2>
+<textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+
+<div class="step-section" data-step="2">
+<div class="step-header" data-step="2">
+  <span class="step-header-num" aria-hidden="true">2</span>
+  <span class="step-header-label">Step 2</span>
+  <span class="step-header-title">Iterate with AI</span>
+  <span class="step-header-opt">Optional</span>
 </div>
+
+<div class="export-box">
+<h2>Iterate with an LLM</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Hand your draft to an LLM for feedback, then paste the revised Markdown back in to refresh every field above.</p>
+
+<ol class="llm-flow" aria-label="Three-step LLM iteration flow">
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">1</div>
+    <div class="llm-step-title">Copy the AI prompt</div>
+    <div class="llm-step-body">We build a detailed prompt from every field above, plus this template's citation.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="copyLLMPrompt()">🤖 Copy AI Prompt</button></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">2</div>
+    <div class="llm-step-title">Open an LLM and paste</div>
+    <div class="llm-step-body">Pick your provider — we'll re-copy the prompt and open it in a new tab so you can paste right in.</div>
+    <div class="llm-step-action" id="cpb-ai-prompt-anchor"></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">3</div>
+    <div class="llm-step-title">Paste the reply back</div>
+    <div class="llm-step-body">Open the loader below and paste the revised Markdown to refresh every field above.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="returnToLoader()">⬇ Open Loader</button></div>
+  </li>
+</ol>
+<div class="llm-flow-footnote">Provider list is for convenience — we do not endorse any specific AI platform.</div>
+
+<details class="load-box" style="margin:18px 0 0" open>
+<summary>Load an existing lesson from Markdown</summary>
+<p class="helper">Paste Markdown from a previously exported lesson (or choose a <code>.md</code> file), then click <strong>Load</strong>. Fields above will be populated — review and edit as needed. Accepts files exported by this template; front matter is optional.</p>
+<input id="f-loadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)">
+<textarea id="f-loadtext" placeholder="---&#10;title: &quot;My Lesson&quot;&#10;---&#10;&#10;# My Lesson&#10;&#10;## Overview&#10;..."></textarea>
+<button class="btn" onclick="loadMarkdown()">📥 Load into Form</button>
+<button class="btn secondary" onclick="document.getElementById('f-loadtext').value='';document.getElementById('f-loadfile').value='';">Clear</button>
+</details>
+</div>
+</div>
+
+<div class="step-section" data-step="3">
+<div class="step-header" data-step="3">
+  <span class="step-header-num" aria-hidden="true">3</span>
+  <span class="step-header-label">Step 3</span>
+  <span class="step-header-title">Download Your Lesson</span>
+</div>
+
+<div class="export-box">
+<h2>Export Your Lesson</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you choose to submit it in Step 4.</p>
+
+<div class="export-group">
+<div class="export-group-label">Google Docs · Word · Pages</div>
+<button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
+<button class="btn secondary" onclick="downloadDoc()">⬇ Download .doc</button>
+<div class="helper">Rich-text paste keeps headings and formatting. The .doc file opens natively in Word and in Google Docs (File → Open).</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Markdown</div>
+<button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
+<button class="btn secondary" onclick="downloadMarkdown()">⬇ Download .md</button>
+<div class="helper">Includes Hugo front matter (title, description, grade level, NGSS PEs, tags) so it's ready to drop into the lesson plan repository.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Other</div>
+<button class="btn secondary" onclick="window.print()">🖨 Print</button>
+</div>
+</div>
+</div>
+
+<div class="step-section" data-step="4">
+<div class="step-header" data-step="4">
+  <span class="step-header-num" aria-hidden="true">4</span>
+  <span class="step-header-label">Step 4</span>
+  <span class="step-header-title">Submit to the Lesson Repository</span>
+  <span class="step-header-opt">Optional</span>
+</div>
+
+<div class="export-box">
+<h2>Share with the CRAFT Community</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Contribute your lesson so other educators can discover and build on it. Pick whichever path is easier for you.</p>
+
+<div class="export-group">
+<div class="export-group-label">Email submission · Easiest (no account needed)</div>
+<button class="btn" onclick="submitEmail()">✉️ Email Your Lesson to the Editors</button>
+<div class="helper">Downloads your lesson as a Markdown file and opens a pre-filled email to the editors. Just attach the downloaded <code>.md</code> file and hit send — we'll review and add it to the repository for you.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">GitHub pull request · Advanced</div>
+<button class="btn pr" onclick="submitPR()">🚀 Submit to Lesson Plan Repository</button>
+<div class="helper">Opens GitHub with your lesson pre-filled in a new file. You'll need a free GitHub account; GitHub will automatically fork the repo and walk you through creating a pull request for review.</div>
+</div>
+</div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
 
+<script src="/js/standards-db.js"></script>
+<script>
+const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
+const SUBMIT_EMAIL='mike@freyjalabs.com';
+
+/* ===== Citation (embedded in every export + every AI prompt) ===== */
+const CITATION_TEXT='Borowczak, A. & Borowczak, M. (2026). CRAFT PD Series Lesson Template. cxedhub.com';
+const CITATION_MD='\n\n## Citation\n\n**Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n';
+const CITATION_HTML='<hr><p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite this lesson template:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>CRAFT PD Series Lesson Template.</em> UCF DRACO Lab &amp; School of Teacher Education. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
+
+/* ===== Multi-framework standards picker ===== */
+const FW_ORDER=['CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'];
+const FW_LABEL={
+  'CSTA':['Computer Science (CSTA K-12)','Computer Science Teachers Association'],
+  'CCSS Math':['Math (Common Core)','Common Core State Standards — Mathematics'],
+  'CCSS ELA':['English Language Arts (Common Core)','Common Core — ELA/Literacy'],
+  'NGSS':['Science (NGSS)','Next Generation Science Standards — Performance Expectations'],
+  'ISTE':['Technology (ISTE)','ISTE Standards for Students'],
+  'NCSS C3':['Social Studies (NCSS C3)','College, Career, and Civic Life C3 Framework'],
+  'National Core Arts':['Arts (National Core Arts)','National Core Arts Standards']
+};
+const SELECTED={};FW_ORDER.forEach(fw=>SELECTED[fw]=[]);
+const CUSTOM_FW_KEY='Other';SELECTED[CUSTOM_FW_KEY]=[];
+const CUSTOM_DESC={};  // code -> description for Other-framework entries
+let activeDropdownFw=null,activeDropdownIdx=-1;
+
+function stdDb(){return (window.STANDARDS_DB)||{}}
+function codeDesc(fw,code){
+  if(fw===CUSTOM_FW_KEY)return CUSTOM_DESC[code]||'';
+  const db=stdDb();return db[fw]&&db[fw][code]?db[fw][code]:'';
+}
+function escHtml(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+/* ===== Grade-band inference for standard codes =====
+ * Returns array of grade bands (subset of ['K-2','3-5','6-8','9-12'])
+ * that a given (framework, code) targets, or null when the framework/code
+ * isn't grade-banded (e.g., ISTE, Math Practice, Arts). Null means "always show". */
+function gradeBandsForCode(fw,code){
+  if(!code)return null;
+  const band=(g)=>g<=2?'K-2':g<=5?'3-5':g<=8?'6-8':'9-12';
+  if(fw==='ISTE'||fw==='National Core Arts')return null;
+  if(fw==='CSTA'){
+    if(/^1A[-.]/.test(code))return ['K-2'];
+    if(/^1B[-.]/.test(code))return ['3-5'];
+    if(/^2[-.]/.test(code))return ['6-8'];
+    if(/^3[AB][-.]/.test(code))return ['9-12'];
+    return null;
+  }
+  if(fw==='NGSS'){
+    if(/^K-2-/.test(code))return ['K-2'];
+    if(/^3-5-/.test(code))return ['3-5'];
+    if(/^MS-/.test(code))return ['6-8'];
+    if(/^HS-/.test(code))return ['9-12'];
+    if(/^K-/.test(code))return ['K-2'];
+    const m=code.match(/^(\d)-/);
+    if(m)return [band(+m[1])];
+    return null;
+  }
+  if(fw==='CCSS Math'){
+    if(/^MP\./.test(code))return null;
+    if(/^(HS|G-|F-|N-|S-|A-)/.test(code))return ['9-12'];
+    const m=code.match(/^(K|\d+)\./);
+    if(m){
+      if(m[1]==='K')return ['K-2'];
+      const g=+m[1];
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='CCSS ELA'){
+    const m=code.match(/\.(K|\d+)(?:-(\d+))?(?:\.|$)/);
+    if(m){
+      const start=m[1]==='K'?0:+m[1];
+      const end=m[2]?+m[2]:start;
+      const bands={};
+      for(let g=start;g<=end;g++)bands[band(g)]=1;
+      return Object.keys(bands);
+    }
+    return null;
+  }
+  if(fw==='NCSS C3'){
+    const m=code.match(/\.(K-2|3-5|6-8|9-12)$/);
+    return m?[m[1]]:null;
+  }
+  if(fw==='FL B.E.S.T. ELA'||fw==='FL B.E.S.T. Math'){
+    const m=code.match(/^(?:ELA|MA)\.([K0-9]+)\./);
+    if(m){
+      if(m[1]==='K')return ['K-2'];
+      if(m[1]==='912')return ['9-12'];
+      const g=+m[1];
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='FL NGSSS Science'||fw==='FL NGSSS Social Studies'){
+    const m=code.match(/^(?:SC|SS)\.([K0-9]+)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K'||t==='K2')return ['K-2'];
+      if(t==='35')return ['3-5'];
+      if(t==='68')return ['6-8'];
+      if(t==='912')return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='FL K-12 Computer Science'){
+    const m=code.match(/^[A-Z]+\.(K2|35|68|912)\./);
+    if(m){
+      return [{'K2':'K-2','35':'3-5','68':'6-8','912':'9-12'}[m[1]]];
+    }
+    return null;
+  }
+  return null;
+}
+function getGradeFilter(){
+  const showAll=document.getElementById('f-std-show-all');
+  if(showAll&&showAll.checked)return null;
+  const sel=document.getElementById('f-grade');
+  return sel?sel.value:null;
+}
+function codeMatchesGrade(fw,code,grade){
+  if(!grade)return true;
+  const bands=gradeBandsForCode(fw,code);
+  if(bands===null)return true;
+  return bands.indexOf(grade)>=0;
+}
+function refreshStdDropdowns(){
+  const label=document.getElementById('std-grade-label');
+  const sel=document.getElementById('f-grade');
+  if(label&&sel)label.textContent=sel.value||'—';
+  document.querySelectorAll('.std-dropdown.open').forEach(dd=>{
+    const inp=dd.parentNode.querySelector('.std-search');
+    if(inp)onSearchInput({target:inp});
+  });
+}
+
+function renderPickers(){
+  const host=document.getElementById('std-pickers');
+  if(!host)return;
+  let h='';
+  FW_ORDER.forEach(fw=>{
+    const [short,long]=FW_LABEL[fw];
+    h+='<div class="std-block" data-fw="'+fw+'">';
+    h+='<div class="std-block-head"><span class="std-block-title">'+escHtml(short)+'</span><span class="std-block-sub">'+escHtml(long)+'</span></div>';
+    h+='<div class="std-search-wrap">';
+    h+='<input type="text" class="std-search" placeholder="Search '+escHtml(fw)+' standards by keyword or code…" data-fw="'+escHtml(fw)+'" autocomplete="off">';
+    h+='<div class="std-dropdown" data-fw="'+escHtml(fw)+'"></div>';
+    h+='</div>';
+    h+='<div class="std-chips" data-fw="'+escHtml(fw)+'"></div>';
+    h+='</div>';
+  });
+  // Custom/Other framework block
+  h+='<div class="std-block" data-fw="'+CUSTOM_FW_KEY+'">';
+  h+='<div class="std-block-head"><span class="std-block-title">Custom / Other Framework</span><span class="std-block-sub">State standards, district frameworks, or any code not in the built-in database</span></div>';
+  h+='<div class="std-custom-row">';
+  h+='<input type="text" id="f-custom-fw" placeholder="Framework name (e.g., Wyoming CS, TEKS Math)" style="flex:0 0 200px">';
+  h+='<input type="text" id="f-custom-code" placeholder="Code (e.g., K-2.AP.A.01)">';
+  h+='<input type="text" id="f-custom-desc" placeholder="Short description (optional)">';
+  h+='<button type="button" onclick="addCustomStd()">+ Add</button>';
+  h+='</div>';
+  h+='<div class="std-chips" data-fw="'+CUSTOM_FW_KEY+'"></div>';
+  h+='</div>';
+  host.innerHTML=h;
+  // Wire up events
+  host.querySelectorAll('.std-search').forEach(inp=>{
+    inp.addEventListener('input',onSearchInput);
+    inp.addEventListener('focus',onSearchInput);
+    inp.addEventListener('keydown',onSearchKey);
+    inp.addEventListener('blur',()=>setTimeout(hideDropdowns,180));
+  });
+}
+
+function onSearchInput(e){
+  const inp=e.target;const fw=inp.dataset.fw;const q=inp.value.trim().toLowerCase();
+  const dd=inp.parentNode.querySelector('.std-dropdown');
+  const db=stdDb();const entries=db[fw]||{};
+  const sel=new Set(SELECTED[fw]||[]);
+  const gradeFilter=getGradeFilter();
+  const items=[];
+  Object.keys(entries).forEach(code=>{
+    const desc=entries[code];
+    const already=sel.has(code);
+    if(!q||code.toLowerCase().includes(q)||desc.toLowerCase().includes(q)){
+      if(!codeMatchesGrade(fw,code,gradeFilter))return;
+      items.push({code,desc,already});
+    }
+  });
+  // Sort: prioritize code-starts-with, then description-match, then alphabetical
+  items.sort((a,b)=>{
+    if(q){
+      const ac=a.code.toLowerCase().startsWith(q)?0:1;
+      const bc=b.code.toLowerCase().startsWith(q)?0:1;
+      if(ac!==bc)return ac-bc;
+    }
+    return a.code.localeCompare(b.code);
+  });
+  const top=items.slice(0,50);
+  if(top.length===0){
+    const gradeHint=gradeFilter?' for '+escHtml(gradeFilter)+' — try toggling <em>Show standards for all grade levels</em> above':'';
+    dd.innerHTML='<div class="std-dropdown-empty">No matches in '+escHtml(fw)+gradeHint+'. Try a different keyword, or add it under Custom / Other below.</div>';
+  }else{
+    dd.innerHTML=top.map((it,i)=>'<div class="std-dropdown-item'+(it.already?' selected':'')+'" data-code="'+escHtml(it.code)+'" data-fw="'+escHtml(fw)+'"><span class="code">'+escHtml(it.code)+'</span><span class="desc">'+escHtml(it.desc)+'</span></div>').join('');
+    dd.querySelectorAll('.std-dropdown-item').forEach(el=>{
+      el.addEventListener('mousedown',ev=>{
+        ev.preventDefault();
+        if(el.classList.contains('selected'))return;
+        addStd(el.dataset.fw,el.dataset.code);
+        inp.value='';inp.focus();
+        onSearchInput({target:inp});
+      });
+    });
+  }
+  dd.classList.add('open');activeDropdownFw=fw;activeDropdownIdx=-1;
+}
+
+function onSearchKey(e){
+  const inp=e.target;const dd=inp.parentNode.querySelector('.std-dropdown');
+  const items=[...dd.querySelectorAll('.std-dropdown-item:not(.selected)')];
+  if(e.key==='ArrowDown'){e.preventDefault();activeDropdownIdx=Math.min(activeDropdownIdx+1,items.length-1);highlightActive(items)}
+  else if(e.key==='ArrowUp'){e.preventDefault();activeDropdownIdx=Math.max(activeDropdownIdx-1,0);highlightActive(items)}
+  else if(e.key==='Enter'){
+    if(activeDropdownIdx>=0&&items[activeDropdownIdx]){
+      e.preventDefault();
+      const el=items[activeDropdownIdx];
+      addStd(el.dataset.fw,el.dataset.code);
+      inp.value='';onSearchInput({target:inp});
+    }
+  }else if(e.key==='Escape'){hideDropdowns()}
+}
+function highlightActive(items){items.forEach((el,i)=>el.classList.toggle('active',i===activeDropdownIdx));if(items[activeDropdownIdx])items[activeDropdownIdx].scrollIntoView({block:'nearest'})}
+function hideDropdowns(){document.querySelectorAll('.std-dropdown.open').forEach(d=>d.classList.remove('open'));activeDropdownFw=null;activeDropdownIdx=-1}
+
+function addStd(fw,code){
+  if(!SELECTED[fw])SELECTED[fw]=[];
+  if(SELECTED[fw].indexOf(code)<0)SELECTED[fw].push(code);
+  renderChips(fw);
+}
+function removeStd(fw,code){
+  SELECTED[fw]=(SELECTED[fw]||[]).filter(c=>c!==code);
+  if(fw===CUSTOM_FW_KEY)delete CUSTOM_DESC[code];
+  renderChips(fw);
+}
+function renderChips(fw){
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(fw)+'"]');
+  if(!box)return;
+  const list=SELECTED[fw]||[];
+  box.innerHTML=list.map(code=>{
+    const d=codeDesc(fw,code);
+    return '<span class="std-chip"><span class="chip-code">'+escHtml(code)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+fw.replace(/'/g,"\\'")+'\',\''+code.replace(/'/g,"\\'")+'\')">×</button></span>';
+  }).join('');
+}
+function addCustomStd(){
+  const fw=(document.getElementById('f-custom-fw').value||'').trim();
+  const code=(document.getElementById('f-custom-code').value||'').trim();
+  const desc=(document.getElementById('f-custom-desc').value||'').trim();
+  if(!fw||!code){flash('Enter both a framework name and a code');return}
+  // Custom entries are stored under the user-provided framework name so they
+  // export cleanly into the standards dict — just like built-in frameworks.
+  if(!SELECTED[fw])SELECTED[fw]=[];
+  if(SELECTED[fw].indexOf(code)<0)SELECTED[fw].push(code);
+  if(desc)CUSTOM_DESC[code]=desc;
+  document.getElementById('f-custom-code').value='';
+  document.getElementById('f-custom-desc').value='';
+  // Render into the custom chip box
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+  if(box){
+    const chips=[];
+    Object.keys(SELECTED).forEach(k=>{
+      if(FW_ORDER.indexOf(k)>=0||k===CUSTOM_FW_KEY)return;
+      (SELECTED[k]||[]).forEach(c=>{
+        const d=CUSTOM_DESC[c]||'';
+        chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+      });
+    });
+    box.innerHTML=chips.join('');
+  }
+}
+
+function getAllSelectedStandards(){
+  // Return dict of fw -> [codes] for everything that has entries
+  const out={};
+  Object.keys(SELECTED).forEach(fw=>{
+    if(fw===CUSTOM_FW_KEY)return;
+    if((SELECTED[fw]||[]).length)out[fw]=[...SELECTED[fw]];
+  });
+  return out;
+}
+function setSelectedStandards(dict){
+  // Reset all
+  Object.keys(SELECTED).forEach(k=>SELECTED[k]=[]);
+  Object.keys(CUSTOM_DESC).forEach(k=>delete CUSTOM_DESC[k]);
+  if(!dict||typeof dict!=='object')return;
+  Object.keys(dict).forEach(fw=>{
+    const codes=Array.isArray(dict[fw])?dict[fw]:[];
+    SELECTED[fw]=codes.slice();
+  });
+  // Re-render all chip boxes for known frameworks
+  FW_ORDER.forEach(fw=>renderChips(fw));
+  // Re-render custom block for any frameworks beyond FW_ORDER
+  const extras=Object.keys(SELECTED).filter(k=>FW_ORDER.indexOf(k)<0&&k!==CUSTOM_FW_KEY);
+  if(extras.length){
+    const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+    if(box){
+      const chips=[];
+      extras.forEach(k=>{
+        (SELECTED[k]||[]).forEach(c=>{
+          chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span><button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+        });
+      });
+      box.innerHTML=chips.join('');
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  renderPickers();
+  const grade=document.getElementById('f-grade');
+  if(grade)grade.addEventListener('change',refreshStdDropdowns);
+  const showAll=document.getElementById('f-std-show-all');
+  if(showAll)showAll.addEventListener('change',refreshStdDropdowns);
+  const label=document.getElementById('std-grade-label');
+  if(label&&grade)label.textContent=grade.value||'—';
+  // Keep the hidden f-iot-sensors input in sync with the checkbox grid so
+  // collect(), the draft cache, and Markdown round-trip all see the same data.
+  const grid=document.getElementById('iot-sensor-grid');
+  const hidden=document.getElementById('f-iot-sensors');
+  if(grid&&hidden){
+    grid.querySelectorAll('input[type="checkbox"][data-sensor]').forEach(cb=>{
+      cb.addEventListener('change',syncSensorsFromBoxes);
+    });
+  }
+});
+
+function syncSensorsFromBoxes(){
+  const grid=document.getElementById('iot-sensor-grid');
+  const hidden=document.getElementById('f-iot-sensors');
+  if(!grid||!hidden)return;
+  const picked=[...grid.querySelectorAll('input[type="checkbox"][data-sensor]:checked')]
+    .map(cb=>cb.dataset.sensor);
+  hidden.value=picked.join(', ');
+  // Fire an input event so the draft cache's autosave picks it up.
+  hidden.dispatchEvent(new Event('input',{bubbles:true}));
+}
+function syncBoxesFromSensors(val){
+  const grid=document.getElementById('iot-sensor-grid');
+  if(!grid)return;
+  const wanted=new Set(splitList(val||'').map(s=>s.toLowerCase()));
+  grid.querySelectorAll('input[type="checkbox"][data-sensor]').forEach(cb=>{
+    cb.checked=wanted.has((cb.dataset.sensor||'').toLowerCase());
+  });
+}
+
+function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
+function vc(id){const el=document.getElementById(id);return el&&el.type==='checkbox'&&el.checked?'Yes':''}
+function splitList(s){return s?s.split(',').map(x=>x.trim()).filter(Boolean):[]}
+function slugify(s){return (s||'').toLowerCase().trim().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'')||'untitled-lesson'}
+function escQ(s){return (s||'').replace(/\\/g,'\\\\').replace(/"/g,'\\"')}
+function escH(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function nl2br(s){return escH(s).replace(/\n/g,'<br>')}
+
+function collect(){
+  // Make sure the hidden sensor string is current before reading it.
+  syncSensorsFromBoxes();
+  return {
+    title:v('f-title')||'Untitled Lesson',
+    author:v('f-author'),
+    grade:v('f-grade'),
+    subject:v('f-subject'),
+    discipline:v('f-discipline'),
+    duration:v('f-duration'),
+    summary:v('f-summary'),
+    tags:v('f-tags'),
+    standards:getAllSelectedStandards(),
+    sep:v('f-sep'),
+    ccc:v('f-ccc'),
+    dci:v('f-dci'),
+    cReal:v('f-c-real'),
+    cCareer:v('f-c-career'),
+    rMisc:v('f-r-misc'),
+    rCorrect:v('f-r-correct'),
+    aIdo:v('f-a-ido'),
+    aWedo:v('f-a-wedo'),
+    aYoudo:v('f-a-youdo'),
+    aMaterials:v('f-a-materials'),
+    fFormative:v('f-f-formative'),
+    fCtm:v('f-f-ctm'),
+    tNext:v('f-t-next'),
+    tExt:v('f-t-ext'),
+    summative:v('f-summative'),
+    notes:v('f-notes'),
+    iotSensors:v('f-iot-sensors'),
+    iotProgEnv:v('f-iot-prog-env'),
+    iotLlmCode:vc('f-iot-llm-code'),
+    iotDataPlan:v('f-iot-dataplan'),
+    iotDataVerify:v('f-iot-dataverify')
+  }
+}
+
+function setField(id,val){
+  if(val===undefined||val===null)return;
+  const s=(''+val).trim();
+  const el=document.getElementById(id);
+  if(!el)return;
+  if(el.type==='checkbox'){
+    el.checked=/^(yes|true|1|on)$/i.test(s);
+    return;
+  }
+  if(!s)return;
+  if(el.tagName==='SELECT'){
+    const opts=[...el.options].map(o=>o.value);
+    if(opts.indexOf(s)>=0)el.value=s;
+    return;
+  }
+  el.value=s;
+  if(id==='f-iot-sensors')syncBoxesFromSensors(s);
+}
+
+function fromMarkdown(md){
+  md=(md||'').replace(/\r\n/g,'\n');
+  const d={};
+  let body=md;
+
+  // Front matter (optional)
+  const fmMatch=md.match(/^---\n([\s\S]*?)\n---\n?/);
+  if(fmMatch){
+    const fm=fmMatch[1];
+    body=md.slice(fmMatch[0].length);
+    const scalar=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*(.*)$','m'));
+      if(!m)return '';
+      return m[1].trim().replace(/^['"]|['"]$/g,'').replace(/\\"/g,'"').replace(/\\\\/g,'\\');
+    };
+    d.title=scalar('title');
+    d.summary=scalar('description');
+    d.author=scalar('author');
+    d.materials=scalar('materials');
+    d.discipline=scalar('stem_discipline');
+    const listAfter=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
+      if(!m)return [];
+      return m[1].split('\n').map(l=>l.replace(/^\s*-\s+/,'').trim()).filter(Boolean);
+    };
+    const subjects=listAfter('subjects');
+    if(subjects.length)d.subject=subjects.join(', ');
+    const grades=listAfter('grade_levels');
+    if(grades.length)d.grade=grades[0];
+    // Parse structured standards: dict of framework -> list
+    //   standards:
+    //     CSTA:
+    //     - 1A-AP-10
+    //     NGSS:
+    //     - MS-PS2-2
+    // Walk lines manually so we stop cleanly at the next top-level key.
+    const fmLines=fm.split('\n');
+    let stdIdx=-1;
+    for(let i=0;i<fmLines.length;i++){
+      if(/^standards:\s*$/.test(fmLines[i])){stdIdx=i;break}
+    }
+    if(stdIdx>=0){
+      const stdDict={};
+      let curFw=null;
+      for(let i=stdIdx+1;i<fmLines.length;i++){
+        const line=fmLines[i];
+        if(/^\S/.test(line))break; // next top-level key
+        const fwMatch=line.match(/^\s{2}([^:\n]+?):\s*$/);
+        const itemMatch=line.match(/^\s{2,}-\s+(.+)$/);
+        if(fwMatch){
+          curFw=fwMatch[1].trim().replace(/^["']|["']$/g,'');
+          if(!stdDict[curFw])stdDict[curFw]=[];
+        }else if(itemMatch&&curFw){
+          const code=itemMatch[1].trim().replace(/^["']|["']$/g,'');
+          if(code)stdDict[curFw].push(code);
+        }
+      }
+      if(Object.keys(stdDict).length)d.standards=stdDict;
+    }
+    const tags=listAfter('tags').filter(t=>t!=='CRAFT'&&t!=='IoT');
+    if(tags.length)d.tags=tags.join(', ');
+    if(d.materials)d.materials=d.materials.replace(/;\s*/g,'\n');
+  }
+
+  // Strip trailing attribution block
+  body=body.replace(/\n---\s*\n\*Generated from[\s\S]*$/,'').trim();
+
+  // Title from # heading (only if not in front matter)
+  const titleMatch=body.match(/^#\s+(.+?)\s*$/m);
+  if(titleMatch&&!d.title)d.title=titleMatch[1].trim();
+
+  // Parse top-level ## sections
+  const sections={};
+  const re=/^##\s+(.+?)\s*$/gm;
+  const hits=[];
+  let mm;
+  while((mm=re.exec(body))!==null)hits.push({name:mm[1].trim(),start:mm.index+mm[0].length,idx:mm.index});
+  for(let i=0;i<hits.length;i++){
+    const end=i+1<hits.length?hits[i+1].idx:body.length;
+    sections[hits[i].name]=body.slice(hits[i].start,end).trim();
+  }
+  // Case-insensitive section lookup (handles ## STANDARDS, ## standards, etc.)
+  const findSection=(name)=>{
+    if(sections[name])return sections[name];
+    const lc=name.toLowerCase();
+    for(const k of Object.keys(sections)){if(k.toLowerCase()===lc)return sections[k]}
+    return '';
+  };
+
+  const lineVal=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const lm=text.match(new RegExp('^-\\s*\\*\\*'+esc+':\\*\\*\\s*(.+)$','m'));
+    return lm?lm[1].trim():'';
+  };
+  const labeledBlock=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const pat=new RegExp('\\*\\*'+esc+':\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\n\\*\\*[^*\\n]+:\\*\\*|$)');
+    const lm=text.match(pat);
+    return lm?lm[1].trim():'';
+  };
+
+  // Overview: free-text summary + optional meta bullet list
+  if(findSection('Overview')){
+    const overview=findSection('Overview');
+    const bulletIdx=overview.search(/(^|\n)-\s*\*\*/);
+    let summary=overview,list='';
+    if(bulletIdx>=0){
+      summary=overview.slice(0,bulletIdx).trim();
+      list=overview.slice(bulletIdx);
+    }
+    if(summary&&!d.summary)d.summary=summary;
+    if(list){
+      d.grade=lineVal(list,'Grade Level')||d.grade;
+      d.subject=lineVal(list,'Subject Area')||d.subject;
+      d.duration=lineVal(list,'Estimated Duration')||d.duration;
+      d.author=lineVal(list,'Author')||d.author;
+      d.discipline=lineVal(list,'STEM Discipline')||lineVal(list,'Discipline')||d.discipline;
+    }
+  }
+
+  // Standards Alignment — parse multi-framework standards from multiple formats.
+  // Accepts:
+  //   1. Bullet+bold:  - **CSTA:** 1A-AP-10, 1A-AP-14
+  //   2. Bold only:    **CSTA:** 1A-AP-10, 1A-AP-14
+  //   3. Table rows:   | CSTA (Computer Science) | 1A-AP-10 |
+  //   4. Plain text:   CSTA: 1A-AP-10, 1A-AP-14
+  const stdSection=findSection('Standards Alignment')||findSection('Standards')||'';
+  if(stdSection){
+    const dict=d.standards||{};
+    const isNgss3d=(fw)=>/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)||/^Crosscutting\s*Concept$/i.test(fw)||/^Disciplinary\s*Core\s*Idea$/i.test(fw);
+    const isPE=(fw)=>/^Performance\s*Expectation/i.test(fw);
+    const ingestLine=(fw,val)=>{
+      fw=fw.trim();val=val.trim();
+      if(!fw||!val)return;
+      if(/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)){d.sep=val;return}
+      if(/^Crosscutting\s*Concept$/i.test(fw)){d.ccc=val;return}
+      if(/^Disciplinary\s*Core\s*Idea$/i.test(fw)){d.dci=val;return}
+      if(isPE(fw)){
+        const codes=val.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+        if(codes.length){dict['NGSS']=(dict['NGSS']||[]).concat(codes.filter(c=>(dict['NGSS']||[]).indexOf(c)<0))}
+        return;
+      }
+      const codes=val.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      if(codes.length){
+        const existing=dict[fw]||[];
+        codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
+        dict[fw]=existing;
+      }
+    };
+    let matched=false;
+    // Format 1: bullet + bold  - **FW:** codes
+    const reBB=/^-\s*\*\*([^:*]+):\*\*\s*(.+)$/gm;
+    let mLine;
+    while((mLine=reBB.exec(stdSection))!==null){matched=true;ingestLine(mLine[1],mLine[2])}
+    // Format 2: bold only  **FW:** codes  (no leading bullet)
+    if(!matched){
+      const reBold=/^\*\*([^:*]+):\*\*\s*(.+)$/gm;
+      while((mLine=reBold.exec(stdSection))!==null){matched=true;ingestLine(mLine[1],mLine[2])}
+    }
+    // Format 3: markdown table  | Framework | Code(s) |
+    if(!matched){
+      const reTable=/^\|\s*([^|\-][^|]*?)\s*\|\s*([^|\-][^|]*?)\s*\|/gm;
+      while((mLine=reTable.exec(stdSection))!==null){
+        const fw=mLine[1].trim();const val=mLine[2].trim();
+        // Skip header rows and separator rows
+        if(!fw||!val||/^[-\s]+$/.test(fw)||/^[-\s]+$/.test(val))continue;
+        if(/framework/i.test(fw)&&/code/i.test(val))continue;
+        matched=true;ingestLine(fw,val);
+      }
+    }
+    // Format 4: plain text  FW: codes  (must start with a letter, cap before colon)
+    if(!matched){
+      const rePlain=/^([A-Za-z][^:\n]{0,60}):\s+(.+)$/gm;
+      while((mLine=rePlain.exec(stdSection))!==null){
+        const fw=mLine[1].trim();
+        // Skip lines that look like prose rather than framework labels
+        if(/\s{3,}/.test(fw))continue;
+        ingestLine(fw,mLine[2]);
+      }
+    }
+    if(Object.keys(dict).length)d.standards=dict;
+  }
+  // Legacy NGSS Alignment section
+  if(findSection('NGSS Alignment')){
+    const na=findSection('NGSS Alignment');
+    const ngssLine=lineVal(na,'Performance Expectation(s)');
+    if(ngssLine){
+      const codes=ngssLine.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      if(codes.length){
+        d.standards=d.standards||{};
+        const existing=d.standards['NGSS']||[];
+        codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
+        d.standards['NGSS']=existing;
+      }
+    }
+    d.sep=lineVal(na,'Science & Engineering Practice')||d.sep;
+    d.ccc=lineVal(na,'Crosscutting Concept')||d.ccc;
+    d.dci=lineVal(na,'Disciplinary Core Idea')||d.dci;
+  }
+
+  // CRAFT Cycle with ### sub-sections
+  if(findSection('CRAFT Cycle')){
+    const cc=findSection('CRAFT Cycle');
+    const subRe=/^###\s+(.+?)\s*$/gm;
+    const subHits=[];
+    let sm;
+    while((sm=subRe.exec(cc))!==null)subHits.push({name:sm[1].trim(),start:sm.index+sm[0].length,idx:sm.index});
+    const subs={};
+    for(let i=0;i<subHits.length;i++){
+      const end=i+1<subHits.length?subHits[i+1].idx:cc.length;
+      subs[subHits[i].name]=cc.slice(subHits[i].start,end).trim();
+    }
+    const findLetter=(letter)=>{
+      for(const k of Object.keys(subs)){
+        if(k.charAt(0).toUpperCase()===letter)return subs[k];
+      }
+      return '';
+    };
+
+    const cText=findLetter('C');
+    if(cText){
+      const parts=cText.split(/\n\s*\*\*Career Connection:\*\*\s*/);
+      d.cReal=parts[0].trim();
+      if(parts.length>1)d.cCareer=parts[1].trim();
+    }
+    const rText=findLetter('R');
+    if(rText){
+      d.rMisc=labeledBlock(rText,'Common Misconception');
+      d.rCorrect=labeledBlock(rText,'Correct Understanding');
+    }
+    const aText=findLetter('A');
+    if(aText){
+      d.aIdo=labeledBlock(aText,'I Do — Teacher Demonstrates');
+      d.aWedo=labeledBlock(aText,'We Do — Guided Practice');
+      d.aYoudo=labeledBlock(aText,'You Do — Independent/Group Practice');
+      const dp=labeledBlock(aText,'Data Collection Plan');
+      if(dp)d.iotDataPlan=dp;
+      const mats=labeledBlock(aText,'Materials Needed');
+      if(mats)d.aMaterials=mats;
+    }
+    const fText=findLetter('F');
+    if(fText){
+      d.fFormative=labeledBlock(fText,'Formative Assessment');
+      d.fCtm=labeledBlock(fText,'Check the Machine (CtM)');
+      const dv=labeledBlock(fText,'Data Verification Activity');
+      if(dv)d.iotDataVerify=dv;
+    }
+    const tText=findLetter('T');
+    if(tText){
+      d.tNext=labeledBlock(tText,'Connection to Next Lesson');
+      d.tExt=labeledBlock(tText,'Extension / Homework');
+    }
+  }
+
+  // IoT-specific Hardware & Programming Setup section
+  const hwSection=findSection('Hardware & Programming Setup')||findSection('Hardware &amp; Programming Setup')||findSection('Hardware Setup')||'';
+  if(hwSection){
+    const sensors=lineVal(hwSection,'Sensors');
+    if(sensors)d.iotSensors=sensors;
+    const pe=lineVal(hwSection,'Programming Environment');
+    if(pe)d.iotProgEnv=pe;
+    const llm=lineVal(hwSection,'LLM Coding Support');
+    if(llm)d.iotLlmCode=/^(yes|true)/i.test(llm)?'Yes':'';
+  }
+
+  if(findSection('Assessment'))d.summative=findSection('Assessment');
+  if(findSection('Notes & Reflections'))d.notes=findSection('Notes & Reflections');
+
+  // Prefer body-derived materials over front-matter single-line form
+  if(!d.aMaterials&&d.materials)d.aMaterials=d.materials;
+
+  return d;
+}
+
+function loadMarkdown(){
+  const raw=v('f-loadtext');
+  if(!raw){flash('Paste markdown or choose a .md file first');return}
+  let d;
+  try{d=fromMarkdown(raw)}
+  catch(e){flash('Could not parse markdown: '+e.message);return}
+  setField('f-title',d.title);
+  setField('f-author',d.author);
+  setField('f-grade',d.grade);
+  setField('f-subject',d.subject);
+  setField('f-discipline',d.discipline);
+  setField('f-duration',d.duration);
+  setField('f-summary',d.summary);
+  setField('f-tags',d.tags);
+  setSelectedStandards(d.standards||{});
+  setField('f-sep',d.sep);
+  setField('f-ccc',d.ccc);
+  setField('f-dci',d.dci);
+  setField('f-c-real',d.cReal);
+  setField('f-c-career',d.cCareer);
+  setField('f-r-misc',d.rMisc);
+  setField('f-r-correct',d.rCorrect);
+  setField('f-a-ido',d.aIdo);
+  setField('f-a-wedo',d.aWedo);
+  setField('f-a-youdo',d.aYoudo);
+  setField('f-a-materials',d.aMaterials);
+  setField('f-f-formative',d.fFormative);
+  setField('f-f-ctm',d.fCtm);
+  setField('f-t-next',d.tNext);
+  setField('f-t-ext',d.tExt);
+  setField('f-summative',d.summative);
+  setField('f-notes',d.notes);
+  setField('f-iot-sensors',d.iotSensors);
+  setField('f-iot-prog-env',d.iotProgEnv);
+  setField('f-iot-llm-code',d.iotLlmCode);
+  setField('f-iot-dataplan',d.iotDataPlan);
+  setField('f-iot-dataverify',d.iotDataVerify);
+  refreshStdDropdowns();
+  flash('Lesson loaded — review and edit as needed');
+}
+
+function loadFile(e){
+  const file=e.target.files&&e.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    document.getElementById('f-loadtext').value=ev.target.result;
+    loadMarkdown();
+  };
+  reader.readAsText(file);
+}
+
+function toMarkdown(d){
+  const date=new Date().toISOString().slice(0,10);
+  // IoT template always adds the 'IoT' tag alongside 'CRAFT'.
+  const seen=new Set();
+  const tags=['CRAFT','IoT',...splitList(d.tags)].filter(t=>{const k=t.toLowerCase();if(seen.has(k))return false;seen.add(k);return true});
+  const subjects=splitList(d.subject);
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
+  let fm='---\n';
+  fm+='title: "'+escQ(d.title)+'"\n';
+  if(d.summary)fm+='description: "'+escQ(d.summary.replace(/\s+/g,' '))+'"\n';
+  fm+="date: '"+date+"'\n";
+  fm+='draft: true\n';
+  if(d.author)fm+='author: "'+escQ(d.author)+'"\n';
+  if(subjects.length){fm+='subjects:\n';subjects.forEach(s=>fm+='- '+s+'\n')}
+  if(d.grade){fm+='grade_levels:\n- '+d.grade+'\n'}
+  if(d.discipline)fm+='stem_discipline: "'+escQ(d.discipline)+'"\n';
+  if(fwList.length){
+    fm+='standard_types:\n';
+    fwList.forEach(fw=>fm+='- "'+escQ(fw)+'"\n');
+    fm+='standards:\n';
+    fwList.forEach(fw=>{
+      fm+='  '+fw+':\n';
+      (standards[fw]||[]).forEach(c=>fm+='  - '+c+'\n');
+    });
+  }
+  if(d.aMaterials)fm+='materials: "'+escQ(d.aMaterials.replace(/\s*\n+\s*/g,'; '))+'"\n';
+  if(d.iotSensors)fm+='iot_sensors: "'+escQ(d.iotSensors)+'"\n';
+  if(d.iotProgEnv)fm+='iot_programming_env: "'+escQ(d.iotProgEnv)+'"\n';
+  fm+='tags:\n';
+  tags.forEach(t=>fm+='- '+t+'\n');
+  fm+='---\n\n';
+
+  let b='# '+d.title+'\n\n## Overview\n\n';
+  if(d.summary)b+=d.summary+'\n\n';
+  const meta=[];
+  if(d.grade)meta.push('- **Grade Level:** '+d.grade);
+  if(d.subject)meta.push('- **Subject Area:** '+d.subject);
+  if(d.discipline)meta.push('- **STEM Discipline:** '+d.discipline);
+  if(d.duration)meta.push('- **Estimated Duration:** '+d.duration);
+  if(d.author)meta.push('- **Author:** '+d.author);
+  if(meta.length)b+=meta.join('\n')+'\n\n';
+
+  if(fwList.length||d.sep||d.ccc||d.dci){
+    b+='## Standards Alignment\n\n';
+    fwList.forEach(fw=>{
+      const codes=standards[fw]||[];
+      if(codes.length)b+='- **'+fw+':** '+codes.join(', ')+'\n';
+    });
+    if(d.sep)b+='- **Science & Engineering Practice:** '+d.sep+'\n';
+    if(d.ccc)b+='- **Crosscutting Concept:** '+d.ccc+'\n';
+    if(d.dci)b+='- **Disciplinary Core Idea:** '+d.dci+'\n';
+    b+='\n';
+  }
+
+  if(d.iotSensors||d.iotProgEnv||d.iotLlmCode){
+    b+='## Hardware & Programming Setup\n\n';
+    if(d.iotSensors)b+='- **Sensors:** '+d.iotSensors+'\n';
+    if(d.iotProgEnv)b+='- **Programming Environment:** '+d.iotProgEnv+'\n';
+    if(d.iotLlmCode)b+='- **LLM Coding Support:** Yes — students will use an LLM to help write or debug code\n';
+    b+='\n';
+  }
+
+  b+='## CRAFT Cycle\n\n### C — Contextualize (Why This Matters)\n\n';
+  if(d.cReal)b+=d.cReal+'\n\n';
+  if(d.cCareer)b+='**Career Connection:** '+d.cCareer+'\n\n';
+
+  b+='### R — Reframe (Address the Misconception)\n\n';
+  if(d.rMisc)b+='**Common Misconception:** '+d.rMisc+'\n\n';
+  if(d.rCorrect)b+='**Correct Understanding:** '+d.rCorrect+'\n\n';
+
+  b+='### A — Assemble (I Do → We Do → You Do)\n\n';
+  if(d.aIdo)b+='**I Do — Teacher Demonstrates:**  \n'+d.aIdo+'\n\n';
+  if(d.aWedo)b+='**We Do — Guided Practice:**  \n'+d.aWedo+'\n\n';
+  if(d.aYoudo)b+='**You Do — Independent/Group Practice:**  \n'+d.aYoudo+'\n\n';
+  if(d.iotDataPlan)b+='**Data Collection Plan:**  \n'+d.iotDataPlan+'\n\n';
+  if(d.aMaterials)b+='**Materials Needed:**  \n'+d.aMaterials+'\n\n';
+
+  b+='### F — Fortify (Verify Understanding)\n\n';
+  if(d.iotDataVerify)b+='**Data Verification Activity:**  \n'+d.iotDataVerify+'\n\n';
+  if(d.fFormative)b+='**Formative Assessment:** '+d.fFormative+'\n\n';
+  if(d.fCtm)b+='**Check the Machine (CtM):**  \n'+d.fCtm+'\n\n';
+
+  b+='### T — Transfer (Connect Forward)\n\n';
+  if(d.tNext)b+='**Connection to Next Lesson:** '+d.tNext+'\n\n';
+  if(d.tExt)b+='**Extension / Homework:** '+d.tExt+'\n\n';
+
+  if(d.summative)b+='## Assessment\n\n'+d.summative+'\n\n';
+  if(d.notes)b+='## Notes & Reflections\n\n'+d.notes+'\n\n';
+
+  b+=CITATION_MD;
+  return fm+b;
+}
+
+function toHTML(d){
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
+  let h='<h1>'+escH(d.title)+'</h1>';
+  if(d.author)h+='<p><em>By '+escH(d.author)+'</em></p>';
+  h+='<h2>Overview</h2>';
+  if(d.summary)h+='<p>'+nl2br(d.summary)+'</p>';
+  const meta=[];
+  if(d.grade)meta.push('<li><strong>Grade Level:</strong> '+escH(d.grade)+'</li>');
+  if(d.subject)meta.push('<li><strong>Subject Area:</strong> '+escH(d.subject)+'</li>');
+  if(d.discipline)meta.push('<li><strong>STEM Discipline:</strong> '+escH(d.discipline)+'</li>');
+  if(d.duration)meta.push('<li><strong>Estimated Duration:</strong> '+escH(d.duration)+'</li>');
+  if(meta.length)h+='<ul>'+meta.join('')+'</ul>';
+
+  if(fwList.length||d.sep||d.ccc||d.dci){
+    h+='<h2>Standards Alignment</h2><ul>';
+    fwList.forEach(fw=>{
+      const codes=standards[fw]||[];
+      if(codes.length)h+='<li><strong>'+escH(fw)+':</strong> '+escH(codes.join(', '))+'</li>';
+    });
+    if(d.sep)h+='<li><strong>Science &amp; Engineering Practice:</strong> '+escH(d.sep)+'</li>';
+    if(d.ccc)h+='<li><strong>Crosscutting Concept:</strong> '+escH(d.ccc)+'</li>';
+    if(d.dci)h+='<li><strong>Disciplinary Core Idea:</strong> '+escH(d.dci)+'</li>';
+    h+='</ul>';
+  }
+
+  if(d.iotSensors||d.iotProgEnv||d.iotLlmCode){
+    h+='<h2>Hardware &amp; Programming Setup</h2><ul>';
+    if(d.iotSensors)h+='<li><strong>Sensors:</strong> '+escH(d.iotSensors)+'</li>';
+    if(d.iotProgEnv)h+='<li><strong>Programming Environment:</strong> '+escH(d.iotProgEnv)+'</li>';
+    if(d.iotLlmCode)h+='<li><strong>LLM Coding Support:</strong> Yes — students will use an LLM to help write or debug code</li>';
+    h+='</ul>';
+  }
+
+  h+='<h2>CRAFT Cycle</h2>';
+  h+='<h3>C — Contextualize (Why This Matters)</h3>';
+  if(d.cReal)h+='<p>'+nl2br(d.cReal)+'</p>';
+  if(d.cCareer)h+='<p><strong>Career Connection:</strong> '+escH(d.cCareer)+'</p>';
+
+  h+='<h3>R — Reframe (Address the Misconception)</h3>';
+  if(d.rMisc)h+='<p><strong>Common Misconception:</strong> '+nl2br(d.rMisc)+'</p>';
+  if(d.rCorrect)h+='<p><strong>Correct Understanding:</strong> '+nl2br(d.rCorrect)+'</p>';
+
+  h+='<h3>A — Assemble (I Do → We Do → You Do)</h3>';
+  if(d.aIdo)h+='<p><strong>I Do — Teacher Demonstrates:</strong><br>'+nl2br(d.aIdo)+'</p>';
+  if(d.aWedo)h+='<p><strong>We Do — Guided Practice:</strong><br>'+nl2br(d.aWedo)+'</p>';
+  if(d.aYoudo)h+='<p><strong>You Do — Independent/Group Practice:</strong><br>'+nl2br(d.aYoudo)+'</p>';
+  if(d.iotDataPlan)h+='<p><strong>Data Collection Plan:</strong><br>'+nl2br(d.iotDataPlan)+'</p>';
+  if(d.aMaterials)h+='<p><strong>Materials Needed:</strong><br>'+nl2br(d.aMaterials)+'</p>';
+
+  h+='<h3>F — Fortify (Verify Understanding)</h3>';
+  if(d.iotDataVerify)h+='<p><strong>Data Verification Activity:</strong><br>'+nl2br(d.iotDataVerify)+'</p>';
+  if(d.fFormative)h+='<p><strong>Formative Assessment:</strong> '+nl2br(d.fFormative)+'</p>';
+  if(d.fCtm)h+='<p><strong>Check the Machine (CtM):</strong><br>'+nl2br(d.fCtm)+'</p>';
+
+  h+='<h3>T — Transfer (Connect Forward)</h3>';
+  if(d.tNext)h+='<p><strong>Connection to Next Lesson:</strong> '+nl2br(d.tNext)+'</p>';
+  if(d.tExt)h+='<p><strong>Extension / Homework:</strong> '+nl2br(d.tExt)+'</p>';
+
+  if(d.summative)h+='<h2>Assessment</h2><p>'+nl2br(d.summative)+'</p>';
+  if(d.notes)h+='<h2>Notes &amp; Reflections</h2><p>'+nl2br(d.notes)+'</p>';
+  h+=CITATION_HTML;
+  return h;
+}
+
+async function clipboardText(t){
+  try{
+    if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(t);return true}
+  }catch(e){}
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.focus();ta.select();
+    const ok=document.execCommand('copy');
+    ta.remove();return ok;
+  }catch(e){return false}
+}
+
+async function copyMarkdown(){
+  const md=toMarkdown(collect());
+  if(await clipboardText(md))flash('Markdown copied to clipboard');
+  else flash('Could not copy — please try the Download .md button');
+}
+
+function buildLLMPrompt(d){
+  const draft=toMarkdown(d);
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
+  let p='';
+  const gradeLabel=d.grade||'K-12';
+  const bandDesc={'K-2':'early-elementary (ages 5-8)','3-5':'upper-elementary (ages 8-11)','6-8':'middle-school (ages 11-14)','9-12':'high-school (ages 14-18)'}[gradeLabel]||gradeLabel;
+  const sensors=(d.iotSensors||'').trim();
+  const progEnv=(d.iotProgEnv||'').trim();
+  const usesLlmCode=!!(d.iotLlmCode&&/^(yes|true|1)/i.test(d.iotLlmCode));
+  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education, helping complete and iterate on an **IoT lesson plan** that uses the **BBC micro:bit** (and, where relevant, a two-node sensor-to-aggregator pattern over radio) and follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). Treat this as a hands-on lesson where students read real sensor data, reason about measurement and uncertainty, and — in the Fortify phase — compare an AI\'s general claims to their own verifiable measurements via a Check-the-Machine exercise.\n\n';
+  if(sensors)p+='The teacher has indicated students will use these micro:bit sensors: **'+sensors+'**. Calibrate every phase around these sensors — what they measure, their units, their resolution limits, and the kinds of investigations they enable.\n\n';
+  if(progEnv)p+='Programming environment: **'+progEnv+'**. Describe code and debugging in terms appropriate to this environment (e.g., MakeCode blocks vs. MicroPython), and if relevant show a short code sketch.\n\n';
+  if(usesLlmCode)p+='Students will use an LLM to help write or debug code. Build the CtM exercise around an AI-authored code artifact or explanation — have students predict what the code should do, run it, and reconcile the AI\'s output with what the hardware actually does.\n\n';
+  p+='## Your Task\n\n';
+  p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
+  p+='1. **Filling in missing or thin sections** with thoughtful, grade-appropriate content that fits the topic, subject area, and audience. Empty or sparse fields are the biggest opportunity to add value.\n';
+  p+='2. **Strengthening existing content** by expanding bullet-point ideas into full, classroom-ready descriptions. Preserve the teacher\'s voice and intent where content is already present — improve, don\'t replace.\n';
+  p+='3. **Verifying standards alignment** — the teacher may have selected standards from one or more frameworks (CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts, or a custom framework). Make sure every listed standard is a real, verifiable code in the declared framework and that the activities authentically address each one. If you are unsure whether a code is real, flag it in the Notes & Reflections section rather than fabricating one. Never invent new codes.\n';
+  if(fwList.length){
+    p+='   The teacher has already aligned to these framework(s): '+fwList.join(', ')+'. Preserve this alignment and deepen the treatment of each listed standard in the activity design.\n';
+  }
+  p+='4. **Citing and cross-referencing source materials** — when the lesson references specific concepts, facts, techniques, or data, include brief citations or references back to authoritative source materials (e.g., textbook chapters, framework documents, published research, official curriculum guides). Use inline parenthetical citations like "(see NGSS Lead States, 2013)" or "(adapted from CS Unplugged, Activity 4)". In the Notes & Reflections section, list any key references so the teacher can verify claims and dig deeper. Do NOT fabricate citations — only cite sources you are confident are real.\n';
+  p+='5. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
+  p+='6. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do, including sensor setup and data collection) · F: 5-10 min · T: 3-5 min.\n';
+  p+='7. **Designing a specific IoT Data Collection Plan** (in the A phase) and a **Data Verification Activity** (in the F phase). The data plan should specify which sensor(s), sampling interval, duration, how students record readings (table, spreadsheet, MakeCode data-logger, or radio to an aggregator), and — if two nodes are used — the roles of the sensor and aggregator nodes. The verification activity should have students cross-check their micro:bit readings against a trusted reference (a lab thermometer, phone decibel meter, another calibrated sensor) and discuss sources of error.\n';
+  p+='8. **Including a "Check the Machine" exercise** in the Fortify phase. Structure it around FOUR parts — Task (what students ask the AI), Before (what students predict), After (what the AI produced and how it compares to their data), Takeaway (what the comparison revealed). Students should leave the lesson more trusting of their own measurements than of an AI\'s general claim.\n\n';
+  p+='## Output Format — CRITICAL\n\n';
+  p+='Return ONLY the complete revised lesson plan as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing lesson from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
+  p+='Follow these rules exactly:\n\n';
+  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `stem_discipline`, `standard_types`, `standards`, `materials`, `iot_sensors`, `iot_programming_env`, and `tags`. Always keep both `CRAFT` and `IoT` in the `tags` list.\n';
+  p+='- The `standards` key must be a YAML dict mapping framework name to a list of codes, e.g. `standards:\\n  CSTA:\\n  - 1A-AP-10\\n  NGSS:\\n  - MS-PS2-2`. Include every framework the teacher uses. `standard_types` is the list of framework names in the same order.\n';
+  p+='- Use `# Lesson Title` as the single H1.\n';
+  p+='- Use these H2 headings in order: `## Overview`, `## Standards Alignment`, `## Hardware & Programming Setup`, `## CRAFT Cycle`, `## Assessment`, `## Notes & Reflections`.\n';
+  p+='- Under `## Hardware & Programming Setup`, use a bullet list with these exact keys when present: `- **Sensors:** <comma-separated list>`, `- **Programming Environment:** <MakeCode/MicroPython/…>`, and — if students will use an LLM to help code — `- **LLM Coding Support:** Yes — students will use an LLM to help write or debug code`.\n';
+  p+='- Under `## Overview`, first write a 2-3 sentence summary paragraph, then a bullet list containing `- **Grade Level:** ...`, `- **Subject Area:** ...`, `- **STEM Discipline:** ...`, `- **Estimated Duration:** ...`, and `- **Author:** ...`.\n';
+  p+='- Under `## Standards Alignment`, use a bullet list with one bullet per framework: `- **<Framework name>:** <comma-separated codes>`. Only include NGSS three-dimensional sub-fields if NGSS is one of the frameworks. When NGSS is used, add (after the framework bullets) `- **Science & Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
+  p+='- Under `## CRAFT Cycle`, use exactly these H3 headings (em-dashes, not hyphens):\n';
+  p+='    - `### C — Contextualize (Why This Matters)`\n';
+  p+='    - `### R — Reframe (Address the Misconception)`\n';
+  p+='    - `### A — Assemble (I Do → We Do → You Do)`\n';
+  p+='    - `### F — Fortify (Verify Understanding)`\n';
+  p+='    - `### T — Transfer (Connect Forward)`\n';
+  p+='- Keep these bolded sub-labels verbatim (the loader uses them as parse anchors): `**Career Connection:**`, `**Common Misconception:**`, `**Correct Understanding:**`, `**I Do — Teacher Demonstrates:**`, `**We Do — Guided Practice:**`, `**You Do — Independent/Group Practice:**`, `**Data Collection Plan:**`, `**Materials Needed:**`, `**Data Verification Activity:**`, `**Formative Assessment:**`, `**Check the Machine (CtM):**`, `**Connection to Next Lesson:**`, `**Extension / Homework:**`.\n';
+  p+='- Separate each labeled block with a blank line so the parser can find boundaries.\n';
+  p+='- Do NOT wrap the whole document in a code fence. Do NOT add commentary, preamble, or summary before or after the Markdown. Your reply should be the Markdown document and nothing else.\n\n';
+  p+='## Citation — REQUIRED at the End of the Markdown\n\n';
+  p+='After `## Notes & Reflections`, append a final H2 section titled exactly `## Citation` containing this block, verbatim:\n\n';
+  p+='> **Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n\n';
+  p+='Do not remove, paraphrase, condense, or relocate this citation. The underlying CRAFT lesson template is the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com); every iteration must retain attribution to the source.\n\n';
+  p+='## Current Lesson Plan Draft\n\n';
+  p+='Fields the teacher left blank are simply absent from the draft below — fill those in. Fields with content are the teacher\'s starting point — refine and extend them.\n\n';
+  p+='<draft>\n';
+  p+=draft;
+  p+='\n</draft>\n';
+  return p;
+}
+
+async function copyLLMPrompt(){
+  const prompt=buildLLMPrompt(collect());
+  if(await clipboardText(prompt))flash('AI prompt copied — paste into ChatGPT, Claude, Gemini, or your LLM of choice');
+  else flash('Could not copy — your browser blocked clipboard access');
+}
+
+async function copyRichText(){
+  const d=collect();
+  const html=toHTML(d);
+  const plain=toMarkdown(d);
+  try{
+    if(navigator.clipboard&&typeof ClipboardItem!=='undefined'){
+      const item=new ClipboardItem({
+        'text/html':new Blob([html],{type:'text/html'}),
+        'text/plain':new Blob([plain],{type:'text/plain'})
+      });
+      await navigator.clipboard.write([item]);
+      flash('Rich text copied — paste into Google Docs, Word, or Pages');
+      return;
+    }
+  }catch(e){}
+  if(await clipboardText(plain))flash('Copied as plain markdown (rich-text clipboard unavailable in this browser)');
+  else flash('Could not copy — please try the Download .doc button');
+}
+
+function downloadFile(name,content,type){
+  const blob=new Blob([content],{type});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=name;document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},200);
+}
+
+function downloadMarkdown(){
+  const d=collect();
+  downloadFile(slugify(d.title)+'.md',toMarkdown(d),'text/markdown;charset=utf-8');
+  flash('Downloaded '+slugify(d.title)+'.md');
+}
+
+function downloadDoc(){
+  const d=collect();
+  const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
+  downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
+  flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
+}
+
+async function submitPR(){
+  const d=collect();
+  if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
+  const md=toMarkdown(d);
+  const slug=slugify(d.title);
+  const encoded=encodeURIComponent(md);
+  const baseUrl='https://github.com/'+REPO_OWNER+'/'+REPO_NAME+'/new/'+REPO_BRANCH+'/'+LESSON_PATH+'?filename='+encodeURIComponent(slug+'.md');
+  if(encoded.length>7500){
+    const copyFirst=confirm('Your lesson is long and may exceed GitHub\'s URL pre-fill limit.\n\nClick OK to copy the Markdown to your clipboard, then paste it on GitHub after the new-file page opens.\n\nClick Cancel to try the pre-filled link anyway.');
+    if(copyFirst){
+      await clipboardText(md);
+      window.open(baseUrl,'_blank','noopener');
+      flash('Markdown copied — paste it into the GitHub editor');
+      return;
+    }
+  }
+  window.open(baseUrl+'&value='+encoded,'_blank','noopener');
+  flash('Opening GitHub — sign in and submit your pull request for review');
+}
+
+async function submitEmail(){
+  const d=collect();
+  if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
+  const md=toMarkdown(d);
+  const slug=slugify(d.title);
+  const filename=slug+'.md';
+  downloadFile(filename,md,'text/markdown;charset=utf-8');
+  const author=(d.author||'').trim();
+  const grade=(d.grade||'').trim();
+  const subj='Lesson Plan Submission: '+d.title;
+  const bodyLines=[
+    'Hello CRAFT editors,',
+    '',
+    'I would like to submit the following lesson plan for the CRAFT community repository:',
+    '',
+    'Title: '+d.title,
+    author?('Author: '+author):null,
+    grade?('Grade Level: '+grade):null,
+    '',
+    'The lesson plan has been downloaded to my computer as "'+filename+'".',
+    'Please find it attached to this email.',
+    '',
+    '(If the file did not download automatically, please check your browser\'s Downloads folder or use the "Download .md" button in Step 3.)',
+    '',
+    'Thank you,',
+    author||'[Your name]'
+  ].filter(Boolean);
+  const body=bodyLines.join('\n');
+  const mailto='mailto:'+encodeURIComponent(SUBMIT_EMAIL)
+    +'?subject='+encodeURIComponent(subj)
+    +'&body='+encodeURIComponent(body);
+  // Small delay so the download dialog/flash shows before the mail client opens.
+  setTimeout(()=>{window.location.href=mailto},250);
+  flash('Downloaded '+filename+' — attach it to the email that just opened and send');
+}
+
+function flash(msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.classList.add('show');
+  clearTimeout(flash._t);
+  flash._t=setTimeout(()=>el.classList.remove('show'),2800);
+}
+
+function returnToLoader(){
+  const box=document.querySelector('details.load-box');
+  if(box){box.open=true;box.scrollIntoView({behavior:'smooth',block:'start'})}
+  const ta=document.getElementById('f-loadtext');
+  if(ta)setTimeout(()=>{try{ta.focus({preventScroll:true})}catch(e){ta.focus()}},600);
+  flash('Loader opened — paste the LLM reply and click Load into Form');
+}
+
+function topUploadMarkdown(){
+  const input=document.getElementById('f-toploadfile');
+  if(input){input.value='';input.click()}
+}
+</script>
+<script src="/js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildLLMPrompt(collect()), { label: false, disclaimer: false });
+  }
+});
+</script>
 </div>
 <script src="/js/credit-bar.js"></script>
 <script src="/js/last-updated-static.js"></script>
+<script src="/js/lesson-draft-cache.js"></script>
 </body></html>
