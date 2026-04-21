@@ -1,7 +1,7 @@
 ---
 title: '"So, you want to work for the DNI"'
 description: This is an introduction to the CyberSecurity aspect of National Intelligence
-date: '2023-07-14T11:09:46'
+date: '2023-07-14'
 draft: false
 author: Jerry Updike
 subjects:

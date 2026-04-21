@@ -5,7 +5,7 @@ description: 'Students will participate in a discussion post regarding confident
   will utilize a gradual release model referred to as TATER (Title, Axis, Trend, Explanation, & Relationship) to interpret and analyze their data tables/ diagrams. Students will complete 4 – 5 data display
   independently. Students use their programmed Micro: bits to participate in a series of multiple-choice questions regarding data tables/ diagrams. Students will collaborate with one another and clarify
   any misconceptions during whole group. The element of confidentiality will be a crucial element in this portion of the lesson as students will establish a foundation of security and privacy.'
-date: '2023-07-14T10:04:07'
+date: '2023-07-14'
 draft: false
 author: Sebastian Herrera
 subjects:
