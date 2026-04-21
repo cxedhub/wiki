@@ -3,7 +3,7 @@ title: Exploring the importance of Cyber Security and how it relates to Agricult
 description: Students will understand the importance of cybersecurity in agricultural technologies. Students will explore the potential risks and vulnerabilities associated with agricultural technologies.
   Students will learn strategies and best practices for ensuring cybersecurity in agricultural settings based on research from provided article resources and classroom discussion. Students will then put
   together a presentation to show different pieces of technology used in agriculture and show how important cyber security is to the production of food and global food security.
-date: '2023-07-13T15:18:13'
+date: '2023-07-13'
 draft: false
 author: Jessica Pastran
 subjects:

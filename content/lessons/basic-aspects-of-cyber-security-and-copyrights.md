@@ -2,7 +2,7 @@
 title: Basic aspects of Cyber security and Copyrights
 description: Students will be learning about the basic aspects of Cyber security. They will become aware of how to protect their information and or data on the internet. Also, they will learn about how
   to respect the works of others over the internet,
-date: '2023-07-13T15:05:14'
+date: '2023-07-13'
 draft: false
 author: Judes Francois
 subjects:
