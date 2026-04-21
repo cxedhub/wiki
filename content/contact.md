@@ -51,7 +51,33 @@ We believe professional development should be:
 - **Supportive of long-term instructional change**
 
 **Interested in custom PD for your team? Let's talk!**
-Contact us to start a conversation: mike@freyjalabs.com
+Fill out the form below to start a conversation.
+
+<form class="contact-form" action="mailto:mike@freyjalabs.com" method="post" enctype="text/plain">
+  <div class="contact-form__row">
+    <label class="contact-form__field">
+      <span class="contact-form__label">Name</span>
+      <input class="contact-form__input" type="text" name="name" required autocomplete="name">
+    </label>
+    <label class="contact-form__field">
+      <span class="contact-form__label">Email</span>
+      <input class="contact-form__input" type="email" name="email" required autocomplete="email">
+    </label>
+  </div>
+  <label class="contact-form__field">
+    <span class="contact-form__label">Organization / School</span>
+    <input class="contact-form__input" type="text" name="organization" autocomplete="organization">
+  </label>
+  <label class="contact-form__field">
+    <span class="contact-form__label">Subject</span>
+    <input class="contact-form__input" type="text" name="subject" required>
+  </label>
+  <label class="contact-form__field">
+    <span class="contact-form__label">Message</span>
+    <textarea class="contact-form__input contact-form__textarea" name="message" rows="6" required></textarea>
+  </label>
+  <button class="contact-form__btn" type="submit">Send Message</button>
+</form>
 
 ---
 
