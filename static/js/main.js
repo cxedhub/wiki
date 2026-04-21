@@ -83,7 +83,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var domainFilter = document.getElementById('filter-domain');
   var clearBtn = document.getElementById('clear-filters');
   var countEl = document.getElementById('filter-count');
-  var cards = document.querySelectorAll('#lesson-list .card');
+  var sortSelect = document.getElementById('sort-select');
+  var cards = Array.from(document.querySelectorAll('#lesson-list .card'));
+
+  // Sort-only pages (e.g., taxonomy terms) have no search input but may have
+  // a sort dropdown. Handle those first and exit.
+  if (!searchInput && sortSelect && cards.length > 0) {
+    initSortOnly(sortSelect, cards);
+    return;
+  }
 
   if (!searchInput || cards.length === 0) return;
 
@@ -133,8 +141,59 @@ document.addEventListener('DOMContentLoaded', function () {
     filterCards();
   });
 
+  if (sortSelect) {
+    var parent = document.getElementById('lesson-list');
+    function applyLegacySort() {
+      var val = sortSelect.value;
+      var sorted = cards.slice();
+      if (val === 'title') {
+        sorted.sort(function (a, b) { return (a.dataset.title || '').localeCompare(b.dataset.title || ''); });
+      } else if (val === 'title-desc') {
+        sorted.sort(function (a, b) { return (b.dataset.title || '').localeCompare(a.dataset.title || ''); });
+      } else if (val === 'date') {
+        sorted.sort(function (a, b) { return (b.dataset.date || '').localeCompare(a.dataset.date || ''); });
+      } else if (val === 'random') {
+        shuffleCards(sorted);
+      }
+      sorted.forEach(function (card) { parent.appendChild(card); });
+    }
+    sortSelect.addEventListener('change', applyLegacySort);
+    applyLegacySort();
+  }
+
   filterCards();
 });
+
+// Fisher-Yates shuffle, used by sort-only pages and the legacy sort handler.
+function shuffleCards(arr) {
+  for (var i = arr.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tmp;
+  }
+}
+
+// Pages with a sort dropdown but no search/filter inputs (e.g., taxonomy terms).
+function initSortOnly(sortSelect, cards) {
+  var parent = document.getElementById('lesson-list');
+  function applySort() {
+    var val = sortSelect.value;
+    var sorted = cards.slice();
+    if (val === 'title') {
+      sorted.sort(function (a, b) { return (a.dataset.title || '').localeCompare(b.dataset.title || ''); });
+    } else if (val === 'title-desc') {
+      sorted.sort(function (a, b) { return (b.dataset.title || '').localeCompare(a.dataset.title || ''); });
+    } else if (val === 'date') {
+      sorted.sort(function (a, b) { return (b.dataset.date || '').localeCompare(a.dataset.date || ''); });
+    } else if (val === 'random') {
+      shuffleCards(sorted);
+    }
+    sorted.forEach(function (card) { parent.appendChild(card); });
+  }
+  sortSelect.addEventListener('change', applySort);
+  applySort();
+}
 
 // ── Explore filters (homepage) ──
 function initExploreFilters() {
@@ -288,7 +347,7 @@ function initExploreFilters() {
   }
 
   // Sorting
-  sortSelect.addEventListener('change', function () {
+  function applySort() {
     var val = sortSelect.value;
     var parent = document.getElementById('lesson-list');
     var sorted = cards.slice();
@@ -299,10 +358,14 @@ function initExploreFilters() {
       sorted.sort(function (a, b) { return (b.dataset.title || '').localeCompare(a.dataset.title || ''); });
     } else if (val === 'date') {
       sorted.sort(function (a, b) { return (b.dataset.date || '').localeCompare(a.dataset.date || ''); });
+    } else if (val === 'random') {
+      shuffleCards(sorted);
     }
 
     sorted.forEach(function (card) { parent.appendChild(card); });
-  });
+  }
+
+  sortSelect.addEventListener('change', applySort);
 
   // Event listeners
   searchInput.addEventListener('input', applyFilters);
@@ -334,5 +397,6 @@ function initExploreFilters() {
   }
 
   // Initial render
+  applySort();
   applyFilters();
 }
