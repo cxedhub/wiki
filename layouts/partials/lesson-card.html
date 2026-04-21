@@ -1,4 +1,4 @@
-<div class="card" data-subjects="{{ with .Params.subjects }}{{ delimit . "|" }}{{ end }}" data-grades="{{ with .Params.grade_levels }}{{ delimit . "|" }}{{ end }}" data-domains="{{ with .Params.cs_domains }}{{ delimit . "|" }}{{ end }}" data-tags="{{ with .Params.tags }}{{ delimit . "|" }}{{ end }}">
+<div class="card" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}" data-subjects="{{ with .Params.subjects }}{{ delimit . "|" }}{{ end }}" data-grades="{{ with .Params.grade_levels }}{{ delimit . "|" }}{{ end }}" data-domains="{{ with .Params.cs_domains }}{{ delimit . "|" }}{{ end }}" data-tags="{{ with .Params.tags }}{{ delimit . "|" }}{{ end }}">
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
   {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
   <div class="card-meta">

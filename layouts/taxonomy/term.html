@@ -14,7 +14,15 @@
   {{ with .Description }}<p>{{ . }}</p>{{ end }}
   <p>{{ len .Pages }} lesson{{ if ne (len .Pages) 1 }}s{{ end }} found.</p>
 
-  <div class="card-grid">
+  <div class="results-toolbar">
+    <select id="sort-select" aria-label="Sort lessons" class="sort-select">
+      <option value="random" selected>Sort: Random</option>
+      <option value="title">Sort: A&ndash;Z</option>
+      <option value="title-desc">Sort: Z&ndash;A</option>
+    </select>
+  </div>
+
+  <div class="card-grid" id="lesson-list">
     {{ range .Pages.ByTitle }}
       {{ partial "lesson-card.html" . }}
     {{ end }}
