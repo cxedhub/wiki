@@ -62,7 +62,11 @@ static/pds/craft-pd-series/
 - W3: https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit
 
 ### Live Agenda (facilitator timing board, visible to all)
+- W1: https://docs.google.com/document/d/15c5VIEnaDM7NP8fU7pfKloeMp7f1L4rd/edit
 - W2: https://docs.google.com/document/d/1HNAUpx-D3OZEaHAfd6hNqrhe-qxWsplo/edit
+- W3: upload `Workshop-3-Live-Agenda.docx` to Google Docs (source file tracked at repo root and `static/pds/craft-pd-series/`)
+
+Note: the participant-facing HTML pages at `/pds/craft-pd-series/workshop-N-agenda.html` are the **Planned Agenda** (static). The **Live Agenda** is a Google Doc that facilitators mark up during the session.
 
 ## Deployment steps
 

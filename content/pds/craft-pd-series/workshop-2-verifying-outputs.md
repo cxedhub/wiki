@@ -74,7 +74,7 @@ Your students are using AI — but do they know when it's wrong? This session eq
 
 ## Session Resources
 
-- [**📋 Live Agenda**](/pds/craft-pd-series/workshop-2-agenda.html) — participant-facing timeline with activity links and print view
+- [**📋 Planned Agenda**](/pds/craft-pd-series/workshop-2-agenda.html) — participant-facing timeline with activity links and print view
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w2.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-2-Slides.pptx) — import to Google Slides
 - [**🐛 AI Error Gallery**](/pds/craft-pd-series/resources/error-gallery.html) — annotated code snippets with deliberate bugs for the error hunt
