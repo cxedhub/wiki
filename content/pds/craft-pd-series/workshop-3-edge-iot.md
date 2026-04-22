@@ -75,7 +75,7 @@ Take computing out of the browser — conceptually — while still teaching it i
 ## Shared Workspace
 
 - 📋 [Group Workspace (Google Doc)](https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true) — collaborative document for all breakout and group activities
-- 🗓 [Live Agenda (Google Doc)](/pds/craft-pd-series/Workshop-3-Live-Agenda.docx) — facilitator-maintained timing board (downloadable .docx to upload to Google Docs), updated in real time during the session
+- 🗓 [Live Agenda (Google Doc)](https://docs.google.com/document/d/1v_qa_kaK4uQp3etpBsuLfx_SCPwXGkdjOuLuF6BjIx8/edit?tab=t.0) — facilitator-maintained timing board, updated in real time during the session
 
 ## Pre-Session Requirements
 
