@@ -71,8 +71,8 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 
 ## Session Resources
 
-- [**📋 Live Agenda**](/pds/craft-pd-series/workshop-1-agenda.html) — participant-facing timeline with activity links and print view
-- [**📝 Live Agenda (Google Doc)**](https://docs.google.com/document/d/15c5VIEnaDM7NP8fU7pfKloeMp7f1L4rd/edit) — live, editable companion to the agenda for real-time updates during the session
+- [**📋 Planned Agenda**](/pds/craft-pd-series/workshop-1-agenda.html) — participant-facing timeline with activity links and print view
+- [**📝 Live Agenda (Google Doc)**](https://docs.google.com/document/d/15c5VIEnaDM7NP8fU7pfKloeMp7f1L4rd/edit) — facilitator timing board, updated in real time during the session
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w1.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-1-Slides.pptx) — import to Google Slides
 - [**📄 STEM Lesson Template**](/resources/lesson-template.html) — multi-framework template (CSTA, NGSS, CCSS Math, CCSS ELA, ISTE, NCSS C3, Arts) for AI-assisted lesson design — keyword search, no need to memorize codes

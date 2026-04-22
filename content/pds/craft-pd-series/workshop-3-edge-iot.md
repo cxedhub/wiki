@@ -75,6 +75,7 @@ Take computing out of the browser — conceptually — while still teaching it i
 ## Shared Workspace
 
 - 📋 [Group Workspace (Google Doc)](https://docs.google.com/document/d/1GaTY3haKOuy2qzUb-GfT4xE8yeRu9QpK/edit?usp=drive_link&ouid=107503058538624505453&rtpof=true&sd=true) — collaborative document for all breakout and group activities
+- 🗓 [Live Agenda (Google Doc)](/pds/craft-pd-series/Workshop-3-Live-Agenda.docx) — facilitator-maintained timing board (downloadable .docx to upload to Google Docs), updated in real time during the session
 
 ## Pre-Session Requirements
 
@@ -96,7 +97,7 @@ Take computing out of the browser — conceptually — while still teaching it i
 
 ## Session Resources
 
-- [**📋 Live Agenda**](/pds/craft-pd-series/workshop-3-agenda.html) — participant-facing timeline with activity links and print view
+- [**📋 Planned Agenda**](/pds/craft-pd-series/workshop-3-agenda.html) — participant-facing timeline with activity links and print view
 - [**🖥 Web Slides**](/pds/craft-pd-series/slides-w3.html) — keyboard-navigable presentation (← → arrows, F for fullscreen)
 - [**⬇ Download Slides (PPTX)**](/pds/craft-pd-series/Workshop-3-Slides.pptx) — import to Google Slides
 - [**📄 IoT Lesson Template**](/resources/iot-lesson-template.html) — template for designing two-node sensor/aggregator STEM lessons
