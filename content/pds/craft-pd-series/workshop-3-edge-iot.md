@@ -129,8 +129,8 @@ Ready-to-flash equivalents of the simulator activities — run in the [python.mi
 | Contextualize | CRAFT Orientation + IoT as a Two-Device Conversation | 15 min | You Do |
 | Reframe | Poll + "Physical Computing Lives in the Browser Too" | 15 min | Listen |
 | Reframe | Breakout: Barriers to Teaching Hardware Without Hardware | 15 min | You Do |
-| Assemble | I Do + Guided: Build a Sensor Node (read + radio.send) | 30 min | You Do |
-| Assemble | Paired Breakout: Sender × Aggregator, talk on a radio group | 30 min | You Do |
+| Assemble | Server Room Guardian: live-build sensor + aggregator, then swap in your own sensor | 30 min | You Do |
+| Assemble | Enhancements + Brainstorm: liveness ping, Data panel graphing, LLM-driven extensions | 30 min | You Do |
 | Assemble | Level Up: Multi-Sensor Mesh (A) or MicroPython Port (B) | 30 min | You Do |
 | Fortify | Experiment: Verify Simulated Data + Calibration Preview | 15 min | You Do |
 | Transfer | Build: Two-Node IoT Lesson + Pair-Share + Post-Survey | 15 min | You Do |
