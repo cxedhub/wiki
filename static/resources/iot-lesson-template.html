@@ -166,6 +166,21 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 .sensor-select label{display:flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--gray200);border-radius:6px;font-weight:500;font-size:0.85rem;cursor:pointer;margin:0}
 .sensor-select input{width:auto;margin:0}
 .sensor-select input:checked+span{color:var(--teal);font-weight:700}
+.platform-select{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:8px 0}
+.platform-select label{display:flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--gray200);border-radius:8px;font-weight:500;font-size:0.88rem;cursor:pointer;margin:0;background:#fff;transition:border-color 0.15s,background 0.15s}
+.platform-select label:hover{border-color:var(--teal);background:#f6fcfa}
+.platform-select input{width:auto;margin:0}
+.platform-select input:checked+span{color:var(--teal);font-weight:700}
+.platform-select label:has(input:checked){border-color:var(--teal);background:#eef9f6}
+.code-box{border:1px solid var(--gray200);border-radius:8px;background:#1B2A4A;color:#e8eefc;font-family:'JetBrains Mono',monospace;font-size:0.82rem;line-height:1.45;padding:14px 16px;margin:8px 0;overflow:auto;max-height:420px;white-space:pre;tab-size:2}
+.code-box:empty::before{content:"No code yet — generate starter code via the AI prompt or paste your own above, then import the AI reply in Step 2.";color:#8998bf;font-family:'DM Sans',sans-serif;font-style:italic;white-space:normal;display:block}
+.code-box .tok-kw{color:#f8c9d4}
+.code-box .tok-str{color:#c9f0d8}
+.code-box .tok-num{color:#ffd479}
+.code-box .tok-com{color:#7a8fb8;font-style:italic}
+.code-box .tok-fn{color:#9ecbff}
+.code-toolbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0 0}
+.code-filename{font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--gray600);margin-right:auto;padding:4px 0}
 .inline-check{display:flex;align-items:center;gap:8px;margin:8px 0;font-weight:500;font-size:0.88rem;cursor:pointer}
 .inline-check input{width:auto;margin:0}
 .ctm-box{background:#E8FAF6;border:1px solid var(--teal);border-radius:8px;padding:14px 16px;margin:10px 0}
@@ -200,11 +215,16 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 <script>
 window.LESSON_DRAFT_NAMESPACE = 'iot';
 window.LESSON_DRAFT_EXTRA_FIELDS = [
+  ['iotPlatform','f-iot-platform'],
+  ['iotPlatformOther','f-iot-platform-other'],
   ['iotSensors','f-iot-sensors'],
   ['iotProgEnv','f-iot-prog-env'],
   ['iotLlmCode','f-iot-llm-code'],
   ['iotDataPlan','f-iot-dataplan'],
-  ['iotDataVerify','f-iot-dataverify']
+  ['iotDataVerify','f-iot-dataverify'],
+  ['iotGenStarter','f-iot-gen-starter'],
+  ['iotExistingCode','f-iot-existing-code'],
+  ['iotCode','f-iot-code']
 ];
 </script>
 
@@ -300,28 +320,33 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
 <div class="helper">Used for filtering in the lesson repository. "CRAFT" and "IoT" are added automatically.</div>
 
 <h2>Hardware &amp; Programming Setup</h2>
-<label>Which micro:bit sensors will students use? (check all that apply)</label>
-<input type="hidden" id="f-iot-sensors">
-<div class="sensor-select" id="iot-sensor-grid">
-  <label><input type="checkbox" data-sensor="Temperature"><span>🌡️ Temperature</span></label>
-  <label><input type="checkbox" data-sensor="Light"><span>💡 Light</span></label>
-  <label><input type="checkbox" data-sensor="Accelerometer"><span>📐 Accelerometer</span></label>
-  <label><input type="checkbox" data-sensor="Compass"><span>🧭 Compass</span></label>
-  <label><input type="checkbox" data-sensor="Microphone (V2)"><span>🎤 Microphone (V2)</span></label>
-  <label><input type="checkbox" data-sensor="Touch Logo (V2)"><span>👆 Touch Logo (V2)</span></label>
-  <label><input type="checkbox" data-sensor="Buttons A/B"><span>🔘 Buttons A/B</span></label>
-  <label><input type="checkbox" data-sensor="Radio / Bluetooth"><span>📡 Radio / Bluetooth</span></label>
+
+<label>Which platform are students using?</label>
+<input type="hidden" id="f-iot-platform" value="microbit-v2">
+<div class="platform-select" id="iot-platform-grid">
+  <label><input type="radio" name="iot-platform" data-platform="microbit-v1"><span>🔵 micro:bit v1</span></label>
+  <label><input type="radio" name="iot-platform" data-platform="microbit-v2" checked><span>🟢 micro:bit v2</span></label>
+  <label><input type="radio" name="iot-platform" data-platform="arduino"><span>🟠 Arduino</span></label>
+  <label><input type="radio" name="iot-platform" data-platform="raspberry-pi"><span>🍓 Raspberry Pi</span></label>
+  <label><input type="radio" name="iot-platform" data-platform="other"><span>✏️ Other (fill in)</span></label>
 </div>
-<div class="helper">Two-node IoT pattern? Check any sensors used on the <em>sensor</em> node; note the <em>aggregator</em> role under Data Collection Plan below.</div>
+<div id="iot-platform-other-wrap" style="display:none;margin-top:8px">
+  <input type="text" id="f-iot-platform-other" placeholder="e.g., ESP32, Adafruit Circuit Playground, LEGO SPIKE Prime…">
+</div>
+
+<label style="margin-top:14px">Which sensors/features will students use? (check all that apply)</label>
+<input type="hidden" id="f-iot-sensors">
+<div class="sensor-select" id="iot-sensor-grid"></div>
+<div id="iot-sensors-other-wrap" style="display:none;margin-top:6px">
+  <input type="text" id="f-iot-sensors-other" placeholder="List sensors / features, comma-separated (e.g., BME280 temperature &amp; humidity, HC-SR04 ultrasonic, onboard LED matrix)">
+</div>
+<div class="helper" id="iot-sensor-helper">Two-node IoT pattern? Check any sensors used on the <em>sensor</em> node; note the <em>aggregator</em> role under Data Collection Plan below.</div>
+
 <div class="row" style="margin-top:14px">
-<div><label>Programming Environment</label><select id="f-iot-prog-env">
-  <option value="">(Select one)</option>
-  <option>MakeCode (blocks)</option>
-  <option>MakeCode (JavaScript)</option>
-  <option>MicroPython</option>
-  <option>Start with MakeCode, option for MicroPython</option>
-  <option>Simulator only (no hardware)</option>
-</select></div>
+<div><label>Programming Environment</label>
+  <select id="f-iot-prog-env"><option value="">(Select one)</option></select>
+  <input type="text" id="f-iot-prog-env-other" placeholder="Specify environment (e.g., Arduino IDE, Thonny)" style="display:none;margin-top:6px">
+</div>
 <div><label>AI Coding Support</label>
 <label class="inline-check" style="margin-top:10px"><input type="checkbox" id="f-iot-llm-code"><span>Students will use an LLM to help write or debug code</span></label>
 <div class="helper" style="margin-top:0">If checked, plan a CtM exercise in the Fortify section below.</div>
@@ -435,6 +460,25 @@ Takeaway: What did the comparison reveal? Would students trust the AI's general 
 
 <h2>Notes & Reflections</h2>
 <textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+
+<h2>Starter / Example Code</h2>
+<label class="inline-check"><input type="checkbox" id="f-iot-gen-starter"><span>Ask the AI to generate baseline / starter code for this lesson</span></label>
+<div class="helper" style="margin-top:0">If checked, Step 2's AI prompt will also request a single-file code sketch tailored to your platform, sensors, and programming environment.</div>
+
+<label style="margin-top:12px">Your Existing Code (optional, single file)</label>
+<textarea id="f-iot-existing-code" rows="6" placeholder="Paste existing code here (optional). If provided, the AI will build on and refine this instead of starting from scratch." style="font-family:'JetBrains Mono',monospace;font-size:0.82rem"></textarea>
+<div class="helper">The AI will preserve your structure and comments where possible and explain any changes in the lesson's Notes &amp; Reflections section.</div>
+
+<label style="margin-top:12px">Generated / Final Code</label>
+<pre id="iot-code-display" class="code-box" aria-live="polite"></pre>
+<textarea id="f-iot-code" rows="6" placeholder="After running the AI prompt in Step 2, paste the generated code block here to preview and download." style="font-family:'JetBrains Mono',monospace;font-size:0.82rem"></textarea>
+<div class="code-toolbar">
+  <span class="code-filename" id="iot-code-filename">—</span>
+  <button class="btn secondary" type="button" onclick="copyIotCode()">📋 Copy Code</button>
+  <button class="btn secondary" type="button" onclick="downloadIotCode()">⬇ Download</button>
+  <button class="btn secondary" type="button" onclick="clearIotCode()">Clear</button>
+</div>
+<div class="helper">Download produces a file with the extension matching your programming environment (<code>.py</code> for MicroPython/Python, <code>.js</code> for MakeCode JavaScript, <code>.ino</code> for Arduino, etc.) so you can drop it straight into the respective editor.</div>
 
 <div class="step-section" data-step="2">
 <div class="step-header" data-step="2">
@@ -869,15 +913,51 @@ document.addEventListener('DOMContentLoaded',()=>{
   if(showAll)showAll.addEventListener('change',refreshStdDropdowns);
   const label=document.getElementById('std-grade-label');
   if(label&&grade)label.textContent=grade.value||'—';
-  // Keep the hidden f-iot-sensors input in sync with the checkbox grid so
-  // collect(), the draft cache, and Markdown round-trip all see the same data.
-  const grid=document.getElementById('iot-sensor-grid');
-  const hidden=document.getElementById('f-iot-sensors');
-  if(grid&&hidden){
-    grid.querySelectorAll('input[type="checkbox"][data-sensor]').forEach(cb=>{
-      cb.addEventListener('change',syncSensorsFromBoxes);
+
+  // Platform radios — rebuild sensor grid and environment select on change.
+  document.querySelectorAll('#iot-platform-grid input[type="radio"][data-platform]').forEach(r=>{
+    r.addEventListener('change',()=>{
+      if(!r.checked)return;
+      const h=document.getElementById('f-iot-platform');
+      if(h){h.value=r.dataset.platform;h.dispatchEvent(new Event('input',{bubbles:true}))}
+      renderPlatformUI();
+    });
+  });
+  const platOther=document.getElementById('f-iot-platform-other');
+  if(platOther)platOther.addEventListener('input',()=>{renderIotCodePreview()});
+
+  // Free-text sensor list for the "Other" platform — mirror it into the hidden field.
+  const sensorsOtherInp=document.getElementById('f-iot-sensors-other');
+  if(sensorsOtherInp)sensorsOtherInp.addEventListener('input',syncSensorsFromBoxes);
+
+  // Programming-environment select: toggle "Other" text field.
+  const envSel=document.getElementById('f-iot-prog-env');
+  const envOther=document.getElementById('f-iot-prog-env-other');
+  if(envSel){
+    envSel.addEventListener('change',()=>{
+      if(envOther)envOther.style.display=envSel.value==='__other__'?'block':'none';
+      renderIotCodePreview();
     });
   }
+  if(envOther){
+    envOther.addEventListener('input',()=>{
+      if(envSel&&envSel.value==='__other__'){
+        // Keep the canonical value on f-iot-prog-env via a custom "other" payload.
+      }
+      renderIotCodePreview();
+    });
+  }
+
+  // Code textarea: live-refresh the prettified preview.
+  const codeTa=document.getElementById('f-iot-code');
+  if(codeTa)codeTa.addEventListener('input',renderIotCodePreview);
+
+  // Title changes alter the filename shown beneath the code box.
+  const titleIn=document.getElementById('f-title');
+  if(titleIn)titleIn.addEventListener('input',renderIotCodePreview);
+
+  // Initial render — populate sensor/env UI for the default platform.
+  renderPlatformUI();
 });
 
 function syncSensorsFromBoxes(){
@@ -886,17 +966,314 @@ function syncSensorsFromBoxes(){
   if(!grid||!hidden)return;
   const picked=[...grid.querySelectorAll('input[type="checkbox"][data-sensor]:checked')]
     .map(cb=>cb.dataset.sensor);
+  // For the "Other" platform, supplement with the free-text list.
+  const otherInp=document.getElementById('f-iot-sensors-other');
+  if(otherInp&&otherInp.offsetParent!==null){
+    splitList(otherInp.value||'').forEach(s=>{if(picked.indexOf(s)<0)picked.push(s)});
+  }
   hidden.value=picked.join(', ');
-  // Fire an input event so the draft cache's autosave picks it up.
   hidden.dispatchEvent(new Event('input',{bubbles:true}));
 }
 function syncBoxesFromSensors(val){
   const grid=document.getElementById('iot-sensor-grid');
   if(!grid)return;
-  const wanted=new Set(splitList(val||'').map(s=>s.toLowerCase()));
+  const wanted=splitList(val||'');
+  const wantedLower=new Set(wanted.map(s=>s.toLowerCase()));
+  const matchedLower=new Set();
   grid.querySelectorAll('input[type="checkbox"][data-sensor]').forEach(cb=>{
-    cb.checked=wanted.has((cb.dataset.sensor||'').toLowerCase());
+    const key=(cb.dataset.sensor||'').toLowerCase();
+    if(wantedLower.has(key)){cb.checked=true;matchedLower.add(key)}
+    else cb.checked=false;
   });
+  // Leftover entries go into the Other sensors free-text field if visible.
+  const otherInp=document.getElementById('f-iot-sensors-other');
+  if(otherInp){
+    const leftover=wanted.filter(s=>!matchedLower.has(s.toLowerCase()));
+    otherInp.value=leftover.join(', ');
+  }
+}
+
+/* ===== IoT platforms — sensor & env catalog ===== */
+const IOT_PLATFORMS={
+  'microbit-v1':{
+    label:'micro:bit v1',
+    sensors:[
+      {key:'Temperature',icon:'🌡️'},
+      {key:'Light',icon:'💡'},
+      {key:'Accelerometer',icon:'📐'},
+      {key:'Compass',icon:'🧭'},
+      {key:'Buttons A/B',icon:'🔘'},
+      {key:'LED Matrix',icon:'🔲'},
+      {key:'Radio',icon:'📡'},
+      {key:'GPIO Pins',icon:'🔌'}
+    ],
+    envs:[
+      {label:'MakeCode (blocks)',ext:'js',lang:'javascript'},
+      {label:'MakeCode (JavaScript)',ext:'js',lang:'javascript'},
+      {label:'MicroPython',ext:'py',lang:'python'},
+      {label:'Start with MakeCode, option for MicroPython',ext:'py',lang:'python'},
+      {label:'Simulator only (no hardware)',ext:'py',lang:'python'}
+    ]
+  },
+  'microbit-v2':{
+    label:'micro:bit v2',
+    sensors:[
+      {key:'Temperature',icon:'🌡️'},
+      {key:'Light',icon:'💡'},
+      {key:'Accelerometer',icon:'📐'},
+      {key:'Compass',icon:'🧭'},
+      {key:'Microphone',icon:'🎤'},
+      {key:'Touch Logo',icon:'👆'},
+      {key:'Speaker',icon:'🔊'},
+      {key:'Buttons A/B',icon:'🔘'},
+      {key:'LED Matrix',icon:'🔲'},
+      {key:'Radio / Bluetooth',icon:'📡'},
+      {key:'GPIO Pins',icon:'🔌'}
+    ],
+    envs:[
+      {label:'MakeCode (blocks)',ext:'js',lang:'javascript'},
+      {label:'MakeCode (JavaScript)',ext:'js',lang:'javascript'},
+      {label:'MicroPython',ext:'py',lang:'python'},
+      {label:'Start with MakeCode, option for MicroPython',ext:'py',lang:'python'},
+      {label:'Simulator only (no hardware)',ext:'py',lang:'python'}
+    ]
+  },
+  'arduino':{
+    label:'Arduino (Uno / Nano / ESP32)',
+    sensors:[
+      {key:'Temperature (DHT/DS18B20)',icon:'🌡️'},
+      {key:'Humidity (DHT)',icon:'💧'},
+      {key:'Light (Photoresistor)',icon:'💡'},
+      {key:'Ultrasonic Distance (HC-SR04)',icon:'📏'},
+      {key:'PIR Motion',icon:'🚶'},
+      {key:'Accelerometer (MPU6050)',icon:'📐'},
+      {key:'Sound',icon:'🔊'},
+      {key:'Pushbutton',icon:'🔘'},
+      {key:'Soil Moisture',icon:'🌱'},
+      {key:'Gas / Air Quality',icon:'🫧'},
+      {key:'Servo / Motor',icon:'⚙️'},
+      {key:'Wi-Fi / Bluetooth (ESP)',icon:'📡'}
+    ],
+    envs:[
+      {label:'Arduino IDE (C/C++)',ext:'ino',lang:'arduino'},
+      {label:'PlatformIO',ext:'cpp',lang:'cpp'},
+      {label:'CircuitPython',ext:'py',lang:'python'},
+      {label:'Tinkercad Simulator',ext:'ino',lang:'arduino'}
+    ]
+  },
+  'raspberry-pi':{
+    label:'Raspberry Pi',
+    sensors:[
+      {key:'Camera (CSI/USB)',icon:'📷'},
+      {key:'Temperature (DHT/DS18B20)',icon:'🌡️'},
+      {key:'Humidity (DHT)',icon:'💧'},
+      {key:'Light (BH1750/LDR)',icon:'💡'},
+      {key:'PIR Motion',icon:'🚶'},
+      {key:'Microphone (USB/I2S)',icon:'🎤'},
+      {key:'Ultrasonic Distance (HC-SR04)',icon:'📏'},
+      {key:'Accelerometer (I2C)',icon:'📐'},
+      {key:'Pushbutton (GPIO)',icon:'🔘'},
+      {key:'Sense HAT',icon:'🎛️'},
+      {key:'Wi-Fi / Bluetooth',icon:'📡'}
+    ],
+    envs:[
+      {label:'Python 3 (Thonny)',ext:'py',lang:'python'},
+      {label:'Python 3 (IDLE / terminal)',ext:'py',lang:'python'},
+      {label:'Node.js',ext:'js',lang:'javascript'},
+      {label:'Scratch 3',ext:'sb3',lang:'text'},
+      {label:'C / C++',ext:'cpp',lang:'cpp'}
+    ]
+  },
+  'other':{
+    label:'Other',
+    sensors:[],
+    envs:[]
+  }
+};
+
+function getPlatformKey(){
+  const h=document.getElementById('f-iot-platform');
+  return (h&&h.value)||'microbit-v2';
+}
+function setPlatformKey(key){
+  const valid=Object.prototype.hasOwnProperty.call(IOT_PLATFORMS,key)?key:'microbit-v2';
+  const h=document.getElementById('f-iot-platform');
+  if(h)h.value=valid;
+  const radios=document.querySelectorAll('#iot-platform-grid input[type="radio"][data-platform]');
+  radios.forEach(r=>{r.checked=(r.dataset.platform===valid)});
+}
+function getPlatformLabel(){
+  const k=getPlatformKey();
+  if(k==='other'){
+    const o=(v('f-iot-platform-other')||'').trim();
+    return o||'Other';
+  }
+  return (IOT_PLATFORMS[k]&&IOT_PLATFORMS[k].label)||k;
+}
+function getEnvInfo(){
+  const env=v('f-iot-prog-env');
+  const k=getPlatformKey();
+  const envs=(IOT_PLATFORMS[k]&&IOT_PLATFORMS[k].envs)||[];
+  const hit=envs.find(e=>e.label===env);
+  if(hit)return hit;
+  // Try matching across all platforms for a sensible extension default.
+  for(const pk in IOT_PLATFORMS){
+    const m=(IOT_PLATFORMS[pk].envs||[]).find(e=>e.label===env);
+    if(m)return m;
+  }
+  // Heuristics by name
+  const s=(env||'').toLowerCase();
+  if(/python|micropython|circuitpython|thonny|idle/.test(s))return {label:env,ext:'py',lang:'python'};
+  if(/javascript|makecode|node/.test(s))return {label:env,ext:'js',lang:'javascript'};
+  if(/arduino|\.ino/.test(s))return {label:env,ext:'ino',lang:'arduino'};
+  if(/c\+\+|cpp/.test(s))return {label:env,ext:'cpp',lang:'cpp'};
+  if(/scratch/.test(s))return {label:env,ext:'sb3',lang:'text'};
+  return {label:env||'',ext:'txt',lang:'text'};
+}
+
+function renderPlatformUI(){
+  const key=getPlatformKey();
+  const plat=IOT_PLATFORMS[key]||IOT_PLATFORMS['microbit-v2'];
+  const isOther=key==='other';
+
+  // Show/hide "Other" platform text field
+  const otherWrap=document.getElementById('iot-platform-other-wrap');
+  if(otherWrap)otherWrap.style.display=isOther?'block':'none';
+
+  // Re-render sensor grid for this platform, preserving already-checked names
+  const grid=document.getElementById('iot-sensor-grid');
+  const hidden=document.getElementById('f-iot-sensors');
+  const currentPicked=new Set(splitList(hidden?hidden.value:'').map(s=>s.toLowerCase()));
+  if(grid){
+    grid.innerHTML=(plat.sensors||[]).map(s=>{
+      const checked=currentPicked.has(s.key.toLowerCase())?' checked':'';
+      return '<label><input type="checkbox" data-sensor="'+escHtml(s.key)+'"'+checked+'><span>'+s.icon+' '+escHtml(s.key)+'</span></label>';
+    }).join('');
+    grid.querySelectorAll('input[type="checkbox"][data-sensor]').forEach(cb=>{
+      cb.addEventListener('change',syncSensorsFromBoxes);
+    });
+  }
+  // The "Other" platform has no preset sensors — show a free-text field so teachers can list theirs.
+  const sensorsOther=document.getElementById('iot-sensors-other-wrap');
+  if(sensorsOther)sensorsOther.style.display=isOther?'block':'none';
+
+  // For "Other" platform, seed the free-text sensor field from any prior hidden value
+  if(isOther){
+    const otherInp=document.getElementById('f-iot-sensors-other');
+    if(otherInp&&!otherInp.value&&hidden&&hidden.value)otherInp.value=hidden.value;
+  }
+
+  // Re-render programming environment options
+  const envSel=document.getElementById('f-iot-prog-env');
+  const envOther=document.getElementById('f-iot-prog-env-other');
+  if(envSel){
+    const prev=envSel.value;
+    const opts=['<option value="">(Select one)</option>'].concat(
+      (plat.envs||[]).map(e=>'<option>'+escHtml(e.label)+'</option>')
+    );
+    if(isOther)opts.push('<option value="__other__">Other (specify)…</option>');
+    envSel.innerHTML=opts.join('');
+    // Preserve prior selection if still valid
+    const stillAvailable=[...envSel.options].map(o=>o.value).indexOf(prev)>=0;
+    if(stillAvailable&&prev)envSel.value=prev;
+    else if(isOther&&prev&&(plat.envs||[]).every(e=>e.label!==prev))envSel.value='__other__';
+  }
+  if(envOther){
+    const useOther=isOther&&envSel&&envSel.value==='__other__';
+    envOther.style.display=useOther?'block':'none';
+  }
+  // Always resync the hidden sensor field and refresh the code preview after UI changes.
+  syncSensorsFromBoxes();
+  renderIotCodePreview();
+}
+
+/* ===== Simple code pretty-printer (syntax highlighting) ===== */
+function prettifyCode(code,lang){
+  if(!code)return '';
+  const esc=escHtml(code);
+  const KEYWORDS={
+    python:['and','as','assert','async','await','break','class','continue','def','del','elif','else','except','False','finally','for','from','global','if','import','in','is','lambda','None','nonlocal','not','or','pass','raise','return','True','try','while','with','yield'],
+    javascript:['var','let','const','function','return','if','else','for','while','do','switch','case','break','continue','default','new','this','class','extends','super','import','export','from','as','try','catch','finally','throw','null','undefined','true','false','typeof','instanceof','in','of','async','await','yield'],
+    arduino:['void','setup','loop','int','long','float','double','char','byte','boolean','bool','const','static','if','else','for','while','do','switch','case','break','continue','return','include','define','true','false','HIGH','LOW','INPUT','OUTPUT','INPUT_PULLUP'],
+    cpp:['auto','bool','break','case','catch','char','class','const','continue','default','delete','do','double','else','enum','extern','false','float','for','if','include','inline','int','long','namespace','new','nullptr','private','protected','public','return','short','sizeof','static','struct','switch','template','this','throw','true','try','typedef','typename','using','virtual','void','while']
+  };
+  const kws=KEYWORDS[lang]||[];
+  let html=esc;
+  // Strings (single + double + triple)
+  html=html.replace(/(&quot;[^&\n]*?&quot;|&#39;[^&\n]*?&#39;)/g,'<span class="tok-str">$1</span>');
+  // Comments
+  if(lang==='python'){
+    html=html.replace(/(^|\n)(\s*)(#[^\n]*)/g,'$1$2<span class="tok-com">$3</span>');
+  }else{
+    html=html.replace(/(\/\/[^\n]*)/g,'<span class="tok-com">$1</span>');
+    html=html.replace(/(\/\*[\s\S]*?\*\/)/g,'<span class="tok-com">$1</span>');
+  }
+  // Numbers
+  html=html.replace(/\b(\d+(?:\.\d+)?)\b/g,'<span class="tok-num">$1</span>');
+  // Keywords
+  if(kws.length){
+    const pat=new RegExp('\\b('+kws.join('|')+')\\b','g');
+    html=html.replace(pat,'<span class="tok-kw">$1</span>');
+  }
+  // Function call names (basic)
+  html=html.replace(/\b([A-Za-z_][\w]*)\s*\(/g,(m,name)=>{
+    if(kws.indexOf(name)>=0)return m;
+    return '<span class="tok-fn">'+name+'</span>(';
+  });
+  return html;
+}
+
+function iotCodeFilename(){
+  const info=getEnvInfo();
+  const title=v('f-title')||'iot-lesson';
+  return slugify(title)+'.'+(info.ext||'txt');
+}
+
+function renderIotCodePreview(){
+  const code=v('f-iot-code');
+  const info=getEnvInfo();
+  const disp=document.getElementById('iot-code-display');
+  const fn=document.getElementById('iot-code-filename');
+  if(disp)disp.innerHTML=prettifyCode(code,info.lang);
+  if(fn)fn.textContent=code?iotCodeFilename()+(info.lang?' · '+info.lang:''):'—';
+}
+
+async function copyIotCode(){
+  const code=v('f-iot-code');
+  if(!code){flash('No code to copy yet — generate or paste code first');return}
+  if(await clipboardText(code))flash('Code copied to clipboard');
+  else flash('Could not copy — your browser blocked clipboard access');
+}
+function downloadIotCode(){
+  const code=v('f-iot-code');
+  if(!code){flash('No code to download yet — generate or paste code first');return}
+  const info=getEnvInfo();
+  const mime=({py:'text/x-python',js:'text/javascript',ino:'text/x-arduino',cpp:'text/x-c++src',sb3:'application/octet-stream'})[info.ext]||'text/plain';
+  downloadFile(iotCodeFilename(),code,mime+';charset=utf-8');
+  flash('Downloaded '+iotCodeFilename());
+}
+function clearIotCode(){
+  const ta=document.getElementById('f-iot-code');
+  if(!ta)return;
+  if(ta.value&&!confirm('Clear the generated code?'))return;
+  ta.value='';
+  renderIotCodePreview();
+  ta.dispatchEvent(new Event('input',{bubbles:true}));
+}
+
+/* Pull code out of a Markdown/LLM reply that may include one or more fenced
+ * code blocks. Prefers a block whose language hint matches the current env. */
+function extractCodeFromMarkdown(md){
+  if(!md)return '';
+  const info=getEnvInfo();
+  const fences=[];
+  const re=/```([a-zA-Z0-9_+\-]*)\n([\s\S]*?)```/g;
+  let m;
+  while((m=re.exec(md))!==null){fences.push({lang:(m[1]||'').toLowerCase(),body:m[2]})}
+  if(!fences.length)return '';
+  const prefer={python:['python','py','micropython'],javascript:['javascript','js','typescript','ts'],arduino:['arduino','cpp','c++','ino','c'],cpp:['cpp','c++','c']}[info.lang]||[];
+  const hit=fences.find(f=>prefer.indexOf(f.lang)>=0);
+  return (hit||fences[0]).body.trim();
 }
 
 function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
@@ -910,6 +1287,14 @@ function nl2br(s){return escH(s).replace(/\n/g,'<br>')}
 function collect(){
   // Make sure the hidden sensor string is current before reading it.
   syncSensorsFromBoxes();
+  // Resolve the programming-environment value: when "Other (specify)" is chosen,
+  // prefer the free-text input so exports capture what the teacher actually typed.
+  const envSel=document.getElementById('f-iot-prog-env');
+  let progEnv=v('f-iot-prog-env');
+  if(envSel&&envSel.value==='__other__'){
+    const txt=(v('f-iot-prog-env-other')||'').trim();
+    progEnv=txt;
+  }
   return {
     title:v('f-title')||'Untitled Lesson',
     author:v('f-author'),
@@ -937,11 +1322,17 @@ function collect(){
     tExt:v('f-t-ext'),
     summative:v('f-summative'),
     notes:v('f-notes'),
+    iotPlatform:getPlatformKey(),
+    iotPlatformLabel:getPlatformLabel(),
+    iotPlatformOther:v('f-iot-platform-other'),
     iotSensors:v('f-iot-sensors'),
-    iotProgEnv:v('f-iot-prog-env'),
+    iotProgEnv:progEnv,
     iotLlmCode:vc('f-iot-llm-code'),
     iotDataPlan:v('f-iot-dataplan'),
-    iotDataVerify:v('f-iot-dataverify')
+    iotDataVerify:v('f-iot-dataverify'),
+    iotGenStarter:vc('f-iot-gen-starter'),
+    iotExistingCode:v('f-iot-existing-code'),
+    iotCode:v('f-iot-code')
   }
 }
 
@@ -961,7 +1352,9 @@ function setField(id,val){
     return;
   }
   el.value=s;
+  if(id==='f-iot-platform'){setPlatformKey(s);renderPlatformUI()}
   if(id==='f-iot-sensors')syncBoxesFromSensors(s);
+  if(id==='f-iot-code')renderIotCodePreview();
 }
 
 function fromMarkdown(md){
@@ -1221,12 +1614,48 @@ function fromMarkdown(md){
   // IoT-specific Hardware & Programming Setup section
   const hwSection=findSection('Hardware & Programming Setup')||findSection('Hardware &amp; Programming Setup')||findSection('Hardware Setup')||'';
   if(hwSection){
+    const platform=lineVal(hwSection,'Platform');
+    if(platform){
+      d.iotPlatformLabel=platform;
+      // Try to map a human label back to one of the known platform keys.
+      const lower=platform.toLowerCase();
+      let matched='';
+      if(/micro:?bit.*(v2|2)/.test(lower))matched='microbit-v2';
+      else if(/micro:?bit.*(v1|1)/.test(lower))matched='microbit-v1';
+      else if(/micro:?bit/.test(lower))matched='microbit-v2';
+      else if(/arduino/.test(lower))matched='arduino';
+      else if(/rasp(berry)?\s*pi|rpi/.test(lower))matched='raspberry-pi';
+      if(matched){d.iotPlatform=matched}
+      else{d.iotPlatform='other';d.iotPlatformOther=platform}
+    }
     const sensors=lineVal(hwSection,'Sensors');
     if(sensors)d.iotSensors=sensors;
     const pe=lineVal(hwSection,'Programming Environment');
     if(pe)d.iotProgEnv=pe;
     const llm=lineVal(hwSection,'LLM Coding Support');
     if(llm)d.iotLlmCode=/^(yes|true)/i.test(llm)?'Yes':'';
+  }
+
+  // Starter Code section — parse teacher-supplied and generated code fences.
+  const codeSection=findSection('Starter Code')||findSection('Starter / Example Code')||'';
+  if(codeSection){
+    const gen=lineVal(codeSection,'Generate Starter Code');
+    if(gen)d.iotGenStarter=/^(yes|true)/i.test(gen)?'Yes':'';
+    // Fenced code blocks — the first under "Teacher-supplied" is existing code,
+    // the one under "Generated" is the output.
+    const fenceRe=/###\s+([^\n]+)\n+```[^\n]*\n([\s\S]*?)```/g;
+    let fm;
+    while((fm=fenceRe.exec(codeSection))!==null){
+      const h=fm[1].trim().toLowerCase();
+      const body=fm[2].replace(/\n$/,'');
+      if(/teacher/.test(h))d.iotExistingCode=body;
+      else if(/generated|current|final/.test(h))d.iotCode=body;
+    }
+    // Fallback: if no explicit subsections, take the first fenced block as the code.
+    if(!d.iotCode&&!d.iotExistingCode){
+      const plain=codeSection.match(/```[^\n]*\n([\s\S]*?)```/);
+      if(plain)d.iotCode=plain[1].replace(/\n$/,'');
+    }
   }
 
   if(findSection('Assessment'))d.summative=findSection('Assessment');
@@ -1270,11 +1699,35 @@ function loadMarkdown(){
   setField('f-t-ext',d.tExt);
   setField('f-summative',d.summative);
   setField('f-notes',d.notes);
+  // Platform first, so the sensor grid and env options are rebuilt before we
+  // try to apply sensor selections or programming-environment choices.
+  if(d.iotPlatform)setField('f-iot-platform',d.iotPlatform);
+  if(d.iotPlatformOther)setField('f-iot-platform-other',d.iotPlatformOther);
+  renderPlatformUI();
   setField('f-iot-sensors',d.iotSensors);
-  setField('f-iot-prog-env',d.iotProgEnv);
+  // Programming-environment: if the label isn't in the current select options
+  // (platform was set but the env label doesn't match an entry), fall back to
+  // the "Other (specify)" path so the value is preserved.
+  const envSel=document.getElementById('f-iot-prog-env');
+  const envOtherInp=document.getElementById('f-iot-prog-env-other');
+  if(d.iotProgEnv&&envSel){
+    const opts=[...envSel.options].map(o=>o.value);
+    if(opts.indexOf(d.iotProgEnv)>=0){envSel.value=d.iotProgEnv}
+    else if(opts.indexOf('__other__')>=0){
+      envSel.value='__other__';
+      if(envOtherInp){envOtherInp.value=d.iotProgEnv;envOtherInp.style.display='block'}
+    }else{
+      // No Other slot — append a transient option so round-trip preserves value.
+      const opt=document.createElement('option');opt.value=d.iotProgEnv;opt.textContent=d.iotProgEnv;envSel.appendChild(opt);envSel.value=d.iotProgEnv;
+    }
+  }
   setField('f-iot-llm-code',d.iotLlmCode);
   setField('f-iot-dataplan',d.iotDataPlan);
   setField('f-iot-dataverify',d.iotDataVerify);
+  setField('f-iot-gen-starter',d.iotGenStarter);
+  setField('f-iot-existing-code',d.iotExistingCode);
+  setField('f-iot-code',d.iotCode);
+  renderIotCodePreview();
   refreshStdDropdowns();
   flash('Lesson loaded — review and edit as needed');
 }
@@ -1317,6 +1770,8 @@ function toMarkdown(d){
     });
   }
   if(d.aMaterials)fm+='materials: "'+escQ(d.aMaterials.replace(/\s*\n+\s*/g,'; '))+'"\n';
+  const platLabel=d.iotPlatformLabel||(d.iotPlatform&&IOT_PLATFORMS[d.iotPlatform]?IOT_PLATFORMS[d.iotPlatform].label:'')||d.iotPlatformOther||'';
+  if(platLabel)fm+='iot_platform: "'+escQ(platLabel)+'"\n';
   if(d.iotSensors)fm+='iot_sensors: "'+escQ(d.iotSensors)+'"\n';
   if(d.iotProgEnv)fm+='iot_programming_env: "'+escQ(d.iotProgEnv)+'"\n';
   fm+='tags:\n';
@@ -1345,8 +1800,9 @@ function toMarkdown(d){
     b+='\n';
   }
 
-  if(d.iotSensors||d.iotProgEnv||d.iotLlmCode){
+  if(d.iotSensors||d.iotProgEnv||d.iotLlmCode||platLabel){
     b+='## Hardware & Programming Setup\n\n';
+    if(platLabel)b+='- **Platform:** '+platLabel+'\n';
     if(d.iotSensors)b+='- **Sensors:** '+d.iotSensors+'\n';
     if(d.iotProgEnv)b+='- **Programming Environment:** '+d.iotProgEnv+'\n';
     if(d.iotLlmCode)b+='- **LLM Coding Support:** Yes — students will use an LLM to help write or debug code\n';
@@ -1380,6 +1836,32 @@ function toMarkdown(d){
   if(d.summative)b+='## Assessment\n\n'+d.summative+'\n\n';
   if(d.notes)b+='## Notes & Reflections\n\n'+d.notes+'\n\n';
 
+  // Starter Code section — always emitted when anything relevant is set so the
+  // AI iteration round-trip preserves the teacher's request and any code.
+  if(d.iotGenStarter||d.iotExistingCode||d.iotCode){
+    b+='## Starter Code\n\n';
+    if(d.iotGenStarter)b+='- **Generate Starter Code:** Yes — the AI should produce a single-file baseline code sketch\n';
+    if(d.iotProgEnv)b+='- **Target Environment:** '+d.iotProgEnv+'\n';
+    b+='\n';
+    const envInfo=d.iotProgEnv?(function(){
+      const k=d.iotPlatform;
+      const envs=(IOT_PLATFORMS[k]&&IOT_PLATFORMS[k].envs)||[];
+      const hit=envs.find(e=>e.label===d.iotProgEnv);
+      if(hit)return hit;
+      for(const pk in IOT_PLATFORMS){
+        const m=(IOT_PLATFORMS[pk].envs||[]).find(e=>e.label===d.iotProgEnv);
+        if(m)return m;
+      }
+      return {lang:'text'};
+    })():{lang:'text'};
+    if(d.iotExistingCode){
+      b+='### Teacher-supplied Code\n\n```'+(envInfo.lang||'')+'\n'+d.iotExistingCode+'\n```\n\n';
+    }
+    if(d.iotCode){
+      b+='### Generated / Current Code\n\n```'+(envInfo.lang||'')+'\n'+d.iotCode+'\n```\n\n';
+    }
+  }
+
   b+=CITATION_MD;
   return fm+b;
 }
@@ -1410,8 +1892,10 @@ function toHTML(d){
     h+='</ul>';
   }
 
-  if(d.iotSensors||d.iotProgEnv||d.iotLlmCode){
+  const platLabelH=d.iotPlatformLabel||(d.iotPlatform&&IOT_PLATFORMS[d.iotPlatform]?IOT_PLATFORMS[d.iotPlatform].label:'')||d.iotPlatformOther||'';
+  if(d.iotSensors||d.iotProgEnv||d.iotLlmCode||platLabelH){
     h+='<h2>Hardware &amp; Programming Setup</h2><ul>';
+    if(platLabelH)h+='<li><strong>Platform:</strong> '+escH(platLabelH)+'</li>';
     if(d.iotSensors)h+='<li><strong>Sensors:</strong> '+escH(d.iotSensors)+'</li>';
     if(d.iotProgEnv)h+='<li><strong>Programming Environment:</strong> '+escH(d.iotProgEnv)+'</li>';
     if(d.iotLlmCode)h+='<li><strong>LLM Coding Support:</strong> Yes — students will use an LLM to help write or debug code</li>';
@@ -1445,6 +1929,14 @@ function toHTML(d){
 
   if(d.summative)h+='<h2>Assessment</h2><p>'+nl2br(d.summative)+'</p>';
   if(d.notes)h+='<h2>Notes &amp; Reflections</h2><p>'+nl2br(d.notes)+'</p>';
+  if(d.iotGenStarter||d.iotExistingCode||d.iotCode){
+    h+='<h2>Starter Code</h2><ul>';
+    if(d.iotGenStarter)h+='<li><strong>Generate Starter Code:</strong> Yes</li>';
+    if(d.iotProgEnv)h+='<li><strong>Target Environment:</strong> '+escH(d.iotProgEnv)+'</li>';
+    h+='</ul>';
+    if(d.iotExistingCode)h+='<h3>Teacher-supplied Code</h3><pre style="font-family:monospace;font-size:9pt;background:#f4f4f4;padding:10pt;border:1pt solid #ccc;white-space:pre-wrap">'+escH(d.iotExistingCode)+'</pre>';
+    if(d.iotCode)h+='<h3>Generated / Current Code</h3><pre style="font-family:monospace;font-size:9pt;background:#f4f4f4;padding:10pt;border:1pt solid #ccc;white-space:pre-wrap">'+escH(d.iotCode)+'</pre>';
+  }
   h+=CITATION_HTML;
   return h;
 }
@@ -1478,9 +1970,26 @@ function buildLLMPrompt(d){
   const sensors=(d.iotSensors||'').trim();
   const progEnv=(d.iotProgEnv||'').trim();
   const usesLlmCode=!!(d.iotLlmCode&&/^(yes|true|1)/i.test(d.iotLlmCode));
-  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education, helping complete and iterate on an **IoT lesson plan** that uses the **BBC micro:bit** (and, where relevant, a two-node sensor-to-aggregator pattern over radio) and follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). Treat this as a hands-on lesson where students read real sensor data, reason about measurement and uncertainty, and — in the Fortify phase — compare an AI\'s general claims to their own verifiable measurements via a Check-the-Machine exercise.\n\n';
-  if(sensors)p+='The teacher has indicated students will use these micro:bit sensors: **'+sensors+'**. Calibrate every phase around these sensors — what they measure, their units, their resolution limits, and the kinds of investigations they enable.\n\n';
-  if(progEnv)p+='Programming environment: **'+progEnv+'**. Describe code and debugging in terms appropriate to this environment (e.g., MakeCode blocks vs. MicroPython), and if relevant show a short code sketch.\n\n';
+  const genStarter=!!(d.iotGenStarter&&/^(yes|true|1)/i.test(d.iotGenStarter));
+  const existingCode=(d.iotExistingCode||'').trim();
+  const platformLabel=(d.iotPlatformLabel||(d.iotPlatform&&IOT_PLATFORMS[d.iotPlatform]?IOT_PLATFORMS[d.iotPlatform].label:'')||d.iotPlatformOther||'BBC micro:bit').trim();
+  // Resolve a language hint for the code fence the AI should emit.
+  let codeLang='text';
+  if(d.iotPlatform&&IOT_PLATFORMS[d.iotPlatform]){
+    const hit=(IOT_PLATFORMS[d.iotPlatform].envs||[]).find(e=>e.label===progEnv);
+    if(hit)codeLang=hit.lang;
+  }
+  if(codeLang==='text'){
+    const s=progEnv.toLowerCase();
+    if(/python|micropython|circuitpython/.test(s))codeLang='python';
+    else if(/javascript|makecode|node/.test(s))codeLang='javascript';
+    else if(/arduino/.test(s))codeLang='arduino';
+    else if(/c\+\+|cpp/.test(s))codeLang='cpp';
+  }
+  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education, helping complete and iterate on an **IoT lesson plan** that uses **'+platformLabel+'** (and, where relevant, a two-node sensor-to-aggregator pattern) and follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). Treat this as a hands-on lesson where students read real sensor data, reason about measurement and uncertainty, and — in the Fortify phase — compare an AI\'s general claims to their own verifiable measurements via a Check-the-Machine exercise.\n\n';
+  p+='Target hardware platform: **'+platformLabel+'**. Tailor every sensor reference, pin/hardware instruction, and code snippet to this specific platform — do not default to another platform\'s conventions.\n\n';
+  if(sensors)p+='The teacher has indicated students will use these sensors/features: **'+sensors+'**. Calibrate every phase around these sensors — what they measure, their units, their resolution limits, and the kinds of investigations they enable on **'+platformLabel+'**.\n\n';
+  if(progEnv)p+='Programming environment: **'+progEnv+'**. Describe code and debugging in terms appropriate to this environment, and show code using its idioms (e.g., MakeCode JS vs. MicroPython vs. Arduino C++ vs. Raspberry Pi Python).\n\n';
   if(usesLlmCode)p+='Students will use an LLM to help write or debug code. Build the CtM exercise around an AI-authored code artifact or explanation — have students predict what the code should do, run it, and reconcile the AI\'s output with what the hardware actually does.\n\n';
   p+='## Your Task\n\n';
   p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
@@ -1514,6 +2023,26 @@ function buildLLMPrompt(d){
   p+='- Keep these bolded sub-labels verbatim (the loader uses them as parse anchors): `**Career Connection:**`, `**Common Misconception:**`, `**Correct Understanding:**`, `**I Do — Teacher Demonstrates:**`, `**We Do — Guided Practice:**`, `**You Do — Independent/Group Practice:**`, `**Data Collection Plan:**`, `**Materials Needed:**`, `**Data Verification Activity:**`, `**Formative Assessment:**`, `**Check the Machine (CtM):**`, `**Connection to Next Lesson:**`, `**Extension / Homework:**`.\n';
   p+='- Separate each labeled block with a blank line so the parser can find boundaries.\n';
   p+='- Do NOT wrap the whole document in a code fence. Do NOT add commentary, preamble, or summary before or after the Markdown. Your reply should be the Markdown document and nothing else.\n\n';
+  if(genStarter||existingCode){
+    p+='## Starter Code — REQUIRED\n\n';
+    p+='The teacher has requested a single-file baseline/starter code sketch tailored for **'+platformLabel+'** using **'+(progEnv||'an appropriate environment for this platform')+'**. Include the code inside the Markdown document as the final H2 section `## Starter Code`, formatted exactly like this:\n\n';
+    p+='```\n## Starter Code\n\n- **Generate Starter Code:** Yes\n- **Target Environment:** '+(progEnv||'<environment>')+'\n\n### Generated / Current Code\n\n```'+codeLang+'\n<your single-file code here>\n```\n```\n\n';
+    p+='Requirements for the code:\n';
+    p+='- A single self-contained file appropriate for '+platformLabel+' + '+(progEnv||'the chosen environment')+' — no external project scaffolding.\n';
+    p+='- Read the sensors listed above (if any) and either display, log, or broadcast readings in a way that lines up with the Data Collection Plan in the A phase.\n';
+    p+='- Include grade-appropriate inline comments explaining WHY each block does what it does — students should be able to read the code as a teaching artifact.\n';
+    p+='- Make the code runnable as-is (or with an obvious, commented `CHANGE_ME` line for things like radio groups or Wi-Fi credentials). Do not use placeholder function calls that don\'t exist in the target environment.\n';
+    p+='- Use idioms native to the target environment (e.g., `from microbit import *` for MicroPython; `basic.forever(() => { ... })` for MakeCode JS; `void setup() { } void loop() { }` for Arduino; `gpiozero` / `RPi.GPIO` for Raspberry Pi Python).\n';
+    p+='- Use the fenced-code language hint `'+codeLang+'` so the template can pretty-print and download the file with the correct extension.\n';
+    if(existingCode){
+      p+='- **Build on the teacher-supplied code below** — preserve its structure, variable names, and comments where possible; only refactor when a change is necessary. Explain any non-trivial changes in the lesson\'s `## Notes & Reflections` section.\n';
+      p+='\n### Teacher-supplied starting code\n\n```'+codeLang+'\n'+existingCode+'\n```\n\n';
+    }else{
+      p+='\n';
+    }
+  }else{
+    p+='If (and only if) the teacher has existing code referenced in the draft below, include it verbatim inside a final `## Starter Code` section with a fenced `'+codeLang+'` code block. Otherwise omit the Starter Code section.\n\n';
+  }
   p+='## Citation — REQUIRED at the End of the Markdown\n\n';
   p+='After `## Notes & Reflections`, append a final H2 section titled exactly `## Citation` containing this block, verbatim:\n\n';
   p+='> **Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n\n';
