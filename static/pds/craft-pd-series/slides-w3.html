@@ -144,23 +144,23 @@ html,body{height:100%;overflow:hidden;background:#111;font-family:'DM Sans',sans
 <div class="slide light"><div class="s-accent" style="background:#27AE60"></div>
         <div class="s-badges">
           <span class="s-badge" style="background:#27AE60">YOU DO</span>
-          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble · Role A</span>
+          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble · Live Build</span>
           <span class="s-time-badge">9:45 (30 min)</span>
         </div>
-        <h1 class="s-title">Guided: Build a Sensor Node</h1>
-        <p class="s-body">Role A — read + broadcast.</p>
-        <ul class="s-bullets"><li><code>on start</code> → <code>radio set group 7</code></li><li><code>forever</code> → <code>radio send number input.temperature()</code> → <code>pause 2000ms</code></li><li>Pick <em>your</em> sensor (temp / light / accel / sound / compass)</li><li>Ask an LLM; compare to your blocks; save the .hex</li></ul>
+        <h1 class="s-title">Server Room Guardian</h1>
+        <p class="s-body"><strong>Watch a live build</strong> of sensor + aggregator, then swap in your own sensor.</p>
+        <ul class="s-bullets"><li>Sensor broadcasts <code>input.temperature()</code> on <code>radio group 7</code> every 2s</li><li>Aggregator receives and displays — your hand warms the sim, the aggregator reacts</li><li>Key move: LLM generates the code; toggle <strong>Blocks ↔ JavaScript</strong> to understand it</li><li>Your turn: swap temp for light / accel / sound / compass — save <strong>TWO .hex files</strong></li></ul>
         <p class="s-link">→ makecode.microbit.org</p>
       </div>
 <div class="slide light"><div class="s-accent" style="background:#27AE60"></div>
         <div class="s-badges">
           <span class="s-badge" style="background:#27AE60">YOU DO</span>
-          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble · Role B (paired)</span>
+          <span class="s-badge-outline" style="color:#27AE60;border-color:#27AE60">Assemble · Enhance</span>
           <span class="s-time-badge">10:15 (30 min)</span>
         </div>
-        <h1 class="s-title">Paired: Aggregator Node — Make the Halves Talk</h1>
-        <p class="s-body">Partner up. One runs the Sender; the other builds the Receiver.</p>
-        <ul class="s-bullets"><li><code>on radio received (receivedNumber)</code> → running avg / min / max / count</li><li><code>show number</code> on LEDs; trigger alert above threshold</li><li>Ask an LLM for the aggregation; fix what's wrong</li><li><strong>Swap roles</strong> — everyone saves BOTH .hex files</li></ul>
+        <h1 class="s-title">Enhancements + Brainstorm</h1>
+        <p class="s-body">Two live upgrades, then you extend your own pair.</p>
+        <ul class="s-bullets"><li><strong>Liveness ping:</strong> aggregator sends <code>PING</code>, sensor replies <code>ACK</code>, dead-node warning on silence</li><li><strong>Data panel:</strong> wire incoming readings into MakeCode's live graph instead of scrolling LEDs</li><li>Brainstorm: what's possible when nodes talk back + trends are visible?</li><li>Build time: thresholds, alerts, bidirectional commands — log prompt → response → fix</li></ul>
 
       </div>
 <div class="slide light"><div class="s-accent" style="background:#999"></div>
