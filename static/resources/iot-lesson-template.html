@@ -57,6 +57,17 @@ textarea{min-height:80px;resize:vertical}
 .load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
 .load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
 
+/* Standards region selector (US vs Florida) */
+.std-region-box{border:1px solid var(--gray200);border-radius:10px;padding:12px 14px;margin:6px 0 12px;background:linear-gradient(135deg,#ffffff 0%,#f7faff 100%)}
+.std-region-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:0 0 8px}
+.std-region-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+.std-region-grid label{display:flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--gray200);border-radius:8px;font-weight:500;font-size:0.88rem;cursor:pointer;margin:0;background:#fff;transition:border-color 0.15s,background 0.15s}
+.std-region-grid label:hover{border-color:var(--teal);background:#f6fcfa}
+.std-region-grid input{width:auto;margin:0}
+.std-region-grid input:checked+span{color:var(--teal);font-weight:700}
+.std-region-grid label:has(input:checked){border-color:var(--teal);background:#eef9f6}
+.std-region-box .helper{margin-top:8px}
+
 /* Multi-framework standards picker */
 .std-intro{font-size:0.85rem;color:var(--gray600);margin:4px 0 14px;line-height:1.5}
 #std-pickers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
@@ -215,6 +226,7 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 <script>
 window.LESSON_DRAFT_NAMESPACE = 'iot';
 window.LESSON_DRAFT_EXTRA_FIELDS = [
+  ['stdRegion','f-std-region'],
   ['iotPlatform','f-iot-platform'],
   ['iotPlatformOther','f-iot-platform-other'],
   ['iotSensors','f-iot-sensors'],
@@ -354,7 +366,18 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
 </div>
 
 <h2>Standards Alignment</h2>
-<p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. <strong>If the national standards below don't apply to your context, use the <em>Custom / Other</em> row at the bottom to type in your own state standards.</strong></p>
+
+<div class="std-region-box" aria-label="Standards set">
+  <div class="std-region-title">Which standards set?</div>
+  <input type="hidden" id="f-std-region" value="US">
+  <div class="std-region-grid" id="std-region-grid">
+    <label><input type="radio" name="std-region" value="US" checked><span>🇺🇸 US (National)</span></label>
+    <label><input type="radio" name="std-region" value="FL"><span>🌴 Florida</span></label>
+  </div>
+  <div class="helper"><strong>US:</strong> CSTA, NGSS, CCSS Math/ELA, ISTE, NCSS C3, National Core Arts. <strong>Florida:</strong> adds B.E.S.T. ELA/Math, NGSSS Science/Social Studies, and FL K-12 CS (Florida frameworks listed first) — national frameworks remain available as a crosswalk.</div>
+</div>
+
+<p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. <strong>If the standards below don't apply to your context, use the <em>Custom / Other</em> row at the bottom to type in your own state/district standards.</strong></p>
 
 <div class="std-grade-filter">
 <p class="std-grade-note">Filtered to standards for <strong id="std-grade-label">6-8</strong>. Frameworks without grade info (ISTE, National Core Arts) always show every entry.</p>
@@ -590,6 +613,7 @@ Takeaway: What did the comparison reveal? Would students trust the AI's general 
 <p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
 
 <script src="/js/standards-db.js"></script>
+<script src="/js/standards-db-florida.js"></script>
 <script>
 const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
 const SUBMIT_EMAIL='mike@freyjalabs.com';
@@ -600,7 +624,16 @@ const CITATION_MD='\n\n## Citation\n\n**Cite this lesson template:** Borowczak, 
 const CITATION_HTML='<hr><p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite this lesson template:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>CRAFT PD Series Lesson Template.</em> UCF DRACO Lab &amp; School of Teacher Education. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
 
 /* ===== Multi-framework standards picker ===== */
-const FW_ORDER=['CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'];
+/* Two region presets: US (national only) and FL (Florida-first crosswalk).
+ * FW_ORDER is mutable — flipping the radio toggle swaps which list is in use
+ * and re-renders the picker UI. FW_LABEL keeps labels for every framework we
+ * ever show so we don't need to swap it when the region changes. */
+const FW_ORDER_US=['CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'];
+const FW_ORDER_FL=[
+  'FL B.E.S.T. ELA','FL B.E.S.T. Math','FL NGSSS Science','FL NGSSS Social Studies','FL K-12 Computer Science',
+  'CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'
+];
+let FW_ORDER=FW_ORDER_US.slice();
 const FW_LABEL={
   'CSTA':['Computer Science (CSTA K-12)','Computer Science Teachers Association'],
   'CCSS Math':['Math (Common Core)','Common Core State Standards — Mathematics'],
@@ -608,12 +641,43 @@ const FW_LABEL={
   'NGSS':['Science (NGSS)','Next Generation Science Standards — Performance Expectations'],
   'ISTE':['Technology (ISTE)','ISTE Standards for Students'],
   'NCSS C3':['Social Studies (NCSS C3)','College, Career, and Civic Life C3 Framework'],
-  'National Core Arts':['Arts (National Core Arts)','National Core Arts Standards']
+  'National Core Arts':['Arts (National Core Arts)','National Core Arts Standards'],
+  'FL B.E.S.T. ELA':['Florida B.E.S.T. ELA','Benchmarks for Excellent Student Thinking — English Language Arts (Florida)'],
+  'FL B.E.S.T. Math':['Florida B.E.S.T. Mathematics','Benchmarks for Excellent Student Thinking — Mathematics (Florida)'],
+  'FL NGSSS Science':['Florida NGSSS Science','Next Generation Sunshine State Standards — Science'],
+  'FL NGSSS Social Studies':['Florida NGSSS Social Studies','Next Generation Sunshine State Standards — Social Studies'],
+  'FL K-12 Computer Science':['Florida K-12 Computer Science','Florida Department of Education CS Standards']
 };
-const SELECTED={};FW_ORDER.forEach(fw=>SELECTED[fw]=[]);
+const SELECTED={};
+function ensureSelectedKeys(){
+  FW_ORDER_US.concat(FW_ORDER_FL).forEach(fw=>{if(!SELECTED[fw])SELECTED[fw]=[]});
+}
+ensureSelectedKeys();
 const CUSTOM_FW_KEY='Other';SELECTED[CUSTOM_FW_KEY]=[];
 const CUSTOM_DESC={};  // code -> description for Other-framework entries
 let activeDropdownFw=null,activeDropdownIdx=-1;
+
+function getStdRegion(){
+  const h=document.getElementById('f-std-region');
+  return (h&&h.value==='FL')?'FL':'US';
+}
+function setStdRegion(region,opts){
+  const r=(region==='FL')?'FL':'US';
+  FW_ORDER=(r==='FL'?FW_ORDER_FL:FW_ORDER_US).slice();
+  ensureSelectedKeys();
+  // Update hidden input + radio state
+  const h=document.getElementById('f-std-region');
+  if(h&&h.value!==r)h.value=r;
+  document.querySelectorAll('input[name="std-region"]').forEach(rb=>{rb.checked=(rb.value===r)});
+  // Re-render pickers and chips so any previously-selected standards move into
+  // the appropriate region-specific block (FL frameworks under their own blocks
+  // in FL mode, or into Custom/Other chips in US mode).
+  if(!opts||!opts.skipRender){
+    renderPickers();
+    FW_ORDER.forEach(fw=>renderChips(fw));
+    renderExtraChips();
+  }
+}
 
 function stdDb(){return (window.STANDARDS_DB)||{}}
 function codeDesc(fw,code){
@@ -878,34 +942,56 @@ function getAllSelectedStandards(){
   });
   return out;
 }
+function renderExtraChips(){
+  // Render chips for frameworks not in FW_ORDER (and not CUSTOM) into the Custom/Other box.
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+  if(!box)return;
+  const extras=Object.keys(SELECTED).filter(k=>FW_ORDER.indexOf(k)<0&&k!==CUSTOM_FW_KEY&&(SELECTED[k]||[]).length);
+  const chips=[];
+  extras.forEach(k=>{
+    (SELECTED[k]||[]).forEach(c=>{
+      const d=CUSTOM_DESC[c]||'';
+      chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+    });
+  });
+  box.innerHTML=chips.join('');
+}
+
 function setSelectedStandards(dict){
   // Reset all
   Object.keys(SELECTED).forEach(k=>SELECTED[k]=[]);
   Object.keys(CUSTOM_DESC).forEach(k=>delete CUSTOM_DESC[k]);
   if(!dict||typeof dict!=='object')return;
+  // Auto-detect region: if any incoming framework is a Florida one, flip the
+  // selector to Florida so its pickers are visible and ready to render chips.
+  // (An explicit standards_region front-matter field — handled by the caller
+  // before this runs — wins over this heuristic.)
+  const hasFl=Object.keys(dict).some(fw=>FW_ORDER_FL.indexOf(fw)>=0&&FW_ORDER_US.indexOf(fw)<0);
+  if(hasFl&&getStdRegion()!=='FL'){
+    setStdRegion('FL',{skipRender:true});
+    renderPickers();
+  }
   Object.keys(dict).forEach(fw=>{
     const codes=Array.isArray(dict[fw])?dict[fw]:[];
+    if(!SELECTED[fw])SELECTED[fw]=[];
     SELECTED[fw]=codes.slice();
   });
   // Re-render all chip boxes for known frameworks
   FW_ORDER.forEach(fw=>renderChips(fw));
   // Re-render custom block for any frameworks beyond FW_ORDER
-  const extras=Object.keys(SELECTED).filter(k=>FW_ORDER.indexOf(k)<0&&k!==CUSTOM_FW_KEY);
-  if(extras.length){
-    const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
-    if(box){
-      const chips=[];
-      extras.forEach(k=>{
-        (SELECTED[k]||[]).forEach(c=>{
-          chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span><button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
-        });
-      });
-      box.innerHTML=chips.join('');
-    }
-  }
+  renderExtraChips();
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
+  // Region radios — flip FW_ORDER and re-render pickers when toggled.
+  document.querySelectorAll('input[name="std-region"]').forEach(rb=>{
+    rb.addEventListener('change',()=>{
+      if(rb.checked)setStdRegion(rb.value);
+    });
+  });
+  // Sync FW_ORDER with whatever the hidden field says at init (draft restore
+  // may have set it to 'FL' before this listener runs).
+  setStdRegion(getStdRegion(),{skipRender:true});
   renderPickers();
   const grade=document.getElementById('f-grade');
   if(grade)grade.addEventListener('change',refreshStdDropdowns);
@@ -1339,7 +1425,8 @@ function collect(){
     iotDataVerify:v('f-iot-dataverify'),
     iotGenStarter:vc('f-iot-gen-starter'),
     iotExistingCode:v('f-iot-existing-code'),
-    iotCode:v('f-iot-code')
+    iotCode:v('f-iot-code'),
+    stdRegion:getStdRegion()
   }
 }
 
@@ -1359,6 +1446,13 @@ function setField(id,val){
     return;
   }
   el.value=s;
+  if(id==='f-std-region'){
+    // Normalize common region aliases so round-trips tolerate variations
+    // in saved drafts and imported Markdown (e.g. "Florida", "florida").
+    const r=/^(fl|florida)$/i.test(s)?'FL':'US';
+    el.value=r;
+    setStdRegion(r);
+  }
   if(id==='f-iot-platform'){setPlatformKey(s);renderPlatformUI()}
   if(id==='f-iot-sensors')syncBoxesFromSensors(s);
   if(id==='f-iot-code')renderIotCodePreview();
@@ -1384,6 +1478,8 @@ function fromMarkdown(md){
     d.author=scalar('author');
     d.materials=scalar('materials');
     d.discipline=scalar('stem_discipline');
+    const region=scalar('standards_region');
+    if(region)d.stdRegion=/^(fl|florida)$/i.test(region)?'FL':'US';
     const listAfter=(key)=>{
       const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
       if(!m)return [];
@@ -1688,6 +1784,11 @@ function loadMarkdown(){
   setField('f-duration',d.duration);
   setField('f-summary',d.summary);
   setField('f-tags',d.tags);
+  // Region must be applied BEFORE standards so the FL frameworks get rendered
+  // into their own picker blocks (and chips) rather than the Custom/Other box.
+  // If the markdown has an explicit standards_region field we honor it; otherwise
+  // setSelectedStandards auto-detects based on which frameworks are present.
+  if(d.stdRegion)setField('f-std-region',d.stdRegion);
   setSelectedStandards(d.standards||{});
   setField('f-sep',d.sep);
   setField('f-ccc',d.ccc);
@@ -1767,6 +1868,7 @@ function toMarkdown(d){
   if(subjects.length){fm+='subjects:\n';subjects.forEach(s=>fm+='- '+s+'\n')}
   if(d.grade){fm+='grade_levels:\n- '+d.grade+'\n'}
   if(d.discipline)fm+='stem_discipline: "'+escQ(d.discipline)+'"\n';
+  if(d.stdRegion==='FL')fm+='standards_region: "FL"\n';
   if(fwList.length){
     fm+='standard_types:\n';
     fwList.forEach(fw=>fm+='- "'+escQ(fw)+'"\n');
