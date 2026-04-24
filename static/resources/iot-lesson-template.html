@@ -1198,28 +1198,35 @@ function prettifyCode(code,lang){
     cpp:['auto','bool','break','case','catch','char','class','const','continue','default','delete','do','double','else','enum','extern','false','float','for','if','include','inline','int','long','namespace','new','nullptr','private','protected','public','return','short','sizeof','static','struct','switch','template','this','throw','true','try','typedef','typename','using','virtual','void','while']
   };
   const kws=KEYWORDS[lang]||[];
+  // Stash inserted spans as placeholders so later regexes don't match
+  // inside the tag attributes (e.g. the Python keyword "class" matching
+  // the attribute in `<span class="tok-com">`).
+  const stash=[];
+  const hold=html=>{stash.push(html);return '\uE000_'+(stash.length-1)+'_\uE001'};
   let html=esc;
   // Strings (single + double + triple)
-  html=html.replace(/(&quot;[^&\n]*?&quot;|&#39;[^&\n]*?&#39;)/g,'<span class="tok-str">$1</span>');
+  html=html.replace(/&quot;[^&\n]*?&quot;|&#39;[^&\n]*?&#39;/g,m=>hold('<span class="tok-str">'+m+'</span>'));
   // Comments
   if(lang==='python'){
-    html=html.replace(/(^|\n)(\s*)(#[^\n]*)/g,'$1$2<span class="tok-com">$3</span>');
+    html=html.replace(/(^|\n)(\s*)(#[^\n]*)/g,(_m,p1,p2,p3)=>p1+p2+hold('<span class="tok-com">'+p3+'</span>'));
   }else{
-    html=html.replace(/(\/\/[^\n]*)/g,'<span class="tok-com">$1</span>');
-    html=html.replace(/(\/\*[\s\S]*?\*\/)/g,'<span class="tok-com">$1</span>');
+    html=html.replace(/\/\/[^\n]*/g,m=>hold('<span class="tok-com">'+m+'</span>'));
+    html=html.replace(/\/\*[\s\S]*?\*\//g,m=>hold('<span class="tok-com">'+m+'</span>'));
   }
-  // Numbers
-  html=html.replace(/\b(\d+(?:\.\d+)?)\b/g,'<span class="tok-num">$1</span>');
   // Keywords
   if(kws.length){
     const pat=new RegExp('\\b('+kws.join('|')+')\\b','g');
-    html=html.replace(pat,'<span class="tok-kw">$1</span>');
+    html=html.replace(pat,m=>hold('<span class="tok-kw">'+m+'</span>'));
   }
+  // Numbers
+  html=html.replace(/\b\d+(?:\.\d+)?\b/g,m=>hold('<span class="tok-num">'+m+'</span>'));
   // Function call names (basic)
   html=html.replace(/\b([A-Za-z_][\w]*)\s*\(/g,(m,name)=>{
     if(kws.indexOf(name)>=0)return m;
-    return '<span class="tok-fn">'+name+'</span>(';
+    return hold('<span class="tok-fn">'+name+'</span>')+'(';
   });
+  // Restore stashed spans
+  html=html.replace(/\uE000_(\d+)_\uE001/g,(_m,i)=>stash[+i]);
   return html;
 }
 
