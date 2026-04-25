@@ -189,8 +189,13 @@ Annual workshops blending CS, engineering, and the arts for elementary and middl
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="https://uwyo-ssc.gitlab.io/public/tacos/cs-website/">TACoS IX (2023)</a></h3>
-    <p class="card-desc">Latest edition: tutorial site plus two YouTube playlists — <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i1aiFOUyYl99rSmZka1Fp5A">CS / Engineering</a> (28 videos) and <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i00NdfNPdBaEnM6QPI3jg1i">Engineering Design with Computing</a> (27 videos). 1–4 min each.</p>
+    <h3><a href="https://uwyo-ssc.gitlab.io/public/tacos/cs-website/">TACoS IX (2023) — CS Track</a></h3>
+    <p class="card-desc"><a href="https://uwyo-ssc.gitlab.io/public/tacos/cs-website/">CS walkthrough site</a> paired with its <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i1aiFOUyYl99rSmZka1Fp5A">YouTube playlist</a> (28 videos, 1–4 min each).</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://gitlab.com/UWyo-SSC/public/tacos/eng-website">TACoS IX (2023) — Engineering Track</a></h3>
+    <p class="card-desc"><a href="https://gitlab.com/UWyo-SSC/public/tacos/eng-website">Engineering walkthrough site</a> paired with its <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i00NdfNPdBaEnM6QPI3jg1i">Engineering Design with Computing YouTube playlist</a> (27 videos, 1–4 min each).</p>
     <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
   </div>
   <div class="card">
