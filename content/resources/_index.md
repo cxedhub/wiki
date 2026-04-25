@@ -4,6 +4,90 @@ description: "Curated K-12 computing resources — the CRAFT PD toolkit (AI-inte
 type: "page"
 ---
 
+<a href="/pds/craft-pd-series/resources/craft-cycle-one-pager.html" class="craft-spotlight">
+  <div class="craft-spotlight-letters" aria-hidden="true">
+    <span style="background:#D4A843">C</span><span style="background:#C0392B">R</span><span style="background:#27AE60">A</span><span style="background:#1ABC9C">F</span><span style="background:#8E6BBF">T</span>
+  </div>
+  <div class="craft-spotlight-body">
+    <div class="craft-spotlight-eyebrow">Start here</div>
+    <h2 class="craft-spotlight-title">The CRAFT Cycle — One-Pager</h2>
+    <p class="craft-spotlight-desc">The whole framework on a single printable page. Contextualize → Reframe → Assemble → Fortify → Transfer, with classroom examples for each phase. New to CRAFT? Open this first.</p>
+    <span class="craft-spotlight-cta">Open the one-pager &rarr;</span>
+  </div>
+</a>
+
+<style>
+.craft-spotlight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, #FFF8E7 0%, #E8FAF6 100%);
+  border: 2px solid #1ABC9C;
+  border-radius: 12px;
+  padding: 1.75rem 2rem;
+  margin: 0 0 2rem;
+  box-shadow: 0 4px 12px rgba(26,188,156,0.15);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.craft-spotlight:hover {
+  box-shadow: 0 8px 24px rgba(26,188,156,0.25);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.craft-spotlight-letters { display: flex; gap: 6px; flex-shrink: 0; }
+.craft-spotlight-letters span {
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.craft-spotlight-body { flex: 1; min-width: 0; }
+.craft-spotlight-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #C0392B;
+  margin-bottom: 0.25rem;
+}
+.craft-spotlight-title {
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+  color: #1B2A4A;
+}
+.craft-spotlight-desc {
+  font-size: 0.95rem;
+  color: #2C4A6E;
+  margin: 0 0 0.6rem;
+  line-height: 1.5;
+}
+.craft-spotlight-cta {
+  display: inline-block;
+  font-weight: 700;
+  color: #1ABC9C;
+  font-size: 0.95rem;
+}
+[data-theme="dark"] .craft-spotlight {
+  background: linear-gradient(135deg, #2a2418 0%, #1a2e2a 100%);
+  border-color: #1ABC9C;
+}
+[data-theme="dark"] .craft-spotlight-title { color: #E8FAF6; }
+[data-theme="dark"] .craft-spotlight-desc { color: #B8D4E0; }
+@media (max-width: 600px) {
+  .craft-spotlight { flex-direction: column; align-items: flex-start; padding: 1.25rem; }
+  .craft-spotlight-letters span { width: 36px; height: 36px; font-size: 1.2rem; }
+  .craft-spotlight-title { font-size: 1.2rem; }
+}
+</style>
+
 Everything here is free to use, remix, and redistribute under CC BY-SA 4.0. The **CRAFT PD Toolkit** below is pulled straight from our Professional Development workshops so you can reuse the same templates, prompt libraries, and code starters your peers are using in their classrooms.
 
 ---
