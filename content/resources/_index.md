@@ -136,6 +136,11 @@ Help students use generative AI as a partner for STEM learning — with guardrai
     <p class="card-desc">Side-by-side comparison of ChatGPT, Claude, Gemini, and Copilot for K-12 use — data policies, age gates, strengths, and tradeoffs.</p>
     <div class="card-meta"><span class="chip chip-subject">Reference</span><span class="chip chip-grade">Educator</span></div>
   </div>
+  <div class="card">
+    <h3><a href="/resources/grant-writer-tool.html">Teacher Grant Writer Support Tool</a></h3>
+    <p class="card-desc">Fillable grant proposal builder for classroom technology (micro:bits, sensors, robotics, software, PD). Same Fill → Prompt → Recycle cycle as the lesson templates: draft your proposal, hand it to an LLM to expand and tailor to a target funder, then load the revised draft back in to download. Includes a curated <strong>Find a Grant</strong> directory of common K-12 STEM/CS funders.</p>
+    <div class="card-meta"><span class="chip chip-subject">Tool</span><span class="chip chip-grade">Educator</span></div>
+  </div>
 </div>
 
 ### Verify AI Outputs
