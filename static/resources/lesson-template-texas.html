@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CRAFT Lesson Template (Texas) — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;margin:0}
+.page-wrap{max-width:850px;margin:0 auto;padding:24px}
+.site-header{background:#fff;border-bottom:1px solid var(--gray200);position:sticky;top:0;z-index:100}
+.site-header .container{max-width:1200px;margin:0 auto;padding:8px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;min-height:64px}
+.site-logo{font-size:1.4rem;color:var(--ink);letter-spacing:-0.5px;text-decoration:none}
+.site-logo strong{color:var(--teal)}
+.site-logo:hover{text-decoration:none}
+.site-nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.site-nav a{color:var(--gray600);font-weight:500;font-size:0.95rem;padding:0.25rem 0;border-bottom:2px solid transparent;text-decoration:none;transition:color 0.2s,border-color 0.2s}
+.site-nav a:hover,.site-nav a.active{color:var(--teal);border-bottom-color:var(--teal);text-decoration:none}
+@media(max-width:720px){.site-nav{gap:0.9rem;font-size:0.88rem}}
+.optional-note{background:#f7faff;border:1px solid var(--gray200);border-left:4px solid var(--teal);border-radius:6px;padding:10px 14px;margin:10px 0 18px;font-size:0.85rem;color:var(--ink)}
+.optional-note strong{color:var(--teal)}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.9rem;margin-bottom:20px}
+label{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px;color:var(--ink)}
+input[type="text"],textarea,select{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.phase-bar{display:flex;gap:4px;margin:20px 0 8px}
+.phase-tag{padding:4px 10px;border-radius:4px;font-size:0.72rem;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:0.06em}
+.craft-section{border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:12px 0;border-left:4px solid var(--teal)}
+.craft-section.c{border-left-color:var(--gold)}
+.craft-section.r{border-left-color:var(--red)}
+.craft-section.a{border-left-color:var(--green)}
+.craft-section.f{border-left-color:var(--teal)}
+.craft-section.t{border-left-color:var(--purple)}
+.craft-section h3{font-size:0.9rem;margin-bottom:8px}
+.helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 18px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;font-weight:600;cursor:pointer;margin:6px 6px 0 0;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{opacity:0.85}
+.btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
+.btn.pr{background:var(--purple)}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+.export-box{border:1px solid var(--gray200);border-radius:10px;padding:20px;margin-top:24px;background:#fff}
+.export-box h2{margin-top:0}
+.export-group{margin-top:10px}
+.export-group-label{font-size:0.74rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:12px 0 4px}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:6px;font-size:0.88rem;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:all 0.25s;z-index:100;max-width:90%;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.load-box{border:1px solid var(--gray200);border-radius:10px;padding:14px 18px;margin:0 0 22px;background:#fff}
+.load-box>summary{font-weight:600;font-size:0.92rem;cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px}
+.load-box>summary::-webkit-details-marker{display:none}
+.load-box>summary::before{content:"▸";display:inline-block;transition:transform 0.15s;color:var(--teal)}
+.load-box[open]>summary::before{transform:rotate(90deg)}
+.load-box .helper{margin:8px 0 10px}
+.load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
+.load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
+
+/* Multi-framework standards picker */
+.std-intro{font-size:0.85rem;color:var(--gray600);margin:4px 0 14px;line-height:1.5}
+#std-pickers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
+#std-pickers .std-block{margin:0}
+#std-pickers .std-block[data-fw="Other"]{grid-column:1/-1}
+.std-block{border:1px solid var(--gray200);border-radius:8px;padding:12px 14px;margin:10px 0;background:#fff}
+.std-block-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.std-block-title{font-weight:600;font-size:0.88rem;color:var(--ink)}
+.std-block-sub{font-size:0.74rem;color:var(--gray600);font-weight:400}
+.std-search-wrap{position:relative}
+.std-search{width:100%;padding:9px 10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;background:#fff}
+.std-search:focus{outline:none;border-color:var(--teal)}
+.std-dropdown{display:none;position:absolute;top:calc(100% + 2px);left:0;right:0;max-height:260px;overflow-y:auto;background:#fff;border:1px solid var(--gray200);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.1);z-index:50}
+.std-dropdown.open{display:block}
+.std-dropdown-item{padding:8px 12px;cursor:pointer;font-size:0.82rem;border-bottom:1px solid var(--gray100);line-height:1.35}
+.std-dropdown-item:last-child{border-bottom:none}
+.std-dropdown-item:hover,.std-dropdown-item.active{background:#f0fbf8}
+.std-dropdown-item.selected{opacity:0.55;cursor:default;background:var(--gray100)}
+.std-dropdown-item .code{font-family:'JetBrains Mono',monospace;font-weight:600;color:var(--ink);font-size:0.78rem}
+.std-dropdown-item .desc{color:var(--gray600);display:block;margin-top:2px}
+.std-dropdown-empty{padding:10px 12px;color:var(--gray600);font-size:0.8rem;font-style:italic}
+.std-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;min-height:4px}
+.std-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 8px 4px 10px;background:#eef9f6;border:1px solid #b7e6db;border-radius:14px;font-size:0.78rem;color:var(--ink);max-width:100%}
+.std-chip .chip-code{font-family:'JetBrains Mono',monospace;font-weight:600}
+.std-chip .chip-desc{color:var(--gray600);max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.std-chip button{background:none;border:none;color:var(--gray600);cursor:pointer;padding:0 2px;font-size:1rem;line-height:1;border-radius:50%}
+.std-chip button:hover{color:var(--red)}
+.std-custom-row{display:flex;gap:6px;margin-top:6px}
+.std-custom-row input{flex:1;padding:7px 10px;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem;font-family:inherit}
+.std-custom-row button{padding:7px 12px;background:#fff;border:1px solid var(--gray200);border-radius:6px;cursor:pointer;font-size:0.8rem;color:var(--ink)}
+.std-custom-row button:hover{border-color:var(--teal);color:var(--teal)}
+.std-grade-filter{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:6px 0 10px;padding:8px 12px;background:#f7faff;border:1px solid var(--gray200);border-radius:6px;font-size:0.82rem}
+.std-grade-note{color:var(--gray600);flex:1;min-width:220px;margin:0}
+.std-grade-note strong{color:var(--ink)}
+label.std-grade-override{display:flex;align-items:center;gap:6px;margin:0;font-weight:500;font-size:0.82rem;color:var(--ink);cursor:pointer}
+label.std-grade-override input{width:auto;margin:0}
+.std-dropdown-item.grade-off{opacity:0.55}
+
+details.ngss-specific{border:1px solid var(--gray200);border-radius:8px;padding:10px 14px;margin:10px 0;background:#fafcff}
+details.ngss-specific>summary{cursor:pointer;font-weight:600;font-size:0.88rem;list-style:none}
+details.ngss-specific>summary::-webkit-details-marker{display:none}
+details.ngss-specific>summary::before{content:"▸";display:inline-block;margin-right:6px;transition:transform 0.15s;color:var(--teal)}
+details.ngss-specific[open]>summary::before{transform:rotate(90deg)}
+details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight:400}
+
+/* LLM iterate 3-step flow */
+.llm-flow{list-style:none;margin:12px 0 0;padding:0;display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}
+.llm-step{flex:1 1 210px;min-width:190px;border:1px solid var(--gray200);border-radius:10px;padding:14px;background:linear-gradient(180deg,#ffffff 0%,#fafcfb 100%);display:flex;flex-direction:column;gap:6px;position:relative}
+.llm-step-badge{width:30px;height:30px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;flex:0 0 auto;box-shadow:0 2px 4px rgba(26,188,156,0.28)}
+.llm-step-title{font-weight:600;font-size:0.9rem;color:var(--ink);margin-top:2px}
+.llm-step-body{font-size:0.78rem;color:var(--gray600);line-height:1.45}
+.llm-step-action{margin-top:auto;padding-top:4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.llm-step-action .btn{margin:0}
+.llm-step-action .cpb-row{margin:0}
+.llm-flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:1.6rem;font-weight:700;flex:0 0 auto;padding:0 2px;user-select:none}
+.llm-flow-footnote{font-size:0.74rem;color:var(--gray600);font-style:italic;margin:8px 2px 0;line-height:1.4}
+@media(max-width:720px){.llm-flow{flex-direction:column;align-items:stretch}.llm-flow-arrow{transform:rotate(90deg);align-self:center;font-size:1.3rem;padding:2px 0}}
+
+/* Top actions (subtle upload) */
+.top-actions{display:flex;align-items:center;gap:8px;margin:4px 0 18px;flex-wrap:wrap}
+.top-upload-btn{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;background:transparent;color:var(--gray600);border:1px dashed var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.78rem;font-weight:500;cursor:pointer}
+.top-upload-btn:hover{border-color:var(--teal);color:var(--teal);background:#f6fcfa}
+
+/* Workflow overview panel (4-step guide) */
+.workflow-panel{border:1px solid var(--gray200);border-radius:12px;padding:16px 18px;margin:0 0 26px;background:linear-gradient(135deg,#ffffff 0%,#f7f9fc 100%)}
+.workflow-panel-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600);margin:0 0 12px}
+.workflow-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.workflow-step{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:8px;border:1px solid var(--gray200);background:#fff;border-top:4px solid var(--teal)}
+.workflow-step[data-step="2"]{border-top-color:var(--gold)}
+.workflow-step[data-step="3"]{border-top-color:var(--green)}
+.workflow-step[data-step="4"]{border-top-color:var(--purple)}
+.workflow-step-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.workflow-step-num{width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8rem;flex:0 0 auto}
+.workflow-step[data-step="2"] .workflow-step-num{background:var(--gold)}
+.workflow-step[data-step="3"] .workflow-step-num{background:var(--green)}
+.workflow-step[data-step="4"] .workflow-step-num{background:var(--purple)}
+.workflow-step-title{font-weight:600;font-size:0.86rem;color:var(--ink)}
+.workflow-step-opt{margin-left:auto;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:2px 6px;background:var(--gray100);border-radius:10px}
+.workflow-step-body{font-size:0.76rem;color:var(--gray600);line-height:1.45}
+@media(max-width:720px){.workflow-steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.workflow-steps{grid-template-columns:1fr}}
+
+/* Step section labels */
+.step-header{display:flex;align-items:center;gap:10px;margin:36px 0 14px;padding:10px 14px;border-radius:8px;background:#ebf9f6;border-left:5px solid var(--teal);flex-wrap:wrap}
+.step-header.first{margin-top:10px}
+.step-header[data-step="2"]{border-left-color:var(--gold);background:#fbf6e8}
+.step-header[data-step="3"]{border-left-color:var(--green);background:#e9f7ef}
+.step-header[data-step="4"]{border-left-color:var(--purple);background:#f1ecf7}
+.step-header-num{width:28px;height:28px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;flex:0 0 auto}
+.step-header[data-step="2"] .step-header-num{background:var(--gold)}
+.step-header[data-step="3"] .step-header-num{background:var(--green)}
+.step-header[data-step="4"] .step-header-num{background:var(--purple)}
+.step-header-label{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600)}
+.step-header-title{font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--ink);line-height:1.2}
+.step-header-opt{margin-left:auto;font-size:0.66rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:3px 8px;background:#fff;border:1px solid var(--gray200);border-radius:10px}
+.step-section{border:1px solid transparent;border-radius:10px;padding:2px 0 6px}
+.step-section[data-step="1"]{border-top:3px solid var(--teal);padding-top:6px}
+.step-section[data-step="2"]{border-top:3px solid var(--gold);padding-top:6px}
+.step-section[data-step="3"]{border-top:3px solid var(--green);padding-top:6px}
+.step-section[data-step="4"]{border-top:3px solid var(--purple);padding-top:6px}
+.step-section[data-step="2"] .export-box h2{border-bottom-color:var(--gold)}
+.step-section[data-step="3"] .export-box h2{border-bottom-color:var(--green)}
+.step-section[data-step="4"] .export-box h2{border-bottom-color:var(--purple)}
+
+@media print{.btn,.back,.export-box,#toast,.std-dropdown,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header,.site-header{display:none}input,textarea,select{border:1px solid #ccc}}
+@media(max-width:640px){#std-pickers{grid-template-columns:1fr}}
+@media(max-width:600px){.row,.row3{grid-template-columns:1fr}.std-chip .chip-desc{max-width:150px}}
+</style>
+</head><body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo"><strong>CX</strong> Ed Hub</a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/lessons/">Lesson Plans</a>
+      <a href="/pds/">Professional Development</a>
+      <a href="/resources/" class="active">Resources</a>
+      <a href="/matrix/">Standards Matrix</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+<h1>Texas STEM &amp; Cross-Disciplinary Lesson/Unit Plan Generator</h1>
+<p class="subtitle">A Texas-tuned version of the CRAFT lesson template. The standards picker leads with Texas Essential Knowledge and Skills (TEKS) — <strong>TEKS ELA &amp; Reading</strong>, <strong>TEKS Mathematics</strong>, <strong>TEKS Science</strong>, <strong>TEKS Social Studies</strong>, and <strong>TEKS Technology Applications</strong> (computer science) — with national frameworks (CSTA, NGSS, ISTE, CCSS, C3, National Core Arts) available alongside them so you can show a state-to-national crosswalk on the same plan. Codes and descriptions are sourced from the <a href="https://tea.texas.gov/academics/curriculum-standards/teks/texas-essential-knowledge-and-skills" target="_blank" rel="noopener">Texas Education Agency</a>. Fill in each section, use an LLM to help draft content, then verify and customize. When you're done, use the export tools at the bottom to copy, download, or submit your lesson. Looking for the national (non-state-specific) version? <a href="/resources/lesson-template.html">Use the general CRAFT lesson template →</a></p>
+
+<div class="top-actions">
+  <button class="top-upload-btn" type="button" onclick="topUploadMarkdown()" title="Load a previously saved .md lesson file">📥 Load saved lesson (.md)</button>
+  <input id="f-toploadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)" hidden>
+</div>
+
+<div id="draft-cache-panel" aria-label="Saved drafts on this device"></div>
+<script>window.LESSON_DRAFT_NAMESPACE='texas';</script>
+
+<div class="workflow-panel" aria-label="How to use this template">
+  <div class="workflow-panel-title">How this template works</div>
+  <ol class="workflow-steps">
+    <li class="workflow-step" data-step="1">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">1</span>
+        <span class="workflow-step-title">Fill out the lesson</span>
+      </div>
+      <div class="workflow-step-body">Add context for your lesson — the more detail you provide, the more specific and custom your lesson plan will be.</div>
+    </li>
+    <li class="workflow-step" data-step="2">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">2</span>
+        <span class="workflow-step-title">Iterate with AI</span>
+        <span class="workflow-step-opt">Optional</span>
+      </div>
+      <div class="workflow-step-body">Use an LLM to complete, expand, or refine your lesson — then load the revised Markdown back in.</div>
+    </li>
+    <li class="workflow-step" data-step="3">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">3</span>
+        <span class="workflow-step-title">Download</span>
+      </div>
+      <div class="workflow-step-body">Export your finished lesson in multiple formats — Word, Google Docs, Markdown, or print.</div>
+    </li>
+    <li class="workflow-step" data-step="4">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">4</span>
+        <span class="workflow-step-title">Submit</span>
+        <span class="workflow-step-opt">Advanced</span>
+      </div>
+      <div class="workflow-step-body">Share your plan with the CRAFT community by submitting it to the lesson plan repository on GitHub.</div>
+    </li>
+  </ol>
+</div>
+
+<div class="step-header first" data-step="1">
+  <span class="step-header-num" aria-hidden="true">1</span>
+  <span class="step-header-label">Step 1</span>
+  <span class="step-header-title">Fill Out Your Lesson</span>
+</div>
+
+<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Grade Level</strong>. Fill in as much or as little as you like — you can always come back and iterate with an LLM (Step 2) or load a saved draft.</p>
+
+<h2>Lesson Overview</h2>
+<div class="row">
+<div><label>Lesson Title</label><input id="f-title" type="text" placeholder="e.g., Investigating Projectile Motion with micro:bits"></div>
+<div><label>Your Name</label><input id="f-author" type="text" placeholder=""></div>
+</div>
+<div class="row">
+<div><label>Grade Level</label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option></select></div>
+<div><label>Subject Area</label><input id="f-subject" type="text" list="subject-suggestions" placeholder="e.g., Mathematics, Physical Science, Computer Science, Engineering">
+<datalist id="subject-suggestions">
+<option value="Mathematics">
+<option value="Computer Science">
+<option value="Physical Science">
+<option value="Life Science">
+<option value="Earth & Space Science">
+<option value="Engineering">
+<option value="Technology">
+<option value="Data Science">
+<option value="Environmental Science">
+<option value="Biology">
+<option value="Chemistry">
+<option value="Physics">
+<option value="Algebra">
+<option value="Geometry">
+<option value="Statistics">
+<option value="Robotics">
+<option value="Cybersecurity">
+<option value="Interdisciplinary STEM">
+</datalist>
+</div>
+</div>
+<div class="row">
+<div><label>Estimated Duration</label><input id="f-duration" type="text" placeholder="e.g., 3 class periods (50 min each)"></div>
+<div><label>STEM Discipline(s)</label><input id="f-discipline" type="text" placeholder="e.g., Math + CS, Engineering Design, Biology"><div class="helper">Noyce Scholars can come from any STEM field — flag yours here.</div></div>
+</div>
+<label>Lesson Summary (2-3 sentences)</label>
+<textarea id="f-summary" placeholder="Brief description of what students will do and learn..."></textarea>
+<label>Tags / Keywords</label>
+<input id="f-tags" type="text" placeholder="e.g., micro:bit, motion, data-collection (comma separated)">
+<div class="helper">Used for filtering in the lesson repository. "CRAFT" is added automatically.</div>
+
+<h2>Standards Alignment</h2>
+<p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. <strong>If the national standards below don't apply to your context, use the <em>Custom / Other</em> row at the bottom to type in your own state standards.</strong></p>
+
+<div class="std-grade-filter">
+<p class="std-grade-note">Filtered to standards for <strong id="std-grade-label">6-8</strong>. Frameworks without grade info (ISTE, National Core Arts) always show every entry.</p>
+<label class="std-grade-override"><input type="checkbox" id="f-std-show-all"> Show standards for all grade levels</label>
+</div>
+
+<div id="std-pickers"></div>
+
+<details class="ngss-specific">
+<summary>NGSS three-dimensional detail <span class="helper">(optional — only if you're aligning to NGSS)</span></summary>
+<div class="row3" style="margin-top:10px">
+<div><label>Science &amp; Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
+<div><label>Crosscutting Concept</label><textarea id="f-ccc" rows="3" placeholder="e.g., Cause and Effect"></textarea></div>
+<div><label>Disciplinary Core Idea</label><textarea id="f-dci" rows="3" placeholder="e.g., PS2.A: Forces and Motion"></textarea></div>
+</div>
+</details>
+
+<h2>CRAFT Cycle Structure</h2>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--gold)">C</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Contextualize</span>
+</div>
+<div class="craft-section c">
+<h3>Why This Matters (5-10 min)</h3>
+<label>Real-World Connection</label>
+<textarea id="f-c-real" placeholder="How does this concept appear in students' lives, careers, or the world? What hook will you use to open the lesson?
+
+LLM prompt idea: 'Give me 3 real-world applications of [TOPIC] that would be relevant to [GRADE] students in [REGION]'"></textarea>
+<label>Career Connection</label>
+<input id="f-c-career" type="text" placeholder="What jobs use this concept? e.g., Biomedical engineer, Environmental scientist">
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--red)">R</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Reframe</span>
+</div>
+<div class="craft-section r">
+<h3>Address the Misconception (5-10 min)</h3>
+<label>Common Misconception</label>
+<textarea id="f-r-misc" rows="2" placeholder="What do students typically believe incorrectly about this topic?
+
+LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students have about [TOPIC]?'"></textarea>
+<label>Correct Understanding</label>
+<textarea id="f-r-correct" rows="2" placeholder="What should they understand instead? How will you help them make the shift?"></textarea>
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--green)">A</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Assemble</span>
+</div>
+<div class="craft-section a">
+<h3>I Do → We Do → You Do</h3>
+<label>I Do — Teacher Demonstrates (5-10 min)</label>
+<textarea id="f-a-ido" placeholder="What will you model? Describe the demonstration or worked example."></textarea>
+<label>We Do — Guided Practice (10-15 min)</label>
+<textarea id="f-a-wedo" placeholder="What will students do WITH you? Think-pair-share, group problem, collaborative lab setup?"></textarea>
+<label>You Do — Independent/Group Practice (15-25 min)</label>
+<textarea id="f-a-youdo" placeholder="What will students do on their own or in groups? This is the core activity."></textarea>
+<label>Materials Needed</label>
+<textarea id="f-a-materials" rows="2" placeholder="List all materials. Be specific about quantities."></textarea>
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--teal)">F</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Fortify</span>
+</div>
+<div class="craft-section f">
+<h3>Verify Understanding (5-10 min)</h3>
+<label>Formative Assessment</label>
+<textarea id="f-f-formative" placeholder="How will you check understanding? Exit ticket, quick quiz, thumbs up/down, CER paragraph?"></textarea>
+<label>Check the Machine (if using AI in this lesson)</label>
+<textarea id="f-f-ctm" rows="3" placeholder="If students used AI in this lesson, describe the CtM exercise:
+Task: What did they ask the AI?
+Before: What did they predict?
+After: What did the AI produce?
+Takeaway: What did the comparison reveal?"></textarea>
+</div>
+
+<div class="phase-bar">
+<span class="phase-tag" style="background:var(--purple)">T</span>
+<span style="font-size:0.85rem;font-weight:600;padding-top:4px">Transfer</span>
+</div>
+<div class="craft-section t">
+<h3>Connect Forward (3-5 min)</h3>
+<label>Connection to Next Lesson</label>
+<textarea id="f-t-next" rows="2" placeholder="How does this connect to what's coming next in your curriculum?"></textarea>
+<label>Extension / Homework</label>
+<textarea id="f-t-ext" rows="2" placeholder="Optional extension for students who want to go further."></textarea>
+</div>
+
+<h2>Assessment</h2>
+<label>Summative Assessment Description</label>
+<textarea id="f-summative" placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
+
+<h2>Notes & Reflections</h2>
+<textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+
+<div class="step-section" data-step="2">
+<div class="step-header" data-step="2">
+  <span class="step-header-num" aria-hidden="true">2</span>
+  <span class="step-header-label">Step 2</span>
+  <span class="step-header-title">Iterate with AI</span>
+  <span class="step-header-opt">Optional</span>
+</div>
+
+<div class="export-box">
+<h2>Iterate with an LLM</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Hand your draft to an LLM for feedback, then paste the revised Markdown back in to refresh every field above.</p>
+
+<ol class="llm-flow" aria-label="Three-step LLM iteration flow">
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">1</div>
+    <div class="llm-step-title">Copy the AI prompt</div>
+    <div class="llm-step-body">We build a detailed prompt from every field above, plus this template's citation.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="copyLLMPrompt()">🤖 Copy AI Prompt</button></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">2</div>
+    <div class="llm-step-title">Open an LLM and paste</div>
+    <div class="llm-step-body">Pick your provider — we'll re-copy the prompt and open it in a new tab so you can paste right in.</div>
+    <div class="llm-step-action" id="cpb-ai-prompt-anchor"></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">3</div>
+    <div class="llm-step-title">Paste the reply back</div>
+    <div class="llm-step-body">Open the loader below and paste the revised Markdown to refresh every field above.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="returnToLoader()">⬇ Open Loader</button></div>
+  </li>
+</ol>
+<div class="llm-flow-footnote">Provider list is for convenience — we do not endorse any specific AI platform.</div>
+
+<details class="load-box" style="margin:18px 0 0" open>
+<summary>Load an existing lesson from Markdown</summary>
+<p class="helper">Paste Markdown from a previously exported lesson (or choose a <code>.md</code> file), then click <strong>Load</strong>. Fields above will be populated — review and edit as needed. Accepts files exported by this template; front matter is optional.</p>
+<input id="f-loadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)">
+<textarea id="f-loadtext" placeholder="---&#10;title: &quot;My Lesson&quot;&#10;---&#10;&#10;# My Lesson&#10;&#10;## Overview&#10;..."></textarea>
+<button class="btn" onclick="loadMarkdown()">📥 Load into Form</button>
+<button class="btn secondary" onclick="document.getElementById('f-loadtext').value='';document.getElementById('f-loadfile').value='';">Clear</button>
+</details>
+</div>
+</div>
+
+<div class="step-section" data-step="3">
+<div class="step-header" data-step="3">
+  <span class="step-header-num" aria-hidden="true">3</span>
+  <span class="step-header-label">Step 3</span>
+  <span class="step-header-title">Download Your Lesson</span>
+</div>
+
+<div class="export-box">
+<h2>Export Your Lesson</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in the browser — nothing leaves your computer unless you choose to submit it in Step 4.</p>
+
+<div class="export-group">
+<div class="export-group-label">Google Docs · Word · Pages</div>
+<button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
+<button class="btn secondary" onclick="downloadDoc()">⬇ Download .doc</button>
+<div class="helper">Rich-text paste keeps headings and formatting. The .doc file opens natively in Word and in Google Docs (File → Open).</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Markdown</div>
+<button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
+<button class="btn secondary" onclick="downloadMarkdown()">⬇ Download .md</button>
+<div class="helper">Includes Hugo front matter (title, description, grade level, NGSS PEs, tags) so it's ready to drop into the lesson plan repository.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Other</div>
+<button class="btn secondary" onclick="window.print()">🖨 Print</button>
+</div>
+</div>
+</div>
+
+<div class="step-section" data-step="4">
+<div class="step-header" data-step="4">
+  <span class="step-header-num" aria-hidden="true">4</span>
+  <span class="step-header-label">Step 4</span>
+  <span class="step-header-title">Submit to the Lesson Repository</span>
+  <span class="step-header-opt">Optional</span>
+</div>
+
+<div class="export-box">
+<h2>Share with the CRAFT Community</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Contribute your lesson so other educators can discover and build on it. Pick whichever path is easier for you.</p>
+
+<div class="export-group">
+<div class="export-group-label">Email submission · Easiest (no account needed)</div>
+<button class="btn" onclick="submitEmail()">✉️ Email Your Lesson to the Editors</button>
+<div class="helper">Downloads your lesson as a Markdown file and opens a pre-filled email to the editors. Just attach the downloaded <code>.md</code> file and hit send — we'll review and add it to the repository for you.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">GitHub pull request · Advanced</div>
+<button class="btn pr" onclick="submitPR()">🚀 Submit to Lesson Plan Repository</button>
+<div class="helper">Opens GitHub with your lesson pre-filled in a new file. You'll need a free GitHub account; GitHub will automatically fork the repo and walk you through creating a pull request for review.</div>
+</div>
+</div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab & School of Teacher Education</p>
+
+<script src="/js/standards-db.js"></script>
+<script src="/js/standards-db-texas.js"></script>
+<script>
+const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
+const SUBMIT_EMAIL='mike@freyjalabs.com';
+
+/* ===== Citation (embedded in every export + every AI prompt) ===== */
+const CITATION_TEXT='Borowczak, A. & Borowczak, M. (2026). CRAFT PD Series Lesson Template. cxedhub.com';
+const CITATION_MD='\n\n## Citation\n\n**Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n';
+const CITATION_HTML='<hr><p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite this lesson template:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>CRAFT PD Series Lesson Template.</em> UCF DRACO Lab &amp; School of Teacher Education. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
+
+/* ===== Multi-framework standards picker — Texas-first ===== */
+const FW_ORDER=[
+  'TX TEKS ELA','TX TEKS Math','TX TEKS Science','TX TEKS Social Studies','TX TEKS Technology Applications',
+  'CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'
+];
+const FW_LABEL={
+  'TX TEKS ELA':['Texas TEKS English Language Arts &amp; Reading','Texas Essential Knowledge and Skills — ELAR'],
+  'TX TEKS Math':['Texas TEKS Mathematics','Texas Essential Knowledge and Skills — Mathematics'],
+  'TX TEKS Science':['Texas TEKS Science','Texas Essential Knowledge and Skills — Science'],
+  'TX TEKS Social Studies':['Texas TEKS Social Studies','Texas Essential Knowledge and Skills — Social Studies'],
+  'TX TEKS Technology Applications':['Texas TEKS Technology Applications','Texas Essential Knowledge and Skills — Technology Applications (Computer Science)'],
+  'CSTA':['Computer Science (CSTA K-12)','Computer Science Teachers Association — national'],
+  'CCSS Math':['Math (Common Core)','Common Core State Standards — Mathematics (national crosswalk)'],
+  'CCSS ELA':['English Language Arts (Common Core)','Common Core — ELA/Literacy (national crosswalk)'],
+  'NGSS':['Science (NGSS)','Next Generation Science Standards — Performance Expectations (national crosswalk)'],
+  'ISTE':['Technology (ISTE)','ISTE Standards for Students — national'],
+  'NCSS C3':['Social Studies (NCSS C3)','College, Career, and Civic Life C3 Framework — national'],
+  'National Core Arts':['Arts (National Core Arts)','National Core Arts Standards']
+};
+const SELECTED={};FW_ORDER.forEach(fw=>SELECTED[fw]=[]);
+const CUSTOM_FW_KEY='Other';SELECTED[CUSTOM_FW_KEY]=[];
+const CUSTOM_DESC={};  // code -> description for Other-framework entries
+let activeDropdownFw=null,activeDropdownIdx=-1;
+
+function stdDb(){return (window.STANDARDS_DB)||{}}
+function codeDesc(fw,code){
+  if(fw===CUSTOM_FW_KEY)return CUSTOM_DESC[code]||'';
+  const db=stdDb();return db[fw]&&db[fw][code]?db[fw][code]:'';
+}
+function escHtml(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+/* ===== Grade-band inference for standard codes =====
+ * Returns array of grade bands (subset of ['K-2','3-5','6-8','9-12'])
+ * that a given (framework, code) targets, or null when the framework/code
+ * isn't grade-banded (e.g., ISTE, Math Practice, Arts). Null means "always show". */
+function gradeBandsForCode(fw,code){
+  if(!code)return null;
+  const band=(g)=>g<=2?'K-2':g<=5?'3-5':g<=8?'6-8':'9-12';
+  if(fw==='ISTE'||fw==='National Core Arts')return null;
+  if(fw==='CSTA'){
+    if(/^1A[-.]/.test(code))return ['K-2'];
+    if(/^1B[-.]/.test(code))return ['3-5'];
+    if(/^2[-.]/.test(code))return ['6-8'];
+    if(/^3[AB][-.]/.test(code))return ['9-12'];
+    return null;
+  }
+  if(fw==='NGSS'){
+    if(/^K-2-/.test(code))return ['K-2'];
+    if(/^3-5-/.test(code))return ['3-5'];
+    if(/^MS-/.test(code))return ['6-8'];
+    if(/^HS-/.test(code))return ['9-12'];
+    if(/^K-/.test(code))return ['K-2'];
+    const m=code.match(/^(\d)-/);
+    if(m)return [band(+m[1])];
+    return null;
+  }
+  if(fw==='CCSS Math'){
+    if(/^MP\./.test(code))return null;
+    if(/^(HS|G-|F-|N-|S-|A-)/.test(code))return ['9-12'];
+    const m=code.match(/^(K|\d+)\./);
+    if(m){
+      if(m[1]==='K')return ['K-2'];
+      const g=+m[1];
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='CCSS ELA'){
+    const m=code.match(/\.(K|\d+)(?:-(\d+))?(?:\.|$)/);
+    if(m){
+      const start=m[1]==='K'?0:+m[1];
+      const end=m[2]?+m[2]:start;
+      const bands={};
+      for(let g=start;g<=end;g++)bands[band(g)]=1;
+      return Object.keys(bands);
+    }
+    return null;
+  }
+  if(fw==='NCSS C3'){
+    const m=code.match(/\.(K-2|3-5|6-8|9-12)$/);
+    return m?[m[1]]:null;
+  }
+  if(fw==='TX TEKS ELA'){
+    // ELA.K.x.x, ELA.1..8.x.x, ELA.E1..E4 (English I..IV high school)
+    const m=code.match(/^ELA\.(K|\d+|E[1-4])\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^E[1-4]$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Math'){
+    // MA.K.x.x, MA.1..8.x.x, MA.A1/A2/G/PC (high-school courses)
+    const m=code.match(/^MA\.(K|\d+|A1|A2|G|PC)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(A1|A2|G|PC)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Science'){
+    // SCI.K.x.x, SCI.1..8.x.x, SCI.B/C/P/IPC/E/AQ (high-school courses)
+    const m=code.match(/^SCI\.(K|\d+|B|C|P|IPC|E|AQ)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(B|C|P|IPC|E|AQ)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Social Studies'){
+    // SS.K.x.x, SS.1..8.x.x, SS.US1/WG/WH/GOV/ECO (high school)
+    const m=code.match(/^SS\.(K|\d+|US\d|WG|WH|GOV|ECO)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(US\d|WG|WH|GOV|ECO)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Technology Applications'){
+    // TA.K.x.x, TA.1..8.x.x, TA.FCS (Fundamentals of CS), TA.CS1/CS2/CS3
+    const m=code.match(/^TA\.(K|\d+|FCS|CS\d)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(FCS|CS\d)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  return null;
+}
+function getGradeFilter(){
+  const showAll=document.getElementById('f-std-show-all');
+  if(showAll&&showAll.checked)return null;
+  const sel=document.getElementById('f-grade');
+  return sel?sel.value:null;
+}
+function codeMatchesGrade(fw,code,grade){
+  if(!grade)return true;
+  const bands=gradeBandsForCode(fw,code);
+  if(bands===null)return true;
+  return bands.indexOf(grade)>=0;
+}
+function refreshStdDropdowns(){
+  const label=document.getElementById('std-grade-label');
+  const sel=document.getElementById('f-grade');
+  if(label&&sel)label.textContent=sel.value||'—';
+  document.querySelectorAll('.std-dropdown.open').forEach(dd=>{
+    const inp=dd.parentNode.querySelector('.std-search');
+    if(inp)onSearchInput({target:inp});
+  });
+}
+
+function renderPickers(){
+  const host=document.getElementById('std-pickers');
+  if(!host)return;
+  let h='';
+  FW_ORDER.forEach(fw=>{
+    const [short,long]=FW_LABEL[fw];
+    h+='<div class="std-block" data-fw="'+fw+'">';
+    h+='<div class="std-block-head"><span class="std-block-title">'+escHtml(short)+'</span><span class="std-block-sub">'+escHtml(long)+'</span></div>';
+    h+='<div class="std-search-wrap">';
+    h+='<input type="text" class="std-search" placeholder="Search '+escHtml(fw)+' standards by keyword or code…" data-fw="'+escHtml(fw)+'" autocomplete="off">';
+    h+='<div class="std-dropdown" data-fw="'+escHtml(fw)+'"></div>';
+    h+='</div>';
+    h+='<div class="std-chips" data-fw="'+escHtml(fw)+'"></div>';
+    h+='</div>';
+  });
+  // Custom/Other framework block
+  h+='<div class="std-block" data-fw="'+CUSTOM_FW_KEY+'">';
+  h+='<div class="std-block-head"><span class="std-block-title">Custom / Other Framework</span><span class="std-block-sub">State standards, district frameworks, or any code not in the built-in database</span></div>';
+  h+='<div class="std-custom-row">';
+  h+='<input type="text" id="f-custom-fw" placeholder="Framework name (e.g., Wyoming CS, TEKS Math)" style="flex:0 0 200px">';
+  h+='<input type="text" id="f-custom-code" placeholder="Code (e.g., K-2.AP.A.01)">';
+  h+='<input type="text" id="f-custom-desc" placeholder="Short description (optional)">';
+  h+='<button type="button" onclick="addCustomStd()">+ Add</button>';
+  h+='</div>';
+  h+='<div class="std-chips" data-fw="'+CUSTOM_FW_KEY+'"></div>';
+  h+='</div>';
+  host.innerHTML=h;
+  // Wire up events
+  host.querySelectorAll('.std-search').forEach(inp=>{
+    inp.addEventListener('input',onSearchInput);
+    inp.addEventListener('focus',onSearchInput);
+    inp.addEventListener('keydown',onSearchKey);
+    inp.addEventListener('blur',()=>setTimeout(hideDropdowns,180));
+  });
+}
+
+function onSearchInput(e){
+  const inp=e.target;const fw=inp.dataset.fw;const q=inp.value.trim().toLowerCase();
+  const dd=inp.parentNode.querySelector('.std-dropdown');
+  const db=stdDb();const entries=db[fw]||{};
+  const sel=new Set(SELECTED[fw]||[]);
+  const gradeFilter=getGradeFilter();
+  const items=[];
+  Object.keys(entries).forEach(code=>{
+    const desc=entries[code];
+    const already=sel.has(code);
+    if(!q||code.toLowerCase().includes(q)||desc.toLowerCase().includes(q)){
+      if(!codeMatchesGrade(fw,code,gradeFilter))return;
+      items.push({code,desc,already});
+    }
+  });
+  // Sort: prioritize code-starts-with, then description-match, then alphabetical
+  items.sort((a,b)=>{
+    if(q){
+      const ac=a.code.toLowerCase().startsWith(q)?0:1;
+      const bc=b.code.toLowerCase().startsWith(q)?0:1;
+      if(ac!==bc)return ac-bc;
+    }
+    return a.code.localeCompare(b.code);
+  });
+  const top=items.slice(0,50);
+  if(top.length===0){
+    const gradeHint=gradeFilter?' for '+escHtml(gradeFilter)+' — try toggling <em>Show standards for all grade levels</em> above':'';
+    dd.innerHTML='<div class="std-dropdown-empty">No matches in '+escHtml(fw)+gradeHint+'. Try a different keyword, or add it under Custom / Other below.</div>';
+  }else{
+    dd.innerHTML=top.map((it,i)=>'<div class="std-dropdown-item'+(it.already?' selected':'')+'" data-code="'+escHtml(it.code)+'" data-fw="'+escHtml(fw)+'"><span class="code">'+escHtml(it.code)+'</span><span class="desc">'+escHtml(it.desc)+'</span></div>').join('');
+    dd.querySelectorAll('.std-dropdown-item').forEach(el=>{
+      el.addEventListener('mousedown',ev=>{
+        ev.preventDefault();
+        if(el.classList.contains('selected'))return;
+        addStd(el.dataset.fw,el.dataset.code);
+        inp.value='';inp.focus();
+        onSearchInput({target:inp});
+      });
+    });
+  }
+  dd.classList.add('open');activeDropdownFw=fw;activeDropdownIdx=-1;
+}
+
+function onSearchKey(e){
+  const inp=e.target;const dd=inp.parentNode.querySelector('.std-dropdown');
+  const items=[...dd.querySelectorAll('.std-dropdown-item:not(.selected)')];
+  if(e.key==='ArrowDown'){e.preventDefault();activeDropdownIdx=Math.min(activeDropdownIdx+1,items.length-1);highlightActive(items)}
+  else if(e.key==='ArrowUp'){e.preventDefault();activeDropdownIdx=Math.max(activeDropdownIdx-1,0);highlightActive(items)}
+  else if(e.key==='Enter'){
+    if(activeDropdownIdx>=0&&items[activeDropdownIdx]){
+      e.preventDefault();
+      const el=items[activeDropdownIdx];
+      addStd(el.dataset.fw,el.dataset.code);
+      inp.value='';onSearchInput({target:inp});
+    }
+  }else if(e.key==='Escape'){hideDropdowns()}
+}
+function highlightActive(items){items.forEach((el,i)=>el.classList.toggle('active',i===activeDropdownIdx));if(items[activeDropdownIdx])items[activeDropdownIdx].scrollIntoView({block:'nearest'})}
+function hideDropdowns(){document.querySelectorAll('.std-dropdown.open').forEach(d=>d.classList.remove('open'));activeDropdownFw=null;activeDropdownIdx=-1}
+
+function addStd(fw,code){
+  if(!SELECTED[fw])SELECTED[fw]=[];
+  if(SELECTED[fw].indexOf(code)<0)SELECTED[fw].push(code);
+  renderChips(fw);
+}
+function removeStd(fw,code){
+  SELECTED[fw]=(SELECTED[fw]||[]).filter(c=>c!==code);
+  if(fw===CUSTOM_FW_KEY)delete CUSTOM_DESC[code];
+  renderChips(fw);
+}
+function renderChips(fw){
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(fw)+'"]');
+  if(!box)return;
+  const list=SELECTED[fw]||[];
+  box.innerHTML=list.map(code=>{
+    const d=codeDesc(fw,code);
+    return '<span class="std-chip"><span class="chip-code">'+escHtml(code)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+fw.replace(/'/g,"\\'")+'\',\''+code.replace(/'/g,"\\'")+'\')">×</button></span>';
+  }).join('');
+}
+function addCustomStd(){
+  const fw=(document.getElementById('f-custom-fw').value||'').trim();
+  const code=(document.getElementById('f-custom-code').value||'').trim();
+  const desc=(document.getElementById('f-custom-desc').value||'').trim();
+  if(!fw||!code){flash('Enter both a framework name and a code');return}
+  // Custom entries are stored under the user-provided framework name so they
+  // export cleanly into the standards dict — just like built-in frameworks.
+  if(!SELECTED[fw])SELECTED[fw]=[];
+  if(SELECTED[fw].indexOf(code)<0)SELECTED[fw].push(code);
+  if(desc)CUSTOM_DESC[code]=desc;
+  document.getElementById('f-custom-code').value='';
+  document.getElementById('f-custom-desc').value='';
+  // Render into the custom chip box
+  const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+  if(box){
+    const chips=[];
+    Object.keys(SELECTED).forEach(k=>{
+      if(FW_ORDER.indexOf(k)>=0||k===CUSTOM_FW_KEY)return;
+      (SELECTED[k]||[]).forEach(c=>{
+        const d=CUSTOM_DESC[c]||'';
+        chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span>'+(d?'<span class="chip-desc" title="'+escHtml(d)+'">'+escHtml(d)+'</span>':'')+'<button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+      });
+    });
+    box.innerHTML=chips.join('');
+  }
+}
+
+function getAllSelectedStandards(){
+  // Return dict of fw -> [codes] for everything that has entries
+  const out={};
+  Object.keys(SELECTED).forEach(fw=>{
+    if(fw===CUSTOM_FW_KEY)return;
+    if((SELECTED[fw]||[]).length)out[fw]=[...SELECTED[fw]];
+  });
+  return out;
+}
+function setSelectedStandards(dict){
+  // Reset all
+  Object.keys(SELECTED).forEach(k=>SELECTED[k]=[]);
+  Object.keys(CUSTOM_DESC).forEach(k=>delete CUSTOM_DESC[k]);
+  if(!dict||typeof dict!=='object')return;
+  Object.keys(dict).forEach(fw=>{
+    const codes=Array.isArray(dict[fw])?dict[fw]:[];
+    SELECTED[fw]=codes.slice();
+  });
+  // Re-render all chip boxes for known frameworks
+  FW_ORDER.forEach(fw=>renderChips(fw));
+  // Re-render custom block for any frameworks beyond FW_ORDER
+  const extras=Object.keys(SELECTED).filter(k=>FW_ORDER.indexOf(k)<0&&k!==CUSTOM_FW_KEY);
+  if(extras.length){
+    const box=document.querySelector('.std-chips[data-fw="'+CSS.escape(CUSTOM_FW_KEY)+'"]');
+    if(box){
+      const chips=[];
+      extras.forEach(k=>{
+        (SELECTED[k]||[]).forEach(c=>{
+          chips.push('<span class="std-chip"><span class="chip-code">'+escHtml(k)+' · '+escHtml(c)+'</span><button type="button" title="Remove" onclick="removeStd(\''+k.replace(/'/g,"\\'")+'\',\''+c.replace(/'/g,"\\'")+'\')">×</button></span>');
+        });
+      });
+      box.innerHTML=chips.join('');
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  renderPickers();
+  const grade=document.getElementById('f-grade');
+  if(grade)grade.addEventListener('change',refreshStdDropdowns);
+  const showAll=document.getElementById('f-std-show-all');
+  if(showAll)showAll.addEventListener('change',refreshStdDropdowns);
+  const label=document.getElementById('std-grade-label');
+  if(label&&grade)label.textContent=grade.value||'—';
+});
+
+
+function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
+function splitList(s){return s?s.split(',').map(x=>x.trim()).filter(Boolean):[]}
+function slugify(s){return (s||'').toLowerCase().trim().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'')||'untitled-lesson'}
+function escQ(s){return (s||'').replace(/\\/g,'\\\\').replace(/"/g,'\\"')}
+function escH(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function nl2br(s){return escH(s).replace(/\n/g,'<br>')}
+
+function collect(){
+  return {
+    title:v('f-title')||'Untitled Lesson',
+    author:v('f-author'),
+    grade:v('f-grade'),
+    subject:v('f-subject'),
+    discipline:v('f-discipline'),
+    duration:v('f-duration'),
+    summary:v('f-summary'),
+    tags:v('f-tags'),
+    standards:getAllSelectedStandards(),
+    sep:v('f-sep'),
+    ccc:v('f-ccc'),
+    dci:v('f-dci'),
+    cReal:v('f-c-real'),
+    cCareer:v('f-c-career'),
+    rMisc:v('f-r-misc'),
+    rCorrect:v('f-r-correct'),
+    aIdo:v('f-a-ido'),
+    aWedo:v('f-a-wedo'),
+    aYoudo:v('f-a-youdo'),
+    aMaterials:v('f-a-materials'),
+    fFormative:v('f-f-formative'),
+    fCtm:v('f-f-ctm'),
+    tNext:v('f-t-next'),
+    tExt:v('f-t-ext'),
+    summative:v('f-summative'),
+    notes:v('f-notes')
+  }
+}
+
+function setField(id,val){
+  if(val===undefined||val===null)return;
+  const s=(''+val).trim();
+  if(!s)return;
+  const el=document.getElementById(id);
+  if(!el)return;
+  if(el.tagName==='SELECT'){
+    const opts=[...el.options].map(o=>o.value);
+    if(opts.indexOf(s)>=0)el.value=s;
+    return;
+  }
+  el.value=s;
+}
+
+function fromMarkdown(md){
+  md=(md||'').replace(/\r\n/g,'\n');
+  const d={};
+  let body=md;
+
+  // Front matter (optional)
+  const fmMatch=md.match(/^---\n([\s\S]*?)\n---\n?/);
+  if(fmMatch){
+    const fm=fmMatch[1];
+    body=md.slice(fmMatch[0].length);
+    const scalar=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*(.*)$','m'));
+      if(!m)return '';
+      return m[1].trim().replace(/^['"]|['"]$/g,'').replace(/\\"/g,'"').replace(/\\\\/g,'\\');
+    };
+    d.title=scalar('title');
+    d.summary=scalar('description');
+    d.author=scalar('author');
+    d.materials=scalar('materials');
+    d.discipline=scalar('stem_discipline');
+    const listAfter=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
+      if(!m)return [];
+      return m[1].split('\n').map(l=>l.replace(/^\s*-\s+/,'').trim()).filter(Boolean);
+    };
+    const subjects=listAfter('subjects');
+    if(subjects.length)d.subject=subjects.join(', ');
+    const grades=listAfter('grade_levels');
+    if(grades.length)d.grade=grades[0];
+    // Parse structured standards: dict of framework -> list
+    //   standards:
+    //     CSTA:
+    //     - 1A-AP-10
+    //     NGSS:
+    //     - MS-PS2-2
+    // Walk lines manually so we stop cleanly at the next top-level key.
+    const fmLines=fm.split('\n');
+    let stdIdx=-1;
+    for(let i=0;i<fmLines.length;i++){
+      if(/^standards:\s*$/.test(fmLines[i])){stdIdx=i;break}
+    }
+    if(stdIdx>=0){
+      const stdDict={};
+      let curFw=null;
+      for(let i=stdIdx+1;i<fmLines.length;i++){
+        const line=fmLines[i];
+        if(/^\S/.test(line))break; // next top-level key
+        const fwMatch=line.match(/^\s{2}([^:\n]+?):\s*$/);
+        const itemMatch=line.match(/^\s{2,}-\s+(.+)$/);
+        if(fwMatch){
+          curFw=fwMatch[1].trim().replace(/^["']|["']$/g,'');
+          if(!stdDict[curFw])stdDict[curFw]=[];
+        }else if(itemMatch&&curFw){
+          const code=itemMatch[1].trim().replace(/^["']|["']$/g,'');
+          if(code)stdDict[curFw].push(code);
+        }
+      }
+      if(Object.keys(stdDict).length)d.standards=stdDict;
+    }
+    const tags=listAfter('tags').filter(t=>t!=='CRAFT');
+    if(tags.length)d.tags=tags.join(', ');
+    if(d.materials)d.materials=d.materials.replace(/;\s*/g,'\n');
+  }
+
+  // Strip trailing attribution block
+  body=body.replace(/\n---\s*\n\*Generated from[\s\S]*$/,'').trim();
+
+  // Title from # heading (only if not in front matter)
+  const titleMatch=body.match(/^#\s+(.+?)\s*$/m);
+  if(titleMatch&&!d.title)d.title=titleMatch[1].trim();
+
+  // Parse top-level ## sections
+  const sections={};
+  const re=/^##\s+(.+?)\s*$/gm;
+  const hits=[];
+  let mm;
+  while((mm=re.exec(body))!==null)hits.push({name:mm[1].trim(),start:mm.index+mm[0].length,idx:mm.index});
+  for(let i=0;i<hits.length;i++){
+    const end=i+1<hits.length?hits[i+1].idx:body.length;
+    sections[hits[i].name]=body.slice(hits[i].start,end).trim();
+  }
+  // Case-insensitive section lookup (handles ## STANDARDS, ## standards, etc.)
+  const findSection=(name)=>{
+    if(sections[name])return sections[name];
+    const lc=name.toLowerCase();
+    for(const k of Object.keys(sections)){if(k.toLowerCase()===lc)return sections[k]}
+    return '';
+  };
+
+  const lineVal=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const lm=text.match(new RegExp('^-\\s*\\*\\*'+esc+':\\*\\*\\s*(.+)$','m'));
+    return lm?lm[1].trim():'';
+  };
+  const labeledBlock=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const pat=new RegExp('\\*\\*'+esc+':\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\n\\*\\*[^*\\n]+:\\*\\*|$)');
+    const lm=text.match(pat);
+    return lm?lm[1].trim():'';
+  };
+
+  // Overview: free-text summary + optional meta bullet list
+  if(findSection('Overview')){
+    const overview=findSection('Overview');
+    const bulletIdx=overview.search(/(^|\n)-\s*\*\*/);
+    let summary=overview,list='';
+    if(bulletIdx>=0){
+      summary=overview.slice(0,bulletIdx).trim();
+      list=overview.slice(bulletIdx);
+    }
+    if(summary&&!d.summary)d.summary=summary;
+    if(list){
+      d.grade=lineVal(list,'Grade Level')||d.grade;
+      d.subject=lineVal(list,'Subject Area')||d.subject;
+      d.duration=lineVal(list,'Estimated Duration')||d.duration;
+      d.author=lineVal(list,'Author')||d.author;
+      d.discipline=lineVal(list,'STEM Discipline')||lineVal(list,'Discipline')||d.discipline;
+    }
+  }
+
+  // Standards Alignment — parse multi-framework standards from multiple formats.
+  // Accepts:
+  //   1. Bullet+bold:  - **CSTA:** 1A-AP-10, 1A-AP-14
+  //   2. Bold only:    **CSTA:** 1A-AP-10, 1A-AP-14
+  //   3. Table rows:   | CSTA (Computer Science) | 1A-AP-10 |
+  //   4. Plain text:   CSTA: 1A-AP-10, 1A-AP-14
+  const stdSection=findSection('Standards Alignment')||findSection('Standards')||'';
+  if(stdSection){
+    const dict=d.standards||{};
+    const isNgss3d=(fw)=>/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)||/^Crosscutting\s*Concept$/i.test(fw)||/^Disciplinary\s*Core\s*Idea$/i.test(fw);
+    const isPE=(fw)=>/^Performance\s*Expectation/i.test(fw);
+    const ingestLine=(fw,val)=>{
+      fw=fw.trim();val=val.trim();
+      if(!fw||!val)return;
+      if(/^Science\s*&\s*Engineering\s*Practice$/i.test(fw)){d.sep=val;return}
+      if(/^Crosscutting\s*Concept$/i.test(fw)){d.ccc=val;return}
+      if(/^Disciplinary\s*Core\s*Idea$/i.test(fw)){d.dci=val;return}
+      if(isPE(fw)){
+        const codes=val.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+        if(codes.length){dict['NGSS']=(dict['NGSS']||[]).concat(codes.filter(c=>(dict['NGSS']||[]).indexOf(c)<0))}
+        return;
+      }
+      const codes=val.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      if(codes.length){
+        const existing=dict[fw]||[];
+        codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
+        dict[fw]=existing;
+      }
+    };
+    let matched=false;
+    // Format 1: bullet + bold  - **FW:** codes
+    const reBB=/^-\s*\*\*([^:*]+):\*\*\s*(.+)$/gm;
+    let mLine;
+    while((mLine=reBB.exec(stdSection))!==null){matched=true;ingestLine(mLine[1],mLine[2])}
+    // Format 2: bold only  **FW:** codes  (no leading bullet)
+    if(!matched){
+      const reBold=/^\*\*([^:*]+):\*\*\s*(.+)$/gm;
+      while((mLine=reBold.exec(stdSection))!==null){matched=true;ingestLine(mLine[1],mLine[2])}
+    }
+    // Format 3: markdown table  | Framework | Code(s) |
+    if(!matched){
+      const reTable=/^\|\s*([^|\-][^|]*?)\s*\|\s*([^|\-][^|]*?)\s*\|/gm;
+      while((mLine=reTable.exec(stdSection))!==null){
+        const fw=mLine[1].trim();const val=mLine[2].trim();
+        // Skip header rows and separator rows
+        if(!fw||!val||/^[-\s]+$/.test(fw)||/^[-\s]+$/.test(val))continue;
+        if(/framework/i.test(fw)&&/code/i.test(val))continue;
+        matched=true;ingestLine(fw,val);
+      }
+    }
+    // Format 4: plain text  FW: codes  (must start with a letter, cap before colon)
+    if(!matched){
+      const rePlain=/^([A-Za-z][^:\n]{0,60}):\s+(.+)$/gm;
+      while((mLine=rePlain.exec(stdSection))!==null){
+        const fw=mLine[1].trim();
+        // Skip lines that look like prose rather than framework labels
+        if(/\s{3,}/.test(fw))continue;
+        ingestLine(fw,mLine[2]);
+      }
+    }
+    if(Object.keys(dict).length)d.standards=dict;
+  }
+  // Legacy NGSS Alignment section
+  if(findSection('NGSS Alignment')){
+    const na=findSection('NGSS Alignment');
+    const ngssLine=lineVal(na,'Performance Expectation(s)');
+    if(ngssLine){
+      const codes=ngssLine.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+      if(codes.length){
+        d.standards=d.standards||{};
+        const existing=d.standards['NGSS']||[];
+        codes.forEach(c=>{if(existing.indexOf(c)<0)existing.push(c)});
+        d.standards['NGSS']=existing;
+      }
+    }
+    d.sep=lineVal(na,'Science & Engineering Practice')||d.sep;
+    d.ccc=lineVal(na,'Crosscutting Concept')||d.ccc;
+    d.dci=lineVal(na,'Disciplinary Core Idea')||d.dci;
+  }
+
+  // CRAFT Cycle with ### sub-sections
+  if(findSection('CRAFT Cycle')){
+    const cc=findSection('CRAFT Cycle');
+    const subRe=/^###\s+(.+?)\s*$/gm;
+    const subHits=[];
+    let sm;
+    while((sm=subRe.exec(cc))!==null)subHits.push({name:sm[1].trim(),start:sm.index+sm[0].length,idx:sm.index});
+    const subs={};
+    for(let i=0;i<subHits.length;i++){
+      const end=i+1<subHits.length?subHits[i+1].idx:cc.length;
+      subs[subHits[i].name]=cc.slice(subHits[i].start,end).trim();
+    }
+    const findLetter=(letter)=>{
+      for(const k of Object.keys(subs)){
+        if(k.charAt(0).toUpperCase()===letter)return subs[k];
+      }
+      return '';
+    };
+
+    const cText=findLetter('C');
+    if(cText){
+      const parts=cText.split(/\n\s*\*\*Career Connection:\*\*\s*/);
+      d.cReal=parts[0].trim();
+      if(parts.length>1)d.cCareer=parts[1].trim();
+    }
+    const rText=findLetter('R');
+    if(rText){
+      d.rMisc=labeledBlock(rText,'Common Misconception');
+      d.rCorrect=labeledBlock(rText,'Correct Understanding');
+    }
+    const aText=findLetter('A');
+    if(aText){
+      d.aIdo=labeledBlock(aText,'I Do — Teacher Demonstrates');
+      d.aWedo=labeledBlock(aText,'We Do — Guided Practice');
+      d.aYoudo=labeledBlock(aText,'You Do — Independent/Group Practice');
+      const mats=labeledBlock(aText,'Materials Needed');
+      if(mats)d.aMaterials=mats;
+    }
+    const fText=findLetter('F');
+    if(fText){
+      d.fFormative=labeledBlock(fText,'Formative Assessment');
+      d.fCtm=labeledBlock(fText,'Check the Machine (CtM)');
+    }
+    const tText=findLetter('T');
+    if(tText){
+      d.tNext=labeledBlock(tText,'Connection to Next Lesson');
+      d.tExt=labeledBlock(tText,'Extension / Homework');
+    }
+  }
+
+  if(findSection('Assessment'))d.summative=findSection('Assessment');
+  if(findSection('Notes & Reflections'))d.notes=findSection('Notes & Reflections');
+
+  // Prefer body-derived materials over front-matter single-line form
+  if(!d.aMaterials&&d.materials)d.aMaterials=d.materials;
+
+  return d;
+}
+
+function loadMarkdown(){
+  const raw=v('f-loadtext');
+  if(!raw){flash('Paste markdown or choose a .md file first');return}
+  let d;
+  try{d=fromMarkdown(raw)}
+  catch(e){flash('Could not parse markdown: '+e.message);return}
+  setField('f-title',d.title);
+  setField('f-author',d.author);
+  setField('f-grade',d.grade);
+  setField('f-subject',d.subject);
+  setField('f-discipline',d.discipline);
+  setField('f-duration',d.duration);
+  setField('f-summary',d.summary);
+  setField('f-tags',d.tags);
+  setSelectedStandards(d.standards||{});
+  setField('f-sep',d.sep);
+  setField('f-ccc',d.ccc);
+  setField('f-dci',d.dci);
+  setField('f-c-real',d.cReal);
+  setField('f-c-career',d.cCareer);
+  setField('f-r-misc',d.rMisc);
+  setField('f-r-correct',d.rCorrect);
+  setField('f-a-ido',d.aIdo);
+  setField('f-a-wedo',d.aWedo);
+  setField('f-a-youdo',d.aYoudo);
+  setField('f-a-materials',d.aMaterials);
+  setField('f-f-formative',d.fFormative);
+  setField('f-f-ctm',d.fCtm);
+  setField('f-t-next',d.tNext);
+  setField('f-t-ext',d.tExt);
+  setField('f-summative',d.summative);
+  setField('f-notes',d.notes);
+  refreshStdDropdowns();
+  flash('Lesson loaded — review and edit as needed');
+}
+
+function loadFile(e){
+  const file=e.target.files&&e.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    document.getElementById('f-loadtext').value=ev.target.result;
+    loadMarkdown();
+  };
+  reader.readAsText(file);
+}
+
+function toMarkdown(d){
+  const date=new Date().toISOString().slice(0,10);
+  const tags=['CRAFT',...splitList(d.tags)];
+  const subjects=splitList(d.subject);
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
+  let fm='---\n';
+  fm+='title: "'+escQ(d.title)+'"\n';
+  if(d.summary)fm+='description: "'+escQ(d.summary.replace(/\s+/g,' '))+'"\n';
+  fm+="date: '"+date+"'\n";
+  fm+='draft: true\n';
+  if(d.author)fm+='author: "'+escQ(d.author)+'"\n';
+  if(subjects.length){fm+='subjects:\n';subjects.forEach(s=>fm+='- '+s+'\n')}
+  if(d.grade){fm+='grade_levels:\n- '+d.grade+'\n'}
+  if(d.discipline)fm+='stem_discipline: "'+escQ(d.discipline)+'"\n';
+  if(fwList.length){
+    fm+='standard_types:\n';
+    fwList.forEach(fw=>fm+='- "'+escQ(fw)+'"\n');
+    fm+='standards:\n';
+    fwList.forEach(fw=>{
+      fm+='  '+fw+':\n';
+      (standards[fw]||[]).forEach(c=>fm+='  - '+c+'\n');
+    });
+  }
+  if(d.aMaterials)fm+='materials: "'+escQ(d.aMaterials.replace(/\s*\n+\s*/g,'; '))+'"\n';
+  fm+='tags:\n';
+  tags.forEach(t=>fm+='- '+t+'\n');
+  fm+='---\n\n';
+
+  let b='# '+d.title+'\n\n## Overview\n\n';
+  if(d.summary)b+=d.summary+'\n\n';
+  const meta=[];
+  if(d.grade)meta.push('- **Grade Level:** '+d.grade);
+  if(d.subject)meta.push('- **Subject Area:** '+d.subject);
+  if(d.discipline)meta.push('- **STEM Discipline:** '+d.discipline);
+  if(d.duration)meta.push('- **Estimated Duration:** '+d.duration);
+  if(d.author)meta.push('- **Author:** '+d.author);
+  if(meta.length)b+=meta.join('\n')+'\n\n';
+
+  if(fwList.length||d.sep||d.ccc||d.dci){
+    b+='## Standards Alignment\n\n';
+    fwList.forEach(fw=>{
+      const codes=standards[fw]||[];
+      if(codes.length)b+='- **'+fw+':** '+codes.join(', ')+'\n';
+    });
+    if(d.sep)b+='- **Science & Engineering Practice:** '+d.sep+'\n';
+    if(d.ccc)b+='- **Crosscutting Concept:** '+d.ccc+'\n';
+    if(d.dci)b+='- **Disciplinary Core Idea:** '+d.dci+'\n';
+    b+='\n';
+  }
+
+  b+='## CRAFT Cycle\n\n### C — Contextualize (Why This Matters)\n\n';
+  if(d.cReal)b+=d.cReal+'\n\n';
+  if(d.cCareer)b+='**Career Connection:** '+d.cCareer+'\n\n';
+
+  b+='### R — Reframe (Address the Misconception)\n\n';
+  if(d.rMisc)b+='**Common Misconception:** '+d.rMisc+'\n\n';
+  if(d.rCorrect)b+='**Correct Understanding:** '+d.rCorrect+'\n\n';
+
+  b+='### A — Assemble (I Do → We Do → You Do)\n\n';
+  if(d.aIdo)b+='**I Do — Teacher Demonstrates:**  \n'+d.aIdo+'\n\n';
+  if(d.aWedo)b+='**We Do — Guided Practice:**  \n'+d.aWedo+'\n\n';
+  if(d.aYoudo)b+='**You Do — Independent/Group Practice:**  \n'+d.aYoudo+'\n\n';
+  if(d.aMaterials)b+='**Materials Needed:**  \n'+d.aMaterials+'\n\n';
+
+  b+='### F — Fortify (Verify Understanding)\n\n';
+  if(d.fFormative)b+='**Formative Assessment:** '+d.fFormative+'\n\n';
+  if(d.fCtm)b+='**Check the Machine (CtM):**  \n'+d.fCtm+'\n\n';
+
+  b+='### T — Transfer (Connect Forward)\n\n';
+  if(d.tNext)b+='**Connection to Next Lesson:** '+d.tNext+'\n\n';
+  if(d.tExt)b+='**Extension / Homework:** '+d.tExt+'\n\n';
+
+  if(d.summative)b+='## Assessment\n\n'+d.summative+'\n\n';
+  if(d.notes)b+='## Notes & Reflections\n\n'+d.notes+'\n\n';
+
+  b+=CITATION_MD;
+  return fm+b;
+}
+
+function toHTML(d){
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
+  let h='<h1>'+escH(d.title)+'</h1>';
+  if(d.author)h+='<p><em>By '+escH(d.author)+'</em></p>';
+  h+='<h2>Overview</h2>';
+  if(d.summary)h+='<p>'+nl2br(d.summary)+'</p>';
+  const meta=[];
+  if(d.grade)meta.push('<li><strong>Grade Level:</strong> '+escH(d.grade)+'</li>');
+  if(d.subject)meta.push('<li><strong>Subject Area:</strong> '+escH(d.subject)+'</li>');
+  if(d.discipline)meta.push('<li><strong>STEM Discipline:</strong> '+escH(d.discipline)+'</li>');
+  if(d.duration)meta.push('<li><strong>Estimated Duration:</strong> '+escH(d.duration)+'</li>');
+  if(meta.length)h+='<ul>'+meta.join('')+'</ul>';
+
+  if(fwList.length||d.sep||d.ccc||d.dci){
+    h+='<h2>Standards Alignment</h2><ul>';
+    fwList.forEach(fw=>{
+      const codes=standards[fw]||[];
+      if(codes.length)h+='<li><strong>'+escH(fw)+':</strong> '+escH(codes.join(', '))+'</li>';
+    });
+    if(d.sep)h+='<li><strong>Science &amp; Engineering Practice:</strong> '+escH(d.sep)+'</li>';
+    if(d.ccc)h+='<li><strong>Crosscutting Concept:</strong> '+escH(d.ccc)+'</li>';
+    if(d.dci)h+='<li><strong>Disciplinary Core Idea:</strong> '+escH(d.dci)+'</li>';
+    h+='</ul>';
+  }
+
+  h+='<h2>CRAFT Cycle</h2>';
+  h+='<h3>C — Contextualize (Why This Matters)</h3>';
+  if(d.cReal)h+='<p>'+nl2br(d.cReal)+'</p>';
+  if(d.cCareer)h+='<p><strong>Career Connection:</strong> '+escH(d.cCareer)+'</p>';
+
+  h+='<h3>R — Reframe (Address the Misconception)</h3>';
+  if(d.rMisc)h+='<p><strong>Common Misconception:</strong> '+nl2br(d.rMisc)+'</p>';
+  if(d.rCorrect)h+='<p><strong>Correct Understanding:</strong> '+nl2br(d.rCorrect)+'</p>';
+
+  h+='<h3>A — Assemble (I Do → We Do → You Do)</h3>';
+  if(d.aIdo)h+='<p><strong>I Do — Teacher Demonstrates:</strong><br>'+nl2br(d.aIdo)+'</p>';
+  if(d.aWedo)h+='<p><strong>We Do — Guided Practice:</strong><br>'+nl2br(d.aWedo)+'</p>';
+  if(d.aYoudo)h+='<p><strong>You Do — Independent/Group Practice:</strong><br>'+nl2br(d.aYoudo)+'</p>';
+  if(d.aMaterials)h+='<p><strong>Materials Needed:</strong><br>'+nl2br(d.aMaterials)+'</p>';
+
+  h+='<h3>F — Fortify (Verify Understanding)</h3>';
+  if(d.fFormative)h+='<p><strong>Formative Assessment:</strong> '+nl2br(d.fFormative)+'</p>';
+  if(d.fCtm)h+='<p><strong>Check the Machine (CtM):</strong><br>'+nl2br(d.fCtm)+'</p>';
+
+  h+='<h3>T — Transfer (Connect Forward)</h3>';
+  if(d.tNext)h+='<p><strong>Connection to Next Lesson:</strong> '+nl2br(d.tNext)+'</p>';
+  if(d.tExt)h+='<p><strong>Extension / Homework:</strong> '+nl2br(d.tExt)+'</p>';
+
+  if(d.summative)h+='<h2>Assessment</h2><p>'+nl2br(d.summative)+'</p>';
+  if(d.notes)h+='<h2>Notes &amp; Reflections</h2><p>'+nl2br(d.notes)+'</p>';
+  h+=CITATION_HTML;
+  return h;
+}
+
+async function clipboardText(t){
+  try{
+    if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(t);return true}
+  }catch(e){}
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.focus();ta.select();
+    const ok=document.execCommand('copy');
+    ta.remove();return ok;
+  }catch(e){return false}
+}
+
+async function copyMarkdown(){
+  const md=toMarkdown(collect());
+  if(await clipboardText(md))flash('Markdown copied to clipboard');
+  else flash('Could not copy — please try the Download .md button');
+}
+
+function buildLLMPrompt(d){
+  const draft=toMarkdown(d);
+  const standards=d.standards||{};
+  const fwList=Object.keys(standards).filter(fw=>(standards[fw]||[]).length);
+  let p='';
+  const gradeLabel=d.grade||'K-12';
+  const bandDesc={'K-2':'early-elementary (ages 5-8)','3-5':'upper-elementary (ages 8-11)','6-8':'middle-school (ages 11-14)','9-12':'high-school (ages 14-18)'}[gradeLabel]||gradeLabel;
+  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education in Texas classrooms, helping complete and iterate on a lesson plan that follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). The teacher may be working in any STEM discipline — mathematics, science, computer science, engineering, technology, or a cross-disciplinary mix — so calibrate vocabulary, pedagogy, and examples to the subject area and age band they indicate. This is a Texas-tuned template: lead with the Texas Essential Knowledge and Skills (TEKS) — TEKS ELA &amp; Reading, TEKS Mathematics, TEKS Science, TEKS Social Studies, and TEKS Technology Applications (Computer Science) — and, where relevant, prefer Texas-contextual hooks and examples (e.g., Gulf Coast hurricanes and shipping, oil and gas industry, Big Bend and Hill Country ecology, NASA Johnson Space Center and Texas aerospace, Texas wind and solar energy, Rio Grande water systems, Texas history from missions through statehood) so students see the content connected to their state.\n\n';
+  p+='## Your Task\n\n';
+  p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
+  p+='1. **Filling in missing or thin sections** with thoughtful, grade-appropriate content that fits the topic, subject area, and audience. Empty or sparse fields are the biggest opportunity to add value.\n';
+  p+='2. **Strengthening existing content** by expanding bullet-point ideas into full, classroom-ready descriptions. Preserve the teacher\'s voice and intent where content is already present — improve, don\'t replace.\n';
+  p+='3. **Verifying standards alignment** — the teacher may have selected standards from one or more frameworks. Texas state frameworks (TX TEKS ELA, TX TEKS Math, TX TEKS Science, TX TEKS Social Studies, TX TEKS Technology Applications) are the primary alignment for this template; national frameworks (CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts) may appear alongside them as a crosswalk, plus any custom framework the teacher added. Make sure every listed standard is a real, verifiable code in the declared framework and that the activities authentically address each one. For Texas codes, the authoritative source is the Texas Education Agency (tea.texas.gov) — examples of valid code shapes include `ELA.6.7.A` (TEKS ELAR Grade 6, knowledge & skills 7, student expectation A), `MA.6.2.A` (TEKS Math Grade 6), `SCI.6.5.A` (TEKS Science Grade 6), `SS.6.1.A` (TEKS Social Studies Grade 6), and `TA.6.4.A` (TEKS Technology Applications Grade 6). High-school course codes use the course abbreviation (e.g., `MA.A1.5.A` for Algebra I, `SCI.B.4.A` for Biology, `ELA.E1.7.A` for English I, `TA.FCS.4.A` for Fundamentals of CS). Preserve the exact framework names and codes the teacher provided — do not rename `TX TEKS Math` to `CCSS Math`, do not swap state codes for national ones, and do not drop Texas frameworks in favor of a crosswalk. If you are unsure whether a code is real, flag it in the Notes &amp; Reflections section rather than fabricating one. Never invent new codes.\n';
+  if(fwList.length){
+    const stFws=fwList.filter(f=>/^TX\b/.test(f));
+    const natFws=fwList.filter(f=>!/^TX\b/.test(f));
+    p+='   The teacher has already aligned to these framework(s): '+fwList.join(', ')+'.';
+    if(stFws.length)p+=' Texas-specific: '+stFws.join(', ')+'.';
+    if(natFws.length)p+=' National/crosswalk: '+natFws.join(', ')+'.';
+    p+=' Preserve every one of these framework keys and their codes verbatim in the YAML `standards` dict and in the Standards Alignment bullet list, and deepen the treatment of each listed standard in the activity design.\n';
+  }
+  p+='4. **Citing and cross-referencing source materials** — when the lesson references specific concepts, facts, techniques, or data, include brief citations or references back to authoritative source materials (e.g., textbook chapters, framework documents, published research, official curriculum guides). For Texas standards, cite the Texas Education Agency (e.g., "(see TEA, TEKS MA.6.2.A)") directly. Use inline parenthetical citations like "(see NGSS Lead States, 2013)" or "(adapted from CS Unplugged, Activity 4)" for other sources. In the Notes &amp; Reflections section, list any key references so the teacher can verify claims and dig deeper. Do NOT fabricate citations — only cite sources you are confident are real.\n';
+  p+='5. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
+  p+='6. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do) · F: 5-10 min · T: 3-5 min.\n';
+  p+='7. **Including a "Check the Machine" exercise** in the Fortify phase if students will use AI during the lesson (task, before-prediction, after-AI-output, takeaway).\n\n';
+  p+='## Output Format — CRITICAL\n\n';
+  p+='Return ONLY the complete revised lesson plan as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing lesson from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
+  p+='Follow these rules exactly:\n\n';
+  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `stem_discipline`, `standard_types`, `standards`, `materials`, and `tags`. Always keep `CRAFT` in the `tags` list.\n';
+  p+='- The `standards` key must be a YAML dict mapping framework name to a list of codes, e.g. `standards:\\n  TX TEKS Math:\\n  - MA.6.2.A\\n  TX TEKS Science:\\n  - SCI.6.5.A\\n  NGSS:\\n  - MS-PS2-2`. Keep framework names exactly as the teacher provided them — including the `TX ` prefix on Texas frameworks — because the loader looks up frameworks by their exact key. Include every framework the teacher uses. `standard_types` is the list of framework names in the same order.\n';
+  p+='- Use `# Lesson Title` as the single H1.\n';
+  p+='- Use these H2 headings in order: `## Overview`, `## Standards Alignment`, `## CRAFT Cycle`, `## Assessment`, `## Notes & Reflections`.\n';
+  p+='- Under `## Overview`, first write a 2-3 sentence summary paragraph, then a bullet list containing `- **Grade Level:** ...`, `- **Subject Area:** ...`, `- **STEM Discipline:** ...`, `- **Estimated Duration:** ...`, and `- **Author:** ...`.\n';
+  p+='- Under `## Standards Alignment`, use a bullet list with one bullet per framework: `- **<Framework name>:** <comma-separated codes>` (e.g., `- **TX TEKS Math:** MA.6.2.A, MA.6.2.B` or `- **TX TEKS Technology Applications:** TA.6.4.A`). The framework name inside the bold must match the YAML key exactly. Only include NGSS three-dimensional sub-fields if NGSS is one of the frameworks. When NGSS is used, add (after the framework bullets) `- **Science &amp; Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
+  p+='- Under `## CRAFT Cycle`, use exactly these H3 headings (em-dashes, not hyphens):\n';
+  p+='    - `### C — Contextualize (Why This Matters)`\n';
+  p+='    - `### R — Reframe (Address the Misconception)`\n';
+  p+='    - `### A — Assemble (I Do → We Do → You Do)`\n';
+  p+='    - `### F — Fortify (Verify Understanding)`\n';
+  p+='    - `### T — Transfer (Connect Forward)`\n';
+  p+='- Keep these bolded sub-labels verbatim (the loader uses them as parse anchors): `**Career Connection:**`, `**Common Misconception:**`, `**Correct Understanding:**`, `**I Do — Teacher Demonstrates:**`, `**We Do — Guided Practice:**`, `**You Do — Independent/Group Practice:**`, `**Materials Needed:**`, `**Formative Assessment:**`, `**Check the Machine (CtM):**`, `**Connection to Next Lesson:**`, `**Extension / Homework:**`.\n';
+  p+='- Separate each labeled block with a blank line so the parser can find boundaries.\n';
+  p+='- Do NOT wrap the whole document in a code fence. Do NOT add commentary, preamble, or summary before or after the Markdown. Your reply should be the Markdown document and nothing else.\n\n';
+  p+='## Citation — REQUIRED at the End of the Markdown\n\n';
+  p+='After `## Notes & Reflections`, append a final H2 section titled exactly `## Citation` containing this block, verbatim:\n\n';
+  p+='> **Cite this lesson template:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n\n';
+  p+='Do not remove, paraphrase, condense, or relocate this citation. The underlying CRAFT lesson template is the original work of Andrea Borowczak and Mike Borowczak (cxedhub.com); every iteration must retain attribution to the source.\n\n';
+  p+='## Current Lesson Plan Draft\n\n';
+  p+='Fields the teacher left blank are simply absent from the draft below — fill those in. Fields with content are the teacher\'s starting point — refine and extend them.\n\n';
+  p+='<draft>\n';
+  p+=draft;
+  p+='\n</draft>\n';
+  return p;
+}
+
+async function copyLLMPrompt(){
+  const prompt=buildLLMPrompt(collect());
+  if(await clipboardText(prompt))flash('AI prompt copied — paste into ChatGPT, Claude, Gemini, or your LLM of choice');
+  else flash('Could not copy — your browser blocked clipboard access');
+}
+
+async function copyRichText(){
+  const d=collect();
+  const html=toHTML(d);
+  const plain=toMarkdown(d);
+  try{
+    if(navigator.clipboard&&typeof ClipboardItem!=='undefined'){
+      const item=new ClipboardItem({
+        'text/html':new Blob([html],{type:'text/html'}),
+        'text/plain':new Blob([plain],{type:'text/plain'})
+      });
+      await navigator.clipboard.write([item]);
+      flash('Rich text copied — paste into Google Docs, Word, or Pages');
+      return;
+    }
+  }catch(e){}
+  if(await clipboardText(plain))flash('Copied as plain markdown (rich-text clipboard unavailable in this browser)');
+  else flash('Could not copy — please try the Download .doc button');
+}
+
+function downloadFile(name,content,type){
+  const blob=new Blob([content],{type});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=name;document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},200);
+}
+
+function downloadMarkdown(){
+  const d=collect();
+  downloadFile(slugify(d.title)+'.md',toMarkdown(d),'text/markdown;charset=utf-8');
+  flash('Downloaded '+slugify(d.title)+'.md');
+}
+
+function downloadDoc(){
+  const d=collect();
+  const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
+  downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
+  flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
+}
+
+async function submitPR(){
+  const d=collect();
+  if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
+  const md=toMarkdown(d);
+  const slug=slugify(d.title);
+  const encoded=encodeURIComponent(md);
+  const baseUrl='https://github.com/'+REPO_OWNER+'/'+REPO_NAME+'/new/'+REPO_BRANCH+'/'+LESSON_PATH+'?filename='+encodeURIComponent(slug+'.md');
+  if(encoded.length>7500){
+    const copyFirst=confirm('Your lesson is long and may exceed GitHub\'s URL pre-fill limit.\n\nClick OK to copy the Markdown to your clipboard, then paste it on GitHub after the new-file page opens.\n\nClick Cancel to try the pre-filled link anyway.');
+    if(copyFirst){
+      await clipboardText(md);
+      window.open(baseUrl,'_blank','noopener');
+      flash('Markdown copied — paste it into the GitHub editor');
+      return;
+    }
+  }
+  window.open(baseUrl+'&value='+encoded,'_blank','noopener');
+  flash('Opening GitHub — sign in and submit your pull request for review');
+}
+
+async function submitEmail(){
+  const d=collect();
+  if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
+  const md=toMarkdown(d);
+  const slug=slugify(d.title);
+  const filename=slug+'.md';
+  downloadFile(filename,md,'text/markdown;charset=utf-8');
+  const author=(d.author||'').trim();
+  const grade=(d.grade||'').trim();
+  const subj='Lesson Plan Submission: '+d.title;
+  const bodyLines=[
+    'Hello CRAFT editors,',
+    '',
+    'I would like to submit the following lesson plan for the CRAFT community repository:',
+    '',
+    'Title: '+d.title,
+    author?('Author: '+author):null,
+    grade?('Grade Level: '+grade):null,
+    '',
+    'The lesson plan has been downloaded to my computer as "'+filename+'".',
+    'Please find it attached to this email.',
+    '',
+    '(If the file did not download automatically, please check your browser\'s Downloads folder or use the "Download .md" button in Step 3.)',
+    '',
+    'Thank you,',
+    author||'[Your name]'
+  ].filter(Boolean);
+  const body=bodyLines.join('\n');
+  const mailto='mailto:'+encodeURIComponent(SUBMIT_EMAIL)
+    +'?subject='+encodeURIComponent(subj)
+    +'&body='+encodeURIComponent(body);
+  setTimeout(()=>{window.location.href=mailto},250);
+  flash('Downloaded '+filename+' — attach it to the email that just opened and send');
+}
+
+function flash(msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.classList.add('show');
+  clearTimeout(flash._t);
+  flash._t=setTimeout(()=>el.classList.remove('show'),2800);
+}
+
+function returnToLoader(){
+  const box=document.querySelector('details.load-box');
+  if(box){box.open=true;box.scrollIntoView({behavior:'smooth',block:'start'})}
+  const ta=document.getElementById('f-loadtext');
+  if(ta)setTimeout(()=>{try{ta.focus({preventScroll:true})}catch(e){ta.focus()}},600);
+  flash('Loader opened — paste the LLM reply and click Load into Form');
+}
+
+function topUploadMarkdown(){
+  const input=document.getElementById('f-toploadfile');
+  if(input){input.value='';input.click()}
+}
+</script>
+<script src="/js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildLLMPrompt(collect()), { label: false, disclaimer: false });
+  }
+});
+</script>
+</div>
+<script src="/js/credit-bar.js"></script>
+<script src="/js/last-updated-static.js"></script>
+<script src="/js/lesson-draft-cache.js"></script>
+</body></html>

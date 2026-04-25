@@ -112,6 +112,16 @@ Help students use generative AI as a partner for STEM learning — with guardrai
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
   </div>
   <div class="card">
+    <h3><a href="/resources/lesson-template-texas.html">Lesson/Unit Template (Texas)</a></h3>
+    <p class="card-desc">Texas-tuned variant of the CRAFT lesson template. Standards picker leads with TEKS ELA &amp; Reading, Math, Science, Social Studies, and Technology Applications (CS), with national frameworks available alongside for state-to-national crosswalks.</p>
+    <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="/resources/lesson-template-arizona.html">Lesson/Unit Template (Arizona)</a></h3>
+    <p class="card-desc">Arizona-tuned variant of the CRAFT lesson template. Standards picker leads with Arizona ELA, Math, Science, Social Studies, and Computer Science, with national frameworks available alongside for state-to-national crosswalks.</p>
+    <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
     <h3><a href="/resources/iot-lesson-template.html">IoT Lesson Template</a></h3>
     <p class="card-desc">CRAFT-aligned template for any edge/IoT lesson — from one-period demos to multi-week student design projects. Adds micro:bit sensor pickers, programming-environment choice, data-collection plan, and a student-facing Check-the-Machine prompt.</p>
     <div class="card-meta"><span class="chip chip-subject">Template</span><span class="chip chip-grade">K-12</span></div>
