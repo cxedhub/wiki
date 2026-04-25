@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teacher Grant Writer Support Tool — CRAFT PD Series</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--teal:#1ABC9C;--gold:#D4A843;--green:#27AE60;--red:#C0392B;--purple:#8E6BBF;--gray100:#F5F5F5;--gray200:#E8E8E8;--gray600:#666;--paper:#FAFBFE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;margin:0}
+.page-wrap{max-width:880px;margin:0 auto;padding:24px}
+.site-header{background:#fff;border-bottom:1px solid var(--gray200);position:sticky;top:0;z-index:100}
+.site-header .container{max-width:1200px;margin:0 auto;padding:8px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;min-height:64px}
+.site-logo{font-size:1.4rem;color:var(--ink);letter-spacing:-0.5px;text-decoration:none}
+.site-logo strong{color:var(--teal)}
+.site-logo:hover{text-decoration:none}
+.site-nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.site-nav a{color:var(--gray600);font-weight:500;font-size:0.95rem;padding:0.25rem 0;border-bottom:2px solid transparent;text-decoration:none;transition:color 0.2s,border-color 0.2s}
+.site-nav a:hover,.site-nav a.active{color:var(--teal);border-bottom-color:var(--teal);text-decoration:none}
+@media(max-width:720px){.site-nav{gap:0.9rem;font-size:0.88rem}}
+h1{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:6px}
+h2{font-family:'DM Serif Display',serif;font-size:1.2rem;margin:24px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--teal)}
+.subtitle{color:var(--gray600);font-size:0.92rem;margin-bottom:20px}
+label{display:block;font-weight:600;font-size:0.85rem;margin:12px 0 4px;color:var(--ink)}
+input[type="text"],input[type="number"],textarea,select{width:100%;padding:10px;border:1px solid var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.9rem;background:#fff}
+textarea{min-height:80px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.helper{font-size:0.78rem;color:var(--gray600);font-style:italic;margin-top:2px}
+.optional-note{background:#f7faff;border:1px solid var(--gray200);border-left:4px solid var(--teal);border-radius:6px;padding:10px 14px;margin:10px 0 18px;font-size:0.85rem;color:var(--ink)}
+.optional-note strong{color:var(--teal)}
+.btn{background:var(--teal);color:#fff;border:none;padding:10px 18px;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.88rem;font-weight:600;cursor:pointer;margin:6px 6px 0 0;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{opacity:0.85}
+.btn.secondary{background:#fff;color:var(--ink);border:1px solid var(--gray200)}
+.btn.pr{background:var(--purple)}
+.section-card{border:1px solid var(--gray200);border-radius:8px;padding:16px;margin:12px 0;background:#fff;border-left:4px solid var(--teal)}
+.section-card.need{border-left-color:var(--red)}
+.section-card.project{border-left-color:var(--green)}
+.section-card.budget{border-left-color:var(--gold)}
+.section-card.eval{border-left-color:var(--teal)}
+.section-card.sustain{border-left-color:var(--purple)}
+.section-card h3{font-size:0.95rem;margin-bottom:8px;font-family:'DM Sans',sans-serif;font-weight:700}
+.export-box{border:1px solid var(--gray200);border-radius:10px;padding:20px;margin-top:24px;background:#fff}
+.export-box h2{margin-top:0}
+.export-group{margin-top:10px}
+.export-group-label{font-size:0.74rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:12px 0 4px}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:6px;font-size:0.88rem;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:all 0.25s;z-index:100;max-width:90%;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.load-box{border:1px solid var(--gray200);border-radius:10px;padding:14px 18px;margin:0 0 22px;background:#fff}
+.load-box>summary{font-weight:600;font-size:0.92rem;cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px}
+.load-box>summary::-webkit-details-marker{display:none}
+.load-box>summary::before{content:"▸";display:inline-block;transition:transform 0.15s;color:var(--teal)}
+.load-box[open]>summary::before{transform:rotate(90deg)}
+.load-box .helper{margin:8px 0 10px}
+.load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
+.load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
+.top-actions{display:flex;align-items:center;gap:8px;margin:4px 0 18px;flex-wrap:wrap}
+.top-upload-btn{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;background:transparent;color:var(--gray600);border:1px dashed var(--gray200);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.78rem;font-weight:500;cursor:pointer}
+.top-upload-btn:hover{border-color:var(--teal);color:var(--teal);background:#f6fcfa}
+.back{font-size:0.85rem;color:var(--teal);text-decoration:none;display:inline-block;margin-bottom:16px}
+
+/* LLM iterate 3-step flow */
+.llm-flow{list-style:none;margin:12px 0 0;padding:0;display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}
+.llm-step{flex:1 1 210px;min-width:190px;border:1px solid var(--gray200);border-radius:10px;padding:14px;background:linear-gradient(180deg,#ffffff 0%,#fafcfb 100%);display:flex;flex-direction:column;gap:6px;position:relative}
+.llm-step-badge{width:30px;height:30px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;flex:0 0 auto;box-shadow:0 2px 4px rgba(26,188,156,0.28)}
+.llm-step-title{font-weight:600;font-size:0.9rem;color:var(--ink);margin-top:2px}
+.llm-step-body{font-size:0.78rem;color:var(--gray600);line-height:1.45}
+.llm-step-action{margin-top:auto;padding-top:4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.llm-step-action .btn{margin:0}
+.llm-step-action .cpb-row{margin:0}
+.llm-flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:1.6rem;font-weight:700;flex:0 0 auto;padding:0 2px;user-select:none}
+.llm-flow-footnote{font-size:0.74rem;color:var(--gray600);font-style:italic;margin:8px 2px 0;line-height:1.4}
+@media(max-width:720px){.llm-flow{flex-direction:column;align-items:stretch}.llm-flow-arrow{transform:rotate(90deg);align-self:center;font-size:1.3rem;padding:2px 0}}
+
+/* Workflow overview panel (4-step guide) */
+.workflow-panel{border:1px solid var(--gray200);border-radius:12px;padding:16px 18px;margin:0 0 26px;background:linear-gradient(135deg,#ffffff 0%,#f7f9fc 100%)}
+.workflow-panel-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600);margin:0 0 12px}
+.workflow-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.workflow-step{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:8px;border:1px solid var(--gray200);background:#fff;border-top:4px solid var(--teal)}
+.workflow-step[data-step="2"]{border-top-color:var(--gold)}
+.workflow-step[data-step="3"]{border-top-color:var(--green)}
+.workflow-step[data-step="4"]{border-top-color:var(--purple)}
+.workflow-step-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.workflow-step-num{width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8rem;flex:0 0 auto}
+.workflow-step[data-step="2"] .workflow-step-num{background:var(--gold)}
+.workflow-step[data-step="3"] .workflow-step-num{background:var(--green)}
+.workflow-step[data-step="4"] .workflow-step-num{background:var(--purple)}
+.workflow-step-title{font-weight:600;font-size:0.86rem;color:var(--ink)}
+.workflow-step-opt{margin-left:auto;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:2px 6px;background:var(--gray100);border-radius:10px}
+.workflow-step-body{font-size:0.76rem;color:var(--gray600);line-height:1.45}
+@media(max-width:720px){.workflow-steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.workflow-steps{grid-template-columns:1fr}}
+
+/* Step section labels */
+.step-header{display:flex;align-items:center;gap:10px;margin:36px 0 14px;padding:10px 14px;border-radius:8px;background:#ebf9f6;border-left:5px solid var(--teal);flex-wrap:wrap}
+.step-header.first{margin-top:10px}
+.step-header[data-step="2"]{border-left-color:var(--gold);background:#fbf6e8}
+.step-header[data-step="3"]{border-left-color:var(--green);background:#e9f7ef}
+.step-header[data-step="4"]{border-left-color:var(--purple);background:#f1ecf7}
+.step-header-num{width:28px;height:28px;border-radius:50%;background:var(--teal);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;flex:0 0 auto}
+.step-header[data-step="2"] .step-header-num{background:var(--gold)}
+.step-header[data-step="3"] .step-header-num{background:var(--green)}
+.step-header[data-step="4"] .step-header-num{background:var(--purple)}
+.step-header-label{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray600)}
+.step-header-title{font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--ink);line-height:1.2}
+.step-header-opt{margin-left:auto;font-size:0.66rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--gray600);padding:3px 8px;background:#fff;border:1px solid var(--gray200);border-radius:10px}
+.step-section{border:1px solid transparent;border-radius:10px;padding:2px 0 6px}
+.step-section[data-step="1"]{border-top:3px solid var(--teal);padding-top:6px}
+.step-section[data-step="2"]{border-top:3px solid var(--gold);padding-top:6px}
+.step-section[data-step="3"]{border-top:3px solid var(--green);padding-top:6px}
+.step-section[data-step="4"]{border-top:3px solid var(--purple);padding-top:6px}
+
+/* Find-a-grant directory */
+.grant-dir{border:1px solid var(--gray200);border-radius:10px;padding:14px 18px;margin:18px 0 0;background:#fff}
+.grant-dir>summary{font-weight:600;font-size:0.95rem;cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px}
+.grant-dir>summary::-webkit-details-marker{display:none}
+.grant-dir>summary::before{content:"▸";display:inline-block;transition:transform 0.15s;color:var(--teal)}
+.grant-dir[open]>summary::before{transform:rotate(90deg)}
+.grant-cat{margin:14px 0 6px;font-weight:700;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--gray600)}
+.grant-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.grant-list{grid-template-columns:1fr}}
+.grant-item{border:1px solid var(--gray200);border-radius:8px;padding:10px 12px;background:#fafcff}
+.grant-item a{font-weight:600;color:var(--ink);text-decoration:none;font-size:0.9rem}
+.grant-item a:hover{color:var(--teal);text-decoration:underline}
+.grant-item .grant-meta{font-size:0.74rem;color:var(--gray600);margin-top:4px;line-height:1.4}
+.grant-item .grant-tag{display:inline-block;font-size:0.66rem;font-weight:700;padding:1px 6px;border-radius:4px;background:#eef9f6;color:#0e7c64;margin-right:4px;text-transform:uppercase;letter-spacing:0.04em}
+.grant-disclaimer{font-size:0.74rem;color:var(--gray600);font-style:italic;margin-top:14px;line-height:1.5}
+
+@media print{.btn,.back,.export-box,#toast,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header,.site-header,.grant-dir{display:none}input,textarea,select{border:1px solid #ccc}}
+@media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
+</style>
+</head><body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo"><strong>CX</strong> Ed Hub</a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/lessons/">Lesson Plans</a>
+      <a href="/pds/">Professional Development</a>
+      <a href="/resources/" class="active">Resources</a>
+      <a href="/matrix/">Standards Matrix</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+<h1>Teacher Grant Writer Support Tool</h1>
+<p class="subtitle">Fill in each section to draft a complete grant proposal for classroom technology — micro:bits, sensors, robotics kits, IoT hardware, software licenses, PD, or anything else your students need. Use an LLM to flesh out, polish, and tailor your draft to a specific funder, then export the result for submission. The same Fill → Prompt → Recycle cycle from the CRAFT lesson templates, applied to grants. Don't know <em>where</em> to apply yet? Skim the <strong>Find a Grant</strong> directory below for funders that commonly support K-12 STEM and computer science classrooms.</p>
+
+<div class="top-actions">
+  <button class="top-upload-btn" type="button" onclick="topUploadMarkdown()" title="Load a previously saved .md grant draft">📥 Load saved draft (.md)</button>
+  <input id="f-toploadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)" hidden>
+</div>
+
+<div class="workflow-panel" aria-label="How to use this template">
+  <div class="workflow-panel-title">How this tool works</div>
+  <ol class="workflow-steps">
+    <li class="workflow-step" data-step="1">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">1</span>
+        <span class="workflow-step-title">Fill out the proposal</span>
+      </div>
+      <div class="workflow-step-body">Add as much context as you can. Every detail you provide makes the AI-iterated draft sharper and more fundable.</div>
+    </li>
+    <li class="workflow-step" data-step="2">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">2</span>
+        <span class="workflow-step-title">Iterate with AI</span>
+        <span class="workflow-step-opt">Optional</span>
+      </div>
+      <div class="workflow-step-body">Use an LLM to expand thin sections, sharpen the narrative, and tailor language to your target funder — then load the revised Markdown back in.</div>
+    </li>
+    <li class="workflow-step" data-step="3">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">3</span>
+        <span class="workflow-step-title">Download</span>
+      </div>
+      <div class="workflow-step-body">Export to Word, Google Docs, Markdown, or print so you can paste into the funder's application portal.</div>
+    </li>
+    <li class="workflow-step" data-step="4">
+      <div class="workflow-step-head">
+        <span class="workflow-step-num" aria-hidden="true">4</span>
+        <span class="workflow-step-title">Submit</span>
+        <span class="workflow-step-opt">External</span>
+      </div>
+      <div class="workflow-step-body">Submit through the funder's portal (DonorsChoose, NEA Foundation, district grant office, etc.). Keep your <code>.md</code> as the source of truth so you can re-target other funders later.</div>
+    </li>
+  </ol>
+</div>
+
+<div class="step-header first" data-step="1">
+  <span class="step-header-num" aria-hidden="true">1</span>
+  <span class="step-header-label">Step 1</span>
+  <span class="step-header-title">Fill Out Your Proposal</span>
+</div>
+
+<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Project Title</strong> and <strong>Grade Level</strong>. Fill in what you have — you can always come back, iterate with an LLM (Step 2), or load a previously saved draft. The fuller the form, the better the AI-iterated draft.</p>
+
+<h2>Project Overview</h2>
+<div class="row">
+<div><label>Project Title</label><input id="f-title" type="text" placeholder="e.g., micro:bit Sensors for Hands-On Watershed Science"></div>
+<div><label>Your Name</label><input id="f-author" type="text" placeholder="e.g., Ms. Rivera"></div>
+</div>
+<div class="row">
+<div><label>Email (for funder contact)</label><input id="f-email" type="text" placeholder="e.g., jrivera@example.k12.us"></div>
+<div><label>Role / Title</label><input id="f-role" type="text" placeholder="e.g., 7th Grade Science Teacher, CS Department Lead"></div>
+</div>
+<div class="row">
+<div><label>School Name</label><input id="f-school" type="text" placeholder="e.g., Lincoln Middle School"></div>
+<div><label>District</label><input id="f-district" type="text" placeholder="e.g., Laramie County School District 1"></div>
+</div>
+<div class="row3">
+<div><label>City / State</label><input id="f-location" type="text" placeholder="e.g., Cheyenne, WY"></div>
+<div><label>Grade Level(s) Served</label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option><option>K-12</option></select></div>
+<div><label># of Students Impacted</label><input id="f-students" type="number" min="0" placeholder="e.g., 120"></div>
+</div>
+<div class="row">
+<div><label>Subject / Discipline</label><input id="f-subject" type="text" list="subject-suggestions" placeholder="e.g., Computer Science, Physical Science, Engineering"></div>
+<div><label>Project Duration</label><input id="f-duration" type="text" placeholder="e.g., One semester · One academic year · Summer 2026"></div>
+</div>
+<datalist id="subject-suggestions">
+<option value="Computer Science"><option value="Mathematics"><option value="Physical Science">
+<option value="Life Science"><option value="Earth & Space Science"><option value="Engineering">
+<option value="Technology"><option value="Robotics"><option value="Cybersecurity">
+<option value="Environmental Science"><option value="STEM (interdisciplinary)"><option value="STEAM (with arts)">
+<option value="Career & Technical Education"><option value="ELA"><option value="Social Studies">
+</datalist>
+<label>Project Summary (2-4 sentences — the elevator pitch)</label>
+<textarea id="f-summary" placeholder="One paragraph that a funder skimming dozens of proposals could read in 20 seconds. Who, what, why it matters, how the funds will be used.
+
+LLM prompt idea: 'Turn the following project description into a 3-sentence executive summary for a K-12 grant proposal.'"></textarea>
+<label>Tags / Keywords</label>
+<input id="f-tags" type="text" placeholder="e.g., micro:bit, IoT, watershed, data-literacy (comma separated)">
+<div class="helper">Used for filtering when this draft is saved and reused for a different funder later.</div>
+
+<h2>Funder Targeting</h2>
+<p class="helper" style="margin:0 0 6px">Who are you applying to? Naming the funder helps the LLM in Step 2 calibrate tone, length, and emphasis (a DonorsChoose post reads very differently from a National Science Foundation pre-proposal).</p>
+<div class="row">
+<div><label>Target Funder / Program</label><input id="f-funder" type="text" placeholder="e.g., DonorsChoose · NEA Foundation Learning &amp; Leadership Grant · Toshiba America Foundation"></div>
+<div><label>Application Deadline</label><input id="f-deadline" type="text" placeholder="e.g., September 30, 2026 · Rolling"></div>
+</div>
+<div class="row">
+<div><label>Total Amount Requested</label><input id="f-amount" type="text" placeholder="e.g., $1,250 · $5,000 · $25,000"></div>
+<div><label>Funder Priorities to Address</label><input id="f-priorities" type="text" placeholder="e.g., STEM equity, rural classrooms, computer science access"></div>
+</div>
+<label>Funder Brief / Notes</label>
+<textarea id="f-funder-notes" rows="3" placeholder="Paste anything you know about this funder: their mission statement, eligible projects, scoring rubric, page limits, required attachments, prior winners.
+
+LLM prompt idea: 'Given the funder brief below, what scoring criteria are most likely and what should I emphasize in my proposal?'"></textarea>
+
+<h2>Statement of Need</h2>
+<div class="section-card need">
+<h3>Why this matters — the problem you're solving</h3>
+<label>Student &amp; Community Context</label>
+<textarea id="f-need-context" placeholder="Who are your students? Demographics, % free/reduced lunch, English learners, students with IEPs, rural/urban/suburban setting, distance to STEM resources, etc.
+
+LLM prompt idea: 'Help me describe the demographics of [SCHOOL] in language that highlights both assets and need without deficit framing.'"></textarea>
+<label>Current State / Gap</label>
+<textarea id="f-need-gap" placeholder="What's missing right now? Be specific. e.g., 'Our 7th-grade science classroom has no probeware. Students draw graphs by hand from textbook data instead of collecting their own.'"></textarea>
+<label>Evidence / Data Supporting the Need</label>
+<textarea id="f-need-evidence" rows="3" placeholder="Test scores, survey results, attendance, equity data, teacher observations, state reports, or research citations that quantify the need.
+
+LLM prompt idea: 'What national data would strengthen the case that under-resourced rural classrooms lack physical computing tools?' (Verify any AI-supplied citations before using them.)"></textarea>
+</div>
+
+<h2>Project Description</h2>
+<div class="section-card project">
+<h3>Goals, activities, and timeline</h3>
+<label>Project Goals (the big picture)</label>
+<textarea id="f-proj-goals" placeholder="What change do you want to see for students? Keep this aspirational but bounded.
+
+LLM prompt idea: 'Turn the following bullet ideas into 2-3 SMART goals for a one-year K-12 grant project.'"></textarea>
+<label>Measurable Objectives (SMART — Specific, Measurable, Achievable, Relevant, Time-bound)</label>
+<textarea id="f-proj-objectives" rows="4" placeholder="Numbered list works well. e.g.:
+1. By May 2027, 100% of 7th-grade students will design, build, and test a micro:bit-based environmental sensor.
+2. By the end of the project, students will demonstrate ≥80% mastery on the NGSS MS-ETS1-2 engineering-design assessment.
+3. At least 3 fellow teachers will adopt the curriculum after summer PD."></textarea>
+<label>Activities &amp; Methods</label>
+<textarea id="f-proj-activities" rows="4" placeholder="What will students actually do? Walk the funder through the arc — investigations, build cycles, field work, partnerships, presentations.
+
+LLM prompt idea: 'Outline a 6-week project where 7th graders use micro:bits to monitor a local creek's temperature, light, and pH, ending in a community presentation.'"></textarea>
+<label>Timeline / Milestones</label>
+<textarea id="f-proj-timeline" rows="4" placeholder="Month-by-month or phase-by-phase. Funders love seeing you've thought about pacing.
+
+e.g.:
+Month 1 — Order hardware, set up classroom maker space.
+Months 2-3 — Teacher PD; students learn block coding on micro:bits.
+Months 4-5 — Field deployment; data collection.
+Month 6 — Student showcase; family STEM night."></textarea>
+<label>Expected Outcomes &amp; Deliverables</label>
+<textarea id="f-proj-outcomes" rows="3" placeholder="What concrete artifacts and changes will exist when this is done? Student work products, dataset, public showcase, replicable curriculum, blog write-up?"></textarea>
+</div>
+
+<h2>Standards Alignment <span class="helper" style="font-weight:400">(optional — many grant rubrics ask for this)</span></h2>
+<label>Aligned Standards (free text)</label>
+<textarea id="f-standards" rows="3" placeholder="List the standards your project addresses, e.g.:
+NGSS: MS-ETS1-2, MS-ESS3-3
+CSTA: 2-CS-02, 2-DA-09
+ISTE for Students: 1.5 Computational Thinker, 1.7 Global Collaborator
+Your state CS standards (cite the code so reviewers can verify).
+
+Tip: Need a standards picker with searchable codes? Draft your CRAFT lesson first in the /resources/lesson-template.html and copy the standards block over."></textarea>
+
+<h2>Budget</h2>
+<div class="section-card budget">
+<h3>Itemized request &amp; justification</h3>
+<label>Itemized Budget</label>
+<textarea id="f-budget-items" rows="6" placeholder="One line per item. Include qty × unit price = total. e.g.:
+
+30 × micro:bit v2 Go Bundle @ $20 = $600
+30 × USB cables (3ft) @ $3 = $90
+6 × Kitronix sensor:bit add-on @ $20 = $120
+6 × storage/charging case @ $35 = $210
+10 hrs × teacher PD stipend @ $30 = $300
+Shipping &amp; tax = $80
+TOTAL: $1,400
+
+LLM prompt idea: 'Build a realistic itemized budget for 30 students to do a one-semester micro:bit IoT project. Use 2026 retail prices and include shipping.' (Confirm prices yourself before submitting.)"></textarea>
+<label>Budget Narrative / Cost Justification</label>
+<textarea id="f-budget-narrative" rows="3" placeholder="Why these line items? Why this quantity? What did you cut to keep the request lean? Mention any matching funds the school is contributing (in-kind teacher time, existing devices, PTA contribution, etc.)."></textarea>
+<label>Matching / In-Kind Contributions</label>
+<input id="f-budget-match" type="text" placeholder="e.g., 20 hrs of teacher prep time (~$600 in-kind); 1 existing classroom set of Chromebooks">
+</div>
+
+<h2>Sustainability &amp; Scaling</h2>
+<div class="section-card sustain">
+<h3>What happens after the grant runs out?</h3>
+<label>Sustainability Plan</label>
+<textarea id="f-sustain-plan" rows="3" placeholder="How will the work continue once funding ends? e.g., devices stay in the classroom and rotate to next year's cohort; curriculum is published openly; PTA covers consumables; district adopts after pilot."></textarea>
+<label>Teacher Professional Development</label>
+<textarea id="f-sustain-pd" rows="2" placeholder="Are you using grant funds for PD? Attending an existing workshop (CRAFT PD Series, micro:bit Educational Foundation training, ISTE)? Self-directed using free resources?"></textarea>
+<label>Scaling / Sharing</label>
+<textarea id="f-sustain-scale" rows="2" placeholder="How will other classrooms benefit? Department PD, district adoption, public lesson plan repository submission, conference presentation, blog post, social-media share-out?"></textarea>
+</div>
+
+<h2>Evaluation &amp; Assessment</h2>
+<div class="section-card eval">
+<h3>How will you know it worked?</h3>
+<label>Formative Assessment</label>
+<textarea id="f-eval-formative" rows="2" placeholder="Day-to-day or week-to-week checks: exit tickets, build journals, teacher observation rubrics, peer review, design-iteration notes."></textarea>
+<label>Summative Assessment</label>
+<textarea id="f-eval-summative" rows="2" placeholder="End-of-project measure: performance task, public showcase rubric, pre/post content quiz, NGSS PE-aligned assessment, student-designed artifact."></textarea>
+<label>Data You'll Report Back to the Funder</label>
+<textarea id="f-eval-report" rows="3" placeholder="Most funders want a final report. Plan it now. e.g.:
+- # of students served, disaggregated by demographic
+- Pre/post survey results on STEM identity &amp; CS interest
+- Photo/video documentation of student work
+- Sample student artifacts (with parental consent)"></textarea>
+</div>
+
+<h2>Equity &amp; Impact</h2>
+<label>Equity Statement</label>
+<textarea id="f-equity" rows="3" placeholder="How does this project broaden participation in STEM/CS? Who has been historically underserved by tech-rich learning, and how does this project intentionally reach them? Avoid deficit framing — name strengths and assets too.
+
+LLM prompt idea: 'Help me write an asset-based equity statement for a Title I middle-school CS grant proposal.'"></textarea>
+<label>Community Partnerships &amp; Letters of Support</label>
+<textarea id="f-partners" rows="3" placeholder="Local university, museum, library, employer partner, parent group, makerspace, watershed council, tribal college, community organization. List them and note whether you have (or can get) a letter of support."></textarea>
+
+<h2>References &amp; Citations <span class="helper" style="font-weight:400">(optional — strengthens academic credibility)</span></h2>
+<textarea id="f-refs" rows="4" placeholder="Cite any research, frameworks, or prior winning projects you reference in the narrative. APA-ish format is fine.
+
+e.g.:
+- National Academies of Sciences, Engineering, and Medicine. (2021). *Cultivating Interest and Competencies in Computing.*
+- micro:bit Educational Foundation. (2024). *Do Your :bit global challenge.*
+- Borowczak, A. &amp; Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* cxedhub.com"></textarea>
+
+<h2>Notes to Self</h2>
+<textarea id="f-notes" placeholder="Reminders that should NOT make it into the final submission: deadlines, contacts to follow up with, attachments still to gather, tweaks to make for next funder.
+
+(Stripped from the LLM prompt and the export. This stays in your local browser only.)"></textarea>
+
+<div class="step-section" data-step="2">
+<div class="step-header" data-step="2">
+  <span class="step-header-num" aria-hidden="true">2</span>
+  <span class="step-header-label">Step 2</span>
+  <span class="step-header-title">Iterate with AI</span>
+  <span class="step-header-opt">Optional</span>
+</div>
+
+<div class="export-box">
+<h2>Iterate with an LLM</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Hand your draft to an LLM for expansion, polish, and funder-specific tailoring — then paste the revised Markdown back in to refresh every field above. <strong>Always verify any data, citations, or budget numbers the AI produces before submitting.</strong></p>
+
+<ol class="llm-flow" aria-label="Three-step LLM iteration flow">
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">1</div>
+    <div class="llm-step-title">Copy the AI prompt</div>
+    <div class="llm-step-body">We assemble a detailed grant-writing prompt from every field above — including your funder, deadline, and amount — plus this template's citation.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="copyLLMPrompt()">🤖 Copy AI Prompt</button></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">2</div>
+    <div class="llm-step-title">Open an LLM and paste</div>
+    <div class="llm-step-body">Pick your provider — we'll re-copy the prompt and open it in a new tab so you can paste right in.</div>
+    <div class="llm-step-action" id="cpb-ai-prompt-anchor"></div>
+  </li>
+  <li class="llm-flow-arrow" aria-hidden="true">→</li>
+  <li class="llm-step">
+    <div class="llm-step-badge" aria-hidden="true">3</div>
+    <div class="llm-step-title">Paste the reply back</div>
+    <div class="llm-step-body">Open the loader below and paste the revised Markdown to refresh every field above.</div>
+    <div class="llm-step-action"><button class="btn" type="button" onclick="returnToLoader()">⬇ Open Loader</button></div>
+  </li>
+</ol>
+<div class="llm-flow-footnote">Provider list is for convenience — we do not endorse any specific AI platform. Always fact-check budget numbers, citations, statistics, and funder requirements.</div>
+
+<details class="load-box" style="margin:18px 0 0" open>
+<summary>Load an existing draft from Markdown</summary>
+<p class="helper">Paste Markdown from a previously exported grant draft (or choose a <code>.md</code> file), then click <strong>Load</strong>. Fields above will be populated — review and edit as needed. Front matter is optional.</p>
+<input id="f-loadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)">
+<textarea id="f-loadtext" placeholder="---&#10;title: &quot;My Grant Proposal&quot;&#10;---&#10;&#10;# My Grant Proposal&#10;&#10;## Project Overview&#10;..."></textarea>
+<button class="btn" onclick="loadMarkdown()">📥 Load into Form</button>
+<button class="btn secondary" onclick="document.getElementById('f-loadtext').value='';document.getElementById('f-loadfile').value='';">Clear</button>
+</details>
+</div>
+</div>
+
+<div class="step-section" data-step="3">
+<div class="step-header" data-step="3">
+  <span class="step-header-num" aria-hidden="true">3</span>
+  <span class="step-header-label">Step 3</span>
+  <span class="step-header-title">Download Your Proposal</span>
+</div>
+
+<div class="export-box">
+<h2>Export Your Draft</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Choose a format. Your answers stay in your browser — nothing leaves your computer unless you choose to share it. The "Notes to Self" field is intentionally stripped from every export.</p>
+
+<div class="export-group">
+<div class="export-group-label">Google Docs · Word · Pages</div>
+<button class="btn" onclick="copyRichText()">📋 Copy as Rich Text</button>
+<button class="btn secondary" onclick="downloadDoc()">⬇ Download .doc</button>
+<div class="helper">Rich-text paste keeps headings and formatting. The .doc file opens natively in Word and in Google Docs (File → Open).</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Markdown</div>
+<button class="btn" onclick="copyMarkdown()">📝 Copy as Markdown</button>
+<button class="btn secondary" onclick="downloadMarkdown()">⬇ Download .md</button>
+<div class="helper">Save the <code>.md</code> as your source-of-truth — it's easy to re-load later, edit a few fields, and re-target a different funder.</div>
+</div>
+
+<div class="export-group">
+<div class="export-group-label">Other</div>
+<button class="btn secondary" onclick="window.print()">🖨 Print</button>
+</div>
+</div>
+</div>
+
+<div class="step-section" data-step="4">
+<div class="step-header" data-step="4">
+  <span class="step-header-num" aria-hidden="true">4</span>
+  <span class="step-header-label">Step 4</span>
+  <span class="step-header-title">Submit to the Funder</span>
+  <span class="step-header-opt">External</span>
+</div>
+
+<div class="export-box">
+<h2>Where the rubber meets the road</h2>
+<p style="font-size:0.85rem;color:var(--gray600)">Most funders require submission through their own portal — we can't auto-submit for you. Here's a quick checklist before you hit send:</p>
+<ul style="margin:8px 0 0 20px;font-size:0.88rem;line-height:1.7;color:var(--ink)">
+  <li>Re-read the funder's RFP / guidelines side-by-side with your draft. Did you address every required section?</li>
+  <li>Check page or character limits. Trim ruthlessly.</li>
+  <li>Verify every dollar amount, deadline, citation, and statistic. AI tools hallucinate — you're accountable for every word.</li>
+  <li>Get one human reader (a colleague, your principal, your district grants office) to skim before submission.</li>
+  <li>Gather required attachments: letters of support, IRS determination letter (for school nonprofits), W-9, principal sign-off, district pre-approval.</li>
+  <li>Save your final <code>.md</code> draft locally — you'll re-use 80% of it for the next funder.</li>
+</ul>
+<p style="margin-top:14px;font-size:0.85rem;color:var(--gray600)">When you're ready, head to your target funder's portal (or the <strong>Find a Grant</strong> directory below to pick one).</p>
+</div>
+</div>
+
+<details class="grant-dir" open>
+<summary>📚 Find a Grant — directory of common K-12 STEM/CS funders</summary>
+<p class="helper" style="margin:8px 0 4px">Starting points if you haven't picked a funder yet. Always confirm current eligibility, deadlines, and award amounts on each funder's official site — programs change yearly.</p>
+
+<div class="grant-cat">Crowdfunding (lowest barrier — start here for small classroom requests)</div>
+<ul class="grant-list">
+  <li class="grant-item">
+    <a href="https://www.donorschoose.org/" target="_blank" rel="noopener">DonorsChoose</a>
+    <div class="grant-meta"><span class="grant-tag">Public school</span><span class="grant-tag">Any subject</span>Post a project, individual donors fund it. Excellent for $100–$2,000 hardware buys (micro:bits, sensors, books).</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.adoptaclassroom.org/" target="_blank" rel="noopener">AdoptAClassroom.org</a>
+    <div class="grant-meta"><span class="grant-tag">PreK-12</span><span class="grant-tag">Flexible spend</span>Teachers receive funds via gift-card-style account; spend at participating retailers.</div>
+  </li>
+</ul>
+
+<div class="grant-cat">National foundations &amp; education non-profits</div>
+<ul class="grant-list">
+  <li class="grant-item">
+    <a href="https://www.neafoundation.org/educator-grants-and-fellowships/" target="_blank" rel="noopener">NEA Foundation Educator Grants</a>
+    <div class="grant-meta"><span class="grant-tag">All grade bands</span><span class="grant-tag">Up to ~$5,000</span>Learning &amp; Leadership grants and Student Success grants — multiple deadlines per year.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.toshiba.com/taf/k5.jsp" target="_blank" rel="noopener">Toshiba America Foundation</a>
+    <div class="grant-meta"><span class="grant-tag">K-12</span><span class="grant-tag">STEM</span>K–5 (small grants) and 6–12 (up to $5,000+); favors hands-on, classroom-led projects.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.mccarthey-dressman.org/teacher-development-grants" target="_blank" rel="noopener">McCarthey Dressman Education Foundation</a>
+    <div class="grant-meta"><span class="grant-tag">K-12</span><span class="grant-tag">Teacher-led</span>Multi-year teacher development grants for innovative, replicable classroom projects.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://societyforscience.org/grants/stem-action-grants/" target="_blank" rel="noopener">Society for Science STEM Action Grants</a>
+    <div class="grant-meta"><span class="grant-tag">Middle/High</span><span class="grant-tag">Research</span>For middle &amp; high school science research and outreach.</div>
+  </li>
+</ul>
+
+<div class="grant-cat">Industry / corporate education programs</div>
+<ul class="grant-list">
+  <li class="grant-item">
+    <a href="https://walmart.org/how-we-give/local-community-grants" target="_blank" rel="noopener">Walmart Local Community Grants</a>
+    <div class="grant-meta"><span class="grant-tag">Local school</span><span class="grant-tag">$250–$5,000</span>Apply through your local store. Fast-turnaround small grants.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.lowes.com/l/about/lowes-100-hometowns" target="_blank" rel="noopener">Lowe's Toolbox for Education / 100 Hometowns</a>
+    <div class="grant-meta"><span class="grant-tag">Schools</span><span class="grant-tag">Maker spaces</span>Building, makerspace, and STEM lab support — eligibility and program names rotate yearly.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.captainplanetfoundation.org/grants" target="_blank" rel="noopener">Captain Planet Foundation</a>
+    <div class="grant-meta"><span class="grant-tag">PreK-12</span><span class="grant-tag">Environmental</span>Project-based, student-led environmental STEM. Great fit for sensor / IoT data-collection projects.</div>
+  </li>
+</ul>
+
+<div class="grant-cat">Computer science / micro:bit-specific opportunities</div>
+<ul class="grant-list">
+  <li class="grant-item">
+    <a href="https://microbit.org/teach/do-your-bit/" target="_blank" rel="noopener">micro:bit Educational Foundation — do your :bit</a>
+    <div class="grant-meta"><span class="grant-tag">Global</span><span class="grant-tag">Challenge</span>Annual student challenge tied to UN Sustainable Development Goals; recognition + occasional micro:bit hardware support.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://code.org/educate/professional-development-online" target="_blank" rel="noopener">Code.org Regional Partner network</a>
+    <div class="grant-meta"><span class="grant-tag">K-12 CS</span><span class="grant-tag">PD</span>Free PD pathways and curriculum for CS Fundamentals, CS Discoveries, CS Principles. Often subsidized in your region.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.csteachers.org/page/grants" target="_blank" rel="noopener">CSTA Grants &amp; Awards</a>
+    <div class="grant-meta"><span class="grant-tag">Members</span><span class="grant-tag">CS-specific</span>Conference scholarships, classroom mini-grants, and recognition awards through the Computer Science Teachers Association.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://lemelson.mit.edu/inventeams" target="_blank" rel="noopener">Lemelson-MIT InvenTeam</a>
+    <div class="grant-meta"><span class="grant-tag">High school</span><span class="grant-tag">Up to $7,500</span>For student teams inventing technological solutions to real-world problems.</div>
+  </li>
+</ul>
+
+<div class="grant-cat">Federal &amp; state pathways (work through your district)</div>
+<ul class="grant-list">
+  <li class="grant-item">
+    <a href="https://oese.ed.gov/offices/office-of-formula-grants/school-support-and-accountability/" target="_blank" rel="noopener">Title I, Part A (ESSA)</a>
+    <div class="grant-meta"><span class="grant-tag">High-need</span><span class="grant-tag">District-routed</span>Talk to your district's federal programs office about using Title I set-asides for STEM tech.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://oese.ed.gov/offices/office-of-formula-grants/school-support-and-accountability/student-support-and-academic-enrichment-program/" target="_blank" rel="noopener">Title IV, Part A — Student Support &amp; Academic Enrichment</a>
+    <div class="grant-meta"><span class="grant-tag">Tech allowed</span><span class="grant-tag">District-routed</span>Designed in part for STEM, well-rounded education, and ed-tech. Your district has an allocation.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.fcc.gov/general/e-rate-schools-libraries-usf-program" target="_blank" rel="noopener">FCC E-Rate</a>
+    <div class="grant-meta"><span class="grant-tag">Connectivity</span><span class="grant-tag">District-routed</span>If your project requires school connectivity upgrades, your district may already have an active E-Rate filing.</div>
+  </li>
+  <li class="grant-item">
+    <a href="https://www.nsf.gov/funding/" target="_blank" rel="noopener">NSF education programs (DRK-12, ITEST, CSforAll)</a>
+    <div class="grant-meta"><span class="grant-tag">Research-grade</span><span class="grant-tag">University partner</span>Larger awards, almost always require a higher-ed or research partner. Reach out to your nearest university school of education.</div>
+  </li>
+</ul>
+
+<div class="grant-cat">Local &amp; regional starting points</div>
+<ul class="grant-list">
+  <li class="grant-item">
+    <a href="#" onclick="event.preventDefault();flash('Search your state department of education site for &quot;teacher mini-grants&quot; or &quot;CS for All&quot; programs.')">State department of education</a>
+    <div class="grant-meta"><span class="grant-tag">Varies</span>Search your state DoE site for teacher mini-grants, CS for All allocations, perkins funds, or innovation grants.</div>
+  </li>
+  <li class="grant-item">
+    <a href="#" onclick="event.preventDefault();flash('Most regions have a community foundation that funds local schools — search &quot;[Your County] Community Foundation grants&quot;.')">Local community foundations</a>
+    <div class="grant-meta"><span class="grant-tag">Local</span>Search "[Your County/City] Community Foundation grants" — many have an education-focused fund with rolling deadlines.</div>
+  </li>
+  <li class="grant-item">
+    <a href="#" onclick="event.preventDefault();flash('Many local utilities, banks, and credit unions have small education giving programs — ask your principal who has applied recently.')">Local employers, utilities, credit unions</a>
+    <div class="grant-meta"><span class="grant-tag">Local</span>Often $250–$2,500 with a short application. Best ROI on writing time.</div>
+  </li>
+  <li class="grant-item">
+    <a href="#" onclick="event.preventDefault();flash('Your PTA/PTO may have a teacher-grant cycle each fall — ask the president and your bookkeeper.')">PTA / PTO mini-grants</a>
+    <div class="grant-meta"><span class="grant-tag">Building</span>The fastest, easiest "first grant" for many teachers. Ask your PTA/PTO board.</div>
+  </li>
+</ul>
+
+<p class="grant-disclaimer">This directory is for orientation only — eligibility, award amounts, and deadlines change every year. Always verify on the funder's official site before applying. Listing here is not an endorsement, and absence does not mean a funder is bad. Use the LLM iteration in Step 2 to brainstorm additional, locally-relevant funders for your specific context.</p>
+</details>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<p style="text-align:center;margin-top:40px;font-size:0.85rem;color:var(--gray600)">CRAFT PD Series · UCF DRACO Lab &amp; School of Teacher Education</p>
+
+<script>
+/* ===== Citation (embedded in every export + every AI prompt) ===== */
+const CITATION_TEXT='Borowczak, A. & Borowczak, M. (2026). CRAFT PD Series Teacher Grant Writer Support Tool. cxedhub.com';
+const CITATION_MD='\n\n## Citation\n\n**Cite this grant tool:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Teacher Grant Writer Support Tool.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n';
+const CITATION_HTML='<hr><p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite this grant tool:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>CRAFT PD Series Teacher Grant Writer Support Tool.</em> UCF DRACO Lab &amp; School of Teacher Education. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
+
+function v(id){const el=document.getElementById(id);return el?el.value.trim():''}
+function splitList(s){return s?s.split(',').map(x=>x.trim()).filter(Boolean):[]}
+function slugify(s){return (s||'').toLowerCase().trim().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'')||'untitled-grant'}
+function escQ(s){return (s||'').replace(/\\/g,'\\\\').replace(/"/g,'\\"')}
+function escH(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function nl2br(s){return escH(s).replace(/\n/g,'<br>')}
+
+function collect(){
+  return {
+    title:v('f-title')||'Untitled Grant Proposal',
+    author:v('f-author'),
+    email:v('f-email'),
+    role:v('f-role'),
+    school:v('f-school'),
+    district:v('f-district'),
+    location:v('f-location'),
+    grade:v('f-grade'),
+    students:v('f-students'),
+    subject:v('f-subject'),
+    duration:v('f-duration'),
+    summary:v('f-summary'),
+    tags:v('f-tags'),
+    funder:v('f-funder'),
+    deadline:v('f-deadline'),
+    amount:v('f-amount'),
+    priorities:v('f-priorities'),
+    funderNotes:v('f-funder-notes'),
+    needContext:v('f-need-context'),
+    needGap:v('f-need-gap'),
+    needEvidence:v('f-need-evidence'),
+    projGoals:v('f-proj-goals'),
+    projObjectives:v('f-proj-objectives'),
+    projActivities:v('f-proj-activities'),
+    projTimeline:v('f-proj-timeline'),
+    projOutcomes:v('f-proj-outcomes'),
+    standards:v('f-standards'),
+    budgetItems:v('f-budget-items'),
+    budgetNarrative:v('f-budget-narrative'),
+    budgetMatch:v('f-budget-match'),
+    sustainPlan:v('f-sustain-plan'),
+    sustainPd:v('f-sustain-pd'),
+    sustainScale:v('f-sustain-scale'),
+    evalFormative:v('f-eval-formative'),
+    evalSummative:v('f-eval-summative'),
+    evalReport:v('f-eval-report'),
+    equity:v('f-equity'),
+    partners:v('f-partners'),
+    refs:v('f-refs'),
+    notes:v('f-notes')
+  }
+}
+
+function setField(id,val){
+  if(val===undefined||val===null)return;
+  const s=(''+val).trim();
+  if(!s)return;
+  const el=document.getElementById(id);
+  if(!el)return;
+  if(el.tagName==='SELECT'){
+    const opts=[...el.options].map(o=>o.value);
+    if(opts.indexOf(s)>=0)el.value=s;
+    return;
+  }
+  el.value=s;
+}
+
+function toMarkdown(d){
+  const date=new Date().toISOString().slice(0,10);
+  const tags=['CRAFT','grant',...splitList(d.tags)];
+  let fm='---\n';
+  fm+='title: "'+escQ(d.title)+'"\n';
+  if(d.summary)fm+='description: "'+escQ(d.summary.replace(/\s+/g,' '))+'"\n';
+  fm+="date: '"+date+"'\n";
+  fm+='draft: true\n';
+  if(d.author)fm+='author: "'+escQ(d.author)+'"\n';
+  if(d.school)fm+='school: "'+escQ(d.school)+'"\n';
+  if(d.district)fm+='district: "'+escQ(d.district)+'"\n';
+  if(d.grade)fm+='grade_level: "'+escQ(d.grade)+'"\n';
+  if(d.subject)fm+='subject: "'+escQ(d.subject)+'"\n';
+  if(d.funder)fm+='funder: "'+escQ(d.funder)+'"\n';
+  if(d.deadline)fm+='deadline: "'+escQ(d.deadline)+'"\n';
+  if(d.amount)fm+='amount: "'+escQ(d.amount)+'"\n';
+  fm+='tags:\n';
+  tags.forEach(t=>fm+='- '+t+'\n');
+  fm+='---\n\n';
+
+  let b='# '+d.title+'\n\n## Project Overview\n\n';
+  if(d.summary)b+=d.summary+'\n\n';
+  const meta=[];
+  if(d.author)meta.push('- **Applicant:** '+d.author+(d.role?' ('+d.role+')':''));
+  if(d.email)meta.push('- **Email:** '+d.email);
+  if(d.school)meta.push('- **School:** '+d.school+(d.district?', '+d.district:''));
+  if(d.location)meta.push('- **Location:** '+d.location);
+  if(d.grade)meta.push('- **Grade Level(s):** '+d.grade);
+  if(d.students)meta.push('- **Students Impacted:** '+d.students);
+  if(d.subject)meta.push('- **Subject / Discipline:** '+d.subject);
+  if(d.duration)meta.push('- **Project Duration:** '+d.duration);
+  if(meta.length)b+=meta.join('\n')+'\n\n';
+
+  if(d.funder||d.deadline||d.amount||d.priorities||d.funderNotes){
+    b+='## Funder Targeting\n\n';
+    const fmeta=[];
+    if(d.funder)fmeta.push('- **Target Funder / Program:** '+d.funder);
+    if(d.deadline)fmeta.push('- **Application Deadline:** '+d.deadline);
+    if(d.amount)fmeta.push('- **Total Amount Requested:** '+d.amount);
+    if(d.priorities)fmeta.push('- **Funder Priorities to Address:** '+d.priorities);
+    if(fmeta.length)b+=fmeta.join('\n')+'\n\n';
+    if(d.funderNotes)b+='**Funder Brief / Notes:**  \n'+d.funderNotes+'\n\n';
+  }
+
+  if(d.needContext||d.needGap||d.needEvidence){
+    b+='## Statement of Need\n\n';
+    if(d.needContext)b+='**Student & Community Context:**  \n'+d.needContext+'\n\n';
+    if(d.needGap)b+='**Current State / Gap:**  \n'+d.needGap+'\n\n';
+    if(d.needEvidence)b+='**Evidence / Data Supporting the Need:**  \n'+d.needEvidence+'\n\n';
+  }
+
+  if(d.projGoals||d.projObjectives||d.projActivities||d.projTimeline||d.projOutcomes){
+    b+='## Project Description\n\n';
+    if(d.projGoals)b+='**Project Goals:**  \n'+d.projGoals+'\n\n';
+    if(d.projObjectives)b+='**Measurable Objectives (SMART):**  \n'+d.projObjectives+'\n\n';
+    if(d.projActivities)b+='**Activities & Methods:**  \n'+d.projActivities+'\n\n';
+    if(d.projTimeline)b+='**Timeline / Milestones:**  \n'+d.projTimeline+'\n\n';
+    if(d.projOutcomes)b+='**Expected Outcomes & Deliverables:**  \n'+d.projOutcomes+'\n\n';
+  }
+
+  if(d.standards)b+='## Standards Alignment\n\n'+d.standards+'\n\n';
+
+  if(d.budgetItems||d.budgetNarrative||d.budgetMatch){
+    b+='## Budget\n\n';
+    if(d.budgetItems)b+='**Itemized Budget:**  \n'+d.budgetItems+'\n\n';
+    if(d.budgetNarrative)b+='**Budget Narrative / Cost Justification:**  \n'+d.budgetNarrative+'\n\n';
+    if(d.budgetMatch)b+='**Matching / In-Kind Contributions:** '+d.budgetMatch+'\n\n';
+  }
+
+  if(d.sustainPlan||d.sustainPd||d.sustainScale){
+    b+='## Sustainability & Scaling\n\n';
+    if(d.sustainPlan)b+='**Sustainability Plan:**  \n'+d.sustainPlan+'\n\n';
+    if(d.sustainPd)b+='**Teacher Professional Development:**  \n'+d.sustainPd+'\n\n';
+    if(d.sustainScale)b+='**Scaling / Sharing:**  \n'+d.sustainScale+'\n\n';
+  }
+
+  if(d.evalFormative||d.evalSummative||d.evalReport){
+    b+='## Evaluation & Assessment\n\n';
+    if(d.evalFormative)b+='**Formative Assessment:**  \n'+d.evalFormative+'\n\n';
+    if(d.evalSummative)b+='**Summative Assessment:**  \n'+d.evalSummative+'\n\n';
+    if(d.evalReport)b+='**Data You\'ll Report Back to the Funder:**  \n'+d.evalReport+'\n\n';
+  }
+
+  if(d.equity||d.partners){
+    b+='## Equity & Impact\n\n';
+    if(d.equity)b+='**Equity Statement:**  \n'+d.equity+'\n\n';
+    if(d.partners)b+='**Community Partnerships & Letters of Support:**  \n'+d.partners+'\n\n';
+  }
+
+  if(d.refs)b+='## References & Citations\n\n'+d.refs+'\n\n';
+
+  b+=CITATION_MD;
+  return fm+b;
+}
+
+function toHTML(d){
+  let h='<h1>'+escH(d.title)+'</h1>';
+  if(d.author)h+='<p><em>By '+escH(d.author)+(d.role?', '+escH(d.role):'')+'</em></p>';
+  h+='<h2>Project Overview</h2>';
+  if(d.summary)h+='<p>'+nl2br(d.summary)+'</p>';
+  const meta=[];
+  if(d.email)meta.push('<li><strong>Email:</strong> '+escH(d.email)+'</li>');
+  if(d.school)meta.push('<li><strong>School:</strong> '+escH(d.school)+(d.district?', '+escH(d.district):'')+'</li>');
+  if(d.location)meta.push('<li><strong>Location:</strong> '+escH(d.location)+'</li>');
+  if(d.grade)meta.push('<li><strong>Grade Level(s):</strong> '+escH(d.grade)+'</li>');
+  if(d.students)meta.push('<li><strong>Students Impacted:</strong> '+escH(d.students)+'</li>');
+  if(d.subject)meta.push('<li><strong>Subject / Discipline:</strong> '+escH(d.subject)+'</li>');
+  if(d.duration)meta.push('<li><strong>Project Duration:</strong> '+escH(d.duration)+'</li>');
+  if(meta.length)h+='<ul>'+meta.join('')+'</ul>';
+
+  if(d.funder||d.deadline||d.amount||d.priorities||d.funderNotes){
+    h+='<h2>Funder Targeting</h2><ul>';
+    if(d.funder)h+='<li><strong>Target Funder / Program:</strong> '+escH(d.funder)+'</li>';
+    if(d.deadline)h+='<li><strong>Application Deadline:</strong> '+escH(d.deadline)+'</li>';
+    if(d.amount)h+='<li><strong>Total Amount Requested:</strong> '+escH(d.amount)+'</li>';
+    if(d.priorities)h+='<li><strong>Funder Priorities to Address:</strong> '+escH(d.priorities)+'</li>';
+    h+='</ul>';
+    if(d.funderNotes)h+='<p><strong>Funder Brief / Notes:</strong><br>'+nl2br(d.funderNotes)+'</p>';
+  }
+
+  if(d.needContext||d.needGap||d.needEvidence){
+    h+='<h2>Statement of Need</h2>';
+    if(d.needContext)h+='<p><strong>Student &amp; Community Context:</strong><br>'+nl2br(d.needContext)+'</p>';
+    if(d.needGap)h+='<p><strong>Current State / Gap:</strong><br>'+nl2br(d.needGap)+'</p>';
+    if(d.needEvidence)h+='<p><strong>Evidence / Data Supporting the Need:</strong><br>'+nl2br(d.needEvidence)+'</p>';
+  }
+
+  if(d.projGoals||d.projObjectives||d.projActivities||d.projTimeline||d.projOutcomes){
+    h+='<h2>Project Description</h2>';
+    if(d.projGoals)h+='<p><strong>Project Goals:</strong><br>'+nl2br(d.projGoals)+'</p>';
+    if(d.projObjectives)h+='<p><strong>Measurable Objectives (SMART):</strong><br>'+nl2br(d.projObjectives)+'</p>';
+    if(d.projActivities)h+='<p><strong>Activities &amp; Methods:</strong><br>'+nl2br(d.projActivities)+'</p>';
+    if(d.projTimeline)h+='<p><strong>Timeline / Milestones:</strong><br>'+nl2br(d.projTimeline)+'</p>';
+    if(d.projOutcomes)h+='<p><strong>Expected Outcomes &amp; Deliverables:</strong><br>'+nl2br(d.projOutcomes)+'</p>';
+  }
+
+  if(d.standards)h+='<h2>Standards Alignment</h2><p>'+nl2br(d.standards)+'</p>';
+
+  if(d.budgetItems||d.budgetNarrative||d.budgetMatch){
+    h+='<h2>Budget</h2>';
+    if(d.budgetItems)h+='<p><strong>Itemized Budget:</strong><br>'+nl2br(d.budgetItems)+'</p>';
+    if(d.budgetNarrative)h+='<p><strong>Budget Narrative / Cost Justification:</strong><br>'+nl2br(d.budgetNarrative)+'</p>';
+    if(d.budgetMatch)h+='<p><strong>Matching / In-Kind Contributions:</strong> '+escH(d.budgetMatch)+'</p>';
+  }
+
+  if(d.sustainPlan||d.sustainPd||d.sustainScale){
+    h+='<h2>Sustainability &amp; Scaling</h2>';
+    if(d.sustainPlan)h+='<p><strong>Sustainability Plan:</strong><br>'+nl2br(d.sustainPlan)+'</p>';
+    if(d.sustainPd)h+='<p><strong>Teacher Professional Development:</strong><br>'+nl2br(d.sustainPd)+'</p>';
+    if(d.sustainScale)h+='<p><strong>Scaling / Sharing:</strong><br>'+nl2br(d.sustainScale)+'</p>';
+  }
+
+  if(d.evalFormative||d.evalSummative||d.evalReport){
+    h+='<h2>Evaluation &amp; Assessment</h2>';
+    if(d.evalFormative)h+='<p><strong>Formative Assessment:</strong><br>'+nl2br(d.evalFormative)+'</p>';
+    if(d.evalSummative)h+='<p><strong>Summative Assessment:</strong><br>'+nl2br(d.evalSummative)+'</p>';
+    if(d.evalReport)h+='<p><strong>Data You\'ll Report Back to the Funder:</strong><br>'+nl2br(d.evalReport)+'</p>';
+  }
+
+  if(d.equity||d.partners){
+    h+='<h2>Equity &amp; Impact</h2>';
+    if(d.equity)h+='<p><strong>Equity Statement:</strong><br>'+nl2br(d.equity)+'</p>';
+    if(d.partners)h+='<p><strong>Community Partnerships &amp; Letters of Support:</strong><br>'+nl2br(d.partners)+'</p>';
+  }
+
+  if(d.refs)h+='<h2>References &amp; Citations</h2><p>'+nl2br(d.refs)+'</p>';
+
+  h+=CITATION_HTML;
+  return h;
+}
+
+async function clipboardText(t){
+  try{
+    if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(t);return true}
+  }catch(e){}
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.focus();ta.select();
+    const ok=document.execCommand('copy');
+    ta.remove();return ok;
+  }catch(e){return false}
+}
+
+function buildLLMPrompt(d){
+  const draft=toMarkdown(d);
+  const gradeLabel=d.grade||'K-12';
+  const bandDesc={'K-2':'early-elementary (ages 5-8)','3-5':'upper-elementary (ages 8-11)','6-8':'middle-school (ages 11-14)','9-12':'high-school (ages 14-18)','K-12':'a multi-grade-band cohort (K-12)'}[gradeLabel]||gradeLabel;
+  const funderLine=d.funder?(' targeting **'+d.funder+'**'):'';
+  const amountLine=d.amount?(' for an ask of '+d.amount):'';
+  let p='';
+  p+='You are an experienced K-12 grant writer who has helped classroom teachers win funding from foundations, corporations, government formula programs, and crowdfunding platforms. You are helping a teacher refine a grant proposal'+funderLine+amountLine+' for '+gradeLabel+' ('+bandDesc+') students.\n\n';
+  p+='## Your Task\n\n';
+  p+='Review the current grant proposal draft inside the <draft> tag at the end of this message, then produce an improved, more competitive version by:\n\n';
+  p+='1. **Filling in missing or thin sections** with specific, classroom-grounded content that reflects the teacher\'s setting. Empty or sparse fields are the biggest opportunity to add value — but flag any place you had to invent information the teacher should verify or replace.\n';
+  p+='2. **Tailoring tone and emphasis to the target funder.** Crowdfunding posts (DonorsChoose) are warm, personal, and concrete. Foundation proposals (NEA Foundation, Toshiba) are measured and evidence-driven. Federal/formula pathways (Title IV, NSF) are technical and standards-heavy. If a funder is named, calibrate accordingly. If not, default to a balanced foundation-style voice and note which funders this version best fits.\n';
+  p+='3. **Strengthening the Statement of Need** with asset-based framing — name student strengths and community context, not just deficits. Where claims need data, suggest the type of data the teacher should add (and never fabricate statistics or citations).\n';
+  p+='4. **Sharpening the Project Description** with SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound), realistic activities, and a credible month-by-month timeline.\n';
+  p+='5. **Stress-testing the Budget.** Confirm line items add up to the requested total. Call out any line that looks under- or over-priced for current K-12 retail (e.g., micro:bit v2 Go Bundles, Chromebooks, sensor add-ons). Add a budget narrative that justifies each major category. **Never invent prices — if you are not confident in a current price, mark it [VERIFY].**\n';
+  p+='6. **Building out the Sustainability and Evaluation sections** — funders almost always score these and almost always see them under-developed. Connect evaluation back to the SMART objectives.\n';
+  p+='7. **Strengthening the Equity statement** with asset-based, specific language about who benefits and how. Avoid generic DEI boilerplate.\n';
+  p+='8. **Verifying standards alignment** — only cite standards codes you are highly confident exist in the named framework (CSTA, NGSS, ISTE, CCSS, state CS standards). If unsure, leave a placeholder like "[teacher to confirm CSTA code]" rather than fabricating one.\n';
+  p+='9. **Citing references carefully.** When you reference research, frameworks, or prior work, only include citations you are confident are real. Mark any uncertain reference [VERIFY]. Never invent citations.\n\n';
+  p+='## Output Format — CRITICAL\n\n';
+  p+='Return ONLY the complete revised grant proposal as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing draft from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
+  p+='Follow these rules exactly:\n\n';
+  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `school`, `district`, `grade_level`, `subject`, `funder`, `deadline`, `amount`, and `tags`. Always keep `CRAFT` and `grant` in the `tags` list.\n';
+  p+='- Use `# Project Title` as the single H1.\n';
+  p+='- Use these H2 headings, in order, only including the ones that have content: `## Project Overview`, `## Funder Targeting`, `## Statement of Need`, `## Project Description`, `## Standards Alignment`, `## Budget`, `## Sustainability & Scaling`, `## Evaluation & Assessment`, `## Equity & Impact`, `## References & Citations`.\n';
+  p+='- Under `## Project Overview`, write the 2-4 sentence summary paragraph first, then a bullet list with `- **Applicant:** ...`, `- **Email:** ...`, `- **School:** ...`, `- **Location:** ...`, `- **Grade Level(s):** ...`, `- **Students Impacted:** ...`, `- **Subject / Discipline:** ...`, `- **Project Duration:** ...`.\n';
+  p+='- Under `## Funder Targeting`, use a bullet list for `Target Funder / Program`, `Application Deadline`, `Total Amount Requested`, `Funder Priorities to Address`, then a bolded `**Funder Brief / Notes:**` block.\n';
+  p+='- Keep these bolded sub-labels verbatim (the loader uses them as parse anchors):\n';
+  p+='    - In Statement of Need: `**Student & Community Context:**`, `**Current State / Gap:**`, `**Evidence / Data Supporting the Need:**`\n';
+  p+='    - In Project Description: `**Project Goals:**`, `**Measurable Objectives (SMART):**`, `**Activities & Methods:**`, `**Timeline / Milestones:**`, `**Expected Outcomes & Deliverables:**`\n';
+  p+='    - In Budget: `**Itemized Budget:**`, `**Budget Narrative / Cost Justification:**`, `**Matching / In-Kind Contributions:**`\n';
+  p+='    - In Sustainability & Scaling: `**Sustainability Plan:**`, `**Teacher Professional Development:**`, `**Scaling / Sharing:**`\n';
+  p+='    - In Evaluation & Assessment: `**Formative Assessment:**`, `**Summative Assessment:**`, `**Data You\'ll Report Back to the Funder:**`\n';
+  p+='    - In Equity & Impact: `**Equity Statement:**`, `**Community Partnerships & Letters of Support:**`\n';
+  p+='- Separate each labeled block with a blank line so the parser can find boundaries.\n';
+  p+='- Do NOT wrap the whole document in a code fence. Do NOT add commentary, preamble, or summary before or after the Markdown. Your reply should be the Markdown document and nothing else.\n\n';
+  p+='## Citation — REQUIRED at the End of the Markdown\n\n';
+  p+='After the last content section, append a final H2 section titled exactly `## Citation` containing this block, verbatim:\n\n';
+  p+='> **Cite this grant tool:** Borowczak, A. & Borowczak, M. (2026). *CRAFT PD Series Teacher Grant Writer Support Tool.* UCF DRACO Lab & School of Teacher Education. [cxedhub.com](https://www.cxedhub.com)\n\n';
+  p+='Do not remove, paraphrase, condense, or relocate this citation.\n\n';
+  p+='## Current Grant Proposal Draft\n\n';
+  p+='Fields the teacher left blank are simply absent from the draft below — fill those in. Fields with content are the teacher\'s starting point — refine and extend, do not overwrite their voice.\n\n';
+  p+='<draft>\n';
+  p+=draft;
+  p+='\n</draft>\n';
+  return p;
+}
+
+async function copyMarkdown(){
+  const md=toMarkdown(collect());
+  if(await clipboardText(md))flash('Markdown copied to clipboard');
+  else flash('Could not copy — please try the Download .md button');
+}
+
+async function copyLLMPrompt(){
+  const prompt=buildLLMPrompt(collect());
+  if(await clipboardText(prompt))flash('AI prompt copied — paste into ChatGPT, Claude, Gemini, or your LLM of choice');
+  else flash('Could not copy — your browser blocked clipboard access');
+}
+
+async function copyRichText(){
+  const d=collect();
+  const html=toHTML(d);
+  const plain=toMarkdown(d);
+  try{
+    if(navigator.clipboard&&typeof ClipboardItem!=='undefined'){
+      const item=new ClipboardItem({
+        'text/html':new Blob([html],{type:'text/html'}),
+        'text/plain':new Blob([plain],{type:'text/plain'})
+      });
+      await navigator.clipboard.write([item]);
+      flash('Rich text copied — paste into Google Docs, Word, or Pages');
+      return;
+    }
+  }catch(e){}
+  if(await clipboardText(plain))flash('Copied as plain markdown (rich-text clipboard unavailable in this browser)');
+  else flash('Could not copy — please try the Download .doc button');
+}
+
+function downloadFile(name,content,type){
+  const blob=new Blob([content],{type});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=name;document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},200);
+}
+
+function downloadMarkdown(){
+  const d=collect();
+  downloadFile(slugify(d.title)+'.md',toMarkdown(d),'text/markdown;charset=utf-8');
+  flash('Downloaded '+slugify(d.title)+'.md');
+}
+
+function downloadDoc(){
+  const d=collect();
+  const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
+  downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
+  flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
+}
+
+function fromMarkdown(md){
+  md=(md||'').replace(/\r\n/g,'\n');
+  const d={};
+  let body=md;
+
+  // Front matter (optional)
+  const fmMatch=md.match(/^---\n([\s\S]*?)\n---\n?/);
+  if(fmMatch){
+    const fm=fmMatch[1];
+    body=md.slice(fmMatch[0].length);
+    const scalar=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*(.*)$','m'));
+      if(!m)return '';
+      return m[1].trim().replace(/^['"]|['"]$/g,'').replace(/\\"/g,'"').replace(/\\\\/g,'\\');
+    };
+    d.title=scalar('title');
+    d.summary=scalar('description');
+    d.author=scalar('author');
+    d.school=scalar('school');
+    d.district=scalar('district');
+    d.grade=scalar('grade_level');
+    d.subject=scalar('subject');
+    d.funder=scalar('funder');
+    d.deadline=scalar('deadline');
+    d.amount=scalar('amount');
+    const listAfter=(key)=>{
+      const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
+      if(!m)return [];
+      return m[1].split('\n').map(l=>l.replace(/^\s*-\s+/,'').trim()).filter(Boolean);
+    };
+    const tags=listAfter('tags').filter(t=>t!=='CRAFT'&&t!=='grant');
+    if(tags.length)d.tags=tags.join(', ');
+  }
+
+  body=body.replace(/\n## Citation[\s\S]*$/,'').trim();
+
+  const titleMatch=body.match(/^#\s+(.+?)\s*$/m);
+  if(titleMatch&&!d.title)d.title=titleMatch[1].trim();
+
+  // Parse top-level ## sections
+  const sections={};
+  const re=/^##\s+(.+?)\s*$/gm;
+  const hits=[];
+  let mm;
+  while((mm=re.exec(body))!==null)hits.push({name:mm[1].trim(),start:mm.index+mm[0].length,idx:mm.index});
+  for(let i=0;i<hits.length;i++){
+    const end=i+1<hits.length?hits[i+1].idx:body.length;
+    sections[hits[i].name]=body.slice(hits[i].start,end).trim();
+  }
+  const findSection=(name)=>{
+    if(sections[name])return sections[name];
+    const lc=name.toLowerCase();
+    for(const k of Object.keys(sections)){if(k.toLowerCase()===lc)return sections[k]}
+    return '';
+  };
+
+  const lineVal=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const lm=text.match(new RegExp('^-\\s*\\*\\*'+esc+':\\*\\*\\s*(.+)$','m'));
+    return lm?lm[1].trim():'';
+  };
+  const labeledBlock=(text,label)=>{
+    const esc=label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const pat=new RegExp('\\*\\*'+esc+':\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\n\\*\\*[^*\\n]+:\\*\\*|$)');
+    const lm=text.match(pat);
+    return lm?lm[1].trim():'';
+  };
+
+  // Project Overview: free-text summary + meta bullet list
+  if(findSection('Project Overview')){
+    const overview=findSection('Project Overview');
+    const bulletIdx=overview.search(/(^|\n)-\s*\*\*/);
+    let summary=overview,list='';
+    if(bulletIdx>=0){
+      summary=overview.slice(0,bulletIdx).trim();
+      list=overview.slice(bulletIdx);
+    }
+    if(summary&&!d.summary)d.summary=summary;
+    if(list){
+      const applicant=lineVal(list,'Applicant');
+      if(applicant){
+        const am=applicant.match(/^(.*?)\s*\((.+)\)\s*$/);
+        if(am){d.author=am[1].trim();d.role=am[2].trim()}
+        else d.author=applicant;
+      }
+      d.email=lineVal(list,'Email')||d.email;
+      const sch=lineVal(list,'School');
+      if(sch){
+        const sm=sch.split(',').map(x=>x.trim());
+        d.school=sm[0];if(sm[1])d.district=sm.slice(1).join(', ');
+      }
+      d.location=lineVal(list,'Location')||d.location;
+      d.grade=lineVal(list,'Grade Level(s)')||lineVal(list,'Grade Level')||d.grade;
+      d.students=lineVal(list,'Students Impacted')||d.students;
+      d.subject=lineVal(list,'Subject / Discipline')||lineVal(list,'Subject')||d.subject;
+      d.duration=lineVal(list,'Project Duration')||d.duration;
+    }
+  }
+
+  if(findSection('Funder Targeting')){
+    const ft=findSection('Funder Targeting');
+    d.funder=lineVal(ft,'Target Funder / Program')||lineVal(ft,'Target Funder')||d.funder;
+    d.deadline=lineVal(ft,'Application Deadline')||d.deadline;
+    d.amount=lineVal(ft,'Total Amount Requested')||d.amount;
+    d.priorities=lineVal(ft,'Funder Priorities to Address')||lineVal(ft,'Funder Priorities')||d.priorities;
+    d.funderNotes=labeledBlock(ft,'Funder Brief / Notes')||labeledBlock(ft,'Funder Brief')||d.funderNotes;
+  }
+
+  if(findSection('Statement of Need')){
+    const sn=findSection('Statement of Need');
+    d.needContext=labeledBlock(sn,'Student & Community Context')||labeledBlock(sn,'Student and Community Context');
+    d.needGap=labeledBlock(sn,'Current State / Gap')||labeledBlock(sn,'Current State');
+    d.needEvidence=labeledBlock(sn,'Evidence / Data Supporting the Need')||labeledBlock(sn,'Evidence');
+  }
+
+  if(findSection('Project Description')){
+    const pd=findSection('Project Description');
+    d.projGoals=labeledBlock(pd,'Project Goals');
+    d.projObjectives=labeledBlock(pd,'Measurable Objectives (SMART)')||labeledBlock(pd,'Measurable Objectives');
+    d.projActivities=labeledBlock(pd,'Activities & Methods')||labeledBlock(pd,'Activities');
+    d.projTimeline=labeledBlock(pd,'Timeline / Milestones')||labeledBlock(pd,'Timeline');
+    d.projOutcomes=labeledBlock(pd,'Expected Outcomes & Deliverables')||labeledBlock(pd,'Expected Outcomes');
+  }
+
+  if(findSection('Standards Alignment'))d.standards=findSection('Standards Alignment');
+
+  if(findSection('Budget')){
+    const bg=findSection('Budget');
+    d.budgetItems=labeledBlock(bg,'Itemized Budget');
+    d.budgetNarrative=labeledBlock(bg,'Budget Narrative / Cost Justification')||labeledBlock(bg,'Budget Narrative');
+    d.budgetMatch=lineVal(bg,'Matching / In-Kind Contributions')||labeledBlock(bg,'Matching / In-Kind Contributions');
+    if(!d.budgetMatch){
+      const m=bg.match(/\*\*Matching \/ In-Kind Contributions:\*\*\s*(.+)/);
+      if(m)d.budgetMatch=m[1].trim();
+    }
+  }
+
+  if(findSection('Sustainability & Scaling')||findSection('Sustainability and Scaling')){
+    const ss=findSection('Sustainability & Scaling')||findSection('Sustainability and Scaling');
+    d.sustainPlan=labeledBlock(ss,'Sustainability Plan');
+    d.sustainPd=labeledBlock(ss,'Teacher Professional Development');
+    d.sustainScale=labeledBlock(ss,'Scaling / Sharing')||labeledBlock(ss,'Scaling');
+  }
+
+  if(findSection('Evaluation & Assessment')||findSection('Evaluation and Assessment')){
+    const ea=findSection('Evaluation & Assessment')||findSection('Evaluation and Assessment');
+    d.evalFormative=labeledBlock(ea,'Formative Assessment');
+    d.evalSummative=labeledBlock(ea,'Summative Assessment');
+    d.evalReport=labeledBlock(ea,"Data You'll Report Back to the Funder")||labeledBlock(ea,'Data You Will Report Back to the Funder')||labeledBlock(ea,'Data Reported');
+  }
+
+  if(findSection('Equity & Impact')||findSection('Equity and Impact')){
+    const ei=findSection('Equity & Impact')||findSection('Equity and Impact');
+    d.equity=labeledBlock(ei,'Equity Statement');
+    d.partners=labeledBlock(ei,'Community Partnerships & Letters of Support')||labeledBlock(ei,'Community Partnerships');
+  }
+
+  if(findSection('References & Citations')||findSection('References'))d.refs=findSection('References & Citations')||findSection('References');
+
+  return d;
+}
+
+function loadMarkdown(){
+  const raw=v('f-loadtext');
+  if(!raw){flash('Paste markdown or choose a .md file first');return}
+  let d;
+  try{d=fromMarkdown(raw)}
+  catch(e){flash('Could not parse markdown: '+e.message);return}
+  setField('f-title',d.title);
+  setField('f-author',d.author);
+  setField('f-email',d.email);
+  setField('f-role',d.role);
+  setField('f-school',d.school);
+  setField('f-district',d.district);
+  setField('f-location',d.location);
+  setField('f-grade',d.grade);
+  setField('f-students',d.students);
+  setField('f-subject',d.subject);
+  setField('f-duration',d.duration);
+  setField('f-summary',d.summary);
+  setField('f-tags',d.tags);
+  setField('f-funder',d.funder);
+  setField('f-deadline',d.deadline);
+  setField('f-amount',d.amount);
+  setField('f-priorities',d.priorities);
+  setField('f-funder-notes',d.funderNotes);
+  setField('f-need-context',d.needContext);
+  setField('f-need-gap',d.needGap);
+  setField('f-need-evidence',d.needEvidence);
+  setField('f-proj-goals',d.projGoals);
+  setField('f-proj-objectives',d.projObjectives);
+  setField('f-proj-activities',d.projActivities);
+  setField('f-proj-timeline',d.projTimeline);
+  setField('f-proj-outcomes',d.projOutcomes);
+  setField('f-standards',d.standards);
+  setField('f-budget-items',d.budgetItems);
+  setField('f-budget-narrative',d.budgetNarrative);
+  setField('f-budget-match',d.budgetMatch);
+  setField('f-sustain-plan',d.sustainPlan);
+  setField('f-sustain-pd',d.sustainPd);
+  setField('f-sustain-scale',d.sustainScale);
+  setField('f-eval-formative',d.evalFormative);
+  setField('f-eval-summative',d.evalSummative);
+  setField('f-eval-report',d.evalReport);
+  setField('f-equity',d.equity);
+  setField('f-partners',d.partners);
+  setField('f-refs',d.refs);
+  flash('Draft loaded — review and edit as needed');
+}
+
+function loadFile(e){
+  const file=e.target.files&&e.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    document.getElementById('f-loadtext').value=ev.target.result;
+    loadMarkdown();
+  };
+  reader.readAsText(file);
+}
+
+function flash(msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.classList.add('show');
+  clearTimeout(flash._t);
+  flash._t=setTimeout(()=>el.classList.remove('show'),2800);
+}
+
+function returnToLoader(){
+  const box=document.querySelector('details.load-box');
+  if(box){box.open=true;box.scrollIntoView({behavior:'smooth',block:'start'})}
+  const ta=document.getElementById('f-loadtext');
+  if(ta)setTimeout(()=>{try{ta.focus({preventScroll:true})}catch(e){ta.focus()}},600);
+  flash('Loader opened — paste the LLM reply and click Load into Form');
+}
+
+function topUploadMarkdown(){
+  const input=document.getElementById('f-toploadfile');
+  if(input){input.value='';input.click()}
+}
+</script>
+<script src="/js/chat-providers.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const anchor = document.getElementById('cpb-ai-prompt-anchor');
+  if (anchor && window.ChatProviders) {
+    window.ChatProviders.render(anchor, () => buildLLMPrompt(collect()), { label: false, disclaimer: false });
+  }
+});
+</script>
+<script src="/js/credit-bar.js"></script>
+<script src="/js/last-updated-static.js"></script>
+
+</div>
+</body></html>
+
+
+
+
+
