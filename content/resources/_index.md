@@ -318,9 +318,4 @@ Vetted external resources for classroom use and at-home learning — seven [NSF-
     <p class="card-desc">You should have received a link to connect at one of our PDs. If you didn't, reach out and we'll get you connected.</p>
     <div class="card-meta"><span class="chip chip-subject">Community</span><span class="chip chip-grade">Educator</span></div>
   </div>
-  <div class="card">
-    <h3><a href="https://drive.google.com/drive/folders/1XAVZK-JsxamRXHE7N7hKBIPvAEf67gYv?usp=sharing">CX Ed Hub Google Drive</a></h3>
-    <p class="card-desc">Additional content, raw data, and archival materials from past workshops and projects.</p>
-    <div class="card-meta"><span class="chip chip-subject">Archive</span><span class="chip chip-grade">Educator</span></div>
-  </div>
 </div>
