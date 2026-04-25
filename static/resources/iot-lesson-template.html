@@ -57,7 +57,7 @@ textarea{min-height:80px;resize:vertical}
 .load-box textarea{min-height:140px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
 .load-box input[type="file"]{font-size:0.82rem;margin-bottom:8px}
 
-/* Standards region selector (US vs Florida) */
+/* Standards region selector (US vs state-tuned crosswalks) */
 .std-region-box{border:1px solid var(--gray200);border-radius:10px;padding:12px 14px;margin:6px 0 12px;background:linear-gradient(135deg,#ffffff 0%,#f7faff 100%)}
 .std-region-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray600);margin:0 0 8px}
 .std-region-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
@@ -221,7 +221,7 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 <div class="page-wrap">
 
 <h1>IoT Lesson/Unit Plan Generator</h1>
-<p class="subtitle">Design a CRAFT-aligned lesson that uses the BBC micro:bit and Internet-of-Things concepts (sensors, data logging, and — where relevant — a two-node sensor-to-aggregator pattern). This template follows the full CRAFT cycle, includes a structured <strong>Check the Machine (CtM)</strong> prompt, and can align to any combination of national or state standards. See the <a href="/pds/craft-pd-series/resources/sensor-guide.html">Sensor Guide</a> for a micro:bit-to-standards crosswalk. Looking for a non-IoT lesson template? <a href="/resources/lesson-template.html">Use the general CRAFT lesson template →</a> or the <a href="/resources/lesson-template-florida.html">Florida-tuned version →</a>.</p>
+<p class="subtitle">Design a CRAFT-aligned lesson that uses the BBC micro:bit and Internet-of-Things concepts (sensors, data logging, and — where relevant — a two-node sensor-to-aggregator pattern). This template follows the full CRAFT cycle, includes a structured <strong>Check the Machine (CtM)</strong> prompt, and can align to any combination of national or state standards. See the <a href="/pds/craft-pd-series/resources/sensor-guide.html">Sensor Guide</a> for a micro:bit-to-standards crosswalk. Looking for a non-IoT lesson template? <a href="/resources/lesson-template.html">Use the general CRAFT lesson template →</a> or a state-tuned version: <a href="/resources/lesson-template-florida.html">Florida →</a>, <a href="/resources/lesson-template-texas.html">Texas →</a>, <a href="/resources/lesson-template-arizona.html">Arizona →</a>.</p>
 
 <script>
 window.LESSON_DRAFT_NAMESPACE = 'iot';
@@ -373,8 +373,10 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
   <div class="std-region-grid" id="std-region-grid">
     <label><input type="radio" name="std-region" value="US" checked><span>🇺🇸 US (National)</span></label>
     <label><input type="radio" name="std-region" value="FL"><span>🌴 Florida</span></label>
+    <label><input type="radio" name="std-region" value="TX"><span>🤠 Texas</span></label>
+    <label><input type="radio" name="std-region" value="AZ"><span>🌵 Arizona</span></label>
   </div>
-  <div class="helper"><strong>US:</strong> CSTA, NGSS, CCSS Math/ELA, ISTE, NCSS C3, National Core Arts. <strong>Florida:</strong> adds B.E.S.T. ELA/Math, NGSSS Science/Social Studies, and FL K-12 CS (Florida frameworks listed first) — national frameworks remain available as a crosswalk.</div>
+  <div class="helper"><strong>US:</strong> CSTA, NGSS, CCSS Math/ELA, ISTE, NCSS C3, National Core Arts. <strong>Florida:</strong> adds B.E.S.T. ELA/Math, NGSSS Science/Social Studies, and FL K-12 CS. <strong>Texas:</strong> adds TEKS ELA &amp; Reading, Math, Science, Social Studies, and Technology Applications (CS). <strong>Arizona:</strong> adds AZ ELA, Math, Science, Social Studies, and CS. State frameworks lead; national frameworks remain available as a crosswalk.</div>
 </div>
 
 <p class="std-intro">Pick standards from any combination of frameworks — you don't have to memorize identifiers. <strong>Search by keyword</strong> (e.g. "fractions", "password", "ecosystems") or by code (e.g. "MS-PS2-2"). Selected standards appear as chips you can remove. <strong>If the standards below don't apply to your context, use the <em>Custom / Other</em> row at the bottom to type in your own state/district standards.</strong></p>
@@ -614,6 +616,8 @@ Takeaway: What did the comparison reveal? Would students trust the AI's general 
 
 <script src="/js/standards-db.js"></script>
 <script src="/js/standards-db-florida.js"></script>
+<script src="/js/standards-db-texas.js"></script>
+<script src="/js/standards-db-arizona.js"></script>
 <script>
 const REPO_OWNER='cxedhub',REPO_NAME='wiki',REPO_BRANCH='main',LESSON_PATH='content/lessons';
 const SUBMIT_EMAIL='mike@freyjalabs.com';
@@ -624,7 +628,7 @@ const CITATION_MD='\n\n## Citation\n\n**Cite this lesson template:** Borowczak, 
 const CITATION_HTML='<hr><p style="font-size:9pt;color:#666;border-top:1pt solid #ccc;padding-top:8pt;margin-top:16pt"><strong>Cite this lesson template:</strong> Borowczak, A. &amp; Borowczak, M. (2026). <em>CRAFT PD Series Lesson Template.</em> UCF DRACO Lab &amp; School of Teacher Education. <a href="https://www.cxedhub.com">cxedhub.com</a></p>';
 
 /* ===== Multi-framework standards picker ===== */
-/* Two region presets: US (national only) and FL (Florida-first crosswalk).
+/* Region presets: US (national only) plus FL/TX/AZ state-first crosswalks.
  * FW_ORDER is mutable — flipping the radio toggle swaps which list is in use
  * and re-renders the picker UI. FW_LABEL keeps labels for every framework we
  * ever show so we don't need to swap it when the region changes. */
@@ -633,6 +637,15 @@ const FW_ORDER_FL=[
   'FL B.E.S.T. ELA','FL B.E.S.T. Math','FL NGSSS Science','FL NGSSS Social Studies','FL K-12 Computer Science',
   'CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'
 ];
+const FW_ORDER_TX=[
+  'TX TEKS ELA','TX TEKS Math','TX TEKS Science','TX TEKS Social Studies','TX TEKS Technology Applications',
+  'CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'
+];
+const FW_ORDER_AZ=[
+  'AZ ELA','AZ Math','AZ Science','AZ Social Studies','AZ Computer Science',
+  'CSTA','CCSS Math','CCSS ELA','NGSS','ISTE','NCSS C3','National Core Arts'
+];
+const REGION_FW_ORDERS={US:FW_ORDER_US,FL:FW_ORDER_FL,TX:FW_ORDER_TX,AZ:FW_ORDER_AZ};
 let FW_ORDER=FW_ORDER_US.slice();
 const FW_LABEL={
   'CSTA':['Computer Science (CSTA K-12)','Computer Science Teachers Association'],
@@ -646,32 +659,46 @@ const FW_LABEL={
   'FL B.E.S.T. Math':['Florida B.E.S.T. Mathematics','Benchmarks for Excellent Student Thinking — Mathematics (Florida)'],
   'FL NGSSS Science':['Florida NGSSS Science','Next Generation Sunshine State Standards — Science'],
   'FL NGSSS Social Studies':['Florida NGSSS Social Studies','Next Generation Sunshine State Standards — Social Studies'],
-  'FL K-12 Computer Science':['Florida K-12 Computer Science','Florida Department of Education CS Standards']
+  'FL K-12 Computer Science':['Florida K-12 Computer Science','Florida Department of Education CS Standards'],
+  'TX TEKS ELA':['Texas TEKS English Language Arts &amp; Reading','Texas Essential Knowledge and Skills — ELAR'],
+  'TX TEKS Math':['Texas TEKS Mathematics','Texas Essential Knowledge and Skills — Mathematics'],
+  'TX TEKS Science':['Texas TEKS Science','Texas Essential Knowledge and Skills — Science'],
+  'TX TEKS Social Studies':['Texas TEKS Social Studies','Texas Essential Knowledge and Skills — Social Studies'],
+  'TX TEKS Technology Applications':['Texas TEKS Technology Applications','Texas Essential Knowledge and Skills — Technology Applications (Computer Science)'],
+  'AZ ELA':['Arizona English Language Arts','Arizona ELA Standards (Arizona Department of Education)'],
+  'AZ Math':['Arizona Mathematics','Arizona Mathematics Standards (Arizona Department of Education)'],
+  'AZ Science':['Arizona Science','Arizona Science Standards (Arizona Department of Education)'],
+  'AZ Social Studies':['Arizona Social Studies','Arizona History &amp; Social Science Standards (Arizona Department of Education)'],
+  'AZ Computer Science':['Arizona Computer Science','Arizona Computer Science Standards (Arizona Department of Education)']
 };
 const SELECTED={};
 function ensureSelectedKeys(){
-  FW_ORDER_US.concat(FW_ORDER_FL).forEach(fw=>{if(!SELECTED[fw])SELECTED[fw]=[]});
+  Object.values(REGION_FW_ORDERS).forEach(list=>list.forEach(fw=>{if(!SELECTED[fw])SELECTED[fw]=[]}));
 }
 ensureSelectedKeys();
 const CUSTOM_FW_KEY='Other';SELECTED[CUSTOM_FW_KEY]=[];
 const CUSTOM_DESC={};  // code -> description for Other-framework entries
 let activeDropdownFw=null,activeDropdownIdx=-1;
 
+function normalizeRegion(region){
+  const r=(''+(region||'')).toUpperCase();
+  return (r==='FL'||r==='TX'||r==='AZ')?r:'US';
+}
 function getStdRegion(){
   const h=document.getElementById('f-std-region');
-  return (h&&h.value==='FL')?'FL':'US';
+  return normalizeRegion(h&&h.value);
 }
 function setStdRegion(region,opts){
-  const r=(region==='FL')?'FL':'US';
-  FW_ORDER=(r==='FL'?FW_ORDER_FL:FW_ORDER_US).slice();
+  const r=normalizeRegion(region);
+  FW_ORDER=(REGION_FW_ORDERS[r]||FW_ORDER_US).slice();
   ensureSelectedKeys();
   // Update hidden input + radio state
   const h=document.getElementById('f-std-region');
   if(h&&h.value!==r)h.value=r;
   document.querySelectorAll('input[name="std-region"]').forEach(rb=>{rb.checked=(rb.value===r)});
   // Re-render pickers and chips so any previously-selected standards move into
-  // the appropriate region-specific block (FL frameworks under their own blocks
-  // in FL mode, or into Custom/Other chips in US mode).
+  // the appropriate region-specific block (state frameworks under their own
+  // blocks in state mode, or into Custom/Other chips in US mode).
   if(!opts||!opts.skipRender){
     renderPickers();
     FW_ORDER.forEach(fw=>renderChips(fw));
@@ -764,6 +791,110 @@ function gradeBandsForCode(fw,code){
     const m=code.match(/^[A-Z]+\.(K2|35|68|912)\./);
     if(m){
       return [{'K2':'K-2','35':'3-5','68':'6-8','912':'9-12'}[m[1]]];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS ELA'){
+    // ELA.K.x.x, ELA.1..8.x.x, ELA.E1..E4 (English I..IV high school)
+    const m=code.match(/^ELA\.(K|\d+|E[1-4])\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^E[1-4]$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Math'){
+    // MA.K.x.x, MA.1..8.x.x, MA.A1/A2/G/PC (high-school courses)
+    const m=code.match(/^MA\.(K|\d+|A1|A2|G|PC)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(A1|A2|G|PC)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Science'){
+    // SCI.K.x.x, SCI.1..8.x.x, SCI.B/C/P/IPC/E/AQ (high-school courses)
+    const m=code.match(/^SCI\.(K|\d+|B|C|P|IPC|E|AQ)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(B|C|P|IPC|E|AQ)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Social Studies'){
+    // SS.K.x.x, SS.1..8.x.x, SS.US1/WG/WH/GOV/ECO (high school)
+    const m=code.match(/^SS\.(K|\d+|US\d|WG|WH|GOV|ECO)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(US\d|WG|WH|GOV|ECO)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='TX TEKS Technology Applications'){
+    // TA.K.x.x, TA.1..8.x.x, TA.FCS (Fundamentals of CS), TA.CS1/CS2/CS3
+    const m=code.match(/^TA\.(K|\d+|FCS|CS\d)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(FCS|CS\d)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='AZ ELA'){
+    // K.RL.1, 1..8.RL.1, 9-10.RI.1, 11-12.W.1
+    const m=code.match(/^(K|\d+|9-10|11-12)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(t==='9-10'||t==='11-12')return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='AZ Math'){
+    // K.CC.A.1, 1..8.OA.A.1, A1.x, A2.x, G.x (high-school courses)
+    const m=code.match(/^(K|\d+|A1|A2|G)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(/^(A1|A2|G)$/.test(t))return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='AZ Science'||fw==='AZ Social Studies'){
+    // Codes like K.P1U1.1, 1..8.x, HS.x
+    const m=code.match(/^(K|\d+|HS)\./);
+    if(m){
+      const t=m[1];
+      if(t==='K')return ['K-2'];
+      if(t==='HS')return ['9-12'];
+      const g=+t;
+      if(!isNaN(g))return [band(g)];
+    }
+    return null;
+  }
+  if(fw==='AZ Computer Science'){
+    // K2.AP.A.1, 3-5.AP.A.1, 6-8.AP.A.1, 9-10.AP.A.1, 11-12.AP.A.1
+    const m=code.match(/^(K2|3-5|6-8|9-10|11-12)\./);
+    if(m){
+      return [{'K2':'K-2','3-5':'3-5','6-8':'6-8','9-10':'9-12','11-12':'9-12'}[m[1]]];
     }
     return null;
   }
@@ -962,13 +1093,18 @@ function setSelectedStandards(dict){
   Object.keys(SELECTED).forEach(k=>SELECTED[k]=[]);
   Object.keys(CUSTOM_DESC).forEach(k=>delete CUSTOM_DESC[k]);
   if(!dict||typeof dict!=='object')return;
-  // Auto-detect region: if any incoming framework is a Florida one, flip the
-  // selector to Florida so its pickers are visible and ready to render chips.
-  // (An explicit standards_region front-matter field — handled by the caller
-  // before this runs — wins over this heuristic.)
-  const hasFl=Object.keys(dict).some(fw=>FW_ORDER_FL.indexOf(fw)>=0&&FW_ORDER_US.indexOf(fw)<0);
-  if(hasFl&&getStdRegion()!=='FL'){
-    setStdRegion('FL',{skipRender:true});
+  // Auto-detect region: if any incoming framework is state-specific (FL/TX/AZ),
+  // flip the selector to that state so its pickers are visible and ready to
+  // render chips. (An explicit standards_region front-matter field — handled
+  // by the caller before this runs — wins over this heuristic.)
+  const incoming=Object.keys(dict);
+  const stateOnly=(list)=>incoming.some(fw=>list.indexOf(fw)>=0&&FW_ORDER_US.indexOf(fw)<0);
+  let detected=null;
+  if(stateOnly(FW_ORDER_FL))detected='FL';
+  else if(stateOnly(FW_ORDER_TX))detected='TX';
+  else if(stateOnly(FW_ORDER_AZ))detected='AZ';
+  if(detected&&getStdRegion()!==detected){
+    setStdRegion(detected,{skipRender:true});
     renderPickers();
   }
   Object.keys(dict).forEach(fw=>{
@@ -1448,8 +1584,11 @@ function setField(id,val){
   el.value=s;
   if(id==='f-std-region'){
     // Normalize common region aliases so round-trips tolerate variations
-    // in saved drafts and imported Markdown (e.g. "Florida", "florida").
-    const r=/^(fl|florida)$/i.test(s)?'FL':'US';
+    // in saved drafts and imported Markdown (e.g. "Florida", "Texas", "AZ").
+    let r='US';
+    if(/^(fl|florida)$/i.test(s))r='FL';
+    else if(/^(tx|texas)$/i.test(s))r='TX';
+    else if(/^(az|arizona)$/i.test(s))r='AZ';
     el.value=r;
     setStdRegion(r);
   }
@@ -1479,7 +1618,12 @@ function fromMarkdown(md){
     d.materials=scalar('materials');
     d.discipline=scalar('stem_discipline');
     const region=scalar('standards_region');
-    if(region)d.stdRegion=/^(fl|florida)$/i.test(region)?'FL':'US';
+    if(region){
+      if(/^(fl|florida)$/i.test(region))d.stdRegion='FL';
+      else if(/^(tx|texas)$/i.test(region))d.stdRegion='TX';
+      else if(/^(az|arizona)$/i.test(region))d.stdRegion='AZ';
+      else d.stdRegion='US';
+    }
     const listAfter=(key)=>{
       const m=fm.match(new RegExp('^'+key+':\\s*\\n((?:\\s*-\\s+.*\\n?)+)','m'));
       if(!m)return [];
@@ -1868,7 +2012,7 @@ function toMarkdown(d){
   if(subjects.length){fm+='subjects:\n';subjects.forEach(s=>fm+='- '+s+'\n')}
   if(d.grade){fm+='grade_levels:\n- '+d.grade+'\n'}
   if(d.discipline)fm+='stem_discipline: "'+escQ(d.discipline)+'"\n';
-  if(d.stdRegion==='FL')fm+='standards_region: "FL"\n';
+  if(d.stdRegion&&d.stdRegion!=='US')fm+='standards_region: "'+d.stdRegion+'"\n';
   if(fwList.length){
     fm+='standard_types:\n';
     fwList.forEach(fw=>fm+='- "'+escQ(fw)+'"\n');
@@ -2082,6 +2226,33 @@ function buildLLMPrompt(d){
   const genStarter=!!(d.iotGenStarter&&/^(yes|true|1)/i.test(d.iotGenStarter));
   const existingCode=(d.iotExistingCode||'').trim();
   const platformLabel=(d.iotPlatformLabel||(d.iotPlatform&&IOT_PLATFORMS[d.iotPlatform]?IOT_PLATFORMS[d.iotPlatform].label:'')||d.iotPlatformOther||'BBC micro:bit').trim();
+  // Region-specific framework context so the LLM leads with state standards
+  // (and preserves their exact framework names on round-trip back into this template).
+  const region=normalizeRegion(d.stdRegion);
+  const REGION_INFO={
+    FL:{name:'Florida',source:'Florida Department of Education (cpalms.org / fldoe.org)',
+        leadFw:'FL B.E.S.T. ELA, FL B.E.S.T. Math, FL NGSSS Science, FL NGSSS Social Studies, FL K-12 Computer Science',
+        prefix:'FL ',
+        examples:'`ELA.6.R.1.1` (B.E.S.T. ELA Grade 6), `MA.6.AR.1.1` (B.E.S.T. Math Grade 6), `SC.6.E.7.1` (NGSSS Science Grade 6), `SS.6.W.1.1` (NGSSS Social Studies Grade 6), `SC.912.CS-CS.1.1` (FL K-12 CS, 9-12).',
+        ymlExample:'  FL B.E.S.T. Math:\n  - MA.6.AR.1.1\n  FL NGSSS Science:\n  - SC.6.E.7.1\n  NGSS:\n  - MS-PS2-2',
+        bulletExample:'`- **FL B.E.S.T. Math:** MA.6.AR.1.1, MA.6.AR.1.2`',
+        regionTag:'FL'},
+    TX:{name:'Texas',source:'Texas Education Agency (tea.texas.gov)',
+        leadFw:'TX TEKS ELA, TX TEKS Math, TX TEKS Science, TX TEKS Social Studies, TX TEKS Technology Applications',
+        prefix:'TX ',
+        examples:'`ELA.6.7.A` (TEKS ELAR Grade 6), `MA.6.2.A` (TEKS Math Grade 6), `SCI.6.5.A` (TEKS Science Grade 6), `SS.6.1.A` (TEKS Social Studies Grade 6), `TA.6.4.A` (TEKS Technology Applications Grade 6); high-school course codes use the course abbreviation, e.g. `MA.A1.5.A` (Algebra I), `SCI.B.4.A` (Biology), `ELA.E1.7.A` (English I), `TA.FCS.4.A` (Fundamentals of CS).',
+        ymlExample:'  TX TEKS Math:\n  - MA.6.2.A\n  TX TEKS Science:\n  - SCI.6.5.A\n  NGSS:\n  - MS-PS2-2',
+        bulletExample:'`- **TX TEKS Math:** MA.6.2.A, MA.6.2.B`',
+        regionTag:'TX'},
+    AZ:{name:'Arizona',source:'Arizona Department of Education (azed.gov)',
+        leadFw:'AZ ELA, AZ Math, AZ Science, AZ Social Studies, AZ Computer Science',
+        prefix:'AZ ',
+        examples:'`6.RL.1` (AZ ELA Grade 6), `6.RP.A.1` (AZ Math Grade 6), `6.E1U1.13` (AZ Science Grade 6), `6.SP1.1` (AZ Social Studies Grade 6), `6-8.AP.A.1` (AZ Computer Science 6-8); high-school courses use `9-10.x` / `11-12.x` for ELA, `A1.x` / `A2.x` / `G.x` for Math, and `HS.x` for Science / Social Studies.',
+        ymlExample:'  AZ Math:\n  - 6.RP.A.1\n  AZ Science:\n  - 6.E1U1.13\n  NGSS:\n  - MS-PS2-2',
+        bulletExample:'`- **AZ Math:** 6.RP.A.1, 6.RP.A.2`',
+        regionTag:'AZ'}
+  };
+  const regionInfo=REGION_INFO[region]||null;
   // Resolve a language hint for the code fence the AI should emit.
   let codeLang='text';
   if(d.iotPlatform&&IOT_PLATFORMS[d.iotPlatform]){
@@ -2095,7 +2266,10 @@ function buildLLMPrompt(d){
     else if(/arduino/.test(s))codeLang='arduino';
     else if(/c\+\+|cpp/.test(s))codeLang='cpp';
   }
-  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education, helping complete and iterate on an **IoT lesson plan** that uses **'+platformLabel+'** (and, where relevant, a two-node sensor-to-aggregator pattern) and follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). Treat this as a hands-on lesson where students read real sensor data, reason about measurement and uncertainty, and — in the Fortify phase — compare an AI\'s general claims to their own verifiable measurements via a Check-the-Machine exercise.\n\n';
+  p+='You are an expert STEM teacher and instructional designer specializing in grades '+gradeLabel+' ('+bandDesc+') education'+(regionInfo?' in '+regionInfo.name+' classrooms':'')+', helping complete and iterate on an **IoT lesson plan** that uses **'+platformLabel+'** (and, where relevant, a two-node sensor-to-aggregator pattern) and follows the CRAFT cycle (Contextualize → Reframe → Assemble → Fortify → Transfer). Treat this as a hands-on lesson where students read real sensor data, reason about measurement and uncertainty, and — in the Fortify phase — compare an AI\'s general claims to their own verifiable measurements via a Check-the-Machine exercise.\n\n';
+  if(regionInfo){
+    p+='This is a '+regionInfo.name+'-tuned template: lead with '+regionInfo.name+' state frameworks ('+regionInfo.leadFw+'). National frameworks (CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts) may appear alongside as a crosswalk, but state codes take priority and must be preserved exactly as written — do not rename `'+regionInfo.prefix.trim()+'`-prefixed frameworks to their national counterparts.\n\n';
+  }
   p+='Target hardware platform: **'+platformLabel+'**. Tailor every sensor reference, pin/hardware instruction, and code snippet to this specific platform — do not default to another platform\'s conventions.\n\n';
   if(sensors)p+='The teacher has indicated students will use these sensors/features: **'+sensors+'**. Calibrate every phase around these sensors — what they measure, their units, their resolution limits, and the kinds of investigations they enable on **'+platformLabel+'**.\n\n';
   if(progEnv)p+='Programming environment: **'+progEnv+'**. Describe code and debugging in terms appropriate to this environment, and show code using its idioms (e.g., MakeCode JS vs. MicroPython vs. Arduino C++ vs. Raspberry Pi Python).\n\n';
@@ -2104,11 +2278,11 @@ function buildLLMPrompt(d){
   p+='Review the current lesson plan draft inside the <draft> tag at the end of this message, then produce an improved, more complete version by:\n\n';
   p+='1. **Filling in missing or thin sections** with thoughtful, grade-appropriate content that fits the topic, subject area, and audience. Empty or sparse fields are the biggest opportunity to add value.\n';
   p+='2. **Strengthening existing content** by expanding bullet-point ideas into full, classroom-ready descriptions. Preserve the teacher\'s voice and intent where content is already present — improve, don\'t replace.\n';
-  p+='3. **Verifying standards alignment** — the teacher may have selected standards from one or more frameworks (CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts, or a custom framework). Make sure every listed standard is a real, verifiable code in the declared framework and that the activities authentically address each one. If you are unsure whether a code is real, flag it in the Notes & Reflections section rather than fabricating one. Never invent new codes.\n';
+  p+='3. **Verifying standards alignment** — the teacher may have selected standards from one or more frameworks (CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts'+(regionInfo?', '+regionInfo.leadFw:'')+', or a custom framework). Make sure every listed standard is a real, verifiable code in the declared framework and that the activities authentically address each one. '+(regionInfo?'For '+regionInfo.name+' codes, the authoritative source is the '+regionInfo.source+' — examples of valid code shapes include '+regionInfo.examples+' Preserve the exact framework names and codes the teacher provided — do not rename `'+regionInfo.prefix.trim()+'`-prefixed frameworks to their national equivalents, do not swap state codes for national ones, and do not drop state frameworks in favor of a crosswalk. ':'')+'If you are unsure whether a code is real, flag it in the Notes & Reflections section rather than fabricating one. Never invent new codes.\n';
   if(fwList.length){
     p+='   The teacher has already aligned to these framework(s): '+fwList.join(', ')+'. Preserve this alignment and deepen the treatment of each listed standard in the activity design.\n';
   }
-  p+='4. **Citing and cross-referencing source materials** — when the lesson references specific concepts, facts, techniques, or data, include brief citations or references back to authoritative source materials (e.g., textbook chapters, framework documents, published research, official curriculum guides). Use inline parenthetical citations like "(see NGSS Lead States, 2013)" or "(adapted from CS Unplugged, Activity 4)". In the Notes & Reflections section, list any key references so the teacher can verify claims and dig deeper. Do NOT fabricate citations — only cite sources you are confident are real.\n';
+  p+='4. **Citing and cross-referencing source materials** — when the lesson references specific concepts, facts, techniques, or data, include brief citations or references back to authoritative source materials (e.g., textbook chapters, framework documents, published research, official curriculum guides). '+(regionInfo?'For '+regionInfo.name+' standards, cite the '+regionInfo.source+' directly. ':'')+'Use inline parenthetical citations like "(see NGSS Lead States, 2013)" or "(adapted from CS Unplugged, Activity 4)". In the Notes & Reflections section, list any key references so the teacher can verify claims and dig deeper. Do NOT fabricate citations — only cite sources you are confident are real.\n';
   p+='5. **Checking CRAFT flow** — each phase should build logically on the previous one. Reframe should surface the misconception Assemble resolves; Fortify should check the specific understanding built in Assemble; Transfer should bridge to what comes next.\n';
   p+='6. **Honoring timing** — C: 5-10 min · R: 5-10 min · A: 30-50 min (I Do → We Do → You Do, including sensor setup and data collection) · F: 5-10 min · T: 3-5 min.\n';
   p+='7. **Designing a specific IoT Data Collection Plan** (in the A phase) and a **Data Verification Activity** (in the F phase). The data plan should specify which sensor(s), sampling interval, duration, how students record readings (table, spreadsheet, MakeCode data-logger, or radio to an aggregator), and — if two nodes are used — the roles of the sensor and aggregator nodes. The verification activity should have students cross-check their micro:bit readings against a trusted reference (a lab thermometer, phone decibel meter, another calibrated sensor) and discuss sources of error.\n';
@@ -2116,13 +2290,14 @@ function buildLLMPrompt(d){
   p+='## Output Format — CRITICAL\n\n';
   p+='Return ONLY the complete revised lesson plan as a single Markdown document. The teacher will paste your entire reply into this template\'s "Load an existing lesson from Markdown" field, so any deviation from the structure below will break the re-import.\n\n';
   p+='Follow these rules exactly:\n\n';
-  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `stem_discipline`, `standard_types`, `standards`, `materials`, `iot_sensors`, `iot_programming_env`, and `tags`. Always keep both `CRAFT` and `IoT` in the `tags` list.\n';
-  p+='- The `standards` key must be a YAML dict mapping framework name to a list of codes, e.g. `standards:\\n  CSTA:\\n  - 1A-AP-10\\n  NGSS:\\n  - MS-PS2-2`. Include every framework the teacher uses. `standard_types` is the list of framework names in the same order.\n';
+  p+='- Start with a YAML front matter block fenced by triple-dash lines (---). Include `title`, `description`, `date`, `draft: true`, `author`, `subjects`, `grade_levels`, `stem_discipline`, '+(regionInfo?'`standards_region`, ':'')+'`standard_types`, `standards`, `materials`, `iot_sensors`, `iot_programming_env`, and `tags`. Always keep both `CRAFT` and `IoT` in the `tags` list.'+(regionInfo?' Set `standards_region: "'+regionInfo.regionTag+'"` so this template re-imports the lesson under the '+regionInfo.name+' picker.':'')+'\n';
+  const stdExample=regionInfo?regionInfo.ymlExample:'  CSTA:\n  - 1A-AP-10\n  NGSS:\n  - MS-PS2-2';
+  p+='- The `standards` key must be a YAML dict mapping framework name to a list of codes, e.g. `standards:\\n'+stdExample.replace(/\n/g,'\\n')+'`. Keep framework names exactly as the teacher provided them'+(regionInfo?' — including the `'+regionInfo.prefix.trim()+' ` prefix on '+regionInfo.name+' frameworks':'')+' because the loader looks up frameworks by their exact key. Include every framework the teacher uses. `standard_types` is the list of framework names in the same order.\n';
   p+='- Use `# Lesson Title` as the single H1.\n';
   p+='- Use these H2 headings in order: `## Overview`, `## Standards Alignment`, `## Hardware & Programming Setup`, `## CRAFT Cycle`, `## Assessment`, `## Notes & Reflections`.\n';
   p+='- Under `## Hardware & Programming Setup`, use a bullet list with these exact keys when present: `- **Sensors:** <comma-separated list>`, `- **Programming Environment:** <MakeCode/MicroPython/…>`, and — if students will use an LLM to help code — `- **LLM Coding Support:** Yes — students will use an LLM to help write or debug code`.\n';
   p+='- Under `## Overview`, first write a 2-3 sentence summary paragraph, then a bullet list containing `- **Grade Level:** ...`, `- **Subject Area:** ...`, `- **STEM Discipline:** ...`, `- **Estimated Duration:** ...`, and `- **Author:** ...`.\n';
-  p+='- Under `## Standards Alignment`, use a bullet list with one bullet per framework: `- **<Framework name>:** <comma-separated codes>`. Only include NGSS three-dimensional sub-fields if NGSS is one of the frameworks. When NGSS is used, add (after the framework bullets) `- **Science & Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
+  p+='- Under `## Standards Alignment`, use a bullet list with one bullet per framework: `- **<Framework name>:** <comma-separated codes>`'+(regionInfo?' (e.g., '+regionInfo.bulletExample+'). The framework name inside the bold must match the YAML key exactly':'')+'. Only include NGSS three-dimensional sub-fields if NGSS is one of the frameworks. When NGSS is used, add (after the framework bullets) `- **Science & Engineering Practice:** ...`, `- **Crosscutting Concept:** ...`, `- **Disciplinary Core Idea:** ...`.\n';
   p+='- Under `## CRAFT Cycle`, use exactly these H3 headings (em-dashes, not hyphens):\n';
   p+='    - `### C — Contextualize (Why This Matters)`\n';
   p+='    - `### R — Reframe (Address the Misconception)`\n';
