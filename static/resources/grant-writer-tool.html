@@ -125,7 +125,28 @@ textarea{min-height:80px;resize:vertical}
 .grant-item .grant-tag{display:inline-block;font-size:0.66rem;font-weight:700;padding:1px 6px;border-radius:4px;background:#eef9f6;color:#0e7c64;margin-right:4px;text-transform:uppercase;letter-spacing:0.04em}
 .grant-disclaimer{font-size:0.74rem;color:var(--gray600);font-style:italic;margin-top:14px;line-height:1.5}
 
-@media print{.btn,.back,.export-box,#toast,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header,.site-header,.grant-dir{display:none}input,textarea,select{border:1px solid #ccc}}
+/* Advanced fields — hidden by default, shown when body has .show-advanced */
+.advanced{display:none}
+body.show-advanced .advanced{display:block}
+body.show-advanced .row.advanced{display:grid}
+body.show-advanced .row3.advanced{display:grid}
+
+/* Mode toggle bar */
+.mode-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px;padding:12px 16px;border-radius:10px;background:#fff;border:1px solid var(--gray200);flex-wrap:wrap}
+.mode-bar-text{font-size:0.85rem;color:var(--gray600);line-height:1.45}
+.mode-bar-text strong{color:var(--ink)}
+.mode-toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;font-size:0.86rem;font-weight:600;color:var(--ink);user-select:none;flex:0 0 auto}
+.mode-toggle input{appearance:none;width:36px;height:20px;border-radius:10px;background:var(--gray200);position:relative;transition:background 0.15s;cursor:pointer;margin:0}
+.mode-toggle input::before{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left 0.15s;box-shadow:0 1px 3px rgba(0,0,0,0.2)}
+.mode-toggle input:checked{background:var(--teal)}
+.mode-toggle input:checked::before{left:18px}
+
+/* Compact intro */
+.tool-intro{font-size:0.92rem;color:var(--gray600);margin:0 0 14px;line-height:1.55}
+.tool-flow{font-size:0.82rem;color:var(--gray600);margin:0 0 20px;padding:8px 14px;background:#f7faff;border-left:3px solid var(--teal);border-radius:6px}
+.tool-flow strong{color:var(--ink)}
+
+@media print{.btn,.back,.export-box,#toast,.llm-flow-arrow,.top-actions,.workflow-panel,.step-header,.site-header,.grant-dir,.mode-bar,.tool-flow{display:none}.advanced{display:block !important}.row.advanced,.row3.advanced{display:grid !important}input,textarea,select{border:1px solid #ccc}}
 @media(max-width:600px){.row,.row3{grid-template-columns:1fr}}
 </style>
 </head><body>
@@ -146,79 +167,52 @@ textarea{min-height:80px;resize:vertical}
 
 <div class="page-wrap">
 
-<h1>Teacher Grant Writer Support Tool</h1>
-<p class="subtitle">Fill in each section to draft a complete grant proposal for classroom technology — micro:bits, sensors, robotics kits, IoT hardware, software licenses, PD, or anything else your students need. Use an LLM to flesh out, polish, and tailor your draft to a specific funder, then export the result for submission. The same Fill → Prompt → Recycle cycle from the CRAFT lesson templates, applied to grants. Don't know <em>where</em> to apply yet? Skim the <strong>Find a Grant</strong> directory below for funders that commonly support K-12 STEM and computer science classrooms.</p>
+<h1>Grant Writer for Teachers</h1>
+<p class="tool-intro">Sketch out what you need, what it costs, and why your students need it. AI fills in the rest. Download and submit.</p>
+<p class="tool-flow"><strong>How it works:</strong> Fill in a few fields → Copy the AI prompt → Paste the AI's reply back → Download a Word doc to submit. Need ideas for funders? See <strong>Find a Grant</strong> at the bottom.</p>
 
 <div class="top-actions">
   <button class="top-upload-btn" type="button" onclick="topUploadMarkdown()" title="Load a previously saved .md grant draft">📥 Load saved draft (.md)</button>
   <input id="f-toploadfile" type="file" accept=".md,.markdown,text/markdown,text/plain" onchange="loadFile(event)" hidden>
 </div>
 
-<div class="workflow-panel" aria-label="How to use this template">
-  <div class="workflow-panel-title">How this tool works</div>
-  <ol class="workflow-steps">
-    <li class="workflow-step" data-step="1">
-      <div class="workflow-step-head">
-        <span class="workflow-step-num" aria-hidden="true">1</span>
-        <span class="workflow-step-title">Fill out the proposal</span>
-      </div>
-      <div class="workflow-step-body">Add as much context as you can. Every detail you provide makes the AI-iterated draft sharper and more fundable.</div>
-    </li>
-    <li class="workflow-step" data-step="2">
-      <div class="workflow-step-head">
-        <span class="workflow-step-num" aria-hidden="true">2</span>
-        <span class="workflow-step-title">Iterate with AI</span>
-        <span class="workflow-step-opt">Optional</span>
-      </div>
-      <div class="workflow-step-body">Use an LLM to expand thin sections, sharpen the narrative, and tailor language to your target funder — then load the revised Markdown back in.</div>
-    </li>
-    <li class="workflow-step" data-step="3">
-      <div class="workflow-step-head">
-        <span class="workflow-step-num" aria-hidden="true">3</span>
-        <span class="workflow-step-title">Download</span>
-      </div>
-      <div class="workflow-step-body">Export to Word, Google Docs, Markdown, or print so you can paste into the funder's application portal.</div>
-    </li>
-    <li class="workflow-step" data-step="4">
-      <div class="workflow-step-head">
-        <span class="workflow-step-num" aria-hidden="true">4</span>
-        <span class="workflow-step-title">Submit</span>
-        <span class="workflow-step-opt">External</span>
-      </div>
-      <div class="workflow-step-body">Submit through the funder's portal (DonorsChoose, NEA Foundation, district grant office, etc.). Keep your <code>.md</code> as the source of truth so you can re-target other funders later.</div>
-    </li>
-  </ol>
+<div class="mode-bar">
+  <div class="mode-bar-text">Showing the <strong>simple</strong> form — just the basics. Flip the toggle if you want every section a funder might ask for.</div>
+  <label class="mode-toggle"><input type="checkbox" id="adv-toggle" onchange="toggleAdvanced(this.checked)"><span>Advanced fields</span></label>
 </div>
 
 <div class="step-header first" data-step="1">
   <span class="step-header-num" aria-hidden="true">1</span>
   <span class="step-header-label">Step 1</span>
-  <span class="step-header-title">Fill Out Your Proposal</span>
+  <span class="step-header-title">Tell us about your project</span>
 </div>
 
-<p class="optional-note"><strong>Heads up:</strong> Every field below is <em>optional</em> except <strong>Project Title</strong> and <strong>Grade Level</strong>. Fill in what you have — you can always come back, iterate with an LLM (Step 2), or load a previously saved draft. The fuller the form, the better the AI-iterated draft.</p>
-
-<h2>Project Overview</h2>
+<h2>The Basics</h2>
+<label>Project Title <span class="helper" style="font-weight:400">(required)</span></label>
+<input id="f-title" type="text" placeholder="e.g., micro:bit Sensors for Hands-On Watershed Science">
 <div class="row">
-<div><label>Project Title</label><input id="f-title" type="text" placeholder="e.g., micro:bit Sensors for Hands-On Watershed Science"></div>
 <div><label>Your Name</label><input id="f-author" type="text" placeholder="e.g., Ms. Rivera"></div>
+<div><label>School</label><input id="f-school" type="text" placeholder="e.g., Lincoln Middle School"></div>
 </div>
+<div class="row">
+<div><label>Grade Level <span class="helper" style="font-weight:400">(required)</span></label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option><option>K-12</option></select></div>
+<div><label># of Students</label><input id="f-students" type="number" min="0" placeholder="e.g., 120"></div>
+</div>
+<label>Project Summary <span class="helper" style="font-weight:400">(2–4 sentences — what is this and why does it matter?)</span></label>
+<textarea id="f-summary" placeholder="A short paragraph a funder could read in 20 seconds. Who you teach, what you'll do, why it matters."></textarea>
+
+<div class="advanced">
 <div class="row">
 <div><label>Email (for funder contact)</label><input id="f-email" type="text" placeholder="e.g., jrivera@example.k12.us"></div>
-<div><label>Role / Title</label><input id="f-role" type="text" placeholder="e.g., 7th Grade Science Teacher, CS Department Lead"></div>
+<div><label>Role / Title</label><input id="f-role" type="text" placeholder="e.g., 7th Grade Science Teacher"></div>
 </div>
 <div class="row">
-<div><label>School Name</label><input id="f-school" type="text" placeholder="e.g., Lincoln Middle School"></div>
 <div><label>District</label><input id="f-district" type="text" placeholder="e.g., Laramie County School District 1"></div>
-</div>
-<div class="row3">
 <div><label>City / State</label><input id="f-location" type="text" placeholder="e.g., Cheyenne, WY"></div>
-<div><label>Grade Level(s) Served</label><select id="f-grade"><option>K-2</option><option>3-5</option><option selected>6-8</option><option>9-12</option><option>K-12</option></select></div>
-<div><label># of Students Impacted</label><input id="f-students" type="number" min="0" placeholder="e.g., 120"></div>
 </div>
 <div class="row">
-<div><label>Subject / Discipline</label><input id="f-subject" type="text" list="subject-suggestions" placeholder="e.g., Computer Science, Physical Science, Engineering"></div>
-<div><label>Project Duration</label><input id="f-duration" type="text" placeholder="e.g., One semester · One academic year · Summer 2026"></div>
+<div><label>Subject / Discipline</label><input id="f-subject" type="text" list="subject-suggestions" placeholder="e.g., Computer Science, Physical Science"></div>
+<div><label>Project Duration</label><input id="f-duration" type="text" placeholder="e.g., One semester · One academic year"></div>
 </div>
 <datalist id="subject-suggestions">
 <option value="Computer Science"><option value="Mathematics"><option value="Physical Science">
@@ -227,149 +221,100 @@ textarea{min-height:80px;resize:vertical}
 <option value="Environmental Science"><option value="STEM (interdisciplinary)"><option value="STEAM (with arts)">
 <option value="Career & Technical Education"><option value="ELA"><option value="Social Studies">
 </datalist>
-<label>Project Summary (2-4 sentences — the elevator pitch)</label>
-<textarea id="f-summary" placeholder="One paragraph that a funder skimming dozens of proposals could read in 20 seconds. Who, what, why it matters, how the funds will be used.
-
-LLM prompt idea: 'Turn the following project description into a 3-sentence executive summary for a K-12 grant proposal.'"></textarea>
 <label>Tags / Keywords</label>
-<input id="f-tags" type="text" placeholder="e.g., micro:bit, IoT, watershed, data-literacy (comma separated)">
+<input id="f-tags" type="text" placeholder="e.g., micro:bit, IoT, watershed (comma separated)">
 <div class="helper">Used for filtering when this draft is saved and reused for a different funder later.</div>
-
-<h2>Funder Targeting</h2>
-<p class="helper" style="margin:0 0 6px">Who are you applying to? Naming the funder helps the LLM in Step 2 calibrate tone, length, and emphasis (a DonorsChoose post reads very differently from a National Science Foundation pre-proposal).</p>
-<div class="row">
-<div><label>Target Funder / Program</label><input id="f-funder" type="text" placeholder="e.g., DonorsChoose · NEA Foundation Learning &amp; Leadership Grant · Toshiba America Foundation"></div>
-<div><label>Application Deadline</label><input id="f-deadline" type="text" placeholder="e.g., September 30, 2026 · Rolling"></div>
 </div>
+
+<h2>Funder &amp; Amount</h2>
 <div class="row">
-<div><label>Total Amount Requested</label><input id="f-amount" type="text" placeholder="e.g., $1,250 · $5,000 · $25,000"></div>
-<div><label>Funder Priorities to Address</label><input id="f-priorities" type="text" placeholder="e.g., STEM equity, rural classrooms, computer science access"></div>
+<div><label>Target Funder / Program</label><input id="f-funder" type="text" placeholder="e.g., DonorsChoose · NEA Foundation"></div>
+<div><label>Total Amount Requested</label><input id="f-amount" type="text" placeholder="e.g., $1,250 · $5,000"></div>
+</div>
+<div class="advanced">
+<div class="row">
+<div><label>Application Deadline</label><input id="f-deadline" type="text" placeholder="e.g., September 30, 2026 · Rolling"></div>
+<div><label>Funder Priorities to Address</label><input id="f-priorities" type="text" placeholder="e.g., STEM equity, rural classrooms"></div>
 </div>
 <label>Funder Brief / Notes</label>
-<textarea id="f-funder-notes" rows="3" placeholder="Paste anything you know about this funder: their mission statement, eligible projects, scoring rubric, page limits, required attachments, prior winners.
+<textarea id="f-funder-notes" rows="3" placeholder="Paste anything you know about this funder: mission, eligible projects, scoring rubric, page limits, required attachments, prior winners."></textarea>
+</div>
 
-LLM prompt idea: 'Given the funder brief below, what scoring criteria are most likely and what should I emphasize in my proposal?'"></textarea>
-
-<h2>Statement of Need</h2>
-<div class="section-card need">
-<h3>Why this matters — the problem you're solving</h3>
+<h2>Why Your Students Need This</h2>
+<label>What's missing right now?</label>
+<textarea id="f-need-gap" placeholder="Be specific. e.g., 'Our 7th-grade science classroom has no probeware. Students draw graphs by hand from textbook data instead of collecting their own.'"></textarea>
+<div class="advanced">
 <label>Student &amp; Community Context</label>
-<textarea id="f-need-context" placeholder="Who are your students? Demographics, % free/reduced lunch, English learners, students with IEPs, rural/urban/suburban setting, distance to STEM resources, etc.
-
-LLM prompt idea: 'Help me describe the demographics of [SCHOOL] in language that highlights both assets and need without deficit framing.'"></textarea>
-<label>Current State / Gap</label>
-<textarea id="f-need-gap" placeholder="What's missing right now? Be specific. e.g., 'Our 7th-grade science classroom has no probeware. Students draw graphs by hand from textbook data instead of collecting their own.'"></textarea>
+<textarea id="f-need-context" placeholder="Who are your students? Demographics, % free/reduced lunch, English learners, students with IEPs, rural/urban/suburban setting, distance to STEM resources, etc."></textarea>
 <label>Evidence / Data Supporting the Need</label>
-<textarea id="f-need-evidence" rows="3" placeholder="Test scores, survey results, attendance, equity data, teacher observations, state reports, or research citations that quantify the need.
-
-LLM prompt idea: 'What national data would strengthen the case that under-resourced rural classrooms lack physical computing tools?' (Verify any AI-supplied citations before using them.)"></textarea>
+<textarea id="f-need-evidence" rows="3" placeholder="Test scores, survey results, attendance, equity data, teacher observations, state reports, or research citations that quantify the need."></textarea>
 </div>
 
-<h2>Project Description</h2>
-<div class="section-card project">
-<h3>Goals, activities, and timeline</h3>
+<h2>What Students Will Do</h2>
+<label>Activities</label>
+<textarea id="f-proj-activities" rows="4" placeholder="What will students actually do? Walk the funder through the arc — investigations, build cycles, field work, presentations."></textarea>
+<div class="advanced">
 <label>Project Goals (the big picture)</label>
-<textarea id="f-proj-goals" placeholder="What change do you want to see for students? Keep this aspirational but bounded.
-
-LLM prompt idea: 'Turn the following bullet ideas into 2-3 SMART goals for a one-year K-12 grant project.'"></textarea>
-<label>Measurable Objectives (SMART — Specific, Measurable, Achievable, Relevant, Time-bound)</label>
-<textarea id="f-proj-objectives" rows="4" placeholder="Numbered list works well. e.g.:
-1. By May 2027, 100% of 7th-grade students will design, build, and test a micro:bit-based environmental sensor.
-2. By the end of the project, students will demonstrate ≥80% mastery on the NGSS MS-ETS1-2 engineering-design assessment.
-3. At least 3 fellow teachers will adopt the curriculum after summer PD."></textarea>
-<label>Activities &amp; Methods</label>
-<textarea id="f-proj-activities" rows="4" placeholder="What will students actually do? Walk the funder through the arc — investigations, build cycles, field work, partnerships, presentations.
-
-LLM prompt idea: 'Outline a 6-week project where 7th graders use micro:bits to monitor a local creek's temperature, light, and pH, ending in a community presentation.'"></textarea>
+<textarea id="f-proj-goals" placeholder="What change do you want to see for students? Aspirational but bounded."></textarea>
+<label>Measurable Objectives (SMART)</label>
+<textarea id="f-proj-objectives" rows="4" placeholder="Specific, Measurable, Achievable, Relevant, Time-bound. Numbered list works well."></textarea>
 <label>Timeline / Milestones</label>
-<textarea id="f-proj-timeline" rows="4" placeholder="Month-by-month or phase-by-phase. Funders love seeing you've thought about pacing.
-
-e.g.:
-Month 1 — Order hardware, set up classroom maker space.
-Months 2-3 — Teacher PD; students learn block coding on micro:bits.
-Months 4-5 — Field deployment; data collection.
-Month 6 — Student showcase; family STEM night."></textarea>
+<textarea id="f-proj-timeline" rows="4" placeholder="Month-by-month or phase-by-phase. Funders love seeing you've thought about pacing."></textarea>
 <label>Expected Outcomes &amp; Deliverables</label>
-<textarea id="f-proj-outcomes" rows="3" placeholder="What concrete artifacts and changes will exist when this is done? Student work products, dataset, public showcase, replicable curriculum, blog write-up?"></textarea>
+<textarea id="f-proj-outcomes" rows="3" placeholder="What concrete artifacts and changes will exist when this is done?"></textarea>
 </div>
 
-<h2>Standards Alignment <span class="helper" style="font-weight:400">(optional — many grant rubrics ask for this)</span></h2>
+<h2>Budget</h2>
+<label>Itemized Budget</label>
+<textarea id="f-budget-items" rows="6" placeholder="One line per item. e.g.:
+
+30 × micro:bit v2 Go Bundle @ $20 = $600
+30 × USB cables (3ft) @ $3 = $90
+Shipping &amp; tax = $80
+TOTAL: $770"></textarea>
+<div class="advanced">
+<label>Budget Narrative / Cost Justification</label>
+<textarea id="f-budget-narrative" rows="3" placeholder="Why these line items? Why this quantity? What matching funds is the school contributing?"></textarea>
+<label>Matching / In-Kind Contributions</label>
+<input id="f-budget-match" type="text" placeholder="e.g., 20 hrs of teacher prep time (~$600 in-kind)">
+</div>
+
+<div class="advanced">
+<h2>Standards Alignment</h2>
 <label>Aligned Standards (free text)</label>
 <textarea id="f-standards" rows="3" placeholder="List the standards your project addresses, e.g.:
 NGSS: MS-ETS1-2, MS-ESS3-3
 CSTA: 2-CS-02, 2-DA-09
-ISTE for Students: 1.5 Computational Thinker, 1.7 Global Collaborator
-Your state CS standards (cite the code so reviewers can verify).
-
-Tip: Need a standards picker with searchable codes? Draft your CRAFT lesson first in the /resources/lesson-template.html and copy the standards block over."></textarea>
-
-<h2>Budget</h2>
-<div class="section-card budget">
-<h3>Itemized request &amp; justification</h3>
-<label>Itemized Budget</label>
-<textarea id="f-budget-items" rows="6" placeholder="One line per item. Include qty × unit price = total. e.g.:
-
-30 × micro:bit v2 Go Bundle @ $20 = $600
-30 × USB cables (3ft) @ $3 = $90
-6 × Kitronix sensor:bit add-on @ $20 = $120
-6 × storage/charging case @ $35 = $210
-10 hrs × teacher PD stipend @ $30 = $300
-Shipping &amp; tax = $80
-TOTAL: $1,400
-
-LLM prompt idea: 'Build a realistic itemized budget for 30 students to do a one-semester micro:bit IoT project. Use 2026 retail prices and include shipping.' (Confirm prices yourself before submitting.)"></textarea>
-<label>Budget Narrative / Cost Justification</label>
-<textarea id="f-budget-narrative" rows="3" placeholder="Why these line items? Why this quantity? What did you cut to keep the request lean? Mention any matching funds the school is contributing (in-kind teacher time, existing devices, PTA contribution, etc.)."></textarea>
-<label>Matching / In-Kind Contributions</label>
-<input id="f-budget-match" type="text" placeholder="e.g., 20 hrs of teacher prep time (~$600 in-kind); 1 existing classroom set of Chromebooks">
-</div>
+ISTE for Students: 1.5 Computational Thinker"></textarea>
 
 <h2>Sustainability &amp; Scaling</h2>
-<div class="section-card sustain">
-<h3>What happens after the grant runs out?</h3>
 <label>Sustainability Plan</label>
-<textarea id="f-sustain-plan" rows="3" placeholder="How will the work continue once funding ends? e.g., devices stay in the classroom and rotate to next year's cohort; curriculum is published openly; PTA covers consumables; district adopts after pilot."></textarea>
+<textarea id="f-sustain-plan" rows="3" placeholder="How will the work continue once funding ends?"></textarea>
 <label>Teacher Professional Development</label>
-<textarea id="f-sustain-pd" rows="2" placeholder="Are you using grant funds for PD? Attending an existing workshop (CRAFT PD Series, micro:bit Educational Foundation training, ISTE)? Self-directed using free resources?"></textarea>
+<textarea id="f-sustain-pd" rows="2" placeholder="Are you using grant funds for PD? An existing workshop? Self-directed?"></textarea>
 <label>Scaling / Sharing</label>
-<textarea id="f-sustain-scale" rows="2" placeholder="How will other classrooms benefit? Department PD, district adoption, public lesson plan repository submission, conference presentation, blog post, social-media share-out?"></textarea>
-</div>
+<textarea id="f-sustain-scale" rows="2" placeholder="How will other classrooms benefit? Department PD, district adoption, blog post, conference presentation?"></textarea>
 
 <h2>Evaluation &amp; Assessment</h2>
-<div class="section-card eval">
-<h3>How will you know it worked?</h3>
 <label>Formative Assessment</label>
-<textarea id="f-eval-formative" rows="2" placeholder="Day-to-day or week-to-week checks: exit tickets, build journals, teacher observation rubrics, peer review, design-iteration notes."></textarea>
+<textarea id="f-eval-formative" rows="2" placeholder="Day-to-day checks: exit tickets, build journals, observation rubrics."></textarea>
 <label>Summative Assessment</label>
-<textarea id="f-eval-summative" rows="2" placeholder="End-of-project measure: performance task, public showcase rubric, pre/post content quiz, NGSS PE-aligned assessment, student-designed artifact."></textarea>
+<textarea id="f-eval-summative" rows="2" placeholder="End-of-project measure: performance task, showcase rubric, pre/post quiz."></textarea>
 <label>Data You'll Report Back to the Funder</label>
-<textarea id="f-eval-report" rows="3" placeholder="Most funders want a final report. Plan it now. e.g.:
-- # of students served, disaggregated by demographic
-- Pre/post survey results on STEM identity &amp; CS interest
-- Photo/video documentation of student work
-- Sample student artifacts (with parental consent)"></textarea>
-</div>
+<textarea id="f-eval-report" rows="3" placeholder="Most funders want a final report. Plan it now. e.g., # of students served, pre/post survey results, photo documentation."></textarea>
 
 <h2>Equity &amp; Impact</h2>
 <label>Equity Statement</label>
-<textarea id="f-equity" rows="3" placeholder="How does this project broaden participation in STEM/CS? Who has been historically underserved by tech-rich learning, and how does this project intentionally reach them? Avoid deficit framing — name strengths and assets too.
-
-LLM prompt idea: 'Help me write an asset-based equity statement for a Title I middle-school CS grant proposal.'"></textarea>
+<textarea id="f-equity" rows="3" placeholder="How does this project broaden participation in STEM/CS? Avoid deficit framing — name strengths and assets too."></textarea>
 <label>Community Partnerships &amp; Letters of Support</label>
-<textarea id="f-partners" rows="3" placeholder="Local university, museum, library, employer partner, parent group, makerspace, watershed council, tribal college, community organization. List them and note whether you have (or can get) a letter of support."></textarea>
+<textarea id="f-partners" rows="3" placeholder="Local university, museum, library, employer partner, parent group, makerspace, etc."></textarea>
 
-<h2>References &amp; Citations <span class="helper" style="font-weight:400">(optional — strengthens academic credibility)</span></h2>
-<textarea id="f-refs" rows="4" placeholder="Cite any research, frameworks, or prior winning projects you reference in the narrative. APA-ish format is fine.
-
-e.g.:
-- National Academies of Sciences, Engineering, and Medicine. (2021). *Cultivating Interest and Competencies in Computing.*
-- micro:bit Educational Foundation. (2024). *Do Your :bit global challenge.*
-- Borowczak, A. &amp; Borowczak, M. (2026). *CRAFT PD Series Lesson Template.* cxedhub.com"></textarea>
+<h2>References &amp; Citations</h2>
+<textarea id="f-refs" rows="4" placeholder="Cite any research, frameworks, or prior winning projects you reference. APA-ish format is fine."></textarea>
 
 <h2>Notes to Self</h2>
-<textarea id="f-notes" placeholder="Reminders that should NOT make it into the final submission: deadlines, contacts to follow up with, attachments still to gather, tweaks to make for next funder.
-
-(Stripped from the LLM prompt and the export. This stays in your local browser only.)"></textarea>
+<textarea id="f-notes" placeholder="Reminders that should NOT make it into the final submission. Stripped from the LLM prompt and the export — stays in your browser only."></textarea>
+</div>
 
 <div class="step-section" data-step="2">
 <div class="step-header" data-step="2">
@@ -1189,6 +1134,18 @@ function topUploadMarkdown(){
   const input=document.getElementById('f-toploadfile');
   if(input){input.value='';input.click()}
 }
+
+function toggleAdvanced(on){
+  document.body.classList.toggle('show-advanced',!!on);
+  try{localStorage.setItem('grantwriter.advanced',on?'1':'0')}catch(e){}
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  let saved='0';
+  try{saved=localStorage.getItem('grantwriter.advanced')||'0'}catch(e){}
+  const t=document.getElementById('adv-toggle');
+  if(t){t.checked=(saved==='1');toggleAdvanced(t.checked)}
+});
 </script>
 <script src="/js/chat-providers.js"></script>
 <script>
