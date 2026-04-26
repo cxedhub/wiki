@@ -192,7 +192,33 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 </div>
 
 <div id="draft-cache-panel" aria-label="Saved drafts on this device"></div>
-<script>window.LESSON_DRAFT_NAMESPACE='texas';</script>
+<details id="lesson-toggles-panel" aria-label="Display options for supplemental sections"></details>
+<script>
+window.LESSON_DRAFT_NAMESPACE='texas';
+window.LESSON_TOGGLE_GROUPS = [
+  {id:'ngss-3d', label:'NGSS three-dimensional detail',
+   description:'Science & Engineering Practice, Crosscutting Concept, Disciplinary Core Idea',
+   fields:['sep','ccc','dci']},
+  {id:'career', label:'Career connection',
+   description:'Jobs and careers that use the lesson concept',
+   fields:['cCareer']},
+  {id:'materials', label:'Materials list',
+   description:'Materials needed inside the Assemble (You Do) phase',
+   fields:['aMaterials']},
+  {id:'ctm', label:'Check the Machine (AI audit)',
+   description:'Optional AI-use audit inside the Fortify phase',
+   fields:['fCtm']},
+  {id:'extension', label:'Extension / homework',
+   description:'Optional extension prompt inside the Transfer phase',
+   fields:['tExt']},
+  {id:'summative', label:'Summative assessment',
+   description:'Whole "Assessment" section after the CRAFT cycle',
+   fields:['summative']},
+  {id:'notes', label:'Notes & reflections',
+   description:'Whole "Notes & Reflections" section',
+   fields:['notes']}
+];
+</script>
 
 <div class="workflow-panel" aria-label="How to use this template">
   <div class="workflow-panel-title">How this template works</div>
@@ -288,7 +314,7 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 
 <div id="std-pickers"></div>
 
-<details class="ngss-specific">
+<details class="ngss-specific" data-toggle-group="ngss-3d">
 <summary>NGSS three-dimensional detail <span class="helper">(optional — only if you're aligning to NGSS)</span></summary>
 <div class="row3" style="margin-top:10px">
 <div><label>Science &amp; Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
@@ -309,8 +335,10 @@ details.ngss-specific>summary .helper{display:inline;margin-left:6px;font-weight
 <textarea id="f-c-real" placeholder="How does this concept appear in students' lives, careers, or the world? What hook will you use to open the lesson?
 
 LLM prompt idea: 'Give me 3 real-world applications of [TOPIC] that would be relevant to [GRADE] students in [REGION]'"></textarea>
+<div data-toggle-group="career">
 <label>Career Connection</label>
 <input id="f-c-career" type="text" placeholder="What jobs use this concept? e.g., Biomedical engineer, Environmental scientist">
+</div>
 </div>
 
 <div class="phase-bar">
@@ -339,8 +367,10 @@ LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students hav
 <textarea id="f-a-wedo" placeholder="What will students do WITH you? Think-pair-share, group problem, collaborative lab setup?"></textarea>
 <label>You Do — Independent/Group Practice (15-25 min)</label>
 <textarea id="f-a-youdo" placeholder="What will students do on their own or in groups? This is the core activity."></textarea>
+<div data-toggle-group="materials">
 <label>Materials Needed</label>
 <textarea id="f-a-materials" rows="2" placeholder="List all materials. Be specific about quantities."></textarea>
+</div>
 </div>
 
 <div class="phase-bar">
@@ -351,12 +381,14 @@ LLM prompt idea: 'What are the 3 most common misconceptions [GRADE] students hav
 <h3>Verify Understanding (5-10 min)</h3>
 <label>Formative Assessment</label>
 <textarea id="f-f-formative" placeholder="How will you check understanding? Exit ticket, quick quiz, thumbs up/down, CER paragraph?"></textarea>
+<div data-toggle-group="ctm">
 <label>Check the Machine (if using AI in this lesson)</label>
 <textarea id="f-f-ctm" rows="3" placeholder="If students used AI in this lesson, describe the CtM exercise:
 Task: What did they ask the AI?
 Before: What did they predict?
 After: What did the AI produce?
 Takeaway: What did the comparison reveal?"></textarea>
+</div>
 </div>
 
 <div class="phase-bar">
@@ -367,16 +399,22 @@ Takeaway: What did the comparison reveal?"></textarea>
 <h3>Connect Forward (3-5 min)</h3>
 <label>Connection to Next Lesson</label>
 <textarea id="f-t-next" rows="2" placeholder="How does this connect to what's coming next in your curriculum?"></textarea>
+<div data-toggle-group="extension">
 <label>Extension / Homework</label>
 <textarea id="f-t-ext" rows="2" placeholder="Optional extension for students who want to go further."></textarea>
 </div>
+</div>
 
+<div data-toggle-group="summative">
 <h2>Assessment</h2>
 <label>Summative Assessment Description</label>
 <textarea id="f-summative" placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
+</div>
 
+<div data-toggle-group="notes">
 <h2>Notes & Reflections</h2>
 <textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+</div>
 
 <div class="step-section" data-step="2">
 <div class="step-header" data-step="2">
@@ -891,6 +929,16 @@ function collect(){
   }
 }
 
+// Export-time view of the lesson data: identical to collect() except that
+// any sections the teacher has set to "hide everywhere" are zeroed out, so
+// they're absent from the markdown / .doc / rich-text exports and from the
+// Hugo front matter. The full data still goes to the AI prompt and the
+// draft cache (which both call collect() directly).
+function collectForExport(){
+  const d=collect();
+  return window.lessonToggles?window.lessonToggles.filterForExport(d):d;
+}
+
 function setField(id,val){
   if(val===undefined||val===null)return;
   const s=(''+val).trim();
@@ -1360,7 +1408,7 @@ async function clipboardText(t){
 }
 
 async function copyMarkdown(){
-  const md=toMarkdown(collect());
+  const md=toMarkdown(collectForExport());
   if(await clipboardText(md))flash('Markdown copied to clipboard');
   else flash('Could not copy — please try the Download .md button');
 }
@@ -1427,7 +1475,7 @@ async function copyLLMPrompt(){
 }
 
 async function copyRichText(){
-  const d=collect();
+  const d=collectForExport();
   const html=toHTML(d);
   const plain=toMarkdown(d);
   try{
@@ -1454,20 +1502,20 @@ function downloadFile(name,content,type){
 }
 
 function downloadMarkdown(){
-  const d=collect();
+  const d=collectForExport();
   downloadFile(slugify(d.title)+'.md',toMarkdown(d),'text/markdown;charset=utf-8');
   flash('Downloaded '+slugify(d.title)+'.md');
 }
 
 function downloadDoc(){
-  const d=collect();
+  const d=collectForExport();
   const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
   downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
   flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
 }
 
 async function submitPR(){
-  const d=collect();
+  const d=collectForExport();
   if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
   const md=toMarkdown(d);
   const slug=slugify(d.title);
@@ -1487,7 +1535,7 @@ async function submitPR(){
 }
 
 async function submitEmail(){
-  const d=collect();
+  const d=collectForExport();
   if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
   const md=toMarkdown(d);
   const slug=slugify(d.title);
@@ -1555,4 +1603,5 @@ document.addEventListener('DOMContentLoaded', () => {
 <script src="/js/credit-bar.js"></script>
 <script src="/js/last-updated-static.js"></script>
 <script src="/js/lesson-draft-cache.js"></script>
+<script src="/js/lesson-section-toggles.js"></script>
 </body></html>

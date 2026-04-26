@@ -238,6 +238,38 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
   ['iotExistingCode','f-iot-existing-code'],
   ['iotCode','f-iot-code']
 ];
+window.LESSON_TOGGLE_GROUPS = [
+  {id:'ngss-3d', label:'NGSS three-dimensional detail',
+   description:'Science & Engineering Practice, Crosscutting Concept, Disciplinary Core Idea',
+   fields:['sep','ccc','dci']},
+  {id:'career', label:'Career connection',
+   description:'Jobs and careers that use the lesson concept',
+   fields:['cCareer']},
+  {id:'iot-dataplan', label:'Data collection plan',
+   description:'How students collect, log, and organize sensor readings',
+   fields:['iotDataPlan']},
+  {id:'materials', label:'Materials list',
+   description:'Materials needed inside the Assemble (You Do) phase',
+   fields:['aMaterials']},
+  {id:'iot-dataverify', label:'Data verification activity',
+   description:'How students verify their sensor readings are trustworthy',
+   fields:['iotDataVerify']},
+  {id:'ctm', label:'Check the Machine (AI audit)',
+   description:'Student-facing AI-use audit inside the Fortify phase',
+   fields:['fCtm']},
+  {id:'extension', label:'Extension / homework',
+   description:'Optional extension prompt inside the Transfer phase',
+   fields:['tExt']},
+  {id:'summative', label:'Summative assessment',
+   description:'Whole "Assessment" section after the CRAFT cycle',
+   fields:['summative']},
+  {id:'notes', label:'Notes & reflections',
+   description:'Whole "Notes & Reflections" section',
+   fields:['notes']},
+  {id:'iot-starter-code', label:'Starter / example code',
+   description:'Generated and existing code blocks at the bottom of the form',
+   fields:['iotGenStarter','iotExistingCode','iotCode']}
+];
 </script>
 
 <div class="top-actions">
@@ -246,6 +278,7 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
 </div>
 
 <div id="draft-cache-panel" aria-label="Saved drafts on this device"></div>
+<details id="lesson-toggles-panel" aria-label="Display options for supplemental sections"></details>
 
 <div class="workflow-panel" aria-label="How to use this template">
   <div class="workflow-panel-title">How this template works</div>
@@ -388,7 +421,7 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
 
 <div id="std-pickers"></div>
 
-<details class="ngss-specific">
+<details class="ngss-specific" data-toggle-group="ngss-3d">
 <summary>NGSS three-dimensional detail <span class="helper">(optional — only if you're aligning to NGSS)</span></summary>
 <div class="row3" style="margin-top:10px">
 <div><label>Science &amp; Engineering Practice</label><textarea id="f-sep" rows="3" placeholder="e.g., Planning and Carrying Out Investigations"></textarea></div>
@@ -409,8 +442,10 @@ window.LESSON_DRAFT_EXTRA_FIELDS = [
 <textarea id="f-c-real" placeholder="Where do sensors like this exist in the real world? (smart buildings, wearables, agriculture, weather stations, environmental monitoring) End with the driving question students will investigate.
 
 Example: 'Smart greenhouses use temperature and light sensors to adjust conditions for optimal plant growth — the same sensor you'll use on your micro:bit. Driving question: How loud is our classroom, and does it affect our focus?'"></textarea>
+<div data-toggle-group="career">
 <label>Career Connection</label>
 <input id="f-c-career" type="text" placeholder="Jobs that build or use IoT systems — e.g., Environmental scientist, Smart-building technician, Agricultural engineer">
+</div>
 </div>
 
 <div class="phase-bar">
@@ -437,10 +472,14 @@ Example: 'Smart greenhouses use temperature and light sensors to adjust conditio
 <textarea id="f-a-wedo" placeholder="What will students do WITH you? e.g., 'Together, modify the code to show a happy face when the reading is below threshold and a sad face when above.'"></textarea>
 <label>You Do — Independent/Group Practice (15-25 min)</label>
 <textarea id="f-a-youdo" placeholder="What will students do on their own or in groups? e.g., 'Design and run an investigation: measure noise during quiet work, discussion, and transitions. Record and graph the data.'"></textarea>
+<div data-toggle-group="iot-dataplan">
 <label>Data Collection Plan</label>
 <textarea id="f-iot-dataplan" rows="3" placeholder="How will students collect, record, and organize sensor readings? Which node logs? Table, spreadsheet, MakeCode data-logger, or radio to an aggregator node? What intervals/duration?"></textarea>
+</div>
+<div data-toggle-group="materials">
 <label>Materials Needed</label>
 <textarea id="f-a-materials" rows="2" placeholder="e.g., 1 micro:bit per pair, USB cables, battery packs, a reference thermometer for calibration, graph paper."></textarea>
+</div>
 </div>
 
 <div class="phase-bar">
@@ -449,11 +488,13 @@ Example: 'Smart greenhouses use temperature and light sensors to adjust conditio
 </div>
 <div class="craft-section f">
 <h3>Verify the Data &amp; Check the Machine (5-10 min)</h3>
+<div data-toggle-group="iot-dataverify">
 <label>Data Verification Activity</label>
 <textarea id="f-iot-dataverify" rows="3" placeholder="How will students verify their sensor readings are trustworthy? e.g., 'Compare micro:bit temperature to a lab thermometer at three points. Discuss why the readings differ — sensor placement, resolution, drift.'"></textarea>
+</div>
 <label>Formative Assessment</label>
 <textarea id="f-f-formative" placeholder="How will you check understanding? Exit ticket, quick quiz, CER paragraph, sensor-reading interpretation?"></textarea>
-<div class="ctm-box">
+<div class="ctm-box" data-toggle-group="ctm">
 <div class="ctm-title">Check the Machine (CtM) — Student-facing prompt</div>
 <p class="helper">Write the CtM exercise your students will complete. Frame it around the AI's claim vs. their own sensor data.</p>
 <label>Check the Machine (describe the full exercise)</label>
@@ -475,17 +516,24 @@ Takeaway: What did the comparison reveal? Would students trust the AI's general 
 <h3>Connect Forward (3-5 min)</h3>
 <label>Connection to Next Lesson</label>
 <textarea id="f-t-next" rows="2" placeholder="How does this connect to your next unit or topic? (e.g., 'Next, students compare the classroom data to a second-location sensor node over radio — a two-node IoT pattern.')"></textarea>
+<div data-toggle-group="extension">
 <label>Extension / Homework</label>
 <textarea id="f-t-ext" rows="2" placeholder="Optional extension. e.g., 'Use MakeCode's data-logging extension to record 24 hours of readings, then graph them in a spreadsheet.'"></textarea>
 </div>
+</div>
 
+<div data-toggle-group="summative">
 <h2>Assessment</h2>
 <label>Summative Assessment Description</label>
 <textarea id="f-summative" placeholder="How will you assess whether students met the learning objectives? Describe the assessment or link to the rubric."></textarea>
+</div>
 
+<div data-toggle-group="notes">
 <h2>Notes & Reflections</h2>
 <textarea id="f-notes" placeholder="Space for your notes after teaching this lesson. What worked? What would you change?"></textarea>
+</div>
 
+<div data-toggle-group="iot-starter-code">
 <h2>Starter / Example Code</h2>
 <label class="inline-check"><input type="checkbox" id="f-iot-gen-starter"><span>Ask the AI to generate baseline / starter code for this lesson</span></label>
 <div class="helper" style="margin-top:0">If checked, Step 2's AI prompt will also request a single-file code sketch tailored to your platform, sensors, and programming environment.</div>
@@ -504,6 +552,7 @@ Takeaway: What did the comparison reveal? Would students trust the AI's general 
   <button class="btn secondary" type="button" onclick="clearIotCode()">Clear</button>
 </div>
 <div class="helper">Download produces a file with the extension matching your programming environment (<code>.py</code> for MicroPython/Python, <code>.js</code> for MakeCode JavaScript, <code>.ino</code> for Arduino, etc.) so you can drop it straight into the respective editor.</div>
+</div>
 
 <div class="step-section" data-step="2">
 <div class="step-header" data-step="2">
@@ -1566,6 +1615,16 @@ function collect(){
   }
 }
 
+// Export-time view of the lesson data: identical to collect() except that
+// any sections the teacher has set to "hide everywhere" are zeroed out, so
+// they're absent from the markdown / .doc / rich-text exports and from the
+// Hugo front matter. The full data still goes to the AI prompt and the
+// draft cache (which both call collect() directly).
+function collectForExport(){
+  const d=collect();
+  return window.lessonToggles?window.lessonToggles.filterForExport(d):d;
+}
+
 function setField(id,val){
   if(val===undefined||val===null)return;
   const s=(''+val).trim();
@@ -2208,7 +2267,7 @@ async function clipboardText(t){
 }
 
 async function copyMarkdown(){
-  const md=toMarkdown(collect());
+  const md=toMarkdown(collectForExport());
   if(await clipboardText(md))flash('Markdown copied to clipboard');
   else flash('Could not copy — please try the Download .md button');
 }
@@ -2346,7 +2405,7 @@ async function copyLLMPrompt(){
 }
 
 async function copyRichText(){
-  const d=collect();
+  const d=collectForExport();
   const html=toHTML(d);
   const plain=toMarkdown(d);
   try{
@@ -2373,20 +2432,20 @@ function downloadFile(name,content,type){
 }
 
 function downloadMarkdown(){
-  const d=collect();
+  const d=collectForExport();
   downloadFile(slugify(d.title)+'.md',toMarkdown(d),'text/markdown;charset=utf-8');
   flash('Downloaded '+slugify(d.title)+'.md');
 }
 
 function downloadDoc(){
-  const d=collect();
+  const d=collectForExport();
   const doc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"><title>'+escH(d.title)+'</title></head><body>'+toHTML(d)+'</body></html>';
   downloadFile(slugify(d.title)+'.doc',doc,'application/msword');
   flash('Downloaded '+slugify(d.title)+'.doc — opens in Word and Google Docs');
 }
 
 async function submitPR(){
-  const d=collect();
+  const d=collectForExport();
   if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
   const md=toMarkdown(d);
   const slug=slugify(d.title);
@@ -2406,7 +2465,7 @@ async function submitPR(){
 }
 
 async function submitEmail(){
-  const d=collect();
+  const d=collectForExport();
   if(!v('f-title')){flash('Please add a Lesson Title before submitting');return}
   const md=toMarkdown(d);
   const slug=slugify(d.title);
@@ -2475,4 +2534,5 @@ document.addEventListener('DOMContentLoaded', () => {
 <script src="/js/credit-bar.js"></script>
 <script src="/js/last-updated-static.js"></script>
 <script src="/js/lesson-draft-cache.js"></script>
+<script src="/js/lesson-section-toggles.js"></script>
 </body></html>
