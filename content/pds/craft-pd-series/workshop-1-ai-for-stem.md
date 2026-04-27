@@ -104,6 +104,10 @@ Stop asking "What is AI?" and start asking "How does this help my students learn
 
 > "AI is a co-pilot, not an autopilot." — Just like a calculator doesn't replace mathematical thinking, an LLM doesn't replace pedagogical expertise.
 
+## Acknowledgement
+
+This material is based upon work supported by the National Science Foundation award #2230997. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
+
 ---
 
 **Other Workshops:** [Workshop 2: Verifying AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/) · [Workshop 3: Edge/IoT with AI](/pds/craft-pd-series/workshop-3-edge-iot/)
