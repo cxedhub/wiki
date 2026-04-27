@@ -167,6 +167,10 @@ When you drag a radio block into MakeCode, the simulator **automatically shows t
 
 > "IoT is a CONVERSATION between devices — and you can have that conversation in a browser tab." — The MakeCode simulator runs two full micro:bits side-by-side the moment you add a radio block. Your students don't need hardware on day one. You don't need hardware today. When the kit arrives, the same .hex flashes to the real device — the code doesn't change.
 
+## Acknowledgement
+
+This material is based upon work supported by the National Science Foundation award #2230997. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
+
 ---
 
 **Other Workshops:** [Workshop 1: AI for STEM](/pds/craft-pd-series/workshop-1-ai-for-stem/) · [Workshop 2: Verifying AI Outputs](/pds/craft-pd-series/workshop-2-verifying-outputs/)

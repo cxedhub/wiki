@@ -127,6 +127,10 @@ A reusable 4-step classroom verification framework from the CRAFT pedagogy:
 
 > "The problem isn't that students USE AI — it's that they don't VERIFY AI." — Banning teaches avoidance; verification teaches engineering thinking.
 
+## Acknowledgement
+
+This material is based upon work supported by the National Science Foundation award #2230997. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
+
 ---
 
 **Other Workshops:** [Workshop 1: AI for STEM](/pds/craft-pd-series/workshop-1-ai-for-stem/) · [Workshop 3: Edge/IoT with AI](/pds/craft-pd-series/workshop-3-edge-iot/)
