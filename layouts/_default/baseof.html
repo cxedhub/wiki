@@ -86,14 +86,15 @@
   </footer>
 
   <script src="{{ "js/main.js" | relURL }}"></script>
-  {{ with site.Params.goatcounter }}
+  {{ with site.Params.umami }}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="{{ . }}"></script>
   <script>
-    // Track downloads and outbound links as GoatCounter events.
+    // Track downloads and outbound links as Umami events.
     (function () {
       var DOWNLOAD_EXT = /\.(pdf|pptx?|docx?|xlsx?|zip|csv|ipynb|epub|key|pages|numbers)(\?.*)?$/i;
       document.addEventListener('click', function (e) {
         var a = e.target.closest && e.target.closest('a[href]');
-        if (!a || !window.goatcounter || !window.goatcounter.count) return;
+        if (!a || !window.umami || !window.umami.track) return;
         var href = a.getAttribute('href');
         if (!href || href.charAt(0) === '#') return;
 
@@ -106,15 +107,14 @@
 
         var kind = isDownload ? 'download' : 'outbound';
         var label = (isDownload ? url.pathname.split('/').pop() : url.host + url.pathname) || url.href;
-        window.goatcounter.count({
-          path: kind + ': ' + label,
-          title: a.textContent.trim().slice(0, 200) || label,
-          event: true
+        window.umami.track(kind, {
+          url: url.href,
+          label: label,
+          title: a.textContent.trim().slice(0, 200) || label
         });
       }, true);
     })();
   </script>
-  <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   {{ end }}
 </body>
 </html>
