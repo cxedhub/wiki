@@ -1,0 +1,36 @@
+{{/* Reusable Freyja Labs ad block.
+     Usage:  {{ partial "freyja-ad.html" (dict "variant" "wide") }}
+     Variants: "wide" (default, full-width landing card) | "inline" (compact strip). */}}
+{{ $variant := default "wide" .variant }}
+{{ $url := "https://freyjalabs.com/?utm_source=cxedhub&utm_medium=ad&utm_campaign=" }}
+{{ $campaign := default $variant .campaign }}
+<aside class="freyja-ad freyja-ad--{{ $variant }}" aria-label="Freyja Labs">
+  <div class="freyja-ad__bg" aria-hidden="true">
+    <span class="freyja-ad__blob freyja-ad__blob--a"></span>
+    <span class="freyja-ad__blob freyja-ad__blob--b"></span>
+  </div>
+  <div class="freyja-ad__inner">
+    <p class="freyja-ad__eyebrow">
+      <span class="freyja-ad__mark" aria-hidden="true">F</span>
+      Freyja Labs
+    </p>
+    <h3 class="freyja-ad__headline">
+      Professional development,<br>
+      <span class="freyja-ad__accent">where Growth begins.</span>
+    </h3>
+    {{ if eq $variant "wide" }}
+    <p class="freyja-ad__lede">
+      Custom workshops, coaching, and curriculum design for educators
+      and teams ready to grow what comes next.
+    </p>
+    {{ end }}
+    <a class="freyja-ad__cta"
+       href="{{ $url }}{{ $campaign }}"
+       target="_blank"
+       rel="noopener"
+       data-umami-event="freyja-ad-click"
+       data-umami-event-variant="{{ $variant }}">
+      Explore freyjalabs.com <span aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</aside>
