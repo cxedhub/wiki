@@ -12,6 +12,10 @@
 
 <div class="container">{{ partial "last-updated.html" . }}</div>
 
+<div class="container freyja-ad-wrap">
+  {{ partial "freyja-ad.html" (dict "variant" "inline" "campaign" "lessons") }}
+</div>
+
 <section class="container home-explore" id="explore">
   <div class="explore-layout">
     {{/* ── Sidebar Filters ── */}}
