@@ -41,7 +41,7 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 ## Previous Professional Development
 
-Recordings, walkthrough sites, and playlists from previous PD series facilitated by Drs. Mike & Andrea Borowczak (Burrows). All sessions remain free to watch, share, and remix under CC BY-SA 4.0.
+Recordings, walkthrough sites, and playlists from previous PD series facilitated by Drs. Mike & Andrea Borowczak. All sessions remain free to watch, share, and remix under CC BY-SA 4.0.
 
 ### CRAFT PD Series (2026)
 
