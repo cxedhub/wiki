@@ -31,33 +31,6 @@ Each standalone, virtual session follows the **CRAFT pedagogical cycle** — a f
 
 **Standards Framework:** NGSS
 
-## Workshops
-
-### Workshop 1: Using AI for STEM — Lessons & More
-**April 11, 2026** · `Prompt Engineering` · `Curriculum Alignment` · `Multi-Platform`
-
-Turn LLMs into your STEM curriculum co-pilot through hands-on prompt engineering across ChatGPT, Claude, and Gemini side-by-side. Talk:Do ratio of 1:5.8 — you're doing, not just listening.
-
-[Workshop Details →](/pds/craft-pd-series/workshop-1-ai-for-stem/)
-
----
-
-### Workshop 2: Verifying STEM AI Outputs
-**April 18, 2026** · `Error Analysis` · `Check the Machine` · `Critical Thinking`
-
-Your students are using AI — but do they know when it's wrong? Learn the Check the Machine protocol and hands-on error-hunting skills for both code and content. Talk:Do ratio of 1:6.3.
-
-[Workshop Details →](/pds/craft-pd-series/workshop-2-verifying-outputs/)
-
----
-
-### Workshop 3: Programming Edge/IoT Systems with AI
-**April 25, 2026** · `BBC micro:bit (simulator)` · `Two-Node IoT` · `Radio Networking` · `LLM-Assisted Coding`
-
-BBC micro:bit in the MakeCode online simulator + LLM-assisted coding — build a two-node IoT system (sensor node ↔ aggregator node) with no hardware required during the session. A BBC micro:bit V2 kit ships after the session to participants who complete it (both surveys + a draft lesson) — yours to keep. Talk:Do ratio of 1:6.6.
-
-[Workshop Details →](/pds/craft-pd-series/workshop-3-edge-iot/)
-
 ## What Every Participant Receives
 
 - **Curated resource website** — Bookmarkable page with links, guides, and updates
@@ -69,6 +42,28 @@ BBC micro:bit in the MakeCode online simulator + LLM-assisted coding — build a
 ## Previous Professional Development
 
 Recordings, walkthrough sites, and playlists from previous PD series facilitated by Drs. Mike & Andrea Borowczak (Burrows). All sessions remain free to watch, share, and remix under CC BY-SA 4.0.
+
+### CRAFT PD Series (2026)
+
+The three standalone virtual workshops in the CRAFT PD Series — Unlocking AI & IoT for K-12 STEM.
+
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="/pds/craft-pd-series/workshop-1-ai-for-stem/">Workshop 1: Using AI for STEM — Lessons & More</a></h3>
+    <p class="card-desc">April 11, 2026 — Turn LLMs into your STEM curriculum co-pilot through hands-on prompt engineering across ChatGPT, Claude, and Gemini side-by-side. Talk:Do ratio of 1:5.8.</p>
+    <div class="card-meta"><span class="chip chip-subject">AI / Prompting</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="/pds/craft-pd-series/workshop-2-verifying-outputs/">Workshop 2: Verifying STEM AI Outputs</a></h3>
+    <p class="card-desc">April 18, 2026 — Your students are using AI, but do they know when it's wrong? Learn the Check the Machine protocol and hands-on error-hunting for both code and content. Talk:Do ratio of 1:6.3.</p>
+    <div class="card-meta"><span class="chip chip-subject">AI / Verification</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="/pds/craft-pd-series/workshop-3-edge-iot/">Workshop 3: Programming Edge/IoT Systems with AI</a></h3>
+    <p class="card-desc">April 25, 2026 — BBC micro:bit in the MakeCode simulator + LLM-assisted coding to build a two-node IoT system (sensor node ↔ aggregator node). A micro:bit V2 kit ships to completers. Talk:Do ratio of 1:6.6.</p>
+    <div class="card-meta"><span class="chip chip-subject">IoT / micro:bit</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+</div>
 
 ### The Artful Craft of Science (TACoS)
 
