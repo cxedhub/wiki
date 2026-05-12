@@ -1389,81 +1389,24 @@ a.craft-letter--secret:hover {
    Brand palette: gold #FFC904 / #b8960c · deep purple #6a1b9a · ink #1a1a1a
    ========================================================================== */
 
-/* ── Top banner ── */
+/* ── Subtle footer sponsorship line ── */
 .freyja-banner {
-  display: block;
-  background: linear-gradient(90deg, #1a1a1a 0%, #2a1a4a 45%, #6a1b9a 100%);
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 2px solid #FFC904;
-  font-size: 0.88rem;
-  letter-spacing: 0.01em;
-  transition: filter 0.2s;
+  margin: 0.9rem 0 0;
+  font-size: 0.72rem;
+  color: #94a3b8;
+  opacity: 0.85;
 }
-.freyja-banner:hover {
-  text-decoration: none;
-  filter: brightness(1.1);
-}
-.freyja-banner__inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.25rem;
-  padding: 0.55rem 1.5rem;
-  flex-wrap: wrap;
-}
-.freyja-banner__brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-.freyja-banner__mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px; height: 22px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #FFC904 0%, #b8960c 100%);
-  color: #1a1a1a;
-  font-weight: 800;
-  font-size: 0.78rem;
-  line-height: 1;
-}
-.freyja-banner__name { color: #FFC904; }
-.freyja-banner__tagline {
-  color: rgba(255,255,255,0.92);
-}
-.freyja-banner__tagline em {
+.freyja-banner em {
   font-style: italic;
+  color: #cbd5e1;
+}
+.freyja-banner__link {
   color: #FFC904;
-  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 201, 4, 0.4);
 }
-.freyja-banner__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.25rem 0.85rem;
-  border: 1px solid rgba(255, 201, 4, 0.55);
-  border-radius: 999px;
-  color: #FFC904;
-  font-weight: 600;
-  font-size: 0.82rem;
-  white-space: nowrap;
-  transition: background 0.2s, border-color 0.2s;
-}
-.freyja-banner:hover .freyja-banner__cta {
-  background: rgba(255, 201, 4, 0.15);
-  border-color: #FFC904;
-}
-
-@media (max-width: 720px) {
-  .freyja-banner { font-size: 0.82rem; }
-  .freyja-banner__inner { gap: 0.75rem; padding: 0.5rem 1rem; }
-  .freyja-banner__tagline { flex-basis: 100%; text-align: center; order: 3; }
-  .freyja-banner__brand { order: 1; }
-  .freyja-banner__cta { order: 2; }
+.freyja-banner__link:hover {
+  border-bottom-color: #FFC904;
 }
 
 /* ── Ad block (shared) ── */
