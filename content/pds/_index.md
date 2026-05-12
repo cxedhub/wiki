@@ -63,3 +63,110 @@ BBC micro:bit in the MakeCode online simulator + LLM-assisted coding — build a
 - **Curated resource website** — Bookmarkable page with links, guides, and updates
 - **Digital toolkit PDF** — One downloadable document per session
 - **Customized lesson** — STEM template (aligned to CSTA, NGSS, CCSS Math/ELA, ISTE, and other frameworks of your choice) personalized during the session
+
+---
+
+## Previous Professional Development
+
+Recordings, walkthrough sites, and playlists from previous PD series facilitated by Drs. Mike & Andrea Borowczak (Burrows). All sessions remain free to watch, share, and remix under CC BY-SA 4.0.
+
+### The Artful Craft of Science (TACoS)
+
+Annual workshop series blending computer science, engineering, and the arts for elementary and middle-school educators.
+
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://uwyo-ssc.gitlab.io/public/tacos/cs-website/">TACoS IX (2023) — CS Track</a></h3>
+    <p class="card-desc">Computer Science / Engineering track with a full <a href="https://uwyo-ssc.gitlab.io/public/tacos/cs-website/">walkthrough site</a> and a <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i1aiFOUyYl99rSmZka1Fp5A">28-video YouTube playlist</a> (1–4 min each).</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://gitlab.com/UWyo-SSC/public/tacos/eng-website">TACoS IX (2023) — Engineering Track</a></h3>
+    <p class="card-desc">Engineering Design with Computing — <a href="https://gitlab.com/UWyo-SSC/public/tacos/eng-website">walkthrough site</a> paired with a <a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i00NdfNPdBaEnM6QPI3jg1i">27-video YouTube playlist</a> (1–4 min each).</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i2TcyL7a2bI5V2PV4M9dIA8">TACoS VIII (2022)</a></h3>
+    <p class="card-desc">2022 workshop recordings — full YouTube playlist of CS, engineering, and arts-integration sessions.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PLnF6tFc-G5i2TIJqvDC6K9il9h9KzpBlR">TACoS VII (2021)</a></h3>
+    <p class="card-desc">2021 workshop recordings — full YouTube playlist of CS, engineering, and arts-integration sessions.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMJ_r3SQGigKAYhMic4o_X7n">TACoS VI (2020)</a></h3>
+    <p class="card-desc">First virtual edition — 5 longer-form recordings, ~10–20 minutes each.</p>
+    <div class="card-meta"><span class="chip chip-subject">Workshop</span><span class="chip chip-grade">K-8</span></div>
+  </div>
+</div>
+
+### Teacher Technical Sessions
+
+Hands-on technical PD for teachers building their own CS comfort before bringing it to students.
+
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://youtube.com/playlist?list=PL4R2kry1ttMKkJVw2Xf1nN_s4Apuunt2J">Intro to CS with micro:bits (2021)</a></h3>
+    <p class="card-desc">2021 cohort of the micro:bit intro series — physical-computing on-ramp using the BBC micro:bit. YouTube playlist.</p>
+    <div class="card-meta"><span class="chip chip-subject">micro:bit</span><span class="chip chip-grade">6-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMIqAWGAw8Hlpnk7b415PqHi">Intro to CS with micro:bits (2020)</a></h3>
+    <p class="card-desc">2020 cohort of the micro:bit intro series — the first iteration of our hands-on physical-computing PD. YouTube playlist.</p>
+    <div class="card-meta"><span class="chip chip-subject">micro:bit</span><span class="chip chip-grade">6-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMLUHUGxeW2nKTAW8UNzRsCz">Unplugged CS</a></h3>
+    <p class="card-desc">No computer needed — recorded sessions introducing CS concepts without devices.</p>
+    <div class="card-meta"><span class="chip chip-subject">Unplugged</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://youtube.com/playlist?list=PL4R2kry1ttMKgCy7gbAiX88vgJeDyxdxn">Thinking Like a Computer Scientist: Solve a Maze</a></h3>
+    <p class="card-desc">No programming required — computational-thinking PD built around a hands-on maze problem.</p>
+    <div class="card-meta"><span class="chip chip-subject">CT</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://youtube.com/playlist?list=PL4R2kry1ttMJ3m3oC2WVa5JwnpFV5YQ7Q">Advanced JavaScript</a></h3>
+    <p class="card-desc">Deeper-dive PD for teachers ready to move beyond intro programming with their students.</p>
+    <div class="card-meta"><span class="chip chip-subject">JavaScript</span><span class="chip chip-grade">9-12</span></div>
+  </div>
+</div>
+
+### Standards & Concept Explainers
+
+Short on-demand PD aligned to state and national CS standards.
+
+<div class="card-grid">
+  <div class="card">
+    <h3><a href="https://www.youtube.com/playlist?list=PL4R2kry1ttMKCjDxW_oxdqfY2H9mfYFPE">What Is CS? — Series</a></h3>
+    <p class="card-desc">Short explainers on core CS concepts. Drop into a lesson, share with families, or use for teacher self-study.</p>
+    <div class="card-meta"><span class="chip chip-subject">Concepts</span><span class="chip chip-grade">K-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/watch?v=2BpRcRx5nR8&list=PLld22jyV1BHdt2x79nfxLxKpb_r3K03kY">Wyoming CS Standards Explained — K–2</a></h3>
+    <p class="card-desc">3–5 min explainers per Wyoming K–2 CS standard (7 videos).</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">K-2</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/watch?v=brWEr4R218M&list=PLld22jyV1BHcOmCZNrCexXlR0T1r0xe4B">Wyoming CS Standards Explained — 3–5</a></h3>
+    <p class="card-desc">3–5 min explainers per Wyoming 3–5 CS standard (10 videos).</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">3-5</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/watch?v=RSR7csk1hYo&list=PLld22jyV1BHe6t-NmHPpbIbN5EyFNg5jZ">Wyoming CS Standards Explained — 5–8</a></h3>
+    <p class="card-desc">3–5 min explainers per Wyoming 5–8 CS standard (8 videos).</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">5-8</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/watch?v=Jq8nfPYftrw&list=PLld22jyV1BHd6DUit1RQgWp_Oxk3G0fcA">Wyoming CS Standards Explained — HS Level 1</a></h3>
+    <p class="card-desc">3–5 min explainers per Wyoming HS Level 1 CS standard (9 videos).</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">9-12</span></div>
+  </div>
+  <div class="card">
+    <h3><a href="https://www.youtube.com/watch?v=7KauD6zglok&list=PLld22jyV1BHeYMmq9ee6qWaq3P9P7Bxwm">Wyoming CS Standards Explained — HS Level 2</a></h3>
+    <p class="card-desc">3–5 min explainers per Wyoming HS Level 2 CS standard (7 videos).</p>
+    <div class="card-meta"><span class="chip chip-subject">Standards</span><span class="chip chip-grade">9-12</span></div>
+  </div>
+</div>
