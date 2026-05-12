@@ -43,7 +43,6 @@
   </script>
 </head>
 <body>
-  {{ partial "freyja-banner.html" . }}
   <header class="site-header">
     <div class="container">
       <a href="{{ "/" | relURL }}" class="site-logo">
@@ -83,6 +82,7 @@
           Opinions, findings, or recommendations are those of the authors and do not necessarily reflect NSF views.</div>
       </div>
       <p>Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> </p>
+      {{ partial "freyja-banner.html" . }}
     </div>
   </footer>
 
