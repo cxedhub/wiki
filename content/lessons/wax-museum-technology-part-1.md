@@ -11,6 +11,7 @@ subjects:
 - Mathematics
 - Reading/Language Arts
 - Social Studies
+- Engineering
 grade_levels:
 - 3-5
 cs_domains:

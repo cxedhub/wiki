@@ -7,6 +7,7 @@ author: Yung Richards
 subjects:
 - Computer Science
 - Mathematics
+- Engineering
 grade_levels:
 - 6-8
 - 9-12

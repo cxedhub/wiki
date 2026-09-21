@@ -6,6 +6,7 @@ draft: false
 author: Jana Simmerly
 subjects:
 - Science
+- Engineering
 grade_levels:
 - 6-8
 cs_domains:

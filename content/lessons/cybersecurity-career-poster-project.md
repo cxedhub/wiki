@@ -7,6 +7,7 @@ author: Jana Simmerly
 subjects:
 - Computer Science
 - Science
+- Engineering
 grade_levels:
 - 6-8
 cs_domains:

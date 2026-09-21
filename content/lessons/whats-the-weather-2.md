@@ -9,6 +9,7 @@ subjects:
 - Mathematics
 - Reading/Language Arts
 - Science
+- Engineering
 grade_levels:
 - K-2
 - 3-5

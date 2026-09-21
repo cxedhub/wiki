@@ -8,6 +8,7 @@ subjects:
 - Art
 - Computer Science
 - Science
+- Engineering
 grade_levels:
 - 6-8
 - 9-12

@@ -7,6 +7,7 @@ author: Taylor Wailes-Putnam
 subjects:
 - Computer Science
 - Reading/Language Arts
+- Engineering
 grade_levels:
 - K-2
 - 3-5

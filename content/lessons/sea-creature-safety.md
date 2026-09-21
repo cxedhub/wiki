@@ -7,6 +7,7 @@ draft: false
 author: Becki Butterfield
 subjects:
 - Computer Science
+- Engineering
 grade_levels:
 - 3-5
 cs_domains:

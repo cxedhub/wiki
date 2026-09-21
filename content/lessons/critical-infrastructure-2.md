@@ -8,6 +8,7 @@ subjects:
 - Computer Science
 - Science
 - Social Studies
+- Engineering
 grade_levels:
 - 9-12
 cs_domains:

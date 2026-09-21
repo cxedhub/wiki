@@ -9,6 +9,7 @@ author: Brandi Rodriguez
 subjects:
 - Computer Science
 - Mathematics
+- Engineering
 grade_levels:
 - 3-5
 cs_domains:

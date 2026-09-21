@@ -7,6 +7,7 @@ author: Ryan Olson
 subjects:
 - Computer Science
 - Physical Education
+- Engineering
 grade_levels:
 - 3-5
 - 6-8

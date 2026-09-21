@@ -8,6 +8,7 @@ subjects:
 - Computer Science
 - Mathematics
 - Science
+- Engineering
 grade_levels:
 - K-2
 cs_domains:
