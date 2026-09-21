@@ -74,3 +74,4 @@ regeneration. It edits these files and nothing else:
 | 2026-04 | Introduced `scripts/rebuild_matrix.py` so counts and lookups stay in sync automatically. |
 | 2026-04 | (Earlier, commit `5639e15`) Deduped 32 lessons, renamed 5 to `-part-N`, capped per-framework codes, fixed stale 350/411/417 counts, regenerated `const L`. |
 | 2026-04 | Removed `build-your-own-snowman` lesson; regenerated matrix (379 → 378 lessons, 5,072 → 5,055 alignments). |
+| 2026-09 | Added the `Engineering` subject to 95 lessons via `scripts/tag_engineering.py` (author-declared Subject Area, NGSS ETS alignment, or hand-reviewed build/prototype lessons); the migration had dropped it from the `subjects` taxonomy. Regenerated matrix `const L` so the subject filter offers Engineering. |

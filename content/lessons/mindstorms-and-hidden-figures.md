@@ -7,6 +7,7 @@ author: Jennifer LaVanchy
 subjects:
 - Computer Science
 - Reading/Language Arts
+- Engineering
 grade_levels:
 - 3-5
 - 6-8

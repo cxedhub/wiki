@@ -7,6 +7,7 @@ author: Jennifer LaVanchy
 subjects:
 - Computer Science
 - Science
+- Engineering
 grade_levels:
 - K-2
 - 6-8

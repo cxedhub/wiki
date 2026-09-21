@@ -8,6 +8,7 @@ subjects:
 - Mathematics
 - Reading/Language Arts
 - Science
+- Engineering
 grade_levels:
 - K-2
 cs_domains:

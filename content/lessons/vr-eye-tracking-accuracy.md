@@ -14,6 +14,7 @@ subjects:
 - Computer Science
 - Science
 - Social Studies
+- Engineering
 grade_levels:
 - 6-8
 cs_domains:

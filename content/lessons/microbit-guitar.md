@@ -7,6 +7,7 @@ author: Victoria L Davis
 subjects:
 - Computer Science
 - Science
+- Engineering
 grade_levels:
 - 3-5
 - 6-8

@@ -9,6 +9,7 @@ subjects:
 - Computer Science
 - Science
 - Reading/Language Arts
+- Engineering
 grade_levels:
 - 3-5
 - 6-8

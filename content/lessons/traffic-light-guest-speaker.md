@@ -7,6 +7,7 @@ author: Sandra Joslin
 subjects:
 - Computer Science
 - Science
+- Engineering
 grade_levels:
 - 3-5
 - 6-8

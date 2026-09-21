@@ -7,6 +7,7 @@ author: Tonya R Taylor
 subjects:
 - Computer Science
 - Science
+- Engineering
 grade_levels:
 - K-2
 - 3-5

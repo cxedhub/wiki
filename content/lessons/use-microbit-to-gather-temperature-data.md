@@ -6,6 +6,7 @@ draft: false
 author: Amber Martines
 subjects:
 - Science
+- Engineering
 grade_levels:
 - 6-8
 cs_domains:
