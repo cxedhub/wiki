@@ -35,11 +35,6 @@ standards:
   - ISTE-5d
   - ISTE-6c
   - ISTE-6d
-  NGSS:
-  - HS-ETS1-1
-  - HS-ETS1-2
-  - HS-ETS1-3
-  - HS-ETS1-4
   ITEEA STEL:
   - STEL-4
   - STEL-5
@@ -52,7 +47,6 @@ standard_types:
 - CSTA
 - ISTE
 - ITEEA STEL
-- NGSS
 ---
 ## OVERVIEW
 

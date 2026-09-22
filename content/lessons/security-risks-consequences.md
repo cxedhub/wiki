@@ -44,10 +44,6 @@ standards:
   - ISTE-6c
   - ISTE-6d
   NGSS:
-  - MS-ETS1-1
-  - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
   - MS-PS4-1
   ITEEA STEL:
   - STEL-4

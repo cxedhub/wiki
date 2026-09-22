@@ -37,9 +37,6 @@ standards:
   - ISTE-7b
   - ISTE-7c
   NGSS:
-  - 3-5-ETS1-1
-  - 3-5-ETS1-2
-  - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
   ITEEA STEL:

@@ -48,9 +48,6 @@ standards:
   - 5.MD
   - 5.OA
   NGSS:
-  - 3-5-ETS1-1
-  - 3-5-ETS1-2
-  - 3-5-ETS1-3
   - 3-ESS2-1
   - 3-ESS2-2
   ITEEA STEL:

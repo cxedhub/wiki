@@ -43,8 +43,6 @@ standards:
   - MS-ESS1-4
   - MS-ESS2-1
   - MS-ESS2-2
-  - MS-ETS1-1
-  - MS-ETS1-2
   ITEEA STEL:
   - STEL-3
   - STEL-8
