@@ -18,6 +18,7 @@ cs_principles:
 materials: Website, Works best with Google Chrome and Google Education Suite; Youtube.com
 tags:
 - WySTACK
+- AI
 standard_types:
 - CSTA
 - ISTE

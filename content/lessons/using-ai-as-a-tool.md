@@ -31,6 +31,8 @@ materials: Website, ChatGPT
 tags:
 - Cybersecurity
 - GenCyber
+- LLM
+- AI
 standard_types:
 - CSTA
 - ISTE

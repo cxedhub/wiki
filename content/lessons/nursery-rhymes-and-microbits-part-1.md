@@ -34,6 +34,7 @@ standards:
 materials: Website, Micro:bit
 tags:
 - micro:bit
+- MicroPython
 supplements:
 - /uploads/nursery-rhymes-and-microbits-part-1/_Nursery_Rhymes_and_Microbits__-_Maggie_Unterseher.docx
 standard_types:

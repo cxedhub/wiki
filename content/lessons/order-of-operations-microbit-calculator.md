@@ -29,6 +29,7 @@ standards:
 materials: Micro:bit
 tags:
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/order-of-operations-microbit-calculator/Order_of_Operations_MICRO_BIT_Calculator_-_Timothy_George.docx
 standard_types:

@@ -22,6 +22,7 @@ cs_principles:
 materials: Website, Micro:bit, https://makecode.microbit.org/courses/csintro-educator
 tags:
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 2-AP-10

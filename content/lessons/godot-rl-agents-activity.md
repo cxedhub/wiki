@@ -33,6 +33,7 @@ materials: Website, lab computer with ubuntu installed
 tags:
 - Game-Based
 - WySTACK
+- AI
 standard_types:
 - CCSS Math
 - CSTA

@@ -28,6 +28,7 @@ materials: Website, Micro:bit
 tags:
 - Scratch
 - micro:bit
+- IoT
 standard_types:
 - CSTA
 - ISTE

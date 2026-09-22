@@ -26,6 +26,7 @@ materials: Website
 tags:
 - Code.org
 - WySTACK
+- AI
 standard_types:
 - CSTA
 - ISTE

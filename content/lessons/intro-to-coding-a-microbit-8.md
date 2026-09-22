@@ -21,6 +21,7 @@ materials: Website, https://makecode.microbit.org/
 tags:
 - Code.org
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 1A-AP-08

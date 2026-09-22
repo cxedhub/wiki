@@ -1,0 +1,32 @@
+{{/*
+  partials/lesson-filter-group.html
+  One sidebar filter group for the lessons list.
+  Usage: {{ partial "lesson-filter-group.html" (dict "taxonomy" "subjects" "type" "subject" "label" "Subject") }}
+
+  Terms are counted over LESSON pages only, and terms with no lessons are not
+  shown: PD pages share the subjects / cs_domains / standard_types / tags
+  taxonomies, so a term used only by a workshop page would otherwise appear
+  with a zero badge.
+*/}}
+{{- $tax := index site.Taxonomies .taxonomy -}}
+{{- $terms := slice -}}
+{{- range $tax.ByCount -}}
+  {{- $n := len (where .Page.Pages "Section" "lessons") -}}
+  {{- if gt $n 0 -}}
+    {{- $terms = $terms | append (dict "title" .Page.Title "n" $n) -}}
+  {{- end -}}
+{{- end -}}
+{{- if $terms }}
+      <div class="filter-group" data-filter="{{ .type }}">
+        <h4 class="filter-group-title">{{ .label }}{{ if .showCount }} <span class="filter-group-count">{{ len $terms }}</span>{{ end }}</h4>
+        <div class="filter-options">
+          {{ range $terms }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .title }}" data-filter-type="{{ $.type }}">
+              <span class="filter-label">{{ .title }}</span>
+              <span class="filter-badge">{{ .n }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+{{- end }}

@@ -29,109 +29,14 @@
         <input type="text" id="home-search" placeholder="Search by keyword..." class="filter-search" aria-label="Search lessons">
       </div>
 
-      {{/* Grade Levels */}}
-      <div class="filter-group" data-filter="grade">
-        <h4 class="filter-group-title">Grade Level</h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.grade_levels.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="grade">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-
-      {{/* Subjects */}}
-      <div class="filter-group" data-filter="subject">
-        <h4 class="filter-group-title">Subject <span class="filter-group-count">{{ len site.Taxonomies.subjects }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.subjects.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="subject">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-
-      {{/* CS Domains */}}
-      <div class="filter-group" data-filter="domain">
-        <h4 class="filter-group-title">CS Domain</h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.cs_domains.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="domain">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-
-      {{/* Engineering Disciplines */}}
-      {{ if site.Taxonomies.eng_disciplines }}
-      <div class="filter-group" data-filter="discipline">
-        <h4 class="filter-group-title">Engineering Discipline <span class="filter-group-count">{{ len site.Taxonomies.eng_disciplines }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.eng_disciplines.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="discipline">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-
-      {{/* Engineering Concepts */}}
-      {{ if site.Taxonomies.eng_concepts }}
-      <div class="filter-group" data-filter="concept">
-        <h4 class="filter-group-title">Engineering Concept <span class="filter-group-count">{{ len site.Taxonomies.eng_concepts }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.eng_concepts.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="concept">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-
-      {{/* Standards */}}
-      {{ if site.Taxonomies.standard_types }}
-      <div class="filter-group" data-filter="standard">
-        <h4 class="filter-group-title">Standards <span class="filter-group-count">{{ len site.Taxonomies.standard_types }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.standard_types.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="standard">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-
-      {{/* Tags */}}
-      <div class="filter-group" data-filter="tag">
-        <h4 class="filter-group-title">Tags <span class="filter-group-count">{{ len site.Taxonomies.tags }}</span></h4>
-        <div class="filter-options">
-          {{ range site.Taxonomies.tags.ByCount }}
-            <label class="filter-check">
-              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="tag">
-              <span class="filter-label">{{ .Page.Title }}</span>
-              <span class="filter-badge">{{ .Count }}</span>
-            </label>
-          {{ end }}
-        </div>
-      </div>
+      {{/* Filter groups: lesson-only counts; terms with no lessons are hidden (see partial) */}}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "grade_levels" "type" "grade" "label" "Grade Level") }}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "subjects" "type" "subject" "label" "Subject" "showCount" true) }}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "cs_domains" "type" "domain" "label" "CS Domain") }}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "eng_disciplines" "type" "discipline" "label" "Engineering Discipline" "showCount" true) }}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "eng_concepts" "type" "concept" "label" "Engineering Concept" "showCount" true) }}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "standard_types" "type" "standard" "label" "Standards" "showCount" true) }}
+      {{ partial "lesson-filter-group.html" (dict "taxonomy" "tags" "type" "tag" "label" "Tags" "showCount" true) }}
 
       <button id="mobile-apply-filters" class="btn btn-primary btn-apply-mobile">Apply Filters</button>
     </aside>

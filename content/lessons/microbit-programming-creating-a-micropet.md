@@ -30,6 +30,7 @@ materials: Micro:bit
 tags:
 - Project-Based
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

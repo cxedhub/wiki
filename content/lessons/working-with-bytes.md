@@ -19,6 +19,7 @@ materials: Website, www.johnlupher.com
 tags:
 - WySTACK
 - micro:bit
+- MicroPython
 standard_types:
 - CSTA
 - ISTE

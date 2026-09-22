@@ -19,6 +19,7 @@ materials: Website, Micro:bit
 tags:
 - Data Collection
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 2-AP-10

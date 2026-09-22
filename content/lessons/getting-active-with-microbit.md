@@ -32,6 +32,7 @@ materials: 'Website, Micro:bit, Lesson plan Lesson slides Student handouts HEX f
 tags:
 - Unplugged
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

@@ -26,6 +26,7 @@ tags:
 - Cybersecurity
 - GenCyber
 - micro:bit
+- MakeCode
 standard_types:
 - CCSS ELA
 - CSTA

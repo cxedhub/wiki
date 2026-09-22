@@ -19,6 +19,7 @@ cs_principles:
 materials: Micro:bit
 tags:
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 2-AP-10

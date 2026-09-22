@@ -28,6 +28,7 @@ materials: Micro:bit
 tags:
 - Cybersecurity
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

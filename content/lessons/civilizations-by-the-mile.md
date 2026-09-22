@@ -38,6 +38,7 @@ standards:
 materials: Website, Micro:bit, https://makecode.microbit.org/
 tags:
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/civilizations-by-the-mile/Civilizations_by_the_mile_-_Wade_Moore.docx
 standard_types:

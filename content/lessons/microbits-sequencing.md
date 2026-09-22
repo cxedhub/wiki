@@ -30,6 +30,7 @@ standards:
 materials: Website, https://makecode.microbit.org/
 tags:
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

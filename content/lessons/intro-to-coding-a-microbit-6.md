@@ -39,6 +39,7 @@ standards:
 materials: Website, Micro:bit
 tags:
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/intro-to-coding-a-microbit-6/WySLICE_Lesson_B_copy_-_Melanie_Mullikin.docx
 - /uploads/intro-to-coding-a-microbit-6/Terri_Flock_Kiley_Hiser_Heather_Osterman_Will_Burns_Kara_Bowcutt_Melanie_Mullikin-_Draft-Lesson_C-_-_Terri_Flock.pdf

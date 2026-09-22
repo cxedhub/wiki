@@ -48,6 +48,7 @@ materials: Website, Micro:bit, makecode.microbit.org
 tags:
 - Data Collection
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/microbit-temperature-reading/microbit-temperature_-_Casey_Harmon.hex
 - /uploads/microbit-temperature-reading/microbit-caseys-temp_-_Casey_Harmon.hex

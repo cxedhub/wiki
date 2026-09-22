@@ -18,6 +18,7 @@ materials: Website, Tinker website
 tags:
 - Robotics
 - WySTACK
+- AI
 supplements:
 - /uploads/artificial-intelligence/WyStack_Lesson_Plan_2_-_Jennifer_LaVanchy.docx
 standard_types:

@@ -29,6 +29,7 @@ tags:
 - Scratch
 - WySTACK
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

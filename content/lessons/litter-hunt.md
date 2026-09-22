@@ -20,6 +20,7 @@ materials: Micro:bit
 tags:
 - Game-Based
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 1A-AP-09

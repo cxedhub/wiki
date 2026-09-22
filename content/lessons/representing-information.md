@@ -23,6 +23,7 @@ tags:
 - Data Collection
 - Project-Based
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 3A-AP-21

@@ -19,6 +19,8 @@ tags:
 - Code.org
 - Robotics
 - WySTACK
+- LLM
+- AI
 standards:
   CSTA:
   - 1B-AP-15

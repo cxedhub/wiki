@@ -30,6 +30,7 @@ materials: Website, will require machine with high graphical and cpu resources w
 tags:
 - Game-Based
 - WySTACK
+- AI
 standard_types:
 - CSTA
 - ISTE

@@ -29,6 +29,7 @@ tags:
 - Data Collection
 - Unplugged
 - micro:bit
+- MakeCode
 standard_types:
 - CCSS ELA
 - CCSS Math

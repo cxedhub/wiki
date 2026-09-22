@@ -20,6 +20,7 @@ tags:
 - Data Collection
 - Project-Based
 - WySTACK
+- AI
 supplements:
 - /uploads/ai-and-ethics-a-mini-unit-for-high-school-lesson-set-one/Wy-STACK_Lesson_Plans_Set_2_-_Sarah_Horen.pdf
 - /uploads/ai-and-ethics-a-mini-unit-for-high-school-lesson-set-one/Wy-STACK_Lesson_Plans_Set_1_-_Sarah_Horen.pdf
