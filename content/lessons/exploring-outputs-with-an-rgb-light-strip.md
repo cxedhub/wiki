@@ -18,9 +18,21 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Systems, Inputs & Outputs
+- Criteria, Constraints & Trade-offs
+- Circuits & Electricity
 materials: Micro:bit, RGB Light Strip(Instruction attached with how to make)
 tags:
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
+- National Core Arts
 standards:
   CSTA:
   - 2-CS-01
@@ -47,14 +59,12 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
 supplements:
 - /uploads/exploring-outputs-with-an-rgb-light-strip/Exploring_Outputs_with_an_RGB_Light_Strip_-_Laramie_McCullough.pptx
 - /uploads/exploring-outputs-with-an-rgb-light-strip/Building_RGB_Light_Strips_-_Laramie_McCullough.pptx
-standard_types:
-- CSTA
-- ISTE
-- NGSS
-- National Core Arts
 ---
 # OVERVIEW
 ## Activity Overview:  

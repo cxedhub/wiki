@@ -16,6 +16,14 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Biomedical Engineering
+eng_concepts:
+- Engineering Design Process
+- Criteria, Constraints & Trade-offs
+- Fabrication & Making
+- Circuits & Electricity
 materials: Website, Micro:bit, Neopixels and some groups may also use Makey-Makey
 tags:
 - Scratch
@@ -24,6 +32,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 - National Core Arts
 standards:
@@ -52,6 +61,11 @@ standards:
   - VA:Cr3
   - VA:Pr4
   - VA:Pr5
+  ITEEA STEL:
+  - STEL-2
+  - STEL-3
+  - STEL-5
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

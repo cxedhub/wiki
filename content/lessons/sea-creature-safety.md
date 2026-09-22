@@ -16,6 +16,14 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Environmental Engineering
+eng_concepts:
+- Systems, Inputs & Outputs
+- Control & Feedback
+- Engineering Design Process
+- Technology & Society
 standards:
   CSTA:
   - 1B-AP-08
@@ -28,16 +36,21 @@ standards:
   - ISTE-4d
   - ISTE-6c
   - ISTE-6d
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
+  - STEL-7
 materials: Micro:bit
 tags:
 - Project-Based
 - micro:bit
-supplements:
-- /uploads/sea-creature-safety/WySLICE_Lesson_1_1_-_Rebecca_Butterfield.pdf
-- /uploads/sea-creature-safety/saving-sea-creatures-2-slides_-_Rebecca_Butterfield.pptx
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
+supplements:
+- /uploads/sea-creature-safety/WySLICE_Lesson_1_1_-_Rebecca_Butterfield.pdf
+- /uploads/sea-creature-safety/saving-sea-creatures-2-slides_-_Rebecca_Butterfield.pptx
 ---
 # OVERVIEW
 ## Activity Overview:  

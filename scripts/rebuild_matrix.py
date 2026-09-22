@@ -61,6 +61,7 @@ FRAMEWORK_ORDER = [
     "ISTE",
     "NCSS C3",
     "National Core Arts",
+    "ITEEA STEL",
 ]
 
 # ── Per-code URL resolution ─────────────────────────────────────────────────
@@ -251,7 +252,7 @@ def replace_const(text: str, name: str, literal: str) -> str:
     return text[:idx] + f"const {name}={literal};" + text[end:]
 
 
-def patch_count_prose(text: str, lesson_count: int, alignment_count: int) -> str:
+def patch_count_prose(text: str, lesson_count: int, alignment_count: int, fw_count: int = 7) -> str:
     """Rewrite known stale count phrases in place. No-ops if already correct."""
     # Primary matrix-page sentence variants
     text = re.sub(
@@ -267,14 +268,14 @@ def patch_count_prose(text: str, lesson_count: int, alignment_count: int) -> str
     )
     # Matrix app sub-header tally: "379 lessons, 5,072 codes, 7 national frameworks"
     text = re.sub(
-        r"(\d[\d,]*)\s+lessons,\s*(\d[\d,]*)\s+codes,\s*7\s+national frameworks",
-        f"{lesson_count:,} lessons, {alignment_count:,} codes, 7 national frameworks",
+        r"(\d[\d,]*)\s+lessons,\s*(\d[\d,]*)\s+codes,\s*(\d+)\s+national frameworks",
+        f"{lesson_count:,} lessons, {alignment_count:,} codes, {fw_count} national frameworks",
         text,
     )
     # Matrix app stats footer: "379 lessons · 7 national frameworks · 5,072 standard alignments"
     text = re.sub(
-        r"(\d[\d,]*)\s+lessons\s+&middot;\s+7\s+national frameworks\s+&middot;\s+(\d[\d,]*)\s+standard alignments",
-        f"{lesson_count:,} lessons &middot; 7 national frameworks &middot; {alignment_count:,} standard alignments",
+        r"(\d[\d,]*)\s+lessons\s+&middot;\s+(\d+)\s+national frameworks\s+&middot;\s+(\d[\d,]*)\s+standard alignments",
+        f"{lesson_count:,} lessons &middot; {fw_count} national frameworks &middot; {alignment_count:,} standard alignments",
         text,
     )
     # Hugo landing hero prose: "Browse <strong>417 lessons</strong>" → live count
@@ -304,7 +305,7 @@ def patch_count_prose(text: str, lesson_count: int, alignment_count: int) -> str
     return text
 
 
-def patch_matrix_html(path: Path, L: list[dict], S: dict, lesson_count: int, alignment_count: int) -> bool:
+def patch_matrix_html(path: Path, L: list[dict], S: dict, lesson_count: int, alignment_count: int, fw_count: int) -> bool:
     before = path.read_text(encoding="utf-8")
     # Replace the two data constants. json.dumps with ensure_ascii=False so
     # unicode slugs (e.g., Spanish accents) round-trip faithfully.
@@ -312,15 +313,15 @@ def patch_matrix_html(path: Path, L: list[dict], S: dict, lesson_count: int, ali
     S_literal = json.dumps(S, ensure_ascii=False, separators=(",", ":"))
     after = replace_const(before, "L", L_literal)
     after = replace_const(after, "S", S_literal) if "const S=" in after else after
-    after = patch_count_prose(after, lesson_count, alignment_count)
+    after = patch_count_prose(after, lesson_count, alignment_count, fw_count)
     if after != before:
         path.write_text(after, encoding="utf-8")
     return after != before
 
 
-def patch_text_file(path: Path, lesson_count: int, alignment_count: int) -> bool:
+def patch_text_file(path: Path, lesson_count: int, alignment_count: int, fw_count: int) -> bool:
     before = path.read_text(encoding="utf-8")
-    after = patch_count_prose(before, lesson_count, alignment_count)
+    after = patch_count_prose(before, lesson_count, alignment_count, fw_count)
     if after != before:
         path.write_text(after, encoding="utf-8")
     return after != before
@@ -336,9 +337,10 @@ def rebuild_standards_db_js(standards_data: dict) -> bool:
         f'  {json.dumps(k, ensure_ascii=False)}: {json.dumps(v, ensure_ascii=False)}'
         for k, v in standards_data["framework_urls"].items()
     )
+    covered = ", ".join(standards_data["descriptions"].keys())
     content = (
         "// Auto-generated standards database for CxEd Hub\n"
-        "// Covers CSTA, CCSS Math, CCSS ELA, NGSS, ISTE, NCSS C3, National Core Arts\n"
+        f"// Covers {covered}\n"
         "// Each framework maps code -> short description.\n"
         "// Regenerate with: python3 scripts/rebuild_matrix.py\n"
         f"window.STANDARDS_DB = {descriptions_json};\n"
@@ -366,6 +368,7 @@ def main() -> int:
     S, missing = build_S(lessons, standards_data)
     lesson_count = len(L)
     alignment_count = total_alignments(lessons)
+    fw_count = len(standards_data["framework_urls"])
 
     print(f"Lessons discovered:   {lesson_count}")
     print(f"Standards alignments: {alignment_count}")
@@ -390,19 +393,19 @@ def main() -> int:
             after = replace_const(before, "L", L_literal)
             if "const S=" in after:
                 after = replace_const(after, "S", S_literal)
-            after = patch_count_prose(after, lesson_count, alignment_count)
+            after = patch_count_prose(after, lesson_count, alignment_count, fw_count)
             if after != before:
                 changed.append(path)
         for path in COUNT_TEXT_FILES:
             before = path.read_text(encoding="utf-8")
-            if patch_count_prose(before, lesson_count, alignment_count) != before:
+            if patch_count_prose(before, lesson_count, alignment_count, fw_count) != before:
                 changed.append(path)
     else:
         for path in MATRIX_HTML:
-            if patch_matrix_html(path, L, S, lesson_count, alignment_count):
+            if patch_matrix_html(path, L, S, lesson_count, alignment_count, fw_count):
                 changed.append(path)
         for path in COUNT_TEXT_FILES:
-            if patch_text_file(path, lesson_count, alignment_count):
+            if patch_text_file(path, lesson_count, alignment_count, fw_count):
                 changed.append(path)
         if rebuild_standards_db_js(standards_data):
             changed.append(STANDARDS_DB_JS)

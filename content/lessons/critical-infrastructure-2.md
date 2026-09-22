@@ -23,6 +23,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Civil Engineering
+eng_concepts:
+- Troubleshooting & Failure Analysis
+- Technology & Society
 standards:
   CSTA:
   - 3A-AP-13
@@ -46,6 +52,9 @@ standards:
   - HS-ETS1-4
   NCSS C3:
   - D2.His.2.9-12
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 materials: micro:bit
 tags:
 - Cybersecurity
@@ -54,6 +63,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NCSS C3
 - NGSS
 ---

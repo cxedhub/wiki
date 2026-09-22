@@ -24,10 +24,21 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Modeling & Simulation
+- Troubleshooting & Failure Analysis
 materials: Website, lab computer with ubuntu installed
 tags:
 - Game-Based
 - WySTACK
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 supplements:
 - /uploads/godot-rl-agents-activity/Sensory_Classroom_Project_-_Sammie_Smith.docx
 - /uploads/godot-rl-agents-activity/resources_for_neopixels_-_Sammie_Smith.docx
@@ -35,11 +46,6 @@ supplements:
 - /uploads/godot-rl-agents-activity/Screen_Shot_2022-02-16_at_1.39.45_PM_-_Sammie_Smith.png
 - /uploads/godot-rl-agents-activity/lesson2godotrl_-_Jesse_Smith.pdf
 - /uploads/godot-rl-agents-activity/lesson2godotrl_-_Jesse_Smith1.pdf
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 3A-AP-13
@@ -63,6 +69,8 @@ standards:
   - HS-ESS3-1
   - HS-ESS3-3
   - HS-ESS3-4
+  ITEEA STEL:
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

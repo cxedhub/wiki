@@ -18,6 +18,12 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Developing and Using Abstractions
 - Creating Computational Artifacts
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Modeling & Simulation
+- Systems, Inputs & Outputs
+- Technology & Society
 materials: Website
 tags:
 - Data Collection
@@ -26,6 +32,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 2-AP-10
@@ -43,6 +50,9 @@ standards:
   - ISTE-4a
   - ISTE-5c
   - ISTE-1c
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

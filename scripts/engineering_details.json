@@ -1,0 +1,2211 @@
+{
+ "3d-printing-tracking-and-behind-the-scences": {
+  "eng_concepts": [
+   "Fabrication & Making",
+   "Criteria, Constraints & Trade-offs",
+   "Troubleshooting & Failure Analysis"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Industrial & Systems Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Fabrication & Making": "design a 3D model such as a keychain in the free autoCAD software tinkercad",
+   "Criteria, Constraints & Trade-offs": "A finished keychain that is to the specifications and goals that were set forth",
+   "Troubleshooting & Failure Analysis": "measure and discuss if it turned out as anticipated and to specifications.  If it did great, if not what happened and why",
+   "Mechanical Engineering": "Design an object in a 3D modeling software that is able to be printed",
+   "Industrial & Systems Engineering": "slice the object to create the G-Code to command the printer",
+   "STEL-7": "customize and layout a keychain to go from the design phase to the print phase",
+   "STEL-8": "check the scale, layer height(quality), and positioning on the build platform",
+   "STEL-2": "G-code that is being written to take an STL and convert it into something that prints based on the parameters that were set"
+  },
+  "notes": "CAD-to-slicer-to-printer pipeline; Industrial tag reflects the manufacturing-process focus (slicing/G-code)."
+ },
+ "algorithmic-bias-ai-ethics": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-5"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "discuss how bias and ethics in relation to AI can have impacts on our society",
+   "Software Engineering": "Understand how the composition of training data affects the outcome of a supervised machine learning system",
+   "STEL-4": "examining the ethical implications of each example",
+   "STEL-5": "Recognize that humans have agency in curating training datasets"
+  },
+  "notes": "Discussion-based AI ethics lesson; no build. Engineering fit is thin."
+ },
+ "amazeing-margaret-hamilton": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs",
+   "Structures, Forces & Materials",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-6",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "For this activity we will be using the engineering design process. Show students an image of this and walk them through each step",
+   "Criteria, Constraints & Trade-offs": "Discuss Supplies and Constraints for this challenge",
+   "Structures, Forces & Materials": "A maze usually has to have 3D walls",
+   "Technology & Society": "Students will learn about how computing technologies have changed the world",
+   "Mechanical Engineering": "Students will need to build their maze so that their HexBug starts at the bug and makes it to the trash can",
+   "STEL-7": "Then give them 5 minutes to make improvements. Engineers are always looking at how they can make it better",
+   "STEL-6": "Students will learn about how Margaret Hamilton saved the first lunar landing",
+   "STEL-4": "How has computer technology changed the world?",
+   "STEL-2": "You could also put a constraint on the amount of tape that students can use"
+  },
+  "notes": "Explicit ask/imagine/plan/create/improve EDP with HexBug maze build."
+ },
+ "arduino-traffic-light-2": {
+  "eng_concepts": [
+   "Control & Feedback",
+   "Circuits & Electricity",
+   "Troubleshooting & Failure Analysis"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Control & Feedback": "I can write a code for a traffic light simulator",
+   "Circuits & Electricity": "They will then build an Arduino traffic light simulator",
+   "Troubleshooting & Failure Analysis": "If their code does not work, they need to go back into the code and debug it",
+   "Electrical & Computer Engineering": "Build the traffic light simulator using direct instruction modeling",
+   "STEL-7": "Students will test their code by uploading their code to their simulator",
+   "STEL-8": "If their code does not work, they need to go back into the code and debug it",
+   "STEL-2": "they will go back into their code and change the timing variables and run it again"
+  },
+  "notes": "Thin body; circuit components not itemized but Arduino hardware build is explicit."
+ },
+ "arduino-traffic-lights": {
+  "eng_concepts": [
+   "Control & Feedback",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Control & Feedback": "introducing students to the concepts of finite state machines (FSM)",
+   "Technology & Society": "the lesson becomes more encompassing of the function of traffic signals and their importance",
+   "Electrical & Computer Engineering": "a discussion of Arduino Microcontrollers and demonstrations of their capability, as well as controlling model traffic signals",
+   "Civil Engineering": "the function of traffic signals and their importance",
+   "STEL-2": "What is a side-channel attack? What is a finite state machine?",
+   "STEL-4": "the function of traffic signals and their importance"
+  },
+  "notes": "Body mostly repeats the overview; Arduino work appears demonstration-led, so no Circuits tag."
+ },
+ "cats-or-dogs-intro-to-supervised-machine-learning": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Systems, Inputs & Outputs",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "work with version one and two of Google's Teachable machine to create classification models",
+   "Systems, Inputs & Outputs": "predict the data input and the outcome (prediction) for each type of AI",
+   "Technology & Society": "how bias in data is one example of an ethical issue in AI",
+   "Software Engineering": "work with a partner to build a model that will classify dogs and cats",
+   "STEL-4": "making sure to ask the questions dealing with AI bias in data",
+   "STEL-8": "Was your classification model successful?  What did you learn about the type of data your model needed to perform successfully?"
+  },
+  "notes": "Pure ML/software; students build and evaluate Teachable Machine classifiers."
+ },
+ "circuits-circuits-circuits": {
+  "eng_concepts": [
+   "Circuits & Electricity",
+   "Troubleshooting & Failure Analysis",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Circuits & Electricity": "build, debug, and run a variety of circuits both in TinkerCad and IRL on an Arduino and breadboard",
+   "Troubleshooting & Failure Analysis": "What are some things that cause circuits to malfunction?",
+   "Modeling & Simulation": "Debug and run a the circuit example both virtually and IRL",
+   "Electrical & Computer Engineering": "What do you need for a successful circuit? (power, ground, the correct resistor if needed, and code)",
+   "STEL-7": "Students will be able to build a circuit IRL that completes the task given",
+   "STEL-8": "What are some things that cause circuits to malfunction?"
+  },
+  "notes": "Detailed plan is external ('See my very detailed lesson plan'); TinkerCad Circuits used as simulator."
+ },
+ "codis-forensic-science": {
+  "eng_concepts": [
+   "Technology & Society",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-3",
+   "STEL-4"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "How has the use of DNA in investigations improved the rate of crimes being solved?",
+   "Modeling & Simulation": "probability is used to determine which suspect is the most likely match",
+   "Biomedical Engineering": "Describe the role of biomedical engineering in DNA profiling",
+   "STEL-4": "Do you think the use of DNA in crime solving has improved the accuracy of solving crimes and imprisioning the correct person?",
+   "STEL-1": "Have students act as biomedical engineers and analyze the results of the DNA profiling for the police investigators",
+   "STEL-3": "Have students calculate the likelihood that suspect 2, even though he matches four CODIS sites, is not the owner of the hair"
+  },
+  "notes": "Primarily a science/data-analysis lesson; engineering framing is the 'act as biomedical engineers' role."
+ },
+ "configure-godotrl": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Control & Feedback"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "implement an AI controller that learns to play with Deep Reinforcement Learning",
+   "Control & Feedback": "the agent’s observation, which is the position and velocity of the ball in its local coordinate space",
+   "Software Engineering": "create a custom environment in the Godot Game Engine and then implement an AI controller",
+   "STEL-8": "Correctly configure godot_rl agents, utilize and observe reinforcement learning in a game",
+   "STEL-2": "This node handles the communication between Python and Godot over TCP"
+  },
+  "notes": "Install/configure tutorial for an RL agent (obs->action->reward loop); no physical build."
+ },
+ "create-a-cookie-cutter-device-using-technology-and-3d-printing-to-understand-add": {
+  "eng_concepts": [
+   "Fabrication & Making"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Fabrication & Making": "Students will use TinkerCad to create their model using their laptop",
+   "Mechanical Engineering": "print the cookie cutter (artifact) using a 3D printer",
+   "STEL-7": "students will use play-doh to create a model of the cookie cutter they are going to create",
+   "STEL-3": "create a cookie cutter to help them practice adding and subtracting fractions"
+  },
+  "notes": "Play-doh prototype -> TinkerCad -> print; no test/improve loop so no EDP tag."
+ },
+ "creating-a-gear-amusement-park": {
+  "eng_concepts": [
+   "Structures, Forces & Materials",
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Structures, Forces & Materials": "building a gear amusement park that turns",
+   "Engineering Design Process": "write an algorithm describing their formation, trade algorithms with another group, test the algorithms, then reflect upon their work",
+   "Mechanical Engineering": "given a set of Funny Gears & Bricks, to design an amusement park",
+   "STEL-7": "Students will use peer collaboration, engineering, problem solving, & reflection, when given a set of Funny Gears & Bricks, to design an amusement park"
+  },
+  "notes": "K-2 gear/brick mechanism build; EDP is design-build-test-reflect via algorithm swap."
+ },
+ "creepy-carrots": {
+  "eng_concepts": [
+   "Structures, Forces & Materials",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Structures, Forces & Materials": "build a structure to contain the creepy carrots similar to what Jasper did in the story",
+   "Criteria, Constraints & Trade-offs": "You will have 30 minutes to complete the challenge",
+   "Civil Engineering": "Your group will be provided a variety of items to build this structure",
+   "STEL-7": "Build a structure using materials provided"
+  },
+  "notes": "K-2 build-a-containment-structure challenge with time/material limits and reflection."
+ },
+ "critical-infrastructure-2": {
+  "eng_concepts": [
+   "Troubleshooting & Failure Analysis",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Troubleshooting & Failure Analysis": "identify how the behavior of their micro:bit has changed, troubleshoot the coding, and repair the coding",
+   "Technology & Society": "How can a cyber attack cause issues in emergency management?",
+   "Electrical & Computer Engineering": "Students will have one class period to work on coding and downloading to his/ her micro:bit",
+   "Civil Engineering": "How does defense in depth mitigate the threat against CI?",
+   "STEL-4": "Understand how a cyber attack can disrupt services",
+   "STEL-8": "identify how the behavior of their micro:bit has changed, troubleshoot the coding, and repair the coding"
+  },
+  "notes": "Micro:bit sabotage-and-repair exercise framed around critical infrastructure."
+ },
+ "cybersecurity-career-poster-project": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [],
+  "stel": [
+   "STEL-1"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Technology & Society": "ways the career contributes to overall cybersecurity, salary expectations, and example companies",
+   "STEL-1": "What career options exist for cybersecurity?"
+  },
+  "notes": "Career-research poster; no engineered product. Discipline is a best-fit (cybersecurity ~ computer engineering). | override: career-research poster, no engineered product"
+ },
+ "denial-of-service-attack": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Systems, Inputs & Outputs",
+   "Engineering Design Process",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "Execute a denial-of-service attack on a model of a computer network",
+   "Systems, Inputs & Outputs": "requests posted by a client travel over the Internet to a server, which then processes the requests",
+   "Engineering Design Process": "Design and test a solution to prevent a denial-of-service attack on a model of a computer network",
+   "Technology & Society": "Activists may use DoS attacks to damage the target organization's reputation",
+   "Electrical & Computer Engineering": "A student (the guard) will initially oversee the process and can later be used to represent a firewall",
+   "STEL-7": "Design and test a solution to prevent a denial-of-service attack on a model of a computer network",
+   "STEL-2": "requests posted by a client travel over the Internet to a server, which then processes the requests",
+   "STEL-4": "The sad truth is that you might not know your computer, phone, or other Internet-connected device is being used!"
+  },
+  "notes": "Unplugged role-play network model; students design/test a firewall-style defense."
+ },
+ "do-you-want-to-build-a-robot": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-6"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Technology & Society": "Program a microbit, create a micropet, learn the history of robots",
+   "Electrical & Computer Engineering": "Students will learn about robots, how to program a microbit and create a microbit pet",
+   "STEL-6": "Learn about the history of robots and program a microbit"
+  },
+  "notes": "Body is nearly empty; details live in the attached .docx, which was not read."
+ },
+ "e-is-for-erosion": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-4"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "They will create their own landscape to show how water erosion works",
+   "Technology & Society": "determine the impact of the breech on the community",
+   "Environmental Engineering": "Students will learn the effects of wind and water erosion",
+   "Civil Engineering": "they have released all of the water supply in Rawlins",
+   "STEL-4": "Students can explain the impact of a security breech and how it could effect and entire community"
+  },
+  "notes": "Earlier version of the erosion/cybersecurity lesson; activity instructions empty."
+ },
+ "e-is-for-erosion-c-is-for-cybersecurity": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-4"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "They will create their own landscape to show how water erosion works",
+   "Technology & Society": "determine the impact of the breech on the community",
+   "Environmental Engineering": "Students will learn the effects of wind and water erosion",
+   "Civil Engineering": "they have released all of the water supply in Rawlins",
+   "STEL-4": "Give some examples of what could happen to a community with a major security breech?"
+  },
+  "notes": "Activity instructions section is empty; erosion model plus cyber-breach impact slideshow."
+ },
+ "egg-drop": {
+  "eng_concepts": [
+   "Structures, Forces & Materials",
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Structures, Forces & Materials": "students will make a safe container for an egg drop",
+   "Sensors & Measurement": "the students will be using the microbit to sense the impact",
+   "Mechanical Engineering": "Creating a container for a safe egg drop and testing the egg drop",
+   "Electrical & Computer Engineering": "the students will be using the microbit to sense the impact",
+   "STEL-7": "Design and test an egg drop",
+   "STEL-3": "Draw a model of the energy and force being used"
+  },
+  "notes": "Thin body; Energy tag rests on the explicit 'force and energy transfer' learning focus. | override: energy transfer here is science content, not an engineering energy/power topic"
+ },
+ "egg-drop-experiment-using-microbit": {
+  "eng_concepts": [
+   "Structures, Forces & Materials",
+   "Sensors & Measurement",
+   "Criteria, Constraints & Trade-offs",
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Structures, Forces & Materials": "create an apparatus that increases the impulse so that the egg and Microbit do not break on impact",
+   "Sensors & Measurement": "The Microbit should be able to record the acceleration of the falling object",
+   "Criteria, Constraints & Trade-offs": "The apparatus with the lightest, smallest, and most innovative containers in which the egg does not break will be awarded prizes",
+   "Engineering Design Process": "Students will make diagram, list materials needed and build an apparatus that holds an egg and a Microbit that will be dropped from 4-m",
+   "Mechanical Engineering": "Engineer an apparatus that will prevent a raw egg from breaking when dropped from a height of 4 m",
+   "Electrical & Computer Engineering": "The Microbit should be able to record the acceleration of the falling object",
+   "STEL-7": "Engineer an apparatus that will prevent a raw egg from breaking when dropped from a height of 4 m",
+   "STEL-3": "explores Newton’s 2nd Law, momentum and impulse using a microprocessor",
+   "STEL-2": "The apparatus with the lightest, smallest, and most innovative containers in which the egg does not break will be awarded prizes"
+  },
+  "notes": "HS physics egg drop with micro:bit accelerometer logging and explicit lightest/smallest criteria."
+ },
+ "exploration-with-tetrix": {
+  "eng_concepts": [
+   "Fabrication & Making",
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Fabrication & Making": "Give students adequate creating time to build moveable robots using their kits",
+   "Engineering Design Process": "students will plan what movements their team will complete. Try simple things at first such as moving forward or turning",
+   "Mechanical Engineering": "I can build and program a robot to complete a set of functions",
+   "Electrical & Computer Engineering": "Students will connect the brains to the robot and try to perform their agreed upon tasks",
+   "STEL-7": "build moveable robots using their kits and in collaboration with their teammates",
+   "STEL-8": "sort/ organize the school's Tetrix sets to ensure each set is complete"
+  },
+  "notes": "Kit inventory/maintenance then exploratory robot build-program-test-reflect."
+ },
+ "explore-block-programming-with-free-scratch": {
+  "eng_concepts": [],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [],
+  "confidence": "low",
+  "evidence": {
+   "Software Engineering": "Student create an interactive program using cue cards but are able to customize it to their choice"
+  },
+  "notes": "Intro Scratch programming via Scratch Cards; no engineering concept or STEL standard is meaningfully addressed."
+ },
+ "exploring-eye-tracking": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-4"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "simulate eye tracking by observing and recording each other's eye movements while looking at different objects or images",
+   "Technology & Society": "Explain the diverse applications of eye tracking across various fields",
+   "Biomedical Engineering": "Medicine: Diagnosing and treating visual impairments, brain injuries",
+   "Electrical & Computer Engineering": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras.",
+   "STEL-4": "its impact on technology and research",
+   "STEL-1": "Encourage students to think about how eye tracking can be beneficial in their daily lives"
+  },
+  "notes": "Mostly discussion/demo of a sensing technology; hands-on portion is optional or simulated."
+ },
+ "exploring-eye-tracking-a-lesson-for-middle-school-students": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Technology & Society",
+   "Systems, Inputs & Outputs"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "students simulate eye tracking by observing and recording each other's eye movements while looking at different objects or images",
+   "Technology & Society": "What are possible negative effects of eye tracking?",
+   "Systems, Inputs & Outputs": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras",
+   "Biomedical Engineering": "Medicine: Diagnosing and treating visual impairments, brain injuries, or developmental disorders",
+   "Electrical & Computer Engineering": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras",
+   "STEL-4": "its uses in various fields, and its impact on technology and research",
+   "STEL-2": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras"
+  },
+  "notes": "Mostly discussion/demo; hands-on portion is observing and recording peers' eye movements."
+ },
+ "exploring-eye-tracking-a-lesson-for-middle-schoolers": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Technology & Society",
+   "Systems, Inputs & Outputs"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "students simulate eye tracking by observing and recording each other's eye movements while looking at different objects or images",
+   "Technology & Society": "Why is VR eye tracking accuracy important for enhancing user experiences in virtual reality applications?",
+   "Systems, Inputs & Outputs": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras",
+   "Biomedical Engineering": "Medicine: Diagnosing and treating visual impairments, brain injuries, or developmental disorders",
+   "Electrical & Computer Engineering": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras",
+   "STEL-4": "its uses in various fields, and its impact on technology and research",
+   "STEL-2": "Discuss the main components of eye tracking, including eye-tracking devices, infrared light, and cameras",
+   "STEL-8": "Calculate the percentage of successful eye tracking instances for Student B"
+  },
+  "notes": "Revised version adds a tracking-accuracy data-analysis assessment."
+ },
+ "exploring-outputs-with-an-rgb-light-strip": {
+  "eng_concepts": [
+   "Systems, Inputs & Outputs",
+   "Criteria, Constraints & Trade-offs",
+   "Circuits & Electricity"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Systems, Inputs & Outputs": "Students will be able to sequence, adjust, and control an RGB light strip as an output for a computational artifact.",
+   "Criteria, Constraints & Trade-offs": "Your client has set the criteria for what they want.",
+   "Circuits & Electricity": "Pass out the LED strips to the student pairs.",
+   "Electrical & Computer Engineering": "run through a live programming session with your students on how to use an RGB light strip as an output",
+   "STEL-2": "control an RGB light strip as an output for a computational artifact",
+   "STEL-7": "students will design and prototype a light strip for usage in a rock concert"
+  },
+  "notes": "micro:bit + neopixel strip driven to a client's lighting criteria."
+ },
+ "exploring-vr-eye-movement-tracking-accuracy": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "collect data on the accuracy of eye tracking by recording the number of successful and unsuccessful eye tracking instances",
+   "Technology & Society": "Encourage students to consider the ethical and social implications of using eye tracking technology in VR.",
+   "Biomedical Engineering": "Provide each group with a VR headset equipped with eye tracking functionality (if available).",
+   "STEL-8": "test the accuracy of an eye movement tracking program",
+   "STEL-4": "Discuss the potential applications and implications of improving eye tracking accuracy in VR technology."
+  },
+  "notes": "Students assess an existing eye-tracking system's accuracy; no design/build."
+ },
+ "exploring-vr-eye-tracking-accuracy": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "Ask the students to collect data on the accuracy of eye tracking by recording the number of successful and unsuccessful eye tracking instances",
+   "Technology & Society": "Encourage students to consider the ethical and social implications of using eye tracking technology in VR.",
+   "Biomedical Engineering": "simulate an eye tracking system by observing and recording each other’s eye movement",
+   "STEL-8": "how data is collected from tracking systems, and how to understand the data",
+   "STEL-4": "start to better understand the social implications of using these systems in all fields"
+  },
+  "notes": "Near-duplicate of exploring-vr-eye-movement-tracking-accuracy (GazeSense variant)."
+ },
+ "factors-and-hazards-part-one": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "They learn how to measure precipitation with a rain gauge and how to measure temperature with a thermometer.",
+   "Environmental Engineering": "Students learn how meteorologists use weather tools to collect data.",
+   "STEL-8": "Demonstrate how to accurately read a thermometer."
+  },
+  "notes": "Weather-instrument use only; the PLTW design challenge is not in this part."
+ },
+ "fat-bear-fishing": {
+  "eng_concepts": [
+   "Control & Feedback"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Control & Feedback": "They will program the devices to signal when the opposite animal gets closer.",
+   "Electrical & Computer Engineering": "use micro:bits to design a predator/prey program on micro:bits that assigns each device a fish or bear identity",
+   "STEL-7": "5/6 Students will be able to create a functional predator/prey program for micro:bits",
+   "STEL-2": "program the devices to signal when the opposite animal gets closer"
+  },
+  "notes": "micro:bit animal-tracker (proximity signal) program; 1/2 grade portion is science observation."
+ },
+ "fraction-racing": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Sensors & Measurement",
+   "Systems, Inputs & Outputs"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Engineering Design Process": "Students engineered mint mobiles to race through a micro bit timing gate.",
+   "Sensors & Measurement": "Two gates are connected to the micro:bit so it can detect a car passing through them.",
+   "Systems, Inputs & Outputs": "how a computing device takes input, stores information, processes input and information, and provides output",
+   "Mechanical Engineering": "How did the design of your mint mobile affect the speed?",
+   "Electrical & Computer Engineering": "Two gates are connected to the micro:bit so it can detect a car passing through them.",
+   "STEL-7": "Designs to change velocity of a mint mobile",
+   "STEL-3": "construct an explanation relating the speed of an object to the energy of that object",
+   "STEL-2": "creates a simple example of how a computing device takes input, stores information, processes input and information, and provides output"
+  },
+  "notes": "Car build is referenced as a prior STEAM project; redesign step implied via reflection only."
+ },
+ "geocaching-with-microbits": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "Have students read how the compass sensor works.",
+   "Engineering Design Process": "Have students work in groups and brain storm how to program the Microbit so that it can work as a compass.",
+   "Electrical & Computer Engineering": "Students make a Microbit that functions as a compass using magnetic north.",
+   "STEL-7": "Discuss with students what went well and what needs improving.",
+   "STEL-3": "Can students accurately determine Earth’s magnetic north using a micro-processor to have a successful geocaching experience?"
+  },
+  "notes": "Brainstorm -> build -> log trials/errors -> review improvements; earth-science content integrated."
+ },
+ "geometric-planter-find-volume": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Modeling & Simulation": "using the manipulative to create their own designed geometric planter and then find the total volume of their planter",
+   "Technology & Society": "What you think the future of 3D printing will look like ?",
+   "Mechanical Engineering": "Students will be able to create their own geometric planter.",
+   "STEL-3": "create their own designed geometric planter and use it to gain deeper understanding about the concept of the total volume",
+   "STEL-7": "Give students paper to write and draw their shape"
+  },
+  "notes": "Primarily a geometry lesson; Tinkercad/Blender/3D printing are shown, not used."
+ },
+ "getting-active-with-microbit": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Engineering Design Process",
+   "Troubleshooting & Failure Analysis"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Biomedical Engineering"
+  ],
+  "stel": [
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "Pupils design and program the micro:bit to be a star-jump and step counter and a family activity selector.",
+   "Engineering Design Process": "Analysing, programming and evaluating step-counters",
+   "Troubleshooting & Failure Analysis": "How can I debug a program algorithm that uses varibles?",
+   "Electrical & Computer Engineering": "Pupils design and program the micro:bit to be a star-jump and step counter",
+   "Biomedical Engineering": "program the micro:bit to be a star-jump and step counter",
+   "STEL-7": "Programming and evaluating a family activity picker",
+   "STEL-8": "Analysing, programming and evaluating step-counters"
+  },
+  "notes": "Body is a link to the microbit.org Getting Active unit; tags rest on the description text."
+ },
+ "getting-results-1-print-at-a-time": {
+  "eng_concepts": [
+   "Fabrication & Making",
+   "Criteria, Constraints & Trade-offs",
+   "Troubleshooting & Failure Analysis",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Industrial & Systems Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Fabrication & Making": "They will export the STL file to get sliced for the 3D printer.",
+   "Criteria, Constraints & Trade-offs": "Students produce a dimensionally accurate key chain through tinkercad.",
+   "Troubleshooting & Failure Analysis": "If there are errors, describe how you would fix them.",
+   "Technology & Society": "Students will then be introduced into careers in computer science and fabrication.",
+   "Mechanical Engineering": "The student will generate and print a dimensionally accurate 3D model.",
+   "Industrial & Systems Engineering": "They will also document estimated print time with the actual print times to compare differences.",
+   "STEL-7": "Students will use Tinkercad to make a basic key chain with their own name on it.",
+   "STEL-8": "Record the estimated print time and start time.",
+   "STEL-1": "Students will then be introduced into careers in computer science and fabrication."
+  },
+  "notes": "CAD -> slice -> print, plus estimated-vs-actual print-time process data."
+ },
+ "godot-rl-agents-activity": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Troubleshooting & Failure Analysis"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "create a custom environment in the Godot Game Engine and then implement an AI controller that learns to play with Deep Reinforcement Learning",
+   "Troubleshooting & Failure Analysis": "Full configuration of rl setup, relatively involved setup that even includes bug fixes.",
+   "Software Engineering": "Install godot_rl agents, adjust parameters, train models",
+   "STEL-8": "Were you able to get godot_rl agents working with ringpong?"
+  },
+  "notes": "Pure software (RL agent in a game engine); supplements list unrelated micro:bit files."
+ },
+ "health-care-devices-2": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Sensors & Measurement",
+   "Technology & Society",
+   "Troubleshooting & Failure Analysis"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "Students will brainstorm and program a device to address a real-world healthcare problem, of their choice.",
+   "Sensors & Measurement": "As a class, complete this Step counter activity provided by mirco:bit",
+   "Technology & Society": "how technology addresses many of the largest health issues we face",
+   "Troubleshooting & Failure Analysis": "Students will use the algorithm to write, test and debug a working Micro:bit program",
+   "Biomedical Engineering": "create a prototype of a device that is used within the healthcare system, using mirco:bit",
+   "Electrical & Computer Engineering": "What are some devices used within the healthcare system that we can program using a micro:bit?",
+   "STEL-7": "Students will develop and understand the importance of prototyping",
+   "STEL-4": "the ever growing uses of technology devices within the healthcare profession"
+  }
+ },
+ "hexbug-mazes": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs",
+   "Structures, Forces & Materials",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-6",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "For this activity we will be using the engineering design process.",
+   "Criteria, Constraints & Trade-offs": "Discuss Supplies and Constraints for this challenge.",
+   "Structures, Forces & Materials": "A maze usually has to have 3D walls.",
+   "Technology & Society": "Students will learn about how computing technologies have changed the world.",
+   "Mechanical Engineering": "Students will need to build their maze so that their HexBug starts at the bug and makes it to the trash can.",
+   "Civil Engineering": "Talk about how a path in a maze is different then building a road.",
+   "STEL-7": "For Improve: Once the timer goes off, have students stop and look at their design. How can you make it better?",
+   "STEL-6": "Students will learn about how Margaret Hamilton saved the first lunar landing.",
+   "STEL-4": "How has computer technology changed the world?",
+   "STEL-2": "Discuss Supplies and Constraints for this challenge."
+  },
+  "notes": "Explicit Ask/Imagine/Plan/Create/Improve EDP; discipline fit for a tabletop robot maze is approximate."
+ },
+ "inputoutput-whats-it-all-about": {
+  "eng_concepts": [
+   "Systems, Inputs & Outputs",
+   "Circuits & Electricity"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Systems, Inputs & Outputs": "will use the Micro:bits to demonstrate various examples of inputs and outputs",
+   "Circuits & Electricity": "Discuss what the V and the GND stand for",
+   "Electrical & Computer Engineering": "Write a program for the micro:bit (input) that creates an output",
+   "STEL-2": "Demonstrate the use of input to create an output"
+  },
+  "notes": "Speaker hookup is optional; pin/GND/3V identification is the only circuits content."
+ },
+ "intro-to-machine-learning": {
+  "eng_concepts": [
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Modeling & Simulation": "Students will train ML models to recognize images in code.org and will understand ML concepts.",
+   "Software Engineering": "Student will use blockly on code.org with guided instructions to train the ai to recognize images.",
+   "STEL-8": "Use problem solving process to train an AI bot, explain simple ML concepts."
+  },
+  "notes": "Very thin body; code.org AI Lab image-classifier training only."
+ },
+ "intro-to-problem-solving": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs",
+   "Troubleshooting & Failure Analysis",
+   "Structures, Forces & Materials"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "define their goals, devise a plan, try a solution, evaluate their results, and then iteratively improve from there",
+   "Criteria, Constraints & Trade-offs": "As a class, read through the Goal and Rules sections of the activity guide and answer questions.",
+   "Troubleshooting & Failure Analysis": "Ask groups to focus particularly on what the eventual failure of their boat was (e.g. it wasn't deep enough, it was unstable, etc.)",
+   "Structures, Forces & Materials": "have them test their boats by dropping individual pennies into the boat",
+   "Mechanical Engineering": "Have them record the total number of pennies held on their activity guides.",
+   "STEL-7": "Iteratively improve a solution to a problem",
+   "STEL-2": "Remind them of the rules, specifically that they can't touch or adjust the boats once they're in the water."
+  },
+  "notes": "Code.org CSD aluminum-boat challenge; two full build-test-redesign iterations."
+ },
+ "inventing-problem-solving-with-the-3-rs-reducereuserecycle": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Troubleshooting & Failure Analysis",
+   "Fabrication & Making"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Environmental Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Engineering Design Process": "create an invention (first by sketching, then by building, testing, and refining) that will solve a character’s problem",
+   "Troubleshooting & Failure Analysis": "stop and talk as a class about how they can troubleshoot and continue building",
+   "Fabrication & Making": "using recycled materials to create an invention",
+   "Mechanical Engineering": "using recycled materials to create an invention that will solve a character’s problem",
+   "Environmental Engineering": "Lots of a variety of recycled materials.",
+   "STEL-7": "Demonstrate/model how to brainstorm & sketch a design.",
+   "STEL-1": "How do inventors solve problems?"
+  },
+  "notes": "K-2 open-ended invention from recycled materials (Rosie Revere, Engineer); discipline is approximate."
+ },
+ "keep-your-lips-sealed": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Technology & Society": "TSW describe ways people can use information maliciously.",
+   "STEL-4": "Many people will openly provide information with minimal thought to how the information can be used maliciously.",
+   "STEL-8": "ALWAYS stay alert and aware on the Internet. If it looks fishy, treat it as such."
+  },
+  "notes": "Cybersecurity/social-engineering awareness; no engineering build. Discipline fit is weak (information security). | override: social-engineering awareness lesson, nothing is engineered"
+ },
+ "lesson-1-activity-geometric-planter-find-total-surface-area": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-4",
+   "STEL-7"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Modeling & Simulation": "using the manipulative to create their own designed geometric planter and then find the total surface area of their planter",
+   "Technology & Society": "so students know what is 3 D printing and its impact to today’s world",
+   "Mechanical Engineering": "Students will be able to create their own geometric planter.",
+   "STEL-3": "create their own designed geometric planter and use it to gain deeper understanding about the concept of the total surface area",
+   "STEL-4": "What you think the 3D printing is use in today's society?",
+   "STEL-7": "Give students paper to write and draw their shape"
+  },
+  "notes": "Sister lesson to geometric-planter-find-volume; 3D printing discussed via video, not used."
+ },
+ "lesson-8-how-does-a-cups-surface-affect-how-light-warms-up-a-liquid-inside-the-c": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Materials & Chemical Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "Have students program a simple light meter.",
+   "Modeling & Simulation": "Guide students as they draw models to explain how light warmed up water differently in clear versus opaque cups.",
+   "Electrical & Computer Engineering": "Have students sync their MICRO:BITS with their iPads. Have students program a simple light meter.",
+   "Materials & Chemical Engineering": "We shine light on cups with walls of different materials and colors",
+   "STEL-3": "This is measured by a micro:bit programmed to measure light.",
+   "STEL-8": "Demonstrate how to take light readings. Collect and record temperature and light measurements"
+  },
+  "notes": "OpenSciEd science investigation with a micro:bit light meter as the engineering component."
+ },
+ "lesson-plan-2-first-lego-league-white-energy-journey": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Troubleshooting & Failure Analysis",
+   "Control & Feedback",
+   "Energy & Power"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "Design model changes to make the driving base more effective, faster, or accurate and record changes in their Engineering Notebook",
+   "Troubleshooting & Failure Analysis": "Students will have to problem solve to find errors in code and re-program their driving bases",
+   "Control & Feedback": "how a sensor could be helpful to get the robot to stop in the right place",
+   "Energy & Power": "What technologies exist that allow us to capture and store energy from these renewable resources?",
+   "Mechanical Engineering": "Build a simple driving base using LEGO ® SPIKE PRIME materials",
+   "Electrical & Computer Engineering": "connect and use the sensors and motors contained in the LEGO SPIKE PRIME building sets",
+   "STEL-7": "Draw or sketch their models prior to beginning construction",
+   "STEL-8": "find errors in code and re-program their driving bases to allow their model to follow the most accurate and direct path",
+   "STEL-4": "in terms of energy availability, use and impact on the environment",
+   "STEL-2": "How could stopping a motor help you solve a mission with your robot?"
+  },
+  "notes": "SPIKE Prime driving base build/code/debug framed by renewable-energy discussion."
+ },
+ "makecode-for-the-musical": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs",
+   "Circuits & Electricity"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-5",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "Students then went through the design thinking process to develop design ideas.",
+   "Criteria, Constraints & Trade-offs": "A requirement of all projects is that they needed to include light(s) in some capacity.",
+   "Circuits & Electricity": "Students also did a review of soldering in order to properly solder the neopixels for easier connection to the Micro:bit",
+   "Electrical & Computer Engineering": "Students will learn how to incorporate neopixel lights into Makecode and Micro:bits",
+   "STEL-7": "Much of the rest of the project was going through the iterative process of design",
+   "STEL-5": "Students researched the history of the musical (Chicago) including major cultural things happening during the 1920s era.",
+   "STEL-8": "Students also did a review of soldering"
+  },
+  "notes": "FabLab lighting design for a school musical; cultural research explicitly shapes the design (STEL-5)."
+ },
+ "microbit-compass": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-8"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Sensors & Measurement": "Student will program a microbit that locate magnetic north, south, east and west.",
+   "Electrical & Computer Engineering": "program a microbit to find true north.",
+   "STEL-3": "explain how does microbit correspond to the Earth magnetic pull",
+   "STEL-8": "students will problem solve to locate objects using their microbit."
+  },
+  "notes": "Marked DRAFT; activity instructions and assessment are 'To be determined'."
+ },
+ "microbit-guitar": {
+  "eng_concepts": [
+   "Circuits & Electricity",
+   "Systems, Inputs & Outputs",
+   "Energy & Power",
+   "Fabrication & Making"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Circuits & Electricity": "Attach the GND pin to the lone strip using alligator clips.",
+   "Systems, Inputs & Outputs": "Draw a picture of how information gets into and out of a computer.",
+   "Energy & Power": "Diagram how energy can turn into digital and analog information",
+   "Fabrication & Making": "Have students cut out a cardboard instrument and affix three strips of foil",
+   "Electrical & Computer Engineering": "Then use alligator clips to the three other strips to pins 0, 1, 2.",
+   "STEL-2": "Describe the components of the instrument and how they interact with the computer (Internet of Things)",
+   "STEL-3": "create a cardboard instrument changing thermal energy to sound energy",
+   "STEL-7": "Develop and add to code to improve and develop a unique instrument"
+  },
+  "notes": "Near-duplicate of microbit-guitars (same author/activity); this version adds the I/O diagram and IoT component objectives."
+ },
+ "microbit-guitars": {
+  "eng_concepts": [
+   "Circuits & Electricity",
+   "Energy & Power",
+   "Fabrication & Making"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Circuits & Electricity": "Attach the GND pin to the lone strip using alligator clips.",
+   "Energy & Power": "explain how energy is converted from touch to electricity to sound.",
+   "Fabrication & Making": "Have students cut out a cardboard instrument and affix three strips of foil",
+   "Electrical & Computer Engineering": "Then use alligator clips to the three other strips to pins 0, 1, 2.",
+   "STEL-3": "explain how energy transfer occurs in order for the guitar to work.",
+   "STEL-7": "Share guitars and discuss what went well and what needs to be modified."
+  },
+  "notes": "Near-duplicate of microbit-guitar; fewer stated objectives so fewer tags."
+ },
+ "microbit-programming": {
+  "eng_concepts": [
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-7"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Criteria, Constraints & Trade-offs": "Their program must include noise, pictures and words/phrases",
+   "Electrical & Computer Engineering": "Program a microbit to perform various tasks.",
+   "STEL-7": "Creating a program for their microbit 'pets'."
+  },
+  "notes": "Very thin body (earlier draft of the micropet lesson); only the requirement list is evidenced."
+ },
+ "microbit-programming-creating-a-micropet": {
+  "eng_concepts": [
+   "Systems, Inputs & Outputs",
+   "Control & Feedback",
+   "Troubleshooting & Failure Analysis",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Systems, Inputs & Outputs": "Students will create a micropet which will perform various outputs depending on the input.",
+   "Control & Feedback": "Pet must be able to show an emotion when you turn it upside down or right side up.",
+   "Troubleshooting & Failure Analysis": "Students will recognize programming faults and be able to make corrections.",
+   "Criteria, Constraints & Trade-offs": "Pet must be able to show a name when you push button A",
+   "Electrical & Computer Engineering": "Pet must be able to make a noise when you shake it",
+   "STEL-2": "perform various outputs depending on the input",
+   "STEL-7": "Students will create a micropet and then program it to perform various outcomes",
+   "STEL-8": "What changes did you need to make to your program?"
+  },
+  "notes": "Thin body; objectives list is an explicit requirements spec (5 must-haves)."
+ },
+ "microbit-step-counter": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Troubleshooting & Failure Analysis",
+   "Fabrication & Making",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Sensors & Measurement": "Every time the micro:bit is shaken it adds to the step count and shows it!",
+   "Troubleshooting & Failure Analysis": "Students can troubleshoot and debug any issues.",
+   "Fabrication & Making": "design an ankle or wrist strap to attach the micro:bit.",
+   "Criteria, Constraints & Trade-offs": "Make it comfortable to wear and lightweight.",
+   "Biomedical Engineering": "students can create their own fitness step counter strap to attach to their wrist or ankles.",
+   "Electrical & Computer Engineering": "Students will be able to independently create a program and download it to micro:bit.",
+   "STEL-7": "What differences were there between the designs of the strap?",
+   "STEL-8": "Students can troubleshoot and debug any issues."
+  },
+  "notes": "Strap design is an extension activity; step counting (body sensing) drives the Biomedical primary."
+ },
+ "microbits-on-the-fly-with-lego-cars": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Engineering Design Process",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Sensors & Measurement": "code and use the microbit to measure acceleration using the accelerometer sensor",
+   "Engineering Design Process": "Students will collect and use data to improve their model.",
+   "Technology & Society": "Where do we find sensors in our lives and how are they used? What are some benefits?",
+   "Mechanical Engineering": "Students will create a Lego car prototype",
+   "Electrical & Computer Engineering": "Students will be able to code a microbit to use the accelerometer sensor.",
+   "STEL-7": "Students will use collected data (acceleration, performance, etc.) to improve their prototype.",
+   "STEL-4": "Where do we find sensors in our lives and how are they used? What are some benefits?",
+   "STEL-8": "code a micro:bit to measure its acceleration to. prove you have the fastest car."
+  },
+  "notes": "Build car, measure acceleration, iterate: build-test-improve cycle."
+ },
+ "mindstorms-and-hidden-figures": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Troubleshooting & Failure Analysis",
+   "Modeling & Simulation",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Aerospace Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "They will then be allowed to redesign their robot and attempt to orbit the moon again.",
+   "Troubleshooting & Failure Analysis": "Students can identify issues with robot design and attempt to modify the robot to address them.",
+   "Modeling & Simulation": "given an object (in this case an ottoman) to represent the moon and a starting position (in this case a bookshelf)",
+   "Criteria, Constraints & Trade-offs": "program their robot to go to the 'moon', circle it twice, and return to 'Earth.'",
+   "Mechanical Engineering": "I will have students design a basic robot with Lego Mindstorms.",
+   "Aerospace Engineering": "What information do you need to successfully orbit the moon?",
+   "STEL-7": "They will then be allowed to redesign their robot and attempt to orbit the moon again.",
+   "STEL-8": "Students can identify issues with robot design and attempt to modify the robot to address them.",
+   "STEL-3": "How important is math when programming your robot to orbit the moon?"
+  },
+  "notes": "Aerospace is thematic (physical model of a lunar orbit); the hands-on work is Mindstorms robotics."
+ },
+ "ml-learning": {
+  "eng_concepts": [
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "Train aibot to detect patterns in fish.",
+   "Software Engineering": "Use machine learning to help robot clean up the ocean and how to identify fish.",
+   "STEL-8": "Have students count the number of fish identified correctly by the ai."
+  },
+  "notes": "Code.org AI for Oceans; purely software/ML, no physical build; body is thin."
+ },
+ "modeling-plate-motions-using-microbit-technology": {
+  "eng_concepts": [
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Modeling & Simulation": "Students will be able to create a model of the plate motions using mircobit technology.",
+   "Electrical & Computer Engineering": "create a model that represents the three plate motions on their microbits",
+   "STEL-3": "explaining how their modeled created on their microbits actually represents the specific plate boundary",
+   "STEL-7": "explore the microbit website to figure out a way in which they can create a model"
+  },
+  "notes": "Science-modeling lesson; ECE only because the model runs on micro:bit hardware (per micro:bit rule). No test/improve cycle."
+ },
+ "penguin-lab": {
+  "eng_concepts": [
+   "Structures, Forces & Materials",
+   "Sensors & Measurement",
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Materials & Chemical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Structures, Forces & Materials": "testing different materials to determine which ones will be best to build the penguin's homes out of",
+   "Sensors & Measurement": "coded to read the temperature inside the home of the penguin",
+   "Engineering Design Process": "Then, students will build their prototype home, and also code 2 micro:bit devices.",
+   "Criteria, Constraints & Trade-offs": "Were you able to have a minimum of loss for your penguin?",
+   "Materials & Chemical Engineering": "Construct an penguin home to prevent the phase change of their Ice-Cube Penguin",
+   "Electrical & Computer Engineering": "Code 2 micro:bit devices to be a radio and receiver to record the temperature inside the igloo.",
+   "STEL-7": "students will build their prototype home",
+   "STEL-3": "What is the phase change your penguin went through?",
+   "STEL-8": "Were you able to code a radio that would read the temperature, and then send the temperature recording to a receiver?"
+  },
+  "notes": "Insulated enclosure + micro:bit radio temperature logger; mass loss is the success metric."
+ },
+ "plotting-data-in-python-using-matplotlib": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Aerospace Engineering",
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Sensors & Measurement": "Students will record flight data from their drones and plot the data against time using Python.",
+   "Aerospace Engineering": "Have your drone complete a mission",
+   "Software Engineering": "Create a program in Python called DronePlot.py.",
+   "STEL-8": "Students will test the limits of their drones and compare the resulting data.",
+   "STEL-3": "What type of chart/graph would you use to show a data series over time?"
+  },
+  "notes": "Drone telemetry (battery voltage, height, air pressure) plotted with pandas/matplotlib; no design iteration."
+ },
+ "radio-communicating-with-microbits": {
+  "eng_concepts": [
+   "Systems, Inputs & Outputs",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-6",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Systems, Inputs & Outputs": "code the ‘a’ and ‘b’ buttons to send two different messages",
+   "Technology & Society": "uses and applications of coded messaging throughout history",
+   "Electrical & Computer Engineering": "Code a microbit to send a radio signal to another microbit",
+   "STEL-6": "uses and applications of coded messaging throughout history",
+   "STEL-4": "Why is it important to send messages that are coded/encrypted?",
+   "STEL-7": "create a coded messaging program that can send coded messages to other microbits."
+  },
+  "notes": "micro:bit radio + student-designed encoding; design is single-pass (no explicit test/improve)."
+ },
+ "robotics-for-students-in-the-functional-life-skills-fls-program": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Technology & Society",
+   "Fabrication & Making"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-4",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Engineering Design Process": "create a robotics artifact, using the tools and materials provided, through employing the design cycle.",
+   "Technology & Society": "Discuss with students ways robots help us.",
+   "Fabrication & Making": "Allow students opportunity to build robot kits, focusing on shapes.",
+   "Mechanical Engineering": "driving a Sphero through a set of obstacles",
+   "STEL-1": "Discuss with students what a robot is and what it does.",
+   "STEL-4": "Discuss with students their ideas for the future of robots.",
+   "STEL-7": "create a robotics artifact, using the tools and materials provided, through employing the design cycle."
+  },
+  "notes": "Design cycle is named but stages (test/improve) are not spelled out; exploratory robotics for students with complex needs."
+ },
+ "safety-city": {
+  "eng_concepts": [
+   "Modeling & Simulation",
+   "Control & Feedback"
+  ],
+  "eng_disciplines": [
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-7"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Modeling & Simulation": "Create a safety city scale model",
+   "Control & Feedback": "make a working traffic light system",
+   "Civil Engineering": "Create a safety city scale model and make a working traffic light system.",
+   "STEL-7": "How can we make this model better? We can work together as a group to improve it.",
+   "STEL-4": "Role playing let them experience the safety world and obey lights."
+  },
+  "notes": "Very thin body; how the traffic light is built (materials: 'Website') is unspecified, so no ECE tag."
+ },
+ "scientific-technologies": {
+  "eng_concepts": [
+   "Technology & Society",
+   "Modeling & Simulation",
+   "Systems, Inputs & Outputs"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-6",
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "How have the technologies evolved over time.",
+   "Modeling & Simulation": "recreate one of the technologies with a micro:bit",
+   "Systems, Inputs & Outputs": "explain what the technology does and how it does it (in simple terms).",
+   "Electrical & Computer Engineering": "Make a radio collar micro:bit to show the students an example of a real scientific technology",
+   "STEL-1": "the technologies that are used to solve-problems in that field",
+   "STEL-6": "How have the technologies evolved over time.",
+   "STEL-7": "what's one way you would improve or enhance the technology?"
+  },
+  "notes": "Research + micro:bit replica of a student-chosen scientific instrument; discipline of the replica varies by student."
+ },
+ "scranimal-island-this-lesson-will-span-across-the-3-lessons-in-the-library": {
+  "eng_concepts": [],
+  "eng_disciplines": [],
+  "stel": [],
+  "confidence": "low",
+  "evidence": {},
+  "notes": "Intentionally untagged: this session is poetry + grid-paper drawing; micro:bit coding is deferred ('Next time we meet, we will begin coding your scranimals using Micro:bits'). No quotable engineering activity."
+ },
+ "scratch-multi-level-maze": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Troubleshooting & Failure Analysis",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "Students will provide feedback to peers and redesign or improve their game based on the feedback",
+   "Troubleshooting & Failure Analysis": "Run activity to check for debugging opportunities.",
+   "Criteria, Constraints & Trade-offs": "Will add different components by following a checklist",
+   "Software Engineering": "Students will use Scratch to create a multi-level maze.",
+   "STEL-7": "Use a design process to follow guidelines.",
+   "STEL-8": "Play their maze, notice what doesn't work."
+  },
+  "notes": "Software-only game build with peer feedback and redesign."
+ },
+ "sea-creature-safety": {
+  "eng_concepts": [
+   "Systems, Inputs & Outputs",
+   "Control & Feedback",
+   "Engineering Design Process",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Environmental Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Systems, Inputs & Outputs": "learn how micro:bit inputs (sensors) and outputs (LED lights) can be used to make a prototype",
+   "Control & Feedback": "introduce theory and application of selection (IF statements), sensors (light sensors) and outputs (LED display).",
+   "Engineering Design Process": "Use the algorithm and program as a starting point and ask students to improve the prototype.",
+   "Technology & Society": "How can we impact our environment with technology?",
+   "Electrical & Computer Engineering": "uses micro:bit’s LED to emit a low wattage, red light in a turtle shape",
+   "Environmental Engineering": "Let students create their own prototype for helping turtles that is not a beach light.",
+   "STEL-7": "Encourage students to create their own prototype algorithm and program, without referencing the example.",
+   "STEL-4": "How can we impact our environment with technology?",
+   "STEL-2": "learn how micro:bit inputs (sensors) and outputs (LED lights) can be used to make a prototype"
+  },
+  "notes": "Turtle-safe beach light: light sensor threshold drives red LED output; students critique and improve a starter prototype."
+ },
+ "secrets-told": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [],
+  "stel": [
+   "STEL-4",
+   "STEL-5",
+   "STEL-6"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "The history behind code is long and intricate. Below are examples of how code exists now and in the past.",
+   "STEL-6": "Many methods of coding exist and have existed for many years, long before it was a recognized method of communication.",
+   "STEL-4": "creating messages using a Caesar Cipher can ensure that messages are encrypted and can't be understood by hackers.",
+   "STEL-5": "Sending coded messages that cannot be easily decoded is vital to the secrecy of military operations."
+  },
+  "notes": "Paper Caesar-cipher practice + Navajo Code Talkers film; nothing is engineered, so no discipline tagged."
+ },
+ "security-risks-consequences": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "Students will also consider what the global or societal impact is of their selected security risk.",
+   "STEL-4": "Students will consider and list possible solutions to their described impacts (1-3 solutions for each negative impact described).",
+   "STEL-8": "What are three ways you can protect your personally identifiable information in the digital world?"
+  },
+  "notes": "Cybersecurity-awareness research, infographic and flash talk; no engineered product, so no discipline tagged."
+ },
+ "self-driving-moral-dilemma-and-machine-learning-1": {
+  "eng_concepts": [
+   "Technology & Society",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [],
+  "stel": [
+   "STEL-4",
+   "STEL-5"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "identify the moral obligation of a computer in this situation and discuss with their partner if they think computers should be given these choices",
+   "Modeling & Simulation": "Upon simulation completion students will be given a bar graph indicating their implicit biases identified by the machine learning.",
+   "STEL-4": "Describe issues of bias and accessibility in the design of technologies.",
+   "STEL-5": "label their own logical fallacies and cultural biases"
+  },
+  "notes": "Ethics discussion using the Moral Machine simulation; students build nothing, so no discipline tagged."
+ },
+ "sensory-classroom": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs",
+   "Fabrication & Making",
+   "Circuits & Electricity"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Biomedical Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-3",
+   "STEL-5",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "design thinking cycle where they prototype, test, re-design, fix, prototype, test, etc.",
+   "Criteria, Constraints & Trade-offs": "project parameters (such as hiding all electronics, having access to the battery pack, diffusion of light",
+   "Fabrication & Making": "Students then prototyped this design with scrap materials.",
+   "Circuits & Electricity": "Students then learned what NeoPixels are and how to hook them up to Micro:bits.",
+   "Electrical & Computer Engineering": "use micro:bits, makecode.com, and neopixels to design, prototype, and completely build out one design",
+   "Biomedical Engineering": "communicated with our SPED staff to assess the needs of our SPED students",
+   "STEL-7": "design thinking cycle where they prototype, test, re-design, fix, prototype, test, etc.",
+   "STEL-2": "project parameters (such as hiding all electronics, having access to the battery pack, diffusion of light",
+   "STEL-5": "assess the needs of our SPED students in order to create meaningful designs",
+   "STEL-3": "use their knowledge of sensory disorders to create a lighting design"
+  },
+  "notes": "Richest EDP lesson in batch; also evidences failure analysis ('reasoning(s) behind the failure of the design') but capped at 4 concepts. Biomedical = assistive tech for sensory needs."
+ },
+ "shaw-plans-for-classroom-implementation": {
+  "eng_concepts": [
+   "Control & Feedback",
+   "Sensors & Measurement",
+   "Technology & Society",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Control & Feedback": "introducing students to the concepts of finite state machines (FSM)",
+   "Sensors & Measurement": "Students will collect data on the length of time the traffic lights remain red, yellow, and green.",
+   "Technology & Society": "what might happen if the traffic signal stops working or remains red or green too long in one direction",
+   "Modeling & Simulation": "an online game created by the University of Minnesota called Gridlock Buster where students are responsible for controlling traffic signals",
+   "Electrical & Computer Engineering": "Program an Arduino Micro controller, collect data, create flowcharts, interpret data.",
+   "Civil Engineering": "the class will walk to a nearby intersection that utilizes traffic lights",
+   "STEL-2": "demonstrations of their capability, as well as controlling model traffic signals",
+   "STEL-4": "what might happen if the traffic signal stops working or remains red or green too long in one direction",
+   "STEL-8": "After spending time programming and operating the Arduino boards"
+  },
+  "notes": "Arduino FSM traffic signals + field timing data + Gridlock Buster simulation; also mentions side-channel/SPA (hardware security) at intro level."
+ },
+ "sound-wave-basics-with-microbits": {
+  "eng_concepts": [
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Modeling & Simulation": "This lesson uses MakeCode and micro:bit to analyze sound waves.",
+   "Electrical & Computer Engineering": "Using MakeCode and micro:bit, sound waves will be analyzed.",
+   "STEL-3": "apply the parts of a wave to sound",
+   "STEL-7": "Students will then design their own sound waves using code."
+  },
+  "notes": "Primarily a physics-of-waves lesson; micro:bit generates/visualizes tones. Thin body."
+ },
+ "student-choice-mission": {
+  "eng_concepts": [
+   "Systems, Inputs & Outputs"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Software Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Systems, Inputs & Outputs": "Implement a plan for developing a piece of software that integrates hardware inputs and outputs",
+   "Electrical & Computer Engineering": "Prototype a physical computing device",
+   "Software Engineering": "Independently scope the features of a piece of software",
+   "STEL-7": "Prototype a physical computing device",
+   "STEL-2": "a piece of software that integrates hardware inputs and outputs, or explain the inner workings of a physical computer"
+  },
+  "notes": "Body defers to attached .docx ('See Attached Lesson'); project options span software scoping and Arduino/RPi physical-computing prototypes."
+ },
+ "surprise-we-get-to-have-new-pets": {
+  "eng_concepts": [
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Engineering Design Process": "Make changes and test again, repeating until satisfied with the product",
+   "Electrical & Computer Engineering": "creating a micro:pet with a partner",
+   "STEL-7": "Identify ways I can make changes and test a micro:bit."
+  },
+  "notes": "Links to MakeCode CS Intro 'making' project; a physical pet build is implied by the project but not described in the file."
+ },
+ "thanksgiving-day-parade": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs",
+   "Structures, Forces & Materials"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-6",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "Create: Build your prototype Experiment: Test your design. Take notes. Improve: What could you do to improve your design?",
+   "Criteria, Constraints & Trade-offs": "Your device must keep the balloon in the air and upright.",
+   "Structures, Forces & Materials": "Students will construct a device to keep the balloon in the air as if it had helium in it.",
+   "Mechanical Engineering": "code their Sphero robot to drive their balloon through the parade route",
+   "STEL-7": "Have students use the engineering design process below to complete this challenge.",
+   "STEL-2": "Challenge yourself to get your balloon as high up in the air as possible.",
+   "STEL-6": "This book tells the true story of how Tony Sarg made the first parade balloons."
+  },
+  "notes": "Full Ask/Imagine/Plan/Create/Experiment/Improve cycle plus Sphero coding; history via Balloons Over Broadway read-aloud."
+ },
+ "traffic-light-arduino": {
+  "eng_concepts": [
+   "Control & Feedback",
+   "Circuits & Electricity",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-2",
+   "STEL-7"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Control & Feedback": "Students will be able create a finite machine by coding a traffic light simulator using an Arduino.",
+   "Circuits & Electricity": "Students will program their lights using Arduino code, introducing variables for the light timings.",
+   "Technology & Society": "Guest Speaker Taylor McCort, District 1, Traffic Engineer.",
+   "Electrical & Computer Engineering": "coding a traffic light simulator using an Arduino",
+   "Civil Engineering": "Before the next lesson, identify areas in our city that have different types of timings.",
+   "STEL-7": "Students will design a traffic light simulator using an Arduino to imitate traffic light timings.",
+   "STEL-2": "They will be able to manipulate timings on their lights to change variables within their code.",
+   "STEL-1": "Guest Speaker Taylor McCort, District 1, Traffic Engineer."
+  },
+  "notes": "LED wiring implied by 'their lights' on Arduino; also a side-channel-attack inference objective (security)."
+ },
+ "traffic-light-guest-speaker": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-1"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "Guest Speaker Taylor McCort, District 1, Traffic Engineer. Speaker will discuss traffic light aspects and how they relate to traffic conditions.",
+   "Civil Engineering": "how they are programmed to be most effective for their location",
+   "STEL-1": "Guest Speaker Taylor McCort, District 1, Traffic Engineer."
+  },
+  "notes": "Guest-speaker/KWL-chart lesson, no build; near-duplicate of traffic-light-guest-speaker-2 (co-author Joslin)."
+ },
+ "traffic-light-guest-speaker-2": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-1"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "Guest Speaker Taylor McCort, District 1, Traffic Engineer. Speaker will discuss traffic light aspects and how they relate to traffic conditions.",
+   "Civil Engineering": "how their programmed to be the most effective for their location",
+   "STEL-1": "Guest Speaker Taylor McCort, District 1, Traffic Engineer."
+  },
+  "notes": "Guest-speaker/KWL-chart lesson, no build; near-duplicate of traffic-light-guest-speaker (co-author DeFreece)."
+ },
+ "traffic-signals-real-world-finite-state-machines-2": {
+  "eng_concepts": [
+   "Control & Feedback",
+   "Modeling & Simulation",
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-1",
+   "STEL-2"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Control & Feedback": "How is a traffic signal a finite state machine?",
+   "Modeling & Simulation": "This is a traffic light simulation that requires students to be in charge of changing the light at an intersections",
+   "Technology & Society": "discussion of traffic signals, how engineers program them and what they take into consideration",
+   "Civil Engineering": "Record the timing sequence necessary for optimal traffic flow",
+   "STEL-2": "override the pre-set timing of the traffic lights to create a smoother flow of traffic that diminishes driver frustration",
+   "STEL-1": "how engineers program them and what they take into consideration, and how they use technology and computer science when setting them up"
+  },
+  "notes": "Gridlock Buster web simulation followed by FSM discussion; no hardware."
+ },
+ "use-microbit-to-gather-temperature-data": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Structures, Forces & Materials",
+   "Engineering Design Process",
+   "Energy & Power"
+  ],
+  "eng_disciplines": [
+   "Materials & Chemical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-3",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Sensors & Measurement": "program the micro:bit to measure temperature and gather the data for students to use later to make a graph",
+   "Structures, Forces & Materials": "students build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube",
+   "Engineering Design Process": "discuss ways to improve their design. They will prepare a sketch of the improvements or changes they decided to make to the structure.",
+   "Energy & Power": "determine if we are successful in preventing thermal energy transfer to the inside of the structure (igloo)",
+   "Materials & Chemical Engineering": "build a small structure designed to interfere with thermal transfer from a heat lamp to an ice cube",
+   "Electrical & Computer Engineering": "Program and gather temperature data from micro:bit.",
+   "STEL-7": "They will try multiple 20 minute tests under the heat lamp for this project",
+   "STEL-3": "This lesson is an application of knowledge gathered from prior lessons about heat transfer.",
+   "STEL-8": "Students will compare if the data from the ice cube or the micro:bit was a better measurement tool."
+  },
+  "notes": "Insulated-structure (igloo) test-and-improve cycle instrumented with micro:bit temperature sensor vs. ice-cube mass."
+ },
+ "using-microbits-to-measure-light-level-of-sunlight-for-optimal-plant-growth": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Agricultural & Biological Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "They will program a Microbit to accurately measure the amount of sunlight a plant receives.",
+   "Agricultural & Biological Engineering": "determine the optimal amount of sunlight needed to grow the fastest growing bean plant, from seed to germination",
+   "Electrical & Computer Engineering": "uses Microbit light sensors to determine the optimal amount of sunlight",
+   "STEL-8": "program a Microbit to accurately measure the amount of sunlight a plant receives"
+  },
+  "notes": "Primarily a science investigation instrumented with micro:bit light sensors; no design iteration described in body."
+ },
+ "virtual-pet": {
+  "eng_concepts": [
+   "Fabrication & Making",
+   "Systems, Inputs & Outputs",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Fabrication & Making": "Students will use maker space materials to create a virtual pet that can hold their micro:bit.",
+   "Systems, Inputs & Outputs": "program their micro;bit using at least 3 inputs to show when it has found food, found water, and found shelter",
+   "Modeling & Simulation": "Program their micro;bit to mimic behaviors of an animal as it meets its needs for food, shelter, and water.",
+   "Electrical & Computer Engineering": "program their micro;bit using at least 3 inputs",
+   "STEL-7": "Students will use maker space materials to create a virtual pet that can hold their micro:bit.",
+   "STEL-2": "program their micro;bit using at least 3 inputs to show when it has found food, found water, and found shelter",
+   "STEL-8": "Students will share data collected and whether their data was reliable, based on their coding of their virtual pet."
+  },
+  "notes": "Maker-space enclosure plus micro:bit input programming; data collected to judge simulated animal survival."
+ },
+ "visual-behavior-resource": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [
+   "Civil Engineering"
+  ],
+  "stel": [
+   "STEL-4"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Technology & Society": "Vocabulary of traffic lights and usage in real life world.",
+   "Civil Engineering": "A transportation unit over the side channel vocabulary and explanation of how they work with traffic lights.",
+   "STEL-4": "Why are the traffic lights important?"
+  },
+  "notes": "Classroom behavior-management/unplugged game lesson; Arduino listed in materials but no student use described."
+ },
+ "volcano-animation": {
+  "eng_concepts": [
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-7"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Engineering Design Process": "They then write, program and test an animation showing volcanic eruption using the LEDs on the BBC micro:bit.",
+   "Electrical & Computer Engineering": "an animation showing volcanic eruption using the LEDs on the BBC micro:bit",
+   "STEL-7": "They decompose the process into stages and write a simple flowchart algorithm."
+  },
+  "notes": "Mostly CS (decomposition, flowcharts, repetition); engineering content is the plan-program-test cycle on micro:bit LEDs."
+ },
+ "volcano-interactions-with-earths-spheres": {
+  "eng_concepts": [
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Modeling & Simulation": "challenge students to use the microbit to create a digital eruption",
+   "Electrical & Computer Engineering": "How can you use a microbit to program an eruption?",
+   "STEL-8": "I will then direct them to the microbits website where they can follow the steps to create a digital eruption."
+  },
+  "notes": "Earth-science lesson with a follow-the-steps micro:bit tutorial; the 'digital eruption' is a depiction, so Modeling tag is weak."
+ },
+ "vr-eye-tracking-accuracy": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Technology & Society",
+   "Troubleshooting & Failure Analysis"
+  ],
+  "eng_disciplines": [
+   "Biomedical Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Sensors & Measurement": "collect data on the accuracy of eye tracking by recording the number of successful and unsuccessful eye tracking instances",
+   "Technology & Society": "Encourage students to consider the ethical and social implications of using eye tracking technology in VR.",
+   "Troubleshooting & Failure Analysis": "drawing conclusions based on the data analysis, such as identifying factors that may influence eye tracking accuracy",
+   "Biomedical Engineering": "Provide each group with a VR headset equipped with eye tracking functionality",
+   "STEL-8": "collect data on the accuracy of eye tracking by recording the number of successful and unsuccessful eye tracking instances",
+   "STEL-4": "ethical and social implications of using eye tracking technology in VR"
+  },
+  "notes": "Students assess a body-sensing device's accuracy with spreadsheet analysis; no build."
+ },
+ "wax-museum-technology-part-1": {
+  "eng_concepts": [
+   "Technology & Society"
+  ],
+  "eng_disciplines": [],
+  "stel": [
+   "STEL-4",
+   "STEL-6"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Technology & Society": "students will research ways that technology has impacted the world. They can choose to research people or specific systems.",
+   "STEL-4": "How has technology impacted the world?",
+   "STEL-6": "share 1 thing they learned about their inventor or technology"
+  },
+  "notes": "Unplugged research/writing on technology impacts and inventors; discipline tag is weak (only 'computers' is named). | override: research/writing on technology impacts, no engineered product"
+ },
+ "weather-factors-and-hazards-part-three": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Modeling & Simulation"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Sensors & Measurement": "Use a different graduated cylinder to pour 50mL of water in each funnel.",
+   "Modeling & Simulation": "They explore how water flows through different materials and make a connection between permeability and flooding.",
+   "Environmental Engineering": "How do Earth materials affect the impact of flooding?",
+   "STEL-8": "Guide students to record the amount of water in each graduated cylinder."
+  },
+  "notes": "Scientific-inquiry permeability lab (physical model of ground drainage); no design task in this part, STEL-8 is tool-use only."
+ },
+ "weather-factors-and-hazards-part-two": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "Guide students to record the precipitation, temperature, wind direction, and wind speed on the weather calendar.",
+   "Environmental Engineering": "Why do you think it is important to gather weather data over a long period?",
+   "STEL-8": "Show the windsock and the digital anemometer. Explain how to use the tools."
+  },
+  "notes": "Weather-instrument use (windsock, digital anemometer, rain gauge, thermometer) and data recording; no design task."
+ },
+ "weather-station": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Engineering Design Process",
+   "Criteria, Constraints & Trade-offs"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering",
+   "Environmental Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "develop a Micro:Bit weather station that records at least 3 weather factors",
+   "Engineering Design Process": "use the engineering process to develop a functional weather station that collects data using a Micro:Bit.",
+   "Criteria, Constraints & Trade-offs": "The teacher should provide students with an available materials list.",
+   "Electrical & Computer Engineering": "use previous knowledge of block coding to code a functional data collection Micro:Bit.",
+   "Environmental Engineering": "students develop a 'weather station' where they collect at least three types of weather data.",
+   "STEL-7": "How can I use the engineering process to build a Micro:Bit weather station?",
+   "STEL-2": "records at least 3 weather factors",
+   "STEL-8": "Discuss how digital devices might make collecting data more accurate and simpler."
+  },
+  "notes": "Body is brief; 'engineering process' and plan/produce notebook invoked but steps not enumerated."
+ },
+ "whats-the-w-word-in-wyoming-2": {
+  "eng_concepts": [
+   "Sensors & Measurement",
+   "Fabrication & Making"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering",
+   "Mechanical Engineering"
+  ],
+  "stel": [
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "practice counting the rotations and be ready for the outside experiment",
+   "Fabrication & Making": "Students are going to build their own anemometer to check the wind speeds in their hometown.",
+   "Environmental Engineering": "use their data to help predict the weather and see if the wind is an indicator",
+   "Mechanical Engineering": "The anemometers won't spin if they students grip the pencils too tightly",
+   "STEL-7": "We will build an anemometer to and test it to check wind speeds.",
+   "STEL-8": "Testing them in front of fan worked really well, they were able to practice counting the rotations"
+  },
+  "notes": "Cup-and-pencil anemometer build and fan/outdoor test; activity details live in linked slideshow."
+ },
+ "whats-the-weather": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "medium",
+  "evidence": {
+   "Sensors & Measurement": "Using a micro:bit, students will read and record daily temperatures.",
+   "Environmental Engineering": "Read and record daily temperatures while looking for patterns in the weather as indicated by the micro:bit",
+   "Electrical & Computer Engineering": "Arduinos and Raspberry Pi’s to set up a weather station",
+   "STEL-8": "Using a micro:bit, students will read and record daily temperatures."
+  },
+  "notes": "K-2 intro lesson; Arduino/Raspberry Pi weather station is an extension."
+ },
+ "whats-the-weather-2": {
+  "eng_concepts": [
+   "Sensors & Measurement"
+  ],
+  "eng_disciplines": [
+   "Environmental Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-8"
+  ],
+  "confidence": "low",
+  "evidence": {
+   "Sensors & Measurement": "Micro bit will project temp - students will graph the data accordingly",
+   "Environmental Engineering": "Conference over daily record keeping to make a prediction for the weather",
+   "Electrical & Computer Engineering": "Arduino will be set up as a weather station",
+   "STEL-8": "make a prediction a out weather from their findings"
+  },
+  "notes": "Body defers to 'lesson template' (attached .docx); minimal detail beyond temp reading and graphing."
+ },
+ "white-energy-journey": {
+  "eng_concepts": [
+   "Engineering Design Process",
+   "Troubleshooting & Failure Analysis",
+   "Control & Feedback",
+   "Energy & Power"
+  ],
+  "eng_disciplines": [
+   "Mechanical Engineering",
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-4",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Engineering Design Process": "Design model changes to make the driving base more effective, faster, or accurate",
+   "Troubleshooting & Failure Analysis": "collaborate through moderated discussion to trouble-shoot errors/issues and determine fixes to their robot or code",
+   "Control & Feedback": "How could stopping a motor help you solve a mission with your robot?",
+   "Energy & Power": "What types of renewable energy can we use in our community/state?",
+   "Mechanical Engineering": "Build a simple driving base using LEGO ® SPIKE PRIME materials",
+   "Electrical & Computer Engineering": "connect and use the sensors and motors contained in",
+   "STEL-7": "Draw or sketch their models prior to beginning construction",
+   "STEL-8": "Students should gather data from various trials to determine which 'code' is the most accurate for the desired movement of their model.",
+   "STEL-4": "What are the pros and cons of the different parts of the white energy journey?"
+  },
+  "notes": "SPIKE Prime driving base sketch/build/code/trial cycle; guiding question asks how a sensor could stop the robot; renewable-energy discussion prompts."
+ },
+ "zombie-break-out-alarms": {
+  "eng_concepts": [
+   "Circuits & Electricity",
+   "Control & Feedback",
+   "Troubleshooting & Failure Analysis",
+   "Engineering Design Process"
+  ],
+  "eng_disciplines": [
+   "Electrical & Computer Engineering"
+  ],
+  "stel": [
+   "STEL-2",
+   "STEL-7",
+   "STEL-8"
+  ],
+  "confidence": "high",
+  "evidence": {
+   "Circuits & Electricity": "that it is a completed circuit used with magnetics, and that when you move blocks it stops the circuit or continues it",
+   "Control & Feedback": "There are also some motion sensor blocks, so if something passes in front of it, it triggers other blocks to do something.",
+   "Troubleshooting & Failure Analysis": "Students will be able to trouble shoot their circuit.",
+   "Engineering Design Process": "Students will use Cublets to make an alarm through trial and error.",
+   "Electrical & Computer Engineering": "Students will be able to trouble shoot their circuit.",
+   "STEL-7": "The task is to create an alarm using Cublets that the Zombies can trigger when they get too close to the building.",
+   "STEL-8": "Students will be able to trouble shoot their circuit.",
+   "STEL-2": "some motion sensor blocks, so if something passes in front of it, it triggers other blocks to do something"
+  },
+  "notes": "Cubelets sense-act alarm built by trial and error; EDP tag is the weakest (define/build/test, no explicit redesign step)."
+ }
+}

@@ -15,9 +15,23 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Structures, Forces & Materials
+- Sensors & Measurement
+- Criteria, Constraints & Trade-offs
+- Engineering Design Process
 materials: Website, Micro:bit
 tags:
 - micro:bit
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 3A-AP-13
@@ -36,13 +50,12 @@ standards:
   - HS-ETS1-3
   - HS-ETS1-4
   - HS-PS2-1
+  ITEEA STEL:
+  - STEL-2
+  - STEL-3
+  - STEL-7
 supplements:
 - /uploads/egg-drop-experiment-using-microbit/WySlice_lesson_2_2021_Egg_Drop_Physics_Schwessinger_-_SAM_SCHWESSINGER.docx
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

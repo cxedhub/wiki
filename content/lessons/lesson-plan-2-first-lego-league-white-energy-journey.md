@@ -19,10 +19,24 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Engineering Design Process
+- Troubleshooting & Failure Analysis
+- Control & Feedback
+- Energy & Power
 materials: Website, LEGO First Lego League Challenge Set, iPad, tablet or other personal device, access to the internet
 tags:
 - Project-Based
 - Robotics
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -48,14 +62,14 @@ standards:
   - MS-ETS1-3
   - MS-ETS1-4
   - MS-PS3-1
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
+  - STEL-7
+  - STEL-8
 supplements:
 - /uploads/lesson-plan-2-first-lego-league-white-energy-journey/Lesson_Plan_2-First_LEGO_League_White_Energy_-_Alicia_Vonberg.pdf
 - /uploads/lesson-plan-2-first-lego-league-white-energy-journey/Lesson_Plan_2-First_LEGO_League_White_Energy_1_-_Alicia_Vonberg.pdf
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

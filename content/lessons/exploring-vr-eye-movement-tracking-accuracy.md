@@ -22,10 +22,20 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Biomedical Engineering
+eng_concepts:
+- Sensors & Measurement
+- Technology & Society
 materials: Website, Computer
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-CS-01
@@ -49,10 +59,9 @@ standards:
   - MS-ETS1-3
   - MS-PS3-1
   - MS-PS3-2
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

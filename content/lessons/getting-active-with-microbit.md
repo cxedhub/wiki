@@ -20,11 +20,23 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Biomedical Engineering
+eng_concepts:
+- Sensors & Measurement
+- Engineering Design Process
+- Troubleshooting & Failure Analysis
 materials: 'Website, Micro:bit, Lesson plan Lesson slides Student handouts HEX files Other resources:  colour marker pens MakeCode editor micro:bits (optional) paper - large sheets printouts of slides stacking
   games student work from previous lesson whiteboards & dry-wipe marker pens'
 tags:
 - Unplugged
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -46,13 +58,12 @@ standards:
   - 3-5-ETS1-3
   - 5-ESS1-1
   - 5-ESS1-2
+  ITEEA STEL:
+  - STEL-7
+  - STEL-8
 supplements:
 - /uploads/getting-active-with-microbit/getting-active_-_Connie_Hollin.zip
 - /uploads/getting-active-with-microbit/Connie_H_WYSlice_Lesson_1_-_Connie_Hollin.pdf
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

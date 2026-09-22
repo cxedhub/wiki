@@ -22,6 +22,11 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Structures, Forces & Materials
+- Engineering Design Process
 standards:
   CSTA:
   - 1A-AP-08
@@ -45,16 +50,19 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
+  ITEEA STEL:
+  - STEL-7
 materials: Funny Gears & Bricks Set
 tags:
 - Data Collection
-supplements:
-- /uploads/creating-a-gear-amusement-park/McClure_WySLICE_-_Gear_Amusement_Park_Lesson_1_-_Amber_McClure.pdf
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/creating-a-gear-amusement-park/McClure_WySLICE_-_Gear_Amusement_Park_Lesson_1_-_Amber_McClure.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

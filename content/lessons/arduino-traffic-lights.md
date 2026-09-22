@@ -19,9 +19,20 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Civil Engineering
+eng_concepts:
+- Control & Feedback
+- Technology & Society
 materials: Website, Arduino, traffic light simulator
 tags:
 - WySTACK
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 2-AP-10
@@ -40,10 +51,9 @@ standards:
   - ISTE-6d
   CCSS Math:
   - 8.F
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
 ---
 # OVERVIEW
 ## Activity Overview:  

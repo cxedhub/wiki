@@ -19,6 +19,11 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Environmental Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
 standards:
   CSTA:
   - 1A-CS-01
@@ -47,19 +52,22 @@ standards:
   - 3-ESS3-1
   - K-ESS2-1
   - K-ESS3-2
+  ITEEA STEL:
+  - STEL-8
 materials: Micro:bit, Arduino
 tags:
 - Data Collection
 - micro:bit
-supplements:
-- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick1.docx
-- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick.docx
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick1.docx
+- /uploads/whats-the-weather-2/Frederick_Tesha_Arduino_or_RPi_K-6_-_Tesha_Frederick.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

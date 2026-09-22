@@ -20,6 +20,8 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Software Engineering
 standards:
   CSTA:
   - 2-AP-10

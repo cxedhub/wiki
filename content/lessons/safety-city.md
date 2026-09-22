@@ -21,6 +21,11 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
+eng_disciplines:
+- Civil Engineering
+eng_concepts:
+- Modeling & Simulation
+- Control & Feedback
 materials: Website
 tags:
 - Data Collection
@@ -28,6 +33,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 standards:
   CSTA:
@@ -52,6 +58,9 @@ standards:
   - 3-5-ETS1-3
   - 4-PS4-1
   - 4-PS4-3
+  ITEEA STEL:
+  - STEL-4
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

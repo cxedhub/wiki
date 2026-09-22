@@ -19,6 +19,11 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Systems, Inputs & Outputs
+- Circuits & Electricity
 standards:
   CSTA:
   - 1B-AP-08
@@ -41,16 +46,19 @@ standards:
   - 3-5-ETS1-3
   - MS-ETS1-1
   - MS-ETS1-2
+  ITEEA STEL:
+  - STEL-2
 materials: Website, Micro:bit
 tags:
 - Web Design
 - micro:bit
-supplements:
-- /uploads/inputoutput-whats-it-all-about/Inputs_and_Outputs_I_O_-_Christy_Rodgers.pdf
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/inputoutput-whats-it-all-about/Inputs_and_Outputs_I_O_-_Christy_Rodgers.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

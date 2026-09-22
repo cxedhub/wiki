@@ -21,9 +21,22 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Aerospace Engineering
+eng_concepts:
+- Engineering Design Process
+- Troubleshooting & Failure Analysis
+- Modeling & Simulation
+- Criteria, Constraints & Trade-offs
 materials: Lego Mindstorms (I am using the NXT version)
 tags:
 - Robotics
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 1B-AP-08
@@ -43,13 +56,13 @@ standards:
   CCSS ELA:
   - SL.5
   - SL.7
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
+  - STEL-8
 supplements:
 - /uploads/mindstorms-and-hidden-figures/WySlice_Lesson_Plan_2_LaVanchy_-_Jennifer_LaVanchy.docx
 - /uploads/mindstorms-and-hidden-figures/WySlice-Lesson_1_-_Jennifer_LaVanchy.docx
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

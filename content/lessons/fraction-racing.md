@@ -18,6 +18,13 @@ cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Engineering Design Process
+- Sensors & Measurement
+- Systems, Inputs & Outputs
 standards:
   CSTA:
   - 1B-AP-08
@@ -41,6 +48,10 @@ standards:
   - 3-5-ETS1-3
   - 4-PS3-1
   - 4-PS3-2
+  ITEEA STEL:
+  - STEL-2
+  - STEL-3
+  - STEL-7
 materials: Micro:bit
 tags:
 - Data Collection
@@ -49,6 +60,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

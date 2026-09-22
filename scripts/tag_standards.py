@@ -85,6 +85,11 @@ FRAMEWORKS = {
         re.compile(r'\bISTE\b', re.I),
         # ISTE codes when preceded by ISTE context (handled via body scan)
     ],
+    'ITEEA STEL': [
+        # ITEEA Standards for Technological and Engineering Literacy (2020)
+        re.compile(r'\bSTEL-\d'),
+        re.compile(r'Standards\s+for\s+Technological\s+and\s+Engineering\s+Literacy', re.I),
+    ],
 }
 
 # Wyoming CS Standards patterns - detect these so we can tag them too

@@ -10,10 +10,10 @@ See [`MATRIX_PROCESS.md`](MATRIX_PROCESS.md) for how to add a new lesson.
 | Metric | Value |
 | --- | --- |
 | Lessons in matrix | **378** |
-| Standard alignments | **5,055** |
-| National frameworks | **7** |
-| Unique standard codes used | **266** |
-| Standard codes described in `data/standards.json` | **358** |
+| Standard alignments | **5,254** |
+| National frameworks | **8** |
+| Unique standard codes used | **274** |
+| Standard codes described in `data/standards.json` | **366** |
 
 ## Framework coverage
 
@@ -26,6 +26,7 @@ See [`MATRIX_PROCESS.md`](MATRIX_PROCESS.md) for how to add a new lesson.
 | CCSS Math | 81 | 130 | 26 | 30 |
 | NCSS C3 | 37 | 90 | 35 | 59 |
 | National Core Arts | 34 | 151 | 16 | 22 |
+| ITEEA STEL | 93 | 199 | 8 | 8 |
 
 "Codes used" = codes referenced by at least one lesson's frontmatter.
 "Codes described" = codes present in `data/standards.json` with a tooltip
@@ -43,6 +44,7 @@ To keep the matrix legible and discourage over-tagging, lessons should list
 | CSTA | 8 |
 | ISTE | 6 |
 | NGSS, CCSS Math, CCSS ELA, NCSS C3, National Core Arts | 5 each |
+| ITEEA STEL | 4 (core standards STEL-1 … STEL-8; engineering lessons only) |
 
 These caps were set in commit `5639e15` (April 2026) after the corpus was
 cleaned from 411 → 379 lessons and 6,637 → 5,072 alignments.
@@ -75,3 +77,4 @@ regeneration. It edits these files and nothing else:
 | 2026-04 | (Earlier, commit `5639e15`) Deduped 32 lessons, renamed 5 to `-part-N`, capped per-framework codes, fixed stale 350/411/417 counts, regenerated `const L`. |
 | 2026-04 | Removed `build-your-own-snowman` lesson; regenerated matrix (379 → 378 lessons, 5,072 → 5,055 alignments). |
 | 2026-09 | Added the `Engineering` subject to 95 lessons via `scripts/tag_engineering.py` (author-declared Subject Area, NGSS ETS alignment, or hand-reviewed build/prototype lessons); the migration had dropped it from the `subjects` taxonomy. Regenerated matrix `const L` so the subject filter offers Engineering. |
+| 2026-09 | Added ITEEA STEL as the eighth framework and tagged 93 engineering lessons at the core-standard level (199 alignments), plus `eng_concepts` / `eng_disciplines` taxonomies on 94 lessons from the reviewed classification in `scripts/engineering_details.json`. Matrix pages, `standards-db.js` and framework counts regenerated. |

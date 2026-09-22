@@ -18,6 +18,11 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Software Engineering
+eng_concepts:
+- Systems, Inputs & Outputs
 standards:
   CSTA:
   - 3A-AP-13
@@ -38,14 +43,18 @@ standards:
   - HS-ETS1-2
   - HS-ETS1-3
   - HS-ETS1-4
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
 materials: Website, Arduino, Raspberry Pi, Old computer, Lego Mind Storm
 tags: []
-supplements:
-- /uploads/student-choice-mission/Lesson__Student_Choice_Missions_-_James_Cunningham.docx
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/student-choice-mission/Lesson__Student_Choice_Missions_-_James_Cunningham.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

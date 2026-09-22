@@ -9,6 +9,8 @@
     "subjects": {{ $p.Params.subjects | jsonify }},
     "grade_levels": {{ $p.Params.grade_levels | jsonify }},
     "cs_domains": {{ $p.Params.cs_domains | jsonify }},
+    "eng_disciplines": {{ $p.Params.eng_disciplines | jsonify }},
+    "eng_concepts": {{ $p.Params.eng_concepts | jsonify }},
     "author": {{ $p.Params.author | jsonify }}
   }
 {{- end }}

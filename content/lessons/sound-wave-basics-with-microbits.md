@@ -14,6 +14,10 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Modeling & Simulation
 standards:
   CSTA:
   - 2-AP-10
@@ -34,6 +38,9 @@ standards:
   - MS-ETS1-3
   - MS-PS4-1
   - MS-PS4-2
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 materials: Website, micro:bit
 tags:
 - Cybersecurity
@@ -42,6 +49,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 ## OVERVIEW

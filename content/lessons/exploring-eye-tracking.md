@@ -19,17 +19,24 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Biomedical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
+- Technology & Society
 materials: Website, Web Cams and chromebook
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
 supplements:
 - /uploads/exploring-eye-tracking/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_Christy_Rodgers.pdf
 - /uploads/exploring-eye-tracking/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_Christy_Rodgers.docx
 - /uploads/exploring-eye-tracking/Screenshot_2024-04-02_105725_-_Christy_Rodgers.png
-standard_types:
-- CSTA
-- ISTE
 standards:
   CSTA:
   - 2-CS-01
@@ -47,6 +54,9 @@ standards:
   - ISTE-6b
   - ISTE-4a
   - ISTE-4d
+  ITEEA STEL:
+  - STEL-1
+  - STEL-4
 ---
 # OVERVIEW
 ## Activity Overview:  

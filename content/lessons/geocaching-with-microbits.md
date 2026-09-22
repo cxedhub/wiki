@@ -15,6 +15,11 @@ cs_domains:
 - Algorithms and Programming
 cs_principles:
 - Collaborating Around Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
+- Engineering Design Process
 standards:
   CSTA:
   - 2-AP-10
@@ -33,17 +38,21 @@ standards:
   - MS-ESS2-2
   - MS-ETS1-1
   - MS-ETS1-2
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 materials: Micro:bit
 tags:
 - micro:bit
-supplements:
-- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER.docx
-- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER1.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER.docx
+- /uploads/geocaching-with-microbits/WySlice_lesson_1_2021_-_SAM_SCHWESSINGER1.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

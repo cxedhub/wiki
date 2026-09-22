@@ -6,7 +6,7 @@
   <div class="container">
     <p class="page-hero-eyebrow">Lesson Library</p>
     <h1>Browse {{ $totalLessons }} Computing-Integrated Lessons</h1>
-    <p class="page-hero-sub">Filter by grade level, subject, CS domain, or standard to find lessons that fit your classroom.</p>
+    <p class="page-hero-sub">Filter by grade level, subject, CS domain, engineering discipline or concept, or standard to find lessons that fit your classroom.</p>
   </div>
 </section>
 
@@ -71,6 +71,38 @@
         </div>
       </div>
 
+      {{/* Engineering Disciplines */}}
+      {{ if site.Taxonomies.eng_disciplines }}
+      <div class="filter-group" data-filter="discipline">
+        <h4 class="filter-group-title">Engineering Discipline <span class="filter-group-count">{{ len site.Taxonomies.eng_disciplines }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.eng_disciplines.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="discipline">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* Engineering Concepts */}}
+      {{ if site.Taxonomies.eng_concepts }}
+      <div class="filter-group" data-filter="concept">
+        <h4 class="filter-group-title">Engineering Concept <span class="filter-group-count">{{ len site.Taxonomies.eng_concepts }}</span></h4>
+        <div class="filter-options">
+          {{ range site.Taxonomies.eng_concepts.ByCount }}
+            <label class="filter-check">
+              <input type="checkbox" value="{{ .Page.Title }}" data-filter-type="concept">
+              <span class="filter-label">{{ .Page.Title }}</span>
+              <span class="filter-badge">{{ .Count }}</span>
+            </label>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
       {{/* Standards */}}
       {{ if site.Taxonomies.standard_types }}
       <div class="filter-group" data-filter="standard">
@@ -133,7 +165,9 @@
             data-grades="{{ with .Params.grade_levels }}{{ delimit . "|" }}{{ end }}"
             data-domains="{{ with .Params.cs_domains }}{{ delimit . "|" }}{{ end }}"
             data-tags="{{ with .Params.tags }}{{ delimit . "|" }}{{ end }}"
-            data-standards="{{ with .Params.standard_types }}{{ delimit . "|" }}{{ end }}">
+            data-standards="{{ with .Params.standard_types }}{{ delimit . "|" }}{{ end }}"
+            data-disciplines="{{ with .Params.eng_disciplines }}{{ delimit . "|" }}{{ end }}"
+            data-concepts="{{ with .Params.eng_concepts }}{{ delimit . "|" }}{{ end }}">
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             {{ with .Description }}<p class="card-desc">{{ . | truncate 120 }}</p>{{ end }}
             <div class="card-meta">

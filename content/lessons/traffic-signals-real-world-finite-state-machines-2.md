@@ -22,10 +22,23 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Civil Engineering
+eng_concepts:
+- Control & Feedback
+- Modeling & Simulation
+- Technology & Society
 materials: Website, https://www.cts.umn.edu/education/k-12/gridlockbustergame
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CCSS Math:
   - 6.SP
@@ -57,12 +70,9 @@ standards:
   - MS-PS4-1
   - MS-PS4-2
   - MS-PS4-3
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-1
+  - STEL-2
 ---
 # OVERVIEW
 ## Activity Overview:  

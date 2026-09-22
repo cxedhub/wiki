@@ -16,10 +16,22 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Structures, Forces & Materials
+- Sensors & Measurement
 materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -39,13 +51,11 @@ standards:
   - 3-5-ETS1-3
   - 3-PS2-1
   - 3-PS2-3
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 supplements:
 - /uploads/egg-drop/DraftEgg_Drop_Lesson_Plan_-_Rebecca_Butterfield.pdf
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

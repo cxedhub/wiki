@@ -18,9 +18,18 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Modeling & Simulation
 materials: Website, Micro:bit
 tags:
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -43,13 +52,12 @@ standards:
   - MS-ESS2-2
   - MS-ETS1-1
   - MS-ETS1-2
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 supplements:
 - /uploads/modeling-plate-motions-using-microbit-technology/Lesson_2_-_Morgan_Krysl.docx
 - /uploads/modeling-plate-motions-using-microbit-technology/Lesson_1_-_Morgan_Krysl.docx
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -30,6 +30,11 @@ cs_domains:
   - Algorithms and Programming
 cs_principles:
   - Creating Computational Artifacts
+eng_disciplines:         # engineering lessons only — see "Engineering metadata" below
+  - Electrical & Computer Engineering
+eng_concepts:
+  - Control & Feedback
+  - Sensors & Measurement
 standards:
   CSTA:                  # ≤ 8 codes
     - 2-AP-10
@@ -41,15 +46,49 @@ standards:
     - MS-ETS1-1
   CCSS Math:             # ≤ 5 codes (omit the framework entirely if unused)
     - 7.EE
+  ITEEA STEL:            # ≤ 4 core standards, engineering lessons only
+    - STEL-2
+    - STEL-7
 standard_types:          # must mirror the keys above, alphabetised
   - CCSS Math
   - CSTA
   - ISTE
+  - ITEEA STEL
   - NGSS
 materials: Website, micro:bit
 tags: []
 ---
 ```
+
+### Engineering metadata
+
+Lessons whose `subjects` include `Engineering` carry three extra dimensions,
+all applied by `scripts/tag_engineering.py`:
+
+| Field | Kind | Vocabulary |
+| --- | --- | --- |
+| `eng_disciplines` | Hugo taxonomy (`/eng_disciplines/`) | Electrical & Computer, Mechanical, Civil, Environmental, Aerospace, Biomedical, Software, Materials & Chemical, Agricultural & Biological, Industrial & Systems Engineering |
+| `eng_concepts` | Hugo taxonomy (`/eng_concepts/`) | Engineering Design Process · Criteria, Constraints & Trade-offs · Systems, Inputs & Outputs · Sensors & Measurement · Control & Feedback · Circuits & Electricity · Structures, Forces & Materials · Energy & Power · Modeling & Simulation · Fabrication & Making · Troubleshooting & Failure Analysis · Technology & Society |
+| `standards."ITEEA STEL"` | standards framework | ITEEA *Standards for Technological and Engineering Literacy* (2020) core standards `STEL-1` … `STEL-8`; descriptions live in `data/standards.json` |
+
+The exact strings are the lists `ENG_CONCEPTS`, `ENG_DISCIPLINES` and
+`STEL_CODES` in `scripts/tag_engineering.py`; the script refuses anything
+else. Per-lesson assignments are the reviewed classification in
+`scripts/engineering_details.json` (slug → concepts, disciplines, STEL codes,
+each backed by a quote from the lesson). To change a lesson's engineering
+metadata, edit that file and run:
+
+```bash
+python3 scripts/tag_engineering.py            # adds the Engineering subject where warranted
+python3 scripts/tag_engineering.py --details  # writes eng_* fields + ITEEA STEL from the JSON
+python3 scripts/rebuild_matrix.py             # regenerates the matrix
+```
+
+Rules of thumb for STEL: tag only the core standards the lesson meaningfully
+addresses (`STEL-7` when students design/build/test, `STEL-2` when systems,
+controls, requirements or trade-offs are explicit, `STEL-4` for impacts,
+ethics or safety, `STEL-8` for troubleshooting or assessing a device), at most
+four per lesson. Benchmark-level codes (e.g. `STEL-7Q`) are not used.
 
 Rules of thumb:
 

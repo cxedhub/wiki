@@ -19,10 +19,23 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Systems, Inputs & Outputs
+- Control & Feedback
+- Troubleshooting & Failure Analysis
+- Criteria, Constraints & Trade-offs
 materials: Micro:bit
 tags:
 - Project-Based
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
+- National Core Arts
 standards:
   CSTA:
   - 1B-AP-08
@@ -48,11 +61,10 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-standard_types:
-- CSTA
-- ISTE
-- NGSS
-- National Core Arts
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

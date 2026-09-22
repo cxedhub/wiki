@@ -22,8 +22,11 @@
 
 {{ if . }}
 <div class="standards-grid">
-  {{ range $framework, $codes := . }}
+  {{ range $rawFramework, $codes := . }}
     {{ if $codes }}
+    {{/* Hugo lowercases front-matter map keys ("ngss", "iteea stel"); map back to the canonical name */}}
+    {{ $framework := $rawFramework }}
+    {{ range $k, $_ := $fwUrls }}{{ if eq (lower $k) (lower $rawFramework) }}{{ $framework = $k }}{{ end }}{{ end }}
     {{ $fwUrl := index $fwUrls $framework }}
     {{ $fwDb := index $db $framework }}
     <div class="standards-group">

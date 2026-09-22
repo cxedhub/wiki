@@ -21,9 +21,21 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+- Civil Engineering
+eng_concepts:
+- Control & Feedback
+- Circuits & Electricity
+- Technology & Society
 materials: Arduino
 tags:
 - WySTACK
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 supplements:
 - /uploads/traffic-light-arduino/Joslin-DeFreece_Final_Report_-_Sindy_Joslin.docx
 standards:
@@ -47,10 +59,10 @@ standards:
   - MS-ETS1-1
   - MS-ETS1-2
   - MS-ETS1-3
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-1
+  - STEL-2
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

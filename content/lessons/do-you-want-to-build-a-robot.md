@@ -21,12 +21,21 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Technology & Society
 materials: Micro:bit
 tags:
 - Data Collection
 - Project-Based
 - Robotics
 - micro:bit
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 1B-AP-08
@@ -45,12 +54,10 @@ standards:
   - ISTE-5c
   CCSS Math:
   - 5.MD
+  ITEEA STEL:
+  - STEL-6
 supplements:
 - /uploads/do-you-want-to-build-a-robot/Joslin_lesson_plan_B_-_Sindy_Joslin.docx
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

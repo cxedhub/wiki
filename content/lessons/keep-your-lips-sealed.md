@@ -16,6 +16,8 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_concepts:
+- Technology & Society
 standards:
   CSTA:
   - 3A-DA-09
@@ -37,6 +39,9 @@ standards:
   - HS-ETS1-2
   - HS-ETS1-3
   - HS-ETS1-4
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 materials: Website
 tags:
 - Cybersecurity
@@ -45,6 +50,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 ## OVERVIEW

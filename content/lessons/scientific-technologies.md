@@ -19,10 +19,21 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Technology & Society
+- Modeling & Simulation
+- Systems, Inputs & Outputs
 materials: Website, Micro:bit
 tags:
 - Data Collection
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1A-CS-01
@@ -45,10 +56,10 @@ standards:
   - 3-5-ETS1-3
   - MS-PS2-3
   - MS-PS2-5
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-1
+  - STEL-6
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

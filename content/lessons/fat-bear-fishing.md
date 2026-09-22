@@ -19,11 +19,20 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Control & Feedback
 materials: Website, Micro:bit
 tags:
 - Data Collection
 - Game-Based
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1A-AP-08
@@ -46,10 +55,9 @@ standards:
   - K-2-ETS1-2
   - K-2-ETS1-3
   - K-LS1-1
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -17,6 +17,8 @@ cs_domains:
 cs_principles:
 - Developing and Using Abstractions
 - Communicating About Computing
+eng_concepts:
+- Technology & Society
 standards:
   CSTA:
   - 3A-AP-13
@@ -38,6 +40,10 @@ standards:
   - HS-ETS1-2
   - HS-ETS1-3
   - HS-ETS1-4
+  ITEEA STEL:
+  - STEL-4
+  - STEL-5
+  - STEL-6
 materials: Website, Copy of True Whispers
 tags:
 - Cybersecurity
@@ -45,6 +51,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 ## OVERVIEW

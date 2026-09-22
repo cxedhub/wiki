@@ -13,9 +13,21 @@ grade_levels:
 - 3-5
 cs_domains:
 - Data Analysis
+eng_disciplines:
+- Environmental Engineering
+- Mechanical Engineering
+eng_concepts:
+- Sensors & Measurement
+- Fabrication & Making
 materials: Slideshow that is included, there are websites linked in to help.
 tags:
 - Data Collection
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -31,14 +43,12 @@ standards:
   - 3-5-ETS1-3
   - 3-ESS2-1
   - 3-ESS2-2
+  ITEEA STEL:
+  - STEL-7
+  - STEL-8
 supplements:
 - /uploads/whats-the-w-word-in-wyoming-2/WySLICE_Lesson_Plan-Predict_Wind_Speed_and_Weather_Build_an_Anemometer_-_Katherine_Cline.pptx
 - /uploads/whats-the-w-word-in-wyoming-2/WySLICE_Lesson_Plan-Predict_Wind_Speed_and_Weather_Build_an_Anemometer_-_Katherine_Cline1.pptx
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

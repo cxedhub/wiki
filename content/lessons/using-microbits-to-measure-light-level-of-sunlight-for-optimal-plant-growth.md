@@ -21,10 +21,22 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
+eng_disciplines:
+- Agricultural & Biological Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
 materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -49,14 +61,10 @@ standards:
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-ETS1-4
+  ITEEA STEL:
+  - STEL-8
 supplements:
 - /uploads/using-microbits-to-measure-light-level-of-sunlight-for-optimal-plant-growth/Schwessinger_Wyslice_lesson_1_Life_Science_-_SAM_SCHWESSINGER.pdf
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

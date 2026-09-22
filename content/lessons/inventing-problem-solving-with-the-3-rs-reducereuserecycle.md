@@ -22,6 +22,13 @@ cs_principles:
 - Developing and Using Abstractions
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Environmental Engineering
+eng_concepts:
+- Engineering Design Process
+- Troubleshooting & Failure Analysis
+- Fabrication & Making
 standards:
   CSTA:
   - 1A-AP-08
@@ -46,18 +53,22 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
+  ITEEA STEL:
+  - STEL-1
+  - STEL-7
 materials: 'The children''s book,  Rosie Revere: Engineer.  Paper and pencils to sketch.  Lots of a variety of recycled materials.  Maybe some tape and string too!  Printed algorithm page (included in lesson document).'
 tags:
 - Data Collection
 - Robotics
 - Unplugged
-supplements:
-- /uploads/inventing-problem-solving-with-the-3-rs-reducereuserecycle/McClure_WySLICE_-_Inventing_Problem_Solving_with_the_3_Rs_Lesson_-_Amber_McClure.docx
 standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/inventing-problem-solving-with-the-3-rs-reducereuserecycle/McClure_WySLICE_-_Inventing_Problem_Solving_with_the_3_Rs_Lesson_-_Amber_McClure.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

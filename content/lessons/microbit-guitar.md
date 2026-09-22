@@ -17,10 +17,22 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Circuits & Electricity
+- Systems, Inputs & Outputs
+- Energy & Power
+- Fabrication & Making
 materials: Website, Micro:bit
 tags:
 - Scratch
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -43,10 +55,10 @@ standards:
   - 3-5-ETS1-3
   - 4-PS3-1
   - 4-PS3-2
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-2
+  - STEL-3
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

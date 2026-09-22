@@ -20,10 +20,24 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Civil Engineering
+eng_concepts:
+- Engineering Design Process
+- Criteria, Constraints & Trade-offs
+- Structures, Forces & Materials
+- Technology & Society
 materials: HexBug
 tags:
 - Project-Based
 - Robotics
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NCSS C3
+- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -51,14 +65,14 @@ standards:
   - D2.Civ.12.3-5
   - D2.Civ.2.3-5
   - D2.Civ.6.3-5
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
+  - STEL-6
+  - STEL-7
 supplements:
 - /uploads/hexbug-mazes/HexBug_Maze_-_Kalista_Pendleton.pptx
 - /uploads/hexbug-mazes/HexBug_Maze_-_Kalista_Pendleton1.pptx
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

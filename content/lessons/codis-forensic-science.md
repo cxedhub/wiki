@@ -18,6 +18,11 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
+eng_disciplines:
+- Biomedical Engineering
+eng_concepts:
+- Technology & Society
+- Modeling & Simulation
 standards:
   CSTA:
   - 2-AP-17
@@ -37,6 +42,10 @@ standards:
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-ETS1-4
+  ITEEA STEL:
+  - STEL-1
+  - STEL-3
+  - STEL-4
 materials: Website, unplugged
 tags:
 - Data Collection
@@ -44,6 +53,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

@@ -13,6 +13,14 @@ grade_levels:
 cs_domains:
 - Computing Systems
 - Algorithms and Programming
+eng_disciplines:
+- Materials & Chemical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Structures, Forces & Materials
+- Sensors & Measurement
+- Engineering Design Process
+- Criteria, Constraints & Trade-offs
 standards:
   CSTA:
   - 2-AP-10
@@ -29,12 +37,17 @@ standards:
   - MS-PS1-4
   - MS-PS1-6
   - MS-PS3-3
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
+  - STEL-8
 materials: Micro:bit
 tags:
 - micro:bit
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

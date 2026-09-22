@@ -28,10 +28,22 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Biomedical Engineering
+eng_concepts:
+- Sensors & Measurement
+- Technology & Society
+- Troubleshooting & Failure Analysis
 materials: Website, Web Cams and Chromebooks, VR Headset
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NCSS C3
+- NGSS
 supplements:
 - /uploads/vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_1_-_Christy_Rodgers.pdf
 standards:
@@ -59,11 +71,9 @@ standards:
   - MS-PS3-2
   NCSS C3:
   - D2.His.2.6-8
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

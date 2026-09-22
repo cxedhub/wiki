@@ -20,10 +20,20 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Modeling & Simulation
+- Technology & Society
 materials: "Website, •\thttps://www.youtube.com/watch?v=bcTzyx35odY"
 tags:
 - Unplugged
 - WySTACK
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
 supplements:
 - /uploads/lesson-1-activity-geometric-planter-find-total-surface-area/Lesson_2_post_test_-_Yung_Richards.pdf
 - /uploads/lesson-1-activity-geometric-planter-find-total-surface-area/Lesson_1_post_test_-_Yung_Richards.pdf
@@ -54,10 +64,10 @@ standards:
   - ISTE-7b
   - ISTE-4a
   - ISTE-5c
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
+  ITEEA STEL:
+  - STEL-3
+  - STEL-4
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

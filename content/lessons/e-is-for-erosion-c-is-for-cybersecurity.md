@@ -15,10 +15,21 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
+eng_disciplines:
+- Environmental Engineering
+- Civil Engineering
+eng_concepts:
+- Modeling & Simulation
+- Technology & Society
 materials: None
 tags:
 - Cybersecurity
 - Project-Based
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -36,13 +47,11 @@ standards:
   - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
+  ITEEA STEL:
+  - STEL-4
 supplements:
 - /uploads/e-is-for-erosion-c-is-for-cybersecurity/E_for_Erosion_-_Katherine_Cline.pptx
 - /uploads/e-is-for-erosion-c-is-for-cybersecurity/E_for_Erosion_-_Katherine_Cline1.pptx
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -16,6 +16,12 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Collaborating Around Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Engineering Design Process
+- Criteria, Constraints & Trade-offs
+- Circuits & Electricity
 materials: Micro:bit, Wide variety of building materials, other electronics options such as neopixels,LED lights, neon lights
 tags:
 - WySTACK
@@ -23,6 +29,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 - National Core Arts
 standards:
@@ -51,6 +58,10 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
+  ITEEA STEL:
+  - STEL-5
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

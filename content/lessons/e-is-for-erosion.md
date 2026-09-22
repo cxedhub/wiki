@@ -14,6 +14,12 @@ cs_domains:
 - Impacts of Computing
 cs_principles:
 - Fostering an Inclusive Computing Culture
+eng_disciplines:
+- Environmental Engineering
+- Civil Engineering
+eng_concepts:
+- Modeling & Simulation
+- Technology & Society
 standards:
   CSTA:
   - 1B-AP-15
@@ -31,12 +37,15 @@ standards:
   - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
+  ITEEA STEL:
+  - STEL-4
 materials: Website
 tags:
 - Cybersecurity
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW
