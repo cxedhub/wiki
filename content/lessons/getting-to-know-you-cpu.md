@@ -40,6 +40,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
 - Web Design
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/getting-to-know-you-cpu/Getting_to_Know_You_CPU_-_Becky_Junge.pptx
 - /uploads/getting-to-know-you-cpu/Getting_to_Know_You_CPU__Lesson_Plan_1_-_Becky_Junge.pdf

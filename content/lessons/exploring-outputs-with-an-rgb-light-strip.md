@@ -27,6 +27,7 @@ eng_concepts:
 materials: Micro:bit, RGB Light Strip(Instruction attached with how to make)
 tags:
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

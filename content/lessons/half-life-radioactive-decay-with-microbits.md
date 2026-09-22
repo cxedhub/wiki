@@ -39,6 +39,7 @@ standards:
 materials: Website, Micro:bit
 tags:
 - micro:bit
+- MicroPython
 supplements:
 - /uploads/half-life-radioactive-decay-with-microbits/Lesson_Plan_microbits_half_life_-_Clinton_Chandler.docx
 standard_types:

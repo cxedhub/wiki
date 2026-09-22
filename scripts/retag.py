@@ -4,8 +4,12 @@
 Tag taxonomy:
   Program origin: GenCyber, WySTACK, WySLICE
   Activity format: Unplugged, Game-Based, Project-Based
-  Tools/platforms: micro:bit, Scratch, Robotics, Code.org, Web Design
-  Theme: Cybersecurity, Data Collection
+  Tools/platforms: micro:bit, MakeCode, MicroPython, Scratch, Robotics, Code.org, Web Design
+  Theme: Cybersecurity, Data Collection, AI, LLM, IoT
+
+The pass is ADDITIVE: tags already on a lesson (e.g. WySTACK, WySLICE) are
+kept, derived tags are merged in, and the `tags:` block is rewritten in
+place so nothing else in the front matter moves. Re-running is a no-op.
 """
 
 import os
@@ -23,6 +27,8 @@ TOOL_TAGS = {
     'Robotics': re.compile(r'\brobot|botley|sphero|ozobot|dash\b|hexbug|bristlebot|bee.?bot|coding critter|lego.*mindstorm|tetrix|first lego', re.I),
     'Code.org': re.compile(r'code\.org|codeorg|code studio', re.I),
     'Web Design': re.compile(r'\bhtml\b|\bcss\b|web\s*design|web\s*page|website\s*creat|website\s*build|web\s*develop', re.I),
+    # Editors for micro:bit lessons (tag names match the PD pages' tags)
+    'MakeCode': re.compile(r'make\s*code', re.I),
 }
 
 FORMAT_TAGS = {
@@ -34,7 +40,16 @@ FORMAT_TAGS = {
 THEME_TAGS = {
     'Cybersecurity': re.compile(r'cyber\s*secur|internet\s*safe|online\s*safe|phishing|password\s*secur|password\s*safe|cyber\s*defense|malware|encrypt|confidentiality.*integrity|think\s*like\s*an\s*adversar|cyber\s*attack|network\s*secur|cyber\s*awareness|cyber\s*threat|firewall|social\s*engineer', re.I),
     'Data Collection': re.compile(r'data\s*collect|collect\s*data|gather\s*data|data\s*gather|survey\s*data|record\s*data|measur.*data|data\s*table|spreadsheet|data\s*set|data\s*analy', re.I),
+    'LLM': re.compile(r'\bLLMs?\b|large\s*language\s*model|chat\s*gpt|generative\s*ai|\bgpt\b|openai|copilot', re.I),
+    'IoT': re.compile(r'\bIoT\b|internet\s*of\s*things', re.I),
 }
+
+# AI: the term is common in passing ("including AI in their studies"), so require it in the
+# title/description or a substantial number of mentions in the body.
+AI_RE = re.compile(r'\bAI\b|artificial\s*intelligence|machine\s*learning|neural\s*net|teachable\s*machine|deep\s*learning|reinforcement\s*learning', re.I)
+AI_BODY_MIN_HITS = 5
+MICROBIT_RE = re.compile(r'micro.?bit', re.I)
+MICROPYTHON_RE = re.compile(r'micropython|\bpython\b', re.I)
 
 
 def parse_frontmatter(filepath):
@@ -92,46 +107,58 @@ def derive_tags(fm, body):
     if 'Cybersecurity' in subjects and 'Cybersecurity' not in tags:
         tags.append('Cybersecurity')
 
-    return sorted(set(tags))
+    # AI
+    if AI_RE.search(f"{title}\n{desc}") or len(AI_RE.findall(body)) >= AI_BODY_MIN_HITS:
+        tags.append('AI')
+
+    # MicroPython: a micro:bit lesson programmed in (Micro)Python
+    if MICROBIT_RE.search(searchable) and MICROPYTHON_RE.search(searchable):
+        tags.append('MicroPython')
+
+    # Additive: keep the lesson's existing tags (and their order); append new ones
+    merged = [str(t) for t in old_tags]
+    for t in tags:
+        if t not in merged:
+            merged.append(t)
+    return merged
+
+
+TAGS_BLOCK_RE = re.compile(r'^tags:[ \t]*(?:\[.*?\])?[ \t]*\n(?:[ \t]*-[ \t]*.+\n)*', re.MULTILINE)
+
+
+def _yaml_item(t):
+    """Quote only when plain YAML would misparse the value."""
+    if re.search(r'(^[\[\]{}&*!|>\'"%@`#-])|(:\s)|(\s#)|(^\s|\s$)', t):
+        return '"' + t.replace('"', '\\"') + '"'
+    return t
 
 
 def rebuild_file(filepath, fm, new_tags):
-    """Rewrite the file with updated tags in frontmatter."""
+    """Rewrite the `tags:` block in place. Returns True if the file changed."""
     with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
         content = f.read()
 
     m = re.match(r'^---\s*\n(.*?)\n---\s*\n(.*)', content, re.DOTALL)
     if not m:
         return False
-
-    fm_text = m.group(1)
+    fm_text = m.group(1) + '\n'
     body = m.group(2)
 
-    # Replace or insert tags line
-    # Remove old tags line(s) - handle both inline and multi-line
-    # First remove multi-line tags block
-    fm_text = re.sub(r'^tags:\s*\n(?:\s*-\s*.+\n)*', '', fm_text, flags=re.MULTILINE)
-    # Then remove inline tags
-    fm_text = re.sub(r'^tags:\s*\[.*?\]\s*\n?', '', fm_text, flags=re.MULTILINE)
-    # Remove any remaining empty tags
-    fm_text = re.sub(r'^tags:\s*\n', '', fm_text, flags=re.MULTILINE)
-
-    # Strip trailing whitespace from frontmatter
-    fm_text = fm_text.rstrip()
-
-    # Build new tags line
     if new_tags:
-        # Use flow style for clean YAML
-        tags_yaml = 'tags:\n' + ''.join(f'- "{t}"\n' for t in new_tags)
+        tags_yaml = 'tags:\n' + ''.join(f'- {_yaml_item(t)}\n' for t in new_tags)
     else:
         tags_yaml = 'tags: []\n'
 
-    # Append tags at end of frontmatter
-    new_content = f"---\n{fm_text}\n{tags_yaml}---\n{body}"
+    if TAGS_BLOCK_RE.search(fm_text):
+        fm_text = TAGS_BLOCK_RE.sub(lambda _: tags_yaml, fm_text, count=1)
+    else:
+        fm_text = fm_text + tags_yaml
 
+    new_content = '---\n' + fm_text.rstrip('\n') + '\n---\n' + body
+    if new_content == content:
+        return False
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(new_content)
-
     return True
 
 
@@ -139,6 +166,7 @@ def main():
     stats = {}
     total = 0
     tagged = 0
+    changed = 0
 
     for fname in sorted(os.listdir(LESSONS_DIR)):
         if not fname.endswith('.md'):
@@ -163,9 +191,10 @@ def main():
         for t in new_tags:
             stats[t] = stats.get(t, 0) + 1
 
-        rebuild_file(filepath, fm, new_tags)
+        if rebuild_file(filepath, fm, new_tags):
+            changed += 1
 
-    print(f"\nProcessed {total} lessons, {tagged} have at least one tag")
+    print(f"\nProcessed {total} lessons, {tagged} have at least one tag, {changed} file(s) changed")
     print(f"\nTag distribution:")
     for tag, count in sorted(stats.items(), key=lambda x: -x[1]):
         print(f"  {tag}: {count}")

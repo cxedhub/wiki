@@ -46,6 +46,8 @@ materials: Website, Micro:bit
 tags:
 - Web Design
 - micro:bit
+- MakeCode
+- MicroPython
 standard_types:
 - CSTA
 - ISTE

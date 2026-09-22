@@ -25,6 +25,7 @@ materials: Website
 tags:
 - Data Collection
 - WySTACK
+- AI
 standard_types:
 - CSTA
 - ISTE

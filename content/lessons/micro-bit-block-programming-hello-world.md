@@ -17,6 +17,7 @@ cs_principles:
 materials: Website, Micro:bit, www.makecode.microbit.org
 tags:
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 3A-AP-13

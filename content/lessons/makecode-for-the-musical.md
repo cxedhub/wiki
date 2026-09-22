@@ -26,6 +26,7 @@ materials: Micro:bit, Wide variety of building materials, other electronics opti
 tags:
 - WySTACK
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE

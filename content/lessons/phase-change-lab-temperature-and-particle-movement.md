@@ -39,6 +39,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org/_ipjfDDgLMDM8
 tags:
 - Data Collection
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/phase-change-lab-temperature-and-particle-movement/Phase_Change_Lab_Handouts_-_Crystal_Seeley.docx
 standard_types:

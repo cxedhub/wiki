@@ -24,6 +24,7 @@ materials: Poster Board or tri-fold
 tags:
 - Cybersecurity
 - GenCyber
+- IoT
 standard_types:
 - CSTA
 - ISTE

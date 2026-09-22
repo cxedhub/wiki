@@ -42,6 +42,7 @@ tags:
 - Data Collection
 - Project-Based
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/see-ya-later-alligator-coding-and-ratio-tabless/Using_Coding_to_Build_Ratio_Tables_-_Becky_Junge.pptx
 - /uploads/see-ya-later-alligator-coding-and-ratio-tabless/See_Ya_Later_Alligator__Using_Coding_to_Build_Ratio_Tables_Lesson_Plan_1_-_Becky_Junge.pdf

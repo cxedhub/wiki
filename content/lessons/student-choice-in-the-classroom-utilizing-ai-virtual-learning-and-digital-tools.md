@@ -19,6 +19,7 @@ cs_principles:
 materials: Website
 tags:
 - WySTACK
+- AI
 supplements:
 - /uploads/student-choice-in-the-classroom-utilizing-ai-virtual-learning-and-digital-tools/IMG_0473_-_Alicia_Vonberg.jpg
 - /uploads/student-choice-in-the-classroom-utilizing-ai-virtual-learning-and-digital-tools/IMG_0475_-_Alicia_Vonberg.jpg

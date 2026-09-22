@@ -44,6 +44,7 @@ tags:
 - Code.org
 - Data Collection
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/exploring-potential-and-kinetic-energy-by-using-hot-wheels-and-microbits/Micro_Bit_Ideas_-_Noel_Davis.docx
 standard_types:

@@ -21,7 +21,8 @@ eng_concepts:
 - Technology & Society
 - Modeling & Simulation
 materials: Website, https://www.moralmachine.net/
-tags: []
+tags:
+- AI
 standard_types:
 - CSTA
 - ISTE

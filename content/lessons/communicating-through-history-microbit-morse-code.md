@@ -47,6 +47,7 @@ materials: Website, Micro:bit, https://makecode.microbit.org
 tags:
 - Unplugged
 - micro:bit
+- MakeCode
 supplements:
 - /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History__MicroBit_Morse_Code__Lesson_Plan_-_Becky_Junge.pdf
 - /uploads/communicating-through-history-microbit-morse-code/Communicating_Through_History__MicroBit_Morse_Code__Lesson_Plan_-_Becky_Junge.docx

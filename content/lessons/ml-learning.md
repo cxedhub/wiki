@@ -31,6 +31,7 @@ tags:
 - Code.org
 - Robotics
 - WySTACK
+- AI
 standard_types:
 - CCSS Math
 - CSTA

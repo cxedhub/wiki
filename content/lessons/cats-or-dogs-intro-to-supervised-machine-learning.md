@@ -29,6 +29,7 @@ tags:
 - Data Collection
 - Project-Based
 - WySTACK
+- AI
 standard_types:
 - CSTA
 - ISTE

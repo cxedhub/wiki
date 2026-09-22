@@ -19,6 +19,7 @@ materials: Micro:bit, Magnets, headphones, alligator clips
 tags:
 - Game-Based
 - micro:bit
+- MakeCode
 standards:
   CSTA:
   - 2-AP-10

@@ -60,6 +60,7 @@ tags:
 - Cybersecurity
 - GenCyber
 - micro:bit
+- MakeCode
 standard_types:
 - CSTA
 - ISTE
