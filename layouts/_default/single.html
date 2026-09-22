@@ -9,49 +9,51 @@
   {{ if .Params.subjects }}
   <div class="lesson-meta">
     {{ with .Params.author }}<div class="meta-item"><strong>Author:</strong> {{ . }}</div>{{ end }}
-    {{ with .Params.subjects }}
+    {{/* Taxonomy links resolve the real term pages via GetTerms: urlize does not match Hugo's
+         generated paths for names with "/" (Reading/Language Arts), "&" or "," */}}
+    {{ with .GetTerms "subjects" }}
     <div class="meta-item">
       <strong>Subject{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ "subjects/" | relURL }}{{ $s | urlize }}/">{{ $s }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
-    {{ with .Params.grade_levels }}
+    {{ with .GetTerms "grade_levels" }}
     <div class="meta-item">
       <strong>Grade Level{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $g := . }}{{ if $i }}, {{ end }}<a href="{{ "grade_levels/" | relURL }}{{ $g | urlize }}/">{{ $g }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
-    {{ with .Params.cs_domains }}
+    {{ with .GetTerms "cs_domains" }}
     <div class="meta-item">
       <strong>CS Domain{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $d := . }}{{ if $i }}, {{ end }}<a href="{{ "cs_domains/" | relURL }}{{ $d | urlize }}/">{{ $d }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
-    {{ with .Params.cs_principles }}
+    {{ with .GetTerms "cs_principles" }}
     <div class="meta-item">
       <strong>CS Principle{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $p := . }}{{ if $i }}, {{ end }}<a href="{{ "cs_principles/" | relURL }}{{ $p | urlize }}/">{{ $p }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
-    {{ with .Params.eng_disciplines }}
+    {{ with .GetTerms "eng_disciplines" }}
     <div class="meta-item">
       <strong>Engineering Discipline{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $d := . }}{{ if $i }}, {{ end }}<a href="{{ "eng_disciplines/" | relURL }}{{ $d | urlize }}/">{{ $d }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
-    {{ with .Params.eng_concepts }}
+    {{ with .GetTerms "eng_concepts" }}
     <div class="meta-item">
       <strong>Engineering Concept{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ "eng_concepts/" | relURL }}{{ $c | urlize }}/">{{ $c }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
     {{ with .Params.materials }}
     <div class="meta-item"><strong>Materials:</strong> {{ . }}</div>
     {{ end }}
-    {{ with .Params.tags }}
+    {{ with .GetTerms "tags" }}
     <div class="meta-item">
       <strong>Tag{{ if gt (len .) 1 }}s{{ end }}:</strong>
-      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "tags/" | relURL }}{{ $t | urlize }}/">{{ $t }}</a>{{ end }}
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
     </div>
     {{ end }}
   </div>
