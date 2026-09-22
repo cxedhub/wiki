@@ -19,10 +19,21 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Systems, Inputs & Outputs
+- Technology & Society
 materials: Micro:bit
 tags:
 - Cybersecurity
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NCSS C3
+- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -46,14 +57,13 @@ standards:
   - MS-ETS1-4
   NCSS C3:
   - D2.His.2.6-8
+  ITEEA STEL:
+  - STEL-4
+  - STEL-6
+  - STEL-7
 supplements:
 - /uploads/radio-communicating-with-microbits/Radio_Communicating_with_Microbits_-_TAYLOR_PLANTT.pdf
 - /uploads/radio-communicating-with-microbits/Radio_Communicating_with_Microbits_-_Taylor_Plantt1.pdf
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -17,9 +17,22 @@ cs_principles:
 - Collaborating Around Computing
 - Creating Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Biomedical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Engineering Design Process
+- Sensors & Measurement
+- Technology & Society
+- Troubleshooting & Failure Analysis
 materials: Website, Micro:bit
 tags:
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -36,10 +49,9 @@ standards:
   - MS-ETS1-1
   - MS-ETS1-2
   - MS-ETS1-3
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-4
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

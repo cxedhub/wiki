@@ -17,17 +17,25 @@ cs_domains:
 cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Mechanical Engineering
+- Industrial & Systems Engineering
+eng_concepts:
+- Fabrication & Making
+- Criteria, Constraints & Trade-offs
+- Troubleshooting & Failure Analysis
 materials: Website, any 3D printer, 3D printing slicing software and Tinkercad.com
 tags:
 - Data Collection
 - WySTACK
-supplements:
-- /uploads/3d-printing-tracking-and-behind-the-scences/Aric_Keychain_1_-_Aric_Hanusa.stl
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/3d-printing-tracking-and-behind-the-scences/Aric_Keychain_1_-_Aric_Hanusa.stl
 standards:
   CSTA:
   - 3A-AP-21
@@ -50,6 +58,10 @@ standards:
   - HS-ETS1-1
   - HS-ETS1-2
   - HS-ETS1-3
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

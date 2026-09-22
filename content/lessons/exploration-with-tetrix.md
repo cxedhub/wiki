@@ -21,9 +21,22 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Fabrication & Making
+- Engineering Design Process
 materials: Website, Tetrix sets
 tags:
 - Robotics
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
+- National Core Arts
 standards:
   CSTA:
   - 1B-AP-08
@@ -55,12 +68,9 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
-- National Core Arts
+  ITEEA STEL:
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

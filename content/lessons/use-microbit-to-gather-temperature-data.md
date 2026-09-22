@@ -14,6 +14,14 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
+eng_disciplines:
+- Materials & Chemical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
+- Structures, Forces & Materials
+- Engineering Design Process
+- Energy & Power
 standards:
   CSTA:
   - 2-AP-17
@@ -31,17 +39,22 @@ standards:
   - MS-PS3-1
   - MS-PS3-2
   - MS-PS3-3
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
+  - STEL-8
 materials: Micro:bit
 tags:
 - Data Collection
 - Project-Based
 - micro:bit
-supplements:
-- /uploads/use-microbit-to-gather-temperature-data/Martines_Draft_Lesson_Plan_-_Amber_Martines.docx
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/use-microbit-to-gather-temperature-data/Martines_Draft_Lesson_Plan_-_Amber_Martines.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

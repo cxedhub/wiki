@@ -19,8 +19,20 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Circuits & Electricity
+- Control & Feedback
+- Troubleshooting & Failure Analysis
+- Engineering Design Process
 materials: Cublet
 tags: []
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 1A-CS-01
@@ -43,12 +55,12 @@ standards:
   - SL.7
   - W.2
   - W.5
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
+  - STEL-8
 supplements:
 - /uploads/zombie-break-out-alarms/download_-_Taylor_Wailes-Putnam.jpeg
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
 ---
 # OVERVIEW
 ## Activity Overview:  

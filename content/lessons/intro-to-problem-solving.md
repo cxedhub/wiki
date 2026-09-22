@@ -21,10 +21,23 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Engineering Design Process
+- Criteria, Constraints & Trade-offs
+- Troubleshooting & Failure Analysis
+- Structures, Forces & Materials
 materials: Website, aluminum foil and pennies
 tags:
 - Data Collection
 - Project-Based
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-12
@@ -48,13 +61,11 @@ standards:
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-ETS1-4
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
 supplements:
 - /uploads/intro-to-problem-solving/IntrotoProblemSolving_-_Autumn_Spiva.pdf
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

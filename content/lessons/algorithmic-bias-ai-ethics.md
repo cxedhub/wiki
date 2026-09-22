@@ -17,6 +17,10 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Technology & Society
 materials: Website
 tags:
 - Data Collection
@@ -24,6 +28,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 2-AP-10
@@ -41,6 +46,9 @@ standards:
   - ISTE-6d
   - ISTE-7a
   - ISTE-2a
+  ITEEA STEL:
+  - STEL-4
+  - STEL-5
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -17,6 +17,11 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Environmental Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
 standards:
   CSTA:
   - 1A-AP-14
@@ -37,6 +42,8 @@ standards:
   NGSS:
   - K-ESS2-1
   - K-ESS3-2
+  ITEEA STEL:
+  - STEL-8
 materials: Micro:bit, Arduino
 tags:
 - Data Collection
@@ -45,6 +52,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

@@ -18,6 +18,12 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Circuits & Electricity
+- Energy & Power
+- Fabrication & Making
 standards:
   CSTA:
   - 1B-AP-08
@@ -40,6 +46,9 @@ standards:
   - 3-5-ETS1-3
   - 4-PS3-1
   - 4-PS3-2
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 materials: Website, Micro:bit
 tags:
 - Scratch
@@ -47,6 +56,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

@@ -23,6 +23,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Engineering Design Process
+- Troubleshooting & Failure Analysis
+- Criteria, Constraints & Trade-offs
 standards:
   CSTA:
   - 1B-AP-08
@@ -51,18 +57,22 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
+  ITEEA STEL:
+  - STEL-7
+  - STEL-8
 materials: Website
 tags:
 - Game-Based
 - Project-Based
 - Scratch
-supplements:
-- /uploads/scratch-multi-level-maze/Scratch_Multi-Level_Maze_Lesson_Plan_-_Adrienne_Unertl.pdf
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 - National Core Arts
+supplements:
+- /uploads/scratch-multi-level-maze/Scratch_Multi-Level_Maze_Lesson_Plan_-_Adrienne_Unertl.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

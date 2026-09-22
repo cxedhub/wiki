@@ -18,10 +18,20 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Aerospace Engineering
+- Software Engineering
+eng_concepts:
+- Sensors & Measurement
 materials: Website, Computers with Python, Matplotlib, CSV, and Pandas
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
 supplements:
 - /uploads/plotting-data-in-python-using-matplotlib/Python_MatPlotLib_Lupher_-_John_Lupher.docx
 - /uploads/plotting-data-in-python-using-matplotlib/Battery1_-_John_Lupher.pdf
@@ -46,10 +56,9 @@ standards:
   - 3A-DA-11
   CCSS Math:
   - HSS-ID
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
+  ITEEA STEL:
+  - STEL-3
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

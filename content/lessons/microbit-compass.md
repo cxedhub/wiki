@@ -17,6 +17,10 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
 standards:
   CSTA:
   - 2-AP-10
@@ -41,6 +45,9 @@ standards:
   - MS-ESS2-2
   - MS-ETS1-1
   - MS-ETS1-2
+  ITEEA STEL:
+  - STEL-3
+  - STEL-8
 materials: Micro:bit
 tags:
 - micro:bit
@@ -49,6 +56,7 @@ standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

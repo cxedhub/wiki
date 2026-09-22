@@ -17,8 +17,17 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_concepts:
+- Technology & Society
+- Modeling & Simulation
 materials: Website, https://www.moralmachine.net/
 tags: []
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NCSS C3
+- NGSS
 standards:
   CSTA:
   - 2-AP-17
@@ -38,16 +47,14 @@ standards:
   - MS-ETS1-4
   NCSS C3:
   - D2.His.2.6-8
+  ITEEA STEL:
+  - STEL-4
+  - STEL-5
 supplements:
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Halsey_-_WySLICE_Lesson_Plan_1_-_Garrid_Halsey1.docx
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Copy_of_Halsey_-_WySLICE_Lesson_Plan_2.docx_-_Garrid_Halsey1.pdf
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Halsey_-_WySLICE_Lesson_Plan_1_-_Garrid_Halsey.docx
 - /uploads/self-driving-moral-dilemma-and-machine-learning-1/Copy_of_Halsey_-_WySLICE_Lesson_Plan_2.docx_-_Garrid_Halsey.pdf
-standard_types:
-- CSTA
-- ISTE
-- NCSS C3
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

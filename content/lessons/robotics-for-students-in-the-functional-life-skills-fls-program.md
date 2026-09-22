@@ -23,6 +23,12 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Engineering Design Process
+- Technology & Society
+- Fabrication & Making
 standards:
   CSTA:
   - 2-AP-10
@@ -47,17 +53,22 @@ standards:
   - MS-ESS1-3
   - MS-ETS1-1
   - MS-ETS1-2
+  ITEEA STEL:
+  - STEL-1
+  - STEL-4
+  - STEL-7
 materials: 'Sphero, Osmo, iPad, epic!: https://www.getepic.com/app/read/75256'
 tags:
 - Data Collection
 - Robotics
-supplements:
-- /uploads/robotics-for-students-in-the-functional-life-skills-fls-program/Copy_of_Lesson_Plan_-_Robotics_for_Students_in_the_FLS_Program_-_Devin_Hodgins.docx
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/robotics-for-students-in-the-functional-life-skills-fls-program/Copy_of_Lesson_Plan_-_Robotics_for_Students_in_the_FLS_Program_-_Devin_Hodgins.docx
 ---
 # OVERVIEW
 ## Activity Overview:  

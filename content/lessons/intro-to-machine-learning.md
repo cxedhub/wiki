@@ -18,15 +18,20 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Modeling & Simulation
 materials: Website
 tags:
 - Code.org
 - WySTACK
-supplements:
-- /uploads/intro-to-machine-learning/Evaluation_of_Project_Prototypes__-_Sammie_Smith.docx
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
+supplements:
+- /uploads/intro-to-machine-learning/Evaluation_of_Project_Prototypes__-_Sammie_Smith.docx
 standards:
   CSTA:
   - 3A-AP-13
@@ -44,6 +49,8 @@ standards:
   - ISTE-6b
   - ISTE-4a
   - ISTE-4d
+  ITEEA STEL:
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

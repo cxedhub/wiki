@@ -16,10 +16,22 @@ cs_domains:
 cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
+eng_disciplines:
+- Biomedical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
+- Troubleshooting & Failure Analysis
+- Fabrication & Making
+- Criteria, Constraints & Trade-offs
 materials: Micro:bit
 tags:
 - Code.org
 - micro:bit
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 1B-AP-08
@@ -35,9 +47,9 @@ standards:
   - ISTE-5a
   - ISTE-5c
   - ISTE-5d
-standard_types:
-- CSTA
-- ISTE
+  ITEEA STEL:
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

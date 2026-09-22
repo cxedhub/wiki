@@ -19,10 +19,20 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Modeling & Simulation
+- Technology & Society
 materials: Website, https://www.tinkercad.com
 tags:
 - Unplugged
 - WySTACK
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
 supplements:
 - /uploads/geometric-planter-find-volume/Lesson_1_pre_test_-_Yung_Richards.pdf
 - /uploads/geometric-planter-find-volume/Geometric_Planter_Lesson_2_volume_-_Yung_Richards.docx
@@ -50,10 +60,9 @@ standards:
   - ISTE-7b
   - ISTE-4a
   - ISTE-5c
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

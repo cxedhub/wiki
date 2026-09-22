@@ -18,10 +18,24 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
+eng_disciplines:
+- Electrical & Computer Engineering
+- Civil Engineering
+eng_concepts:
+- Control & Feedback
+- Sensors & Measurement
+- Technology & Society
+- Modeling & Simulation
 materials: Website, Arduino,
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 supplements:
 - /uploads/shaw-plans-for-classroom-implementation/Lesson_Plans_-_SHARI_SHAW3.docx
 - /uploads/shaw-plans-for-classroom-implementation/Lesson_Plans_-_SHARI_SHAW1.docx
@@ -51,11 +65,10 @@ standards:
   - MS-PS4-1
   - MS-PS4-2
   - MS-PS4-3
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -16,8 +16,17 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
+eng_disciplines:
+- Civil Engineering
+eng_concepts:
+- Technology & Society
 tags:
 - WySTACK
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 supplements:
 - /uploads/traffic-light-guest-speaker-2/Joslin-DeFreece_LESSON_PLAN_1_-_Jessica_DeFreece.docx
 - /uploads/traffic-light-guest-speaker-2/Joslin-DeFreece_LESSON_PLAN_2_-_Jessica_DeFreece.docx
@@ -25,10 +34,6 @@ supplements:
 - /uploads/traffic-light-guest-speaker-2/Joslin-DeFreece_Final_Report_-_Jessica_DeFreece.docx
 - /uploads/traffic-light-guest-speaker-2/Joslin-DeFreece_LESSON_PLAN_1_-_Jessica_DeFreece1.docx
 - /uploads/traffic-light-guest-speaker-2/Joslin-DeFreece_LESSON_PLAN_2_-_Jessica_DeFreece1.docx
-standard_types:
-- CSTA
-- ISTE
-- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -52,6 +57,8 @@ standards:
   - 3-5-ETS1-3
   - 4-PS4-1
   - 4-PS4-3
+  ITEEA STEL:
+  - STEL-1
 ---
 # OVERVIEW
 ## Activity Overview:  

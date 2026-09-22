@@ -15,9 +15,19 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Developing and Using Abstractions
+eng_disciplines:
+- Environmental Engineering
+eng_concepts:
+- Sensors & Measurement
 materials: Website, https://pltw.read.inkling.com/a/b/c81739657f764e5d82bdb800b594b20b/p/a6414e9e60bc4888843295ab7573b9e1https://pltw.read.inkling.com/a/b/15e3927999d548049051312d8519e56b/p/2e50ab8a10274eb89aac95408a7cece5
 tags:
 - Data Collection
+standard_types:
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-09
@@ -37,13 +47,10 @@ standards:
   - 3-5-ETS1-3
   - 3-ESS2-1
   - 3-ESS2-2
+  ITEEA STEL:
+  - STEL-8
 supplements:
 - /uploads/weather-factors-and-hazards-part-two/weather_factors_and_hazards_logbook_-_Tara_Taliaferro.docx
-standard_types:
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

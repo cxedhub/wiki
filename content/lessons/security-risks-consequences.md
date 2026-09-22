@@ -17,9 +17,16 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_concepts:
+- Technology & Society
 materials: Website
 tags:
 - Cybersecurity
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-17
@@ -42,10 +49,9 @@ standards:
   - MS-ETS1-3
   - MS-ETS1-4
   - MS-PS4-1
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

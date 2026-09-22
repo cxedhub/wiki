@@ -15,10 +15,22 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Developing and Using Abstractions
+eng_disciplines:
+- Civil Engineering
+eng_concepts:
+- Structures, Forces & Materials
+- Criteria, Constraints & Trade-offs
 materials: None
 tags:
 - Data Collection
 - Project-Based
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1A-AP-14
@@ -36,14 +48,10 @@ standards:
   - K-2-ETS1-1
   - K-2-ETS1-2
   - K-2-ETS1-3
+  ITEEA STEL:
+  - STEL-7
 supplements:
 - /uploads/creepy-carrots/Creepyy_Carrots_-_Jeanie_SANDERS.pdf
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

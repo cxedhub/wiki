@@ -20,17 +20,23 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Biomedical Engineering
+eng_concepts:
+- Sensors & Measurement
+- Technology & Society
 materials: Spreadsheet (Google Sheets) and eye tracking software (GazeSense) device with camera and internet access (chromebook) and possibly webcams if needed
 tags:
 - Data Collection
 - WySTACK
-supplements:
-- /uploads/exploring-vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_-_AUTUMN_SPIVA.pdf
-- /uploads/exploring-vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_-_AUTUMN_SPIVA.docx
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/exploring-vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_-_AUTUMN_SPIVA.pdf
+- /uploads/exploring-vr-eye-tracking-accuracy/VR_Eye_Tracking_Accuracy_Lesson_Plan_-_AUTUMN_SPIVA.docx
 standards:
   CSTA:
   - 2-CS-01
@@ -52,6 +58,9 @@ standards:
   - MS-PS3-1
   - MS-PS3-2
   - MS-PS3-5
+  ITEEA STEL:
+  - STEL-4
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

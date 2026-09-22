@@ -16,6 +16,12 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Control & Feedback
+- Circuits & Electricity
+- Troubleshooting & Failure Analysis
 materials: Arduino
 tags:
 - Project-Based
@@ -23,6 +29,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 standards:
   CSTA:
   - 1B-AP-08
@@ -40,6 +47,10 @@ standards:
   - ISTE-6b
   - ISTE-4a
   - ISTE-4d
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

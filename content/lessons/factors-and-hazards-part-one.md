@@ -16,10 +16,21 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
+eng_disciplines:
+- Environmental Engineering
+eng_concepts:
+- Sensors & Measurement
 materials: Website
 tags:
 - Data Collection
 - Web Design
+standard_types:
+- CCSS ELA
+- CCSS Math
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -42,14 +53,10 @@ standards:
   - 3-5-ETS1-3
   - 3-ESS2-1
   - 3-ESS2-2
+  ITEEA STEL:
+  - STEL-8
 supplements:
 - /uploads/factors-and-hazards-part-one/meteorologist_-_Tara_Taliaferro.jfif
-standard_types:
-- CCSS ELA
-- CCSS Math
-- CSTA
-- ISTE
-- NGSS
 ---
 # OVERVIEW
 ## Activity Overview:  

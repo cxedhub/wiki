@@ -19,6 +19,13 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
+- Engineering Design Process
+- Technology & Society
 standards:
   CSTA:
   - 2-AP-10
@@ -39,17 +46,22 @@ standards:
   - MS-ETS1-1
   - MS-ETS1-2
   - MS-ETS1-3
+  ITEEA STEL:
+  - STEL-4
+  - STEL-7
+  - STEL-8
 materials: Website, Micro:bit, legos
 tags:
 - Data Collection
 - Project-Based
 - micro:bit
-supplements:
-- /uploads/microbits-on-the-fly-with-lego-cars/Lesson_Plan-Microbits_-_Julie_Snyder.pdf
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
+supplements:
+- /uploads/microbits-on-the-fly-with-lego-cars/Lesson_Plan-Microbits_-_Julie_Snyder.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -18,6 +18,10 @@ cs_principles:
 - Fostering an Inclusive Computing Culture
 - Recognizing and Defining Computational Problems
 - Creating Computational Artifacts
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Fabrication & Making
 standards:
   CSTA:
   - 1B-AP-15
@@ -32,14 +36,18 @@ standards:
   - ISTE-5c
   CCSS Math:
   - 5.NF
+  ITEEA STEL:
+  - STEL-3
+  - STEL-7
 materials: Website, 3D Printer
 tags: []
-supplements:
-- /uploads/create-a-cookie-cutter-device-using-technology-and-3d-printing-to-understand-add/Understanding-Fractions-With-Cookie-Cutters_-_Brandi_Rodriguez.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
+supplements:
+- /uploads/create-a-cookie-cutter-device-using-technology-and-3d-printing-to-understand-add/Understanding-Fractions-With-Cookie-Cutters_-_Brandi_Rodriguez.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

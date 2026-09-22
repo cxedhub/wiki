@@ -21,16 +21,24 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Biomedical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Sensors & Measurement
+- Technology & Society
+- Systems, Inputs & Outputs
 materials: YouTube for eye tracking videos and eye tracking software (GazeSense)
 tags:
 - Data Collection
 - WySTACK
-supplements:
-- /uploads/exploring-eye-tracking-a-lesson-for-middle-school-students/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_AUTUMN_SPIVA.pdf
-- /uploads/exploring-eye-tracking-a-lesson-for-middle-school-students/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_AUTUMN_SPIVA1.pdf
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
+supplements:
+- /uploads/exploring-eye-tracking-a-lesson-for-middle-school-students/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_AUTUMN_SPIVA.pdf
+- /uploads/exploring-eye-tracking-a-lesson-for-middle-school-students/Exploring_Eye_Tracking__A_Lesson_for_Middle_School_Students_-_AUTUMN_SPIVA1.pdf
 standards:
   CSTA:
   - 2-CS-01
@@ -48,6 +56,9 @@ standards:
   - ISTE-6b
   - ISTE-7b
   - ISTE-4a
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
 ---
 # OVERVIEW
 ## Activity Overview:  

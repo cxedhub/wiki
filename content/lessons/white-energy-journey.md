@@ -18,11 +18,24 @@ cs_principles:
 - Collaborating Around Computing
 - Recognizing and Defining Computational Problems
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Electrical & Computer Engineering
+eng_concepts:
+- Engineering Design Process
+- Troubleshooting & Failure Analysis
+- Control & Feedback
+- Energy & Power
 materials: Website, LEGO League Robotics Kit
 tags:
 - Data Collection
 - Project-Based
 - Robotics
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -45,10 +58,10 @@ standards:
   - MS-ETS1-3
   - MS-ETS1-4
   - MS-PS3-1
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-4
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

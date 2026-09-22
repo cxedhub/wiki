@@ -14,6 +14,13 @@ cs_domains:
 - Networks and The Internet
 cs_principles:
 - Recognizing and Defining Computational Problems
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Modeling & Simulation
+- Systems, Inputs & Outputs
+- Engineering Design Process
+- Technology & Society
 standards:
   CSTA:
   - 3A-AP-21
@@ -28,6 +35,10 @@ standards:
   - HS-ETS1-1
   - HS-ETS1-2
   - HS-ETS1-3
+  ITEEA STEL:
+  - STEL-2
+  - STEL-4
+  - STEL-7
 materials: None, https://www.sciencebuddies.org/teacher-resources/lesson-plans/cybersecurity-denial-of-service
 tags:
 - Cybersecurity
@@ -35,6 +46,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 ## OVERVIEW

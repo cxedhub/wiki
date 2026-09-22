@@ -22,6 +22,10 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Modeling & Simulation
 standards:
   CSTA:
   - 1B-AP-08
@@ -46,6 +50,8 @@ standards:
   - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
+  ITEEA STEL:
+  - STEL-8
 materials: Website, Micro:bit
 tags:
 - micro:bit
@@ -53,6 +59,7 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW

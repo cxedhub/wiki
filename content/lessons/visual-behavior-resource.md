@@ -19,10 +19,20 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Communicating About Computing
+eng_disciplines:
+- Civil Engineering
+eng_concepts:
+- Technology & Society
 materials: Website, Arduino
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 supplements:
 - /uploads/visual-behavior-resource/Making_a_AR_book_-_Tonya_Taylor.pdf
 - /uploads/visual-behavior-resource/IMG_5640_-_Tonya_Taylor.jpg
@@ -51,11 +61,8 @@ standards:
   - 4-PS4-3
   - K-PS3-1
   - K-PS3-2
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-4
 ---
 # OVERVIEW
 ## Activity Overview:  

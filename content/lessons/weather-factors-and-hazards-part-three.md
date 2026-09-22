@@ -14,9 +14,19 @@ cs_domains:
 - Data Analysis
 cs_principles:
 - Collaborating Around Computing
+eng_disciplines:
+- Environmental Engineering
+eng_concepts:
+- Sensors & Measurement
+- Modeling & Simulation
 materials: None
 tags:
 - Data Collection
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-15
@@ -32,10 +42,8 @@ standards:
   - 3-5-ETS1-3
   - 3-LS4-1
   - 4-ESS1-1
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

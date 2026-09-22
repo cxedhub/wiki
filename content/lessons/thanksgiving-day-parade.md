@@ -20,10 +20,22 @@ cs_principles:
 - Collaborating Around Computing
 - Developing and Using Abstractions
 - Creating Computational Artifacts
+eng_disciplines:
+- Mechanical Engineering
+eng_concepts:
+- Engineering Design Process
+- Criteria, Constraints & Trade-offs
+- Structures, Forces & Materials
 materials: Sphero
 tags:
 - Project-Based
 - Robotics
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 standards:
   CSTA:
   - 1B-AP-08
@@ -45,11 +57,10 @@ standards:
   - 3-5-ETS1-1
   - 3-5-ETS1-2
   - 3-5-ETS1-3
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-2
+  - STEL-6
+  - STEL-7
 ---
 # OVERVIEW
 ## Activity Overview:  

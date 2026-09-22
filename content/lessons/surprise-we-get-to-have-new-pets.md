@@ -20,6 +20,10 @@ cs_domains:
 cs_principles:
 - Collaborating Around Computing
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Engineering Design Process
 standards:
   CSTA:
   - 1A-AP-08
@@ -49,6 +53,8 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
+  ITEEA STEL:
+  - STEL-7
 materials: micro:bit
 tags:
 - Cybersecurity
@@ -57,6 +63,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NCSS C3
 - NGSS
 - National Core Arts

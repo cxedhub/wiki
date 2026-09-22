@@ -21,6 +21,11 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Modeling & Simulation
+- Control & Feedback
 materials: Website, will require machine with high graphical and cpu resources with linux/unix capabilities, also access to github and other websites
 tags:
 - Game-Based
@@ -28,6 +33,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 standards:
   CSTA:
@@ -50,6 +56,9 @@ standards:
   - HS-ESS3-1
   - HS-ESS3-3
   - HS-ESS3-4
+  ITEEA STEL:
+  - STEL-2
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

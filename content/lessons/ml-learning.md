@@ -22,18 +22,23 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
+eng_disciplines:
+- Software Engineering
+eng_concepts:
+- Modeling & Simulation
 materials: Website, code.org
 tags:
 - Code.org
 - Robotics
 - WySTACK
-supplements:
-- /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith.pdf
-- /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith1.pdf
 standard_types:
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
+supplements:
+- /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith.pdf
+- /uploads/ml-learning/ML-Lessonplan1_-_Jesse_Smith1.pdf
 standards:
   CSTA:
   - 3A-AP-13
@@ -53,6 +58,8 @@ standards:
   - ISTE-4a
   CCSS Math:
   - HSS-ID
+  ITEEA STEL:
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

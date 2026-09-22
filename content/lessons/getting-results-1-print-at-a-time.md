@@ -21,10 +21,23 @@ cs_principles:
 - Creating Computational Artifacts
 - Testing and Refining Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Mechanical Engineering
+- Industrial & Systems Engineering
+eng_concepts:
+- Fabrication & Making
+- Criteria, Constraints & Trade-offs
+- Troubleshooting & Failure Analysis
+- Technology & Society
 materials: 'Website, Maker Station (3D printer). Google Sheets and tinkercad (https://www.tinkercad.com/) Resource websites: http://bit.ly/2Vwp4Vb, http://bit.ly/2ZDgT6M, https://bit.ly/3a27MU5'
 tags:
 - Data Collection
 - WySTACK
+standard_types:
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
 supplements:
 - /uploads/getting-results-1-print-at-a-time/3D_Design_TinkerCAD_Lesson_Plan_-_Bryce_Cushman.docx
 - /uploads/getting-results-1-print-at-a-time/UW_3D_print_research_sheet_-_Bryce_Cushman.xlsx
@@ -51,10 +64,10 @@ standards:
   - HS-ETS1-3
   - MS-ETS1-1
   - MS-ETS1-2
-standard_types:
-- CSTA
-- ISTE
-- NGSS
+  ITEEA STEL:
+  - STEL-1
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

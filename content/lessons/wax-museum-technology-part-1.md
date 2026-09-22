@@ -19,6 +19,8 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
+eng_concepts:
+- Technology & Society
 standards:
   CSTA:
   - 1B-AP-15
@@ -49,20 +51,24 @@ standards:
   - MU:Cr1
   - MU:Cr2
   - MU:Cr3
+  ITEEA STEL:
+  - STEL-4
+  - STEL-6
 materials: Website, Books, ReadWorks Articles
 tags:
 - Unplugged
-supplements:
-- /uploads/wax-museum-technology-part-1/Untitled_document_1_-_Taylor_Wailes-Putnam.pdf
-- /uploads/wax-museum-technology-part-1/Wax_Museum_Technology_Part_1_-_Taylor_Wailes-Putnam.pdf
 standard_types:
 - CCSS ELA
 - CCSS Math
 - CSTA
 - ISTE
+- ITEEA STEL
 - NCSS C3
 - NGSS
 - National Core Arts
+supplements:
+- /uploads/wax-museum-technology-part-1/Untitled_document_1_-_Taylor_Wailes-Putnam.pdf
+- /uploads/wax-museum-technology-part-1/Wax_Museum_Technology_Part_1_-_Taylor_Wailes-Putnam.pdf
 ---
 # OVERVIEW
 ## Activity Overview:  

@@ -21,10 +21,23 @@ cs_principles:
 - Developing and Using Abstractions
 - Creating Computational Artifacts
 - Communicating About Computing
+eng_disciplines:
+- Electrical & Computer Engineering
+eng_concepts:
+- Fabrication & Making
+- Systems, Inputs & Outputs
+- Modeling & Simulation
 materials: Micro:bit
 tags:
 - Data Collection
 - micro:bit
+standard_types:
+- CCSS ELA
+- CSTA
+- ISTE
+- ITEEA STEL
+- NGSS
+- National Core Arts
 standards:
   CSTA:
   - 1B-AP-08
@@ -53,12 +66,10 @@ standards:
   - VA:Cr1
   - VA:Cr2
   - VA:Cr3
-standard_types:
-- CCSS ELA
-- CSTA
-- ISTE
-- NGSS
-- National Core Arts
+  ITEEA STEL:
+  - STEL-2
+  - STEL-7
+  - STEL-8
 ---
 # OVERVIEW
 ## Activity Overview:  

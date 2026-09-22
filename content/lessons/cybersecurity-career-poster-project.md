@@ -19,6 +19,8 @@ cs_domains:
 cs_principles:
 - Fostering an Inclusive Computing Culture
 - Communicating About Computing
+eng_concepts:
+- Technology & Society
 standards:
   CSTA:
   - 2-AP-10
@@ -40,6 +42,8 @@ standards:
   - MS-ETS1-2
   - MS-ETS1-3
   - MS-ETS1-4
+  ITEEA STEL:
+  - STEL-1
 materials: None
 tags:
 - Cybersecurity
@@ -48,6 +52,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 ## OVERVIEW

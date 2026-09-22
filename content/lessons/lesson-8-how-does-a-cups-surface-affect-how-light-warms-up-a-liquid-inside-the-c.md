@@ -18,6 +18,12 @@ cs_principles:
 - Recognizing and Defining Computational Problems
 - Developing and Using Abstractions
 - Creating Computational Artifacts
+eng_disciplines:
+- Electrical & Computer Engineering
+- Materials & Chemical Engineering
+eng_concepts:
+- Sensors & Measurement
+- Modeling & Simulation
 standards:
   CSTA:
   - 2-AP-17
@@ -40,6 +46,9 @@ standards:
   - HS-PS4-1
   - HS-PS4-3
   - HS-PS4-5
+  ITEEA STEL:
+  - STEL-3
+  - STEL-8
 materials: Micro:bit
 tags:
 - Data Collection
@@ -47,6 +56,7 @@ tags:
 standard_types:
 - CSTA
 - ISTE
+- ITEEA STEL
 - NGSS
 ---
 # OVERVIEW
