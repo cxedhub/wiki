@@ -8,6 +8,10 @@
   <h1>{{ .Title }} — Cross-Disciplinary Computing Lessons</h1>
   {{- else if eq .Data.Singular "cs_domain" }}
   <h1>{{ .Title }} — Computer Science Lessons</h1>
+  {{- else if eq .Data.Singular "eng_discipline" }}
+  <h1>{{ .Title }} — Computing-Integrated Engineering Lessons</h1>
+  {{- else if eq .Data.Singular "eng_concept" }}
+  <h1>{{ .Title }} — Engineering Concept Lessons</h1>
   {{- else }}
   <h1>{{ .Title }}</h1>
   {{- end }}

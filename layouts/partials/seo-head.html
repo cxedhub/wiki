@@ -29,6 +29,10 @@
     {{- $pageTitle = printf "%s — Cross-Disciplinary Computing Lessons | %s" .Title $siteTitle -}}
   {{- else if eq .Data.Singular "cs_domain" -}}
     {{- $pageTitle = printf "%s Lessons — Computer Science | %s" .Title $siteTitle -}}
+  {{- else if eq .Data.Singular "eng_discipline" -}}
+    {{- $pageTitle = printf "%s Lessons — K-12 Engineering Integration | %s" .Title $siteTitle -}}
+  {{- else if eq .Data.Singular "eng_concept" -}}
+    {{- $pageTitle = printf "%s — Engineering Concept Lessons | %s" .Title $siteTitle -}}
   {{- else -}}
     {{- $pageTitle = printf "%s Lesson Plans | %s" .Title $siteTitle -}}
   {{- end -}}

@@ -371,6 +371,16 @@
       "VA:Re7": "Visual Arts \u2014 Perceive and analyze artistic work",
       "VA:Re8": "Visual Arts \u2014 Interpret intent and meaning in artistic work",
       "VA:Re9": "Visual Arts \u2014 Apply criteria to evaluate artistic work"
+    },
+    "ITEEA STEL": {
+      "STEL-1": "Nature and Characteristics of Technology and Engineering",
+      "STEL-2": "Core Concepts of Technology and Engineering (systems, resources, requirements, trade-offs, processes, controls, optimization)",
+      "STEL-3": "Integration of Knowledge, Technologies, and Practices",
+      "STEL-4": "Impacts of Technology",
+      "STEL-5": "Influence of Society on Technological Development",
+      "STEL-6": "History of Technology",
+      "STEL-7": "Design in Technology and Engineering Education",
+      "STEL-8": "Applying, Maintaining, and Assessing Technological Products and Systems"
     }
   },
   "framework_urls": {
@@ -380,6 +390,7 @@
     "ISTE": "https://www.iste.org/standards/iste-standards-for-students",
     "NCSS C3": "https://www.socialstudies.org/c3",
     "NGSS": "https://www.nextgenscience.org/search-standards",
-    "National Core Arts": "https://www.nationalartsstandards.org/"
+    "National Core Arts": "https://www.nationalartsstandards.org/",
+    "ITEEA STEL": "https://www.iteea.org/stel"
   }
 }

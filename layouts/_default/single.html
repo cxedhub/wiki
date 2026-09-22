@@ -33,6 +33,18 @@
       {{ range $i, $p := . }}{{ if $i }}, {{ end }}<a href="{{ "cs_principles/" | relURL }}{{ $p | urlize }}/">{{ $p }}</a>{{ end }}
     </div>
     {{ end }}
+    {{ with .Params.eng_disciplines }}
+    <div class="meta-item">
+      <strong>Engineering Discipline{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $d := . }}{{ if $i }}, {{ end }}<a href="{{ "eng_disciplines/" | relURL }}{{ $d | urlize }}/">{{ $d }}</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.eng_concepts }}
+    <div class="meta-item">
+      <strong>Engineering Concept{{ if gt (len .) 1 }}s{{ end }}:</strong>
+      {{ range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ "eng_concepts/" | relURL }}{{ $c | urlize }}/">{{ $c }}</a>{{ end }}
+    </div>
+    {{ end }}
     {{ with .Params.materials }}
     <div class="meta-item"><strong>Materials:</strong> {{ . }}</div>
     {{ end }}

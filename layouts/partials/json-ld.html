@@ -92,7 +92,7 @@
   {{- with $.Params.standards }}
   "educationalAlignment": [
     {{- $first := true -}}
-    {{- $frameworkMap := dict "csta" "CSTA" "iste" "ISTE" "ngss" "NGSS" "ccss math" "CCSS Math" "ccss ela" "CCSS ELA" "ncss c3" "NCSS C3" "national core arts" "National Core Arts" -}}
+    {{- $frameworkMap := dict "csta" "CSTA" "iste" "ISTE" "ngss" "NGSS" "ccss math" "CCSS Math" "ccss ela" "CCSS ELA" "ncss c3" "NCSS C3" "national core arts" "National Core Arts" "iteea stel" "ITEEA STEL" -}}
     {{- range $framework, $codes := . -}}
       {{- $displayFramework := $framework -}}
       {{- with index $frameworkMap $framework }}{{ $displayFramework = . }}{{ end -}}

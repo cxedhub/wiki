@@ -25,6 +25,8 @@ summaryLength = 40
   cs_domain = "cs_domains"
   cs_principle = "cs_principles"
   standard_type = "standard_types"
+  eng_concept = "eng_concepts"
+  eng_discipline = "eng_disciplines"
 
 [sitemap]
   changefreq = "monthly"
