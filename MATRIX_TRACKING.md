@@ -10,7 +10,7 @@ See [`MATRIX_PROCESS.md`](MATRIX_PROCESS.md) for how to add a new lesson.
 | Metric | Value |
 | --- | --- |
 | Lessons in matrix | **378** |
-| Standard alignments | **5,254** |
+| Standard alignments | **5,175** |
 | National frameworks | **8** |
 | Unique standard codes used | **274** |
 | Standard codes described in `data/standards.json` | **366** |
@@ -21,7 +21,7 @@ See [`MATRIX_PROCESS.md`](MATRIX_PROCESS.md) for how to add a new lesson.
 | --- | ---: | ---: | ---: | ---: |
 | CSTA | 378 | 2,348 | 62 | 75 |
 | ISTE | 376 | 1,706 | 18 | 24 |
-| NGSS | 111 | 454 | 87 | 124 |
+| NGSS | 100 | 375 | 87 | 124 |
 | CCSS ELA | 96 | 176 | 22 | 24 |
 | CCSS Math | 81 | 130 | 26 | 30 |
 | NCSS C3 | 37 | 90 | 35 | 59 |
@@ -78,3 +78,4 @@ regeneration. It edits these files and nothing else:
 | 2026-04 | Removed `build-your-own-snowman` lesson; regenerated matrix (379 → 378 lessons, 5,072 → 5,055 alignments). |
 | 2026-09 | Added the `Engineering` subject to 95 lessons via `scripts/tag_engineering.py` (author-declared Subject Area, NGSS ETS alignment, or hand-reviewed build/prototype lessons); the migration had dropped it from the `subjects` taxonomy. Regenerated matrix `const L` so the subject filter offers Engineering. |
 | 2026-09 | Added ITEEA STEL as the eighth framework and tagged 93 engineering lessons at the core-standard level (199 alignments), plus `eng_concepts` / `eng_disciplines` taxonomies on 94 lessons from the reviewed classification in `scripts/engineering_details.json`. Matrix pages, `standards-db.js` and framework counts regenerated. |
+| 2026-09 | Trimmed 79 NGSS ETS1 (engineering design) codes from 23 lessons whose bodies contain no design activity (audit finding from the STEL tagging pass); 11 of them had no other NGSS codes, so NGSS was removed from their `standards` and `standard_types`. Alignments 5,254 → 5,175. |

@@ -27,7 +27,6 @@ standard_types:
 - ISTE
 - ITEEA STEL
 - NCSS C3
-- NGSS
 standards:
   CSTA:
   - 2-AP-17
@@ -40,11 +39,6 @@ standards:
   - ISTE-5c
   - ISTE-6c
   - ISTE-6d
-  NGSS:
-  - MS-ETS1-1
-  - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
   NCSS C3:
   - D2.His.2.6-8
   ITEEA STEL:

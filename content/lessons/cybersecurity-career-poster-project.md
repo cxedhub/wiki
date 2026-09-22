@@ -37,11 +37,6 @@ standards:
   - ISTE-6d
   - ISTE-7a
   - ISTE-7b
-  NGSS:
-  - MS-ETS1-1
-  - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
   ITEEA STEL:
   - STEL-1
 materials: None
@@ -53,7 +48,6 @@ standard_types:
 - CSTA
 - ISTE
 - ITEEA STEL
-- NGSS
 ---
 ## OVERVIEW
 

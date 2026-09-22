@@ -45,11 +45,6 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-5a
-  NGSS:
-  - HS-ETS1-1
-  - HS-ETS1-2
-  - HS-ETS1-3
-  - HS-ETS1-4
   NCSS C3:
   - D2.His.2.9-12
   ITEEA STEL:
@@ -65,7 +60,6 @@ standard_types:
 - ISTE
 - ITEEA STEL
 - NCSS C3
-- NGSS
 ---
 ## OVERVIEW
 

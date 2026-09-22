@@ -40,12 +40,6 @@ standards:
   - ISTE-4c
   - ISTE-4d
   - ISTE-6b
-  NGSS:
-  - 3-5-ETS1-1
-  - 3-5-ETS1-2
-  - 3-5-ETS1-3
-  - MS-ETS1-1
-  - MS-ETS1-2
   ITEEA STEL:
   - STEL-2
 materials: Website, Micro:bit
@@ -56,7 +50,6 @@ standard_types:
 - CSTA
 - ISTE
 - ITEEA STEL
-- NGSS
 supplements:
 - /uploads/inputoutput-whats-it-all-about/Inputs_and_Outputs_I_O_-_Christy_Rodgers.pdf
 ---

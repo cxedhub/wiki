@@ -39,11 +39,6 @@ standards:
   - ISTE-5a
   CCSS ELA:
   - SL.7
-  NGSS:
-  - MS-ETS1-1
-  - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
   National Core Arts:
   - MU:Cn10
   - MU:Cn11
@@ -58,7 +53,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- NGSS
 - National Core Arts
 ---
 # OVERVIEW

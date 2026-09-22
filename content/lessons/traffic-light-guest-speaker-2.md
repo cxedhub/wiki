@@ -52,9 +52,6 @@ standards:
   - ISTE-7a
   - ISTE-2a
   NGSS:
-  - 3-5-ETS1-1
-  - 3-5-ETS1-2
-  - 3-5-ETS1-3
   - 4-PS4-1
   - 4-PS4-3
   ITEEA STEL:

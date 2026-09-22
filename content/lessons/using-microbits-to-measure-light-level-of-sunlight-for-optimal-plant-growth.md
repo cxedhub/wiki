@@ -36,7 +36,6 @@ standard_types:
 - CSTA
 - ISTE
 - ITEEA STEL
-- NGSS
 standards:
   CSTA:
   - 2-AP-10
@@ -56,11 +55,6 @@ standards:
   - SL.7
   CCSS Math:
   - 6.SP
-  NGSS:
-  - MS-ETS1-1
-  - MS-ETS1-2
-  - MS-ETS1-3
-  - MS-ETS1-4
   ITEEA STEL:
   - STEL-8
 supplements:

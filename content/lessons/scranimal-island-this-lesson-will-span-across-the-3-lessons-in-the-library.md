@@ -33,10 +33,6 @@ standards:
   CCSS ELA:
   - RL.5
   - SL.5
-  NGSS:
-  - 3-5-ETS1-1
-  - 3-5-ETS1-2
-  - 3-5-ETS1-3
   National Core Arts:
   - VA:Cr1
   - VA:Cr2
@@ -48,7 +44,6 @@ standard_types:
 - CCSS ELA
 - CSTA
 - ISTE
-- NGSS
 - National Core Arts
 ---
 # OVERVIEW

@@ -64,9 +64,6 @@ standards:
   - ISTE-7b
   - ISTE-4a
   NGSS:
-  - MS-ETS1-1
-  - MS-ETS1-2
-  - MS-ETS1-3
   - MS-PS3-1
   - MS-PS3-2
   NCSS C3:
